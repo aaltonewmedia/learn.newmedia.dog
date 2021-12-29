@@ -9,7 +9,7 @@ weight: 100
 
 ---
 
-This is an unofficial study guide to the major in New Media Design and Production (major in New Media in 2022). I used to make this as a Google Doc for the past years, but as I was building this site, I thought I should just have it here with all the other information.
+This is an unofficial study guide for the major in New Media Design and Production (major in New Media in 2022). I used to make this as a Google Doc for the past years, but as I was building this site, I thought I should just have it here with all the other information.
 
 {{< hint warning >}}
 **Please note!**  

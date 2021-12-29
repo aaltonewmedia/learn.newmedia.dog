@@ -2,7 +2,7 @@
 title: About
 description: "Course materials for courses taught by Matti Niinimäki."
 bookFlatSection: true
-weight: 500
+weight: 10
 ---
 
 # Who, Why, Where?
