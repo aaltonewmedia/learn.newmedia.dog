@@ -1,0 +1,9 @@
+{{ if isset .Params "asciinema" }}
+  <link rel="stylesheet" type="text/css" href="{{ "asciinema-player.css" | relURL }}" />
+  <script src="{{ "asciinema-player.min.js" | relURL }}"></script>
+{{ end }}
+
+{{ if isset .Params "p5js-widget" }}
+  <script src="//toolness.github.io/p5.js-widget/p5-widget.js" width="200"></script>
+{{ end }}
+

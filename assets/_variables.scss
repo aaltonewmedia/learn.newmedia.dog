@@ -1,0 +1,51 @@
+/* You can override SASS variables here. */
+
+
+/* SCSS HEX */
+$nm_light_gray: #2d2d2d;
+$nm_dark_gray: #27262b;
+$nm_offwhite: #f5efea;
+$nm_violet: #9a6c97;
+
+$hint-colors: (
+  info: #90ddca,
+  warning: #fd6,
+  danger: #f66,
+);
+
+// Themes
+@mixin theme-light {
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-500: #adb5bd;
+
+  --color-link: #daa520;
+  --color-visited-link: #daa520;
+
+  --body-background: white;
+  --body-font-color: black;
+
+  --icon-filter: none;
+
+  --hint-color-info: #90ddca;
+  --hint-color-warning: #fd6;
+  --hint-color-danger: #f66;
+}
+
+@mixin theme-dark {
+  --gray-100: rgba(255, 255, 255, 0.1);
+  --gray-200: rgba(255, 255, 255, 0.2);
+  --gray-500: rgba(255, 255, 255, 0.5);
+
+  --color-link: #daa520;
+  --color-visited-link: #daa520;
+
+  --body-background: #27262b;
+  --body-font-color: #f5efea;
+
+  --icon-filter: brightness(0) invert(1);
+
+  --hint-color-info: #90ddca;
+  --hint-color-warning: #fd6;
+  --hint-color-danger: #f66;
+}

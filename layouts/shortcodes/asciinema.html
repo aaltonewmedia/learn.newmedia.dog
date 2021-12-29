@@ -1,0 +1,9 @@
+<div id={{ .Get 1 }}></div>
+ <script>
+    AsciinemaPlayer.create( {{ .Get 0 }}, document.getElementById({{ .Get 1 }}),{
+      loop: true,
+      preload: true,
+      poster: 'npt:0:01',
+      fit: 'width',
+    });
+  </script>

@@ -1,0 +1,94 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+// @import "plugins/scrollbars";
+
+body,html {
+  height:100%;
+}
+
+.book-menu .book-menu-content{
+  background-color: $nm_dark_gray;
+  color: var(--gray-500);
+}
+
+.book-menu a, .book-menu label{
+  color: var(--color-link);
+}
+
+.book-toc .book-toc-content{
+  border-inline-start: .25rem solid var(--gray-200);
+  border-radius: 0.5rem;
+  border-color: $nm_dark_gray;
+  background-color: $nm_dark_gray;
+}
+
+.nav-footer{
+  position:absolute;
+  bottom:0;
+  padding-right: 1rem;
+  font-size: 12px;
+}
+
+.book-page{
+  background-color: $nm_light_gray;
+  height: 100%;
+  min-height: 100%;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  table-layout: fixed;
+  min-width: 100%;
+  width: 100%;
+}
+
+th, td {
+  min-width: 100px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px !important;
+  padding: 0.25rem;
+  word-wrap: break-word;
+}
+
+ /* Style the list */
+ ul.breadcrumb {
+  padding: 0 16px 0 0;
+  margin-top: 0;
+  list-style: none;
+  font-size: 12px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+
+} 
+
+// {{< hint >}}
+.markdown {
+  .book-hint {
+    @each $name, $color in $hint-colors {
+      &.#{$name} {
+        border-color: $color;
+        background-color: rgba($color, 0.1);
+      }
+    }
+  }
+}
