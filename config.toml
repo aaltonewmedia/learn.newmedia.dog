@@ -2,6 +2,7 @@ baseURL = 'https://aaltonewmedia.github.io'
 languageCode = 'en-us'
 title = 'newmedia.dog'
 theme = "hugo-book"
+publishDir = "docs"
 
 # Book theme settings
 
