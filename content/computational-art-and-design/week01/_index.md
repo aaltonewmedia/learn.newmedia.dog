@@ -27,14 +27,13 @@ Whenever you work with your own code, I recommend that you edit it in the offici
 
 On some pages I use this interactive p5js-widget that allows you to play with the code right here as you go through the examples and materials:
 
-{% include p5js-widget.html width=400 height=400 %}
+<script type="text/p5">
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(200, 100);
 }
 
 function draw() {
-  background(220);
-  circle(200, 200, 300);
+  background(255, 0, 200);
 }
 </script>
 
