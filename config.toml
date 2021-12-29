@@ -1,4 +1,4 @@
-baseURL = 'https://aaltonewmedia.github.io'
+baseURL = 'https://learn.newmedia.dog'
 languageCode = 'en-us'
 title = 'newmedia.dog'
 theme = "hugo-book"

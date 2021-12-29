@@ -3,8 +3,9 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
-body,html {
-  height:100%;
+::selection {
+  color: $nm_dark_gray;
+  background: $nm_offwhite;
 }
 
 .book-menu .book-menu-content{
@@ -19,7 +20,7 @@ body,html {
 .book-toc .book-toc-content{
   border-inline-start: .25rem solid var(--gray-200);
   border-radius: 0.5rem;
-  border-color: $nm_dark_gray;
+  border-color: $nm_yellow;
   background-color: $nm_dark_gray;
 }
 

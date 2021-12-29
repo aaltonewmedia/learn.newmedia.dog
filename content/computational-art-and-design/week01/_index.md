@@ -2,10 +2,13 @@
 title: "01 | "
 bookCollapseSection: true
 weight: 10
+url: computational-art-and-design/week-01
 p5js-widget: true
 ---
 
-# {{< param title >}}
+# 01 |
+
+---
 
 ## Learning Outcomes
 

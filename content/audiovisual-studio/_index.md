@@ -4,4 +4,6 @@ bookCollapseSection: true
 weight: 20
 ---
 
-# {{< param title >}}
+# Audiovisual Studio
+
+---

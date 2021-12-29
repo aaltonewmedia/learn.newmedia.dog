@@ -6,6 +6,8 @@ weight: 20
 
 # Computational Art and Design
 
+---
+
 ## Learning Outcomes
 
 ## Tools
