@@ -1,1 +1,1 @@
-# [aaltonewmedia.github.io](https://aaltonewmedia.github.io/)
+# [learn.newmedia.dog](https://learn.newmedia.dog)
