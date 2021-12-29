@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Glyphs";
-  src: url("/fabacademy/fonts/glyphs.woff2") format("woff2");
+  src: url("/fonts/glyphs.woff2") format("woff2");
 }
 
 .asciinema-terminal {

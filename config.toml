@@ -1,6 +1,6 @@
 baseURL = 'https://learn.newmedia.dog'
 languageCode = 'en-us'
-title = 'newmedia.dog'
+title = 'Aalto New Media'
 theme = "hugo-book"
 
 # Book theme settings
