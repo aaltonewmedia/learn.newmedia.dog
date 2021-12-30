@@ -2,6 +2,7 @@
 title: "Computational Art and Design"
 bookCollapseSection: true
 weight: 20
+p5js-widget: true
 ---
 
 # Computational Art and Design
@@ -24,18 +25,15 @@ Whenever you work with your own code, I recommend that you edit it in the offici
 - CodePen
 - [How to setup Visual Studio Code for p5.j5](https://www.youtube.com/watch?v=yJw0SyKO9IU)
 
-
-
 On some pages I use this interactive p5js-widget that allows you to play with the code right here as you go through the examples and materials:
 
-{% include p5js-widget.html width=400 height=400 %}
+<script {{< p5js width="300" height="400">}} >
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(200, 100);
 }
 
 function draw() {
-  background(220);
-  circle(200, 200, 300);
+  background(255, 0, 200);
 }
 </script>
 
