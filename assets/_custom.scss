@@ -8,6 +8,29 @@
   background: $nm_offwhite;
 }
 
+.book-menu-content, .book-toc-content, .book-page, .book-header aside, .markdown{
+  will-change: auto;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background: var(--gray-200);
+}
+
+.markdown hr, .breadcrumb hr {
+  margin: 0 -1rem 0 -1rem;
+}
+
+.markdown h2{
+  margin-left: -1rem;
+  padding-left: 1rem;
+}
+
+.markdown > :first-child {
+    margin-top: 1rem;
+}
+
 .book-menu .book-menu-content{
   background-color: $nm_dark_gray;
   color: var(--gray-500);
@@ -18,15 +41,12 @@
 }
 
 .book-toc .book-toc-content{
-  border-inline-start: .25rem solid var(--gray-200);
-  border-radius: 0.5rem;
-  border-color: $nm_yellow;
+  border-left: 0.1rem solid rgba($nm_yellow, 0.2);
+  border-radius: .5rem 0 0 .5rem;
   background-color: $nm_dark_gray;
 }
 
 .nav-footer{
-  position:absolute;
-  bottom:0;
   padding-right: 1rem;
   font-size: 12px;
 }
@@ -35,23 +55,71 @@
   background-color: $nm_light_gray;
   height: 100%;
   min-height: 100%;
+  border-left: 0.1rem solid rgba($nm_yellow, 0.2);
+  border-radius: .5rem 0 0 .5rem;
 }
 
-table {
+.markdown table {
   display: table;
-  border-collapse: separate;
-  table-layout: fixed;
-  min-width: 100%;
-  width: 100%;
+  border-collapse: collapse;
+  width: calc(100% - 1rem) !important;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  --moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+  line-height: 1;
+  overflow:visible;
+  margin: 0 auto;
 }
 
-th, td {
-  min-width: 100px;
-  overflow: hidden;
+.markdown th, tr, td {
   text-align: left;
   font-size: 12px !important;
   padding: 0.25rem;
   word-wrap: break-word;
+  border: none !important;
+}
+
+.markdown th {
+  text-transform: uppercase;
+  background: $nm_yellow;
+  color: $nm_dark_gray;
+}
+
+.markdown td {
+  width: calc(100%/6) !important;
+}
+
+.markdown tr {
+  width: 100% !important;
+  border-bottom: 0.1rem solid rgba($nm_offwhite, 0.2) !important;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+tr:last-of-type{
+  border-bottom: none !important;
+}
+
+.markdown table tr:nth-child(2n) {
+  background: none;
+}
+
+.calendar{
+  width: 100%;
+  overflow-x:scroll;
+  overflow-y:visible;
+  padding-bottom: 1rem;
 }
 
  /* Style the list */

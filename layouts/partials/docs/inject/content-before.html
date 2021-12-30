@@ -1,3 +1,4 @@
+<div class="breadcrumb">
 <ul class="breadcrumb">
   {{- $.Scratch.Set "url" "" -}}
   {{- range (split .RelPermalink "/") -}}
@@ -21,3 +22,5 @@
       {{- end -}}
   {{- end -}}
 </ul>
+<hr>
+</div>

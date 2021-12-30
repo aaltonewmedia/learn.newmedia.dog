@@ -17,7 +17,7 @@ You can be part of developing this website in the following ways:
 
 - **Found something incorrect?** Post an [issue](https://github.com/aaltonewmedia/learn.newmedia.dog/issues) on GitHub—or even better—fix it and create [a pull request](https://github.com/aaltonewmedia/learn.newmedia.dog/pulls).
 - **Does that feel too technical?** You can also just create [a discussion topic](https://github.com/aaltonewmedia/learn.newmedia.dog/discussions) and post comments and suggestions.
-- **You don't have a GitHub account** Just post something on a Telegram Group I'm part of or preferrably on the Aalto Media Lab Discord.
+- **You don't have a GitHub account?** Just post something on a Telegram Group I'm part of or preferrably on the Aalto Media Lab Discord.
 - **Still too geeky?** Just come and talk to me when you see me or send me an email.
 
 ## Acknowledgements

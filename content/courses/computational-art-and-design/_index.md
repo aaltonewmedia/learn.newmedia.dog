@@ -1,7 +1,7 @@
 ---
 title: "Computational Art and Design"
 bookCollapseSection: true
-weight: 20
+weight: 10
 p5js-widget: true
 ---
 
@@ -47,6 +47,8 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 #### Week 1
 
+<div class="calendar">
+
 | TIME | MON 28/02 | TUE 01/03 | WED 02/03 | THU 03/03 | FRI 04/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Drawing with Code](./week1/lesson1.html) | [Animating with Code](./week1/lesson2.html) |
@@ -54,7 +56,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | [Lecture: Introduction](./week1/lecture.html) |  |  |  |  |
 
+</div> 
+
 #### Week 2
+
+<div class="calendar">
 
 | TIME | MON 07/03 | TUE 08/03 | WED 09/03 | THU 10/03 | FRI 11/03/ |
 | --- | --- | --- | --- | --- | --- |
@@ -63,7 +69,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: Interactive Art |  |  |  |  |
 
+</div> 
+
 #### Week 3
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -72,7 +82,12 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: Generative Art |  |  |  |  |
 
+</div> 
+
 #### Week 4
+
+<div class="calendar">
+
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Working with Media](./week3/lesson1.html) | [Sound Visualizations](./week3/lesson2.html) |
@@ -80,7 +95,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AV Performances, VJing |  |  |  |  |
 
+</div> 
+
 #### Week 5
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -89,7 +108,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: Computational Thinking |  |  |  |  |
 
+</div> 
+
 #### Week 6
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -98,7 +121,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AI/ML & Art |  |  |  |  |
 
+</div> 
+
 #### Week 7 (Workshop Week)
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -107,9 +134,13 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
+</div> 
+
 ### Period II
 
 #### Week 8
+
+<div class="calendar">
 
 | TIME | MON 28/02 | TUE 01/03 | WED 02/03 | THU 03/03 | FRI 04/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -118,7 +149,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
+</div> 
+
 #### Week 9
+
+<div class="calendar">
 
 | TIME | MON 07/03 | TUE 08/03 | WED 09/03 | THU 10/03 | FRI 11/03/ |
 | --- | --- | --- | --- | --- | --- |
@@ -127,7 +162,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
+</div> 
+
 #### Week 10
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -136,7 +175,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
+</div> 
+
 #### Week 11
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -145,7 +188,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
+</div> 
+
 #### Week 12
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -154,7 +201,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
+</div> 
+
 #### Week 13
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -163,7 +214,11 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AI/ML & Art |  |  |  |  |
 
+</div> 
+
 #### Week 14 (Workshop Week)
+
+<div class="calendar">
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -171,3 +226,5 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
+
+</div> 

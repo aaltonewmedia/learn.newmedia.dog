@@ -1,7 +1,7 @@
 ---
 title: "Audiovisual Studio"
 bookCollapseSection: true
-weight: 20
+weight: 30
 ---
 
 # Audiovisual Studio
