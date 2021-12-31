@@ -40,16 +40,16 @@ This website will only have detailed course materials for courses where Matti Ni
 ### Compulsory studies (New Media major)
 
 - Introduction to Media Art and Culture \| 3 ECTS \| Teemu Leinonen
-- [Computational Art and Design](computational-art-and-design/_index.md) \| 6 ECTS \| Matti Niinimäki & Markku Reunanen
+- [Computational Art and Design](/courses/computational-art-and-design/_index.md) \| 6 ECTS \| Matti Niinimäki & Markku Reunanen
 - Interaction Design \| 3 ECTS \| Andres Lucero
 
 ### Alternative studies (New Media major)
 
-- [Physical Computing](physical-computing/_index.md) \| 6 ECTS \| Matti Niinimäki
+- [Physical Computing](/courses/physical-computing/_index.md) \| 6 ECTS \| Matti Niinimäki
 - Systems of Representation: Culture Lab \| 6 ECTS \| Lily Diaz-Kommonen
 - Generative and Interactive Narratives \| 6 ECTS \| Rasmus Vuori
 - Internet Technologies and Web Development \| 6 ECTS \| Markku Reunanen + external teacher
-- [Embodied Interaction](embodied-interaction/_index.md) \| 6 ECTS \| Matti Niinimäki
+- [Embodied Interaction](/courses/embodied-interaction/_index.md) \| 6 ECTS \| Matti Niinimäki
 - Digital Fabrication I \| 6 ECTS \| Krisjanis Rijnieks & Matti Niinimäki
 - Digital Fabrication II \| 6 ECTS \| Krisjanis Rijnieks & Matti Niinimäki
 - Digital Fabrication Studio \| 9 ECTS \| Krisjanis Rijnieks & Matti Niinimäki

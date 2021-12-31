@@ -1,11 +1,11 @@
 ---
-title: "01 | Introduction"
+title: "02 | If This Then That"
 bookCollapseSection: true
-weight: 10
+weight: 20
 p5js-widget: true
 ---
 
-# 01 | Introduction
+# 02 | If This Then That
 
 ---
 

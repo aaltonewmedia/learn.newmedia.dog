@@ -11,36 +11,6 @@ p5js-widget: true
 
 ## Learning Outcomes
 
-## Tools
-
-The programming language we use on this course is JavaScript. More specifically, we use a creative coding library called p5.js
-
-- [p5.js website](https://p5js.org/)
-
-
-Whenever you work with your own code, I recommend that you edit it in the official p5.js editor or setup a local testing environment for yourself using Visual Studio Code or any other text editor. These are some recommended options on how to work with your own code:
-
-- p5.js Editor
-- Open Processing
-- CodePen
-- [How to setup Visual Studio Code for p5.j5](https://www.youtube.com/watch?v=yJw0SyKO9IU)
-
-On some pages I use this interactive p5js-widget that allows you to play with the code right here as you go through the examples and materials:
-
-<script {{< p5js width="300" height="400">}} >
-function setup() {
-  createCanvas(200, 100);
-}
-
-function draw() {
-  background(255, 0, 200);
-}
-</script>
-
-The widget does not work so well for more complex programs or sketches where I want to use some other libraries. Therefore, I sometimes embed example code using Open Processing. You can edit the code with this as well.
-
-Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
-
 ## Schedule | Autumn  2022
 
 ### Period I
@@ -51,10 +21,10 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 28/02 | TUE 01/03 | WED 02/03 | THU 03/03 | FRI 04/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Drawing with Code](./week1/lesson1.html) | [Animating with Code](./week1/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Drawing with Code](./week-01/lesson-01) | [Animating with Code](./week-01/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Introduction](./week1/lecture.html) |  |  |  |  |
+| 15:15–17:00 | [Lecture: Introduction](./week-01/lecture) |  |  |  |  |
 
 </div> 
 
@@ -64,7 +34,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 07/03 | TUE 08/03 | WED 09/03 | THU 10/03 | FRI 11/03/ |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Conditional Statements](./week2/lesson1.html) | [Conditional Statements](./week2/lesson1.html) |
+| 09:15–12:00 |  |  |  | [Conditional Statements](./week-02/lesson-01) | [Conditional Statements](./week-02/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: Interactive Art |  |  |  |  |
@@ -77,7 +47,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Loops](./week3/lesson1.html) | [Arrays](./week3/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Loops](./week-03/lesson-01) | [Arrays](./week-03/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: Generative Art |  |  |  |  |
@@ -90,7 +60,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Media](./week3/lesson1.html) | [Sound Visualizations](./week3/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Working with Media](./week-04/lesson-01) | [Sound Visualizations](./week-04/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AV Performances, VJing |  |  |  |  |
@@ -103,7 +73,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Functions](./week3/lesson1.html) | [Functions](./week3/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Functions](./week-05/lesson-01) | [Functions](./week-05/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: Computational Thinking |  |  |  |  |
@@ -116,7 +86,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Objects & Classes](./week3/lesson1.html) | [Objects & Classes](./week3/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Objects & Classes](./week-06/lesson-01) | [Objects & Classes](./week-06/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AI/ML & Art |  |  |  |  |
@@ -144,7 +114,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 28/02 | TUE 01/03 | WED 02/03 | THU 03/03 | FRI 04/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Data: Reading](./week8/lesson1.html) | [Working with Data: Writing](./week8/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Working with Data: Reading](./week-08/lesson-01) | [Working with Data: Writing](./week-08/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -157,7 +127,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 07/03 | TUE 08/03 | WED 09/03 | THU 10/03 | FRI 11/03/ |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week9/lesson1.html) | [TBA](./week9/lesson1.html) |
+| 09:15–12:00 |  |  |  | [TBA](./week-09/lesson-01) | [TBA](./week-09/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -170,7 +140,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week10/lesson1.html) | [TBA](./week10/lesson2.html) |
+| 09:15–12:00 |  |  |  | [TBA](./week-10/lesson-01) | [TBA](./week-10/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -183,7 +153,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Hardware](./week11/lesson1.html) | [Machine Learning & AI](./week11/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Working with Hardware](./week-11/lesson-01) | [Machine Learning & AI](./week-11/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -196,7 +166,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week12/lesson1.html) | [TBA](./week12/lesson2.html) |
+| 09:15–12:00 |  |  |  | [TBA](./week-12/lesson-01) | [TBA](./week12/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -209,7 +179,7 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Project Work](./week13/lesson1.html) | [Project Work](./week13/lesson2.html) |
+| 09:15–12:00 |  |  |  | [Project Work](./week13/lesson-01) | [Project Work](./week13/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AI/ML & Art |  |  |  |  |

@@ -5,15 +5,15 @@
       {{- if (gt (len .) 0) -}}    
           {{- $.Scratch.Set "isPage" "false" -}}
           {{- $.Scratch.Add "url" (print "/" . ) -}}
-          {{- if $.Site.GetPage (print . ".md") -}}
-              {{- with $.Site.GetPage (print . ".md") -}}
+          {{- if $.Page.GetPage (print . ".md") -}}
+              {{- with $.Page.GetPage (print . ".md") -}}
                   {{- if .IsPage -}}
                       {{- $.Scratch.Set "isPage" "true" -}}
                   {{- end -}}
               {{- end -}}
           {{- end -}}
           {{- if eq ($.Scratch.Get "isPage") "true" -}}
-              {{- with $.Site.GetPage (print . ".md") -}}
+              {{- with $.Page.GetPage (print . ".md") -}}
                   <li><a href="{{ $.Scratch.Get `url` }}">{{ .Title }}</a></li>
               {{- end -}}
           {{- else -}}
