@@ -3,7 +3,7 @@ title: New Media Courses
 description: "Course materials for courses taught by Matti Niinimäki."
 ---
 
-# New Media Courses Materials
+# New Media Course Materials
 
 ## New Media Design and Production | MA in New Media
 

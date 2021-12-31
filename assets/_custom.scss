@@ -12,6 +12,17 @@
   will-change: auto;
 }
 
+aside nav ul a.active {
+  background: $nm_yellow;
+  color: $nm_dark_gray !important;
+}
+
+aside nav ul a:hover {
+  background: $nm_yellow;
+  color: $nm_dark_gray !important;
+  opacity: 0.8;
+}
+
 hr{
   height: 1px;
   border: none;

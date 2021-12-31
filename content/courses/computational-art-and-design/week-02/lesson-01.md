@@ -67,7 +67,7 @@ if (mouseIsPressed == true) {
 
 The simple drawing program we made during the last class can be extended by using mouseIsPressed and if.
 
-{% include p5js-widget.html width=400 height=400 %}
+{{< p5js width="300" height="400">}}
 let circleSize = 10;
 
 function setup() {
@@ -82,7 +82,7 @@ function draw() {
     circle(mouseX, mouseY, circleSize);
   }
 }
-</script>
+{{</ p5js >}}
 
 ---
 
@@ -94,7 +94,7 @@ In many cases, just using ```if``` is enough, but you will soon run into situati
 
 For example, do two different things depending on if the mouse button is pressed or not.
 
-{% include p5js-widget.html width=200 height=200 %}
+{{< p5js width="300" height="400">}}
   function setup() {
 createCanvas(200, 200);
   textAlign(CENTER);
@@ -108,11 +108,11 @@ function draw() {
     text("Mouse is NOT pressed!", 100, 100);
   }
 }
-</script>
+{{</ p5js >}}
 
 Or check which side of the screen the mouse cursor is on.
 
-{% include p5js-widget.html width=200 height=200 %}
+{{< p5js width="300" height="400">}}
 function setup() {
   createCanvas(200, 200);
   textAlign(CENTER);
@@ -126,7 +126,7 @@ function draw() {
     text("Right side", 100, 100);
   }
 }
-</script>
+{{</ p5js >}}
 
 ### Example #02 | Dividing the canvas in half
 
