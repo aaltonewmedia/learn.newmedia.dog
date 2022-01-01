@@ -39,7 +39,7 @@ When setting up your conditions for ```if``` statements, you need to compare val
 
 ## if
 
-![if statement flowchart](/images/conditional_statements_if.jpg)
+[![if statement flowchart](/images/conditional_statements_if.jpg)](/images/conditional_statements_if.jpg)
 
 A very common structure in programming is the “if this then that” structure. You ask the code ```if``` some expression is ```true```, if it is, then we execute a specific block of code.
 
@@ -88,7 +88,7 @@ function draw() {
 
 ## if/else
 
-![if and else statement flowchart](/images/conditional_statements_if-else.jpg)
+[![if and else statement flowchart](/images/conditional_statements_if-else.jpg)](/images/conditional_statements_if-else.jpg)
 
 In many cases, just using ```if``` is enough, but you will soon run into situations where it is also necessary to have two different states in your program. That is where ```else``` comes in very handy. Use ```else``` to specify a block of code to be executed if the condition in the previous ```if``` is false.
 
@@ -173,7 +173,7 @@ function draw() {
 
 ## if/else if/else
 
-![if, else if, and else statement flowchart](/images/conditional_statements_if-else_if-else.jpg)
+[![if, else if, and else statement flowchart](/images/conditional_statements_if-else_if-else.jpg)](/images/conditional_statements_if-else_if-else.jpg)
 
 ```
 if (mouseX < width/4) {

@@ -1,11 +1,11 @@
 ---
-title: "Lesson 01"
+title: "Loops"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
 ---
 
-# Week 03 | ...
+# Loops
 
 ---
 

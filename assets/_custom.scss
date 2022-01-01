@@ -3,6 +3,20 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
+
+
+.book-toc-content {
+ 
+	li a {
+		transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	}
+
+	a.visible {
+		border-left: 0.25rem solid $nm_yellow;
+    padding: 0 0 0 0.25rem;
+	}
+}
+
 ::selection {
   color: $nm_dark_gray;
   background: $nm_offwhite;
@@ -12,15 +26,30 @@
   will-change: auto;
 }
 
-aside nav ul a.active {
+aside nav li a.active {
   background: $nm_yellow;
   color: $nm_dark_gray !important;
+  border-left: 0.1rem solid $nm_yellow;
+  border-right: 0.1rem solid $nm_yellow;
+  padding-left: 0.2rem;
+}
+aside nav li a{
+  transition: all 0.3s ease-in-out;
 }
 
-aside nav ul a:hover {
+aside nav li a:hover {
   background: $nm_yellow;
   color: $nm_dark_gray !important;
-  opacity: 0.8;
+  opacity: 1;
+  border-left: 0.1rem solid $nm_yellow;
+  border-right: 0.1rem solid $nm_yellow;
+  padding-left: 0.2rem;
+}
+
+
+
+.book-section-flat {
+  margin: 1.5rem 0;
 }
 
 hr{

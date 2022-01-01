@@ -1,7 +1,6 @@
 ---
 title: "02 | If This Then That"
 bookCollapseSection: true
-weight: 20
 p5js-widget: true
 ---
 
@@ -11,7 +10,7 @@ p5js-widget: true
 
 ## Structure
 
-Each week is divided into three classes just like they are divided here on this website.
+During the first period, each week is divided into three classes just like they are divided here on this website.
 
 - **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
 - **Thursdays:** First technical lesson of the week. Focuses on the coding side.

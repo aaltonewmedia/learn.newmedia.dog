@@ -1,10 +1,10 @@
 ---
-title: "Lesson 02"
+title: "Arrays"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Week 03 | ...
+# Week 03 | Arrays
 
 ---

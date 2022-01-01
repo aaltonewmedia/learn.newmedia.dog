@@ -15,7 +15,7 @@ p5js-widget: true
 
 ### Period I
 
-#### Week 1
+#### Week 1 | Introduction
 
 <div class="calendar">
 
@@ -28,7 +28,7 @@ p5js-widget: true
 
 </div> 
 
-#### Week 2
+#### Week 2 | If This Then That
 
 <div class="calendar">
 
@@ -41,7 +41,7 @@ p5js-widget: true
 
 </div> 
 
-#### Week 3
+#### Week 3 | Loops & Arrays
 
 <div class="calendar">
 
@@ -54,7 +54,7 @@ p5js-widget: true
 
 </div> 
 
-#### Week 4
+#### Week 4 | Working with Media
 
 <div class="calendar">
 
@@ -67,7 +67,7 @@ p5js-widget: true
 
 </div> 
 
-#### Week 5
+#### Week 5 | Functions
 
 <div class="calendar">
 
@@ -80,7 +80,7 @@ p5js-widget: true
 
 </div> 
 
-#### Week 6
+#### Week 6 | Objects & Classes
 
 <div class="calendar">
 
@@ -93,7 +93,7 @@ p5js-widget: true
 
 </div> 
 
-#### Week 7 (Workshop Week)
+#### Week 7 (Workshop week)
 
 <div class="calendar">
 
@@ -114,7 +114,7 @@ p5js-widget: true
 
 | TIME | MON 28/02 | TUE 01/03 | WED 02/03 | THU 03/03 | FRI 04/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Data: Reading](./week-08/lesson-01) | [Working with Data: Writing](./week-08/lesson-02) |
+| 09:15–12:00 |  |  |  | [Noise](./week-08/lesson-01) | [sin()](./week-08/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -127,7 +127,7 @@ p5js-widget: true
 
 | TIME | MON 07/03 | TUE 08/03 | WED 09/03 | THU 10/03 | FRI 11/03/ |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week-09/lesson-01) | [TBA](./week-09/lesson-01) |
+| 09:15–12:00 |  |  |  | [Working with Data: Reading](./week-09/lesson-01) | [Working with Data: Writing](./week-09/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -140,7 +140,7 @@ p5js-widget: true
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week-10/lesson-01) | [TBA](./week-10/lesson-02) |
+| 09:15–12:00 |  |  |  | [Machine Learning: ml5js](./week-10/lesson-01) | [Machine Learning: Wekinator  \| OSC ](./week-10/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -153,7 +153,7 @@ p5js-widget: true
 
 | TIME | MON 14/03 | TUE 15/03 | WED 16/03 | THU 17/03 | FRI 18/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Hardware](./week-11/lesson-01) | [Machine Learning & AI](./week-11/lesson-02) |
+| 09:15–12:00 |  |  |  | [Working with Hardware: Mobile Devices](./week-11/lesson-01) | [Working with Hardware: Serial](./week-11/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |

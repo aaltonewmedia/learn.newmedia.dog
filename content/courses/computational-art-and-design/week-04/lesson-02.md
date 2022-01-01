@@ -1,10 +1,10 @@
 ---
-title: "Lesson 02"
+title: "Sound Visualizations"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Week 04 | ...
+# Week 04 | Sound Visualizations
 
 ---

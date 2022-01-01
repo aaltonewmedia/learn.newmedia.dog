@@ -13,14 +13,13 @@ p5js-widget: true
 
 ## Readings
 
-- [Computational Thinking: I do not think it means what you think it means](https://lorenabarba.com/blog/computational-thinking-i-do-not-think-it-means-what-you-think-it-means/)
 - [Naimark, Michael. First Word Art / Last Word Art. 2001.](http://www.naimark.net/writing/firstword.html)
 
 ## Related Artists and Designers
 
 ### [Casey Reas](https://reas.com/)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_8DMEHxOLQE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube _8DMEHxOLQE >}}
 
 ## Reflect
 

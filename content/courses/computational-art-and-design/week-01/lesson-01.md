@@ -28,7 +28,7 @@ Whenever you work with your own code, I recommend that you edit it in the offici
 
 On some pages I use this interactive p5js-widget that allows you to play with the code right here as you go through the examples and materials:
 
-{{< p5js width="300" height="400">}}
+{{< p5js width="200" height="400">}}
 function setup() {
   createCanvas(200, 100);
 }
@@ -38,6 +38,9 @@ function draw() {
 }
 {{</ p5js >}}
 
+{{< hint danger >}}
+Try editing the code above. See the **Revert** button that appears? That allows you to revert back to the original code. The widget saves your edits even if you go to a different page on the website so it might have saved something you did earlier that broke the code. Make sure to keep an eye out for that button!
+{{</ hint >}}
 
 The widget does not work so well for more complex programs or sketches where I want to use some other libraries. Therefore, I sometimes embed example code using Open Processing. You can edit the code with this as well.
 
@@ -45,6 +48,8 @@ Sometimes I also just link to the p5.js editor or embed the p5js editor itself:
 
 ## p5js Editor
 
-> Note that you can use ```windowWidth``` and ```windowHeight``` to stretch the canvas to the entire window.
+{{< hint info >}}
+Note that you can use ```windowWidth``` and ```windowHeight``` to stretch the canvas to the entire window.
+{{</ hint >}}
 
 ## Canvas
