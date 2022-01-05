@@ -12,7 +12,10 @@
 	}
 
 	a.visible {
-		border-left: 0.25rem solid $nm_yellow;
+		background: rgba($nm-accent, 0.2);
+    color: $nm_offwhite;
+		border-left: 0.25rem solid $nm-accent;
+    border-radius: 0.25rem;
     padding: 0 0 0 0.25rem;
 	}
 }
@@ -22,31 +25,30 @@
   background: $nm_offwhite;
 }
 
+// fix firefox will-change warning
 .book-menu-content, .book-toc-content, .book-page, .book-header aside, .markdown{
   will-change: auto;
 }
 
 aside nav li a.active {
-  background: $nm_yellow;
-  color: $nm_dark_gray !important;
-  border-left: 0.1rem solid $nm_yellow;
-  border-right: 0.1rem solid $nm_yellow;
-  padding-left: 0.2rem;
+  border-left: .25rem solid $nm_accent;
+  border-radius: 0.25rem;
+  background: rgba($nm-accent, 0.2);
+  color: $nm_offwhite !important;
+  padding: 0 0 0 0.25rem;
 }
 aside nav li a{
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
 }
 
 aside nav li a:hover {
-  background: $nm_yellow;
-  color: $nm_dark_gray !important;
+  background: rgba($nm-accent, 0.2);
+  color: $nm_offwhite !important;
+  border-left: 0.25rem solid $nm-accent;
+  border-radius: 0.25rem;
+  padding: 0 0 0 0.25rem;
   opacity: 1;
-  border-left: 0.1rem solid $nm_yellow;
-  border-right: 0.1rem solid $nm_yellow;
-  padding-left: 0.2rem;
 }
-
-
 
 .book-section-flat {
   margin: 1.5rem 0;

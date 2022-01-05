@@ -1,7 +1,7 @@
 ---
 title: "Embodied Interaction"
 bookCollapseSection: true
-weight: 40
+weight: 50
 ---
 
 # Embodied Interaction

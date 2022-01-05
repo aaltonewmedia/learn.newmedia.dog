@@ -15,7 +15,7 @@ enableGitInfo = true
   unsafe = true
 
 [markup.tableOfContents]
-  startLevel = 1
+  startLevel = 2
   endLevel = 4
   
 [params]

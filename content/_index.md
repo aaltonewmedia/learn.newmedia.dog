@@ -5,9 +5,11 @@ description: "Course materials for courses taught by Matti Niinimäki."
 
 # New Media Course Materials
 
+---
+
 ## New Media Design and Production | MA in New Media
 
----
+
 
 Welcome! You have found your way to a website that hosts all of the course materials for courses taught by Matti Niinimäki at Aalto University.
 

@@ -1,7 +1,7 @@
 ---
 title: "Art + Media Studio"
 bookCollapseSection: true
-weight: 50
+weight: 60
 ---
 
 # Art + Media Studio

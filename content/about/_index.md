@@ -36,9 +36,9 @@ I teach at the Master's Programme in Art & Media, major in New Media, there are 
 Send me a message via one of these options:
 
 - Email: matti (dot) niinimaki (at) aalto.fi
-- Twitter
-- Instagram
-- LinkedIn
+- [Twitter](https://twitter.com/mnstri)
+- [Instagram](https://www.instagram.com/matti_niinimaki/)
+- [LinkedIn](https://www.linkedin.com/in/mattiniinimaki/)
 
 ## Can I support you somehow?
 
