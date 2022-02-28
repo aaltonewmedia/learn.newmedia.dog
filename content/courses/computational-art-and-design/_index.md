@@ -3,6 +3,7 @@ title: "Computational Art and Design"
 bookCollapseSection: true
 weight: 10
 p5js-widget: true
+draft: true
 ---
 
 # Computational Art and Design

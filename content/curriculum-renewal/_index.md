@@ -3,6 +3,7 @@ title: Curriculum Renewal
 description: "MA programme in Art & Media, major in New Media"
 bookFlatSection: true
 weight: 400
+draft: true
 ---
 
 # Curriculum Renewal 2022
