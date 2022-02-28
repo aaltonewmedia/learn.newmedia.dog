@@ -34,7 +34,7 @@ weight: 40
 
 | TIME | MON 14.03. | TUE 15.03. | WED 16.03. | THU 17.03. | FRI 18.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  | AV Studio: John Whitney, Scanimate | AV Studio: Delia Derbyshire, Daphne Oram | [EI: Posenet, Face Tracking](/courses/embodied-interaction/week-03/lesson-01) | [EI: Hand tracking, Project Proposal](/courses/embodied-interaction/week-03/lesson-02) |
+| 09:15–12:00 | | **Matti is in admissions interviews:** AV Studio: Delia Derbyshire, Daphne Oram  | AV Studio: John Whitney, Scanimate | **Matti is in admissions interviews:** | [EI: Posenet, Face Tracking, Hand tracking, Project Proposal](/courses/embodied-interaction/week-03/) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
