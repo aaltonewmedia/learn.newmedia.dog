@@ -12,7 +12,7 @@ Here are some of the works from the 2021 class:
 
 [Anze #2](https://aaltofi-my.sharepoint.com/:v:/g/personal/matti_niinimaki_aalto_fi/EXcFEhrQw3VFiGt80NK-5wsBy_lNqmShj8uMR8xKRBB-vg?e=20KTnR)
 
-[Aurora](https://aaltofi-my.sharepoint.com/:v:/g/personal/matti_niinimaki_aalto_fi/EaNxqfiV2HZPq9EzrtuDE5UBTMHUtJPiiv_4oF8XdxLklw?e=A7Tf80)
+[Aurora](https://aaltofi-my.sharepoint.com/:v:/g/personal/matti_niinimaki_aalto_fi/EaNxqfiV2HZPq9EzrtuDE5UBShrOLIufwm_Vzyyar-FFLA?e=ZdxneU)
 
 [Eero](https://aaltofi-my.sharepoint.com/:v:/g/personal/matti_niinimaki_aalto_fi/EVOoY25uqAtCtXuJPsXPBngBd5cpbb71YvaMs2FyPh8lxw?e=6PoN9E)
 
