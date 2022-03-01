@@ -58,7 +58,7 @@ This course is pass/fail, but you need to do the following to successfully pass 
 
 | TIME | MON 28.02. | TUE 01.03. | WED 02.03. | THU 03.03. | FRI 04.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  | AV Studio: Introduction, Media Archaeology, Phantasmagoria and Magic Lanterns, TouchDesigner basics | AV Studio: TouchDesigner basics | [EI: A Brief History of Interactive Systems and HCI](/courses/embodied-interaction/week-01/lesson-01) | [EI: Embodied Interaction, Assignment #1](/courses/embodied-interaction/week-01/lesson-01) |
+| 09:15–12:00 |  | AV Studio: Introduction, Touchdesigner Basics | AV Studio: Media Archaeology, Phantasmagoria and Magic Lanterns, TouchDesigner basics | [EI: A Brief History of Interactive Systems and HCI](/courses/embodied-interaction/week-01/lesson-01) | [EI: Embodied Interaction, Assignment #1](/courses/embodied-interaction/week-01/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
