@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 bookCollapseSection: false
-weight: 10
+weight: 70
 ---
 
 ## Books, articles, texts
