@@ -66,7 +66,7 @@ Here you can find more details about the mechanical magic lantern slides:
 - [https://www.luikerwaal.com/newframe_uk.htm?/chromatroop1_uk.htm](https://www.luikerwaal.com/newframe_uk.htm?/chromatroop1_uk.htm)
 
 
-### Tools and Techniques
+### Chromatrope in TouchDesigner
 
 Let’s create a Chromatrope using TouchDesigner and some scanned Magic Lantern Slides.
 
@@ -76,19 +76,19 @@ Let’s create a Chromatrope using TouchDesigner and some scanned Magic Lantern 
 
 This is a collection of videos that covers the full process of Making the Chromatrope example. We will probably not have time to finish the entire thing during the class so you will need to complete it on your own time.
 
-### Chromatrope (Part 1): Our first project
+#### Chromatrope (Part 1): Our first project
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9543e48c-77b1-41b2-b9b8-acdf013db43b&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
 
-### Chromatrope (Part 2): Adding keyboard interaction
+#### Chromatrope (Part 2): Adding keyboard interaction
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ced489be-9903-46ba-b877-acdf0159bdd9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
 
-### Chromatrope (Part 3): Adding audio reactivity
+#### Chromatrope (Part 3): Adding audio reactivity
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f5740dd-21ec-4bc9-8120-acdf0187bfc9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
 
-### TouchDesigner Files
+#### TouchDesigner Files
 
 - You can download the finished file from here:
 - 
