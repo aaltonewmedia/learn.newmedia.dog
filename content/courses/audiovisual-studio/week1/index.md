@@ -4,7 +4,7 @@ bookCollapseSection: false
 weight: 10
 ---
 
-# Introduction
+# Tuesday, March 1, 2022
 
 See the [course home page](../) for the basic information of the course.
 
@@ -26,6 +26,8 @@ https://learn.newmedia.dog/courses/audiovisual-studio/tutorials/
 That same page has also some external resources (YouTube tutorials etc.). The internet has really good resources for TouchDesigner, please use them.
 
 ---
+
+# Wednesday, March 2, 2022
 
 ## Magic Lanterns
 
