@@ -12,7 +12,7 @@ The final outcomes of this course will be shown as a joint exhibition/event with
 
 You will present your work in one of the following ways:
 
-1) A livestreamed video work (either real-time or pre-rendered/pre-recorded) on Twitch. The stream starts 18:00 on April 8, 2022.
+1) A livestreamed video work (either real-time or pre-rendered/pre-recorded) on Twitch. The stream starts 18:00 on April 8, 2022. This might happen also at some physical venue, depending on what Matti is able to put together.
 2) A work shown at the joint exhibition of AV Studio and Embodied Interaction courses. The exhibition will be in rooms G203, G204 and O102. The exhibition opens on April 8, 2022. Your work can be an installation or a video work.
 
 There are also other ways and opportunities for you to show your work. Please consider the following.
@@ -39,7 +39,7 @@ The Spring 2022 Demo Day is going to be organized on June 1st, the venue is not 
 
 The students are also planning the next Ääniaalto festival and Flux Island exhibition. It's going to happen in September at Vuotalo in Vuosaari, Helsinki.
 
-## Extra: Nordic Lights
+### Extra: Nordic Lights
 
 - [Nordic Lights Open Call](https://nordiclights.live/)
 
