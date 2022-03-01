@@ -4,20 +4,25 @@ bookCollapseSection: false
 weight: 10
 ---
 
-# Tuesday, March 1, 2022
+## Tuesday, March 1, 2022
 
 See the [course home page](../) for the basic information of the course.
 
-## Homework from the first class
+### Homework from the first class
 
-Introduction by Matti: https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3
+#### TouchDesigner Interface
 
-Please note, I'm going to assume that you have watched this before tomorrow, so I will not go through these things in detail. I will only do a short recap and answer any questions you might have.
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
 
-Introduction by Ben Voigt (this is a very long video, so you probably don't have time to watch all of it, but watch as much you can or as much as you can handle:
+**Please note, I'm going to assume that you have watched this before tomorrow, so I will not go through these things in detail. I will only do a short recap and answer any questions you might have.**
 
-https://www.youtube.com/watch?v=wmM1lCWtn6o
-Extra
+#### Introduction by Ben Voigt 
+
+This is a very long video, so you probably don't have time to watch all of it, but watch as much you can or as much as you can handle:
+
+{{<youtube wmM1lCWtn6o>}}
+
+#### Extra
 
 If you get really excited, you can already start building the project we are going to make as our first real project (Chromatrope):
 
@@ -27,9 +32,9 @@ That same page has also some external resources (YouTube tutorials etc.). The in
 
 ---
 
-# Wednesday, March 2, 2022
+## Wednesday, March 2, 2022
 
-## Magic Lanterns
+### Magic Lanterns
 
 ![Magic Lanternist](img/848px-Etudes_prises_dans_le_bas_peuple_ou_les_Cris_de_Paris_-_Lorgue_de_Barberie.jpg)
 1737 etching/engraving of an organ grinder with a magic lantern on her back by [Anne Claude de Caylus](https://en.wikipedia.org/wiki/Anne_Claude_de_Caylus) (after Edme Bouchardon) [Wikipedia](https://en.wikipedia.org/wiki/Magic_lantern#/media/File:%C3%89tudes_prises_dans_le_bas_peuple_ou_les_Cris_de_Paris_-_Lorgue_de_Barberie.jpg)
@@ -61,24 +66,20 @@ Here you can find more details about the mechanical magic lantern slides:
 - [https://www.luikerwaal.com/newframe_uk.htm?/chromatroop1_uk.htm](https://www.luikerwaal.com/newframe_uk.htm?/chromatroop1_uk.htm)
 
 
-## Tools and Techniques
+### Tools and Techniques
 
 Watch the following videos. The first two are basically a recap of what we did in class. Follow along if you are able to install TouchDesigner on your own computer, or if you connect remotely to the Aalto computers, or if you book some of the afternoon times to work in G203.
 
 We are going to repeat many of these concepts later on, but it's really important that you grasp the basic operation of TouchDesigner as soon as possible. Come back to these videos anytime you need to.
 
-## TouchDesigner Interface
+### Chromatrope (Part 1): Our first project
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
 
-## Chromatrope (Part 1): Our first project
-
-<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
-
-## Chromatrope (Part 2): Adding keyboard interaction
+### Chromatrope (Part 2): Adding keyboard interaction
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ced489be-9903-46ba-b877-acdf0159bdd9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
 
-## Chromatrope (Part 3): Adding audio reactivity
+### Chromatrope (Part 3): Adding audio reactivity
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f5740dd-21ec-4bc9-8120-acdf0187bfc9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
