@@ -71,4 +71,5 @@ These examples show you how to work with the Kinect Azure and blob tracking. Thi
 - [Matthew Ragan](https://www.youtube.com/channel/UCKAAKTI2xLNNBJRkdf8E58A)
 - [Tokyo Developers Study Weekend](https://www.youtube.com/c/TDSW-online/about)
 - [alltd](https://alltd.org/) - a site that pulls all TD tutorials from YouTube on one site
+- [Noto the Talking Ball](https://www.youtube.com/c/NotoTheTalkingBall/videos)
 - [TouchDesigner Book](https://nvoid.github.io/) - If you prefer to read text instead of watching videos
