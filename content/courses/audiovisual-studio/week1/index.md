@@ -8,6 +8,25 @@ weight: 10
 
 See the [course home page](../) for the basic information of the course.
 
+## Homework from the first class
+
+Introduction by Matti: https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3
+
+Please note, I'm going to assume that you have watched this before tomorrow, so I will not go through these things in detail. I will only do a short recap and answer any questions you might have.
+
+Introduction by Ben Voigt (this is a very long video, so you probably don't have time to watch all of it, but watch as much you can or as much as you can handle:
+
+https://www.youtube.com/watch?v=wmM1lCWtn6o
+Extra
+
+If you get really excited, you can already start building the project we are going to make as our first real project (Chromatrope):
+
+https://learn.newmedia.dog/courses/audiovisual-studio/tutorials/
+
+That same page has also some external resources (YouTube tutorials etc.). The internet has really good resources for TouchDesigner, please use them.
+
+---
+
 ## Magic Lanterns
 
 ![Magic Lanternist](img/848px-Etudes_prises_dans_le_bas_peuple_ou_les_Cris_de_Paris_-_Lorgue_de_Barberie.jpg)
