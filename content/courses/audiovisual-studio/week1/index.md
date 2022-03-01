@@ -38,3 +38,26 @@ Here you can find more details about the mechanical magic lantern slides:
 
 - [https://www.luikerwaal.com/newframe_uk.htm?/bewegend1_uk.htm](https://www.luikerwaal.com/newframe_uk.htm?/bewegend1_uk.htm)
 - [https://www.luikerwaal.com/newframe_uk.htm?/chromatroop1_uk.htm](https://www.luikerwaal.com/newframe_uk.htm?/chromatroop1_uk.htm)
+
+
+## Tools and Techniques
+
+Watch the following videos. The first two are basically a recap of what we did in class. Follow along if you are able to install TouchDesigner on your own computer, or if you connect remotely to the Aalto computers, or if you book some of the afternoon times to work in G203.
+
+We are going to repeat many of these concepts later on, but it's really important that you grasp the basic operation of TouchDesigner as soon as possible. Come back to these videos anytime you need to.
+
+## TouchDesigner Interface
+
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
+
+## Chromatrope (Part 1): Our first project
+
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
+
+## Chromatrope (Part 2): Adding keyboard interaction
+
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ced489be-9903-46ba-b877-acdf0159bdd9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
+
+## Chromatrope (Part 3): Adding audio reactivity
+
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f5740dd-21ec-4bc9-8120-acdf0187bfc9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="720" height="405"></iframe>
