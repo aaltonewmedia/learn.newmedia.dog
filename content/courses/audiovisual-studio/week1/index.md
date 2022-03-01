@@ -68,9 +68,13 @@ Here you can find more details about the mechanical magic lantern slides:
 
 ### Tools and Techniques
 
-Watch the following videos. The first two are basically a recap of what we did in class. Follow along if you are able to install TouchDesigner on your own computer, or if you connect remotely to the Aalto computers, or if you book some of the afternoon times to work in G203.
+Let’s create a Chromatrope using TouchDesigner and some scanned Magic Lantern Slides.
 
-We are going to repeat many of these concepts later on, but it's really important that you grasp the basic operation of TouchDesigner as soon as possible. Come back to these videos anytime you need to.
+- Download some images of slides from here:http://lucerna.exeter.ac.uk/set/index.php?language=EN&id=3009241
+- Create a system in TouchDesigner where we can composite different layers together, change the speed of the rotation, switch between different images.
+- Experiment with adding more features.
+
+This is a collection of videos that covers the full process of Making the Chromatrope example. We will probably not have time to finish the entire thing during the class so you will need to complete it on your own time.
 
 ### Chromatrope (Part 1): Our first project
 
@@ -83,3 +87,8 @@ We are going to repeat many of these concepts later on, but it's really importan
 ### Chromatrope (Part 3): Adding audio reactivity
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f5740dd-21ec-4bc9-8120-acdf0187bfc9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
+
+### TouchDesigner Files
+
+- You can download the finished file from here:
+- 
