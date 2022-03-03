@@ -15,7 +15,6 @@ Think about the **gestures that you use everyday in your life.** What are some o
 - Come up with a new gestural interface for some kind of interactive system or experience that uses this gesture.
 - It can be an interactive artwork, tool, controller, instrument, object, game etc.
 - Don’t think about what is possible technically. You can pretend that it is possible and just works.
-- You will be working on this March 8th and 9th. Matti is not going to be at school so work remotely with your group. Note that the dates are switched with AV Studio.
 - You need to present your interface to the rest of the class. Try to create a mock-up of the interface in any way you can think of.
 - For example, the other person is the computer/device the other is the user, act it out, fake it, use props, whatever.
 - You can also record this as a video if you want.
