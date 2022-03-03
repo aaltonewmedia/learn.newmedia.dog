@@ -22,7 +22,7 @@ weight: 999
 
 {{<vimeo 541339202>}}
 
-### Eerika Jalasaho - Skinner
+### Eerika Jalasaho - Skinner 
 
 {{<video  src="video/skinner_video.mp4">}}
 
@@ -80,15 +80,29 @@ weight: 999
 
 ## 2016
 
+### Narim Lee - Move or Die
+
 {{<vimeo 146807933>}}
 
 {{<vimeo 156823553>}}
 
+- Narim Lee, concept, coding and installation
+- Sanna Reponen, production, project management
+- Laura Uusitalo, graphics, animation
+- Joonas Pernilä, sound design
+- Chen Ling, coding
+
 ## 2015
+
+### Fernando Visockis - Ramshackle Dystonia
 
 {{<vimeo 121724892>}}
 
+### Andre Vicentini & Fernando Visockis  - Conducting Senses
+
 {{<vimeo 142972453>}}
+
+### Victor Pardinho - Neanderthalensis
 
 {{<vimeo 166700558>}}
 
