@@ -12,11 +12,13 @@ weight: 10
 
 [See the home page of the course for basic information of the course.](../)
 
-## A Brief History of Human-Computer Interaction
-
 ## Examples from previous years
 
-Go here to see some examples from previous years
+[Go here to see some examples from previous years](../showcase/)
+
+## A Brief History of Human-Computer Interaction
+
+Presentation file coming soon: 
 
 ## Homework
 
@@ -50,6 +52,11 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 ###
 
 ### Readings
+
+These readings will hopefully help you with your assignment:
+
+- Bret Victor – A brief Rant on the Future of Interaction Design
+- Responses and Follow-Ups to the Text Above
 
 ### Assignment #01
 
