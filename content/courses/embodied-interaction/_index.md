@@ -35,6 +35,49 @@ On successful completion of this course, students will be able to:
 - Aalto Fab Lab is available for you to use.
 - Book the the Open photostudio whenever you need to use it.
 
+## Deliverables & Evaluation
+
+### Deliverables
+
+You have to do the following to complete this course:
+
+- Actively attend the classes, show up, don't be late, participate, help others. (If the topic of a specific class is already familiar to you, use your time working on your project or in some other constructive way.)
+- Complete the [gesture assignment](./gesture-assignment/)
+- Complete a final project
+- Deliver a documentation video and write-up of your final project
+
+You have two options for the final project of this course:
+
+- An audiovisual performance done either individually or in a group of 2-3 students. This performance will be livestreamed on Friday, April 8. More details soon. **This is specifically for the people also taking Audiovisual Studio.**
+- Creating an artwork/artifact/experience for the combined exhibition of Audiovisual Studio and Embodied Interaction courses. The project for the exhibition can also be done either individually or in a group of 2-3 students. The work should be ready by April 8, 15:00. More details on the exhibition will be added here as things are confirmed.
+
+### Evaluation
+
+This course is evaluated 0-5
+
+- 5: Excellent
+- 4: Very Good
+- 3: Good
+- 2: Satisfactory
+- 1: Poor
+- 0: Fail
+
+You will be graded based on the following criteria
+
+- Active attendance to classes and discussions (25% of the grade).
+    - Minimum 80% attendance (being sick or other emergency is a valid reason to not to be present)
+    - Your attitude and activeness in class
+- The final project (50% of the grade). You will be evaluated based on:
+    - Aesthetic quality of the work
+    - Novelty and creativity of the concept
+    - Critical approach to the topic
+    - Command of the technology
+    - Attention to detail
+- Documentation of the final project (25% of the grade). You will evaluated based on:
+    -   Critical reflection on your own work
+    - Quality of the audiovisual documentation
+    - The amount of detail and depth in the documentation
+
 ---
 
 ## Schedule | Spring 2022

@@ -70,7 +70,7 @@ Here you can find more details about the mechanical magic lantern slides:
 
 Let’s create a Chromatrope using TouchDesigner and some scanned Magic Lantern Slides.
 
-- Download some images of slides from here:http://lucerna.exeter.ac.uk/set/index.php?language=EN&id=3009241
+- Download some images of slides from here: [http://lucerna.exeter.ac.uk/set/index.php?language=EN&id=3009241](http://lucerna.exeter.ac.uk/set/index.php?language=EN&id=3009241)
 - Create a system in TouchDesigner where we can composite different layers together, change the speed of the rotation, switch between different images.
 - Experiment with adding more features.
 
