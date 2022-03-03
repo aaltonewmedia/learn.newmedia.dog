@@ -22,6 +22,8 @@ weight: 999
 
 {{<vimeo 541339202>}}
 
+### Eerika Jalasaho - Skinner
+
 {{<video  src="video/skinner_video.mp4">}}
 
 ## 2020
