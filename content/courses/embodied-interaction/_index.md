@@ -8,6 +8,35 @@ weight: 50
 
 ---
 
+## Content
+
+The course presents embodied interaction through lectures, technical demonstrations, and discussions on various related topics. The focus is on creating experimental interactive systems for interactive installations and performances.
+
+The students will explore the topic through readings, small assignments, and a final project presented at the end of the course.
+
+## Learning Outcomes
+
+On successful completion of this course, students will be able to:
+
+- Develop embodied interactive systems using various techniques and tools, such as gesture recognition, computer-vision tools and biometric sensors.
+- Identify and explain the roles of the body, space, and social interaction in designing interactive experiences.
+- Apply the notion of proxemics to their creative practice.
+- Identify and apply theoretical frameworks for embodied interaction
+- Outline and explain historical and contemporary examples of embodied interaction in the context of interactive art and HCI research.
+
+## Spaces, Studios and Workshops
+
+- The classes always start in room L208, we will also do some experiments in room G203 (Experimental Studio) each lecture.
+- Throughout the entire period, room G203 is booked for us for working. There will be some Desktop PCs with Touchdesigner installed, projectors, and other equipment for you to use.
+- The Media Lab Home Base room O102 is also equipped with a projector, two powerful computers with TouchDesigner installed, surround sound and other equipment. Use that room also for working independently.
+- If needed, I can book the room R106 for independent work for you. It has HTC Vive Pro, two projectors, DMX lights, and a powerful computer with TD installed.
+- Use mfavdi.aalto.fi to remotely access the L208 computers with TouchDesigner
+- Mechatronics (G014) is available for you to use
+- Aalto Fab Lab is available for you to use.
+- Book the the Open photostudio whenever you need to use it.
+
+---
+
 ## Schedule | Spring 2022
 
 ### Period IV
@@ -16,7 +45,7 @@ weight: 50
 
 | TIME | MON 28.02. | TUE 01.03. | WED 02.03. | THU 03.03. | FRI 04.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  | AV Studio: Introduction, Media Archaeology, Phantasmagoria and Magic Lanterns, TouchDesigner basics | AV Studio: TouchDesigner basics | [EI: A Brief History of Interactive Systems and HCI](/courses/embodied-interaction/week-01/lesson-01) | [EI: Embodied Interaction, Assignment #1](/courses/embodied-interaction/week-01/lesson-01) |
+| 09:15–12:00 |  | AV Studio: Introduction, Touchdesigner Basics | AV Studio: Media Archaeology, Phantasmagoria and Magic Lanterns, TouchDesigner basics | [EI: A Brief History of Interactive Systems and HCI](/courses/embodied-interaction/week-01/lesson-01) | [EI: Proxemics, Embodied Interaction, Assignment #1](/courses/embodied-interaction/week-01/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -34,7 +63,7 @@ weight: 50
 
 | TIME | MON 14.03. | TUE 15.03. | WED 16.03. | THU 17.03. | FRI 18.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  | AV Studio: John Whitney, Scanimate | AV Studio: Delia Derbyshire, Daphne Oram | [EI: Posenet, Face Tracking](/courses/embodied-interaction/week-03/lesson-01) | [EI: Hand tracking, Project Proposal](/courses/embodied-interaction/week-03/lesson-02) |
+| 09:15–12:00 | | **Matti is in admissions interviews:** AV Studio: Delia Derbyshire, Daphne Oram  | AV Studio: John Whitney, Scanimate | **Matti is in admissions interviews:** | [EI: Posenet, Face Tracking, Hand tracking, Project Proposal](/courses/embodied-interaction/week-03/) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
