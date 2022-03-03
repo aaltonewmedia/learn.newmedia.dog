@@ -47,13 +47,11 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 
 ## Homework
 
-### TouchDesigner Basics
-
-**Those of you who are not taking Audiovisual Studio**, get familiar with TouchDesigner, we are going to use that as our tool for exploring many of the technologies. I will generally also provide code examples and other materials for other programming environments and languages, but the main tool we are going to use is TouchDesigner
+###
 
 ### Readings
 
 ### Assignment #01
 
-[See the guidelines for 1st assignment](../1st-assignment/). You need to present this on **March 11, 2022.**
+[See the guidelines for the gesture assignment](../gesture-assignment/). You need to present this on **March 11, 2022.**
 
