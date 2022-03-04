@@ -40,10 +40,29 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 
 ---
 
-## Proxemics
+## Books
+
+The lecture today is based on the following books:
+
+- Dourish, Paul. [Where the Action Is](https://mitpress.mit.edu/books/where-action)
+- Hall, Edward, T. [The Hidden Dimension](https://archive.org/details/hiddendimensionhall00hall)
 
 ## Embodied Interaction
 
+## Proxemics and Proxemic Interaction
+
+A field of study that deals with how people use space
+
+- [Proxemic Interactions](https://interactions.acm.org/archive/view/january-february-2011/proxemic-interactions1)
+- [Proxemic Interactions: From Theory to Practice](https://www.morganclaypool.com/doi/abs/10.2200/S00619ED1V01Y201502HCI025)
+- https://interactions.acm.org/archive/view/january-february-2011/proxemic-interactions1
+- [Dark patterns in proxemic interactions: a critical perspective](https://dl.acm.org/doi/abs/10.1145/2598510.2598541)
+
+### Pandemic?
+
+How has the pandemic affected our ideas of personal space and proxemics?
+
+- [Pandemic Proxemics: Is Six Feet Enough? ](https://www.psychologytoday.com/us/blog/between-the-lines/202004/pandemic-proxemics-is-six-feet-enough)
 
 ---
 
@@ -55,8 +74,17 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 
 These readings will hopefully help you with your assignment:
 
-- Bret Victor – A brief Rant on the Future of Interaction Design
-- Responses and Follow-Ups to the Text Above
+- [Bret Victor – A brief Rant on the Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)
+- [Responses and Follow-Ups to the Text Above](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/responses.html)
+- [Gestural Interfaces: A Step Backwards In Usability](https://jnd.org/gestural_interfaces_a_step_backwards_in_usability_6/)
+
+### Videos
+
+These might also be helpful to think about the basics of gestural interfaces and the problems and possibilities of affordances, signifiers, discoverability, and feedback.
+
+{{<youtube JFirvnAVmtc>}}
+
+{{<youtube bgEJPf5PN4w>}}
 
 ### Assignment #01
 
