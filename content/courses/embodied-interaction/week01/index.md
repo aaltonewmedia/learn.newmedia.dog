@@ -40,6 +40,24 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 
 ---
 
+## Inspiration
+
+{{<youtube 6btFObRRD9k>}}
+
+{{<youtube 7oeEQhOmGpg>}}
+
+[Imogen Heap: MiMU Gloves](https://mimugloves.com/)
+
+## Embodied Interaction
+
+![Where the Action Is](img/dourish.jpg)
+
+- Dourish, Paul. [Where the Action Is](https://mitpress.mit.edu/books/where-action)
+
+## Affordances
+
+[What are Affordances?](https://www.interaction-design.org/literature/topics/affordances)
+
 ## Proxemics and Proxemic Interaction
 
 A field of study that deals with how people use and arrange space around them, and what type of interactions and disctances are comfortable depending on the context.
