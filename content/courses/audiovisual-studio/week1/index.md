@@ -4,11 +4,17 @@ bookCollapseSection: false
 weight: 10
 ---
 
+# Week 01 | Introduction
+
+---
+
 ## Tuesday, March 1, 2022
 
 See the [course home page](../) for the basic information of the course.
 
 ### Homework from the first class
+
+Watch these videos:
 
 #### TouchDesigner Interface
 
@@ -88,7 +94,6 @@ This is a collection of videos that covers the full process of Making the Chroma
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3f5740dd-21ec-4bc9-8120-acdf0187bfc9&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
 
-#### TouchDesigner Files
+#### Download
 
-- You can download the finished file from here:
-- 
+- [Download the Chromatrope project files](files/001_Chromatrope.zip)
