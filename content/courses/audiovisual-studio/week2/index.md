@@ -31,6 +31,10 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 
 {{<youtube yIR3pCgqb5o>}}
 
+#### Oskar Fischinger - An Optical Poem (1938)
+
+{{<youtube 6Xc4g00FFLk>}}
+
 ### Learn More
 
 - [Audiovisual Breakthrough Book](http://ephemeral-expanded.net/audiovisualbreakthrough/)
