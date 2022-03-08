@@ -16,6 +16,9 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 
 ### Avant-Garde Animation & Visual Music
 
+>Visual music, sometimes called colour music, refers to the creation of a visual analogue to musical form by adapting musical structures for visual composition, which can also include silent films or silent Lumia work. It also refers to methods or devices which can translate sounds or music into a related visual presentation. An expanded definition may include the translation of music to painting; this was the original definition of the term, as coined by Roger Fry in 1912 to describe the work of Wassily Kandinsky. There are a variety of definitions of visual music, particularly as the field continues to expand. In some recent writing, usually in the fine art world, visual music is often confused with or defined as synaesthesia, though historically this has never been a definition of visual music. Visual music has also been defined as a form of intermedia. 
+-- [Wikipedia: Visual Music](https://en.wikipedia.org/wiki/Visual_music)
+
 #### Hans Richter - Rhytmus 21 (1921)
 
 {{<youtube 239pHUy0FGc>}}
