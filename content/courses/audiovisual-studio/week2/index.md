@@ -23,6 +23,8 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 
 {{<youtube 239pHUy0FGc>}}
 
+<iframe width='100%' height='600' src='https://libproxy.aalto.fi/login?url=https://www.artfilms-digital.com/Embed.aspx?ItemID=7511' frameborder='' allowfullscreen>/</iframe>
+
 #### Evgeny Sholpo - The Variophone (1930)
 
 {{<youtube 4r4WqAf-X8Y>}}
@@ -44,8 +46,6 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 #### Oskar Fischinger - An Optical Poem (1938)
 
 {{<youtube 6Xc4g00FFLk>}}
-
-<iframe width='100%' height='600' src='https://libproxy.aalto.fi/login?url=https://www.artfilms-digital.com/Embed.aspx?ItemID=7511' frameborder='' allowfullscreen>/</iframe>
 
 ### Learn More
 
