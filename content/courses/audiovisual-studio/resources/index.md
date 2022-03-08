@@ -21,3 +21,10 @@ weight: 70
 - [Vasulka Archive](http://vasulka.org/archive/sitemap.html)
 - [Archive.org](https://archive.org/)
 
+## Documentaries
+
+- [Hans Richter - On Film and Early Works](https://www-artfilms-digital-com.libproxy.aalto.fi/item/hans-richter-on-film-and-early-works/7511)
+- [Pip Chodorov – Free Radicals: A History of Experimental Films (2011)](https://www-artfilms-digital-com.libproxy.aalto.fi/item/free-radicals-a-history-of-experimental-films) (log in with Aalto account)
+- [Len Lye (1957)](https://www-artfilms-digital-com.libproxy.aalto.fi/item/free-radicals-a-history-of-experimental-films)
+- [Sisters with Transistors](https://areena.yle.fi/1-50787806)
+- [Raw Chicks Berlin](https://areena.yle.fi/1-50787825)
