@@ -27,9 +27,20 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 
 {{<youtube 4r4WqAf-X8Y>}}
 
+#### Nikolai Voinov – Paper Sound (1932)
+
 {{<youtube Mmejo9WL2gY>}}
 
+#### Nikolai Voinov - Prelude by Rachmaninov (1932)
+
 {{<youtube yIR3pCgqb5o>}}
+
+#### Oskar Fischinger – Ornament Sound Experiments
+
+#### László Moholy-Nagy: ABC in Sound / Tönendes ABC (1933)
+
+{{<youtube ui_FU-KAZMM>}}
+
 
 #### Oskar Fischinger - An Optical Poem (1938)
 
@@ -39,7 +50,7 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 
 - [Audiovisual Breakthrough Book](http://ephemeral-expanded.net/audiovisualbreakthrough/)
 - [Center for Visual Music Library](http://www.centerforvisualmusic.org/Library.html)
-- [Oskar Fischinger: Ornament Sound](https://asmir.info/lib/fischinger.htm)
+- [Oskar Fischinger: Sounding Ornaments](https://asmir.info/lib/fischinger.htm)
 - [Graphical (drawn) sound experiments and inventions in Soviet Russia (Excellent research by Andrey Smirnov)](https://asmir.info/graphical_sound.htm)
 
 ### Tools and Techniques | Audio Analysis in TouchDesigner
