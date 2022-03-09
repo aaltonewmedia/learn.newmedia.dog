@@ -34,6 +34,8 @@ It is also important to note that most of this list is compiled from the perspec
 ## 1920–1929
 
 - [1921, Hans Richter, Rhythmus 21 (silent film)](https://archive.org/details/1921HANSRITCHERRYTHM21)
+- [1921, Walther Ruttmann, Opus I](https://www.youtube.com/watch?v=aHZdDmYFZN0)
+- [1921, Walther Ruttmann, Opus II](https://www.youtube.com/watch?v=RwahxVC3rDY)
 - [1923, Hans Richter, Rhythmus 23 (silent film)](https://archive.org/details/1921HANSRITCHERRYTHM21)
 - [1924, Viking Eggeling, Symphonie Diagonale (silent film)](https://archive.org/details/SymphonieDiagonale)
 - [1929, Len Lye, Tusalava (silent film)](https://vimeo.com/237481063)
@@ -74,10 +76,10 @@ It is also important to note that most of this list is compiled from the perspec
 ### Highlights
 
 - Erkki Kurenniemi
-- [John Whitney](https://newmedia.dog/c/avs/an-incomplete-timeline-of-audiovisual-art/john-whitney/)
+- [John Whitney](john-whitney)
 - Nam June Paik
-- [Daphne Oram (Oramics)](https://newmedia.dog/c/avs/an-incomplete-timeline-of-audiovisual-art/daphne-oram/)
-- [Delia Derbyshire](https://newmedia.dog/c/avs/an-incomplete-timeline-of-audiovisual-art/delia-derbyshire/)
+- [Daphne Oram (Oramics)](daphne-oram)
+- [Delia Derbyshire](delia-derbyshire/)
 
 ### Examples
 
@@ -95,7 +97,7 @@ It is also important to note that most of this list is compiled from the perspec
 ### Highlights
 
 - Rutt/Etra
-- [Scanimate](https://newmedia.dog/c/avs/an-incomplete-timeline-of-audiovisual-art/scanimate/)
+- [Scanimate](scanimate)
 
 ### Examples
 

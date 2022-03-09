@@ -75,3 +75,37 @@ I will list all of the videos in the series here, but you should only watch the 
 ### Download
 
 ## Wednesday, March 9, 2022
+
+### Sound Recording and Reproduction (Sound on Film)
+
+This might be interesting to look into based on what we learned yesterday.
+
+<iframe src="https://archive.org/embed/SoundRec1943" width="100%" height="600" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+### Len Lye
+
+#### Kaleidoscope (1935)
+
+{{<youtube l3ZXUTL3iZs>}}
+
+#### Rainbow Dance (1936)
+
+{{<youtube JpVrIjj8mhU>}}
+
+#### Trade Tattoo (1937)
+
+{{<youtube OCU7mt8eQGo>}}
+
+#### Swinging the Lambeth Walk (1
+
+{{<youtube VU3TLxkopaQ>}}
+
+### Norman McLaren
+
+#### La Merle (1958)
+
+{{<youtube zHrkUOVFXQs>}}
+
+#### Canon (1964)
+
+<iframe src="https://archive.org/embed/canon_201608" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="" width="100%" height="600" frameborder="0"></iframe>
