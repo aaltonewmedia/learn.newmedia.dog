@@ -102,6 +102,8 @@ This might be interesting to look into based on what we learned yesterday.
 
 ### Norman McLaren
 
+{{<youtube Q0vgZv_JWfM>}}
+
 #### La Merle (1958)
 
 {{<youtube zHrkUOVFXQs>}}
