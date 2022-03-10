@@ -4,25 +4,27 @@ bookCollapseSection: false
 weight: 10
 ---
 
-# Thursday, March 3, 2022
+# Week 01 | Introduction
 
 ---
 
-## Introduction
+## Thursday, March 3, 2022
+
+### Introduction
 
 [See the home page of the course for basic information of the course.](../)
 
-## Examples from previous years
+### Examples from previous years
 
 [Go here to see some examples from previous years](../showcase/)
 
-## A Brief History of Human-Computer Interaction
+### A Brief History of Human-Computer Interaction
 
 Presentation file coming soon: 
 
-## Homework
+### Homework
 
-### TouchDesigner Basics
+#### TouchDesigner Basics
 
 **Those of you who are not taking Audiovisual Studio**, get familiar with TouchDesigner, we are going to use that as our tool for exploring many of the technologies. I will generally also provide code examples and other materials for other programming environments and languages, but the main tool we are going to use is TouchDesigner. Watch at minimum this video:
 
@@ -36,11 +38,9 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 
 ---
 
-# Friday, March 4, 2022
+## Friday, March 4, 2022
 
----
-
-## Inspiration
+### Inspiration
 
 {{<youtube 6btFObRRD9k>}}
 
@@ -48,17 +48,17 @@ This video from Ben Voigt explains all of the basic functionality and beyond of 
 
 [Imogen Heap: MiMU Gloves](https://mimugloves.com/)
 
-## Embodied Interaction
+### Embodied Interaction
 
 ![Where the Action Is](img/dourish.jpg)
 
 - Dourish, Paul. [Where the Action Is](https://mitpress.mit.edu/books/where-action)
 
-## Affordances
+### Affordances
 
 [What are Affordances?](https://www.interaction-design.org/literature/topics/affordances)
 
-## Proxemics and Proxemic Interaction
+### Proxemics and Proxemic Interaction
 
 A field of study that deals with how people use and arrange space around them, and what type of interactions and disctances are comfortable depending on the context.
 
@@ -70,7 +70,7 @@ A field of study that deals with how people use and arrange space around them, a
 - [Proxemic Interactions: From Theory to Practice](https://www.morganclaypool.com/doi/abs/10.2200/S00619ED1V01Y201502HCI025)
 - [Dark patterns in proxemic interactions: a critical perspective](https://dl.acm.org/doi/abs/10.1145/2598510.2598541)
 
-### Pandemic?
+#### Pandemic?
 
 How has the pandemic affected our ideas of personal space and proxemics?
 
@@ -78,11 +78,11 @@ How has the pandemic affected our ideas of personal space and proxemics?
 
 ---
 
-## Homework
+### Homework
 
 After the initial discussions you had in your group today, read the following short articles and meet up with your group to discuss how you are going to proceed with your assignment.
 
-### Readings
+#### Readings
 
 These readings will hopefully help you with your assignment:
 
@@ -93,7 +93,7 @@ These readings will hopefully help you with your assignment:
 - [Seeking a Foundation for Context-Aware Computing, 2001](https://www.dourish.com/embodied/essay.pdf) (this essay explains some of the key thoughts behind the notion of Embodied Interaction that we will dig deeper into next week)
 
 
-### Videos
+#### Videos
 
 These might also be helpful to think about the basics of gestural interfaces and the problems and possibilities of affordances, signifiers, discoverability, and feedback.
 
@@ -101,6 +101,6 @@ These might also be helpful to think about the basics of gestural interfaces and
 
 {{<youtube bgEJPf5PN4w>}}
 
-### Assignment #01
+#### Assignment #01
 
 [See the guidelines for the gesture assignment](../gesture-assignment/). You need to present this on **March 11, 2022.**

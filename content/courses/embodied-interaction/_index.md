@@ -99,7 +99,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 07.03. | TUE 08.03. | WED 09.03. | THU 10.03. | FRI 11.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  | AV Studio: Abstract Animation, Experimental Films, Working with 3D in TouchDesigner | AV Studio: Visual Music, Audio Analysis in TouchDesigner | [EI: Embodied Interaction](/courses/embodied-interaction/week-02/) | [EI: Depth Cameras, Kinect & Skeleton Tracking, Assignment #1 presentations](/courses/embodied-interaction/week-02/) |
+| 09:15–12:00 |  | AV Studio: Abstract Animation, Experimental Films, Working with 3D in TouchDesigner | AV Studio: Visual Music, Audio Analysis in TouchDesigner | [EI: Depth Cameras, Kinect & Skeleton Tracking](/courses/embodied-interaction/week-02/) | [EI: Assignment #1 presentations, Embodied Interaction](/courses/embodied-interaction/week-02/) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
