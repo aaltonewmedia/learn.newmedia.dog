@@ -82,7 +82,7 @@ You will be graded based on the following criteria
 
 ## Schedule | Spring 2022
 
-**PLEASE NOTE: THERE MIGHT BE STILL SOME SMALL CHNAGES TO THE TOPICS.**
+**PLEASE NOTE: THERE MIGHT BE STILL SOME SMALL CHANGES TO THE TOPICS.**
 
 ### Period IV
 
