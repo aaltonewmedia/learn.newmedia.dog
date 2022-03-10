@@ -1,10 +1,12 @@
 ---
 title: "TouchDesigner Tutorials"
 bookCollapseSection: false
-weight: 80
+weight: 10
 ---
 
 # TouchDesigner Tutorials
+
+---
 
 Below you can find all of the TouchDesigner tutorials recorded for this course. Also scroll down for a list of other great TD resources.
 

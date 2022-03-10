@@ -53,8 +53,55 @@ See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
 
 ## Friday, March 11, 2022
 
-### Working with the Kinect and other depth cameras
+{{<youtube d-yHULQ2V5c>}}
 
-#### The time before Kinect (BK)
+### The time before Kinect (BK)
 
-#### After Kinect (AK)
+#### Animoitu Liike 2009
+
+{{<youtube SdYoUv858yg>}}
+
+#### Mortimer
+
+{{<vimeo 17220295>}}
+
+[Mortimer Full Performance](https://vimeo.com/48965637)
+
+#### Giants of the Hoods (2010)
+
+##### Setting up
+
+{{<vimeo 12910372>}}
+
+{{<vimeo 13420275>}}
+
+##### Kallio
+
+{{<vimeo 14546692>}}
+
+##### Kontula
+
+{{<vimeo 14651074>}}
+
+##### Liverpool 
+{{<vimeo 15770729>}}
+
+##### Kamppi
+
+{{<vimeo 15305239>}}
+
+### After Kinect (AK)
+
+#### AHNE (2011)
+
+{{<vimeo 28448717>}}
+
+{{<vimeo 39778872>}}
+
+#### Animoitu Liike V2
+
+{{<vimeo 19715093>}}
+
+#### Other experiments
+
+{{<vimeo 22374146>}}
