@@ -40,12 +40,17 @@ draft: false
 - http://www.flong.com/archive/projects/miw/index.html
 - http://www.flong.com/archive/projects/mis/index.html
 
-- Dourish, Paul. [Where the Action Is](https://mitpress.mit.edu/books/where-action)
 
 ### Working with the Kinect and other depth cameras
 
+#### The time before Kinect (BK)
 
+#### After Kinect (AK)
+
+### Tutorials
+
+See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
 
 ---
 
-## Friday, March 10, 2022
+## Friday, March 11, 2022
