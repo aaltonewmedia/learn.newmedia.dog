@@ -31,6 +31,10 @@ draft: false
 
 - https://aboutmyronkrueger.weebly.com/videoplace.html
 
+#### Rafael Lozano-Hemmer 
+
+{{<vimeo 33931449>}}
+
 #### Golan Levin and Zachary Lieberman | Manual Input Workstation, 2004
 
 {{<youtube 3paLKLZbRY4>}}
@@ -41,12 +45,6 @@ draft: false
 - http://www.flong.com/archive/projects/mis/index.html
 
 
-### Working with the Kinect and other depth cameras
-
-#### The time before Kinect (BK)
-
-#### After Kinect (AK)
-
 ### Tutorials
 
 See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
@@ -54,3 +52,9 @@ See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
 ---
 
 ## Friday, March 11, 2022
+
+### Working with the Kinect and other depth cameras
+
+#### The time before Kinect (BK)
+
+#### After Kinect (AK)
