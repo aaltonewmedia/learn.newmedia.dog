@@ -106,6 +106,18 @@ See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
 
 {{<vimeo 22374146>}}
 
+## Dowload
+
+[Dowload Blob Tracking starting point](files/Blobtracking.toe)
+
 ---
 
 ## Homework
+
+### Project Proposal
+
+Send me a document explaining your final project idea:
+
+- [Guidelines for the final project](../final-project/)
+- [Submit the project proposal in MyCourses]()
+- Deadline April 18, 2022 at 23:59
