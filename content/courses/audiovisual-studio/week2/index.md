@@ -111,3 +111,25 @@ This might be interesting to look into based on what we learned yesterday.
 #### Canon (1964)
 
 <iframe src="https://archive.org/embed/canon_201608" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="" width="100%" height="600" frameborder="0"></iframe>
+
+--- 
+
+## Homework
+
+**We don't have a class on Tuesday, April 15, 2022 since Matti has to be in admissions interviews.
+
+Note that we still have the rooms L208 and G203 booked so you can work there if you want. You can also use the class time for the following homework:
+
+### Watch
+
+Wathc the Sisters with Transistors documentary:
+
+- [Available in YLE Areena](https://areena.yle.fi/1-50787806)
+
+### Project Proposal
+
+Send me a document explaining your final project idea:
+
+- [Guidelines for the final project](../final-project/)
+- [Submit the project proposal in MyCourses](https://mycourses.aalto.fi/course/view.php?id=34164&section=1)
+- Deadline April 18, 2022 at 23:59

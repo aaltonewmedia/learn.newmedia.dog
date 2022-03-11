@@ -8,3 +8,7 @@ weight: 90
 
 ---
 
+- [TouchDesigner Tutorials](./touchdesigner/)
+- [Kinect](./kinect/)
+- [Posenet](./posenet/)
+

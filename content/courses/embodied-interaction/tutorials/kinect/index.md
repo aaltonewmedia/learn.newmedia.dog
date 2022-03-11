@@ -27,12 +27,17 @@ The main issue that I have run into with models other than the 1414 is that it d
 
 The Kinect V1 has been discontinued, you might be able to find used ones. Make sure it comes with the USB adapter/power supply.
 
+We have a couple of these at the Media Lab. Ask Matti.
+
 ### Kinect V2
 
 This is the newer version of the Kinect Sensor. Unfortunately, the naming policy in Microsoft is very confusing so sometimes this version is called the Kinect One (since is was made for the XBox One). I will be calling this the Kinect V2 and the older original Kinect sensor will be referred to as the Kinect V1.
-Where to get it?
+
+#### Where to get it?
 
 The Kinect V2 has been discontinued, you might be able to find used ones. Also remember to get the USB adapter.
+
+Aalto Takeout has one of these. Search Kinect on the website.
 
 ### Kinect Azure
 
