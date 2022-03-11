@@ -40,9 +40,14 @@ https://github.com/oveddan/posenet-for-installations
 It seems that there was some bug that made it crash, Oskar has a fix:
 https://github.com/Havdon/posenet-for-installations
 
-## What can you find in this folder?
+## p5-poses-osc
 
-### p5-poses-osc
+I have made a simple posenet tracker that also sends out the joint positions as OSC messages:
+
+[https://github.com/mnstri/Embodied-Interaction/tree/master/code/posenet](https://github.com/mnstri/Embodied-Interaction/tree/master/code/posenet)
+
+### What is it?
+
 A simple example made with p5.js that uses ml5js (https://ml5js.org/) and posenet to detect poses from the real-time camera image. The positions of the poses is sent via osc to any application capable of receiving osc messages.
 
 - Port: 12000
