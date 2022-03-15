@@ -124,7 +124,7 @@ Note that we still have the rooms L208 and G203 booked so you can work there if 
 
 ### Watch
 
-Wathc the Sisters with Transistors documentary:
+Watch the Sisters with Transistors documentary:
 
 - [Available in YLE Areena](https://areena.yle.fi/1-50787806)
 
