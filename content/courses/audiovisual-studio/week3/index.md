@@ -33,9 +33,7 @@ Send me a document explaining your final project idea:
 
 ## Wednesday, March 16, 2022
 
-### Inspiration
-
-#### John Whitney
+### John Whitney
 
 {{<youtube uunwKF7AUkc>}}
 
@@ -43,13 +41,13 @@ Send me a document explaining your final project idea:
 
 {{<youtube 5eMSPtm6u5Y>}}
 
-#### Jerobeam Fenderson
+### Jerobeam Fenderson
 
 {{<youtube 19jv0HM92kw>}}
 
 [Jerobeam Fenderson - Oscilloscope Music](https://oscilloscopemusic.com)
 
-##### Derek Holzer: Vector synthesis: a media archaeological investigation into sound-modulated light
+### Derek Holzer: Vector synthesis: a media archaeological investigation into sound-modulated light
 
 {{<youtube YxFD2eySg0M>}}
 
@@ -58,13 +56,15 @@ Send me a document explaining your final project idea:
 - [Vimeo](https://vimeo.com/macumbista)
 - [Experimental Sound Instruments Course](https://courses.aalto.fi/s/course/a053X000012QzMwQAK/experimental-sound-instruments?language=en_US)
 
-## Marcus Heckmann
+### Marcus Heckmann
 
 Today's example is based on a tutorial video by Marcus Heckmann. He works at Derivative and in addition to his own art, he creates excellent tutorials and teaches workshops for TouchDesigner.
 
 - [Marcus Heckmann /project1](https://project1.net/)
 
-## Sound Synthesis in TouchDesigner
+---
+
+### Sound Synthesis in TouchDesigner
 
 TouchDesigner works really well together with other applications (like Ableton Live) but you can also directly synthesize and manipulate sound inside TouchDesigner.
 
