@@ -29,7 +29,7 @@ Send me a document explaining your final project idea:
 
 - [Guidelines for the final project](../final-project/)
 - [Submit the project proposal in MyCourses](https://mycourses.aalto.fi/course/view.php?id=34164&section=1)
-- Deadline April 18, 2022 at 23:59
+- Deadline April 21, 2022 at 23:59
 
 ---
 
@@ -54,7 +54,7 @@ Send me a document explaining your final project idea:
 {{<youtube YxFD2eySg0M>}}
 
 - [Thesis at Aalto (Sound in New Media)](https://aaltodoc.aalto.fi/handle/123456789/38066)
-- [macumbista](http://macumbista.net/)
+- [macumbista](https://macumbista.net/)
 - [Vimeo](https://vimeo.com/macumbista)
 - [Experimental Sound Instruments Course](https://courses.aalto.fi/s/course/a053X000012QzMwQAK/experimental-sound-instruments?language=en_US)
 
