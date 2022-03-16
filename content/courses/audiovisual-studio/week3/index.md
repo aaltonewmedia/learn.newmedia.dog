@@ -76,4 +76,4 @@ Our example for today is based on this video:
 
 ### Download
 
-[Download the finished example](./files/w3-sound-synthesis.zip)
+[Download the finished example](./files/w3-sound_synthesis.zip)
