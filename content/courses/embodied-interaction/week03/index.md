@@ -15,7 +15,7 @@ draft: false
 
 Use the time to catch up on some tutorials or work on your project proposal. Rooms L208 and G203 are available for you to use.
 
-I recommend going through the blob tracking tutorials.
+I recommend using this time to go through the blob tracking tutorials.
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b0915fc3-8dde-4bc4-ad3a-acf4015d69aa&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
 
@@ -29,4 +29,9 @@ I recommend going through the blob tracking tutorials.
 
 ## Friday, March 18, 2022
 
-TBA
+Present your project proposal shortly in class. This presentation has two functions:
+
+1. Get some feedback on your idea
+2. Find some people to join your team to work on the same project with you. Or join someone else's team if they are looking for people.
+
+This can be quite freeform and relaxed presentation/discussion.
