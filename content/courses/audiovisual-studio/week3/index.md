@@ -20,6 +20,8 @@ Use the time to catch up on some tutorials or work on your project proposal. Roo
 Watch the Sisters with Transistors documentary:
 
 - [Available in YLE Areena](https://areena.yle.fi/1-50787806)
+- [More about Delia Derbyshire](https://learn.newmedia.dog/courses/audiovisual-studio/av-timeline/delia-derbyshire/)
+- [More about Daphne Oram](https://learn.newmedia.dog/courses/audiovisual-studio/av-timeline/daphne-oram/)
 
 ### Project Proposal
 
@@ -74,4 +76,4 @@ Our example for today is based on this video:
 
 ### Download
 
-[Download the finished example](.files/w3-sound-synthesis.zip)
+[Download the finished example](./files/w3-sound-synthesis.zip)
