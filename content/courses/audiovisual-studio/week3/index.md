@@ -77,3 +77,19 @@ Our example for today is based on this video:
 ### Download
 
 [Download the finished example](./files/w3-sound_synthesis.zip)
+
+---
+
+## Homework
+
+### Watch
+
+Learn about [Scanimate by watching the videos on this page](../av-timeline/scanimate) .
+
+### Project Proposal
+
+Send me a document explaining your final project idea:
+
+- [Guidelines for the final project](../final-project/)
+- [Submit the project proposal in MyCourses](https://mycourses.aalto.fi/course/view.php?id=34164&section=1)
+- Deadline Monday, April 21, 2022 at 23:59
