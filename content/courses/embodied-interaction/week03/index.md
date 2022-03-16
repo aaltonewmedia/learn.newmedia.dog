@@ -29,9 +29,23 @@ I recommend using this time to go through the blob tracking tutorials.
 
 ## Friday, March 18, 2022
 
+### Project proposal discussion and presentations
+
 Present your project proposal shortly in class. This presentation has two functions:
 
 1. Get some feedback on your idea
 2. Find some people to join your team to work on the same project with you. Or join someone else's team if they are looking for people.
 
 This can be quite freeform and relaxed presentation/discussion.
+
+---
+
+## Homework
+
+### Project Proposal
+
+Send me a document explaining your final project idea:
+
+- [Guidelines for the final project](../final-project/)
+- [Submit the project proposal in MyCourses](https://mycourses.aalto.fi/course/view.php?id=33829&section=1)
+- Deadline: Monday, March 21, 2022 at 23:59
