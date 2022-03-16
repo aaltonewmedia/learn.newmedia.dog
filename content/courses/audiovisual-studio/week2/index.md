@@ -118,7 +118,7 @@ This might be interesting to look into based on what we learned yesterday.
 
 ## Homework
 
-**We don't have a class on Tuesday, April 15, 2022 since Matti has to be in admissions interviews.
+**We don't have a class on Tuesday, March 15, 2022 since Matti has to be in admissions interviews.
 
 Note that we still have the rooms L208 and G203 booked so you can work there if you want. You can also use the class time for the following homework:
 
@@ -134,5 +134,5 @@ Send me a document explaining your final project idea:
 
 - [Guidelines for the final project](../final-project/)
 - [Submit the project proposal in MyCourses](https://mycourses.aalto.fi/course/view.php?id=34164&section=1)
-- Deadline Monday, April 21, 2022 at 23:59
+- Deadline Monday, March 21, 2022 at 23:59
 
