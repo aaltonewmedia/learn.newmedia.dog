@@ -132,20 +132,28 @@ It is also important to note that most of this list is compiled from the perspec
 ### Examples
 
 - 2000, Hexstatic, Rewind album
+- 2001, [DJ Qbert, Wave Twisters](https://www.youtube.com/watch?v=OhjUfbbnD3I)
 - 2002, [The First Pixelache Festival](https://www.pixelache.ac/festivals) (the early iterations of the festival were very much focused on VJ culture and audiovisual art, starting from 2009 the focus shifted towards the notion of Commons and art activism)
 - 2004, The First [Live Performers Meeting](https://liveperformersmeeting.net/)
 - 2005, The First [Mapping Festival](http://mappingfestival.com/)
 - ~2006->, [Zimoun](https://www.zimoun.net/)
+- 2006, [Daito Manabe](http://www.daito.ws/en). [Rhizomatiks](https://rhizomatiks.com/en/)
 
 ## 2010–2019
 
+
+- 20XX [Keijiro Takahashi](http://www.keijiro.tokyo/)
+    - [Github](https://github.com/keijiro)
+    - [Vimeo](https://vimeo.com/keijiro)
+    - [Dev Log](https://radiumsoftware.tumblr.com/)
 - [2016, Jerobeam Fenderson. Oscilloscope Music](https://oscilloscopemusic.com/)
-- [2019, Derek Holzer. Vector synthesis: a media archaeological investigation into sound-modulated light](https://aaltodoc.aalto.fi/handle/123456789/38066)
 - 2016, [Robert Henke](https://www.roberthenke.com/concerts/cbm8032av.html), [CBM 8032 AV](https://vimeo.com/394414592)
+- 2016, [Amnesia Scanner, AS Chingy](https://www.youtube.com/watch?v=02k126v3Zu4). Video by [Sam Rolfes](https://www.youtube.com/c/SamRolfes)
 - 2018, [Fractal Fantasy (Sinjin Hawke & Zora Jones), AV Live ](https://www.youtube.com/watch?v=Ul5rTdYo628)
-- 2018, [Sam Rolfes](https://www.youtube.com/watch?v=utL9tbDpk1Y)
+- 2018, [Sam Rolfes, Absurd Arms](https://www.youtube.com/watch?v=utL9tbDpk1Y)
 - 2019, [Max Cooper, Repetition](https://www.youtube.com/watch?v=nO9aot9RgQc). Video by [Kevin McGloughlin](https://www.kevinmcgloughlin.com/)
 - 2019, [Max Cooper, Perpetual Motion (Video by Nick Cobby)](https://www.youtube.com/watch?v=GcmHXo4isWQ). Video by [Nick Cobby](https://nickcobby.com/). Making of [video](https://www.youtube.com/watch?v=FBhLgxS3rC0).
+- [2019, Derek Holzer. Vector synthesis: a media archaeological investigation into sound-modulated light](https://aaltodoc.aalto.fi/handle/123456789/38066)
 
 ## 2020–>
 
