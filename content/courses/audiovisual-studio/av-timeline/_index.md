@@ -70,7 +70,7 @@ It is also important to note that most of this list is compiled from the perspec
 - [1951, Norman McLaren, Pen Point Percussion](https://www.youtube.com/watch?v=Q0vgZv_JWfM)
 - [1955, Norman McLaren, Blinkity Blank](https://www.youtube.com/watch?v=q3YeWgUgPHM)
 - [1956, Norman McLaren & Evelyn Lambart, Rhytmetic](https://www.youtube.com/watch?v=OBXKpEDhudU)
-- [1958, Norman McLaren, La Merle](https://www.youtube.com/watch?v=zHrkUOVFXQs)
+- [1958, Norman McLaren, Le Merle](https://www.youtube.com/watch?v=zHrkUOVFXQs)
 
 ## 1960–1969
 ### Highlights
