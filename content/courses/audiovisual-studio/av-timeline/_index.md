@@ -141,8 +141,7 @@ It is also important to note that most of this list is compiled from the perspec
 
 ## 2010–2019
 
-
-- 20XX [Keijiro Takahashi](http://www.keijiro.tokyo/)
+- 2011-> [Keijiro Takahashi](http://www.keijiro.tokyo/)
     - [Github](https://github.com/keijiro)
     - [Vimeo](https://vimeo.com/keijiro)
     - [Dev Log](https://radiumsoftware.tumblr.com/)

@@ -25,6 +25,10 @@ I recommend using this time to go through the blob tracking tutorials.
 
 [Download the finished example.](../tutorials/touchdesigner/files/kinectParticleSpheres.toe)
 
+### Posenet
+
+You might also want to look into [Posenet](../tutorials/posenet/) as an alternative to the Kinect.
+
 ---
 
 ## Friday, March 18, 2022
