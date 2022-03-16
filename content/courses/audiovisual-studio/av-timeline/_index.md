@@ -80,6 +80,7 @@ It is also important to note that most of this list is compiled from the perspec
 - Nam June Paik
 - [Daphne Oram (Oramics)](daphne-oram)
 - [Delia Derbyshire](delia-derbyshire/)
+- [Wendy Carlos](https://en.wikipedia.org/wiki/Wendy_Carlos)
 
 ### Examples
 
@@ -98,6 +99,7 @@ It is also important to note that most of this list is compiled from the perspec
 
 - Rutt/Etra
 - [Scanimate](scanimate)
+- [Laurie Spiegel](https://en.wikipedia.org/wiki/Laurie_Spiegel)
 
 ### Examples
 
@@ -139,7 +141,25 @@ It is also important to note that most of this list is compiled from the perspec
 
 - [2016, Jerobeam Fenderson. Oscilloscope Music](https://oscilloscopemusic.com/)
 - [2019, Derek Holzer. Vector synthesis: a media archaeological investigation into sound-modulated light](https://aaltodoc.aalto.fi/handle/123456789/38066)
+- 2016, [Robert Henke](https://www.roberthenke.com/concerts/cbm8032av.html), [CBM 8032 AV](https://vimeo.com/394414592)
+- 2018, [Fractal Fantasy (Sinjin Hawke & Zora Jones), AV Live ](https://www.youtube.com/watch?v=Ul5rTdYo628)
+- 2018, [Sam Rolfes](https://www.youtube.com/watch?v=utL9tbDpk1Y)
+- 2019, [Max Cooper, Repetition](https://www.youtube.com/watch?v=nO9aot9RgQc). Video by [Kevin McGloughlin](https://www.kevinmcgloughlin.com/)
+- 2019, [Max Cooper, Perpetual Motion (Video by Nick Cobby)](https://www.youtube.com/watch?v=GcmHXo4isWQ). Video by [Nick Cobby](https://nickcobby.com/). Making of [video](https://www.youtube.com/watch?v=FBhLgxS3rC0).
 
 ## 2020–>
 
 - [2020, Aavistus Festival, Helsinki](https://www.aavistusfestival.fi/)
+- 2020, [Olafur Eliasson, Symbiotic Seeing](https://www.youtube.com/watch?v=eyzjhkwpKp8)
+
+## List of things to be added
+
+Here is a list of suggestions from the students of Audiovisual Studio. These are suggestions that I was not able to yet place to specific decade or year:
+
+- [Yugoslav video art](https://mubi.com/lists/yugoslav-video-art)
+- [APSOLUTNO](http://www.apsolutno.net/)
+- [https://www.springerin.at/en/2015/2/monster-einst-und-jetzt/](https://www.springerin.at/en/2015/2/monster-einst-und-jetzt/)
+- [http://grzinic-smid.si/?page_id=389](http://grzinic-smid.si/?page_id=389)
+- Terry Gilliam
+    - [https://www.youtube.com/watch?v=KOqcHCEqO1k](https://www.youtube.com/watch?v=KOqcHCEqO1k)
+    - -[https://www.youtube.com/watch?v=SQ7JTB2CaN0](https://www.youtube.com/watch?v=SQ7JTB2CaN0)
