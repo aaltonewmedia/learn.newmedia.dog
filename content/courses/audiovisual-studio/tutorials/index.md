@@ -62,6 +62,10 @@ These examples show you how to work with the Kinect Azure and blob tracking. Thi
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=35cb14ff-f613-41c2-91bd-acf4015d6e52&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
 
+### Download files
+
+[Download the finished example.](files/kinectParticleSpheres.toe)
+
 ---
 
 ## Other TouchDesigner Resources
