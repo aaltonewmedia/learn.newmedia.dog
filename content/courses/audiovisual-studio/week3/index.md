@@ -84,7 +84,8 @@ Our example for today is based on this video:
 
 ### Watch
 
-Learn about [Scanimate by watching the videos on this page](../av-timeline/scanimate) .
+- Learn about [Scanimate by watching the videos on this page](../av-timeline/scanimate).
+- Watch the [rest of the John Whitney documentaries](../av-timeline/john-whitney)
 
 ### Project Proposal
 
