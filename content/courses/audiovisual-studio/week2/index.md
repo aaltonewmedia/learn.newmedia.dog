@@ -27,8 +27,6 @@ Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 19
 
 [Click here if the embed does not work](https://www-artfilms-digital-com.libproxy.aalto.fi/item/hans-richter-on-film-and-early-works/7511)
 
-<iframe width='100%' height='600' src='https://libproxy.aalto.fi/login?url=https://www.artfilms-digital.com/Embed.aspx?ItemID=7511' frameborder='' allowfullscreen>/</iframe>
-
 #### Evgeny Sholpo - The Variophone (1930)
 
 {{<youtube 4r4WqAf-X8Y>}}
