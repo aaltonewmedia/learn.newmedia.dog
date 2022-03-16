@@ -12,7 +12,7 @@ draft: false
 ## Tuesday, March 22, 2022
 
 - 9:15-10:15 Projection Mapping
-- 10:30 [Merle Karp](https://merlekarp.com/) and [Anni Laser](https://annilaser.com/) from Aavistus are coming to talk about the festival and their own work.
+- 10:30 [Merle Karp/Folded Visuals](https://merlekarp.com/) and [Anni Laser](https://annilaser.com/) from Aavistus are coming to talk about the festival and their own work.
 
 ---
 
