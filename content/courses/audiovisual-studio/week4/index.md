@@ -39,5 +39,5 @@ Touchdesigner has a collection of different tools for projection mapping with in
 
 ### Projection Mapping
 
-### Visit to Otakaari 7 IglooVision
+
 
