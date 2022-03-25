@@ -72,3 +72,4 @@ Here are some examples I have shown in class
 
 - [Kinect skeleton tracking + particles](./files/KinectAllJoints.toe)
 - [Blob Tracking Particle Field](./files/KinectMetaballs.toe)
+- [Kinect Depth Reveal with Particles](./files/KinectDepthRevealParticles.toe)
