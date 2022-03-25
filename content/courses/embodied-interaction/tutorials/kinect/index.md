@@ -63,3 +63,12 @@ Install from the Library Manager. Works with Kinect V1 and V2.
 #### SimpleOpenNI Library
 
 A version that works with Processing 3.5.x on Mac https://github.com/totovr/SimpleOpenni
+
+## TouchDesigner
+
+### Examples
+
+Here are some examples I have shown in class
+
+- [Kinect skeleton tracking + particles](./files/KinectAllJoints.toe)
+- [Blob Tracking Particle Field](./files/KinectMetaballs.toe)
