@@ -6,6 +6,10 @@
 
 
 .book-toc-content {
+
+  ul{
+    padding-inline-start: 0.5rem;
+  }
  
 	li a {
 		transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
@@ -125,6 +129,9 @@ hr{
   text-transform: uppercase;
   background: $nm_yellow;
   color: $nm_dark_gray;
+  a, a:visited{
+    color: $nm_dark_gray;
+  }
 }
 
 .markdown td {

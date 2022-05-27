@@ -11,7 +11,10 @@ weight: 10
 
 ## Who created this website?
 
-Matti Niinimäki, Senior University Lecturer at Aalto University.
+Matti Niinimäki  
+Senior University Lecturer  
+Programme Director of the Master's Programme in Art and Media  
+Aalto University
 
 ## Why does it exist?
 
@@ -28,8 +31,8 @@ In Espoo, Finland. Right next to Helsinki.
 
 I teach at the Master's Programme in Art & Media, major in New Media, there are two ways to become a student:
 
-- Apply directly to our [MA studies](https://www.aalto.fi/en/study-options/masters-programme-in-art-and-media-new-media)
-- Apply first to the [Bachelor's Programme in Design](https://www.aalto.fi/en/study-options/bachelors-programme-in-design) and continue to our MA programme afterwards.
+- If you already have a bachelor's degree: Apply directly to our [MA in Art and Media, New Media](https://www.aalto.fi/en/study-options/masters-programme-in-art-and-media-new-media)
+- If you do not have a bachelor's degree: Apply first to the [Bachelor's Programme in Design](https://www.aalto.fi/en/study-options/bachelors-programme-in-design) and continue to our MA programme afterwards.
 
 ## I'm not your student, but the site helped me a lot. How can I thank you?
 
@@ -48,4 +51,3 @@ Supportive messages and saying thank you is always nice and enough. I get paid t
 - Invite me to do guest lectures at your event or institution
 - Let me know if you would like to show [my art](https://www.mansteri.com/) at your event or institution
 - Commission me to create [interactive installations or experiences](https://www.mansteri.com/)
-- I also do workshops outside the school. Check out [Mandu](https://www.mandu.fi/)
