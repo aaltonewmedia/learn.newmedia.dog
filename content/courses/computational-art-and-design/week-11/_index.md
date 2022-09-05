@@ -2,6 +2,7 @@
 title: "11 | Working with Hardware"
 bookCollapseSection: true
 p5js-widget: true
+draft: true
 ---
 
 # 11 | ...

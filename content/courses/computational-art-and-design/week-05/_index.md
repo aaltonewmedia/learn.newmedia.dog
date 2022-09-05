@@ -2,6 +2,7 @@
 title: "05 | Functions"
 bookCollapseSection: true
 p5js-widget: true
+draft: true
 ---
 
 # 05 | Functions

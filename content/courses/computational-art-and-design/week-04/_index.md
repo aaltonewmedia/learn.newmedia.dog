@@ -2,6 +2,7 @@
 title: "04 | Working with Media"
 bookCollapseSection: true
 p5js-widget: true
+draft: true
 ---
 
 # 04 | Working with Media

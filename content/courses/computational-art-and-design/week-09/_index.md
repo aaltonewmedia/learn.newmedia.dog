@@ -2,6 +2,7 @@
 title: "09 | Working with Data"
 bookCollapseSection: true
 p5js-widget: true
+draft: true
 ---
 
 # 09 | Working with Data

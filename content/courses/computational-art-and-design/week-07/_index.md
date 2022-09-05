@@ -2,6 +2,7 @@
 title: "07 | No Class (workshop week)"
 bookCollapseSection: true
 p5js-widget: true
+draft: true
 ---
 
 # 07 | No Class (workshop week)
