@@ -3,6 +3,7 @@ title: "Animating With Code"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
+draft: true
 ---
 
 # Week 01 | Animating With Code

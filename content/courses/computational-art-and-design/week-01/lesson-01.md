@@ -3,6 +3,7 @@ title: "Drawing With Code"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
+draft: true
 ---
 
 # Week 01 | Drawing With Code
