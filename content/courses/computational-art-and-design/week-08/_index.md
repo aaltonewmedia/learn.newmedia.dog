@@ -2,7 +2,7 @@
 title: "08 | Noise"
 bookCollapseSection: true
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 # 08 | Noise
