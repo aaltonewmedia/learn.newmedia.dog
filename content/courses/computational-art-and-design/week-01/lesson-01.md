@@ -154,11 +154,11 @@ background(255,0,0);
 
 These functions will be useful for you today:
 
-- background()
-- fill()
-- noFill()
-- stroke()
-- noStroke()
+- [background()](https://p5js.org/reference/#/p5/background)
+- [fill()](https://p5js.org/reference/#/p5/fill)
+- [noFill()](https://p5js.org/reference/#/p5/noFill)
+- [stroke()](https://p5js.org/reference/#/p5/stroke)
+- [noStroke()](https://p5js.org/reference/#/p5/noStroke)
 
 You can also change the way the color channel values are interpreted using [```colorMode()```](https://p5js.org/reference/#/p5/colorMode) but let's stick with RGB for now.
 
@@ -235,9 +235,9 @@ function draw() {
 Experiment with the various shapes and drawing possibilities and try to create some sort of illustration using only these basics shapes. You can draw anything you want (self portrait, some kind of character or animal, something more abstract).
 
 Limit yourself only to the following functions:
-- Shape --> 2D Primitives (all of them should be quite simple to use except arc())
-- Shape --> Attributes --> strokeWeight()
-- Color --> Setting --> background(), fill(), noFill(), stroke(), noStroke()
+- [Shape](https://p5js.org/reference/#group-Shape) --> 2D Primitives (all of them should be quite simple to use except arc())
+- [Shape](https://p5js.org/reference/#group-Shape) --> Attributes --> strokeWeight()
+- [Color](https://p5js.org/reference/#group-Color) --> Setting --> background(), fill(), noFill(), stroke(), noStroke()
 
 [Add your sketch to our Open Processing page.](https://openprocessing.org/class/80657)
 
