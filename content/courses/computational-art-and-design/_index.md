@@ -10,7 +10,35 @@ draft: false
 
 ---
 
+## Important links
+
+- [MyCourses page (2022)](https://mycourses.aalto.fi/course/view.php?id=37604)
+- [Our OpenProcessing class](https://openprocessing.org/class/80657)
+- [p5js Home](https://p5js.org/)
+- [p5js Editor](https://editor.p5js.org/)
+- [p5js Reference](https://p5js.org/reference/)
+
+## Content
+
+This course introduces creative coding not just as a tool but also as a creative medium in itself. The course consists of joint lectures for all students and additional excercise groups that students choose based on their previous experience, skill level, and interests.
+
+Topics covered in the course:
+
+- Historical and contemporary examples of computational art and design
+- The role of computation in interactive, generative, and immersive artworks
+- Fundamental computational thinking
+- Data types and structures
+- Flow control statements (loops, conditional execution)
+- Basics of object-oriented programming
+- Best practices (commenting, formatting, structuring)
+
 ## Learning Outcomes
+
+On successful completion of this course, students will be able to:
+
+- Apply their technical knowledge and skills in computational art and design to create artworks, experiences, services, tools, and other creative productions.
+- Apply basic programming concepts and techniques, such as variables, functions, flow control, comments, types, objects and arrays.
+- Describe, discuss, and demonstrate uses of code as a creative medium.
 
 ## Schedule | Autumn  2022
 
