@@ -164,20 +164,20 @@ You can also change the way the color channel values are interpreted using [```c
 
 ### Shapes (2D Primitives)
 
-- point()
-- line()
-- circle()
-- ellipse()
-- square()
-- rect()
-- triangle()
-- quad()
-- arc()
+- [point()](https://p5js.org/reference/#/p5/point)
+- [line()](https://p5js.org/reference/#/p5/line)
+- [circle()](https://p5js.org/reference/#/p5/circle)
+- [ellipse()](https://p5js.org/reference/#/p5/ellipse)
+- [square()](https://p5js.org/reference/#/p5/square)
+- [rect()](https://p5js.org/reference/#/p5/rect)
+- [triangle()](https://p5js.org/reference/#/p5/triangle)
+- [quad()](https://p5js.org/reference/#/p5/quad)
+- [arc()](https://p5js.org/reference/#/p5/arc)
 
 There are a couple of attributes that will be useful today also:
 
-- strokeWeight()
-- strokeCap()
+- [strokeWeight()](https://p5js.org/reference/#/p5/strokeWeight)
+- [strokeCap()](https://p5js.org/reference/#/p5/strokeCap)
 
 ### Comments
 
