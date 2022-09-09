@@ -127,10 +127,10 @@ function setup() {
 function draw() {
   background(130, 80, 130);
   // draw multiple circles in the center of the canvas
-  circle(width/2, height/2, 100, 100);
-  circle(width/2, height/2, 80, 80);
-  circle(width/2, height/2, 60, 60);
-  circle(width/2, height/2, 40, 40);
+  circle(width/2, height/2, 100);
+  circle(width/2, height/2, 80);
+  circle(width/2, height/2, 60);
+  circle(width/2, height/2, 40);
 }
 {{</ p5js >}}
 
@@ -140,11 +140,38 @@ You are not limited to just the system variables. You can make your own also! As
 
 There are three basic steps with using variables:
 
-1. **Declare** a variable. With JavaScript you declare it using the keyword ```let```. You also have to come up with a name for your variable.
+1. **Declare** a variable. With JavaScript you declare it using the keyword ```let```. You also have to come up with a name (**identifier**) for your variable.
 2. **Assign** a value to the variable using ```=```. This can be done as many times as you want. Whenever you want to change the value stored in the variable, just assign a new value using ```=```.
 3. **Use** the variable somewhere in your code.
 
-**UNFINISHED**
+For example, we could declare a variable called ```circleSize```.
+
+```js
+let circleSize;
+```
+
+You can assign a value to the variable later, or you can do it at the same time as you declare it.
+
+```js
+let circleSize = 50;
+```
+
+Here is an example on how we could use the variable in our code. Note that we are declaring the variable **before the setup**. It's really important to declare the variables in a very specific place depending on your code. This is called the **scope** of the variable. We will discuss it next week.
+
+{{< p5js autoplay="1" width="400" height="400">}}
+let circleSize = 25;
+
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background(130, 80, 130);
+  // draw multiple circles in the center of the canvas
+  circle(100, height/4, circleSize);
+  circle(200, height/2, circleSize);
+}
+{{</ p5js >}}
 
 {{<hint info>}}
 We are going to spend a lot of time talking about variables as we go further. We have just scratched the surface.
