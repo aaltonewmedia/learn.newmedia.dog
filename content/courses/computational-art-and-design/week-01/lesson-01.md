@@ -144,11 +144,11 @@ Try changing the numbers in the ```background()``` command. The way p5.js unders
 - If you just use one value ```background(100);``` the number will be interpreted as a grayscale value between 0–255
 - If you use three values ```background(255,0,0);``` the numbers will be interpreted as red, green, and blue channels (RGB). These values also range between 0–255.
 
-{{< p5js width="200" height="300">}}
+{{< p5js autoplay="1" width="200" height="300">}}
 background(100);
 {{</ p5js >}}
 
-{{< p5js width="200" height="300">}}
+{{< p5js autoplay="1" width="200" height="300">}}
 background(255,0,0);
 {{</ p5js >}}
 
@@ -200,7 +200,7 @@ boolean is either false or true
 
 ```
 
-{{< p5js width="400" height="400">}}
+{{< p5js autoplay="1" width="400" height="400">}}
 
 function setup() {
   createCanvas(400, 400);
