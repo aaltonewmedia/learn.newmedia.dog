@@ -182,6 +182,28 @@ We are going to spend a lot of time talking about variables as we go further. We
 
 To end the week, let's explore something that is more fun than learning about variables. Randomness.
 
+### Example: Random Circles
+
+{{< p5js autoplay="1" width="400" height="600">}}
+let x;
+let y;
+let s;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  //background(220);
+  x = random(0,400);
+  y = random(0,400);
+  s = random(1,25);
+  fill( random(0,255), random(0,255), random(0,255), 50 );
+  noStroke();
+  circle(x,y,s);
+}
+{{</ p5js >}}
+
 ### Example Random Walker
 
 <iframe src="https://openprocessing.org/sketch/1382649/embed/?plusEmbedHash=ZjI5OWI4ZmQwYThmODFhMjlkY2FhYzIwMTY5ZWMxNWViOTAyYzUxYTcwMGIwNTEwOTQ3MjE5ODBhMDlmNzllMjM0ZjdkMmMyMDE0YWUxZjYxMzIxMmEzY2JlNzIxY2MxMjAwNjNhOGY4ZjQ1ZGFlZWNiOGNhNmVhYmFmY2E3ODBmVTdTbG1DZFQvVU5nd0RMYnZNS1lNKzZZNVdyU3JNZ0lvOFZydUhvTFl5OCtwWEk4Q0F3aUE1V2t5VG90ckxvVytZQXpxNUJKRmU3MnJ5S2tBUTBUdz09&plusEmbedTitle=true" width="100%" height="400"></iframe>
