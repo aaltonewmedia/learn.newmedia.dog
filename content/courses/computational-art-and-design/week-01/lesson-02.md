@@ -162,14 +162,15 @@ Here is an example on how we could use the variable in our code. Note that we ar
 let circleSize = 25;
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(400, 400);
 }
 
 function draw() {
   background(130, 80, 130);
   // draw multiple circles in the center of the canvas
-  circle(100, height/4, circleSize);
+  circle(100, height/2, circleSize);
   circle(200, height/2, circleSize);
+  circle(300, height/2, circleSize);
 }
 {{</ p5js >}}
 
