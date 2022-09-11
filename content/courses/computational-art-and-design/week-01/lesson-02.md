@@ -182,7 +182,21 @@ We are going to spend a lot of time talking about variables as we go further. We
 
 To end the week, let's explore something that is more fun than learning about variables. Randomness.
 
-### Example: Random Circles
+### Example: 
+
+### Example: Random Lines
+
+{{< p5js autoplay="1" width="400" height="600">}}
+function setup() {
+  createCanvas(400, 400);
+  background(130, 80, 130);
+}
+
+function draw() {
+  stroke(0,50);
+  line( random(width), random(height), random(width), random(height) );
+}
+{{</ p5js >}}
 
 {{< p5js autoplay="1" width="400" height="600">}}
 let x;
@@ -191,6 +205,7 @@ let s;
 
 function setup() {
   createCanvas(400, 400);
+  background(255);
 }
 
 function draw() {
@@ -206,7 +221,30 @@ function draw() {
 
 ### Example Random Walker
 
-<iframe src="https://openprocessing.org/sketch/1382649/embed/?plusEmbedHash=ZjI5OWI4ZmQwYThmODFhMjlkY2FhYzIwMTY5ZWMxNWViOTAyYzUxYTcwMGIwNTEwOTQ3MjE5ODBhMDlmNzllMjM0ZjdkMmMyMDE0YWUxZjYxMzIxMmEzY2JlNzIxY2MxMjAwNjNhOGY4ZjQ1ZGFlZWNiOGNhNmVhYmFmY2E3ODBmVTdTbG1DZFQvVU5nd0RMYnZNS1lNKzZZNVdyU3JNZ0lvOFZydUhvTFl5OCtwWEk4Q0F3aUE1V2t5VG90ckxvVytZQXpxNUJKRmU3MnJ5S2tBUTBUdz09&plusEmbedTitle=true" width="100%" height="400"></iframe>
+{{< p5js autoplay="1" width="400" height="600">}}
+let x;
+let y;
+let s;
+let c;
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  x = random(100,width-100);
+  y = random(100,height-100);
+  s = random(10,40);
+  c = random(0,200);
+  background(130, 80, 130);
+}
+
+function draw() {
+  //background(130, 80, 130);
+  stroke(0);
+  fill(c);
+  ellipse(x, y, s);
+  x = x + random(-3,3);
+  y = y + random(-3,3);
+}
+{{</ p5js >}}
 
 ---
 

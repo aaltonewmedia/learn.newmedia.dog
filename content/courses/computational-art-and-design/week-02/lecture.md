@@ -1,10 +1,14 @@
 ---
-title: "Lecture & Deliverables"
+title: "MON | Lecture"
 bookCollapseSection: false
 weight: 10
-p5js-widget: true
+p5js-widget: false
 ---
 
-# Week 02 | Lecture & Deliverables
+# Week 02 | Lecture: History of Programming
 
 ---
+
+## Markku Reunanen: History of Programming
+
+See MyCourses for the lecture slides.

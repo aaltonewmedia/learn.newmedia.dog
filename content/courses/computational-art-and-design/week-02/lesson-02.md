@@ -1,8 +1,8 @@
 ---
-title: "Conditionals 02"
+title: FRI | Conditional Statements"
 bookCollapseSection: false
 weight: 30
-p5js-widget: true
+p5js-widget: false
 ---
 
 # Week 02 | ...

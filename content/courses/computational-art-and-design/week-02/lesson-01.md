@@ -1,8 +1,8 @@
 ---
-title: "Control Flow | Conditional Statements"
+title: "THU | Control Flow & Conditional Statements"
 bookCollapseSection: false
 weight: 20
-p5js-widget: true
+p5js-widget: false
 ---
 
 # Week 02 | Control Flow | Conditional Statements
