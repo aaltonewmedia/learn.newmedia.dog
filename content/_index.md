@@ -7,7 +7,7 @@ description: "Course materials for courses taught by Matti Niinimäki."
 
 ---
 
-## New Media Design and Production | MA in New Media
+## New Media | MA in Art and Media
 
 
 
