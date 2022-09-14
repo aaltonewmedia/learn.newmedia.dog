@@ -9,6 +9,12 @@ p5js-widget: false
 
 ---
 
+## Inspiration
+
+{{<vimeo 232656895>}}
+
+[Zach Liebermann](http://zach.li/)
+
 ## p5js: mouseIsPressed and keyIsPressed
 
 There are two new system variables built into p5js that we are going to need to use this week:
@@ -33,7 +39,9 @@ When setting up your conditions for ```if``` statements, you need to compare val
 - [Greater than: >](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than)
 - [Greater than or equal to: >=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than_or_equal)
 
-> Do not mix these with the [arrow function =>](https://www.w3schools.com/js/js_arrow_function.asp) which does something very different. We are nowhere near the stage where we would actually need to use or even understand the arrow function. For now, just don't mix it up with the comparison operators above.
+{{<hint danger>}}
+Do not mix these with the [arrow function =>](https://www.w3schools.com/js/js_arrow_function.asp) which does something very different. We are nowhere near the stage where we would actually need to use or even understand the arrow function. For now, just don't mix it up with the comparison operators above.
+{{</hint>}}
 
 ---
 
@@ -173,6 +181,8 @@ function draw() {
 
 ## if/else if/else
 
+If you need to have three or more options, you can use the ```else if```.
+
 [![if, else if, and else statement flowchart](/images/conditional_statements_if-else_if-else.jpg)](/images/conditional_statements_if-else_if-else.jpg)
 
 ```
@@ -184,6 +194,8 @@ if (mouseX < width/4) {
   console.log("right side");
 }
 ```
+
+This structure can get a litlle bit confusing. Especially, when you are just starting to work with code. I would recommend using separate if statements for now instead of the ```else if```. 
 
 ### Example
 

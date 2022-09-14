@@ -17,6 +17,9 @@ draft: false
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
 - [p5js Reference](https://p5js.org/reference/)
+- [W3 Schools JavaScript Tutorials](https://www.w3schools.com/js/default.asp)
+- [Critical Coding Cookbook](https://criticalcode.recipes/)
+- [Programming Design Systems - Online Book](https://programmingdesignsystems.com/introduction/)
 
 ## Content
 

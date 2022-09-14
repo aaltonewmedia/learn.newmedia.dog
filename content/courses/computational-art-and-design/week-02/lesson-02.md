@@ -1,5 +1,5 @@
 ---
-title: FRI | Conditional Statements"
+title: "FRI | Conditional Statements"
 bookCollapseSection: false
 weight: 30
 p5js-widget: false
@@ -8,6 +8,8 @@ p5js-widget: false
 # Week 02 | ...
 
 ---
+
+## Inspiration
 
 ## switch
 
