@@ -1,11 +1,11 @@
 ---
-title: P5JS
+title: p5.js
 bookCollapseSection: true
 p5js-widget: true
-draft: true
+draft: false
 ---
 
-# How to do things in P5JS
+# How to do things in p5.js
 
 ---
 
