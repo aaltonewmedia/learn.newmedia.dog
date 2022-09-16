@@ -199,6 +199,28 @@ This structure can get a litlle bit confusing. Especially, when you are just sta
 
 ### Example
 
+Coming soon....
+
+
+## map()
+
+Another very useful function that we are going to need all the time is the [```map()```](https://p5js.org/reference/#/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
+
+
+{{< p5js width="400" height="400">}}
+let brightness = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  brightness = map(mouseX,0,width,0,255);
+  background(brightness);
+  text(mouseX,mouseX,mouseY);
+}
+{{</ p5js >}}
+
 ---
 
 ## Resources

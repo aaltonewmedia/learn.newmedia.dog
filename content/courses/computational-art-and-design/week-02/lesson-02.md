@@ -11,19 +11,22 @@ p5js-widget: false
 
 ## Inspiration
 
-## switch
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5eMSPtm6u5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Example
+<iframe src="https://archive.org/embed/experimentsinmotiongraphics" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
-<iframe src="https://openprocessing.org/sketch/1382646/embed/?plusEmbedHash=YmEyOWVlNjVjMzQ0NWM2MjgzMzgzMjQ5NzVjMjI0YmZjODY3OGJkYTA3NWQxNzZmNWZhMjhiOWYwMzM5YzA2ZjY3Y2RmZjU4ZGFjZDMwYTY3NDc2NjEyNDVmYzc0ZTNiY2I2NDk5ODAwMTllNzg5YWQzYTdjMjcwNzE3NWJmMmZlRGFJUkJROEs4N3lYWVVpdTlSTFFNVVZhV3U3NmdCaDB6ajdGOWN1bnI4R0VWeDZnQTJGaE85YUVnZVRDRkxYbVhnSWxyN2lEMVVpa0hPYkZpalFmUT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
+[John Whitney](https://en.wikipedia.org/wiki/John_Whitney_(animator))
 
-{{< hint warning >}}
-Using mouseIsPressed and keyIsPressed inside the draw() means that the program looks if they are pressed **every frame**. This might sometimes have unintended consequences. A better way would be to use the mousePressed() and keyPressed() functions. We will go through them in later classes but feel free to explore them already.
-{{< /hint >}}
+## Incrementation operators
 
----
+- [Addition +](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)
+- [Substratction -](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction)
 
 ## Logical operators && and ||
+
+- [AND &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
+- [OR ||](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
+- [JavaScript Comparison and Logical Operators](https://www.w3schools.com/js/js_comparisons.asp)
 
 ### Example #03 | Bouncing Ball
 
@@ -73,9 +76,59 @@ function draw() {
 
 {{< /details >}}
 
+## switch
+
+The [switch](https://www.w3schools.com/js/js_switch.asp) statement is used to perform different actions based on different conditions. It's really useful in situations where the input value has three or more possible options (like the keys from a keyboard).
+
+```js
+switch(expression) {
+  case a:
+    // code block
+    break;
+  case b:
+    // code block
+    break;
+  default:
+    // code block
+} 
+```
+
+This is how it works:
+
+- The switch expression is evaluated once.
+- The value of the expression is compared with the values of each case.
+- If there is a match, the associated block of code is executed.
+- If there is no match, the default code block is executed.
+
+### Example
+
+This example checks what key is pressed and does different things based on the input.
+- Keys ```1``` to ```5``` change the color
+- Keys ```u``` and ```d``` change the size of the brush
+- Pressing ```space``` will clear the drawing
+
+<iframe src="https://openprocessing.org/sketch/1382646/embed/?plusEmbedHash=YmEyOWVlNjVjMzQ0NWM2MjgzMzgzMjQ5NzVjMjI0YmZjODY3OGJkYTA3NWQxNzZmNWZhMjhiOWYwMzM5YzA2ZjY3Y2RmZjU4ZGFjZDMwYTY3NDc2NjEyNDVmYzc0ZTNiY2I2NDk5ODAwMTllNzg5YWQzYTdjMjcwNzE3NWJmMmZlRGFJUkJROEs4N3lYWVVpdTlSTFFNVVZhV3U3NmdCaDB6ajdGOWN1bnI4R0VWeDZnQTJGaE85YUVnZVRDRkxYbVhnSWxyN2lEMVVpa0hPYkZpalFmUT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
+
+{{< hint warning >}}
+Using mouseIsPressed and keyIsPressed inside the draw() means that the program looks if they are pressed **every frame**. This might sometimes have unintended consequences. A better way would be to use the mousePressed() and keyPressed() functions. We will go through them in later classes but feel free to explore them already.
+{{< /hint >}}
+
 ---
 
 ## Resources
 
 - [JavaScript Switch](https://www.w3schools.com/js/js_switch.asp)
 - [JavaScript Comparison and Logical Operators](https://www.w3schools.com/js/js_comparisons.asp)
+
+---
+
+## Homework
+
+Add your version of the bouncing ball sketch to our [Open Processing class](https://openprocessing.org/class/80657). It can just be pretty much the same we did in class, but maybe try adding some of your own flavor to it.
+
+For extra challenge, try the following:
+
+- something happens when the ball hits the wall (color changes)
+- try adding gravity and friction
+- try replacing the 2d shape with an image
+
