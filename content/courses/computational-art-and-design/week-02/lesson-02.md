@@ -5,7 +5,7 @@ weight: 30
 p5js-widget: false
 ---
 
-# Week 02 | ...
+# Week 02 | Conditional Statements Continued
 
 ---
 
