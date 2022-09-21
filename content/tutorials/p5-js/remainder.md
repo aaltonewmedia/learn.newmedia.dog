@@ -1,23 +1,27 @@
 ---
-title: "Tips & Tricks: modulo + frameCount"
+title: "Tips & Tricks: remainder (%) and frameCount"
 bookCollapseSection: false
 p5js-widget: true
 draft: false
 ---
 
-# How to animate and time things with the modulo operator (%) and frameCount
+# How to animate and time things with the remainder operator (%) and frameCount
 
 ---
 
-You might often find yourself in a situation where you need to make things happen at certain intervals or after a certain amount of time. One very handy way to do that is by using frameCount and % (modulo).
+You might often find yourself in a situation where you need to make things happen at certain intervals or after a certain amount of time. One very handy way to do that is by using frameCount and % (remainder). 
+
+{{<hint info>}}
+In some programming languages % is called the modulo operator. For two values of the same sign, the two are equivalent, but when the operands are of different signs, the modulo result always has the same sign as the divisor, while the remainder has the same sign as the dividend.
+{{</hint>}}
 
 The system variable frameCount contains the number of frames that have passed since the program started. If your frame rate is 60, each second will contain 60 frames. How is this useful for us?
 
-There are countless ways you can use the frameCount, and I will explain here a couple of the most useful things you can do. There is just one additional thing we need to understand: the modulo operator (%).
+There are countless ways you can use the frameCount, and I will explain here a couple of the most useful things you can do. There is just one additional thing we need to understand: the remainder operator (%).
 
-## % (modulo)
+## % (remainder)
 
-The modulo operator is used to calculate the remainder when one number is divided by another. For example, take the following:
+The remainder operator is used to calculate the remainder left over when one number is divided by another. For example, take the following:
 
 ```js
 5 % 2
@@ -30,9 +34,9 @@ Here 5 is the dividend (number being divided) and 2 is the divisor. In order to 
 
 The answer to the second step is the remainder, so 5 % 2 = 1
 
-## Using modulo with frameCount
+## Using remainder with frameCount
 
-If we use the modulo operator together with the frameCount, we can setup things that happen every x frames. For example, let’s say we want to make something happen each second, which should be every 60th frame if the frame rate stays steady. In your code you can do:
+If we use the remainder operator together with the frameCount, we can setup things that happen every x frames. For example, let’s say we want to make something happen each second, which should be every 60th frame if the frame rate stays steady. In your code you can do:
 
 ```js
 frameCount % 60
@@ -146,7 +150,7 @@ if (frameCount % 600 == 0){
 }
 ```
 
-You can also use the modulo and frameCount to setup other animated things for your program. Like cycling through colors. Here the colorMode has been set to HSB and the max values for each are (hue:360, saturation:100, brightness:100)
+You can also use the remainder and frameCount to setup other animated things for your program. Like cycling through colors. Here the colorMode has been set to HSB and the max values for each are (hue:360, saturation:100, brightness:100)
 
 {{<p5js autoplay="1" width="300" height="400">}}
 let sColor;
@@ -206,7 +210,7 @@ function draw() {
 	text("frameCount % 300: " + frameCount%600, 20,100);
   
 
-  // calculate the x position using frameCount and modulo
+  // calculate the x position using frameCount and remainder
 	// this limits the x to values between 0-299
 	x = frameCount % 300;
 	circle(x,240,40,40);
