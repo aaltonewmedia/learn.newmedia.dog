@@ -161,7 +161,7 @@ function draw() {
 What happens when the loop of our example code runs:
 
 1. The initialization is done once: ```variable x is created and the value 0 is assigned to it```
-2. The condition is checked: ```Is x less than or equal to 0?```
+2. The condition is checked: ```Is x less than or equal to width of the canvas?```
 3. If the condition evaluates to true, continue to step 4, otherwise skip to step 7.
 4. Run the code inside the loop. ```Draw a circle```
 5. Run the update expression. ```Add 25 to the value of x```
@@ -172,4 +172,55 @@ What happens when the loop of our example code runs:
 You are going to use for loops much often than the while loop. I still wanted to show it and build up to this example, so that you hopefully understand why the for loop is structured the way it is.
 {{</hint>}}
 
-## Example: Nested Loops
+### Index
+
+There is a certain way that the for loop is commonly used. The initialized variable is often called ```i``` (meaning index). This makes more sense after we learn about arrays, but even without them it's very helpful to start thinking about for loops this way. The variable name does not have to be called ```i```, but it is a convention that you will see a lot.
+
+```js
+for(let i = 0; i < 10; i++){
+  // repeat the loop the amount of times in the condition
+  // this loop would repeat 10 times, it counts from 0 to 9
+  // i++ is the same as i = i + 1;
+}
+```
+Think of this structure of the for loop as a counter that repeats as many times as the number in the condition expression. In the example above, we count from 0 to 9.
+
+## Example: Using the index (i)
+
+{{<p5js autoplay=1 width="200" height="400">}}
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background(130,80,120);
+  for(let i = 0; i < 5; i++){
+    let x = i*50;
+    circle(x, height/2, 50);
+  }
+}
+{{</p5js >}}
+
+## Example: For Loop Circle Tunnel
+
+{{<p5js autoplay=1 width="200" height="400">}}
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+  background(130,80,120);
+  noFill();
+  strokeWeight(3);
+  // i++ is the same as i = i + 1;
+  // i-- is the same as i = i - 1;
+  for(let i = 0; i < 200; i++){
+    //console.log(i);
+    let x = width/2 + i * map(mouseX, 0, width, -10, 10);
+    let y = height/2 + i * map(mouseY, 0, height, -10, 10);
+    let a = map(i, 0, 200, 255, 0);
+    stroke(255, a);
+    circle(x, y, 10 + i*12);
+  }
+}
+{{</p5js >}}
