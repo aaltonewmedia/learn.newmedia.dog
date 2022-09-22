@@ -9,3 +9,167 @@ p5js-widget: true
 
 ---
 
+## Inspiration
+
+{{<vimeo 73939362>}}
+
+[Rafael Lozano-Hemmer](https://www.lozano-hemmer.com/)
+
+## Loops
+
+We are going to learn about two different ways to create loops AKA repeat something AKA iterate. Those two options are [while](https://www.w3schools.com/js/js_loop_while.asp) and [for](https://www.w3schools.com/js/js_loop_for.asp). A simple rule of thumb for choosing which one to use
+
+- [while](https://www.w3schools.com/js/js_loop_while.asp): when you want to repeat something, but you don’t know exactly how many times
+- [for](https://www.w3schools.com/js/js_loop_for.asp): when you want to repeat something, and you know the amount of times that you want to do it
+
+But there are other things to also know about while and for. Let’s try to go through them.
+
+{{<hint info>}}
+There are two other loops available in JavaScript that are really useful:
+- [For In](https://www.w3schools.com/js/js_loop_forin.asp)
+- [For Of](https://www.w3schools.com/js/js_loop_forof.asp)
+
+We might need or want to use them later in the course, but let's try to understand the basic while and for loops first.
+{{</hint>}}
+
+## While
+
+The while loop structure resembles the if statement, with one key difference: an if statement is only executed once and the while loop is going to repeat itself as long as the expression is true. **Note: Because of this functionality, it is important to make sure that the while does not get stuck in an infinite loop. So make sure that there is a way for the expression to become false.**
+
+```js
+while (condition) {
+  // code block to be executed
+}
+```
+
+In general, you use the while loop when you want to repeat something, but you do not know exactly how many times you want to repeat it. Some examples of cases like these that you might run into:
+
+- Your program waits for the user to give some sort of input to move on to the next part of your code.
+- Your program waits for a device to connect before moving to the next part of your code. You might run into this in the Physical Computing class.
+
+Or you can also use the while loop in a way where you create a specific variable that you control to be able to escape from the loop. How is this useful? Let’s say you wanted to draw a bunch of circles side by side. The way we know how to do it so far, would be just to repeat the same line again and again:
+
+{{<p5js autoplay=1 width="200" height="400">}}
+function setup() {
+  createCanvas(200, 200);
+  background(130, 80, 130);
+}
+
+function draw() {
+  circle(0, 100, 25);
+  circle(25, 100, 25);
+  circle(50, 100, 25);
+  circle(75, 100, 25);
+  circle(100, 100, 25);
+  circle(125, 100, 25);
+  circle(150, 100, 25);
+  circle(175, 100, 25);
+  circle(200, 100, 25);
+}
+{{</p5js >}}
+
+The value for the x coordinate increases by 25 after each circle. If I would want to change the distance between the circles, I would need to adjust this on every single line. Based on what we know so far, this seems like a job for a variable! Let's see if we can improve our code.
+
+The example below uses a varible called ```x``` that we increment after drawing each circle.
+
+{{<p5js autoplay=1 width="200" height="400">}}
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background(130, 80, 130);
+  let x = 0;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+  x = x + 25;
+  circle(x, 100, 25);
+}
+{{</p5js >}}
+
+Seems like we are getting somewhere but our code seems to become even more complicated! We are also constantly repeating the same lines. There really must be a better way to do this, right?
+
+There is! We can use loops. Here we use the ```while``` loop to repeat the two lines of code that we were manually writing multiple times. The condition ```x <= width``` tells the code to repeat the loop until the condition becomes false. In our case, the loop repeats until the x becomes larger than or equal to the width of the canvas. ***Note that we have the declaration of the variable inside the draw function. This is because we want the value of x to reset back to 0 on each frame.***
+
+{{<p5js autoplay=1 width="200" height="400">}}
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background(130, 80, 130);
+  let x = 0;
+  while(x <= width){
+    circle(x,100, 25);
+    x = x + 25;
+ }
+}
+{{</p5js >}}
+
+{{<hint danger>}}
+When you use while loops, you always have to provide a condition that will eventually become false. If you don't, the code will get stuck in an infinite loop and might crash your browser.
+{{</hint>}}
+
+## For
+
+As you can see, when you use the while loop you might often need:
+
+1. A variable that you reset in the beginning (initialization)
+2. An expression that compares that variable to some kind of limit (condition)
+3. Some kind of update statement that changes the variable. Often you increment this value by some amount. (update)
+
+This is a very common structure and you often end up using it all the time. Therefore, a specific loop exists to do just this. This is the [for](https://www.w3schools.com/js/js_loop_for.asp) loop.
+
+```js
+for (initialization; condition; update) {
+  // code block to be executed
+}
+```
+
+- ```initialization``` is executed (one time) before the execution of the code block.
+- ```condition``` defines the condition for executing the code block. This is done at the beginning of each repetition of the loop.
+- ```update``` is executed (every time) after the code block has been executed.
+
+Our example looks like this using the for loop:
+
+{{<p5js autoplay=1 width="200" height="400">}}
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background(130, 80, 130);
+  for(let x = 0; x <= width; x = x + 25){
+    circle(x,100, 25);
+ }
+}
+{{</p5js >}}
+
+What happens when the loop of our example code runs:
+
+1. The initialization is done once: ```variable x is created and the value 0 is assigned to it```
+2. The condition is checked: ```Is x less than or equal to 0?```
+3. If the condition evaluates to true, continue to step 4, otherwise skip to step 7.
+4. Run the code inside the loop. ```Draw a circle```
+5. Run the update expression. ```Add 25 to the value of x```
+6. Go back to step 2.
+7. Escape the loop and continue with the rest of the code.
+
+{{<hint info>}}
+You are going to use for loops much often than the while loop. I still wanted to show it and build up to this example, so that you hopefully understand why the for loop is structured the way it is.
+{{</hint>}}
+
+## Example: Nested Loops
