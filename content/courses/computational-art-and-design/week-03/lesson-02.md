@@ -288,7 +288,7 @@ function draw() {
 
 ## Homework
 
-Practice using the for loop and arrays. You are free to experiment with any
+Practice using the for loop and arrays. You are free to experiment with any of the things we have learned so far but combine it with the for loop. Or make adjustments to the examples we created in class.
 
 {{<hint info>}}
 If you don't have any ideas on what do do, you can try to do one of the following:
