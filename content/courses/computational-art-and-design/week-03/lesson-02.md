@@ -106,7 +106,7 @@ function draw() {
   for(let i = 0; i < cities.length; i++){
     let x = 20;
     let y = 20 + i * 20;
-    text(cities[i], 20, y);
+    text(cities[i], x, y);
   }
 }
 {{</p5js >}}
