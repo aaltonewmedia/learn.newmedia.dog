@@ -11,6 +11,8 @@ p5js-widget: true
 
 ## Working with images
 
+Loading images
+
 ## Working with video
 
 ### Video files
