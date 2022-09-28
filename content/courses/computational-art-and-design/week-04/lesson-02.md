@@ -5,6 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Week 04 | Sound Visualizations
+# Week 04 | Sound, Sound Visualizations
 
 ---
