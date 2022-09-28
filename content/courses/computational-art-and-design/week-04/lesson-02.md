@@ -8,3 +8,6 @@ p5js-widget: true
 # Week 04 | Sound, Sound Visualizations
 
 ---
+
+
+![Files](../img/p5js_files.png)

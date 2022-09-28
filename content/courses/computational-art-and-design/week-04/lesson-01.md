@@ -9,6 +9,10 @@ p5js-widget: true
 
 ---
 
+## External files
+
+![Files](../img/p5js_files.png)
+
 ## Working with images
 
 Loading images
@@ -19,7 +23,15 @@ Loading images
 
 ### Live video
 
+Using live video capture from your webcam is not really that much more difficult than using any other image.
+
+{{<hint warning>}}
+The p5js widget that I have been using does not work with the live video. So I will just provide the code examples and links to the projects on the p5js editor.
+{{</hint>}}
+
 ```js
+let capture;
+
 function setup() {
   createCanvas(400, 400);
   capture = createCapture(VIDEO);
@@ -33,4 +45,18 @@ function draw() {
 }
 ```
 
-<iframe src="https://openprocessing.org/sketch/1672488/embed/?plusEmbedHash=MWJmOGRlMWUxMjU4MzFmMjUwNjJjMzU3YjI0MmY5ZTBkY2FjZTJhZDAwOTU1NzJiNTg3YzczNGU5ZGNlNDgwYTQ0NjJiYWQ3MjcyYTNjMzVmYjkwNzYwNWFmNWNhNmNiYTY1ZGEyZWRjNjdkMTZjMTVmNjJlOTUyYTMxZGU1MGFoRGkyUUo5WGwyYi8zMTk1UGUzT3J0ck5ZWmpuN0l2OTZza3laVWZMQmE0eFlqT2xVcWRGMHFrdU1KbjdBdjNuMEtybTE1cGtkc1FOWEluaWcyZ0xQUT09&plusEmbedTitle=true" width="400" height="400"></iframe>
+{{<p5js autoplay=1 width="400" height="400">}}
+let capture;
+
+function setup() {
+  createCanvas(400, 400);
+  capture = createCapture(VIDEO);
+  // you can use this to hide the video preview under the canvas
+  capture.hide();
+}
+
+function draw() {
+  background(220);
+   image(capture, 0, 0, width, width * capture.height / capture.width);
+}
+{{</p5js >}}
