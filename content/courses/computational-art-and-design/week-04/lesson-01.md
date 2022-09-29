@@ -56,6 +56,11 @@ You can use your own images, or if you want to follow along with my examples, yo
 
 [Chromatrope Images](/images/examples/chromatrope.zip)
 
+And I have this png image with transparent background you can use:
+
+[![Flower png](/images/examples/flower.png)](/images/examples/flower.png)
+This flower is from the [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/31302218865/).
+
 - [loadImage()](https://p5js.org/reference/#/p5/loadImage)
 - [image()](https://p5js.org/reference/#/p5/image)
 - [tint()](https://p5js.org/reference/#/p5/tint)
