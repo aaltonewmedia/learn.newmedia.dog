@@ -11,7 +11,7 @@ p5js-widget: true
 
 ## Download example files
 
-[Download the foghorn sample](/sounds/foghorn.wav)
+[Download the foghorn sample](/sound/foghorn.wav)
 
 
 ## p5js Sound Library
