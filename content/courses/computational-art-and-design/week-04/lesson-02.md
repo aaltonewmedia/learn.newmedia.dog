@@ -1,5 +1,5 @@
 ---
-title: "Sound Visualizations"
+title: "FRI | Sound Visualizations"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
