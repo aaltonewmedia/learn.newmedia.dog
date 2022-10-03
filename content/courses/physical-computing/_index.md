@@ -2,7 +2,7 @@
 title: "Physical Computing/Electronics for Artists"
 bookCollapseSection: true
 weight: 20
-draft: true
+draft: false
 ---
 
 # Physical Computing
