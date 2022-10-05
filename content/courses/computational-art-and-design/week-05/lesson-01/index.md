@@ -139,7 +139,7 @@ let offsetY;
 let img;
 
 function preload(){
-  img = loadimage("img/transformation_grid.png");
+  img = loadImage("../img/transformation_grid.png");
 }
 
 function setup() {
