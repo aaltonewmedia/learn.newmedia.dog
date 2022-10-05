@@ -143,6 +143,14 @@ Here is an example with the grid image.
 
 ### scale()
 
+We can also control the size of things we draw using the [scale()](https://p5js.org/reference/#/p5/push) transformation. 
+
+{{<hint info>}}
+***Please note!*** The order of transformation operations matters. You will get very different results depending on the order you translate, rotate and scale.
+{{</hint>}}
+
+<iframe src="https://openprocessing.org/sketch/1683572/embed/?plusEmbedHash=OWE3ZDJhZTRmZTRjMjllOWI0MjVhOThmYjdlMTU0ZWI0MWZlNWRmYzZmMDcxOTlkNGRjYzQ5MTg3OGYyMGU1ODJlMTFiMWY0MzQ1MjZjOThiZmU3ZGE2ZGJhYzUyZmQwMTY3YWM0OWY0MDc4OWVlYzZlODgyODliMTEwMmFjOGVScFozZThEcHFtOFFMcHBpZ1RlMmloNWlBcXJQMTZOU2liZ1Q4YmFyOElUNVBvRm9mWkZzZ3NpNEV2RXdmd3BVODRIaWorSUdncGRtUjBYWnZaQzNEQT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
 ### Transformations stack!
 
 {{<hint danger>}}
@@ -209,8 +217,6 @@ function draw() {
 {{</p5js >}}
 
 We could try something where we undo all the translations and rotations after drawing the rectangles by repeating the rotations and translate in the negative direction.
-
-
 
 ```js
   // undo rotations
