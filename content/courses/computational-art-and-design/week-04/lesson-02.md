@@ -9,10 +9,18 @@ p5js-widget: true
 
 ---
 
+## Inspiration
+
+{{<youtube cywFvcRR-QI>}}
+
+{{<youtube rtR63-ecUNo>}}
+
+- [Ryoji Ikeda](https://www.ryojiikeda.com/)
+- [Jerobeam Fenderson](https://oscilloscopemusic.com)
+
 ## Download example files
 
 [Download the foghorn sample](/sound/foghorn.wav)
-
 
 ## p5js Sound Library
 

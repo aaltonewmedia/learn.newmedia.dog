@@ -1,11 +1,11 @@
 ---
-title: "THU | 2D transformations, Functions"
+title: "THU | 2D transformations"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
 ---
 
-# Week 05 | 2D Transformations, Functions
+# Week 05 | 2D Transformations
 
 ---
 
@@ -100,7 +100,7 @@ function draw() {
 
 Note how the code looks much simpler. We call the translate() only once and everything we draw after that inside the draw function uses this location as the reference point.
 
-That is the key to understanding how it works. It doesn't really move the shapes themselves. It moves the reference point for all the drawing functions away from the 0,0 corner in the top-left of the canvas. So for the circle() 0,0 is now in the middle of the screen (or whateve you define as the coordinates). We can do the same thing with simple interaction.
+That is the key to understanding how ```translate()``` works. It doesn't really move the shapes themselves. It moves the reference point for all the drawing functions away from the 0,0 corner in the top-left of the canvas. So for the circle() 0,0 is now in the middle of the screen (or whateve you define as the coordinates). We can do the same thing with simple interaction.
 
 {{<p5js autoplay=1 width="400" height="400">}}
 let offsetX;
@@ -133,14 +133,27 @@ Let's look at how this same idea would work with images. You can dowload the ima
 
 ![Tranlation Grid](../img/transformation_grid.png)
 
+<iframe src="https://openprocessing.org/sketch/1682862/embed/?plusEmbedHash=MmY2ZTA4ZDUyNWY1NTIxMTIzMjljZDVkZmM2NjZiODZiYjA0OGRmZmRmZGQxNjhjNDc4MGUxY2NkMGMyM2I1OGI5OWIxNzhkMDhhZjE4YTU5MmM5NWNiYjdiYTA1ZjdjMGQwNDEyZjA0NGVhNTIxZDcyMzc4ZTVmNmZlZDQxNGJsb3VZaC9PbTdnUzdRVW1lQ1hvWnFnMXZnNlV5SWlLaUFCM083cm5WcnJmVGxnMXBYc3hicXU3bU85M1JkU1FkL0RPakNQWTErZDlpY1pTcVhkMkdsQT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
+### rotate()
+
+Here is an example with the grid image.
+
+<iframe src="https://openprocessing.org/sketch/1682870/embed/?plusEmbedHash=NWQzNzBjYTgwYmM2ZWNjYjIzNjUwYmUwYmI1ZWI0YzhhZjE4YmNjOTM2YzdiNWFmZDlkNjMyZWZjOTI3NTA2ZTQwYWE4OGUyMTZiZDI4M2FmMWQ3OWQxNDUyZWY0NjFkNjEyMjA3ZGFhMDRjZTE5MTY2Y2Y2M2ExOTRiZGJjMDdESklGWTlKVWRoT1EwNTdxK3VGUkRTVEp6bzJKd0lZK0VxUVhqZU9oM25QWjhNUFluRWdLWFduazZtZnFqY0FuZTNHT1dBckpSRm1YNVB5MkNsVk5mdz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
+### scale()
+
+### Transformations stack!
+
+{{<hint danger>}}
+***Please note!*** All of the transformations that you do in one frame (one loop of the draw() function) keep on adding on top of each other. Sometimes this could be useful, sometimes it creates lots of confusion and problems.
+{{</hint>}}
+
+A useful feature of this stacking would be using the transformation in a for loop. We could say that a shape should rotate 10 degrees more each time that the for loop repeats.
+
 {{<p5js autoplay=1 width="400" height="400">}}
 let offsetX;
 let offsetY;
-let img;
-
-function preload(){
-  img = loadImage("img/transformation_grid.png");
-}
 
 function setup() {
   createCanvas(400, 400);
@@ -154,8 +167,132 @@ function setup() {
 
 function draw() {
   background(130,70,120);
-  offsetX = mouseX;
-  offsetY = mouseY;
-  image(img,0,0);
+  translate(offsetX,offsetY);
+  let num = map(mouseX,0,width,1,36);
+  for(let i = 0; i < num; i++){
+    rotate(radians(10));
+    rect(0,0,100,50);
+  }
 }
 {{</p5js >}}
+
+If we want to draw anything above these shapes–let's say some text connected to the mouse coordinates–we end up with the text also offset and rotated.
+
+{{<p5js autoplay=1 width="400" height="400">}}
+let offsetX;
+let offsetY;
+
+function setup() {
+  createCanvas(400, 400);
+  background(130,70,120);
+  noFill();
+  stroke(255);
+  strokeWeight(4);
+  offsetX = width/2;
+  offsetY = height/2;
+}
+
+function draw() {
+  background(130,70,120);
+  noFill();
+  stroke(255);
+  translate(offsetX,offsetY);
+  let num = map(mouseX,0,width,1,36);
+  for(let i = 0; i < num; i++){
+    rotate(radians(10));
+    rect(0,0,100,50);
+  }
+  fill(0);
+  noStroke();
+  text("This is cool!", mouseX, mouseY);
+}
+{{</p5js >}}
+
+We could try something where we undo all the translations and rotations after drawing the rectangles by repeating the rotations and translate in the negative direction.
+
+
+
+```js
+  // undo rotations
+  for(let i = 0; i < num; i++){
+    rotate(radians(-10));
+  }
+  
+  // undo translate
+  translate(-offsetX,-offsetY);
+```
+
+{{<hint warning>}}
+Don't do this, we will learn a better way very soon. It's good to still understand that you can do this.
+{{</hint>}}
+
+{{<p5js autoplay=1 width="400" height="400">}}
+let offsetX;
+let offsetY;
+
+function setup() {
+  createCanvas(400, 400);
+  background(130,70,120);
+  noFill();
+  stroke(255);
+  strokeWeight(4);
+  offsetX = width/2;
+  offsetY = height/2;
+}
+
+function draw() {
+  background(130,70,120);
+  noFill();
+  stroke(255);
+  translate(offsetX,offsetY);
+  let num = map(mouseX,0,width,1,36);
+  for(let i = 0; i < num; i++){
+    rotate(radians(10));
+    rect(0,0,100,50);
+  }
+
+  // undo rotations
+  for(let i = 0; i < num; i++){
+    rotate(radians(-10));
+  }
+
+  // undo translate
+  translate(-offsetX,-offsetY);
+
+  fill(0);
+  noStroke();
+  text("This is cool!", mouseX, mouseY);
+}
+{{</p5js >}}
+
+For this simple example, it's not such a complicated thing to do. But what if we want to have lots of different shapes, images or text moving, rotating or scaling independently of each other? Keeping track of all this would get really complicated. Surely there must be some way to get around this issue? The solution is to use [push()](https://p5js.org/reference/#/p5/push) and [pop()](https://p5js.org/reference/#/p5/pop).
+
+### push() and pop()
+
+These two handy functions are used to **save** and **restore** the transformation matrix back to a certain state.
+
+- [push()](https://p5js.org/reference/#/p5/push) tells your program to save whatever the state of the transformation is at that specific point in the code.
+- [pop()](https://p5js.org/reference/#/p5/pop) tells your program to restore the state of the transformation matrix to the previously saved state. Meaning the last time you called push().
+
+{{<hint info>}}
+You could think of them like layers in Photoshop. Each section of your code that is between the push() and pop() commands is sort of like its own layer.
+{{</hint>}}
+
+This example does the following:
+
+- Draw the grid in the background without any transformations
+- Draw the green rectangle where the mouse is and rotate it constantly clockwise
+- Draw the red rectangle in the middle of the screen and rotate it constantly anti-clockwise
+- **Note that the transformations reset back to the origin when the next frame starts**
+
+<iframe src="https://openprocessing.org/sketch/1682880/embed/?plusEmbedHash=ZGYwNzc1ZmY2NTQyYzg1MGNmNmFkMDdlYzQxOTA0MGQ0ZDkxYmY1YzdkYzMzZTZjMjUwODk2MDAyY2JmZmYwM2VmZDUxMjM2OWVlZGYzZmJjMWQzNjAzMTlkY2EwZjUyNjg2MjQyMjk1OWQ0ODQ1YTIyMjkyNmNjZTk5NTA2YzExWUVVK3FuKzJLVGlGVGZJTFg2UFgzbmNJSkhteG9Oc2QvOVpWZU1lK2JlbWgzNytNUk1QOEZkMWpHRTh5VWp0UzQraTJhalFZT1NlMnBnS1l5WTFsQT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
+## References and more information
+
+I have been talking about the transforamtion **matrix**. What is that? Are you expected to choose between a red or blue pill? Is reality just a simulation? Maybe, but none of this has to do with the movie. 
+
+<iframe src="https://openprocessing.org/sketch/408631/embed/?plusEmbedHash=YzBmMDUzYTJhYWViYzJhOGQ4ZTdmMTY4NTE5ODYwYjU5YWQwNWM4MWEwMjg3MWQyZTc4ZmNmMTI3YzliMDhjNDhmZDY1MzI2M2MxYzdmMjE0NGUwYTYyYzE2MWE3MzJlOTliNGIwMmZlYzI3ZGQzZTdmZmUwNDY1YjU1NThkNWFPTzlJa1pENS9MZ3o5QThxNFExSEtySE5RVkJ1N1k5K1NtUGV2Wm9FZUtrWDFvT3pRTHJzYndyQlRUZG4xOXFMMHNwaXdmdXp1Y3ppb1hLbTJjNnNOQT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
+
+You can learn more about transformation matrices on [Wikipedia](https://en.wikipedia.org/wiki/Transformation_matrix).
+
+Does everything on that page look completely alien to you? If so, you can keep on living in the simulation and just ignore all of the technical details. For our purposes this level of understanding that we covered on this page is enough. You do not have to necessarily know all the technical details. That is why we have computers. they can do all the complex technical stuff and we can make focus on making something interesting with them.
