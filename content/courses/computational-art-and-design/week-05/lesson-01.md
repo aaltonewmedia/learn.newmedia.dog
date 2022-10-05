@@ -139,7 +139,7 @@ let offsetY;
 let img;
 
 function preload(){
-  img = loadimage("../img/transformation_grid.png");
+  img = loadimage("/images/transformation_grid.png");
 }
 
 function setup() {
@@ -156,11 +156,6 @@ function draw() {
   background(130,70,120);
   offsetX = mouseX;
   offsetY = mouseY;
-  translate(offsetX,offsetY);
-  point(0,0);
-  circle(0,0,100);
-  circle(-20,-20,20);
-  circle(20,-20,20);
-  line(-20,20,20,20);
+  image(0,0);
 }
 {{</p5js >}}
