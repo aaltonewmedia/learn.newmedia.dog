@@ -9,9 +9,17 @@ p5js-widget: true
 
 ---
 
-This week is going to be about finding ways to structure, simplify and compartmentalize your code. We will learn about **transformations** that allow you to rotate, move and scale things that you draw. Additionally, we will learn the basics of using **functions**.
+## Inspiration
+
+{{<vimeo 359789029>}}
+
+{{<vimeo 625463038>}}
+
+[Eevi Rutanen](https://www.eevirutanen.com/)
 
 ## 2D Transformations
+
+This week is going to be about finding ways to structure, simplify and compartmentalize your code. We will learn about **transformations** that allow you to rotate, move and scale things that you draw. Additionally, we will learn the basics of using **functions**.
 
 Let's take an example sketch, where we would like to draw a simple face that is centerd on the canvas. We could use some variables to store the x and y coordimnates of the center of the screen and use these as a reference point for drawing the shapes. I am calling these variables ```offsetX``` and ```offsetY```.
 
