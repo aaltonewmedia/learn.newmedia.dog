@@ -401,38 +401,38 @@ function draw() {
 }
 
 function drawHour(x,y){
-  let angle = map(h,0,12,-90,270);
+  let angle = map(h,0,12,0,360);
   let length = 50;
   push();
   strokeWeight(8);
   stroke(0);
   translate(x,y);
   rotate(radians(angle));
-  line(0,0,length,0);
+  line(0,0,0,-length);
   pop();
 }
 
 function drawMinute(x,y){
-  let angle = map(m,0,60,-90,270);
+  let angle = map(m,0,60,0,360);
   let length = 100;
   push();
   strokeWeight(6);
   stroke(0);
   translate(x,y);
   rotate(radians(angle));
-  line(0,0,length,0);
+  line(0,0,0,-length);
   pop();
 }
 
 function drawSecond(x,y){
-  let angle = map(s,0,60,-90,270);
+  let angle = map(s,0,60,0,360);
   let length = 100;
   push();
   strokeWeight(2);
   stroke(255,0,0);
   translate(x,y);
   rotate(radians(angle));
-  line(0,0,length,0);
+  line(0,0,0,-length);
   pop();
 }
 {{</p5js >}}
