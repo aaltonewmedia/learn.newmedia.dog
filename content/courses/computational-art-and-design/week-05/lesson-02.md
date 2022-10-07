@@ -17,7 +17,10 @@ p5js-widget: true
 
 {{<youtube B7dbz9qepe0>}}
 
+{{<vimeo 72611093>}}
+
 - [John Maeda](https://maedastudio.com/)
+- [John Maeda's Blog](https://maeda.pm/)
 - [Design by Numbers](https://mitpress.mit.edu/9780262632447/design-by-numbers/)
 
 ## Functions
