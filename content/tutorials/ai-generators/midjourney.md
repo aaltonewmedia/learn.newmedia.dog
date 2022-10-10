@@ -1,7 +1,7 @@
 ---
 title: Midjourney
 weight: 20
-draft: true
+draft: false
 ---
 
 # Midjourney

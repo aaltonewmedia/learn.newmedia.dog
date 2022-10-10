@@ -1,5 +1,5 @@
 ---
-title: "Physical Computing/Electronics for Artists"
+title: "Physical Computing"
 bookCollapseSection: true
 weight: 20
 draft: false

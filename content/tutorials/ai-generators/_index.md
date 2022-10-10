@@ -1,10 +1,12 @@
 ---
 title: AI Generators
 bookCollapseSection: true
-draft: true
+draft: false
 ---
 
 # Create images with AI
+
+## by Calvin Guillot
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Craiyon
 weight: 30
-draft: true
+draft: false
 ---
 
 # Craiyon / Dall-e mini

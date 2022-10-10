@@ -1,7 +1,7 @@
 ---
 title: Dall-E 2
 weight: 10
-draft: true
+draft: false
 ---
 
 # OpenAI Dall-E 2
