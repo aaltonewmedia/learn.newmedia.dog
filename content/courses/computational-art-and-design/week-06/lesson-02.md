@@ -65,7 +65,9 @@ You will forget to use the word **this** with objects and classes. There is even
 
 ---
 
-## Example
+## Examples
+
+## Simple Walker
 
 Let's create a simple example based on something that we have done before: the random walker.
 
@@ -80,7 +82,7 @@ We need to create a class called ```Walker``` that is able to create Walker ***o
 Additionally, we should create the following **methods** for the Walker
 
 - **constructor** this one is always needed, you can initialize all the properties in the contructor
-- **update** a method that will move/animate the Walker, basically something that does the walk
+- **move** a method that will move/animate the Walker, basically something that does the walk
 - **draw** a method that deals with drawing our Walker
 
 The class could look like this:
@@ -94,7 +96,7 @@ class Walker {
     this.c = color(random(255));
   }
 
-  update(){
+  move(){
     this.x = this.x + random(-3,3);
     this.y = this.y + random(-3,3);
   }
@@ -106,56 +108,116 @@ class Walker {
 }
 ```
 
+## Example: Array of Walkers
+
+Once you have made the Walker class, it's very easy to create many instances of the Walker.
+
 {{<p5js autoplay=0 width="400" height="800">}}
-let w = [];
-let num = 50;
+let myWalker=[];
+let num = 100;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  for(let i=0; i<num; i++){
-    w[i] = new Walker();
-  }
-  
+  createCanvas(400, 400);
+	for(let i=0; i<num; i++){
+		myWalker[i] = new Walker();
+	}
 }
 
 function draw() {
-  background(0);
-  for(let i=0; i<num; i++){
-    w[i].update();
-    w[i].draw();
-  }
+  background(220);
+	for(let i=0; i<num; i++){
+  	myWalker[i].move();
+  	myWalker[i].draw();
+	}
 }
 
-class Walker {
+class Walker{
   constructor(){
     this.x = random(width);
     this.y = random(height);
     this.s = random(10,100);
-    this.c = color(random(255));
-    this.active = false;
-    this.d = 0;
-  }
-
-  update(){
+    this.c = random(255);
+    this.name = "Matti";
+  } 
+  move(){
     this.x = this.x + random(-3,3);
     this.y = this.y + random(-3,3);
-    this.d = dist(mouseX,mouseY,this.x,this.y);
-    if(this.d<this.s/2){
-      this.active = true;
-    }else{
-      this.active = false;
-    }
   }
-
   draw(){
-    noFill();
-    if(this.active){
-      stroke(255,0,0);
-      fill(255,0,0);
-    }else{
-      stroke(this.c);
-    }
-    circle(this.x, this.y, this.s);
+    fill(this.c);
+    noStroke();
+    circle(this.x,this.y,this.s);
+		fill(255);
+		textAlign(CENTER);
+		text(this.name,this.x,this.y);
   }
 }
-{{</p5js >}}
+{{</p5js>}}
+
+## Example: Walker Explosion
+
+In this example, we make all the walkers emerge from the same location. This starting location is randomized when the code starts.
+
+We also replace all the walkers in the array with new ones when the mouse is clicked. The x and y location is based on the mouse coordinates.
+
+{{<p5js autoplay=0 width="400" height="800">}}
+let myWalker = [];
+let num = 1000;
+
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+  let rx = random(width);
+  let ry = random(height);
+  for(let i=0; i<num; i++){
+    myWalker[i] = new Walker(rx,ry);
+    myWalker[i].move();
+    myWalker[i].draw();
+  }
+}
+
+function draw() {
+  background(220);
+  for(let i=0; i<num; i++){
+    myWalker[i].move();
+    myWalker[i].draw();
+  }
+}
+
+function mousePressed(){
+  let rx = mouseX;
+  let ry = mouseY;
+  for(let i=0; i<num; i++){
+    myWalker[i] = new Walker(rx,ry);
+    myWalker[i].move();
+    myWalker[i].draw();
+  }
+}
+
+class Walker{
+  constructor(_x,_y){
+    this.x = _x;
+    this.y = _y;
+    this.s = random(1,20);
+    this.c = random(255);
+    this.name = "Matti";
+  } 
+  move(){
+    this.x = this.x + random(-3,3);
+    this.y = this.y + random(-3,3);
+  }
+  draw(){
+    fill(this.c);
+    noStroke();
+    circle(this.x,this.y,this.s);
+  }
+}
+{{</p5js>}}
+
+---
+
+## Resources
+
+- [W3 School Objects Tutorial](https://www.w3schools.com/js/js_objects.asp)
+- [W3 School Classes Tutorial](https://www.w3schools.com/js/js_classes.asp)
+- [W3 School This Tutorial](https://www.w3schools.com/js/js_this.asp)

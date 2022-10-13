@@ -21,74 +21,72 @@ p5js-widget: true
 
 ## Objects in JavaScript
 
-Objects are a 
+Objects are a handy way to **encapsulate** data and functions together. Or to be more precice we can create objects that have:
 
-We could define an object called ```face``` and store all of the values that are part of that object in one place:
+- different **properties** (like x, y, name etc.)
+- **property values** stored into these properties (x:100, y:100, name:"Matti").
+- **methods** that are actions that can be performed on objects (functions of the object)
+
+We could create and object called ```walker``` that stores all the properties we need for a random walker that we have coded many times before in the class.
 
 ```js
-let face = {x:200, y:200, s:100, eyeSize:20, name:"Matti"};
+let walker = {x: 100, y: 100, s: 50, c: 255, name: "Matti"
+};
 ```
 
-And then use the values to draw the face.
+You can also write it like this. Linebreaks and spaces do not matter.
 
-{{<p5js autoplay=1 width="400" height="400">}}
-let face = {x:200, y:200, s:100, eyeSize:20, name:"Matti"};
+```js
+let walker = {
+  x: 100,
+  y: 100,
+  s: 50,
+  c: 255,
+  name: "Matti",
+};
+```
+
+{{<p5js autoplay=0 width="400" height="600">}}
+let walker = {
+  x: 100,
+  y: 100,
+  s: 50,
+  c: 255,
+  name: "Matti",
+};
 
 function setup() {
   createCanvas(400, 400);
-  background(130,70,120);
 }
 
 function draw() {
-  background(130,70,120);
-  drawFace();
+  background(220);
+  moveWalker();
+  drawWalker();
 }
 
-function drawFace(){
-  push();
-  stroke(255);
-  strokeWeight(4);
-  noFill();
-  translate(face.x, face.y);
-  circle(0, 0, face.s);
-  circle(-20,-20,face.eyeSize);
-  circle(20,-20,face.eyeSize);
-  point(0,0);
-  line(-20,20,20,20);
+function moveWalker() {
+  walker.x = walker.x + random(-3, 3);
+  walker.y = walker.y + random(-3, 3);
+}
+
+function drawWalker() {
+  circle(walker.x, walker.y, walker.s);
   textAlign(CENTER);
-  noStroke();
-  fill(255);
-  text(face.name,0,face.s - 20);
-  pop();
+  text(walker.name, walker.x, walker.y);
 }
-{{</p5js >}}
-
-Or we could have an object called car and define all of the values that need to be part of the car.
-
-```js
-let car = {brand:"Toyota", model:"Yaris", color:"white", year:2020};
-```
-
-You can also write it like this:
-
-```js
-let car = {
-  brand:"Toyota", 
-  model:"Yaris", 
-  color:"white", 
-  year:2020
-};
-```
+{{</p5js>}}
 
 {{<hint warning>}}
 It is recommended to use ```const``` when you define and create an object. But I will generally just use ```let``` in this class to keep things simple.
 
 ```js
-const car = {
-  brand:"Toyota", 
-  model:"Yaris", 
-  color:"white", 
-  year:2020
+const walker = {
+  x: 100,
+  y: 100,
+  s: 50,
+  c: 255,
+  name: "Matti",
 };
 ```
 
@@ -100,19 +98,58 @@ const car = {
 In JavaScript we could also have **functions** in the objects, which is a very common way to use objects in JavaScript. Functions that are part of objects are called **methods**.
 
 ```js
-let car = {
-  brand:"Toyota", 
-  model:"Yaris", 
-  color:"white", 
-  year:2020,
-  x:0,
-  drive: function(){
-    this.x = this.x + 1;
+const walker = {
+  x: 100,
+  y: 100,
+  s: 50,
+  c: 255,
+  name: "Matti",
+  move: function(){
+    this.x = this.x + random(-3, 3);
+    this.y = this.y + random(-3, 3);
+  },
+  draw: function(){
+    circle(this.x, this.y, this.s);
+    textAlign(CENTER);
+    text(this.name, this.x, this.y);
   }
 };
 ```
 
+And in our example, we could change the code like this to use these methods that are part of the walker object.
+
+{{<p5js autoplay=0 width="400" height="600">}}
+let walker = {
+  x: 100,
+  y: 100,
+  s: 50,
+  c: 255,
+  name: "Matti",
+  move: function(){
+    this.x = this.x + random(-3, 3);
+    this.y = this.y + random(-3, 3);
+  },
+  draw: function(){
+    circle(this.x, this.y, this.s);
+    textAlign(CENTER);
+    text(this.name, this.x, this.y);
+  }
+};
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  walker.move();
+  walker.draw();
+}
+{{</p5js>}}
+
 {{<hint danger>}}
+**While this works just fine, we are not generally going to use methods in objects like this!**
+
 JavaScript has multiple ways to do many things, including how to work with objects. Adding methods like this in the objects works and you might see it used in other people's code. However, we are going to do this in a slightly different way using classes. [We are going to learn how classes work in the next lesson.](../lesson-02)
 {{</hint>}}
 
@@ -120,10 +157,12 @@ JavaScript has multiple ways to do many things, including how to work with objec
 
 ## Examples
 
+[Jump to the next lesson to see the examples we did in class about classes.](../lesson-02)
+
 ---
 
 ## Resources
 
 - [W3 School Objects Tutorial](https://www.w3schools.com/js/js_objects.asp)
-- [W3 School Classes Tutorial](https://www.w3schools.com/js/js_objects.asp)
-- [W3 School This Tutorial](https://www.w3schools.com/js/js_objects.asp)
+- [W3 School Classes Tutorial](https://www.w3schools.com/js/js_classes.asp)
+- [W3 School This Tutorial](https://www.w3schools.com/js/js_this.asp)
