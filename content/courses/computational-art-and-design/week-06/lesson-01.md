@@ -45,6 +45,35 @@ let walker = {
 };
 ```
 
+Accessing the properties of the object can be done using the dot syntax:
+
+```js
+objectName.propertyName
+```
+
+In our case
+
+```js
+walker.x
+```
+
+Then we can use these properties of the object in out code. For example, we can create two functions: ```moveWalker()``` and ```drawWalker()```.
+
+```js
+function moveWalker() {
+  walker.x = walker.x + random(-3, 3);
+  walker.y = walker.y + random(-3, 3);
+}
+
+function drawWalker() {
+  circle(walker.x, walker.y, walker.s);
+  textAlign(CENTER);
+  text(walker.name, walker.x, walker.y);
+}
+```
+
+Here is the full code:
+
 {{<p5js autoplay=0 width="400" height="600">}}
 let walker = {
   x: 100,
@@ -94,7 +123,7 @@ const walker = {
 
 ### Methods
 
-In JavaScript we could also have **functions** in the objects, which is a very common way to use objects in JavaScript. Functions that are part of objects are called **methods**.
+In JavaScript we could also have **functions** encapsulated inside the objects, which is a very common way to use objects in JavaScript. Functions that are part of objects are called **methods**.
 
 ```js
 const walker = {
