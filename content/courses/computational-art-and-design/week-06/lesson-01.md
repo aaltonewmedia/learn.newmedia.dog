@@ -5,7 +5,7 @@ weight: 20
 p5js-widget: true
 ---
 
-# Week 06 | Objects and Classes
+# Week 06 | Objects
 
 ---
 
@@ -126,7 +126,7 @@ const walker = {
 In JavaScript we could also have **functions** encapsulated inside the objects, which is a very common way to use objects in JavaScript. Functions that are part of objects are called **methods**.
 
 ```js
-const walker = {
+let walker = {
   x: 100,
   y: 100,
   s: 50,
