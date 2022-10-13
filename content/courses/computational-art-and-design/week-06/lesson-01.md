@@ -27,6 +27,8 @@ Objects are a handy way to **encapsulate** data and functions together. Or to be
 - **property values** stored into these properties (x:100, y:100, name:"Matti").
 - **methods** that are actions that can be performed on objects (functions of the object)
 
+[Take a look at the Objects tutorial from W3 School.](https://www.w3schools.com/js/js_objects.asp)
+
 We could create and object called ```walker``` that stores all the properties we need for a random walker that we have coded many times before in the class.
 
 ```js
