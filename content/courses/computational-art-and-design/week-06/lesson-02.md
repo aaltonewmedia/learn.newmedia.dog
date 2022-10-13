@@ -53,7 +53,7 @@ Classes were added into JavaScript in an update called ES6 in 2015.
 
 ### Methods
 
-## This
+### this
 
 A special keyword ```this``` is used with classes and objects
 
@@ -65,9 +65,9 @@ You will forget to use the word **this** with objects and classes. There is even
 
 ---
 
-## Examples
+## Examples: Walker
 
-## Simple Walker
+### Example: Simple Walker
 
 Let's create a simple example based on something that we have done before: the random walker.
 
@@ -77,6 +77,7 @@ We need to create a class called ```Walker``` that is able to create Walker ***o
 - **y** the y coordinate
 - **s** the size of the walker
 - **c** color
+- **name** a string that stores a name for the walker
 - we could add some other properties as well, but let's keep this first example simple
 
 Additionally, we should create the following **methods** for the Walker
@@ -94,6 +95,7 @@ class Walker {
     this.y = random(height);
     this.s = random(10,100);
     this.c = color(random(255));
+    this.name = "Matti";
   }
 
   move(){
@@ -108,7 +110,46 @@ class Walker {
 }
 ```
 
-## Example: Array of Walkers
+And here is the full code:
+
+{{<p5js autoplay=0 width="400" height="800">}}
+let myWalker;
+
+function setup() {
+  createCanvas(400, 400);
+  myWalker = new Walker();
+}
+
+function draw() {
+  background(220);
+  myWalker.move();
+  myWalker.draw();
+}
+
+class Walker{
+  constructor(){
+    this.x = random(width);
+    this.y = random(height);
+    this.s = random(10,100);
+    this.c = random(255);
+    this.name = "Matti";
+  } 
+  move(){
+    this.x = this.x + random(-3,3);
+    this.y = this.y + random(-3,3);
+  }
+  draw(){
+    fill(this.c);
+    noStroke();
+    circle(this.x,this.y,this.s);
+		fill(255);
+		textAlign(CENTER);
+		text(this.name,this.x,this.y);
+  }
+}
+{{</p5js>}}
+
+### Example: Array of Walkers
 
 Once you have made the Walker class, it's very easy to create many instances of the Walker.
 
@@ -154,11 +195,11 @@ class Walker{
 }
 {{</p5js>}}
 
-## Example: Walker Explosion
+### Example: Walker Explosion
 
 In this example, we make all the walkers emerge from the same location. This starting location is randomized when the code starts.
 
-We also replace all the walkers in the array with new ones when the mouse is clicked. The x and y location is based on the mouse coordinates.
+We also replace all the walkers in the array with new ones when the mouse is clicked. The x and y location is based on the mouse coordinates. This creates an effect that looks like the walker objects are exploding from the mouse cursor
 
 {{<p5js autoplay=0 width="400" height="800">}}
 let myWalker = [];
@@ -213,6 +254,11 @@ class Walker{
   }
 }
 {{</p5js>}}
+
+
+---
+
+## Examples: Rain
 
 ---
 
