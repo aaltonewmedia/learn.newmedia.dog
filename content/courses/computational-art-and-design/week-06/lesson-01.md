@@ -21,6 +21,8 @@ p5js-widget: true
 
 ## Objects in JavaScript
 
+Objects are a 
+
 We could define an object called ```face``` and store all of the values that are part of that object in one place:
 
 ```js
@@ -102,8 +104,8 @@ let car = {
   brand:"Toyota", 
   model:"Yaris", 
   color:"white", 
-  year:2020
-  x:0;
+  year:2020,
+  x:0,
   drive: function(){
     this.x = this.x + 1;
   }
