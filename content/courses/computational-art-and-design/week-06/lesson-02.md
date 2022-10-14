@@ -9,6 +9,12 @@ p5js-widget: true
 
 ---
 
+## Inspiration
+
+{{<vimeo 287093890>}}
+
+[Janelle Shane - AI Weirdness](https://www.aiweirdness.com/)
+
 ## Classes in JavaScript
 
 {{<hint info>}}
@@ -17,6 +23,8 @@ They are **templates** for creating objects.
 
 Classes are kind of like cookie cutters that you can use to create multiple cookies (objects).
 {{</hint>}}
+
+[See the JS Classes tutorial.](https://www.w3schools.com/js/js_classes.asp)
 
 This way of using classes is very similar to how they work in Processing and many other programming languages. Therefore, I will generally use classes to create objects during this course. This will help you work with other programming languages that you might use during your studies.
 
