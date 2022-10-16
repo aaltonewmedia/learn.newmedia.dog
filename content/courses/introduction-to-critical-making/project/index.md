@@ -38,13 +38,17 @@ At the end of the workshop you should submit the following:
 
 - At least one image from each day of the workshop of your process and the final device
 - At least one video of your device in action that explains what it does (either a file or link to some video sharing service like YouTube or Vimeo).
-- A pdf file where you document and reflect on your process throughout the workshop.
+- A pdf file where you document and reflect on your process throughout the workshop. How did you end up to your final version that you presented? What kind of things were you 
+
+---
 
 ## Framework: Critical Making
 
 {{<youtube B8C5sjjhsso>}}
 
 You will get some small readings throughout the week to hopefully inspire your work. [See the readings page for a compilation of all the readings and resources.](../reading-list/)
+
+Approach the brief from the viewpoint of **Critical Making**. Let's not just create an Internet connected device because we can, but try to build something that critically 
 
 ### Critical Design || Speculative Design
 
@@ -56,17 +60,23 @@ You might also find inspiration from speculative design or critical design.
 ![A/B](./img/ab.jpg)
 [A/B from Dunne and Raby, 2009](http://dunneandraby.co.uk/content/projects/476/0)
 
+### Internet of Shit
+
+- [Internet of Shit Twitter](https://twitter.com/internetofshit?lang=en)
+- [Internet of Shit articles on Vice](https://www.vice.com/en/topic/internet-of-shit)
+
 ### On Uselessness
 
 Your device does not have to be useful. One strategy for critically examining the world of IoT devices could be to make the most ridiculously useless thing you could think of. Here are some other approaches to uselessness that might serve as inspiration.
 
 #### Chindogu
 
-Chindogu are unuseless.
+Chindogu are **unuseless** inventions.
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Chind%C5%8Dgu)
 - [Chindogu Society](http://chindogu.com/ics/)
 - [Chindogu: The Unuseless Inventions of Kenji Kawakami](https://www.tofugu.com/japan/chindogu-japanese-inventions/)
+- [Books for loan on archive.org ](https://archive.org/search.php?query=creator%3A%22Kawakami%2C+Kenji%22)
 
 {{<youtube i_r6uZBQulo>}}
 
@@ -84,9 +94,15 @@ Setting out to make a "useless thing" can be a way to learn without setting your
 ### Part list
 
 - Arduino MKR1000
-- 
+- Momentery switch (multiple models to choose from)
+    - Option #1:
+    - Option #2:
+    - Option #3:
+- JST connectors
 
 ### Code
+
+You can download this example code to get your device running. You just need to change the values for the following variables:
 
 ---
 
