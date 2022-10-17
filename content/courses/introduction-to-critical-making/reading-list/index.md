@@ -15,4 +15,8 @@ draft: false
 
 ## Additional Readings
 
-## Other Resources on Critical Making
+## Videos
+
+{{<vimeo 100631185>}}
+
+{{<youtube PKXCIeQMzXA>}}

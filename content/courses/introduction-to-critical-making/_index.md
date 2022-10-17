@@ -21,12 +21,12 @@ draft: false
 
 This course is evaluated with a grade between 0-5.
 
-5 Excellent
-4 Very good
-3 Good
-2 Satisfactory
-1 Passable
-0 Fail
+- 5 Excellent
+- 4 Very good
+- 3 Good
+- 2 Satisfactory
+- 1 Passable
+- 0 Fail
 
 ### What is being evaluated?
 

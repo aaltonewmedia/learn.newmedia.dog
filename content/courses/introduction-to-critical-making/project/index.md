@@ -38,7 +38,7 @@ At the end of the workshop you should submit the following:
 
 - At least one image from each day of the workshop of your process and the final device
 - At least one video of your device in action that explains what it does (either a file or link to some video sharing service like YouTube or Vimeo).
-- A pdf file where you document and reflect on your process throughout the workshop. How did you end up to your final version that you presented? What kind of things were you 
+- A pdf file where you document and reflect on your process throughout the workshop. How did you end up to your final version that you presented? Was there something you struggled with? What did you learn?
 
 ---
 
@@ -48,7 +48,11 @@ At the end of the workshop you should submit the following:
 
 You will get some small readings throughout the week to hopefully inspire your work. [See the readings page for a compilation of all the readings and resources.](../reading-list/)
 
-Approach the brief from the viewpoint of **Critical Making**. Let's not just create an Internet connected device because we can, but try to build something that critically 
+Approach the brief from the viewpoint of **Critical Making**. Let's not just create an Internet connected device because we can, but try to build something that critically reflects on some aspects of the tools we are using.
+
+## Disobedient Electronics
+
+See the book [Disobedient Electronics](http://www.disobedientelectronics.com/) for some inspiration.
 
 ### Critical Design || Speculative Design
 
