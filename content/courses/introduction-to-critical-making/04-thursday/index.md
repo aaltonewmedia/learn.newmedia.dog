@@ -9,4 +9,9 @@ draft: false
 
 ---
 
+## 3D Printers in Väre
 
+All of the Ultimaker printers in Väre are the [Ultimaker 2+Connect](https://ultimaker.com/3d-printers/ultimaker-2-plus-connect) models.
+
+
+## 3D Printers in Fablab
