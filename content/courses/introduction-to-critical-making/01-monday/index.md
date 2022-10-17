@@ -53,9 +53,9 @@ In order to use the Väre workshops in Aalto, you need to complete these two cou
 
 --- 
 
-## CAD Tutorial #001 – Fusion 360 Basics
+## CAD Tutorial #001 – Creating a Snap Fit Box
 
-### Using Cura to prepare your file for 3D Printing
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ddb75172-cef8-457f-a147-ac4b007730e2&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ---
 
