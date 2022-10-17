@@ -9,6 +9,24 @@ draft: false
 
 ---
 
+{{<hint info>}}
+- October 19, 2022
+- Room H003
+- 9:15–17:00
+{{</hint>}}
+
+---
+
+## Programming the Arduino
+
+### Soldering
+
+### Reading a button
+
+### Code for our IoT device
+
+---
+
 ## Setting up IFTTT
 
 Connect some services to your IFTTT. The next step depends on what services you have available. I'm going to use Telegram for this example. You can use something else also. Of course only enable services that you are comfortable connecting. Or create new account for Twitter or some other service for the purposes of this course.
@@ -44,3 +62,7 @@ The next step depends on what services you have available. I'm using Telegram, w
 8. ```Create action```
 9. Then click ```Continue``` on the next page.
 10. On the last page, you can change the name if you want to. Click ```Finish``` when you are done.
+
+---
+
+## Independent work

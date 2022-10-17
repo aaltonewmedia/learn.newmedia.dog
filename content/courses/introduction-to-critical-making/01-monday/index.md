@@ -1,5 +1,5 @@
 ---
-title: "MON | Introduction"
+title: "MON | Introduction, CAD Basics"
 bookCollapseSection: false
 weight: 10
 draft: false
@@ -14,6 +14,8 @@ draft: false
 - Room H003
 - 9:15–17:00
 {{</hint>}}
+
+---
 
 ## Introduction to the course
 

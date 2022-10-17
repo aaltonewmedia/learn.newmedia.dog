@@ -62,9 +62,9 @@ I will grade three different aspects and the final grade for the course will be 
 
 | TIME | MON 17/10 | TUE 18/10 | WED 19/10 | THU 20/10 | FRI 21/10 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | [Introduction, CAD Basics](./01-monday/#cad-tutorial-001--fusion-360-basics) |  |  |  |  |
+| 09:15–12:00 | [Introduction, CAD Basics](./01-monday/) | [Laser Cutter Basics](./02-tuesday/) | [Arduino + Electronics](./03-wednesday/) |  | [Project Presentations](./05-friday/) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | [Setting up IFTTT](./01-monday/#setting-up-ifttt) |  |  |  |  |
-| 15:15–17:00 | [Independent work](./01-monday/#preliminary-tasks-independent-work) |  |  |  | Project Presentations |
+| 13:15–15:00 | [CAD Basics](./01-monday/#cad-tutorial-001--fusion-360-basics) | [CAD for Laser Cutter](./02-tuesday/) | [Setting up IFTTT](./03-wednesday/#setting-up-ifttt) |  | [Project Presentations](./05-friday/) |
+| 15:15–17:00 | [Independent work](./01-monday/#independent-work) | [Independent work](./02-tuesday/#independent-work) | [Independent work](./03-wednesday/#independent-work) |  | [Project Presentations](./05-friday/) |
 
 </div> 

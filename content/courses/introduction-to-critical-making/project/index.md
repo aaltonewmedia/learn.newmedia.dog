@@ -50,7 +50,7 @@ You will get some small readings throughout the week to hopefully inspire your w
 
 Approach the brief from the viewpoint of **Critical Making**. Let's not just create an Internet connected device because we can, but try to build something that critically reflects on some aspects of the tools we are using.
 
-## Disobedient Electronics
+### Disobedient Electronics
 
 See the book [Disobedient Electronics](http://www.disobedientelectronics.com/) for some inspiration.
 
