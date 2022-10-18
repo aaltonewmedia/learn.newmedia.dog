@@ -27,11 +27,13 @@ Väre has two laser cutters that you can use. They are located in room H001 (Pla
 
 - [Laser cutter introduction on MyCourses](https://mycourses.aalto.fi/course/view.php?id=19552)
     - Note that some information here is outdated!
+- [Book the Epilog laser cutter](https://mycourses.aalto.fi/mod/scheduler/view.php?id=871155)
 
 #### Bodor BCL-X
 
 - [Laser cutter introduction on MyCourses](https://mycourses.aalto.fi/course/view.php?id=19552)
     - This machine is currently not available for students to use on their own
+    - [Book the Bodor laser cutter](https://mycourses.aalto.fi/mod/scheduler/view.php?id=871154)
 
 ### Aalto FabLab (Otakaari 7)
 
