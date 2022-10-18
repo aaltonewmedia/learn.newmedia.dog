@@ -100,11 +100,13 @@ If you want more accurate results, you should cut multiple little pieces and get
 
 **We will do this example during the class.**
 
-### Finger joint box with the laser cutter
+## Finger joint box with the laser cutter
 
 Before we start:
 - [Download the MKR1000 3D model](./files/MKR1000-3D%20_copy-this_v1.f3d)
 - Upload it to your project folder
+
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e16bc78c-4ae7-4294-b1c8-ac750189436d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ### Safety
 
