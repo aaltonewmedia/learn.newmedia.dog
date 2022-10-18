@@ -101,7 +101,7 @@ How to use?
 - [Hugging Face](https://huggingface.co/)
 - [Phygital AI Library](https://library.phygital.plus)
 https://github.com/heejkoo/Awesome-Diffusion-Models
-- [Calvin has been working on some information sites](../../tutorials/ai-generators)
+- [Calvin has been working on some information sites](../../../tutorials/ai-generators/)
 
 ### Courses in Aalto
 

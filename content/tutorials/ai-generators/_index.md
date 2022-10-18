@@ -18,7 +18,7 @@ Here you can find several tutorials an examples on how to understand and work wi
 
 ... In construction 🏗️ ...
 
-https://promptomania.com/prompt-builder/?fbclid=IwAR2T2OMpmPfFRdkuKLUxAUlOATjpMeDvxPtezf2XC7sT9M56xuAoHBcNpio
+https://promptomania.com/prompt-builder/
 
 - links to lingustics
 
