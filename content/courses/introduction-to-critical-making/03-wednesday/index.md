@@ -27,7 +27,7 @@ First we need to install some files so our code will work with this specific Ard
 
 1. Launch the Arduino IDE
 2. Go to Tools --> Board --> Board Manager
-3. Search for ```Arduinno MKR1000```
+3. Search for ```Arduino MKR1000```
 4. It should find something called ```Arduino SAMD Boards (32-bits ARM Cortex-M0+)```. Select it and click ```Install```.
 
 Then we need to install the ```WiFi101 Library``` to be able to use the WiFI chip on our board.
@@ -76,7 +76,7 @@ For this code to work, you need to update the line that says:
 #define IFTTT_Key ""
 ```
 
-Write your personal IFTTT Webhooks key there between the quotation marks. [Where to find you key?](./03-wednesday/#where-to-find-the-ifttt-webhook-key)
+Write your personal IFTTT Webhooks key there between the quotation marks. [Where to find your key?](./03-wednesday/#where-to-find-the-ifttt-webhook-key)
 
 ```c
 /* This program creates a panic button using an Arduino MKR1000 and IFTTT service. When button is pushed LED flashes and a notification, SMS, VOIP call or phonecall is initiated. It uses code from Robert 7320 for the LED and button www.instructables.com/id/5-Simple-Button-and-Led-Projects-with-Arduino/
