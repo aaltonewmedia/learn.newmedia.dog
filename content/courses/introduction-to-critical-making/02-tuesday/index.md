@@ -68,6 +68,24 @@ We are going to only use the Epilog Fusion Pro 48 laser cutter. [You can downloa
 
 The software we use for preparing the final files for the machine is Adobe Illustrator.
 
+### Safety
+
+{{<hint danger>}}
+Laser cutters are machines that are basically constantly trying to catch on fire. You have to always stand next to the laser cutter while it is running. Use the pause feature if you need to go somewhere while cutting.
+{{</hint>}}
+
+{{<hint danger>}}
+There are some materials that you should never use with a laser cutter.
+- PVC (polyvinyl chloride): creates pure chlorine gas when burned that is very harmful to you and destroys the machine!
+- ABS: Emits cyanide gas and tends to melt
+- Leather and artificial leather that contains chromium (VI). Leather that hasn't been chrome-tanned is ok.
+- Carbon fibers (Carbon)
+- Polyvinyl butyrale (PVB)
+- Polytetrafluoroethylenes (PTFE /Teflon)
+- Beryllium oxide
+- Any materials containing halogens (fluorine, chlorine, bromine, iodine and astatine), epoxy or phenolic resins
+{{</hint>}}
+
 ## Cutting
 
 With the Epilog laser
@@ -109,24 +127,6 @@ Before we start:
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e16bc78c-4ae7-4294-b1c8-ac750189436d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="100%" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d7a52b48-713e-4bfe-ad2c-af33005e7b45&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="100%" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
-
-### Safety
-
-{{<hint danger>}}
-Laser cutters are machines that are basically constantly trying to catch on fire. You have to always stand next to the laser cutter while it is running. Use the pause feature if you need to go somewhere while cutting.
-{{</hint>}}
-
-{{<hint danger>}}
-There are some materials that you should never use with a laser cutter.
-- PVC (polyvinyl chloride): creates pure chlorine gas when burned that is very harmful to you and destroys the machine!
-- ABS: Emits cyanide gas and tends to melt
-- Leather and artificial leather that contains chromium (VI). Leather that hasn't been chrome-tanned is ok.
-- Carbon fibers (Carbon)
-- Polyvinyl butyrale (PVB)
-- Polytetrafluoroethylenes (PTFE /Teflon)
-- Beryllium oxide
-- Any materials containing halogens (fluorine, chlorine, bromine, iodine and astatine), epoxy or phenolic resins
-{{</hint>}}
 
 ---
 

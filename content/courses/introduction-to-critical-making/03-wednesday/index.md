@@ -113,6 +113,8 @@ initWifi();
 
 pinMode(LED,OUTPUT);  //set LED pin as output
 pinMode(BUTTON,INPUT_PULLUP);  //set button pin as input
+pinMode(4,OUTPUT);  //set button pin as input
+digitalWrite(4,LOW);
 }
 // this loop looks for a button push and if happens 
 //blinks LED and runs IFTTT request loop (otherwise LED off)
@@ -248,6 +250,10 @@ The next step depends on what services you have available. I'm using Telegram, w
 2. Click ```Documentation```
 3. On the top of the page, it says: ```Your key is: ...```
 4. Copy the key to your [Arduino code](./03-wednesday/#code-for-our-iot-device)
+
+---
+
+
 
 ---
 
