@@ -70,6 +70,14 @@ Upload the code:
 
 ### Code for our IoT device
 
+For this code to work, you need to update the line that says:
+
+```c
+#define IFTTT_Key ""
+```
+
+Write your personal IFTTT Webhooks key there between the quotation marks. [Where to find you key?](./03-wednesday/#where-to-find-the-ifttt-webhook-key)
+
 ```c
 /* This program creates a panic button using an Arduino MKR1000 and IFTTT service. When button is pushed LED flashes and a notification, SMS, VOIP call or phonecall is initiated. It uses code from Robert 7320 for the LED and button www.instructables.com/id/5-Simple-Button-and-Led-Projects-with-Arduino/
 Additional code from Rui Santos for his version of an ESP8266 panic button www.randomnerdtutorials.com/esp8266-wi-fi-button-diy-amazon-dash-button-clone/  
@@ -192,8 +200,6 @@ void send_webhook(){
   Serial.println("\nclosing connection");
   client.stop();
 }
-
-
 ```
 
 ---
@@ -212,6 +218,8 @@ Connect some services to your IFTTT. The next step depends on what services you 
 
 The easiest way for us to start prototyping this idea of a button that does something is the Button widget available on the IFTTT mobile app.
 
+[See the instructions here.](https://help.ifttt.com/hc/en-us/articles/115010361688-How-do-I-manage-or-add-new-widgets-on-my-device-)
+
 ### Create an applet for our Arduino MKR1000
 
 1. Click ```Create```
@@ -221,7 +229,7 @@ The easiest way for us to start prototyping this idea of a button that does some
 5. Write ```button_pressed``` in the ```Event Name``` box
 6. Press ```Create Trigger```
 
-The next step depends on what services you have available. I'm using Telegram, which I enabled earlier.
+The next step depends on what services you have available. I'm using Telegram, which I enabled earlier. Email is the easiest to setup without any additional accounts.
 
 1. Click ```Add``` on the ```Then That``` section
 2. Search for Telegram and click it
@@ -234,6 +242,16 @@ The next step depends on what services you have available. I'm using Telegram, w
 9. Then click ```Continue``` on the next page.
 10. On the last page, you can change the name if you want to. Click ```Finish``` when you are done.
 
+### Where to find the IFTTT Webhook key?
+
+1. Go to [IFTTT Webhooks service page](https://ifttt.com/maker_webhooks)
+2. Click ```Documentation```
+3. On the top of the page, it says: ```Your key is: ...```
+4. Copy the key to your [Arduino code](./03-wednesday/#code-for-our-iot-device)
+
 ---
 
 ## Independent work
+
+- Finish your model for 3D printing
+- Prepare the model for 3D printing using Cura

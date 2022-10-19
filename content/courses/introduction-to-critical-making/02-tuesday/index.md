@@ -106,7 +106,9 @@ Before we start:
 - [Download the MKR1000 3D model](./files/MKR1000-3D%20_copy-this_v1.f3d)
 - Upload it to your project folder
 
-<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e16bc78c-4ae7-4294-b1c8-ac750189436d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=e16bc78c-4ae7-4294-b1c8-ac750189436d&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="100%" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d7a52b48-713e-4bfe-ad2c-af33005e7b45&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" height="405" width="100%" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 ### Safety
 
