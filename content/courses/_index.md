@@ -108,10 +108,10 @@ A calendar of all of the New Media major courses and some selected electives.
 
 | TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  |  |  |
+| 09:15–12:00 | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 13:15–15:00 | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making |
+| 15:15–17:00 | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making |
 
 </div> 
 
@@ -153,8 +153,8 @@ A calendar of all of the New Media major courses and some selected electives.
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 | **Doing Research in Art & Media** |  | Internet Technologies and Web Development | Internet Technologies and Web Development | Internet Technologies and Web Development |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | Systems of Representation: Culture Lab |  | Digital Fabrication I | Generative and Interactive Narratives |
-| 15:15–17:00 | Embodied Interaction | Systems of Representation: Culture Lab  | Digital Fabrication I | Digital Fabrication I | Generative and Interactive Narratives |
+| 13:15–15:00 |  | Systems of Representation: Culture Lab | **Master's Thesis Seminar (2nd Year)** | Digital Fabrication I | Generative and Interactive Narratives |
+| 15:15–17:00 | Embodied Interaction | Systems of Representation: Culture Lab  | **Master's Thesis Seminar (2nd Year)** / Digital Fabrication I | Digital Fabrication I | Generative and Interactive Narratives |
 | 17:15–20:00 |  |  | Digital Fabrication I |  |  |
 
 </div> 
@@ -198,5 +198,35 @@ A calendar of all of the New Media major courses and some selected electives.
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
+
+</div> 
+
+### Period V
+
+#### 6 Weeks
+
+<div class="calendar">
+
+| TIME | MON | TUE | WED | THU | FRI |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 | **Creative Professional Life** | **Art of Writing** | Art+Media Studio | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 | **Creative Professional Life (Clinics)** |  | Art + Media Studio | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio |
+| 15:15–17:00 | **Creative Professional Life (Clinics)** |   | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio |
+| 17:15–20:00 |  |  | Digital Fabrication Studio |  |  |
+
+</div> 
+
+#### Workshop Week
+
+<div class="calendar">
+
+| TIME | MON | TUE | WED | THU | FRI |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 | Digital Fabrication Studio | Digital Fabrication Studio |  | Digital Fabrication Studio | Digital Fabrication Studio |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 | Digital Fabrication Studio | Digital Fabrication Studio |  | Digital Fabrication Studio | Digital Fabrication Studio |
+| 15:15–17:00 | Digital Fabrication Studio | Digital Fabrication Studio | Digital Fabrication Studio | Digital Fabrication Studio | Digital Fabrication Studio |
+| 17:15–20:00 |  |  | Digital Fabrication Studio |  |  |
 
 </div> 

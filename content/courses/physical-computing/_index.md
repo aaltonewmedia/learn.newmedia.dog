@@ -13,6 +13,28 @@ draft: false
 If you are looking for the old Electronics for Artists course, Physical Computing in the new curriculum is based on that course and many of the teaching materials are the same.
 {{</hint>}}
 
+## Content
+
+This course introduces physical computing as a creative framework for investigating the connections between digital media and the physical world. Students explore electronics as a creative medium in the field of new media art and design through hands-on exercises and examples. The course covers some basic electronic concepts and theory, various analog circuits, prototyping your own circuits, microcontroller programming, working with sensors, using motors and other actuators, as well as using simple networking protocols.
+
+A critical insight into maker culture and the environmental impact of the electronics industry is introduced through readings, discussions, examples, and thinking-through-practice. This hands-on with minds-on approach is called Critical Making, a term that describes the bridging of two modes of designerly or artistic practices that are often considered separate—critical thinking and making things. Physical Computing is a course that uses Critical Making as a strategy for learning and artistic research.
+
+This is not an engineering course. The course focuses on creative use of electronics and hardware hacking, not on the theory and the most efficient circuit design. The course will also go through some essential tips for safety, use of various tools, best practices, and how to take care of the equipment and facilities.
+
+## Learning Outcomes
+
+On successful completion of this course, students will be able to:
+
+1. Identify and explain the roles of physical computing and critical making in the field of new media art.
+2. Interpret electronic circuit schematics.
+3. Use sensors and other input devices to convert human interactions and other inputs from the physical world into digital data.
+4. Process and map input data using microcontroller programming.
+5. Control and use motors, lights, and other output devices.
+6. Use simple networking protocols to communicate between different devices.
+7. Design and create physical computing prototypes and interactive artworks.
+
+## Evaluation
+
 
 ## Schedule 2022
 

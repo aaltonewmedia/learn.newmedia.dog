@@ -11,8 +11,8 @@ draft: false
 
 {{<hint info>}}
 - October 20, 2022
+- Room H003
 - 9:15–17:00
-- Let's meet at the 3D Print Workshop at 9:30
 {{</hint>}}
 
 ---

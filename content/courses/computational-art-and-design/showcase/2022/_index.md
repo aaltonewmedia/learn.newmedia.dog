@@ -1,6 +1,6 @@
 ---
 title: "2022 Autumn"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
 url: "courses/computational-art-and-design/showcase/2022-autumn"
 ---
