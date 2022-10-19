@@ -80,15 +80,15 @@ Write your personal IFTTT Webhooks key there between the quotation marks. [Where
 
 ```c
 /* This program creates a panic button using an Arduino MKR1000 and IFTTT service. When button is pushed LED flashes and a notification, SMS, VOIP call or phonecall is initiated. It uses code from Robert 7320 for the LED and button www.instructables.com/id/5-Simple-Button-and-Led-Projects-with-Arduino/
-Additional code from Rui Santos for his version of an ESP8266 panic button www.randomnerdtutorials.com/esp8266-wi-fi-button-diy-amazon-dash-button-clone/  
+  Additional code from Rui Santos for his version of an ESP8266 panic button www.randomnerdtutorials.com/esp8266-wi-fi-button-diy-amazon-dash-button-clone/
 */
 #include <WiFi101.h>
 #include <WiFiUdp.h>
 #include <SPI.h>
 
 // Set IFTTT Webhooks event name and key
-#define IFTTT_Key ""                    // add your IFTT key here
-#define IFTTT_Event "counter_change"    // write the name of the event you creaeted
+#define IFTTT_Key "" // add your IFTT key here
+#define IFTTT_Event "button_pressed"    // write the name of the event you creaeted
 String IFTTT_Value1 = "Matti";
 String IFTTT_Value2 = "milliseconds: ";
 String IFTTT_Value3 = "counter: ";
@@ -106,59 +106,70 @@ const char* server = "maker.ifttt.com";
 
 WiFiClient client;
 
-void setup(){
-Serial.begin(115200);  //set rate of serial monitor
-initWifi();
-//makeIFTTTRequest();
+void setup() {
+  Serial.begin(115200);  //set rate of serial monitor
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for native USB port only
+  }
+  // check for the presence of the shield:
+  if (WiFi.status() == WL_NO_SHIELD) {
+    Serial.println("WiFi shield not present, stopping.");
+    // don't continue:
+    while (true);
+  }
+  initWifi();
+  //makeIFTTTRequest();
 
-pinMode(LED,OUTPUT);  //set LED pin as output
-pinMode(BUTTON,INPUT_PULLUP);  //set button pin as input
-pinMode(4,OUTPUT);  //set button pin as input
-digitalWrite(4,LOW);
+  pinMode(LED, OUTPUT); //set LED pin as output
+  pinMode(BUTTON, INPUT_PULLUP); //set button pin as input
+  pinMode(4, OUTPUT); //set button pin as input
+  digitalWrite(4, LOW);
 }
-// this loop looks for a button push and if happens 
+// this loop looks for a button push and if happens
 //blinks LED and runs IFTTT request loop (otherwise LED off)
-void loop(){
-  if(digitalRead(BUTTON) == LOW){
-    digitalWrite(LED,HIGH);
+void loop() {
+  if (digitalRead(BUTTON) == LOW) {
+    digitalWrite(LED, HIGH);
     delay (200);
+    initWifi();
     counter++;
     //IFTTT_Value1 = "Matti";
     IFTTT_Value2 = "milliseconds: " + String(millis());
     IFTTT_Value3 = "counter: " + String(counter);
     send_webhook();
-    digitalWrite(LED,LOW);
-  }else{
-    digitalWrite(LED,LOW);
+    digitalWrite(LED, LOW);
+  } else {
+    digitalWrite(LED, LOW);
   }
 }
-// this loop helps for debugging Wifi connection 
+// this loop helps for debugging Wifi connection
 //and initiates Wifi
 
 void initWifi() {
-  Serial.print("Connecting to: "); 
+  Serial.print("Connecting to: ");
   Serial.print(ssid);
-  WiFi.begin(ssid);  
-
+  //WiFi.begin(ssid);
+  //delay(1000);
   int timeout = 10 * 4; // 10 seconds
-  while(WiFi.status() != WL_CONNECTED  && (timeout-- > 0)) {
-    delay(250);
+  while (WiFi.status() != WL_CONNECTED ) {
+    WiFi.begin(ssid);
     Serial.print(".");
+    delay(5000);
   }
   Serial.println("");
 
-  if(WiFi.status() != WL_CONNECTED) {
-     Serial.println("Failed to connect, going back to sleep");
+  if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("Failed to connect, going back to sleep");
   }
 
-  Serial.print("WiFi connected in: "); 
+  Serial.print("WiFi connected in: ");
   Serial.print(millis());
-  Serial.print(", IP address: "); 
+  Serial.print(", IP address: ");
   Serial.println(WiFi.localIP());
 }
 
-void send_webhook(){
-  Serial.print("Connecting to "); 
+void send_webhook() {
+  Serial.print("Connecting to ");
   Serial.print(server);
   // construct the JSON payload
   String jsonString = "";
@@ -169,7 +180,7 @@ void send_webhook(){
   jsonString += "\",\"value3\":\"";
   jsonString += IFTTT_Value3;
   jsonString += "\"}";
-  int jsonLength = jsonString.length();  
+  int jsonLength = jsonString.length();
   String lenString = String(jsonLength);
   // connect to the Maker event server
   client.connect(server, 80);
@@ -186,22 +197,23 @@ void send_webhook(){
   postString += lenString + "\r\n";
   postString += "\r\n";
   postString += jsonString; // combine post request and JSON
-  
+
   client.print(postString);
   delay(500);
-  int timeout = 5 * 10; // 5 seconds             
-  while(!!!client.available() && (timeout-- > 0)){
+  int timeout = 5 * 10; // 5 seconds
+  while (!!!client.available() && (timeout-- > 0)) {
     delay(100);
   }
-  if(!!!client.available()) {
-     Serial.println("No response, going back to sleep");
+  if (!!!client.available()) {
+    Serial.println("No response, going back to sleep");
   }
-  while(client.available()){
+  while (client.available()) {
     Serial.write(client.read());
   }
   Serial.println("\nclosing connection");
   client.stop();
 }
+
 ```
 
 ---
