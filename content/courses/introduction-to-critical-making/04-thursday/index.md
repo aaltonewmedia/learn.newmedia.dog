@@ -26,7 +26,15 @@ All of the Ultimaker printers in Väre are the [Ultimaker 2+Connect](https://ult
 
 ## 3D Printers in Fablab
 
+- [Ultimaker 2+ Connect #1](https://takeout.aalto.fi/614113)
+- [Ultimaker 2+ Connect #2](https://takeout.aalto.fi/614114)
+- [Ultimaker S3](https://takeout.aalto.fi/608284)
+- [Formlabs Form 2 SLA Printer](https://takeout.aalto.fi/606023)
+- [Formlabs Form 3 SLA Printer](https://takeout.aalto.fi/608231)
+
 ## 3D Printers in ADDLAB
+
+[See the list of printers here.](https://www.aalto.fi/en/school-of-engineering/addlab-facilities)
 
 ---
 
