@@ -5,6 +5,7 @@ weight: 100
 draft: false
 bookFlatSection: false
 bookCollapseSection: true
+bookFlatSection: true
 ---
 
 # The Unofficial Study Guide for New Media 2022-2024
@@ -206,6 +207,10 @@ I have listed many of the courses under the minors, but you are not required to 
 ## Spaces
 
 ## Online services
+
+### Schedule Miro Board
+
+https://miro.com/app/board/uXjVOxB5voM=/
 
 ### Sisu
 
