@@ -108,9 +108,6 @@ WiFiClient client;
 
 void setup() {
   Serial.begin(115200);  //set rate of serial monitor
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
-  }
   // check for the presence of the shield:
   if (WiFi.status() == WL_NO_SHIELD) {
     Serial.println("WiFi shield not present, stopping.");
