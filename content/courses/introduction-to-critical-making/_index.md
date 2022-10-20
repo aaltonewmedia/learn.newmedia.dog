@@ -5,7 +5,7 @@ weight: 17
 draft: false
 ---
 
-# Introduction to Critical Making
+# AXM-E0101 | Introduction to Critical Making
 
 ---
 

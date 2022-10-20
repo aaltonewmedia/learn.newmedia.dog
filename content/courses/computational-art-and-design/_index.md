@@ -6,7 +6,7 @@ p5js-widget: true
 draft: false
 ---
 
-# Computational Art and Design
+# AXM-E7001 | Computational Art and Design
 
 ---
 

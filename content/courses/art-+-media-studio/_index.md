@@ -1,10 +1,10 @@
 ---
-title: "Art + Media Studio: Interactive and Immersive Art"
+title: "Art + Media Studio: Audiovisual Studio"
 bookCollapseSection: true
 weight: 60
 draft: false
 ---
 
-# Art + Media Studio
+# Art + Media Studio: Audiovisual Studio
 
 ---

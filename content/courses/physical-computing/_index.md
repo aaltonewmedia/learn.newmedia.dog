@@ -1,5 +1,5 @@
 ---
-title: "Physical Computing"
+title: "AXM-E7004 Physical Computing"
 bookCollapseSection: true
 weight: 20
 draft: false
@@ -35,98 +35,121 @@ On successful completion of this course, students will be able to:
 
 ## Evaluation
 
+A successful completion of the course requires the following:
+
+- Active participation in class (miminum 80% attendance).
+- Completed assignments.
+- Completed final project.
+- Completed documentation.
+
+This course is evaluated with a grade between 0-5.
+
+- 5 Excellent
+- 4 Very good
+- 3 Good
+- 2 Satisfactory
+- 1 Passable
+- 0 Fail
+
+### What is being evaluated?
+
+- Final Project and documentation of the project | 50% of the grade
+- Completed assignments | 25% of the grade
+- Avtive attendance | 25% of the grade
+
+### How are these things evaluated
 
 ## Schedule 2022
 
 ### Period 2
 
-#### Week 1
+#### Week 1 | Introduction
 
 <div class="calendar">
 
 | TIME | MON 24/10 | TUE 25/10 | WED 26/10 | THU 27/10 | FRI 28/10 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Noise](./week-08/lesson-01) | [sin()](./week-08/lesson-02) |
+| 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 13:15–15:00 |  | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Arduino](./week-01/lesson-02) |  |
+| 15:15–17:00 | [Introduction to Physical Computing](./week-01/lecture) |  |  |  |  |
 
 </div> 
 
-#### Week 2
+#### Week 2 | Sensing the World
 
 <div class="calendar">
 
 | TIME | MON 31/10 | TUE 01/11 | WED 02/11 | THU 03/11 | FRI 04/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Data: Reading](./week-09/lesson-01) | [Working with Data: Writing](./week-09/lesson-01) |
+| 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 13:15–15:00 |  | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
+| 15:15–17:00 | [TBA](./week-02/lecture) |  |  |  |  |
 
 </div> 
 
-#### Week 3
+#### Week 3 | Making Things Move
 
 <div class="calendar">
 
 | TIME | MON 07/11 | TUE 08/11 | WED 09/11 | THU 10/11 | FRI 11/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Machine Learning: ml5js](./week-10/lesson-01) | [Machine Learning: Wekinator  \| OSC ](./week-10/lesson-02) |
+| 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 13:15–15:00 |  | [Output: Motors & Actuators](./week-03/lesson-01) |  | [Output: Digital LEDs](./week-03/lesson-02) |  |
+| 15:15–17:00 | [Alt+Ctrl Games](./week-03/lecture)  |  |  |  |  |
 
 </div> 
 
-#### Week 4
+#### Week 4 | Communication
 
 <div class="calendar">
 
 | TIME | MON 14/11 | TUE 15/11 | WED 16/11 | THU 17/11 | FRI 18/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Hardware: Mobile Devices](./week-11/lesson-01) | [Working with Hardware: Serial](./week-11/lesson-02) |
+| 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 13:15–15:00 |  | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
+| 15:15–17:00 | [Project Proposal Presentations](./week-04/lecture) |  |  |  |  |
 
 </div> 
 
-#### Week 5
+#### Week 5 | Project Work
 
 <div class="calendar">
 
 | TIME | MON 21/11 | TUE 22/11 | WED 23/11 | THU 24/11 | FRI 25/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week-12/lesson-01) | [TBA](./week12/lesson-02) |
+| 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 13:15–15:00 |  | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
+| 15:15–17:00 | [Levels of Prototyping](./week-05/lecture) |  |  |  |  |
 
 </div> 
 
-#### Week 6
+#### Week 6 | Project Work
 
 <div class="calendar">
 
 | TIME | MON 28/11 | TUE 29/11 | WED 30/11 | THU 01/12 | FRI 02/12 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Project Work](./week13/lesson-01) | [Project Work](./week13/lesson-02) |
+| 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | Lecture: AI/ML & Art |  |  |  |  |
+| 13:15–15:00 |  | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
+| 15:15–17:00 | [TBA](./week-06/lecture) |  |  |  |  |
 
 </div> 
 
-#### Week 7 (Workshop Week)
+#### Week 7 (Workshop Week) | Project Work
 
 <div class="calendar">
 
 | TIME | MON 05/12 | TUE 06/12 | WED 07/12 | THU 08/12 | FRI 09/12 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  |  |  |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
+| 09:15–12:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Project Work |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Project Work |
+| 15:15–17:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Project Work |
 
 </div> 
