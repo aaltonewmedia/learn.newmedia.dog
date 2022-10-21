@@ -4,14 +4,19 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 01 | Functions
+# 04 | Communication
 
 ---
 
-## Structure
+## Schedule
 
-During the first period, each week is divided into three classes just like they are divided here on this website.
+<div class="calendar">
 
-- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
-- **Thursdays:** First technical lesson of the week. Focuses on the coding side.
-- **Fridays:** Second technical lesson of the week. Focuses on the coding side.
+| TIME | MON 14/11 | TUE 15/11 | WED 16/11 | THU 17/11 | FRI 18/11 |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 |  |  |  |  |  |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 |  | [Communication: Serial, Keyboard, Mouse, HID](./lesson-01) |  | [Communication: WiFi, OSC](./lesson-02) |  |
+| 15:15–17:00 | [Project Proposal Presentations](./lecture) |  |  |  |  |
+
+</div> 

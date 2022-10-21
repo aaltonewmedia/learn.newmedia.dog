@@ -13,6 +13,10 @@ draft: false
 If you are looking for the old Electronics for Artists course, Physical Computing in the new curriculum is based on that course and many of the teaching materials are the same.
 {{</hint>}}
 
+## Important Links
+
+- [GitHub Repository for Code Examples](https://github.com/aaltonewmedia/physical-computing)
+
 ## Content
 
 This course introduces physical computing as a creative framework for investigating the connections between digital media and the physical world. Students explore electronics as a creative medium in the field of new media art and design through hands-on exercises and examples. The course covers some basic electronic concepts and theory, various analog circuits, prototyping your own circuits, microcontroller programming, working with sensors, using motors and other actuators, as well as using simple networking protocols.
@@ -61,6 +65,12 @@ This course is evaluated with a grade between 0-5.
 
 ## Schedule 2022
 
+Each week is divided into three classes just like they are divided here on this website.
+
+- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
+- **Tuesdays:**
+- **Thursdays:**
+
 ### Period 2
 
 #### Week 1 | Introduction
@@ -71,7 +81,7 @@ This course is evaluated with a grade between 0-5.
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Arduino](./week-01/lesson-02) |  |
+| 13:15–15:00 |  | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./week-01/lesson-02) |  |
 | 15:15–17:00 | [Introduction to Physical Computing](./week-01/lecture) |  |  |  |  |
 
 </div> 

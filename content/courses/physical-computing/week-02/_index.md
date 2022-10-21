@@ -4,14 +4,19 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 01 | Functions
+# 02 | Sensing the World
 
 ---
 
-## Structure
+## Schedule
 
-During the first period, each week is divided into three classes just like they are divided here on this website.
+<div class="calendar">
 
-- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
-- **Thursdays:** First technical lesson of the week. Focuses on the coding side.
-- **Fridays:** Second technical lesson of the week. Focuses on the coding side.
+| TIME | MON 31/10 | TUE 01/11 | WED 02/11 | THU 03/11 | FRI 04/11 |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 |  |  |  |  |  |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 |  | [Input: Simple Sensors](./lesson-01) |  | [Input: Digital Sensors](./lesson-01) |  |
+| 15:15–17:00 | [TBA](./lecture) |  |  |  |  |
+
+</div> 

@@ -1,11 +1,11 @@
 ---
-title: "Introduction to Arduino"
+title: "Introduction to Microcontrollers (Arduino)"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Introduction to Arduino
+# Introduction to Microcontrollers (Arduino)
 
 ---
 

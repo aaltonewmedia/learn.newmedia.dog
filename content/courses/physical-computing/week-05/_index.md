@@ -4,14 +4,20 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 01 | Functions
+# 05 | Project Work
 
 ---
 
-## Structure
+## Schedule
 
-During the first period, each week is divided into three classes just like they are divided here on this website.
+<div class="calendar">
 
-- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
-- **Thursdays:** First technical lesson of the week. Focuses on the coding side.
-- **Fridays:** Second technical lesson of the week. Focuses on the coding side.
+| TIME | MON 21/11 | TUE 22/11 | WED 23/11 | THU 24/11 | FRI 25/11 |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 |  |  |  |  |  |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 |  | [Project Work](./lesson-01) |  | [Project Work](./lesson-02) |  |
+| 15:15–17:00 | [Levels of Prototyping](./lecture) |  |  |  |  |
+
+</div> 
+

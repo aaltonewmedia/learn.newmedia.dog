@@ -1,5 +1,5 @@
 ---
-title: "Sensors #2: Advnaced sensors (I2C)"
+title: "Sensors #2: Advanced sensors (I2C)"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true

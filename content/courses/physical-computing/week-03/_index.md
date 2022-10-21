@@ -4,14 +4,19 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 01 | Functions
+# 03 | Making Things Move
 
 ---
 
-## Structure
+## Schedule
 
-During the first period, each week is divided into three classes just like they are divided here on this website.
+<div class="calendar">
 
-- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
-- **Thursdays:** First technical lesson of the week. Focuses on the coding side.
-- **Fridays:** Second technical lesson of the week. Focuses on the coding side.
+| TIME | MON 07/11 | TUE 08/11 | WED 09/11 | THU 10/11 | FRI 11/11 |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 |  |  |  |  |  |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 |  | [Output: Motors & Actuators](./lesson-01) |  | [Output: Digital LEDs](./lesson-02) |  |
+| 15:15–17:00 | [Alt+Ctrl Games](./lecture)  |  |  |  |  |
+
+</div> 
