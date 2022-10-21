@@ -1,11 +1,11 @@
 ---
-title: "AXM-E7004 Physical Computing"
+title: "Physical Computing"
 bookCollapseSection: true
 weight: 20
 draft: false
 ---
 
-# Physical Computing
+# AXM-E7004 Physical Computing
 
 ---
 
