@@ -1,7 +1,7 @@
 ---
 title: "Week 04 | Projection Mapping, Immersive Spaces"
 bookCollapseSection: false
-weight: 20
+weight: 40
 draft: false
 ---
 

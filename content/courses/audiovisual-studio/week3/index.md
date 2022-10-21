@@ -1,7 +1,7 @@
 ---
 title: "Week 03 | Computer Graphics and Sound Synthesis, Project Proposals"
 bookCollapseSection: false
-weight: 20
+weight: 30
 draft: false
 ---
 

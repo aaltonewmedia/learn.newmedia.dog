@@ -3,7 +3,7 @@ title: "Digital Input: Input Changed"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
-weight: 100
+weight: 101
 ---
 
 # Digital Input: Input Changed
