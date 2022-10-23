@@ -10,12 +10,13 @@ draft: false
 ---
 
 {{<hint info>}}
-If you are looking for the old Electronics for Artists course, Physical Computing in the new curriculum is based on that course and many of the teaching materials are the same.
+If you are looking for the old Electronics for Artists course, Physical Computing is based on that course and many of the teaching materials are the same.
 {{</hint>}}
 
 ## Important Links
 
 - [GitHub Repository for Code Examples](https://github.com/aaltonewmedia/physical-computing)
+- [MyCourses Link, 2022](https://mycourses.aalto.fi/course/view.php?id=37545)
 
 ## Content
 
@@ -36,6 +37,18 @@ On successful completion of this course, students will be able to:
 5. Control and use motors, lights, and other output devices.
 6. Use simple networking protocols to communicate between different devices.
 7. Design and create physical computing prototypes and interactive artworks.
+
+## Workload
+
+6 ECTS ≈ 160h
+
+**Contact teaching 60h**
+- Lectures: 36h
+- Tutored hands-on assignments during classes: 24h
+
+**Independent study**
+- Time to think and prepare for the lectures: 60h
+- Other independent work: 40h
 
 ## Evaluation
 
@@ -58,18 +71,44 @@ This course is evaluated with a grade between 0-5.
 ### What is being evaluated?
 
 - Final Project and documentation of the project | 50% of the grade
-- Completed assignments | 25% of the grade
+- Completed assignments and their documentation | 25% of the grade
 - Avtive attendance | 25% of the grade
 
 ### How are these things evaluated
+
+The evaluation is based on the following:
+
+**Final Project**
+- The final project itself
+  - Aesthetic quality of the work
+  - Novelty and creativity of the concept
+  - Critical approach to the topic
+  - Command of the technology
+  - Attention to detail
+- Your documentation website
+  - Detail of the documentation
+  - Use of sketches, images, videos
+  - Ability to reflect on your learning process
+
+**Completed assignments**
+- Detail of the documentation of your assignments
+- Ability to reflect on your learning process
+- Note that you do not need to necessarily succeed in the assignemnts to do well. Trying, failing and trying to understand why things didn't work out can be as valuable (or even more valuable) as succeeding.
+
+**Active attendance**
+- You need to be present minimum 80% of the classes
+- Each missed class (without a valid reason such as illness etc.) will affect your atttendance grade negatively.
+- Each time you arrive late in class will affect your attendace grade negatively.
+- Active participation and attitude in class will affect your attendance grade positively.
+- Helping others will affect your attendance grade positively
 
 ## Schedule 2022
 
 Each week is divided into three classes just like they are divided here on this website.
 
 - **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
-- **Tuesdays:**
-- **Thursdays:**
+- **Tuesdays:** Hands-on demonstrations and work on small assignments.
+- **Thursdays:** Hands-on demonstrations and work on small assignments.
 
 ### Period 2
 
@@ -95,7 +134,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
-| 15:15–17:00 | [TBA](./week-02/lecture) |  |  |  |  |
+| 15:15–17:00 | [Alt+Ctrl Games](./week-02/lecture) |  |  |  |  |
 
 </div> 
 
@@ -108,7 +147,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Output: Motors & Actuators](./week-03/lesson-01) |  | [Output: Digital LEDs](./week-03/lesson-02) |  |
-| 15:15–17:00 | [Alt+Ctrl Games](./week-03/lecture)  |  |  |  |  |
+| 15:15–17:00 | [TBA](./week-03/lecture)  |  |  |  |  |
 
 </div> 
 
@@ -147,7 +186,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
-| 15:15–17:00 | [TBA](./week-06/lecture) |  |  |  |  |
+| 15:15–17:00 | [Digital Fabrication courses](./week-06/lecture) |  |  |  |  |
 
 </div> 
 
@@ -157,9 +196,9 @@ Each week is divided into three classes just like they are divided here on this 
 
 | TIME | MON 05/12 | TUE 06/12 | WED 07/12 | THU 08/12 | FRI 09/12 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Project Work |
+| 09:15–12:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Exhibition Setup |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Project Work |
-| 15:15–17:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Project Work |
+| 13:15–15:00 | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup | Exhibition Setup |
+| 15:15–17:00 | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup | Exhibition opening |
 
 </div> 

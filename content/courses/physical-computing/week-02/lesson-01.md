@@ -1,5 +1,5 @@
 ---
-title: "Lesson 01"
+title: "Simple Sensors"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
