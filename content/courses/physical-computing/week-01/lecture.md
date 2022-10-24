@@ -24,6 +24,15 @@ We have three classes each week. They are divided like this:
 
 ---
 
+## What are we actually doing?
+
+- Learning about artists and designers working with physical computing and electronics
+- You will need to learn the basics of working with electronics.
+- You should have basic understanding of programming before coming to the course (you will learn some more).
+- You will be working a lot with your hands: building circuits, assembling prototypes etc.
+
+---
+
 ## Deliverables for Week 1
 
 See the [weekly page for deliverables.](./)
