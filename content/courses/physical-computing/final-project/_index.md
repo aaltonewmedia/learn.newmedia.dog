@@ -22,10 +22,15 @@ Some common topics that could be good starting points if you are still looking f
 - Interactive installations 
 
 Additional tips
-- Read through Tom Igoe’s post about Physical Computing’s Greatest Hits and Misses
+- Read through Tom Igoe’s post about [Physical Computing’s Greatest Hits and Misses](https://www.tigoe.com/blog/category/physicalcomputing/176/)
 - If you are still a bit uncomfortable with working with electronics, start from simple and expand from there.
 
 It is ok to combine this project with the final project of the Computational Art and Design course.
 
 ## Project Proposal (Deadline: Monday, November 14)
 
+You should
+
+You will present your idea in class on Monday, 
+
+## Project Proposal (Deadline: Monday, November 14)

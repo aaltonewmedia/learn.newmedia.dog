@@ -55,3 +55,10 @@ Create a circuit and Arduino code that does the following
 
 #### Tips
 [Check the tutorials on Digital Input from here](../../../tutorials/arduino-and-electronics/arduino/)
+
+
+### 3. Readings
+
+- [Bret Victor: A Brief Rant on the Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)
+    - [Responses to the text](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/responses.html)
+- [Tangible Interaction](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction)
