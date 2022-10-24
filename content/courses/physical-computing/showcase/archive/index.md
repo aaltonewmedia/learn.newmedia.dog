@@ -1,6 +1,6 @@
 ---
 title: "Archive"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: false
 ---
 
@@ -44,6 +44,6 @@ Oxygen crawlers is a speculative Arduino-based oxygen station for aquatic ecosys
 
 [More information](https://www.hackster.io/yyoona/a-flipped-plate-repeated-ambivalences-79aa19)
 
-## Yuhan Tseng - Future Creature
+### Yuhan Tseng - Future Creature
 
 {{<youtube q5PHm4vBs8o>}}

@@ -1,6 +1,6 @@
 ---
 title: "Final Project"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: false
 ---
 

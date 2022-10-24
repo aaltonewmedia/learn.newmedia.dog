@@ -1,7 +1,7 @@
 ---
 title: "GitHub Repository"
-bookCollapseSection: true
-p5js-widget: true
+bookCollapseSection: false
+p5js-widget: false
 ---
 
 # GitHub Repository
