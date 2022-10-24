@@ -35,6 +35,8 @@ Create a course website to document your assignments, final project work and pro
 
 However you decide to create it, send the URL to Matti [using MyCourses](https://mycourses.aalto.fi/course/view.php?id=37545&section=1).
 
+[This page has more detailed instructions on the options.](../documentation-website/)
+
 ### 2. Arduino Basics
 
 Create a circuit and Arduino code that does the following
@@ -62,3 +64,5 @@ Create a circuit and Arduino code that does the following
 - [Bret Victor: A Brief Rant on the Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)
     - [Responses to the text](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/responses.html)
 - [Tangible Interaction](https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/tangible-interaction)
+
+Adding short reflections of the readings on your site is not mandatory but will have a positive effect on your evaluation and can compensate for missed lectures.

@@ -33,6 +33,12 @@ We have three classes each week. They are divided like this:
 
 ---
 
+## Lecture Slides
+
+[You can find my lectture slides Miro board here.](https://miro.com/app/board/uXjVPKsDjlM=/?share_link_id=82702964698)
+
+---
+
 ## Deliverables for Week 1
 
 See the [weekly page for deliverables.](./)
