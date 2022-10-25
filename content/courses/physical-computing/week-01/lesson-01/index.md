@@ -82,5 +82,9 @@ A full set should also include the following (but we do not currently have enoug
 
 [See the multimeter tutorial](../../../../tutorials/arduino-and-electronics/electronics/tools-breadboard/)
 
+---
 
+## Prepare for Thursday
 
+1. You will need to bring a laptop. If you don't have one, let Matti know and we can figure out something.
+2. Download and nstall the [Arduino IDE 2.0.0 ](https://www.arduino.cc/en/software)
