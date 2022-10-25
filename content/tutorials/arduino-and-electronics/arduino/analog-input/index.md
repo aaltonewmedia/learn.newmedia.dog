@@ -1,6 +1,6 @@
 ---
 title: "Analog Input: Simple Threshold"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
 draft: false
 weight: 200

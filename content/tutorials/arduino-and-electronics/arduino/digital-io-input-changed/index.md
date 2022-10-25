@@ -1,6 +1,6 @@
 ---
 title: "Digital Input: Input Changed"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
 draft: false
 weight: 101

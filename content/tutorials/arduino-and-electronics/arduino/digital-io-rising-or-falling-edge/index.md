@@ -1,6 +1,6 @@
 ---
 title: "Digital Input: Falling or Rising Edge"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
 draft: false
 weight: 102

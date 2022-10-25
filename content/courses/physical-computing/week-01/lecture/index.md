@@ -9,6 +9,8 @@ p5js-widget: true
 
 ---
 
+[![How Computers See Us](./img/howcomputer.png)](./img/howcomputer.png)
+
 ## Course practicalities
 
 ### Weekly structure
