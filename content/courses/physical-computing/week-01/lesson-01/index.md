@@ -80,7 +80,23 @@ A full set should also include the following (but we do not currently have enoug
 
 ## Tools: Breadboard
 
-[See the multimeter tutorial](../../../../tutorials/arduino-and-electronics/electronics/tools-breadboard/)
+[See the breadboard tutorial](../../../../tutorials/arduino-and-electronics/electronics/tools-breadboard/)
+
+---
+
+## Examples
+
+### LED with a current limiting resistor
+
+[![Example 01](./img/ex1.png)](./img/ex1.png)
+
+### LED and Switch
+
+[![Example 02](./img/ex2.png)](./img/ex2.png)
+
+### LED and Switch with a capacitor
+
+[![Example 03](./img/ex3.png)](./img/ex3.png)
 
 ---
 
