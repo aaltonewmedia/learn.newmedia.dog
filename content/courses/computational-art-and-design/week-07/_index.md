@@ -1,8 +1,8 @@
 ---
 title: "07 | No Class (workshop week)"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 # 07 | No Class (workshop week)

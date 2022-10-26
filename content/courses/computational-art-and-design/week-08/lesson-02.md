@@ -1,10 +1,10 @@
 ---
-title: "Lesson 02"
+title: "FRI | DOM elements"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Week 08 | ...
+# DOM Elements
 
 ---
