@@ -89,14 +89,17 @@ A full set should also include the following (but we do not currently have enoug
 ### LED with a current limiting resistor
 
 [![Example 01](./img/ex1.png)](./img/ex1.png)
+[![Example 01](./img/ex1-bb.png)](./img/ex1-bb.png)
 
 ### LED and Switch
 
 [![Example 02](./img/ex2.png)](./img/ex2.png)
+[![Example 02](./img/ex2-bb.png)](./img/ex2-bb.png)
 
 ### LED and Switch with a capacitor
 
 [![Example 03](./img/ex3.png)](./img/ex3.png)
+[![Example 03](./img/ex3-bb.png)](./img/ex3-bb.png)
 
 ---
 
