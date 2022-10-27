@@ -3,6 +3,7 @@ title: "02 | If This Then That"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
+weight: 20
 ---
 
 # 02 | If This Then That

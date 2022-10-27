@@ -3,6 +3,7 @@ title: "06 | Objects & Classes"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
+weight: 60
 ---
 
 # 06 | Objects and Classes

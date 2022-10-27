@@ -3,6 +3,7 @@ title: "08 | Advanced Animation"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
+weight: 80
 ---
 
 # 08 | Advanced Animation
