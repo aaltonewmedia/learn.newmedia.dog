@@ -160,6 +160,12 @@ Features:
 
 [![Class Example](./img/example.png)](./img/example.png)
 
+[![Class Example](./img/example-led.png)](./img/example-led.png)
+
+[![Class Example](./img/example-button.png)](./img/example-button.png)
+
+[![Class Example](./img/example-ldr.png)](./img/example-ldr.png)
+
 ```c
 int button;
 int light;
