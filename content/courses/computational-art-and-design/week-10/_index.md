@@ -3,6 +3,7 @@ title: "10 | Machine Learning"
 bookCollapseSection: true
 p5js-widget: true
 draft: true
+weight: 100
 ---
 
 # 10 | ...

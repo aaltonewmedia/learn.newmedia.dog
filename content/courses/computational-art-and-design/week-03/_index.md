@@ -3,6 +3,7 @@ title: "03 | Loops & Arrays"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
+weight: 30
 ---
 
 # 03 | Loops & Arrays
