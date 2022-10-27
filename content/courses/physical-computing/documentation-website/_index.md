@@ -1,6 +1,6 @@
 ---
 title: "Documentation Website"
-bookCollapseSection: false
+bookCollapseSection: true
 p5js-widget: false
 ---
 
@@ -22,7 +22,7 @@ Using Aalto Blogs is very simple. It's essentially just a Wordpress site. You ca
 
 1. Go to: [https://blogs.aalto.fi/](https://blogs.aalto.fi/)
 2. Login with your Aalto account.
-3. Create a new blog by clicking ```Create your blog``` from the top-right corner of the site
+3. Create a new blog by clicking `Create your blog` from the top-right corner of the site
 4. Start creating content.
 
 ### Using Miro, OneDrive, Google Docs etc.
@@ -38,8 +38,8 @@ Follow the instructions below if you want to use the educational version of Carg
 1. [Register to Cargo](https://cargo.site/)
 2. Choose a template and start building your site
 3. Check MyCourses for the code that enables you to publish your site.
-4. There should be a button that says ```This site is Private: Upgrade to go Public``` on top of the editor window.
-5. Add the code you got to the ```Promo Code``` text box
+4. There should be a button that says `This site is Private: Upgrade to go Public` on top of the editor window.
+5. Add the code you got to the `Promo Code` text box
 6. Your site should now be public
 
 ### Webflow
@@ -47,7 +47,7 @@ Follow the instructions below if you want to use the educational version of Carg
 Do the following if you want to use Webflow for this course (or just in general).
 
 1. [Create a Webflow account with your Aalto email using this student account application.](https://webflow.com/for/classroom)
-2. Send and email to Matti and ask to be added to the Aalto Media Lab classroom. 
+2. Send and email to Matti and ask to be added to the Aalto Media Lab classroom.
 3. Create your site!
 
 [Here is an example site I created using Webflow](https://aalto-physical-computing-example.webflow.io/)
@@ -62,7 +62,7 @@ Do the following if you want to use Webflow for this course (or just in general)
 
 You can also create the site under our [New Media GitHub](https://github.com/aaltonewmedia) team.
 
-[Here is a simple example site that I created](https://github.com/aaltonewmedia/physcomp-example-site-html). You can use it as a templete if you want.
+[Here is a simple example site that we created](https://github.com/aaltonewmedia/physcomp-example-site-html). You can use it as a templete if you want. It includes an installation guide.
 
 ### Github Pages + Static website with Hugo
 
@@ -77,4 +77,4 @@ Using Hugo requires you to work with the terminal/command line of your comoputer
 3. Install [Hugo](https://gohugo.io/getting-started/quick-start/). The instructions are different depending on what operation system you use.
 4. [Configure GitHub to host your page](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
-***A video of this process coming soon....***
+**_A video of this process coming soon...._**
