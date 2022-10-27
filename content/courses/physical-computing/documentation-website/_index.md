@@ -1,6 +1,6 @@
 ---
 title: "Documentation Website"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: false
 ---
 

@@ -172,7 +172,7 @@ On successful completion of this course, students will be able to:
 
 | TIME | MON 07/11 | TUE 08/11 | WED 09/11 | THU 10/11 | FRI 11/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Machine Learning: ml5js](./week-10/lesson-01) | [Machine Learning: Wekinator  \| OSC ](./week-10/lesson-02) |
+| 09:15–12:00 |  |  |  | [Machine Learning: ml5js](./week-10/lesson-01) | [Project proposals](./week-10/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
