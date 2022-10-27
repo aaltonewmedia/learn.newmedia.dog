@@ -23,7 +23,7 @@ p5js-widget: true
 
 ## Deliverables for Week 1
 
-### 1. Course Documentation Website
+### 1. Course Documentation Website (Monday, October 31, 15:00)
 
 Create a course website to document your assignments, final project work and progress during the course. Here are some suggestions:
 - Create a blog at [blogs.aalto.fi](https://blogs.aalto.fi/). ***This is the easiest solution.***
@@ -37,7 +37,7 @@ However you decide to create it, send the URL to Matti [using MyCourses](https:/
 
 [This page has more detailed instructions on the options.](../documentation-website/)
 
-### 2. Arduino Basics
+### 2. Arduino Basics (Thursday, November 1, 13:00)
 
 Create a circuit and Arduino code that does the following
 
@@ -53,7 +53,7 @@ Create a circuit and Arduino code that does the following
 5. When the switch is pressed the third time, both LEDs turn off
 6. Repeat this same cycle of LEDs turning on and off in sequence (off, one LED, two LEDs, off...)
 
-**Document your work on the course website that you created.**
+**Document your work on the course website that you created. Deadline: Thursday, November 1, 13:00**
 
 #### Tips
 [Check the tutorials on Digital Input from here](../../../tutorials/arduino-and-electronics/arduino/)
