@@ -4,10 +4,6 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 02 | Sensing the World
-
----
-
 ## Schedule
 
 <div class="calendar">

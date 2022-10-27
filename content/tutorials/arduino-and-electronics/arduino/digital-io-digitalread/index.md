@@ -12,6 +12,14 @@ weight: 100
 
 Reading digital signals with the Arduino or any other microcontroller is quite simple. You can just use the function digitalRead() which returns a HIGH or LOW depending on the voltage of the pin that you read.
 
+## Schematic
+
+## Breadboard View
+
+[![Arduino with LED and Button](/images/tutorials/electronics/arduino-button-led-bb.png)](/images/tutorials/electronics/arduino-button-led-bb.png)
+
+## Code
+
 The code below does the following:
 
 ```c

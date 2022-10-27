@@ -5,7 +5,7 @@ weight: 40
 draft: false
 ---
 
-# Introduction to Critical Making
+# 3D Printing
 
 ---
 

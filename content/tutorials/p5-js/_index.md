@@ -5,10 +5,6 @@ p5js-widget: true
 draft: false
 ---
 
-# How to do things in p5.js
-
----
-
 P5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!
 
 ... In construction 🏗️ ...

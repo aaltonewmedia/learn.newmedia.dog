@@ -4,10 +4,6 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 03 | Making Things Move
-
----
-
 ## Schedule
 
 <div class="calendar">

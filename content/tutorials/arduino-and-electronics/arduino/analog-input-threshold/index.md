@@ -12,6 +12,8 @@ weight: 200
 
 Often the simplest way to work with analog values is to check if the signal has risen above a certain threshold value. This can be done with a simple if statement.
 
+## Code
+
 ```c
 int lightValue;
 int threshold = 320;

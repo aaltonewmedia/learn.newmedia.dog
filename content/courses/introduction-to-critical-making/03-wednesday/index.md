@@ -5,7 +5,7 @@ weight: 30
 draft: false
 ---
 
-# Introduction to Critical Making
+# Electronics + Programming
 
 ---
 

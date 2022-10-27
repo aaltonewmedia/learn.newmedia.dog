@@ -6,10 +6,6 @@ p5js-widget: true
 draft: false
 ---
 
-# AXM-E7001 | Computational Art and Design
-
----
-
 ## Important links
 
 - [MyCourses page (2022)](https://mycourses.aalto.fi/course/view.php?id=37604)

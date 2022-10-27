@@ -4,10 +4,6 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 05 | Project Work
-
----
-
 ## Schedule
 
 <div class="calendar">

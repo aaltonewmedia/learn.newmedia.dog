@@ -5,10 +5,6 @@ bookFlatSection: true
 weight: 10
 ---
 
-# Who, Why, Where?
-
----
-
 ## Who created this website?
 
 Matti Niinimäki  

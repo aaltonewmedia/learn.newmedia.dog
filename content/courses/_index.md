@@ -6,10 +6,6 @@ bookCollapseSection: true
 weight: 20
 ---
 
-# Courses
-
----
-
 ## Degree Structure
 
 <div class="calendar">

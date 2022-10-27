@@ -6,10 +6,6 @@ draft: false
 weight: 30
 ---
 
-# 03 | Loops & Arrays
-
----
-
 ## Structure
 
 During the first period, each week is divided into three classes just like they are divided here on this website.

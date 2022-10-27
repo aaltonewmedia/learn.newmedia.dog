@@ -6,10 +6,6 @@ draft: false
 weight: 80
 ---
 
-# 08 | Advanced Animation
-
----
-
 ## Structure
 
 During the second period, each week is divided into two classes just like they are divided here on this website. No more Monday lectures in period 2!

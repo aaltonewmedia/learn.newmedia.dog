@@ -6,10 +6,6 @@ weight: 100
 draft: false
 ---
 
-# Väre
-
----
-
 ## Aalto Media Lab Home Base
 
 ### O101 New Media and Sound in New Media | General Working Space

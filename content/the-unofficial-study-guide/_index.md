@@ -8,9 +8,7 @@ bookCollapseSection: true
 bookFlatSection: true
 ---
 
-# The Unofficial Study Guide for New Media 2022-2024
-
----
+## 2022–2024
 
 This is an unofficial study guide for the major in New Media. I used to make this as a Google Doc for the past years, but as I was building this site, I thought I should just have it here with all the other information.
 

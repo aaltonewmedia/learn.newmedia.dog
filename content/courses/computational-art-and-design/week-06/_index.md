@@ -6,10 +6,6 @@ draft: false
 weight: 60
 ---
 
-# 06 | Objects and Classes
-
----
-
 ## Structure
 
 During the first period, each week is divided into three classes just like they are divided here on this website.

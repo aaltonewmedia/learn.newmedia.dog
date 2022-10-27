@@ -15,6 +15,14 @@ In most cases, it’s not enough just to know if the signal changed. You often n
 The change from LOW to HIGH is called Rising Edge
 The change from HIGH to LOW is called Falling Edge
 
+## Schematic
+
+## Breadboard View
+
+[![Arduino with LED and Button](/images/tutorials/electronics/arduino-button-led-bb.png)](/images/tutorials/electronics/arduino-button-led-bb.png)
+
+## Code
+
 The code below does the following:
 
 - Read the state of a digital input pin

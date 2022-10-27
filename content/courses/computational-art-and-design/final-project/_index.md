@@ -5,10 +5,6 @@ p5js-widget: true
 weight: 200
 ---
 
-# Final Project
-
----
-
 ## Guidelines
 
 - Use what you have learned to create a project that explores programming as a creative medium.

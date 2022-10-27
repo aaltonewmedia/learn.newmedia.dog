@@ -5,7 +5,7 @@ weight: 50
 draft: false
 ---
 
-# Introduction to Critical Making
+# Assembly
 
 ---
 

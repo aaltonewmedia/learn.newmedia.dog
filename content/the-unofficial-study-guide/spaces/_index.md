@@ -6,10 +6,6 @@ weight: 100
 draft: false
 ---
 
-# Spaces
-
----
-
 ## Väre
 
 ### Aalto Media Lab Home Base

@@ -4,9 +4,7 @@ bookCollapseSection: true
 draft: false
 ---
 
-# Create images with AI
-
-## by Calvin Guillot
+***by Calvin Guillot***
 
 ---
 

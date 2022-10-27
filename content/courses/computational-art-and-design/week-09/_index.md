@@ -6,10 +6,6 @@ draft: true
 weight: 90
 ---
 
-# 09 | Working with Data
-
----
-
 ## Structure
 
 During the second period, each week is divided into two classes just like they are divided here on this website.

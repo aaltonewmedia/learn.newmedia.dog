@@ -4,10 +4,6 @@ bookCollapseSection: true
 p5js-widget: true
 ---
 
-# 01 | Introduction
-
----
-
 ## Schedule
 
 <div class="calendar">
