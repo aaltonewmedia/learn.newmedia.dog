@@ -10,6 +10,12 @@ weight: 1
 
 ---
 
+## How To Get Started?
+
+[Download the Arduino software](https://www.arduino.cc/en/software) and follow the instructions on the Arduino website if you have problems setting things up. The Arduino boards that you have are Arduino Unos and do not require any driver installation for Mac or Linux. Windows will require a driver that comes with the installer package.
+
+[Getting Started With Arduino from the Arduino website.](https://www.arduino.cc/en/Guide)
+
 ## Arduino Code Structure
 
 The Arduino software is used to program the Arduino board. You will notice that it is very similar to Processing or p5.js. The code structure is also very similar. All Arduino sketches need to have the following functions.

@@ -62,7 +62,7 @@ Do the following if you want to use Webflow for this course (or just in general)
 
 You can also create the site under our [New Media GitHub](https://github.com/aaltonewmedia) team.
 
-[Here is a simple example site that I created](https://github.com/aaltonewmedia/physcomp-example-site-html). You can use it as a templete if you want.
+[Here is a simple example site that Calvin created](https://github.com/aaltonewmedia/physcomp-example-site-html). You can use it as a templete if you want.
 
 ### Github Pages + Static website with Hugo
 

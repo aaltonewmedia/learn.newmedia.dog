@@ -154,12 +154,40 @@ Features:
 - Can be programmed either with the Arduino code (C++) or Python
 - [See this turorial for instructions on how to use the board with MicroPython if you prefer Python](https://docs.arduino.cc/learn/programming/arduino-and-python)
 
+---
 
+## Example done in class
+
+[![Class Example](./img/example.png)](./img/example.png)
+
+```c
+int button;
+int light;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(9,OUTPUT);
+  pinMode(2,INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ button = digitalRead(2);
+ light = analogRead(A0);
+ Serial.println(light);
+ if(button==HIGH){
+   digitalWrite(9,HIGH);
+ }else{
+   digitalWrite(9,LOW);
+ }
+ delay(10);
+}
+```
 
 ---
 
 ## Related tutorials
 
-[Arduino Basics](../../../tutorials/arduino-and-electronics/arduino/)
+[Arduino Basics](../../../../tutorials/arduino-and-electronics/arduino/arduino-basics/)
 
 
