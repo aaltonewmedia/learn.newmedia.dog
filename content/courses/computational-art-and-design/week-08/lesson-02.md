@@ -9,6 +9,14 @@ p5js-widget: true
 
 ---
 
+{{<hint info>}}
+- October 28, 2022
+- Room L208
+- 9:15–12:00
+{{</hint>}}
+
+---
+
 ## JavaScript DOM  (Document Object Model)
 
 - [See the W3 tutorials here.](https://www.w3schools.com/js/js_htmldom.asp)
