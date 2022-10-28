@@ -90,3 +90,5 @@ Let's also practice using classes and obejcts. Create a sketch that does the fol
 - Make it behave like our earlier bouncing ball example
 - Create 100 bouncers bouncing on the canvas
 - [Post it to our Open Processing class](https://openprocessing.org/class/80657) in the Object/Classes collection.
+
+**Or if you want more challenge, make a particle that uses noise() for animating it.**
