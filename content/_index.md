@@ -3,13 +3,7 @@ title: New Media Courses
 description: "Course materials for courses taught by Matti Niinimäki."
 ---
 
-# New Media Course Materials
-
----
-
 ## New Media | MA in Art and Media
-
-
 
 Welcome! You have found your way to a website that hosts all of the course materials for courses taught by Matti Niinimäki at Aalto University.
 
