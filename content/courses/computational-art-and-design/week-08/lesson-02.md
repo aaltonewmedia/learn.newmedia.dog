@@ -26,12 +26,12 @@ p5js-widget: true
 
 Here are some of the things that you will mostly use, but see the reference for all of the functions under the DOM category.
 
--[createSlider](https://p5js.org/reference/#/p5/createSlider)
--[createButton](https://p5js.org/reference/#/p5/createButton)
--[createCheckbox](https://p5js.org/reference/#/p5/createCheckbox)
--[createSelect](https://p5js.org/reference/#/p5/createSelect)
--[createRadio](https://p5js.org/reference/#/p5/createRadio)
--[createColorPicker](https://p5js.org/reference/#/p5/createColorPicker)
+- [createSlider](https://p5js.org/reference/#/p5/createSlider)
+- [createButton](https://p5js.org/reference/#/p5/createButton)
+- [createCheckbox](https://p5js.org/reference/#/p5/createCheckbox)
+- [createSelect](https://p5js.org/reference/#/p5/createSelect)
+- [createRadio](https://p5js.org/reference/#/p5/createRadio)
+- [createColorPicker](https://p5js.org/reference/#/p5/createColorPicker)
 
 ## Sliders
 
