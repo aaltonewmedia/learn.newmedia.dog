@@ -17,6 +17,15 @@ p5js-widget: true
 
 ---
 
+## Inspiration
+
+- [Juhani Halkomäki Instagram](https://www.instagram.com/juhani.halkomaki/?hl=en)
+- [Juhani Halkomäki fxHash](https://www.fxhash.xyz/u/Juhani%20Halkom%C3%A4ki)
+- [Juhani Halkomäki Open Processing](https://openprocessing.org/user/208584/?view=sketches)
+- [Juhani Halkomäki objkt.com](https://objkt.com/profile/tz2LQg9NqXfgyMVrihTwzzXfUVdZTnmxpYts/created)
+
+---
+
 ## JavaScript DOM  (Document Object Model)
 
 - [See the W3 tutorials here.](https://www.w3schools.com/js/js_htmldom.asp)
