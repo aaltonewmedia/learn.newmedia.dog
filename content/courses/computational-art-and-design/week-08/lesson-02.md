@@ -30,7 +30,7 @@ Here are some of the things that you will mostly use, but see the reference for 
 {{<p5js autoplay=1 width="300" height="500">}}
 let slider;
 function setup() {
-  createCanvas(300, 400);
+  createCanvas(windowWidth, windowHeight);
   slider = createSlider(0,255,127);
   slider.position(100,100);
   slider.size(100);
@@ -68,6 +68,6 @@ function changeBG() {
 
 ## Assignment
 
-Create a sketch that uses sliders, buttons and other DOM elements to control colors and other variables in your sketch. Place the elements on top of the canvas so that it works well inside Open Processing.
+Create a sketch that uses sliders, buttons and other DOM elements to control colors and other variables in your sketch. Place the elements on top of the canvas and use `createCanvas(windowWidth, windowHeight);` so that it works well inside Open Processing.
 
 [Post it to our Open Processing class.](https://openprocessing.org/class/80657)
