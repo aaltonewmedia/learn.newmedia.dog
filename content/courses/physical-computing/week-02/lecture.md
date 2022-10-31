@@ -95,6 +95,10 @@ Do not make this too complex. Think of simple games and game mechanics.
 
 {{<hint info>}}
 When thinking of new interactions, I find it helpful to go to hardware stores, art/craft supply stores, flea markets and other places that have interesting obejcts and materials. Think about how you can manipulate the objects and materials with your hands and how those could be connected to some game mechanics (and what kind of sensor would be needed for that).
+
+- [Recycling Centers](https://www.kierratyskeskus.fi/myymalat_ja_palvelut)
+- [Hobby Point](https://hobbypoint.fi/)
+- [Metka](https://www.kirppikset.info/kirppikset/metkan-kirpputori-helsinki)
 {{</hint>}}
 
 ---

@@ -9,11 +9,7 @@ p5js-widget: true
 
 ---
 
-## Analog Sensors
 
-### Voltage Divider
-
-Read the tutorial on
 
 ## I2C
 
