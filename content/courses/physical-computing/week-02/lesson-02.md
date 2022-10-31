@@ -1,15 +1,13 @@
 ---
-title: "Sensors #2: Advanced sensors (I2C)"
+title: "Advanced sensors (I2C)"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Week 01 | ...
+# Advanced sensors (I2C)
 
 ---
-
-
 
 ## I2C
 

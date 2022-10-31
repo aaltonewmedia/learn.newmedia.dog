@@ -10,4 +10,9 @@ weight: 100
 
 ---
 
+## Links and Resources
+
+- Datasheet of the sensor
+- Adafruit tutorial for the breakout board
+- Adafruit product page
 
