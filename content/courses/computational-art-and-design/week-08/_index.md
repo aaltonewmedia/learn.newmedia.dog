@@ -1,5 +1,5 @@
 ---
-title: "08 | Advanced Animation"
+title: "08 | Advanced Animation, DOM Elements"
 bookCollapseSection: true
 p5js-widget: true
 draft: false

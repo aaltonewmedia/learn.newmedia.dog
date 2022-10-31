@@ -28,6 +28,7 @@ p5js-widget: true
 - Explore at least one sensor in more detail.
 - Think of different interactions and/or gestures that could be detected with the sensor you picked.
 - Choose an existing video game that could be controlled using the interaction/interface enabled by this sensor. You can also come up with a completely new game/game mechanic.
+- You don't need to make it work yet. Just come up with the idea/concept for your alternative controller.
 
 {{<hint info>}}
 Do not make this too complex. Think of simple games and game mechanics.
