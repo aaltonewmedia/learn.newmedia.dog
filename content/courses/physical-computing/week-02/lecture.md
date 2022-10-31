@@ -66,7 +66,7 @@ The [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc) is a specific category of th
 
 ### 1. Find an interesting existing Alt+Ctrl Interface
 
-Explore the archive from GDC:
+Explore the archive from GDC, Shake That Button and beyond:
 
 - [GDC alt.ctrl Archive](https://gdconf.com/alt-ctrl-gdc/archive)
 - [Shake that Button](https://shakethatbutton.com/)
@@ -79,10 +79,16 @@ Find one interesting project/controller from there and write a short description
 - Think of different interactions and/or gestures that could be detected with the sensor you picked.
 - Choose an existing video game that could be controlled using the interaction/interface enabled by this sensor. You can also come up with a completely new game/game mechanic.
 - You don't need to make it work yet. Just come up with the idea/concept for your alternative controller.
-- Write about your idea on your site. 
+- Write about your idea on your site.
+- You can draw sketches or other ways to illustrate your idea.
+- You can also make a proptype if you can, but I am not requiring it.
 
 {{<hint info>}}
 Do not make this too complex. Think of simple games and game mechanics.
+{{</hint>}}
+
+{{<hint info>}}
+When thinking of new interactions, I find it helpful to go to hardware stores, art/craft supply stores, flea markets and other places that have interesting obejcts and materials. Think about how you can manipulate the objects and materials with your hands and how those could be connected to some game mechanics (and what kind of sensor would be needed for that).
 {{</hint>}}
 
 ---
