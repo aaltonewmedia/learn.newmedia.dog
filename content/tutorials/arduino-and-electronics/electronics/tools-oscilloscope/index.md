@@ -6,7 +6,7 @@ draft: false
 weight: 210
 ---
 
-# Electronics: Breadboard
+# Tools: Oscilloscope
 
 ---
 
