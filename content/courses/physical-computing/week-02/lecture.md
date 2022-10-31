@@ -46,6 +46,8 @@ p5js-widget: true
 
 {{<youtube 6lV6z_LaBZU>}}
 
+{{<youtube Cv4X29HU3qY>}}
+
 The [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc) is a specific category of the [Game Developer's Conference](https://gdconf.com/about) that showcases alternative controllers for games. [The deadline for 2023 submission is on December 2, 2022.](https://docs.google.com/forms/d/e/1FAIpQLSdBK8BIvYzLJ8rKx7K8NKNIRvDRIB64Pqs5FUbB6uMcqkW7ug/viewform?MCAID=77FB1CFE532B22840A490D45@AdobeOrg)
 
 ### Enric Granzotto Llagostera: Cook Your Way
