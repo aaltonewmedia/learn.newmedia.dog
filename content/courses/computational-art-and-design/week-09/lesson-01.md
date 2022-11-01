@@ -26,7 +26,7 @@ p5js-widget: true
 
 ## Where to get data?
 
-We are going to work with [Corpora](https://github.com/dariusk/corpora), a collection of collections. A wonderful resource of json files on all kinds of topics.
+We are going to work with [Corpora](https://github.com/dariusk/corpora), a collection of different [corpus](https://en.wikipedia.org/wiki/Text_corpus). A wonderful resource of json files on all kinds of topics.
 
 {{<p5js autoplay=1 width="300" height="500">}}
 let data;
