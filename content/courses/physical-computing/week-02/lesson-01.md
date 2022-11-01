@@ -31,9 +31,43 @@ If you connect two resistors in series as in the image below, the voltage read f
 
 [![Voltage Divider](/images/tutorials/electronics/voltage-divider.jpg)](/images/tutorials/electronics/voltage-divider.jpg)
 
+[See the LDR tutorial to learn how to use the photoresistor (LDR) we have in the kit.](../../../tutorials/arduino-and-electronics/sensors/light-ldr/)
+
 ## Sensors with analog output
 
-There are also many sensors that have an analog outpput. Analog in this case meaning that they are directly outputting a varyying level of voltage
+There are also many sensors that have an analog outpput. Analog in this case meaning that they are directly outputting a varyying level of voltage. Some of the analog sensors we have in the Mechatronics workshops:
+
+- Accelerometer ADXL335
+- Sharp IR Distance Sensors
+
+## Sensors with simple digital output
+
+The most basic sensor with a digital output is just a switch. We covered those last week. Some other sensors that just send out a simple on/oof signal:
+
+- PIR Motion sensors
+
+### pulseIn()
+
+Some sensors send their data as a short pulse that has a specific duration. You can read those using the [pulseIn()](https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/) function in Arduino. Sensors that work like this:
+
+- [Ultrasonic Ranging Sensor HC-SR04](../../../tutorials/arduino-and-electronics/sensors/distance-ultrasonic-hc-sr04/)
+
+### Complex digital output
+
+There are many other digital communication protocols that are often used with modern sensors. We will cover these in the next class.
+
+---
+
+## Working with analog signals
+
+- [See the Analog Input tutorials.](../../../tutorials/arduino-and-electronics/arduino/)
+- [See the specific Sensor Tutorials](../../../tutorials/arduino-and-electronics/sensors/)
+
+---
+
+## Examples done in class
+
+**I will update this after the class**
 
 ---
 
