@@ -11,6 +11,7 @@ p5js-widget: false
 ## Students | Fall 2022
 
 - [Gabriel Fuentes](https://gafugu.cargo.site)
+- [Oonagh Graham](https://blogs.aalto.fi/oonaghphysicalcomputing/)
 - [Panu Luukkonen](https://luupanu.github.io/physical-computing)
 - [Otso Haavisto](https://otsha.github.io/phycomp-dir/)
 - [Anh Ngo](https://www.anhngo.info/physical-computing)
