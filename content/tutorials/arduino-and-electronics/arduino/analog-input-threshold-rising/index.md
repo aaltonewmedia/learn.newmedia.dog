@@ -3,7 +3,7 @@ title: "Analog Input: Threshold with Rising/Falling Signal"
 bookCollapseSection: false
 p5js-widget: true
 draft: false
-weight: 200
+weight: 210
 ---
 
 # Analog Input: Threshold With Rising/Falling Signal
@@ -42,10 +42,8 @@ void loop() {
   prevLightValue = lightValue;
 
   // 0 and 1023 are printed to make sure the plotter doesn't autoscale
-  Serial.print(0);
-  Serial.print(" ");
-  Serial.print(1023);
-  Serial.print(" ");
+  Serial.println("Min:0, Max:1023");
+
   Serial.print(lightValue);
   Serial.print(" ");
   Serial.println(threshold);
@@ -81,10 +79,8 @@ void loop() {
   prevLightValue = lightValue;
 
   // 0 and 1023 are printed to make sure the plotter doesn't autoscale
-  Serial.print(0);
-  Serial.print(" ");
-  Serial.print(1023);
-  Serial.print(" ");
+  Serial.println("Min:0, Max:1023");
+
   Serial.print(lightValue);
   Serial.print(" ");
   Serial.println(threshold);

@@ -36,10 +36,8 @@ void loop() {
   }
 
   // 0 and 1023 are printed to make sure the plotter doesn't autoscale
-  Serial.print(0);
-  Serial.print(" ");
-  Serial.print(1023);
-  Serial.print(" ");
+  Serial.println("Min:0, Max:1023");
+
   Serial.print(lightValue);
   Serial.print(" ");
   Serial.print(threshold);

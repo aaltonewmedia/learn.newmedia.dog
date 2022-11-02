@@ -67,7 +67,56 @@ There are many other digital communication protocols that are often used with mo
 
 ## Examples done in class
 
-**I will update this after the class**
+### Circuit
+
+[![Example Breadboard image](./img/example-bb.png)](./img/example-bb.png)
+
+### Code
+
+```c
+int light;
+int pot;
+int b;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(9,OUTPUT);
+}
+
+void loop() {
+  // read both sensors
+  light = analogRead(A0);
+  pot = analogRead(A1);
+
+  // print the min and max values so the Serial Plotter doesn't autoscale. Go to a new line.
+  Serial.println("Min:0, Max:1023");
+
+  // print the light sensor value
+  Serial.print(light);
+  // print space character so that the values each get a separate graph in the plotter
+  Serial.print(' ');
+  // print the potentiometer value and go to a new line
+  Serial.println(pot);
+
+  // map the values from the light sensor to a new range between 100-255
+  // store the value to a variable called b (the brightness of the LED)
+  // when the light sensor value reaches the value of pot, the brightness of the LED will be 100
+  // the darker it gets the brighter the LED becomes
+  // if the light sensor would read a value of 0, the brightness would be 255
+  b = map(light,pot,0,100,255);
+
+  // if light level goes below the threshold (pot), turn the LED on, set brightness to b
+  // otherwise set the LED brightness to 0
+  if(light < pot){ 
+    analogWrite(9,b);
+  }else{
+    analogWrite(9,0);
+  }
+
+  // delay to slow down the loop a bit
+  delay(10);
+}
+```
 
 ---
 
