@@ -1,10 +1,9 @@
 ---
-title: "Lesson 02"
+title: "FRI | Sound Analysis Using FFT | APIs"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Week 09 | ...
-
+# Sound Analysis Using FFT | APIs
 ---
