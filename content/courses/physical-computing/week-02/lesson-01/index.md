@@ -31,7 +31,7 @@ If you connect two resistors in series as in the image below, the voltage read f
 
 [![Voltage Divider](/images/tutorials/electronics/voltage-divider.jpg)](/images/tutorials/electronics/voltage-divider.jpg)
 
-[See the LDR tutorial to learn how to use the photoresistor (LDR) we have in the kit.](../../../tutorials/arduino-and-electronics/sensors/light-ldr/)
+[See the LDR tutorial to learn how to use the photoresistor (LDR) we have in the kit.](../../../../tutorials/arduino-and-electronics/sensors/light-ldr/)
 
 ## Sensors with analog output
 
@@ -42,7 +42,7 @@ There are also many sensors that have an analog outpput. Analog in this case mea
 
 ## Sensors with simple digital output
 
-The most basic sensor with a digital output is just a switch. We covered those last week. Some other sensors that just send out a simple on/oof signal:
+The most basic sensor with a digital output is just a switch. We covered those last week. Some other sensors that just send out a simple on/off signal:
 
 - PIR Motion sensors
 
@@ -50,7 +50,7 @@ The most basic sensor with a digital output is just a switch. We covered those l
 
 Some sensors send their data as a short pulse that has a specific duration. You can read those using the [pulseIn()](https://www.arduino.cc/reference/en/language/functions/advanced-io/pulsein/) function in Arduino. Sensors that work like this:
 
-- [Ultrasonic Ranging Sensor HC-SR04](../../../tutorials/arduino-and-electronics/sensors/distance-ultrasonic-hc-sr04/)
+- [Ultrasonic Ranging Sensor HC-SR04](../../../../tutorials/arduino-and-electronics/sensors/distance-ultrasonic-hc-sr04/)
 
 ### Complex digital output
 
@@ -60,8 +60,8 @@ There are many other digital communication protocols that are often used with mo
 
 ## Working with analog signals
 
-- [See the Analog Input tutorials.](../../../tutorials/arduino-and-electronics/arduino/)
-- [See the specific Sensor Tutorials](../../../tutorials/arduino-and-electronics/sensors/)
+- [See the Analog Input tutorials.](../../../../tutorials/arduino-and-electronics/arduino/)
+- [See the specific Sensor Tutorials](../../../../tutorials/arduino-and-electronics/sensors/)
 
 ---
 
@@ -124,7 +124,7 @@ void loop() {
 
 There are various sites that list out sensors:
 
-- [Aalto New Media: Sensors tutorials.](../../../tutorials/arduino-and-electronics/sensors/) The tutorials on this site. Specifically focusing on components we have in our kits and otherwise available.
+- [Aalto New Media: Sensors tutorials.](../../../../tutorials/arduino-and-electronics/sensors/) The tutorials on this site. Specifically focusing on components we have in our kits and otherwise available.
 - [sensorwiki.org](https://sensorwiki.org/) by The Working Group on Interactive Systems and Instrument Design in Music (ISIDM)
 
 I find it useful to browse some online shops that sell sensor boards to get an understanding what kind of things are possible. 
