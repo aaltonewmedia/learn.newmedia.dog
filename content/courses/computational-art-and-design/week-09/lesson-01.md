@@ -25,7 +25,23 @@ p5js-widget: true
 ## Reading data with p5.js
 
 - [loadStrings](https://p5js.org/reference/#/p5/loadStrings)
+- [loadTable](https://p5js.org/reference/#/p5/loadTable)
+- [loadXML](https://p5js.org/reference/#/p5/loadXML)
 - [loadJSON](https://p5js.org/reference/#/p5/loadJSON)
+
+We are going to jump right into reading JSON files, but I have also provided some infromation and examples for how to read text files, CSV files, and XML files.
+
+## Reading text files
+
+...
+
+## Reading tables (CSV files)
+
+...
+
+## Reading XML files
+
+...
 
 ## JSON
 
@@ -140,8 +156,15 @@ function setup() {
 
 ```
 
-### Crayon colors
+### Crayon Colors
 
 This example visualizes Crayola crayon colors from the json file.
 
 <iframe src="https://openprocessing.org/sketch/1722470/embed/?plusEmbedHash=MjA3ZDg3MGYyZGI0Y2E2NDYxMzM2NTk5YTdmODUyNWJiNmU5OTVjNjFhZjczYzJiN2QzNmY3MDE2NmE5NzNkNjEzYTFlMmFhZjM2YzUwMTQwNWY2MDA5ZjI1NWEzNTliMzhlMjZiMmYxM2UyZGE2ZmIzZmQyNTcwMDU4NWZlMGJZbkE4Nk9TM2NvNmtQTG9qV1BEaTlhNW9JV3RtUm9LUlpES2VqaVNqZmtXMWZObmtjdGxOVkVkVE83YlJ6Vm5QUmQxT1VWRmZQS2F2aVhYdGI5RUh3UT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
+
+---
+
+## References and Resources
+
+- [Coding Train playlist for Working with Data and APIs using p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+- [Coding Train playlist for Working with Data and APIs with JavaScript (not using p5.js)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
