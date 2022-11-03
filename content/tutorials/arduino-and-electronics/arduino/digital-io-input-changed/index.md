@@ -28,8 +28,8 @@ The code below does the following:
 
 ```c
 int btnPin = 2;
-int btnState = false;
-int prevBtnState = false;
+int btnState = 0;
+int prevBtnState = 0;
 
 void setup() {
   // Open the serial port

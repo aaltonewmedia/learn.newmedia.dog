@@ -36,8 +36,8 @@ The code below does the following:
 ```c
 int btnPin = 2;
 int ledPin = 9;
-int btnState = false;
-int prevBtnState = false;
+int btnState = 0;
+int prevBtnState = 0;
 int counter = 0;
 
 void setup() {

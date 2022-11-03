@@ -25,7 +25,7 @@ The code below does the following:
 ```c
 int btnPin = 2;
 int ledPin = 9;
-int btnState = false;
+int btnState = 0;
 
 void setup() {
   // Open the serial port

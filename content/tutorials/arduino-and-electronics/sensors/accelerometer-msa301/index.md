@@ -13,6 +13,6 @@ weight: 100
 ## Links and Resources
 
 - Datasheet of the sensor
-- Adafruit tutorial for the breakout board
-- Adafruit product page
+- [Adafruit tutorial for the breakout board](https://learn.adafruit.com/msa301-triple-axis-accelerometer)
+- [Adafruit product page](https://www.adafruit.com/product/4344)
 
