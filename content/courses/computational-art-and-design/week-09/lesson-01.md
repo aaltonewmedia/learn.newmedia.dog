@@ -168,3 +168,13 @@ This example visualizes Crayola crayon colors from the json file.
 
 - [Coding Train playlist for Working with Data and APIs using p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 - [Coding Train playlist for Working with Data and APIs with JavaScript (not using p5.js)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
+
+Courses in Aalto:
+
+- [Information Design Minor from VCD (+ New Media)](https://into.aalto.fi/pages/viewpage.action?pageId=62653698)
+  - [AXM-E2004 Introduction to Information Design](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932490-20220801/brochure)
+  - [AXM-E2006 Design and Data](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932492-20220801/brochure)
+  - [AXM-E0301	Art & Media Studio: Information Design](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932222-20220801/brochure)
+  - [AXM-E2002	Creative computation for Visual Communication](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932676-20220801/brochure) (this is similar to the course you are doing now)
+  - [AXM-E7005	Internet Technologies and Web Development](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932211-20220801/brochure)
+  - [AXM-E7006	Systems of Representation: Culture Lab](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932209-20220801/brochure)
