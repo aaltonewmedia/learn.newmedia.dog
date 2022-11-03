@@ -155,6 +155,50 @@ function setup() {
 }
 ```
 
+### Pick random tarot cards
+
+<iframe src="https://editor.p5js.org/mnstri/full/eCYtWAvZv" width="100%" height="600"></iframe>
+
+```js
+let data;
+let button;
+let resetButton;
+let cards;
+function preload() {
+  data = loadJSON("data.json");
+}
+
+function setup() {
+  noCanvas();
+  button = createButton("Pick a card");
+  button.mousePressed(pickACard);
+  resetButton = createButton("Reset");
+  resetButton.mousePressed(resetCards);
+  let bg = select("body");
+  bg.style("background-color", "#ffffff");
+  cards = data.tarot_interpretations;
+}
+
+function pickACard() {
+  let r = floor(random(cards.length));
+  createElement("h1", cards[r].name);
+  let fortunes = cards[r].fortune_telling;
+  let list = createElement("ul");
+  for (let j = 0; j < fortunes.length; j++) {
+    let item = createElement("li", fortunes[j]);
+    list.child(item);
+  }
+}
+
+function resetCards(){
+  removeElements();
+  button = createButton("Pick a card");
+  button.mousePressed(pickACard);
+  resetButton = createButton("Reset");
+  resetButton.mousePressed(resetCards);
+}
+```
+
 ### Crayon Colors
 
 This example visualizes Crayola crayon colors from the json file.
