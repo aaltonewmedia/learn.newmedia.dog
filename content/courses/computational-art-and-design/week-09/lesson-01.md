@@ -84,7 +84,7 @@ This is an example of a JSON representation describing a person.
       "animal": "duck",
       "name": "Tale"
     }
-  ],
+  ]
 }
 ```
 
@@ -94,21 +94,21 @@ We could try to parse the data with p5.js in the following way:
 
 ```js
 let person;
-function preload(){
+function preload() {
   person = loadJSON("data/person.json");
 }
 function setup() {
   noCanvas();
   noLoop();
-  
-  let name = person.firstName + ' ' + person.lastName;
-  createElement('h2', name);
-  
-  createElement('p', name + " has the following pets:");
+
+  let name = person.firstName + " " + person.lastName;
+  createElement("h2", name);
+
+  createElement("p", name + " has the following pets:");
   let pets = person.pets;
-  let list = createElement('ul');
-  for(let i=0; i<pets.length; i++){
-    let p = createElement('li', pets[i].name + ", " + pets[i].animal);
+  let list = createElement("ul");
+  for (let i = 0; i < pets.length; i++) {
+    let p = createElement("li", pets[i].name + ", " + pets[i].animal);
     list.child(p);
   }
 }
@@ -132,28 +132,27 @@ This example reads data from a json file and creates html elements (headings and
 
 ```js
 let data;
-function preload(){
-  data = loadJSON("data.json");         
+function preload() {
+  data = loadJSON("data.json");
 }
 
 function setup() {
   noCanvas();
   noLoop();
-  let bg = select('body');
-  bg.style('background-color', '#ffffff');
-  
+  let bg = select("body");
+  bg.style("background-color", "#ffffff");
+
   let cards = data.tarot_interpretations;
-  for(let i = 0; i < cards.length; i++){
-    createElement('h1', cards[i].name);
+  for (let i = 0; i < cards.length; i++) {
+    createElement("h1", cards[i].name);
     let fortunes = cards[i].fortune_telling;
-    let list = createElement('ul');
-    for(let j=0; j<fortunes.length; j++){
-      let item = createElement('li', fortunes[j]);
+    let list = createElement("ul");
+    for (let j = 0; j < fortunes.length; j++) {
+      let item = createElement("li", fortunes[j]);
       list.child(item);
     }
   }
 }
-
 ```
 
 ### Crayon Colors
@@ -174,7 +173,7 @@ Courses in Aalto:
 - [Information Design Minor from VCD (+ New Media)](https://into.aalto.fi/pages/viewpage.action?pageId=62653698)
   - [AXM-E2004 Introduction to Information Design](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932490-20220801/brochure)
   - [AXM-E2006 Design and Data](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932492-20220801/brochure)
-  - [AXM-E0301	Art & Media Studio: Information Design](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932222-20220801/brochure)
-  - [AXM-E2002	Creative computation for Visual Communication](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932676-20220801/brochure) (this is similar to the course you are doing now)
-  - [AXM-E7005	Internet Technologies and Web Development](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932211-20220801/brochure)
-  - [AXM-E7006	Systems of Representation: Culture Lab](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932209-20220801/brochure)
+  - [AXM-E0301 Art & Media Studio: Information Design](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932222-20220801/brochure)
+  - [AXM-E2002 Creative computation for Visual Communication](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932676-20220801/brochure) (this is similar to the course you are doing now)
+  - [AXM-E7005 Internet Technologies and Web Development](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932211-20220801/brochure)
+  - [AXM-E7006 Systems of Representation: Culture Lab](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932209-20220801/brochure)
