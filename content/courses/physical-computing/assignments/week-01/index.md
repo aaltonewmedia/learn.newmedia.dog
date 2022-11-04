@@ -33,6 +33,8 @@ Create a circuit and Arduino code that does the following
 
 {{< details title="Solution #1" open=false >}}
 
+[![Solution 1 Breadboard](./img/assignment-01.png)](./img/assignment-01.png)
+
 ```c
 int ledPin1 = 10;
 int ledPin2 = 9;

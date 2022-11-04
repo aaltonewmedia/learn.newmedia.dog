@@ -16,3 +16,8 @@ p5js-widget: true
 | 15:15–17:00 | [TBA](./lecture)  |  |  |  |  |
 
 </div> 
+
+
+## Readings
+
+- [Tom Igoe: What do the people do?](https://www.tigoe.com/blog/category/physicalcomputing/606/)

@@ -114,6 +114,28 @@ function setup() {
 }
 ```
 
+{{<p5js autoplay=1 width="300" height="500">}}
+let person;
+function preload() {
+  person = loadJSON("../files/data.json");
+}
+function setup() {
+  noCanvas();
+  noLoop();
+
+  let name = person.firstName + " " + person.lastName;
+  createElement("h2", name);
+
+  createElement("p", name + " has the following pets:");
+  let pets = person.pets;
+  let list = createElement("ul");
+  for (let i = 0; i < pets.length; i++) {
+    let p = createElement("li", pets[i].name + ", " + pets[i].animal);
+    list.child(p);
+  }
+}
+{{</p5js>}}
+
 ---
 
 ## Examples

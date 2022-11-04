@@ -29,13 +29,15 @@ Your kit includes three sensors that can be connected using this handy system:
 - [MSA301](../../../tutorials/arduino-and-electronics/sensors/accelerometer-msa301/)
 - [VL53L1X](../../../tutorials/arduino-and-electronics/sensors/distance-vl53l1x/)
 
-The Arduino Nanon Rp2040 Connect has these sensors built-in:
-- [LSM6DSOX IMU](https://www.arduino.cc/reference/en/libraries/arduino_lsm6dsox/)
-- [MP34DT05 Microphone](https://docs.arduino.cc/learn/built-in-libraries/pdm)
-
 {{<hint info>}}
 You don't have to use the Qwiic connectors to work with these sensors. You could solder wires or header pins to them just as well. The connectors are very handy for quick prototyping without worrying about damaging the sensors.
 {{</hint>}}
+
+## Built-in Sensors in the Arduino Nano RP2040 Connect
+
+The Arduino Nanon Rp2040 Connect has these sensors built-in:
+- [LSM6DSOX IMU](https://www.arduino.cc/reference/en/libraries/arduino_lsm6dsox/)
+- [MP34DT05 Microphone](https://docs.arduino.cc/learn/built-in-libraries/pdm)
 
 ---
 
