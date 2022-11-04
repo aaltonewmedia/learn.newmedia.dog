@@ -2,7 +2,7 @@
 title: "Audiovisual Studio"
 bookCollapseSection: true
 weight: 40
-draft: true
+draft: false
 ---
 
 # Audiovisual Studio
