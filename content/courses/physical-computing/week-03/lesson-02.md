@@ -1,10 +1,10 @@
 ---
-title: "Lesson 02"
+title: "Build a Robot"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Week 01 | ...
+# Build a Robot
 
 ---

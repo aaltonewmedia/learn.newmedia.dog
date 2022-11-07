@@ -1,11 +1,11 @@
 ---
-title: "Lesson 01"
+title: "Output Devices: Motors, Actuators, Lights"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
 ---
 
-# Week 01 | ...
+# Output Devices: Motors, Actuators, Lights
 
 ---
 

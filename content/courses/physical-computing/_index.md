@@ -143,8 +143,8 @@ Each week is divided into three classes just like they are divided here on this 
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Output: Motors & Actuators](./week-03/lesson-01) |  | [Output: Digital LEDs](./week-03/lesson-02) |  |
-| 15:15–17:00 | [TBA](./week-03/lecture)  |  |  |  |  |
+| 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
+| 15:15–17:00 | [Making Things Move](./week-03/lecture)  |  |  |  |  |
 
 </div> 
 
