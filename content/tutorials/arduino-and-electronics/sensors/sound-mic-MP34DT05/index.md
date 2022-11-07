@@ -12,3 +12,4 @@ weight: 100
 
 - [Arduino Tutorial](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-microphone-basics)
 
+

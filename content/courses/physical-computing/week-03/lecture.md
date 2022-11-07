@@ -15,9 +15,15 @@ Simple movements can make objects seem very alive.
 
 {{<youtube Yx2RY9wr0ts>}}
 
+- [Jennifer Greb: Electronic Creature](http://www.jennifergreb.com/demos#creature)
+
 {{<youtube Q9gP3GaFgNQ>}}
 
+- [Jennifer Greb: Electronic Hand](http://www.jennifergreb.com/demos#box)
+
 {{<vimeo 58533050>}}
+
+[@><#!!! Overtaxed Surface](http://www.overtaxedsurface.de/#video)
 
 {{<vimeo 84880475>}}
 
@@ -60,11 +66,3 @@ Simple movements can make objects seem very alive.
 - [Design with Movement](https://designwithmovement.aalto.fi/) by Eunyoung Park
 
 --- 
-
-## Project Ideas: First Draft
-
-[See the Final Project Guidelines and document your project ideas on your course website/document.](../final-project/)
-
-## Readings
-
-- [Tom Igoe: What do the people do?](https://www.tigoe.com/blog/category/physicalcomputing/606/)
