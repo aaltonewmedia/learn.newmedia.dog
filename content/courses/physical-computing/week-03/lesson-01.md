@@ -30,3 +30,46 @@ I have created tutorials for different types of actuators.
 Neopixel is a brand name by Adafruit for certain types of addressable LEDs.
 
 - [Adafruit Neopixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+
+---
+
+## Examples done in class
+
+### Accelerometer to Servo
+
+#### Code
+
+```c
+// Basic demo for accelerometer readings from Adafruit MSA301
+
+#include <Wire.h>
+#include <Adafruit_MSA301.h>
+#include <Adafruit_Sensor.h>
+#include <Servo.h>
+
+Adafruit_MSA301 msa;
+Servo myServo;
+
+// variable to store the servo position
+int pos = 0;    
+
+void setup(void) {
+  Serial.begin(115200);
+  msa.begin();
+  myServo.attach(9);
+}
+
+void loop() {
+  // get X Y and Z data at once
+  msa.read(); 
+  
+  // Then print out the raw data
+  Serial.print("X: "); Serial.print(msa.x); 
+  Serial.print(" Y: "); Serial.print(msa.y); 
+  Serial.print(" Z: "); Serial.print(msa.z);
+  Serial.println();
+  pos = map(msa.x, -2100, 2100, 0, 180);
+  myServo.write(pos);
+  delay(5); 
+}
+```
