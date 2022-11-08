@@ -21,3 +21,28 @@ draft: false
 [![Standard Servo](./img/servo-movement.jpg)](./img/servo-movement.jpg)
 
 [![Continuous Servo](./img/servo-movement-continuous.jpg)](./img/servo-movement-continuous.jpg)
+
+---
+
+## TowerPro SG92R
+
+The servo motor in the Physical Computing kit is the TowerPro SG92R
+
+- Weight: 9g
+- Dimension: 23×12.2x27mm
+- Stall torque: 2.5kg /cm(4.8v)
+- Gear type: POM with carbon fiber
+- Operating speed: 0.1sec /60degree (4.8v)
+- Operating voltage: 4.8v
+- Temperature range: 0°C to 55°C
+- Dead band width:1us
+- servo wire length: 25 cm
+- Servo Plug: JR (Fits JR and Futaba)
+- servo arms &screws included and fit with Futaba servo arm
+- It’s universal “S” type connector that fits most receivers, including Futaba, JR, Hitec ,GWS, Cirrus, Blue Bird, Blue Arrow, Corona, Berg, Spektrum.
+- CE &RoHS approved
+
+---
+
+- [Arduino Servo Library](https://www.arduino.cc/reference/en/libraries/servo/)
+- [Arduino Servo Examples](https://docs.arduino.cc/learn/electronics/servo-motors#hardware-required)

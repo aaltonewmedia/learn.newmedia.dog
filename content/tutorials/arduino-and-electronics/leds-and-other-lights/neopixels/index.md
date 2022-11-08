@@ -22,4 +22,5 @@ draft: false
 
 ## Resources
 
+- [Adafruit Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
 - [Pixelblaze](https://www.bhencke.com/pixelblaze)
