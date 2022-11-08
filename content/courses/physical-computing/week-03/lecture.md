@@ -56,13 +56,13 @@ Simple movements can make objects seem very alive.
 - [ART+COM](http://www.artcom.de/en/projects/) – A German design studio that specializes in creating big kinetic sculptures
 - [Ben Hopson](http://www.benhopson.com/?page_id=3) – An industrial designer who has a lot of very interesting Kinetic Sketches on his website. [Also this article about designing motion might be of interest to you.](http://www.core77.com/blog/featured_items/kinetic_design_and_the_animation_of_products_by_ben_hopson_12642.asp)
 - [Theo Jansen](http://www.strandbeest.com/index.php) – Amazing wind-powered artificial creatures
-- [Jie Qi](http://technolojie.com/category/featured-projects/) – Some interesting projects using muscle wire, paper electronics
+- [Jie Qi](https://technolojie.com/) – Some interesting projects using muscle wire, paper electronics
 - [Eunyoung Park](https://eunyoungpark.co/studio/) – From Aalto Media Lab, her thesis project was [LINKKI](http://eunyoungpark.co/linkki/)
 
 ## Resources
 
 - [Soft Robots](https://softroboticstoolkit.com/)
-- [Muscle Wire + Paper Electronics]()
+- [Muscle Wire + Paper Electronics](https://technolojie.com/origami-robotics/) by Jie Qi
 - [Design with Movement](https://designwithmovement.aalto.fi/) by Eunyoung Park
 
 --- 
