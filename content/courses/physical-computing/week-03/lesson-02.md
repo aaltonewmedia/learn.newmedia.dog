@@ -17,7 +17,7 @@ p5js-widget: true
 
 #### H-Bridge L293D
 
-![L293D](/images/tutorials/electronics/l293d.png)
+[![L293D](/images/tutorials/electronics/l293d.png)](/images/tutorials/electronics/l293d.png)
 
 #### Light Sensor
 
