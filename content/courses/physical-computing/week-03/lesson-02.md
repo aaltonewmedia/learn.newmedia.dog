@@ -220,6 +220,8 @@ void loop() {
     } else {
       goLeft();
     }
+  }else{
+    stopAll();
   }
 }
 
@@ -311,5 +313,5 @@ void rightSpeed(int mSpeed) {
   analogWrite(MR_EN, mSpeed);
 }
 
-```
+
 {{</ details >}}
