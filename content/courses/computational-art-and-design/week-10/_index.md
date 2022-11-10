@@ -1,8 +1,8 @@
 ---
-title: "10 | Machine Learning"
+title: "10 | Other Creative Coding Frameworks"
 bookCollapseSection: true
 p5js-widget: true
-draft: true
+draft: false
 weight: 100
 ---
 
