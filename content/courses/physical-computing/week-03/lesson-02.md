@@ -139,6 +139,8 @@ void rightSpeed(int mSpeed) {
 
 {{< details title="Show the Code" open=false >}}
 ```c
+
+
 #define MR_EN 4
 #define MR_C1 3
 #define MR_C2 2
@@ -210,6 +212,7 @@ void setup() {
 }
 
 void loop() {
+  readLight();
   readDistance();
   if(light > 400){
     if (rawDistance > 300) {
@@ -221,7 +224,7 @@ void loop() {
 }
 
 void readLight() {
-  light = analogRead(A0);
+  light = analogRead(A3);
   Serial.print("light: ");
   Serial.println(light);
 }
