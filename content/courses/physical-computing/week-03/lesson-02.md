@@ -13,12 +13,131 @@ p5js-widget: true
 
 ### Schematic
 
+#### Distance Sensor
+
+#### H-Bridge L293D
+
+![L293D](/images/tutorials/electronics/l293d.png)
+
+#### Light Sensor
+
 ### Breadboard View
 
 ### Assembly
 
-### Code
 
+### Code for testing the motors
+
+{{< details title="Show the Code" open=false >}}
+
+```c
+#define MR_EN 4
+#define MR_C1 3
+#define MR_C2 2
+
+#define ML_EN 14
+#define ML_C1 15
+#define ML_C2 16
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(MR_EN, OUTPUT);
+  pinMode(MR_C1, OUTPUT);
+  pinMode(MR_C2, OUTPUT);
+
+  pinMode(ML_EN, OUTPUT);
+  pinMode(ML_C1, OUTPUT);
+  pinMode(ML_C2, OUTPUT);
+
+  leftSpeed(255);
+  rightSpeed(255);
+  stopAll();
+}
+
+void loop(){
+  // test the motor functions here:
+  // leftSpeed(255);
+  // rightSpeed(255);
+  // goForward();
+  // goBackward();
+  // goLeft();
+  // goRight();
+  // stopAll();
+  // leftMotorForward();
+  // leftMotorBackward();
+  // rightMotorForward();
+  // rightMotorBackward();
+}
+
+void goForward() {
+  leftMotorForward();
+  rightMotorForward();
+}
+
+void goBackward() {
+  leftMotorBackward();
+  rightMotorBackward();
+}
+
+void goLeft() {
+  rightMotorForward();
+  leftMotorBackward();
+}
+
+void goRight() {
+  leftMotorForward();
+  rightMotorBackward();
+}
+
+void stopAll() {
+  leftMotorStop();
+  rightMotorStop();
+}
+
+void leftMotorForward() {
+  digitalWrite(ML_C1, HIGH);
+  digitalWrite(ML_C2, LOW);
+}
+
+void leftMotorBackward() {
+  digitalWrite(ML_C1, LOW);
+  digitalWrite(ML_C2, HIGH);
+}
+
+void leftMotorStop() {
+  digitalWrite(ML_C1, LOW);
+  digitalWrite(ML_C2, LOW);
+}
+
+void rightMotorStop() {
+  digitalWrite(MR_C1, LOW);
+  digitalWrite(MR_C2, LOW);
+}
+
+void rightMotorForward() {
+  digitalWrite(MR_C1, HIGH);
+  digitalWrite(MR_C2, LOW);
+}
+
+void rightMotorBackward() {
+  digitalWrite(MR_C1, LOW);
+  digitalWrite(MR_C2, HIGH);
+}
+
+void leftSpeed(int mSpeed) {
+  analogWrite(ML_EN, mSpeed);
+}
+
+void rightSpeed(int mSpeed) {
+  analogWrite(MR_EN, mSpeed);
+}
+```
+{{</ details >}}
+
+### Final Code
+
+{{< details title="Show the Code" open=false >}}
 ```c
 #define MR_EN 4
 #define MR_C1 3
@@ -92,10 +211,12 @@ void setup() {
 
 void loop() {
   readDistance();
-  if (rawDistance > 300) {
-    goForward();
-  } else {
-    goLeft();
+  if(light > 400){
+    if (rawDistance > 300) {
+      goForward();
+    } else {
+      goLeft();
+    }
   }
 }
 
@@ -188,3 +309,4 @@ void rightSpeed(int mSpeed) {
 }
 
 ```
+{{</ details >}}
