@@ -36,22 +36,23 @@ I have listed some tools here under different categories. Some of them appear in
 
 ### Sound Programming
 
-- SuperCollider
-- Pure Data
-- Max
+- [SuperCollider](https://supercollider.github.io/)
+- [Pure Data](https://puredata.info/)
+- [Max](https://cycling74.com/)
 - [SonicPi](https://sonic-pi.net/)
 
 ### Visual Effects (Realtime)
 
-- TouchDesigner
-- Houdini
-- Notch
-- Unity
-- Unreal Engine
+- [TouchDesigner](https://derivative.ca/)
+- [Houdini](https://www.sidefx.com/)
+- [Notch](https://www.notch.one/)
+- [Unity](https://unity.com/)
+- [Unreal Engine](https://www.unrealengine.com/)
 
 ### Game Engines
 
-- Unreal Engine
+- [Unity](https://unity.com/)
+- [Unreal Engine](https://www.unrealengine.com/)
 
 ## Courses in Aalto
 
