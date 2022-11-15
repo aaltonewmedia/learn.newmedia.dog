@@ -143,6 +143,10 @@ hr{
   border-bottom: 0.1rem solid rgba($nm_offwhite, 0.2) !important;
 }
 
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-weight: 600;
+}
+
 th:first-of-type {
   border-top-left-radius: 10px;
 }
