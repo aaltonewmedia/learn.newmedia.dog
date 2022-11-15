@@ -83,7 +83,7 @@ void loop() {
 }
 ```
 
-#### p5.js code
+#### Option #1: p5.js code
 
 Then you can create a p5.js sketch to read the data from the serial port. This works with [the online editor](https://editor.p5js.org/) as well.
 
@@ -136,6 +136,53 @@ function mousePressed(){
   if (!port.opened()) {
     port.open(9600);
   }
+}
+```
+
+#### Option #2: Processing code
+
+{{<hint warning>}}
+If you have the new Mac computers with Apple Silicon (M1 or M2 chips), [see this page to fix the Serial library](https://notes.osteele.com/courses/interaction-lab/using-serial-with-processing-4-on-apple-silicon)
+{{</hint>}}
+
+```java
+import processing.serial.*;
+
+Serial myPort;  // Create object from Serial class
+String str;      // Data received from the serial port
+float light;
+float distance;
+float c;
+float s=10;
+void setup()
+{
+  size(500, 500);
+  // Open whatever port is the one you're using.
+  // Change the 0 in  Serial.list()[0] to the correct device
+  printArray(Serial.list());
+  String portName = Serial.list()[5];
+  myPort = new Serial(this, portName, 9600);
+}
+
+void draw()
+{
+  if ( myPort.available() > 0) {  // If data is available,
+    str = myPort.readStringUntil('\n');         // read it and store it in str
+    
+    String[] splitData = split(str, ",");
+    light = float(splitData[0]);
+    distance = float(splitData[1]);
+    println(splitData[1]);
+    myPort.clear();
+    c = map(light,0,1023,0,255);
+    s = map(distance,0,3000,10,400);
+  }
+  background(130,70,90);   
+  fill(255);
+  text("light: " + light,20,20);
+  text("distance: " + distance,20,40);
+  fill(c);
+  circle(width/2, height/2, s);
 }
 ```
 
@@ -246,7 +293,6 @@ USBMouse Mouse;
 
 void setup() {
   // put your setup code here, to run once:
-
 }
 
 void loop() {
@@ -271,3 +317,16 @@ The [Teensy boards](https://www.pjrc.com/teensy/) are also capable of becoming v
 - [USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html])
 
 [The Teensy Audio library even allows you to use your Teensy as a USB Audio Interface.](https://www.pjrc.com/teensy/td_libs_Audio.html)
+
+--- 
+
+## Assignment (Deadline: Tuesday, November 22 at 13:00)
+
+Create a small project that does the following:
+
+- Read at least two sensor values using Arduino. You can use any sensor you want to but they should be some other sensors than the ones we used in class. They can also be two channels from the same sensor such as the X and Y of the accelerometer.
+- Print out the values using the Serial port in a way that you can separate the different values.
+- Create a small sketch using Processing or p5.js (or some other programming environment) to read the sensor values from the serial port. You can use the examples on this page as a starting point.
+- Map the sensor values to some parameters in your sketch. You can simply visualize the data in some way or create something more interesting and meaningful that is more connected to the interaction. Do something else than the example we created today.
+
+Document your project on your course website. **Deadline: Tuesday, November 22 at 13:00.**
