@@ -28,7 +28,7 @@ You can also use serial communication with other software on your computer.
 
 ### p5.webserial.js 
 
-[See the documentation](https://github.com/gohai/p5.webserial/)
+[See the documentation](https://github.com/gohai/p5.webserial/) of the library.
 
 #### Circuit
 
@@ -99,6 +99,8 @@ First, open the `index.html` file and add the following inside the `head` tags t
 
 [![Serial library for p5.js](./img/p5js-editor-serial.png)](./img/p5js-editor-serial.png)
 
+Then use the code below. If everything went as expected, you should be able to connect to your Arduino and see the data coming in.
+
 ```js
 let port;
 let light, distance;
@@ -131,7 +133,9 @@ function draw() {
 }
 
 function mousePressed(){
-  port.open(9600);
+  if (!port.opened()) {
+    port.open(9600);
+  }
 }
 ```
 
@@ -153,6 +157,13 @@ Keyboard.key_code('a');
 
 // Use modifier keys
 Keyboard.key_code('a', KEY_SHIFT);
+```
+
+### Sending text
+
+```c
+// use printf() to
+Keyboard.printf("Hello world!");
 ```
 
 ### Special keys
@@ -258,3 +269,5 @@ The [Teensy boards](https://www.pjrc.com/teensy/) are also capable of becoming v
 - [USB Joystick](https://www.pjrc.com/teensy/td_joystick.html)
 - [USB MIDI](https://www.pjrc.com/teensy/td_midi.html)
 - [USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html])
+
+[The Teensy Audio library even allows you to use your Teensy as a USB Audio Interface.](https://www.pjrc.com/teensy/td_libs_Audio.html)
