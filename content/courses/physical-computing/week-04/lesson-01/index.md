@@ -41,6 +41,8 @@ We have this done with our robot we built last week so just keep that connected.
 
 #### Arduino Code
 
+Upload the following code to your Arduino. It reads the two sensors and prints out the data on one line with the values separated by a comma.
+
 ```c
 #include <Wire.h>
 #include <VL53L1X.h>
@@ -83,6 +85,8 @@ void loop() {
 
 #### p5.js code
 
+Then you can create a p5.js sketch to read the data from the serial port. This works with [the online editor](https://editor.p5js.org/) as well.
+
 {{<hint info>}}
 Note that you have to use a browser that supports the Web Serial API, such as Chrome, for this to work.
 {{</hint>}}
@@ -92,6 +96,8 @@ First, open the `index.html` file and add the following inside the `head` tags t
 ```html
 <script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>
 ```
+
+[![Serial library for p5.js](./img/p5js-editor-serial.png)](./img/p5js-editor-serial.png)
 
 ```js
 let port;
