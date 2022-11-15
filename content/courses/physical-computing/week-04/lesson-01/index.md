@@ -64,11 +64,11 @@ void setup() {
       ;
   }
   sensor.setDistanceMode(VL53L1X::Long);
-  sensor.setMeasurementTimingBudget(50000);  // time is in microseconds
+  sensor.setMeasurementTimingBudget(25000);  // time is in microseconds
   sensor.setROICenter(199);
   // the smallest size for the ROI is 4x4
   sensor.setROISize(4, 4);
-  sensor.startContinuous(50);
+  sensor.startContinuous(25);
 }
 
 void loop() {
@@ -168,14 +168,13 @@ void draw()
 {
   if ( myPort.available() > 0) {  // If data is available,
     str = myPort.readStringUntil('\n');         // read it and store it in str
-    
-    String[] splitData = split(str, ",");
-    light = float(splitData[0]);
-    distance = float(splitData[1]);
-    println(splitData[1]);
-    myPort.clear();
-    c = map(light,0,1023,0,255);
-    s = map(distance,0,3000,10,400);
+    if(str != null){
+      String[] splitData = split(str, ",");
+      light = float(splitData[0]);
+      distance = float(splitData[1]);
+      c = map(light,0,1023,0,255);
+      s = map(distance,0,3000,10,400);
+    }
   }
   background(130,70,90);   
   fill(255);
