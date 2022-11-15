@@ -22,7 +22,7 @@ Arduino has two built-in tools for receiving and/or sending serial data.
 - Serial Monitor
 - Serial Plotter
 
-We have already used thme both, mainly for seeing data printed from the sensors we use.
+We have already used them both, mainly for seeing data printed from the sensors we use.
 
 You can also use serial communication with other software on your computer.
 
