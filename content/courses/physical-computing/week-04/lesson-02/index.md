@@ -27,11 +27,23 @@ Note! The official version of the library does not work with the Arduino Nano RP
 6. Move the folder to your Arduino libraries folder. `~/Documents/Arduino/libraries` on Mac and `C:\Users\{username}\Documents\Arduino\libraries` on Windows.
 {{</hint>}}
 
+---
+
+## Example: HTTP Requests
+
+---
+
+## Example: Simple OSC Send and Receive
+
+
+
+---
+
 ## Example: OSC controlled robot
 
 ### Arduino Code
 
-This code creates a WiFi network (access point) on the Arduino Nano RP2040 Connect and starts listening to OSC messages with the addresses `/direction` and `speed`. The code also sends the values from the light and distance sensors of our robot.
+This code creates a WiFi network (access point) on the Arduino Nano RP2040 Connect and starts listening to OSC messages with the addresses `/direction` and `/speed`. The code also sends the values from the light and distance sensors of our robot.
 
 [Download the code](./files/robot-osc-control.zip) or copy it from below.
 
@@ -340,9 +352,9 @@ void rightSpeed(int mSpeed) {
 
 If you don't have processing installed, you can download the application:
 
-- MacOS
-- Windows
-- Linux
+- [MacOS](./files/macos-x86_64.zip)
+- [Windows](./files/windows-amd64.zip)
+- [Linux](./files/linux-amd64.zip)
 
 {{< details title="Show the Processing Code" open=false >}}
 
