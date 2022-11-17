@@ -49,7 +49,7 @@ function draw() {
 [OSC (Open Sound Control)](https://ccrma.stanford.edu/groups/osc/index.html) is a protocol for communicating among applications and hardware over a network connection. It was originally developed for realtime musical performances.
 
 {{<hint info>}}
-I like to think of OSC as the duct tape of new media. Quite often, we have to deal with connecting hardware and software together in unexpected ways. OSC makes this possivble
+I like to think of OSC as the duct tape of new media. Quite often, we have to deal with connecting hardware and software together in unexpected ways. OSC makes this possible.
 {{</hint>}}
 
 ### Anatomy of OSC Messages
@@ -91,9 +91,9 @@ Download the app on your mobile device from the app store of your mobile device.
 
 ### Debugging OSC Messages
 
-#### Kontrol
+#### Protokol
 
-[Kontrol](https://hexler.net/protokol) is an excellent tool for monitoring and debugging OSC, MIDI and Gamepad data. I use it all the time to see what kind of data is being received.
+[Protokol](https://hexler.net/protokol) is an excellent tool for monitoring and debugging OSC, MIDI and Gamepad data. I use it all the time to see what kind of data is being received.
 
 ### TUIO
 
