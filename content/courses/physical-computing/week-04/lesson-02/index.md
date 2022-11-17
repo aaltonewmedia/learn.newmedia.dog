@@ -31,6 +31,8 @@ Note! The official version of the library does not work with the Arduino Nano RP
 
 ## Example: HTTP Requests
 
+[See this tutorial from Arduino.](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-ap-web-server-rgb)
+
 ---
 
 ## Example: Simple OSC Send and Receive
