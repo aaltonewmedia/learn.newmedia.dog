@@ -109,7 +109,89 @@ Note! The official version of the library does not work with the Arduino Nano RP
 
 ## Example: Simple OSC Send and Receive
 
+### Arduino Code
 
+{{< details title="Show the Arduino Code" open=false >}}
+```c
+#include <ArduinoOSCWiFi.h>
+#include <WiFiNINA.h>
+
+char ssid[] = "matti";
+char pass[] = "robomatti";
+
+int status = WL_IDLE_STATUS;
+
+// for ArduinoOSC
+const char* host = "192.168.4.2";
+const int send_port = 55556;
+
+int light;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  // check for the WiFi module:
+  if (WiFi.status() == WL_NO_MODULE) {
+    Serial.println("Communication with WiFi module failed!");
+    // don't continue
+    while (true)
+      ;
+  }
+  // print the network name (SSID);
+  Serial.print("Creating access point named: ");
+  Serial.println(ssid);
+  status = WiFi.beginAP(ssid,pass);
+  printWifiStatus();
+  OscWiFi.publish(host, send_port, "/sensor",light)->setFrameRate(60.f);
+}
+
+void loop() {
+  OscWiFi.update();
+  light = analogRead(A3);
+}
+
+
+void printWifiStatus() {
+  // print the SSID of the network you're attached to:
+  Serial.print("SSID: ");
+  Serial.println(WiFi.SSID());
+
+  // print your board's IP address:
+  IPAddress ip = WiFi.localIP();
+  Serial.print("IP Address: ");
+  Serial.println(ip);
+}
+```
+{{</details>}}
+
+### Processing Code
+
+{{< details title="Show the Processing Code" open=false >}}
+```java
+import netP5.*;
+import oscP5.*;
+OscP5 oscP5;
+int light;
+void setup(){
+  size(500,500);
+  oscP5 = new OscP5(this, 55556);
+}
+
+void draw(){
+  background(255);
+  fill(0);
+  textSize(36);
+  text(light,100,100);
+}
+
+void oscEvent(OscMessage m){
+  println(m.addrPattern());
+  if(m.checkAddrPattern("/sensor")){
+    light = m.get(0).intValue();
+  }
+}
+```
+{{</details>}}
 
 ---
 
