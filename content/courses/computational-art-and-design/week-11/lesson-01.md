@@ -40,9 +40,13 @@ function draw() {
 }
 ```
 
+---
+
 ## Serial communication with Arduino and other devices
 
 [See the materials from the Physical Computing class.]({{< relref "/courses/physical-computing/week-04/lesson-01" >}})
+
+---
 
 ## OSC (Open Sound Control)
 
@@ -120,6 +124,6 @@ More information:
 I would not recommend to rely on this technology for new designs but it is a very interesting example and might become useful in some situations even still. [The latest update to the TUIO protocol itself was done in 2014.](http://www.tuio.org/?tuio20)
 {{</hint>}}
 
-## Websockets
+---
 
-...
+## Example
