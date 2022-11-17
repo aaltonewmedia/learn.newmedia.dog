@@ -83,9 +83,13 @@ OSC libraries for JavaScript:
 - [p5js-osc](https://github.com/genekogan/p5js-osc) | This works fine, but gives security errors when you use it. These issues are generally not a problem since you generally use OSC on local network and not over the internet. Fairly simple to setup but hasn't been updated for a while.
 - [osc.js](https://github.com/adzialocha/osc-js) | Uses websockets to route the OSC data. A little bit harder to get running but this library is actively being developed and updated.
 
+### OSC in Processing
+
+OSC communication in Processing can be done using the [oscP5 library](https://sojamo.de/libraries/oscP5/). You can install it with the Library manager in Processing.
+
 ### ZIG SIM
 
-[ZIG SIM](https://zig-project.com/)
+[ZIG SIM](https://zig-project.com/) is an application for your mobile device that allows you to stream many of the sensors from your phone to any other device that is able to receive OSC messages.
 
 Download the app on your mobile device from the app store of your mobile device. The free version works for most of the sensors.
 

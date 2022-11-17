@@ -51,11 +51,11 @@ OSC libraries for JavaScript:
 
 ### OSC in Processing
 
-OSC communication in Processing can be done using the oscP5 library. You can install it withe the
+OSC communication in Processing can be done using the [oscP5 library](https://sojamo.de/libraries/oscP5/). You can install it with the Library manager in Processing.
 
 ### ZIG SIM
 
-[ZIG SIM](https://zig-project.com/)
+[ZIG SIM](https://zig-project.com/) is an application for your mobile device that allows you to stream many of the sensors from your phone to any other device that is able to receive OSC messages.
 
 Download the app on your mobile device from the app store of your mobile device. The free version works for most of the sensors.
 
