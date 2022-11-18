@@ -25,6 +25,7 @@ Important links
 - [ml5.js](https://ml5js.org/)
 - [Getting Started](https://learn.ml5js.org/#/)
 - [Coding Train tutorial on ml5.js](https://thecodingtrain.com/tracks/ml5js-beginners-guide)
+- [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
 These are the models that are available in ml5.js, explore the examples to understand what is possible.
 
@@ -60,7 +61,7 @@ Sound
 
 ## Example: PoseNet
 
-As we saw above, ml5.js allows you to use various models but we are going to explore just one of them in detail. This model is PoseNet.
+As we saw above, ml5.js allows you to use various models but we are going to explore just one of them in detail. This model is [PoseNet](https://learn.ml5js.org/#/reference/posenet).
 
 ### Step #1: Prepare your sketch files
 
