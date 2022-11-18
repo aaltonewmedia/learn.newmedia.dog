@@ -31,7 +31,7 @@ These are the models that are available in ml5.js, explore the examples to under
 
 Image
 
-- [Image Classifier](https://learn.ml5js.org/#/reference/image-classifier) uses neural networks to recognize the content of images. 
+- [Image Classifier](https://learn.ml5js.org/#/reference/image-classifier) uses neural networks to recognize the content of images.
 - [PoseNet](https://learn.ml5js.org/#/reference/posenet) allows you to estimate "poses" from an image (still or video). This means that you can detect specific features of a human being from an image. These features would be your eyes, nose, hands, arms, legs, feet etc.
 - [BodyPix](https://learn.ml5js.org/#/reference/bodypix) allows for person and body-part segmentation from an image.
 - [UNET](https://learn.ml5js.org/#/reference/unet)
@@ -50,7 +50,6 @@ Text
 - [CharRNN](https://learn.ml5js.org/#/reference/charrnn)
 - [Sentiment](https://learn.ml5js.org/#/reference/sentiment)
 - [Word2Vec](https://learn.ml5js.org/#/reference/word2vec?id=examples) (currently disabled)
-
 
 Sound
 
@@ -74,15 +73,15 @@ The first step is to include the ml5.js library in your `ìndex.html` file. Add 
 The basic starting poinf for your p5.js sketch is here:
 
 ```js
-// Open up your console - if everything loaded properly you should see the version number 
+// Open up your console - if everything loaded properly you should see the version number
 // corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
-console.log('ml5 version:', ml5.version);
+console.log("ml5 version:", ml5.version);
 
-function setup(){
+function setup() {
   createCanvas(640, 480);
 }
 
-function draw(){
+function draw() {
   background(200);
 }
 ```
@@ -91,79 +90,115 @@ function draw(){
 
 Next, make sure your webcam works.
 
-{{<hint warning>}}
-There seems to be something wrong with setting the video camera image size in p5.js. It seems to always default to 640x480 no matter what i try to resize it.
-{{</hint>}}
-
 ```js
-// Open up your console - if everything loaded properly you should see the version number 
+// Open up your console - if everything loaded properly you should see the version number
 // corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
-console.log('ml5 version:', ml5.version);
+console.log("ml5 version:", ml5.version);
 
 let cam;
 
-function setup(){
+function setup() {
   createCanvas(640, 480);
   cam = createCapture(VIDEO, videoLoaded);
   cam.hide();
 }
 
-function draw(){
+function draw() {
   background(200);
-  image(cam,0,0);
+  image(cam, 0, 0);
 }
 
-function videoLoaded(){
+function videoLoaded() {
   // resize the canvas to be the same size as you camera resolution
-  resizeCanvas(cam.width,cam.height);
+  resizeCanvas(cam.width, cam.height);
 }
 ```
 
-### Step 3: Load the PoseNet model and save the poses to an array 
+{{<hint warning>}}
+There seems to be something wrong with setting the video camera image ration in p5.js. to fix that you can use the following example code.
+{{</hint>}}
 
 ```js
-// Open up your console - if everything loaded properly you should see the version number 
+/*
+
+MORE INFO
+
+https://w3c.github.io/mediacapture-main/getusermedia.html#dom-constraindouble
+https://www.folkstalk.com/tech/how-to-force-a-16-9-ratio-with-getusermedia-on-all-devices-solution/
+https://calculateaspectratio.com/16-9-calculator
+
+*/
+
+let video; // or cam
+
+const cameraWidth = 960;
+const cameraHeight = 540;
+
+function setup() {
+  // canvas and other p5 functions HERE
+
+  const constraints = {
+    video: { width: cameraWidth, height: cameraHeight, facingMode: "user" },
+  };
+  // Dont remove or change anything from the function below. This is what you need to set any ratio
+  navigator.mediaDevices
+    .getUserMedia(constraints)
+    .then((stream) => (video.srcObject = stream))
+    .then(() => new Promise((resolve) => (video.onloadedmetadata = resolve)))
+    .then(() => log(video.videoWidth + "x" + video.videoHeight))
+    .catch((e) => {});
+
+  // Shows video
+  video = createCapture(constraints);
+  // video.hide()
+}
+```
+
+### Step 3: Load the PoseNet model and save the poses to an array
+
+```js
+// Open up your console - if everything loaded properly you should see the version number
 // corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
-console.log('ml5 version:', ml5.version);
+console.log("ml5 version:", ml5.version);
 
 let cam;
 let posenet;
 // create an empty array to store the data from the posenet tracking
 let poses = [];
 
-function setup(){
+function setup() {
   createCanvas(640, 480);
   cam = createCapture(VIDEO, videoLoaded);
   cam.hide();
-  
+
   // Create a new poseNet method with a single detection
   // modelReady function is called when the model has been loaded
   poseNet = ml5.poseNet(cam, modelReady);
-  
+
   // This sets up an event that fills the global variable "poses"
   // with an array every time new poses are detected
-  poseNet.on('pose', poseResults);
+  poseNet.on("pose", poseResults);
 }
 
-function draw(){
+function draw() {
   background(200);
-  image(cam,0,0);
+  image(cam, 0, 0);
 }
 
-function videoLoaded(){
+function videoLoaded() {
   // resize the canvas to be the same size as you camera resolution
-  resizeCanvas(cam.width,cam.height);
+  resizeCanvas(cam.width, cam.height);
 }
 
-function modelReady(){
-  console.log("model loaded!")
+function modelReady() {
+  console.log("model loaded!");
 }
 
-function poseResults(results){
-   poses = results;
+function poseResults(results) {
+  poses = results;
 }
 
-function mousePressed(){
+function mousePressed() {
   console.log(poses);
 }
 ```
@@ -171,33 +206,33 @@ function mousePressed(){
 ### Step 4: Draw all the keypoints for one person (pose)
 
 ```js
-// Open up your console - if everything loaded properly you should see the version number 
+// Open up your console - if everything loaded properly you should see the version number
 // corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
-console.log('ml5 version:', ml5.version);
+console.log("ml5 version:", ml5.version);
 
 let cam;
 let posenet;
 // create an empty array to store the data from the posenet tracking
 let poses = [];
 
-function setup(){
+function setup() {
   createCanvas(640, 480);
   cam = createCapture(VIDEO, videoLoaded);
   cam.hide();
-  
+
   // Create a new poseNet method with a single detection
   // modelReady function is called when the model has been loaded
   poseNet = ml5.poseNet(cam, modelReady);
-  
+
   // This sets up an event that fills the global variable "poses"
   // with an array every time new poses are detected
-  poseNet.on('pose', poseResults);
+  poseNet.on("pose", poseResults);
 }
 
-function draw(){
+function draw() {
   background(200);
-  image(cam,0,0);
-  
+  image(cam, 0, 0);
+
   // check that there is at least one person
   if (poses.length > 0) {
     // get the first pose (person) in the array
@@ -205,28 +240,28 @@ function draw(){
     fill(255);
     noStroke();
     // loop through all of the keypoints in the pose
-    for(let i=0; i < person.keypoints.length; i++){
+    for (let i = 0; i < person.keypoints.length; i++) {
       let x = person.keypoints[i].position.x;
       let y = person.keypoints[i].position.y;
-      circle(x,y,10);
+      circle(x, y, 10);
     }
   }
 }
 
-function videoLoaded(){
+function videoLoaded() {
   // resize the canvas to be the same size as you camera resolution
-  resizeCanvas(cam.width,cam.height);
+  resizeCanvas(cam.width, cam.height);
 }
 
-function modelReady(){
-  console.log("model loaded!")
+function modelReady() {
+  console.log("model loaded!");
 }
 
-function poseResults(results){
-   poses = results;
+function poseResults(results) {
+  poses = results;
 }
 
-function mousePressed(){
+function mousePressed() {
   // print the poses in the console when the mouse is pressed
   console.log(poses);
 }
@@ -235,9 +270,9 @@ function mousePressed(){
 ### Step 5: Get individual points
 
 ```js
-// Open up your console - if everything loaded properly you should see the version number 
+// Open up your console - if everything loaded properly you should see the version number
 // corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
-console.log('ml5 version:', ml5.version);
+console.log("ml5 version:", ml5.version);
 
 let cam;
 let posenet;
@@ -246,24 +281,24 @@ let poses = [];
 let noseEmoji = "👃🏻";
 let eyeEmoji = "👁️";
 
-function setup(){
+function setup() {
   createCanvas(640, 480);
   cam = createCapture(VIDEO, videoLoaded);
   cam.hide();
-  
+
   // Create a new poseNet method with a single detection
   // modelReady function is called when the model has been loaded
   poseNet = ml5.poseNet(cam, modelReady);
-  
+
   // This sets up an event that fills the global variable "poses"
   // with an array every time new poses are detected
-  poseNet.on('pose', poseResults);
+  poseNet.on("pose", poseResults);
 }
 
-function draw(){
+function draw() {
   background(200);
-  image(cam,0,0);
-  
+  image(cam, 0, 0);
+
   // check that there is at least one person
   if (poses.length > 0) {
     // get the first pose (person) in the array
@@ -271,43 +306,42 @@ function draw(){
     fill(255);
     noStroke();
     // loop through all of the keypoints in the pose
-    for(let i=0; i < person.keypoints.length; i++){
+    for (let i = 0; i < person.keypoints.length; i++) {
       let x = person.keypoints[i].position.x;
       let y = person.keypoints[i].position.y;
-      circle(x,y,10);
+      circle(x, y, 10);
     }
-    
+
     // set the text size and alignment for drawing the emojis
     textAlign(CENTER, CENTER);
     textSize(50);
-    
+
     // get the nose point and draw the nose emoji in that location
     let nosePoint = person.nose;
-    text(noseEmoji,nosePoint.x,nosePoint.y);
-    
+    text(noseEmoji, nosePoint.x, nosePoint.y);
+
     // get the eye points
     let leftEyePoint = person.leftEye;
     let rightEyePoint = person.rightEye;
-    text(eyeEmoji,leftEyePoint.x,leftEyePoint.y);
-    text(eyeEmoji,rightEyePoint.x,rightEyePoint.y);
-    
+    text(eyeEmoji, leftEyePoint.x, leftEyePoint.y);
+    text(eyeEmoji, rightEyePoint.x, rightEyePoint.y);
   }
 }
 
-function videoLoaded(){
+function videoLoaded() {
   // resize the canvas to be the same size as you camera resolution
-  resizeCanvas(cam.width,cam.height);
+  resizeCanvas(cam.width, cam.height);
 }
 
-function modelReady(){
-  console.log("model loaded!")
+function modelReady() {
+  console.log("model loaded!");
 }
 
-function poseResults(results){
-   poses = results;
+function poseResults(results) {
+  poses = results;
 }
 
-function mousePressed(){
+function mousePressed() {
   // print the poses in the console when the mouse is pressed
   console.log(poses);
 }
