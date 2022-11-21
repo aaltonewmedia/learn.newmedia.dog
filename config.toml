@@ -23,11 +23,11 @@ enableGitInfo = true
     lineAnchors = ''
     lineNoStart = 1
     lineNos = false
-    lineNumbersInTable = true
+    lineNumbersInTable = false
     noClasses = true
     noHl = false
     style = 'monokai'
-    tabWidth = 4
+    tabWidth = 2
 
 
 [markup.tableOfContents]
@@ -99,3 +99,7 @@ enableGitInfo = true
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   BookServiceWorker = true
+
+  pygmentsCodeFences = true
+  pygmentsUseClasses = true
+
