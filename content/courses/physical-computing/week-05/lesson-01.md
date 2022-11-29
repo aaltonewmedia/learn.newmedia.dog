@@ -1,11 +1,11 @@
 ---
-title: "Lesson 01"
+title: "Tutoring anf Project Work"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
 ---
 
-# Week 01 | ...
+# Tutoring anf Project Work
 
 ---
 

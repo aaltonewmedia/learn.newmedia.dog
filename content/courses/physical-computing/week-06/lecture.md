@@ -1,10 +1,10 @@
 ---
-title: "Lecture & Deliverables"
+title: "Tutoring anf Project Work"
 bookCollapseSection: false
 weight: 10
 p5js-widget: true
 ---
 
-# Week 01 | ...
+# Tutoring anf Project Work
 
 ---
