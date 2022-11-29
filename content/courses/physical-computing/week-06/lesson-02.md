@@ -1,10 +1,10 @@
 ---
-title: "Tutoring anf Project Work"
+title: "Tutoring and Project Work"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 ---
 
-# Tutoring anf Project Work
+# Tutoring and Project Work
 
 ---
