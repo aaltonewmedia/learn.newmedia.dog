@@ -17,7 +17,7 @@ p5js-widget: false
 - [Anh Ngo](https://www.anhngo.info/physical-computing)
 - [Aditya Radhakrishna](https://troublebydesign.com)
 - [Agata  Rudnicka](https://blogs.aalto.fi/agatarudnicka/)
-- [Tino Selic](https://blogs.aalto.fi/physicalcomputingtinoselic/)
+- [Tino Selic](https://tinoselic.github.io/physical-computing/)
 - [Marija Šumarac](https://blogs.aalto.fi/marijasound/)
 - Olga Tasanko
 - [Burak Türköz](https://miro.com/app/board/uXjVPIyBf7Y=/)
