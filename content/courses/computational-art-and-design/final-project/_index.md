@@ -49,7 +49,7 @@ You should present your project in class on Friday, December 2. We start present
 
 ### Final Project Documentation (Friday, December 16)
 
-You should send me documentation of the project via MyCourses.
+You should send me documentation of the project via [MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=981392&forceview=1).
 
 - a .pdf file that shortly explains your project (500–1000 words)
 - .zip archive of all of the files and code of your project
