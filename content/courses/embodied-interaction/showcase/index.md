@@ -4,6 +4,26 @@ bookCollapseSection: false
 weight: 999
 ---
 
+## 2022
+
+### Margo Nowicka, Mathias Leopold, Calvin Guillot – Invisible Line
+
+{{<youtube LiDLAK-ukv8>}}
+
+### Yoona Yang – Iridescent
+
+{{<youtube F0XwqVwKtCY>}}
+
+### Katie Ballinger, Ida Budolfsen, Monika Hauck, and Panu Luukkonen – Pondering
+{{<youtube 5jFtU8yIvaE>}}
+
+### Rolands Tiss, Yuhan Tseng – A Hole in the Mind
+
+{{<youtube WXq6K_3end8>}}
+
+### Yuhan Tseng – Artifact Generator
+{{<youtube CR-ZAs-5Gag>}}
+
 ## 2021
 
 ### Juan Qin, Valentina Pippia, Simon Fankhauser
