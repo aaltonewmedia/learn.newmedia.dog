@@ -2,7 +2,7 @@
 title: "Week 04 | Project Work, Sensors"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 04 | Project Work, Sensors

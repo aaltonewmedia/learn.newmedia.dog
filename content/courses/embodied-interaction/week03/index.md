@@ -2,7 +2,7 @@
 title: "Week 03 | Tracking, Project Proposals"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 03 | Tracking, Project Proposals

@@ -2,7 +2,7 @@
 title: "Week 05 | Project Work, Tutoring"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 05 | Project Work, Tutoring
