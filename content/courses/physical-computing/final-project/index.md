@@ -57,10 +57,12 @@ Minimum documentation consists of:
 
 - A short description of your project and reflection on the things you learned (500-1000 words)
 - One photo of the finished work
-- One short video of the finished work
+- One short video of the finished work. This can be on Youtube, Vimeo etc. or a separate video file you upload to your website.
 
 Recommended documentation also would include one or more of the following
 
 -A guide/tutorial on how to build your project from the technical side. See the [EFA Robot documentation as an example](https://create.arduino.cc/projecthub/mnstri/the-little-efa-robot-b41959).
 - A more detailed report on the process of creating your work.
 - More photos, sketches, high-quality video.
+
+**No separate assignment submission to MyCourses, just use the website or online document that you have been using for the course.**
