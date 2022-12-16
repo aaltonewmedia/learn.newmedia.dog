@@ -2,6 +2,7 @@
 title: "Gesture Assignment"
 bookCollapseSection: false
 weight: 998
+draft: true
 ---
 
 # Gesture Assignment

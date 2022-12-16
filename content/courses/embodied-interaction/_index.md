@@ -9,6 +9,10 @@ draft: false
 
 ---
 
+{{<hint danger>}}
+The description below is for the course in Spring 2022. The site will updated for the 2023 course materials soon.
+{{</hint>}}
+
 ## Content
 
 The course presents embodied interaction through lectures, technical demonstrations, and discussions on various related topics. The focus is on creating experimental interactive systems for interactive installations and performances.
