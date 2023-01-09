@@ -17,7 +17,7 @@ The final project:
 
 This outcome can be:
 
-1. Interactive installation
+1. Interactive art installation
 2. An experimental game with a novel interface/interaction.
 3. New musical instrument/controller
 4. Experimental user interface

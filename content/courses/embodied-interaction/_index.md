@@ -5,9 +5,18 @@ weight: 50
 draft: false
 ---
 
-# Embodied Interaction
+Welcome to Embodied Interaction. This is a course that has been running at Aalto since 2011 (previously named Bodily Interaction). Matti Niinimäki has been teaching this course since 2012. It was originally created by [Ferhat Sen](https://www.ferhatsen.com/)
 
----
+This year the course has seen some structural changes:
+- New course code due to the merger of the Department of Art and Department of Media
+- It is now spanning across two periods (used to be 6 weeks inside one period in 2020–2022 and only three weeks before that).
+- Hopefully the content improves and gets clearer each iteration.
+- More time for theory.
+- Many new tools and technologies are available each year (as well as some things become obsolete).
+
+## Important Links
+
+- [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=35386)
 
 ## Content
 
