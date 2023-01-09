@@ -30,7 +30,7 @@ draft: false
 
 - Look into the [options for your course documentation website and choose one of them](../documentation-website/).
 - Create the website/document. Deadline: January 23 (in two weeks)
-- Submit the url of your site/document on MyCourses
+- [Submit the url of your site/document on MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=998110)
 
 ### Readings
 
