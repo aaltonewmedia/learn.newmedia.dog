@@ -6,59 +6,62 @@ weight: 90
 
 # Final project gudelines
 
-As a final project for Embodied Interaction, you should explore the things you learned and create some form of an interactive system that uses the concepts and technologies that we cover in the class (proxemics, gesture recognition, biosensors, tracking technology etc.).
+As a final project for Embodied Interaction, you should explore the things you learned and create some form of an interactive system that uses the concepts and technologies that we cover in the class (embodiment, proxemics, gesture recognition, biosensors, tracking technology etc.).
+
+The final project:
+
+- Is something you do either on your own or as a group (2–4 people)
+- Is an interactive artwork/design/artifact/experience/game/interface that builds upon the theory and practice that we learn during this course.
+- Is something that you will present your project during the last class of the course **(Friday, April 14)**.
+- Is something that you need to document online (either publicly or more privately)
 
 This outcome can be:
 
-1) Interactive installation
-2) A simple game with a novel interface/interaction.
-3) New musical instrument/controller
-4) Experimental user interface
+1. Interactive installation
+2. An experimental game with a novel interface/interaction.
+3. New musical instrument/controller
+4. Experimental user interface
+5. Product design
+6. Something else?
 
-Please note, if your focus is on the Audiovisual Studio side but you are working on only one project for both classes, you should develop some new type of interface/interaction for either the creation or performing of your work.
+## Final project proposal (March 10, 2023)
 
-## Showcase April 8, 2022
+Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
-The final outcomes of this course will be shown as a joint exhibition/event with the Embodied Interaction course.
+- Some short thoughts on what you would like to explore and work with conceptually and technically. What is it that you want to make? How does it look like? What does it do?
+- Some references (artworks/projects that are similar to what you would like to do)
+- Initial list of parts and components you think you will need
 
-You will present your work in one of the following ways:
+You will present your idea in class on Friday (10/03/2023). Also document your proposal on your course site.
 
-1) ~~A livestreamed video work (either real-time or pre-rendered/pre-recorded) on Twitch. The stream starts 18:00 on April 8, 2022. This might happen also at some physical venue, depending on what Matti is able to put together.~~
-EDIT: We will postpone the livestream until after you have submitted the final project documentation videos. That way we have more content to show there and we might also have some additional projects from other classes. You should however join the Firday session at 3 pm to present your project. It's ok if it is still somewhat unfinished or unpolished.
-2) A work shown at the joint exhibition of AV Studio and Embodied Interaction courses. The exhibition will be in rooms G203, G204 and O102. The exhibition opens on April 8, 2022. Your work can be an installation or some other type of interactive system.
+{{<hint info>}}
+It is ok if your idea changes after this. I am expecting it to change or evolve as you learn more about the topic. **You just need a starting point.**
+{{</hint>}}
 
-## Deadline for final project documentation
+{{<hint info>}}
+After this presentation, some of you might also decide to join forces. You can consider this presentation as a way to pitch your idea to other people who could then join you. You should mention if you are looking for someone to work with or if you just want to focus on working on your own thing.
+{{</hint>}}
 
-You have two more weeks to compile a documentation video of your work. Please submit a short video and description of your work to MyCourses. Deadline is Friday, April 22. I will add the link to the MyCourses assignemnt here soon.
+## Final project documentation (April 21, 2023)
 
-## Extra
+It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. [Your course website](../documentation-website/) should have a dedicated section(s)/page(s) for your final project.
 
-There are also other ways and opportunities for you to show your work. Please consider the following.
+Deadline for finishing the documentation is Friday, April 21.
 
-### Extra: Aavistus Festival
+Minimum documentation consists of:
 
-Consider applying to the Aavistus festival with the project that you do in this class. Or something inspired by it.
+- A short description of your project and reflection on the things you learned (500-1000 words)
+- One photo of the finished work
+- One short video of the finished work. This can be on Youtube, Vimeo etc. or a separate video file you upload to your website.
 
-[Aavistus Open Call](https://www.aavistusfestival.fi/open-call) (open until March 30).
+Additionally, keep updating your documentation website throughout the course. Document as you go, do not leave it to the end.
 
-Aavistus has different categories you can apply for:
+## Art + Media Studio
 
-- VJ Performances
-- Audiovisual Live Performances
-- Artworks at the Exhibition
-- Projection Mapping
-- Workshops
+{{<hint info>}}
+**This is mainly for students in New Media:**
 
-### Extra: Demo Day
+You can further develop and exhibit your project in Period V during the Art+Media Studio course.
+{{</hint>}}
 
-The Spring 2022 Demo Day is going to be organized on June 1st, the venue is not yet decided, but Matti should have some news about it in the next days or weeks.
-
-### Extra: Ääniaalto / Flux Island
-
-The students are also planning the next Ääniaalto festival and Flux Island exhibition. It's going to happen in September at Vuotalo in Vuosaari, Helsinki.
-
-### Extra: Nordic Lights
-
-- [Nordic Lights Open Call](https://nordiclights.live/)
-
-Nordic Lights is the union of three emerging audiovisual festivals on a mission to explore culture synergies through experimental collaboration. It is time to build new pan-nordic friendships and bridges. Open call for artists between 1.2.-15.3.2022.
+## Spring Demo Day 2023

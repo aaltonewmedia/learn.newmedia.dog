@@ -1,15 +1,15 @@
 ---
 title: "Gesture Assignment"
 bookCollapseSection: false
-weight: 998
-draft: true
+weight: 85
+draft: false
 ---
 
-# Gesture Assignment
+# Gesture Assignment (February 6, 2023)
 
 ---
 
-Work together in your group. 2-4 people. Divide into groups during the first week.
+Work together in your group. 2-4 people. **Note that this group does not have to be the one for your final project.**
 
 Think about the **gestures that you use everyday in your life.** What are some of the most interesting gestures that really take full advantage of your capabilities as a human being.
 
@@ -20,5 +20,4 @@ Think about the **gestures that you use everyday in your life.** What are some o
 - For example, the other person is the computer/device the other is the user, act it out, fake it, use props, whatever.
 - You can also record this as a video if you want.
 - You can also make an actual thing that works, but don’t spend too much time on it. This can be a very rough prototype.
-- Present your idea in class on Friday, March 11, 2022.
-
+- Present your idea in class on Monday, February 6, 2023 and document it on your course documentation site.

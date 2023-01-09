@@ -1,11 +1,11 @@
 ---
-title: "Week 05 | Project Work, Tutoring"
+title: "Week 05 | Inclusive Design"
 bookCollapseSection: false
 weight: 20
 draft: true
 ---
 
-# Week 05 | Project Work, Tutoring
+# Week 05 | Inclusive Design
 
 ---
 

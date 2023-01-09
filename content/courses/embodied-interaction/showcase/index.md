@@ -24,6 +24,12 @@ weight: 999
 ### Yuhan Tseng – Artifact Generator
 {{<youtube CR-ZAs-5Gag>}}
 
+### Carlos Daniel Pérez Moreno
+
+{{<vimeo 701632854>}}
+
+[Read more](https://presudo.com/face-off/)
+
 ## 2021
 
 ### Juan Qin, Valentina Pippia, Simon Fankhauser
