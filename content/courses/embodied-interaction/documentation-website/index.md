@@ -9,7 +9,18 @@ weight: 80
 
 ---
 
-## Guidelines
+Document your learning process and the final project development on a website or some other type of online document You need to keep updating your personal documentation even if you work as a group. Your group can of course share materials and content if needed.
+
+Your site should have these things at the end of the course:
+
+- Documentation of your Gesture Assignment
+- Project Proposal for the Final Project
+- Final Project development process
+- Description and audiovisual documentation of the Final Project with an emphasis on your role in the project if it was a group work.
+
+Additionally, feel free to reflect and document anything else that you find relevant for your learning process during the course. Gather references, take notes, reflect on the readings etc.
+
+## Recommended options
 
 These instruction are in order from very simple to more complicated. You don't need to do all these options. **Choose the option that seems the best for your skill level (or your ambition to learn new things).**
 
