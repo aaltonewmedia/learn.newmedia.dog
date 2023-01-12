@@ -3,10 +3,8 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
-
-
 .book-toc-content {
-
+  scrollbar-color: var(--gray-500) var(--body-background);
   ul{
     padding-inline-start: 0.5rem;
   }
@@ -32,6 +30,7 @@
 // fix firefox will-change warning
 .book-menu-content, .book-toc-content, .book-page, .book-header aside, .markdown{
   will-change: auto;
+  scrollbar-color: var(--gray-500) var(--body-background);
 }
 
 aside nav li a.active {
@@ -86,7 +85,7 @@ hr{
   color: var(--color-link);
 }
 
-.book-toc .book-toc-content{
+.book-toc{
   border-left: 0.1rem solid rgba($nm_yellow, 0.2);
   border-radius: .5rem 0 0 .5rem;
   background-color: $nm_dark_gray;
@@ -214,3 +213,4 @@ ul.breadcrumb li a:hover {
     }
   }
 }
+

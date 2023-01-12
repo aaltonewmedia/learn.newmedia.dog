@@ -78,7 +78,7 @@ weight: 999
 
 ### Jenna Ahonen, Hyoeun Park - Gestural Compositions
 
-{{<youtube yXs1yLqeDog>}}
+{{<vimeo 320832734>}}
 
 ### Antton Nuotio, Jenna Karas - Always Watching
 
@@ -90,6 +90,18 @@ weight: 999
 
 ## 2018
 
+### Juhani Halkomäki, Kevan Murtaugh, Leo Kosola, Nicola Cerioli
+
+{{<youtube JnQ-xiac0rg>}}
+
+### Jung Huh, Qi Chen, Bilen Gerawork – Silent Mukbang
+
+<iframe src="https://drive.google.com/file/d/1U6WPdwu-PtmjcP-uznfssdIaO48lrs_T/preview" width="640" height="480" allow="autoplay"></iframe>
+
+[Read more](https://junghuh.com/portfolio/silent-mukbang/)
+
+## 2017
+
 ### Killian Kottmeier, Caleb Rugg, Roee Cohen - Glove Interface
 
 {{<vimeo 225960218>}}
@@ -97,12 +109,6 @@ weight: 999
 ### Liam Turner, Maya Pillai - Collage Maker
 
 {{<vimeo 208629666>}}
-
-### Juhani Halkomäki, Kevan Murtaugh, Leo Kosola
-
-{{<youtube JnQ-xiac0rg>}}
-
-## 2017
 
 ## 2016
 
@@ -153,3 +159,5 @@ weight: 999
 {{<vimeo 24032676>}}
 
 {{<vimeo 24032297>}}
+
+{{<vimeo 22374146>}}

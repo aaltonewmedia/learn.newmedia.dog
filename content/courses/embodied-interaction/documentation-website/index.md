@@ -41,9 +41,9 @@ Using Aalto Blogs is very simple. It's essentially just a Wordpress site. You ca
 
 ---
 
-### Using Miro, OneDrive, Google Docs etc.
+### Using Miro, OneDrive, Google Docs, Notion etc.
 
-You can also create your documentation as another type of online document using Miro, Google Drive or other similar services. Just make sure that you give Matti the access to the file or folder.
+You can also create your documentation as another type of online document using Miro, Google Drive, Notion or other similar services. Just make sure that you give Matti the access to the file or folder.
 
 I would prefer that you create a public website so others can also learn from you and so that you can share your project easily. But I understand if you want to do the documentation in a more private way like this.
 
