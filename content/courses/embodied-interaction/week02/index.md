@@ -12,7 +12,7 @@ draft: false
 {{<hint info>}}
 **Monday, January 16, 2023**
 
-*We start in Room M101*
+*We start in Room M101 but move to G203 quite quickly. So come to G203 if you are late.*
 {{</hint>}}
 
 ## Inspiration
