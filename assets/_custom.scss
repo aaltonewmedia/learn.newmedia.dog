@@ -3,8 +3,11 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
+body {
+  scrollbar-color: var(--gray-100) var(--body-background);
+}
+
 .book-toc-content {
-  scrollbar-color: var(--gray-500) var(--body-background);
   ul{
     padding-inline-start: 0.5rem;
   }
@@ -30,7 +33,6 @@
 // fix firefox will-change warning
 .book-menu-content, .book-toc-content, .book-page, .book-header aside, .markdown{
   will-change: auto;
-  scrollbar-color: var(--gray-500) var(--body-background);
 }
 
 aside nav li a.active {
