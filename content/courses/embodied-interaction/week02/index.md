@@ -47,11 +47,16 @@ Some of the examples today are works that were mentioned in the readings for thi
 
 [More information](https://tangible.media.mit.edu/project/triangles/)
 
-## Part 1: A Brief History of Human-Computer Interaction
+## Lecture
 
-Presentation file coming soon...
-
-## Part 2: Context-Aware Computing / Embodied Interaction
+[Lecture slides](https://miro.com/app/board/uXjVPyL8kRg=/)
 
 ## Homework
 
+Watch these videos:
+
+{{<youtube pw3FZ3xOBVo>}}
+
+{{<youtube OHm9teVoNE8>}}
+
+Remeber to complete the [homework from last week.](../week01/#homework)

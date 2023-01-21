@@ -26,7 +26,7 @@ draft: false
 
 ## Homework
 
-## Your Course Documentation Website
+### Your Course Documentation Website
 
 - Look into the [options for your course documentation website and choose one of them](../documentation-website/).
 - Create the website/document. Deadline: January 23 (in two weeks)
