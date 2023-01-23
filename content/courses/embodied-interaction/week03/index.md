@@ -1,5 +1,5 @@
 ---
-title: "Week 03 | Proxemic Interaction, Socially Situated Practices"
+title: "Week 03 | Proxemic Interaction"
 bookCollapseSection: false
 weight: 20
 draft: false
@@ -74,9 +74,9 @@ You have access to these pdf files via the Aalto University library or [you can 
 
 ### Gesture Assignment
 
-[Start working on your gestre assignment](https://learn.newmedia.dog/courses/embodied-interaction/gesture-assignment/) (deadline: February 6, 2023).
+[Start working on your gesture assignment](https://learn.newmedia.dog/courses/embodied-interaction/gesture-assignment/) (deadline: February 6, 2023).
 
-Gather in your group, decide on how you are going to communicate, start discussing some initial ideas.
+[You can find the groups in MyCourses](https://mycourses.aalto.fi/mod/page/view.php?id=1004594&forceview=1). Gather in your group, decide on how you are going to communicate, start discussing some initial ideas.
 
 ## Readings
 
