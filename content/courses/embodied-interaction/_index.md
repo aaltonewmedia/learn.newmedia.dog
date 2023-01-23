@@ -127,7 +127,7 @@ You will be graded based on the following criteria
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Introduction](./week-01/) |  |  |  |  |
+| 15:15–17:00 | [Introduction](./week01/) |  |  |  |  |
 
 #### Week 2 | Embodied Interaction
 
@@ -136,7 +136,7 @@ You will be graded based on the following criteria
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Embodied Interaction](./week-02/) |  |  |  |  |
+| 15:15–17:00 | [Lecture: Embodied Interaction](./week02/) |  |  |  |  |
 
 #### Week 3 | Proxemic Interaction
 
@@ -145,7 +145,7 @@ You will be graded based on the following criteria
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Proxemic Interaction](./week-03/) |  |  |  |  |
+| 15:15–17:00 | [Lecture: Proxemic Interaction](./week03/) |  |  |  |  |
 
 
 #### Week 4 | 
@@ -155,7 +155,7 @@ You will be graded based on the following criteria
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Embodied Technology](./week-04/) |  |  |  |  |
+| 15:15–17:00 | [Lecture: Embodied Technology](./week04/) |  |  |  |  |
 
 #### Week 5 | 
 
@@ -164,7 +164,7 @@ You will be graded based on the following criteria
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Gesture Assignment](./week-05/) |  |  |  |  |
+| 15:15–17:00 | [Gesture Assignment](./week05/) |  |  |  |  |
 
 #### Week 6 | 
 
@@ -173,7 +173,7 @@ You will be graded based on the following criteria
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: ](./week-06/) |  |  |  |  |
+| 15:15–17:00 | [Lecture: ](./week06/) |  |  |  |  |
 
 #### Week 7 | WORKSHOP WEEK (NO CLASS)
 
