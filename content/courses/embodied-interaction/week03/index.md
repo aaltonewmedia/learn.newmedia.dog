@@ -51,6 +51,8 @@ draft: false
 
 ### Lecture Slides
 
+[Lecture slides Miro board](https://miro.com/app/board/uXjVPx9O_0A=/)
+
 ### Papers and Books
 
 You have access to these pdf files via the Aalto University library or [you can also find them from MyCourses by logging in.](https://mycourses.aalto.fi/course/view.php?id=35386&section=3)
@@ -70,3 +72,12 @@ You have access to these pdf files via the Aalto University library or [you can 
 
 ## Homework
 
+### Gesture Assignment
+
+[Start working on your gestre assignment](https://learn.newmedia.dog/courses/embodied-interaction/gesture-assignment/) (deadline: February 6, 2023).
+
+Gather in your group, decide on how you are going to communicate, start discussing some initial ideas.
+
+## Readings
+
+- [Dark patterns in proxemic interactions: a critical perspective](https://dl.acm.org/doi/abs/10.1145/2598510.2598541)
