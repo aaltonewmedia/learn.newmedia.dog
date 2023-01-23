@@ -4,6 +4,29 @@ bookCollapseSection: false
 weight: 999
 ---
 
+## 2023
+
+- [Ilona Pakarinen](https://blogs.aalto.fi/ilonanalle/)
+- [Anh Ngo](https://www.anhngo.info/embodied-interaction])
+- [Tino Selic](https://tinoselic.github.io/embodied-interaction/)
+- [Chao Cui](https://lunardustx.github.io/)
+- [An Dang](http://antdang.cargo.site/)
+- [Karolína Kožíková](https://blogs.aalto.fi/embodiedinteraction/)
+- [Ahmad ErfaniJahanbakhsh](https://ahmaderfani.com/EmbodiedInteraction/)
+- [Guus Hoeberechts](https://guushoeberechts.nl/embodied-interaction)
+- [Aurora Navarro Villacampa](https://noto.li/WAtcaD)
+- [Xuemei Ge](https://www.snowmonsterge.com/)
+- [Otso Haavisto](https://otsha.github.io/embodied-interaction-dir/)
+- [Bingxiao Luo](https://www.notion.so/Gesture-Assignment-6f20a2794df947e68abf0294f400420d)
+- [Aditya Radhakrishna](https://troublebydesign.com/)
+- [Poonam Chawda](https://miro.com/app/board/uXjVPv5tt9k=/?share_link_id=247506435205)
+- [Yan Zhang](https://zhangy49.github.io/Yan-/)
+- [Simon Dreyer](https://www.simonarcher.design/embodied-interaction)
+- [Agata Rudnicka](https://blogs.aalto.fi/embodiedinteractionagatarudnicka/)
+- [Zhicheng Wang](https://zhicheng_wang.gitlab.io/website/)
+- [Donato Renzulli](https://donatorenzulli.github.io/DonatoRenzulli-DocumentationWebsite/)
+- [Begüm Çelik](https://www.begumcelik.net/post/embodied-interaction)
+
 ## 2022
 
 ### Margo Nowicka, Mathias Leopold, Calvin Guillot – Invisible Line
