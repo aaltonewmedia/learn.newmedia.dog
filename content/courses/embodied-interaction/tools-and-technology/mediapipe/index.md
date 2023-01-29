@@ -8,6 +8,20 @@ weight: 20
 
 ---
 
+- [Mediapipe website](https://google.github.io/mediapipe/)
+- [GitHub](https://github.com/google/mediapipe)
+- [Awesome Mediapipe](https://github.com/mgyong/awesome-mediapipe)
+
+Mediapipe is an excellent way to prototype
+
+Face Detection                                                                                                                 | Face Mesh                                                                                                       | Iris                                                                                                      | Hands                                                                                                      | Pose                                                                                                      | Holistic
+:----------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :------:
+[![face_detection](https://mediapipe.dev/images/mobile/face_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/face_detection) | [![face_mesh](https://mediapipe.dev/images/mobile/face_mesh_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/face_mesh) | [![iris](https://mediapipe.dev/images/mobile/iris_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/iris) | [![hand](https://mediapipe.dev/images/mobile/hand_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hands) | [![pose](https://mediapipe.dev/images/mobile/pose_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/pose) | [![hair_segmentation](https://mediapipe.dev/images/mobile/holistic_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/holistic)
+
+Hair Segmentation                                                                                                                       | Object Detection                                                                                                                     | Box Tracking                                                                                                                | Instant Motion Tracking                                                                                                                               | Objectron                                                                                                             | KNIFT
+:-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :---:
+[![hair_segmentation](https://mediapipe.dev/images/mobile/hair_segmentation_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hair_segmentation) | [![object_detection](https://mediapipe.dev/images/mobile/object_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/object_detection) | [![box_tracking](https://mediapipe.dev/images/mobile/object_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/box_tracking) | [![instant_motion_tracking](https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif)](https://google.github.io/mediapipe/solutions/instant_motion_tracking) | [![objectron](https://mediapipe.dev/images/mobile/objectron_chair_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/objectron) | [![knift](https://mediapipe.dev/images/mobile/template_matching_android_cpu_small.gif)](https://google.github.io/mediapipe/solutions/knift)
+
 ## Mediapipe + TouchDesigner
 
 ---
@@ -18,7 +32,7 @@ Setting up Mediapipe to work with TouchDesigner on Aalto computers needs to be d
 
 TouchDesigner comes with Python built-in. The current version is Python 3.9.5 (January 2023, TouchDesigner version 2022.31030). You need to install a matching version on your computer to be able to setup Mediapipe for Python.
 
-Here is a video of the whole process. 
+Here is a video of the whole process for Aalto computers. 
 
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6760d89f-464c-4703-aa65-af970158adf5&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" width="100%" height="480" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
@@ -78,13 +92,14 @@ There are many ways of installing Python for macOS. My recommendation would be t
 
 Once you have pyenv installed, you can install Python. TouchDesigner comes with Python built-in. The current version is Python 3.9.5 (January 2023, TouchDesigner version 2022.31030). You need to install a matching version on your computer to be able to setup Mediapipe for Python.
 
-1. 
-
+1. Use pyen to install Python version 3.9.5 (or any 3.9. version) `pyenv install 3.9.5`
+2. Set you python to use this installed version `pyenv global 3.9.5`
+3. Check that everything is in order `pyenv versions`
 
 #### 2. Install Mediapipe for Python
 
 1. Open the Terminal
-2. Type `pip3.9 install mediapipe-silicon`
+2. Type `pip install --upgrade --user mediapipe-silicon`
 3. After a couple of minutes, you should see a message saying that everything has been installed successfully.
 4. In order to know where the computer installs the package, type `pip show mediapipe-silicon`. Copy the folder for `Location:`.
 

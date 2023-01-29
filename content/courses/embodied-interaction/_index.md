@@ -148,7 +148,7 @@ You will be graded based on the following criteria
 | 15:15–17:00 | [Lecture: Proxemic Interaction](./week03/) |  |  |  |  |
 
 
-#### Week 4 | 
+#### Week 4 | Tools & Technology #1: Depth Cameras (Kinect)
 
 | TIME | MON 30/01 | TUE 31/01 | WED 01/02 | THU 02/02 | FRI 03/02 |
 | --- | --- | --- | --- | --- | --- |
@@ -157,7 +157,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | [Lecture: Embodied Technology](./week04/) |  |  |  |  |
 
-#### Week 5 | 
+#### Week 5 | Gesture Assignment
 
 | TIME | MON 06/02 | TUE 07/02 | WED 08/02 | THU 09/02 | FRI 10/02 |
 | --- | --- | --- | --- | --- | --- |
@@ -166,7 +166,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | [Gesture Assignment](./week05/) |  |  |  |  |
 
-#### Week 6 | 
+#### Week 6 | Tools & Technology #2: Skeleton tracking, hand tracking, face tracking
 
 | TIME | MON 13/02 | TUE 14/02 | WED 15/02 | THU 16/02 | FRI 17/02 |
 | --- | --- | --- | --- | --- | --- |
@@ -186,7 +186,7 @@ You will be graded based on the following criteria
 
 ### Period IV
 
-#### Week 8
+#### Week 8 | AR/VR/XR, Immersive Media
 
 | TIME | MON 27.02. | TUE 28.02. | WED 01.03. | THU 02.03. | FRI 03.03. |
 | --- | --- | --- | --- | --- | --- |
@@ -195,7 +195,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 9
+#### Week 9 | Biosensors, Haptics, Project Proposals
 
 | TIME | MON 06.03. | TUE 07.03. | WED 08.03. | THU 09.03. | FRI 10.03. |
 | --- | --- | --- | --- | --- | --- |
@@ -204,7 +204,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 10
+#### Week 10 | TBA
 
 | TIME | MON 13.03. | TUE 14.03. | WED 15.03. | THU 16.03. | FRI 17.03. |
 | --- | --- | --- | --- | --- | --- |
@@ -213,7 +213,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 11
+#### Week 11 | TBA
 
 | TIME | MON 20.03. | TUE 21.03. | WED 22.03. | THU 23.03. | FRI 24.03. |
 | --- | --- | --- | --- | --- | --- |
@@ -222,7 +222,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 12
+#### Week 12 | Project Work
 
 | TIME | MON 27.03. | TUE 28.03. | WED 29.03. | THU 30.03. | FRI 31.03. |
 | --- | --- | --- | --- | --- | --- |
@@ -231,7 +231,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 13
+#### Week 13 | Project Work
 
 | TIME | MON 04.04. | TUE 05.04. | WED 06.04. | THU 07.04. | FRI 08.04. |
 | --- | --- | --- | --- | --- | --- |
@@ -240,7 +240,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
 | 15:15–17:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
 
-#### Week 14
+#### Week 14 | Project Work, Final Presentations
 
 | TIME | MON 10.04. | TUE 11.04. | WED 12.04. | THU 13.04. | FRI 14.04. |
 | --- | --- | --- | --- | --- | --- |

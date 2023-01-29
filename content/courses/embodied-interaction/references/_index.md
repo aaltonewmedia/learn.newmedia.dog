@@ -1,6 +1,6 @@
 ---
 title: "References and Resources"
-bookCollapseSection: false
+bookCollapseSection: true
 weight: 85
 draft: true
 ---
