@@ -7,7 +7,7 @@ weight: 999
 ## 2023
 
 - [Ilona Pakarinen](https://blogs.aalto.fi/ilonanalle/)
-- [Anh Ngo](https://www.anhngo.info/embodied-interaction])
+- [Anh Ngo](https://www.anhngo.info/embodied-interaction)
 - [Tino Selic](https://tinoselic.github.io/embodied-interaction/)
 - [Chao Cui](https://lunardustx.github.io/)
 - [An Dang](http://antdang.cargo.site/)

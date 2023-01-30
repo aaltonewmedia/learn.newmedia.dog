@@ -55,7 +55,7 @@ This was based on a similar setup used in the [Reverse Shadow Theatre](https://w
 
 {{<vimeo 15305239>}}
 
-## Animoitu Liike, 2011
+### Animoitu Liike, 2011
 
 After the original Kinect was released, [new experimental projects popped into existence everyday](https://www.kinecthacks.com/). This is my update on the Animoitu Liike project.
 
