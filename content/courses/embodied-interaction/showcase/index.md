@@ -26,6 +26,7 @@ weight: 999
 - [Zhicheng Wang](https://zhicheng_wang.gitlab.io/website/)
 - [Donato Renzulli](https://donatorenzulli.github.io/DonatoRenzulli-DocumentationWebsite/)
 - [Begüm Çelik](https://www.begumcelik.net/post/embodied-interaction)
+- [Hyunji Kim](https://hyunjiembodied.cargo.site/)
 
 ## 2022
 
