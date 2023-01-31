@@ -1,7 +1,6 @@
 ---
 title: "Lidars"
 bookCollapseSection: false
-weight: 30
 ---   
 
 # Lidars

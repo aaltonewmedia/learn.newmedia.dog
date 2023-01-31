@@ -1,7 +1,6 @@
 ---
 title: "Posenet"
 bookCollapseSection: false
-weight: 20
 ---   
 
 # Posenet

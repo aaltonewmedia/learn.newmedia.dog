@@ -1,7 +1,6 @@
 ---
 title: "Kinect"
 bookCollapseSection: false
-weight: 20
 ---   
 
 # Kinect Tutorials
