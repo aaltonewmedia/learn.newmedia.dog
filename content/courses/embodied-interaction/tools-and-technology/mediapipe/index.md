@@ -12,17 +12,35 @@ weight: 20
 - [GitHub](https://github.com/google/mediapipe)
 - [Awesome Mediapipe](https://github.com/mgyong/awesome-mediapipe)
 
-Mediapipe is an excellent way to prototype
+Mediapipe is an excellent way to prototype projects involving face tracking, hand tracking, pose detection and other advanced detection solutions based on machine learning. Google originally used it internally for many of their products (Google Lens, NestCam etc.) and in 2019 they released it for public use.
 
-Face Detection                                                                                                                 | Face Mesh                                                                                                       | Iris                                                                                                      | Hands                                                                                                      | Pose                                                                                                      | Holistic
-:----------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :------:
-[![face_detection](https://mediapipe.dev/images/mobile/face_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/face_detection) | [![face_mesh](https://mediapipe.dev/images/mobile/face_mesh_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/face_mesh) | [![iris](https://mediapipe.dev/images/mobile/iris_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/iris) | [![hand](https://mediapipe.dev/images/mobile/hand_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hands) | [![pose](https://mediapipe.dev/images/mobile/pose_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/pose) | [![hair_segmentation](https://mediapipe.dev/images/mobile/holistic_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/holistic)
+| Face Detection | Face Mesh | Iris | Hands | Pose | Holistic |
+| --- | --- | --- | --- | --- | --- |
+| [![face_detection](https://mediapipe.dev/images/mobile/face_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/face_detection) | [![face_mesh](https://mediapipe.dev/images/mobile/face_mesh_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/face_mesh) | [![iris](https://mediapipe.dev/images/mobile/iris_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/iris) | [![hand](https://mediapipe.dev/images/mobile/hand_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hands) | [![pose](https://mediapipe.dev/images/mobile/pose_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/pose) | [![hair_segmentation](https://mediapipe.dev/images/mobile/holistic_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/holistic) |
 
-Hair Segmentation                                                                                                                       | Object Detection                                                                                                                     | Box Tracking                                                                                                                | Instant Motion Tracking                                                                                                                               | Objectron                                                                                                             | KNIFT
-:-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :---:
-[![hair_segmentation](https://mediapipe.dev/images/mobile/hair_segmentation_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hair_segmentation) | [![object_detection](https://mediapipe.dev/images/mobile/object_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/object_detection) | [![box_tracking](https://mediapipe.dev/images/mobile/object_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/box_tracking) | [![instant_motion_tracking](https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif)](https://google.github.io/mediapipe/solutions/instant_motion_tracking) | [![objectron](https://mediapipe.dev/images/mobile/objectron_chair_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/objectron) | [![knift](https://mediapipe.dev/images/mobile/template_matching_android_cpu_small.gif)](https://google.github.io/mediapipe/solutions/knift)
+| Hair Segmentation | Object Detection | Box Tracking | Instant Motion Tracking | Objectron | KNIFT |
+| --- | --- | --- | --- | --- | --- |
+| [![hair_segmentation](https://mediapipe.dev/images/mobile/hair_segmentation_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hair_segmentation) | [![object_detection](https://mediapipe.dev/images/mobile/object_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/object_detection) | [![box_tracking](https://mediapipe.dev/images/mobile/object_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/box_tracking) | [![instant_motion_tracking](https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif)](https://google.github.io/mediapipe/solutions/instant_motion_tracking) | [![objectron](https://mediapipe.dev/images/mobile/objectron_chair_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/objectron) | [![knift](https://mediapipe.dev/images/mobile/template_matching_android_cpu_small.gif)](https://google.github.io/mediapipe/solutions/knift)|
+
+## Pros and Cons of Mediapipe
+
+### Pros
+
+- Cross-platform (C++, Android, iOS, Python, JavaScript).
+- Doesn't need any specific hardware like the Azure Kinect. You can just use your webcam.
+- Runs on mobile devices as well.
+- Very fast!
+
+### Cons
+
+- Most of the tracking data is not fully 3D. If you need to get real 3D coordinates of all the tracking points with a fixed reference in the real world, the Kinect and some other depth camera solutions will work better.
+- Documentation is not very detailed so it can be a little bit confusing to work with it sometimes.
+- It is using just your normal webcam, so you might run into issues when you are trying track people in a space where you have projections and other types of constantly changing lights.
+- The quality is very good, but not perfect.
 
 ## Mediapipe + TouchDesigner
+
+TouchDesigner is able to run Python. Therefore, it's also possible to run Mediapipe inside TouchDesigner in order to create interactive prototypes even faster and without having to write all of the code for your experimental project in Python. TouchDesigner allows you to get the tracking data in via Python and then you can prototype using the standard ToucDesigner workflows.
 
 ---
 
@@ -128,7 +146,6 @@ python >>>
 
 If you see a similar response, you have successfully installed mediapipe on your computer and it's ready to be used with TouchDesigner.
 
-
 ---
 
 ### TouchDesigner Examples
@@ -136,3 +153,12 @@ If you see a similar response, you have successfully installed mediapipe on your
 - Download some of the examples below.
 - See the official documentation
 - [Bryan Chung has made nice tutorials and excellent examples on how to use Mediapipe with TouchDesigner](https://github.com/chungbwc/TouchDesigner)
+
+---
+
+## Additional Resources
+
+- [SigNN - Real-time ASL Alphabet Translator](https://github.com/AriAlavi/SigNN) and the [app on Google Play Store](https://play.google.com/store/apps/details?id=com.signn.mediapipe.apps.handtrackinggpu)
+- [Building a real-time mask maker using p5.js and Mediapipe by Kazuki Umeda](https://www.youtube.com/playlist?list=PLRD0f8kJKduLKW9uMmitwa6I_nOAI2GM6) and [the code](https://github.com/Creativeguru97/YouTube_tutorial/tree/master/Play_with_APIs)
+- [Mediapipe Unity plugin](https://github.com/homuler/MediaPipeUnityPlugin) and a [tutorial on how to use it](https://github.com/homuler/MediaPipeUnityPlugin/wiki/Getting-Started)
+- [Connecting openFrameworks to Google MediaPipe Machine Learning Framework over UDP](https://github.com/madelinegannon/example-mediapipe-udp)

@@ -1,13 +1,21 @@
 ---
-title: "Week 05 | "
+title: "Week 05 | Gesture Assignment Presentations"
 bookCollapseSection: false
 weight: 20
-draft: true
+draft: false
 ---
 
 # Week 05 | 
 
 ---
+
+{{<hint info>}}
+**Monday, February 6, 2023**
+
+*We are going to be in room G203*
+{{</hint>}}
+
+
 
 
 https://eyewriter.org/
@@ -65,21 +73,6 @@ Send me a document explaining your final project idea:
 
 
 
-
-#### TouchDesigner Basics
-
-**Those of you who are not taking Audiovisual Studio**, get familiar with TouchDesigner, we are going to use that as our tool for exploring many of the technologies. I will generally also provide code examples and other materials for other programming environments and languages, but the main tool we are going to use is TouchDesigner. Watch at minimum this video:
-
-<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=51dc3ede-cf7d-47e9-ad5e-acdf0126d2e3&amp;autoplay=false&amp;offerviewer=true&amp;showtitle=true&amp;showbrand=false&amp;start=0&amp;interactivity=all" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" width="100%" height="405"></iframe>
-
-And at least the first hour of this one:
-
-{{<youtube wmM1lCWtn6o>}}
-
-This video from Ben Voigt explains all of the basic functionality and beyond of TouchDesigner. I highly recommend watching it. We will cover many of these things as we go along, but here are many of the basic techniques all in one video. It is also quite helpful to come back to this one every now and then once you have learned some things already. You will learn many things that you missed the first time you watched it.
-
----
-
 ## Friday, March 4, 2022
 
 
@@ -125,9 +118,7 @@ These might also be helpful to think about the basics of gestural interfaces and
 - http://www.flong.com/archive/projects/mis/index.html
 
 
-### Tutorials
 
-See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
 
 ---
 
@@ -135,70 +126,9 @@ See the [TouchDesigner Tutorials](../tutorials/) for different techniques.
 
 {{<youtube d-yHULQ2V5c>}}
 
-### The time before Kinect (BK)
-
-#### Animoitu Liike 2009
-
-{{<youtube SdYoUv858yg>}}
-
-#### Mortimer
-
-{{<vimeo 17220295>}}
-
-[Mortimer Full Performance](https://vimeo.com/48965637)
-
-#### Giants of the Hoods (2010)
-
-##### Setting up
-
-{{<vimeo 12910372>}}
-
-{{<vimeo 13420275>}}
-
-##### Kallio
-
-{{<vimeo 14546692>}}
-
-##### Kontula
-
-{{<vimeo 14651074>}}
-
-##### Liverpool 
-{{<vimeo 15770729>}}
-
-##### Kamppi
-
-{{<vimeo 15305239>}}
-
-### After Kinect (AK)
-
-#### AHNE (2011)
-
-{{<vimeo 28448717>}}
-
-{{<vimeo 39778872>}}
-
-#### Animoitu Liike V2
-
-{{<vimeo 19715093>}}
-
-#### Other experiments
-
-{{<vimeo 22374146>}}
 
 ## Download
 
 [Dowload Blob Tracking starting point](files/Blobtracking.toe)
 
 ---
-
-## Homework
-
-### Project Proposal
-
-Send me a document explaining your final project idea:
-
-- [Guidelines for the final project](../final-project/)
-- [Submit the project proposal in MyCourses](https://mycourses.aalto.fi/course/view.php?id=33829&section=1)
-- Deadline Monday, March 21, 2022 at 23:59
-

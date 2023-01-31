@@ -5,15 +5,16 @@ weight: 20
 draft: false
 ---
 
+# Week 04 | Tools & Technology #1 | Depth Cameras (Kinect)
+
+---
+
+
 {{<hint info>}}
 **Monday, January 30, 2023**
 
 *We start in Room L208*
 {{</hint>}}
-
-# Week 04 | Tools & Technology #1 | Depth Cameras (Kinect)
-
----
 
 This week, we are going to dive into the tools and technology we have available for actually creating embodied experiences.
 

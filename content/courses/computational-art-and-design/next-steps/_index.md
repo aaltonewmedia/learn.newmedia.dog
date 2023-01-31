@@ -36,3 +36,9 @@ weight: 899
 - AXM-E6004 Deep Learning with Audio (Sound in New Media)
 - AXM-E6006 IXI Workshop (Sound in New Media)
 - AXM-E6009 Procedural Audio (Sound in New Media)
+
+---
+
+## Resources
+
+- [The Future Sketches research group at MIT](https://www.media.mit.edu/groups/future-sketches/overview/)
