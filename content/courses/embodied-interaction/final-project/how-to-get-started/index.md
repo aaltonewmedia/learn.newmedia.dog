@@ -1,20 +1,10 @@
 ---
-title: "Week 06 | Tangible Interaction"
+title: "How to get started?"
 bookCollapseSection: false
-weight: 20
-draft: true
+weight: 90
 ---
 
-# Week 06 |
-
-
-
-
-
-
-## Homework (Deadline: March 10, 2023)
-
-### Final Project
+# Final Project: How to get started?
 
 Start thinking about your final project and what you want to do. You have until March 10, 2023 to come up with a project proposal. Start working on it now. Document your process on your website.
 
@@ -30,22 +20,11 @@ During this course, it is ok to approach the project as an experimentation and e
 
 Here are some resources that hopefully help you to develop your idea further.
 
-#### Inspiration: Chinese Typewriter
-
-What if the develpment of input devices for computers would not have happened in the so-called western world? 
-Watch this brilliant talk by Tom Mullaney:
-
-{{<youtube KSEoHLnIXYk>}}
-
-[I also recommend reading the book if you can get hold of it.](https://mitpress.mit.edu/9780262536103/the-chinese-typewriter/)
-
-#### Inspiration: Speculative Design
+## Inspiration: Speculative Design
 
 {{<youtube UB9UVHGI6AI>}}
 
-
-
-#### Inspiration: Media Archaeology
+## Inspiration: Media Archaeology
 
 Those of you who have been in my other classes should be familiar with the concept of Media Archaeology.
 
@@ -55,7 +34,7 @@ Can you find some obsolete technologies that could inspire your work to create n
 - [Museum of Obsolete Media](https://obsoletemedia.org/obsolescence-decade/)
 - [Media Archaeology Lab](https://www.mediaarchaeologylab.com/)
 
-#### Inspiration: Science Fiction
+## Inspiration: Science Fiction
 
 Science fiction offers interesting possibilities to think about alternative ways of interacting with technology.
 
@@ -69,60 +48,15 @@ Yes, watching movies and shows can be part of your research for this course. Eve
 - Logan's Run
 - Johnny Mnemonic
 
+## Inspiration: Chinese Typewriter
 
-Notes:
+What if the develpment of input devices for computers would not have happened in the so-called western world? 
+Watch this brilliant talk by Tom Mullaney:
 
-https://tangible.media.mit.edu/
-https://tangible.media.mit.edu/project/intouch/
-https://vimeo.com/65642738
+{{<youtube KSEoHLnIXYk>}}
 
+[I also recommend reading the book if you can get hold of it.](https://mitpress.mit.edu/9780262536103/the-chinese-typewriter/)
 
+This Japanese typewriter is also quite interesting
+{{<youtube JZcui85b4EE>}}
 
-
-https://eyewriter.org/
-https://www.simondogger.nl/index.html
-https://www.simondogger.nl/emotionwhisperer.html
-
-
-### Inspiration
-
-{{<youtube 6btFObRRD9k>}}
-
-{{<youtube 7oeEQhOmGpg>}}
-
-[Imogen Heap: MiMU Gloves](https://mimugloves.com/)
-
-
----
-
-
-### Videos
-
-These might also be helpful to think about the basics of gestural interfaces and the problems and possibilities of affordances, signifiers, discoverability, and feedback.
-
-{{<youtube JFirvnAVmtc>}}
-
-{{<youtube bgEJPf5PN4w>}}
-
-
-### Inspiration
-
-#### Rafael Lozano-Hemmer 
-
-{{<vimeo 33931449>}}
-
-#### Golan Levin and Zachary Lieberman | Manual Input Workstation, 2004
-
-{{<youtube 3paLKLZbRY4>}}
-
-{{<youtube cWj59xTVUDY>}}
-
-- http://www.flong.com/archive/projects/miw/index.html
-- http://www.flong.com/archive/projects/mis/index.html
-
-
----
-
-## Friday, March 11, 2022
-
-{{<youtube d-yHULQ2V5c>}}

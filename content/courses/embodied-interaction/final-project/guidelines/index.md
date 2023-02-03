@@ -1,10 +1,10 @@
 ---
-title: "Final Project Guidelines"
+title: "Guidelines"
 bookCollapseSection: false
 weight: 90
 ---
 
-# Final project gudelines
+# Final Project: Guidelines
 
 As a final project for Embodied Interaction, you should explore the things you learned and create some form of an interactive system that uses the concepts and technologies that we cover in the class (embodiment, proxemics, gesture recognition, biosensors, tracking technology etc.).
 
