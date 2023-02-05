@@ -8,6 +8,10 @@ draft: false
 
 ---
 
+*by Calvin Guillot*
+
+---
+
 ## Introduction
 
 Here you can find several tutorials an examples on how to understand and work with Midjourney.

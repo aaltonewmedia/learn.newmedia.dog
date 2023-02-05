@@ -8,6 +8,10 @@ draft: false
 
 ---
 
+*by Calvin Guillot*
+
+---
+
 ## Artbreeder
 
 ... In construction 🏗️ ...
