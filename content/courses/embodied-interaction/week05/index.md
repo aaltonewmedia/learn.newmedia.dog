@@ -17,7 +17,7 @@ draft: false
 
 ## Homework
 
-Start thinking about your final project and what you want to do. You have until March 10, 2023 to come up with a project proposal. Start working on it now. Document your process on your website.
+Start thinking about your final project and what you want to do. You have until March 10, 2023 to come up with a project proposal. Start working on it now. Document your process on your website. You will get more detailed instructions on the format of the project proposal next week.
 
 See the following pages for information:
 

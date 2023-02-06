@@ -1,12 +1,13 @@
 ---
 title: Audio Generators
-weight: 70
 draft: false
 ---
 
 ## Examples
 
 {{<youtube m7u-y9oqUSw>}}
+
+{{<youtube 4MKAf6YX_7M>}}
 
 ## At Aalto University
 
@@ -22,6 +23,10 @@ draft: false
 - [Whisper Website](https://openai.com/blog/whisper/)
 
 ## Music
+
+### Magenta
+
+- [Magenta Website](https://magenta.tensorflow.org/)
 
 ### MusicLM
 
@@ -48,6 +53,7 @@ A neural net that generates music, including rudimentary singing, as raw audio i
 - [Amadeus Code](https://amadeuscode.com/app/en)
 
 
+
 ## Unprocessed links
 
 - https://www.audiocipher.com/
@@ -57,3 +63,5 @@ A neural net that generates music, including rudimentary singing, as raw audio i
 - https://www.youtube.com/watch?v=YJu0iXn-T_U
 - [Uberduck](https://uberduck.ai/) Open Source Voice AI Communit
 - https://thesoundofaiosr.github.io/
+- https://experiments.withgoogle.com/drum-machine
+- https://experiments.withgoogle.com/ai/sound-maker/view/

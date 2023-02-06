@@ -6,14 +6,14 @@ weight: 90
 
 # Final Project: How to get started?
 
-Start thinking about your final project and what you want to do. You have until March 10, 2023 to come up with a project proposal. Start working on it now. Document your process on your website.
+Start thinking about your final project and what you want to do. You have until **March 10, 2023** to come up with a project proposal. Start working on it now. Document your process on your website.
 
-Some questions that might help you situate your work?
+Some questions that might help you situate your work? Your work might fit into multiple of these "boxes", for example, nothing stops your work from being art and research that you publish at the same time.
 
-- Is your project a form of artistic expression? Is it an installation, sculpture, performance, or some kind of other artwork that uses the technology and concepts introduced during the course?
+- Is your project a form of artistic expression? Is it an installation, sculpture, performance, or some kind of other artwork that uses the technology and concepts introduced during the course? What is it that you want to say with your work? Or what is that you want people to experience through the work?
 - Is your project interaction or user experience design? 
 - Is your project a tool? What does it do? Who is it for? What problem or task is it meant to be used for? How is it different from existing tools?
-- Is your project interaction research? Are you interested in creating something that might become a research paper? What is your research aim or question?
+- Is your project interaction research? Are you interested in creating something that might become a research paper? What is your research aim or question? [Explore the TEI conference to see what kind of topics have been presented in recent years.c
 - Is your project a game with an experimental interface? Why does the game need this? Would it
 
 During this course, it is ok to approach the project as an experimentation and exploring of what is possible, but I would like you to consider your work also on a deeper level. What other possible **futures** or **presents** there could be in how we interact with technology and each other? 
@@ -35,6 +35,8 @@ Jelle van Dijk has uploaded great lectures on the topic of Embodied Interaction 
 - [Dijk, van, J. (2013). Creating traces, sharing insight : explorations in embodied cognition design.](https://research.tue.nl/en/publications/creating-traces-sharing-insight-explorations-in-embodied-cognitio)
 
 ## Inspiration: Speculative Design
+
+{{<youtube kmibm20UsoA>}}
 
 {{<youtube UB9UVHGI6AI>}}
 
@@ -78,3 +80,13 @@ Watch this brilliant talk by Tom Mullaney. It is not directly connected to our a
 And this reminded me of the CharaChorder as well
 
 {{<youtube EhPFAVkD9b0>}}
+
+## Events, exhibitions, journals, conferences, competitions
+
+Where could you possibly publish or present your work? Aim high!
+
+- [ISEA](https://www.isea-international.org/) The 2023 symposium is happening in May but consider aiming for next year.
+- [Ars Electronica](https://ars.electronica.art/news/en/)
+- [Transmediale](https://transmediale.de/en)
+- [TEI: The ACM International Conference on Tangible, Embedded and Embodied Interaction](https://tei.acm.org/2023/about/)
+- [Leonardo](https://direct.mit.edu/leon)
