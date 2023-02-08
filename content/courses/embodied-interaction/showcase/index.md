@@ -12,7 +12,7 @@ weight: 999
 - [Chao Cui](https://lunardustx.github.io/)
 - [An Dang](http://antdang.cargo.site/)
 - [Karolína Kožíková](https://blogs.aalto.fi/embodiedinteraction/)
-- [Ahmad ErfaniJahanbakhsh](https://ahmaderfani.com/EmbodiedInteraction/)
+- [Ahmad Erfani Jahanbakhsh](https://ahmaderfani.com/EmbodiedInteraction/)
 - [Guus Hoeberechts](https://guushoeberechts.nl/embodied-interaction)
 - [Aurora Navarro Villacampa](https://noto.li/WAtcaD)
 - [Xuemei Ge](https://www.snowmonsterge.com/)
