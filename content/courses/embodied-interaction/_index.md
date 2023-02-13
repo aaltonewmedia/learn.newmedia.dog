@@ -166,14 +166,14 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | [Gesture Assignment](./week05/) |  |  |  |  |
 
-#### Week 6 | Tools & Technology #2: Skeleton tracking, hand tracking, face tracking
+#### Week 6 | Final Project Ideation
 
 | TIME | MON 13/02 | TUE 14/02 | WED 15/02 | THU 16/02 | FRI 17/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: ](./week06/) |  |  |  |  |
+| 15:15–17:00 | [Final Project Ideation ](./week06/) |  |  |  |  |
 
 #### Week 7 | WORKSHOP WEEK (NO CLASS)
 
@@ -186,38 +186,38 @@ You will be graded based on the following criteria
 
 ### Period IV
 
-#### Week 8 | AR/VR/XR, Immersive Media
+#### Week 8 | Body/Space/Place
 
 | TIME | MON 27.02. | TUE 28.02. | WED 01.03. | THU 02.03. | FRI 03.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | Hands-on lecture | Hands-on lecture | Experimentation  |
+| 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week08/lesson-01) | [Theory + Hands-on lecture](./week08/lesson-02) | [Theory + Experimentation](./week08/lesson-03) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 9 | Biosensors, Haptics, Project Proposals
+#### Week 9 | TouchDesigner Bootcamp, Project Proposals
 
 | TIME | MON 06.03. | TUE 07.03. | WED 08.03. | THU 09.03. | FRI 10.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | Hands-on lecture | Hands-on lecture | Project Proposal Presentations  |
+| 09:15–12:00 |  |  | [TouchDesigner Techniques](./week09/lesson-01) | [TouchDesigner Techniques](./week09/lesson-02) | [Project Proposal Presentations](./week09/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 10 | TBA
+#### Week 10 | Biosensors, Haptics, Field Trip
 
 | TIME | MON 13.03. | TUE 14.03. | WED 15.03. | THU 16.03. | FRI 17.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | Hands-on lecture | Hands-on lecture | Experimentation  |
+| 09:15–12:00 |  |  | [Field Trip](./week10/lesson-01) | [Biosensors, Haptics](./week10/lesson-02) | [Project Work](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 11 | TBA
+#### Week 11 | Project Work, Tutorials
 
 | TIME | MON 20.03. | TUE 21.03. | WED 22.03. | THU 23.03. | FRI 24.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | Hands-on lecture | Hands-on lecture | Experimentation  |
+| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -226,7 +226,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 27.03. | TUE 28.03. | WED 29.03. | THU 30.03. | FRI 31.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | Project work | Project work | Project work  |
+| 09:15–12:00 |  |  | [Project Work + Review](./weekx) | [Project Work](./weekx) | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -235,7 +235,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 04.04. | TUE 05.04. | WED 06.04. | THU 07.04. | FRI 08.04. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | Project work |  EASTER HOLIDAY | EASTER HOLIDAY |
+| 09:15–12:00 |  |  | [Project Work](./weekx) |  EASTER HOLIDAY | EASTER HOLIDAY |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
 | 15:15–17:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
@@ -244,7 +244,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 10.04. | TUE 11.04. | WED 12.04. | THU 13.04. | FRI 14.04. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | EASTER HOLIDAY | EASTER HOLIDAY | EASTER HOLIDAY | Project work | Final Project Presentations |
+| 09:15–12:00 | EASTER HOLIDAY | EASTER HOLIDAY | EASTER HOLIDAY | [Project Work](./weekx) | Final Project Presentations |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
 | 15:15–17:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
