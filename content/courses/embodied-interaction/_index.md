@@ -217,7 +217,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 20.03. | TUE 21.03. | WED 22.03. | THU 23.03. | FRI 24.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [Project Work](./weekx)  |
+| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [FIELD TRIP: Art & Tech Demo Day](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |

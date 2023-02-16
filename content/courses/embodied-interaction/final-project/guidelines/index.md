@@ -28,9 +28,9 @@ This outcome can be:
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
-- Some short thoughts on what you would like to explore and work with conceptually and technically. What is it that you want to make? How does it look like? What does it do?
-- Some references (artworks/projects that are similar to what you would like to do)
-- Initial list of parts and components you think you will need
+- Some short thoughts on what you would like to explore and work with conceptually and technically. What is it that you want to create? How do people interact with it? How does it look like? How does it sound like? How does it feel like?
+- Some references (artworks/projects that are similar to what you would like to do).
+- Initial list of any specific space or technology requirement
 
 You will present your idea in class on Friday (10/03/2023). Also document your proposal on your course site.
 

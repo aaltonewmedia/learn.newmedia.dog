@@ -15,7 +15,7 @@ weight: 999
 - [Ahmad Erfani Jahanbakhsh](https://ahmaderfani.com/EmbodiedInteraction/)
 - [Guus Hoeberechts](https://guushoeberechts.nl/embodied-interaction)
 - [Aurora Navarro Villacampa](https://noto.li/WAtcaD)
-- [Xuemei Ge](https://www.snowmonsterge.com/)
+- [Xuemei Ge](https://www.snowmonsterge.com/about-1)
 - [Otso Haavisto](https://otsha.github.io/embodied-interaction-dir/)
 - [Bingxiao Luo](https://www.notion.so/Gesture-Assignment-6f20a2794df947e68abf0294f400420d)
 - [Aditya Radhakrishna](https://troublebydesign.com/)
