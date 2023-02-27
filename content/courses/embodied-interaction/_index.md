@@ -208,7 +208,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 13.03. | TUE 14.03. | WED 15.03. | THU 16.03. | FRI 17.03. |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Field Trip](./week10/lesson-01) | [Biosensors, Haptics](./week10/lesson-02) | [Project Work](./week10/lesson-03)  |
+| 09:15–12:00 |  |  | [Matti in admissions interviews, no class]((./week10/lesson-01)) | [Biosensors, Haptics](./week10/lesson-02) | [Field Trip](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |

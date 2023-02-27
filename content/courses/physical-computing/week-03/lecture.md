@@ -48,8 +48,10 @@ Simple movements can make objects seem very alive.
 
 ## Artists working with robotics, mechanics and kinetic sculptures
 
+- [Daniel Rozin](https://www.smoothware.com/danny/)
 - [Niklas Roy](http://niklasroy.com/) – Berlin-based artist working a lot with mechanical devices
 - [Teija ja Pekka Isorättyä](http://www.isorattya.com/Videos.xhtml) – Finnish artist couple working with robotic installations
+- [Markus Copper](https://kiasma.fi/en/exhibitions/markus-copper/)
 - [Tommi Grönlund & Petteri Nisunen](https://vimeo.com/usergronlundnisunen) – Finnish artists working with kinetic sculptures
 - [Tim Hunkin](http://www.timhunkin.com/) – A engineer/artist who builds weird and elaborate machines. Also worked on making the [Secret Life of Machines animation](http://www.exploratorium.edu/ronh/SLOM/)
 - [Jeppe Hein](http://www.jeppehein.net/pages/works.php) – Very minimalistic installations using kinetic elements
