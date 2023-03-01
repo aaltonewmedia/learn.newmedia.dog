@@ -96,6 +96,7 @@ We will examine how this works in more detail during class. I will upload the fi
 - Kinect can also be used to get point cloud data or for other use case where depth image is needed
 - Kinect generally gives more accurate results
 - Kinect works in complete darkness since it uses infrared light.
+- Mediapipe is generally slower than the Kinect (in TouchDesiger at least since it is not able to use the GPU for tracking)
 
 ### Reasons to use the Mediapipe over Kinect
 
