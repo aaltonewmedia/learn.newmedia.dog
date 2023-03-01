@@ -1,7 +1,7 @@
 ---
-title: Week 08 | Lesson 03
+title: "Fri | Technical demonstration: AR/VR/XR"
 bookCollapseSection: false
-weight: 20
+weight: 30
 draft: false
 ---
 

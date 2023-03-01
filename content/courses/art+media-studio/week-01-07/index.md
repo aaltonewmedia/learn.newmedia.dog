@@ -12,6 +12,14 @@ draft: true
 ## Schedule 
 
 
+## Venues
+
+We have three locations where you can build and show your work:
+- Room G203 in Väre
+- Room O102 in Väre (Media Lab Homebase)
+- The Visualization Hub at Aalto Studios, Otakaari 7
+
+Additional spaces can be figured out as soon as we learn more about your ideas and needs.
 
 ## Introduction
 
@@ -19,7 +27,7 @@ draft: true
 
 ## Interactive Art
 
-## Immersive Theatre
+## Immersive Theater
 
 - [Center for Everything](https://www.centerforeverything.com/)
 - [TAIT (Talking About Immersive Theatre) Podcast](https://www.centerforeverything.com/)
