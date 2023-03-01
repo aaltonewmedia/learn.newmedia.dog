@@ -36,6 +36,7 @@ Mediapipe is an excellent way to prototype projects involving face tracking, han
 - Documentation is not very detailed so it can be a little bit confusing to work with it sometimes.
 - It is using just your normal webcam, so you might run into issues when you are trying track people in a space where you have projections and other types of constantly changing lights.
 - The quality is very good, but not perfect.
+- The pose estimation only detects one skeleton at a time.
 
 ## Mediapipe + TouchDesigner
 
@@ -77,7 +78,7 @@ You can also follow the text instructions below.
 5. Click `Save` and close the Preferences window
 6. Restart TouchDesigner
 7. Open  `Dialogs-->Textport and DATs`
-8. Type `ìmport mediapipe as mp` and press enter
+8. Type `import mediapipe as mp` and press enter
 9. Then type `print(dir(mp.solutions))` and press enter
 10. You should get something like this
 
