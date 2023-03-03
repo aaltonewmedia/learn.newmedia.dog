@@ -9,6 +9,14 @@ draft: false
 
 ---
 
+{{<hint info>}}
+**Wednesday, March 2, 2023**
+
+*Room L208*
+{{</hint>}}
+
+---
+
 ## Inspiration: Faces
 
 {{<vimeo 211271693>}}
@@ -29,3 +37,9 @@ draft: false
 
 - [mediapipeFace component](../../tools-and-technology/mediapipe/examples/mediapipeFace.tox)
 - [mediaPipeHands component](../../tools-and-technology/mediapipe/examples/mediapipeHands.tox)
+
+---
+
+## Examples
+
+[Download the example we built in class](./files/mediapipeFace-example.toe)

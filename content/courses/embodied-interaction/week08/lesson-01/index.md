@@ -38,7 +38,7 @@ Watch this performance and demonstration by Imogen Heap.
 
 ## Mediapipe | Pose
 
-We are going to use the [Mediapipe]() library from Google to do tracking of poses from a video image. **Poses** refers to what is sometimes also called **skeleton tracking** with the Kinect and some other tools. Essentially, it means the different body parts of a human being. The image below shows all of the points that Mediapipe is able to detect
+We are going to use the [Mediapipe](../../tools-and-technology/mediapipe/) library from Google to do tracking of poses from a video image. **Poses** refers to what is sometimes also called **skeleton tracking** with the Kinect and some other tools. Essentially, it means the different body parts of a human being. The image below shows all of the points that Mediapipe is able to detect
 
 [![Mediapipe poses chart](./images/mediapipe_poses.png)](./images/mediapipe_poses.png)
 
@@ -83,6 +83,8 @@ So what does it do? It handles all the code for getting the tracking data in two
 ## Examples created during class
 
 We will examine how this works in more detail during class. I will upload the file here at the end of the day.
+
+[Download the example](./files/ei_week8_medipipe-pose.toe)
 
 ---
 
