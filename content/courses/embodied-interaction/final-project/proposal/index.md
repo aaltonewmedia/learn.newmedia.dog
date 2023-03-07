@@ -22,5 +22,5 @@ It is ok if your idea changes after this. I am expecting it to change or evolve 
 {{</hint>}}
 
 {{<hint info>}}
-After this presentation, some of you might also decide to join forces. You can consider this presentation as a way to pitch your idea to other people who could then join you. You should mention if you are looking for someone to work with or if you just want to focus on working on your own thing.
+After this presentation, some of you might also decide to join forces. You can consider this presentation as a way to pitch your idea to other people who could then join you. You should mention if you are looking for someone to work with or if you just want to focus on working on your own thing. **You can also already present your idea with someone else if you have a team.**
 {{</hint>}}
