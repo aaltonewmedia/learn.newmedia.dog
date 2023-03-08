@@ -28,6 +28,8 @@ Jelle van Dijk has uploaded great lectures on the topic of Embodied Interaction 
 
 - [See the video lectures by Jelle van Dijk](http://www.jellevandijk.org/embodied-interaction/)
 
+{{<youtube PU_WDouhkw8>}}
+
 ### Books and Articles
 
 - [Baber, Christopher. Embodying Design: An Applied Science of Radical Embodied Cognition](https://mitpress.mit.edu/9780262543781/embodying-design/)
