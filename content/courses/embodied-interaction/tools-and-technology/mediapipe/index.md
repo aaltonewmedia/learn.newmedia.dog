@@ -148,12 +148,6 @@ If you see a similar response, you have successfully installed mediapipe on your
 
 ---
 
-### TouchDesigner Components
-
-I made some simple to use .tox files for TouchDesigner that you can use
-
----
-
 ### TouchDesigner Examples
 
 - Download some of the examples below.
