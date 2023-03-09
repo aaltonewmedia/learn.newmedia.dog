@@ -13,3 +13,11 @@ draft: false
 We are going to take a look at a machine learning tool called [Wekinator](http://www.wekinator.org/). It is unfortunately not yet installed on the computers at Aalto. So I recommend just following the demonstration today.
 
 Matti will make a video tutorial detailing the use of the tool in the next couple of days so you can come back to it if you wish to use it yourself.
+
+---
+
+## Refernces
+
+- [Mediapipe built-in gesture recognition](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer)
+- [Mediapipe Gesture Recognition Web Demo](https://codepen.io/mediapipe-preview/pen/zYamdVd)
+- [Gesture recognition example in Python](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
