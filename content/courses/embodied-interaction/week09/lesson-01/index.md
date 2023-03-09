@@ -27,7 +27,7 @@ draft: false
 
 ## Lecture
 
-Miro link will be here after the class.
+[Miro link](https://miro.com/app/board/uXjVPi2Zgtc=/)
 
 ---
 
@@ -35,9 +35,10 @@ Miro link will be here after the class.
 
 Files from the lecture will be provided here after the class.
 
+- [Download example built in class (08/03/2023)](./files/08-03-2023_classExample.toe)
+
 ---
 
 ## Additional references
-
 
 {{<youtube fcCRmf_tHW8>}}

@@ -148,11 +148,24 @@ If you see a similar response, you have successfully installed mediapipe on your
 
 ---
 
+### TouchDesigner Components
+
+I made some simple to use .tox files for TouchDesigner that you can use
+
+---
+
 ### TouchDesigner Examples
 
 - Download some of the examples below.
-- See the official documentation
 - [Bryan Chung has made nice tutorials and excellent examples on how to use Mediapipe with TouchDesigner](https://github.com/chungbwc/TouchDesigner)
+
+### Matti's TouchDesigner Components for Mediapipe
+
+Download these and add to your MyComponents in the Palette so you have them easily available.
+
+- [mediaPipePose](./examples/mediapipePose.tox)
+- [mediaPipeFace](./examples/mediapipeFace.tox)
+- [mediaPipeHands](./examples/mediapipeHands.tox) (updated 09/03/2023)
 
 ---
 
