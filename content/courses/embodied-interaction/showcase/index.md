@@ -23,7 +23,7 @@ weight: 999
 - [Yan Zhang](https://zhangy49.github.io/Yan-/)
 - [Simon Dreyer](https://www.simonarcher.design/embodied-interaction)
 - [Agata Rudnicka](https://blogs.aalto.fi/embodiedinteractionagatarudnicka/)
-- [Zhicheng Wang](https://zhicheng_wang.gitlab.io/website/)
+- [Zhicheng Wang](https://zhicheng_wang.gitlab.io/)
 - [Donato Renzulli](https://donatorenzulli.github.io/DonatoRenzulli-DocumentationWebsite/)
 - [Begüm Çelik](https://www.begumcelik.net/post/embodied-interaction)
 - [Hyunji Kim](https://hyunjiembodied.cargo.site/)
