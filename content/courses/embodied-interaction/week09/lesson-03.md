@@ -6,3 +6,9 @@ draft: false
 ---
 
 # Week 09 | Lesson 03 | 10/03/2023
+
+{{<hint info>}}
+**Wednesday, March 10, 2023**
+
+*Room G203*
+{{</hint>}}
