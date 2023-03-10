@@ -7,9 +7,9 @@ draft: false
 
 This week we are going to go visit an interactive sound installation that is being developed at the WHS theatre.
 
-- Wednesday (TBA)
-  - Visit to WHS
+- Wednesday
+  - **No class, Matti is in admissions interviews**
 - Thursday (L208)
   - Technical demonstration: Biosensors, Haptics
 - Friday (G203)
-  - Project Work
+  - Visit to WHS
