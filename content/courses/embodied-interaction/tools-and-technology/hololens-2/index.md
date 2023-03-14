@@ -7,6 +7,8 @@ bookCollapseSection: false
 
 ---
 
+{{<youtube P8og3nC5FaQ>}}
+
 ## Unity + Hololens 2
 
 I have successfully been able to follow this tutorial to create a Unity project that runs on the Hololens 2:
