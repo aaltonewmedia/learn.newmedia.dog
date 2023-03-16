@@ -1,11 +1,11 @@
 ---
-title: Week 10 | 15/03/2023 | Biosensors, Haptics
+title: Week 10 | 16/03/2023 | Biosensors, Haptics
 bookCollapseSection: false
 weight: 20
 draft: false
 ---
 
-# Week 10 | Lesson 02
+# Week 10 | 16/03/2023 | Biosensors, Haptics
 
 ## Biosensors
 
