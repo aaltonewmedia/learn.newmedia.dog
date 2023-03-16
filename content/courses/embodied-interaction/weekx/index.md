@@ -9,11 +9,18 @@ draft: false
 
 The rest of the course is dedicated for your final projects.
 
+## Spaces
+
+We have the following spaces booked for the course
+
+- G203: March 20 to April 14
+- L208: During the normal class times on Wednesdays and Thursdays
+
 ## Key dates
 
 ### Friday, 24.03.2023 | Field trip to the Art & Tech Demo Day
 
-9:15–11:00 Matti is available for tutoring and discussions at G203, no other teaching.
+Friday, 24/03/2023 9:15–11:00 Matti is available for tutoring and discussions at G203, no other teaching.
 12:00--> Join the Art and Tech Open Call Demo Day if you can
 
 - Location: [Roihupelto Studios](https://studios.aalto.fi/roihupelto-studios/)
