@@ -2,14 +2,14 @@
 title: "08 | ..."
 bookCollapseSection: false
 weight: 10
-draft: false
+draft: true
 ---
 
-# Wed
+# 
 
 ---
 
-## Wednesday
+## # Wed 26/04/2023
 
 ### 9:15–10:00 | Breakfast Meeting
 
@@ -26,7 +26,7 @@ We have two guests who will talk about immersive theatre.
 
 <iframe src="https://archive.org/embed/GoodTabl1951" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
-### 13:15–15:00 | Lecture: Immersive Theatre
+### 13:15–15:00 | Guest Lecture: Projection Mapping
 
 ### 15:15–17:00 | Clinic & Collaborative Working Time
 
@@ -35,7 +35,7 @@ We have two guests who will talk about immersive theatre.
 
 ---
 
-## Thursday
+## Thursday | Independent Work
 
 We have the room G203 booked for us for your independents work and experimentations. Also remember all the other facilities where you can work:
 
@@ -48,12 +48,16 @@ Some workshops require you to do safety training or online MyCourses introductio
 
 --- 
 
-## Friday
+## Friday | Technical Lecture: Projection Mapping
 
 ### Lunch
 
 <iframe src="https://archive.org/embed/49374FarmsFreshToYou_201804" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
-### 14:00–16:00 | Weekly report
+### 13:15–15:00 | Experiment
+
+Test out the projection mapping techniques we covered in the morning.
+
+### 15:15–17:00 | Weekly report
 
 We end each week with a roundtable discussion to check what you have been doing during the week. Feel free to show others your progress, give constructive feedback, test things with your peers.
