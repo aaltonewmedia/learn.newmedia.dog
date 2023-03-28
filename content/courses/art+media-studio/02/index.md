@@ -1,0 +1,29 @@
+---
+title: "05/04: Second Meeting"
+bookCollapseSection: false
+weight: 02
+draft: false
+---
+
+# 05/04: Second Meeting
+
+---
+
+## Discussion on the gallery visit and the readings
+
+---
+
+### To do before the next meeting on April 26
+
+## Reading
+
+TBA
+
+## Task
+
+Add to our [collaborative Miro board](https://miro.com/app/board/uXjVMYoOc3w=/?share_link_id=2364408751) (password in MyCourses) the following things about yourself:
+- Your name, what are you studying?
+- What is your specialty skill or field? What do you consider to be most comfortable working with?
+- What do you want to learn more about during this course?
+- Add an image, video or link to a project that you have done before. This can be something from your portfolio, passion project, something you feel proud of. If you only have an image, add a short description of the project.
+- Add an image, video, or link to some artwork or project that you wish you would have done or be involved in creating. Something that inspires you. If you only have an image, add a short description of the project.
