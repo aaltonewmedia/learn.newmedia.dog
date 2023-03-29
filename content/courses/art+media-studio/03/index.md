@@ -5,7 +5,7 @@ weight: 20
 draft: false
 ---
 
-# 
+# 26–28/04
 
 ---
 
@@ -37,10 +37,9 @@ Eero Tiainen, the director of [Love Simulation Eve](https://www.lovesimulationev
 
 {{<youtube dsBqGpaysw0>}}
 
-### 15:15–17:00 | Clinic & Collaborative Working Time
+### 15:15–17:00 | Planning for the outcome of the course
 
-- Work together
-- Come with your questions or problems to talk with Matti
+- We will go through your Miro board assignment from last week
 
 ---
 

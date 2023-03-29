@@ -38,9 +38,13 @@ If you are not familiar with the work of Ryoji Ikeda, I would higly recommend yo
 
 ## To do before the next meeting on April 26
 
-### Reading
+### Read
 
 TBA
+
+### Listen
+
+[Listen to this podcast from Talking About Immersive Theatre (TAIT)](https://soundcloud.com/dr-joanna-bucknall/tait-episode-33-samee-haapa).
 
 ### Task
 
