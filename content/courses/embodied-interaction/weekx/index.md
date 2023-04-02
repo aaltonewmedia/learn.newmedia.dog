@@ -26,3 +26,12 @@ Friday, 24/03/2023 9:15–11:00 Matti is available for tutoring and discussions 
 - Location: [Roihupelto Studios](https://studios.aalto.fi/roihupelto-studios/)
 - **Time: 12:00–15:00** Note that this is outside our class hours.
 - [Register for the event](https://studios.aalto.fi/art-tech-open-call-23-demo-day/)
+
+### Wednesday, 05.04.2023
+
+A couple of students are presenting their work early. We will check those 10AM starting from room O102.
+
+### Friday, 14/04/2023 | Final Project Presentations
+
+Present your work to the class. We have so many students that we need to start 9:15 sharp.
+
