@@ -31,6 +31,10 @@ Friday, 24/03/2023 9:15–11:00 Matti is available for tutoring and discussions 
 
 A couple of students are presenting their work early. We will check those 10AM starting from room O102.
 
+### Easter holiday April 6-12
+
+I will be out of office during the Easter Holiday. You can of course work during that time, but I recommend you to take some rest as well. You should be able to acceess the school with your keycard.
+
 ### Friday, 14/04/2023 | Final Project Presentations
 
 Present your work to the class. We have so many students that we need to start 9:15 sharp.
