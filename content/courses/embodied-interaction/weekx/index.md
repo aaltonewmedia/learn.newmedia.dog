@@ -35,3 +35,8 @@ A couple of students are presenting their work early. We will check those 10AM s
 
 Present your work to the class. We have so many students that we need to start 9:15 sharp.
 
+**Note: Some students are already presenting on Wednesday, April 5**
+
+### Final Project Documetation deadline
+
+You have until April 26 to finish up your documentation. I will check your sites/documents after that point to evaluate your work.

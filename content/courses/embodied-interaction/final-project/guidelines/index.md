@@ -42,11 +42,17 @@ It is ok if your idea changes after this. I am expecting it to change or evolve 
 After this presentation, some of you might also decide to join forces. You can consider this presentation as a way to pitch your idea to other people who could then join you. You should mention if you are looking for someone to work with or if you just want to focus on working on your own thing.
 {{</hint>}}
 
-## Final project documentation (April 21, 2023)
+## Final Project presentations (April 14, 2023)
+
+Present your work on the last day of the course. We will mainly be in room G203 but you can present somewhere else as well, if you are making work for some other space.
+
+**Note: Some students are already presenting on Wednesday, April 5**
+
+## Final project documentation (April 26, 2023)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. [Your course website](../documentation-website/) should have a dedicated section(s)/page(s) for your final project.
 
-Deadline for finishing the documentation is Friday, April 21.
+Deadline for finishing the documentation is Wednesday, April 26.
 
 Minimum documentation consists of:
 
