@@ -7,9 +7,18 @@ draft: false
 
 ---
 
+## TouchDesigner Curriculum
+
+Derivative has released TouchDesigner Curriculum, a great resource for learning the basics of TouchDesigner. If you are new to TD start with the Fundamentals course.
+
+- [TouchDesigner Curriculum](https://learn.derivative.ca/)
+- [The 100 Series: TouchDesigner Fundamentals](https://learn.derivative.ca/courses/100-fundamentals/)
+
+
 ## Other TouchDesigner Resources
 
 Here are some great resources made by other people:
+
 
 - [TouchDesigner Tutorials](https://derivative.ca/tutorials)
 - [The official TouchDesigner Channel](https://www.youtube.com/channel/UCbgFCfj0vp-nNGQ4hT5uEAg)
