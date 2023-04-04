@@ -56,4 +56,4 @@ draft: false
 - Thu 1.6. | Showcase of the Final Projects (Visualization Hub, G203, other possible locations)
 - Fri 2.6. | Showcase of the Final Projects (Visualization Hub, G203, other possible locations)
 
---> Exhibition possibly continues to the neext week.
+--> Exhibition possibly continues to the next week.
