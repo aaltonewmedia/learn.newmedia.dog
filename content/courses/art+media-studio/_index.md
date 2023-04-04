@@ -20,25 +20,37 @@ draft: false
 
 # Period V
 
+## 001
+
 - Wed 26.4. | Lecture and discussions
-- Thu 27.4. | Independent work
+- *Thu 27.4. | Independent work*
 - Fri 28.4. | Projection Mapping
 
+## 002
+
 - Wed 3.5. | Project idea development
-- Thu 4.5. | Independent work
+- *Thu 4.5. | Independent work*
 - Fri 5.5. | Lecture and discussions
 
+## 003
+
 - Wed 10.5. | Clinics and tutoring
-- Thu 11.5. | Independent work
+- *Thu 11.5. | Independent work*
 - Fri 12.5. | Clinics and tutoring
 
+## 004
+
 - Wed 17.5. | Clinics and tutoring
-- Thu 18.5. | Independent work
+- *Thu 18.5. | Independent work*
 - Fri 19.5. | Clinics and tutoring
 
+## 005
+
 - Wed 24.5. | Clinics and tutoring
-- Thu 25.5. | Independent Work
+- *Thu 25.5. | Independent Work*
 - Fri 26.5. | Clinics and tutoring
+
+## 006
 
 - Wed 31.5. | Project work & tutoring
 - Thu 1.6. | Showcase of the Final Projects (Visualization Hub, G203, other possible locations)

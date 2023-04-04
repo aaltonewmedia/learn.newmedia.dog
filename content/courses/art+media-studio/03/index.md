@@ -1,5 +1,5 @@
 ---
-title: "26–28/04"
+title: "26–28/04: Museum Experiences, Immersive Theater"
 bookCollapseSection: false
 weight: 20
 draft: false
@@ -40,6 +40,7 @@ Eero Tiainen, the director of [Love Simulation Eve](https://www.lovesimulationev
 ### 15:15–17:00 | Planning for the outcome of the course
 
 - We will go through your Miro board assignment from last week
+- Visit to the Vizualisation Hub (IglooVision)
 
 ---
 
@@ -54,6 +55,8 @@ We have the room G203 booked for us for your independents work and experimentati
 - Aalto Studios
 
 Some workshops require you to do safety training or online MyCourses introductions before you can use them. These Thursdays are a good time to do that.
+
+Matti will be in the 360° space (Vizualisation Hub)
 
 --- 
 

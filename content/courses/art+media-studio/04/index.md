@@ -1,7 +1,7 @@
 ---
 title: "03–05/05: "
 bookCollapseSection: false
-weight: 20
+weight: 30
 draft: false
 ---
 
@@ -45,7 +45,7 @@ Some workshops require you to do safety training or online MyCourses introductio
 
 ## Friday 28/04/2023  | 
 
-### 09:15–12:00 | TBA
+### 10:15–12:00 | Roberto Fusco and Tuomo Rainio
 
 ### 12:00–13:00 | Lunch
 
