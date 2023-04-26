@@ -27,6 +27,10 @@ We will start every week with a breakfast meeting to plan the week and to just c
 
 ### 13:15–15:00 | TBA
 
+Eero Tiainen, the director of [Love Simulation Eve](https://www.lovesimulationeve.com/) will join us to talk about the project.
+
+{{<youtube dsBqGpaysw0>}}
+
 ---
 
 ## Thursday 27/04/2023 | Independent Work

@@ -35,9 +35,7 @@ Aki Päivärinne from [OiOi](https://oioi.fi/) is coming to talk about the work 
 
 ### 13:15–15:00 | Guest Lecture: Eero Tiainen
 
-Eero Tiainen, the director of [Love Simulation Eve](https://www.lovesimulationeve.com/) will join us to talk about the project.
-
-{{<youtube dsBqGpaysw0>}}
+**Talk from Eero Tiainen moved to next week.**
 
 ### 15:15–17:00 | Planning for the outcome of the course
 
