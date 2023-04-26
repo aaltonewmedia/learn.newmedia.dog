@@ -14,7 +14,7 @@ draft: false
 ### 9:15–10:00 | Breakfast Meeting
 
 - 9:15–10:00
-- Location TBA
+- **Location: Kitchen/coffee machine area in the first floor near Media Lab (between K and J blocks)**
 
 We will start every week with a breakfast meeting to plan the week and to just chat about what is happening in the world. BYOB (Bring Your Own Breakfast) and also bring some interesting topics to the table.
 
@@ -22,6 +22,8 @@ We will start every week with a breakfast meeting to plan the week and to just c
 - Did the reading for this week provoke any new ideas?
 
 ### 10:00–12:00 | Guest Lecture: Aki Päivärinne from OiOi
+
+**Room G203**
 
 Aki Päivärinne from [OiOi](https://oioi.fi/) is coming to talk about the work they do.
 
