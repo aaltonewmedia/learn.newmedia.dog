@@ -1,5 +1,5 @@
 ---
-title: "26–28/04: Museum Experiences, Immersive Theater"
+title: "26–28/04: Museum Experiences"
 bookCollapseSection: false
 weight: 20
 draft: false

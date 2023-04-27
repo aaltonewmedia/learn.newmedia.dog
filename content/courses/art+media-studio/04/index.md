@@ -1,5 +1,5 @@
 ---
-title: "03–05/05: "
+title: "03–05/05: Immersive Theater, Project Development"
 bookCollapseSection: false
 weight: 30
 draft: false
