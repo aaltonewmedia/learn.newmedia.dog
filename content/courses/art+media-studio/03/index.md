@@ -64,6 +64,61 @@ Matti will be in the 360° space (Vizualisation Hub)
 
 ### 09:15–12:00 | Projection Mapping
 
+#### History
+
+{{<youtube al-DjiCzy1o>}}
+
+[More information](https://www.doombuggies.com/tour6.html)
+
+{{<youtube w-WPUus4Ebo>}}
+
+{{<youtube bMDr_CFFgWE>}}
+
+#### Examples
+
+- [Mécaniques Discursives](http://www.mecaniques-discursives.com/#home)
+- [Ishikawa Group Laboratory](https://www.youtube.com/@IshikawaLab)
+- [Immersive Arts Space ](https://blog.zhdk.ch/immersivearts/)
+
+{{<youtube QDppJ9NWtaE>}}
+
+{{<vimeo 368631052>}}
+
+{{<youtube lX6JcybgDFo>}}
+
+#### In Finland
+
+- [Sun Effects](http://www.suneffects.fi/en/)
+- [Lux Helsinki](https://luxhelsinki.fi/)
+- [Reflektor](https://reflektor.fi/)
+- [Mapsion](http://www.mapsion.fi/)
+- [Niko Tiainen from New Media](https://nikotiainen.com/)
+
+#### Tools
+
+- [TouchDesigner](https://derivative.ca/)
+- [MadMapper](https://madmapper.com/)
+- [Resolume](https://resolume.com/)
+- [HeavyM](https://www.heavym.net/)
+- [Mapping Matter](https://www.mappingmatter.com/) for planning, not for actually running projection mapping projects
+- [ofxPiMapper](https://ofxpimapper.com/) Projection mapping on the Raspberry Pi
+- [Sparck](https://tecartlab.com/sparck/)
+- and many others
+
+#### In TouchDesigner
+
+- [Stoner](https://docs.derivative.ca/Palette:stoner) - For simple corner pinning and image warping
+- [Kantan Mapper](https://docs.derivative.ca/Palette:kantanMapper) - For more complex 2D Mapping and image warping
+- [CamSchnappr](https://docs.derivative.ca/Palette:camSchnappr) - For 3D Mapping on complex 3D objects
+
+#### Tutorials
+
+- [Stoner Tricks](https://matthewragan.com/2019/08/06/touchdesigner-stoner-tricks/)
+- [Projection Mapping Tools in TouchDesigner](https://www.youtube.com/watch?v=mTH7ZB4x47Q)
+- [CamSchnapper Tutorial](https://www.youtube.com/watch?v=zzwzM-JbpM8)
+
+## Tools in TouchDesigner
+
 ### 12:00–13:00 | Lunch
 
 🍜

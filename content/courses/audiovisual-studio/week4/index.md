@@ -28,7 +28,7 @@ Touchdesigner has a collection of different tools for projection mapping with in
 
 #### Other projection mapping tools
 
-- [MadMapper](https://madmapper.com/) - Commercial projection mapping software that has a friendly interface and an active co
+- [MadMapper](https://madmapper.com/) - Commercial projection mapping software that has a friendly interface and an active community
 - [Sparck](http://tecartlab.com/sparck/) - 
 - [ofxPiMapper](https://ofxpimapper.com/) - Projection mapping with the Raspberry Pi (made by Krisjanis from Aalto Fab Lab)
 - [Virtual Mapper](https://github.com/baku89/VirtualMapper)
