@@ -1,11 +1,11 @@
 ---
-title: "11 | ..."
+title: "23-26/05: | Work, work, work"
 bookCollapseSection: false
 weight: 10
-draft: true
+draft: false
 ---
 
-# ...
+# 23-26/05: | Work, work, work
 
 ---
 
