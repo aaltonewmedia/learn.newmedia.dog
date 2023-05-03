@@ -1,5 +1,5 @@
 ---
-title: "26–28/04: Museum Experiences"
+title: "26–28/04: Museum Experiences, Projection Mapping"
 bookCollapseSection: false
 weight: 20
 draft: false

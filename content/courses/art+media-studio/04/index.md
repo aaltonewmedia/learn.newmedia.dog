@@ -24,6 +24,7 @@ Work on your project idea. Start working towardws a project plan. Consider the f
 
 - What is your work about? Thematically, conceptually...
 - Are you asking questions or finding answers?
+- Are you working alone or with someone else?
 - [Can you define your approach in terms of how Arja Karhumaa presented it in the **Notes on Project Design** lecture.](https://mycourses.aalto.fi/mod/folder/view.php?id=1025809&class=d-flex%20align-items-center). Which of the approcahes would fit your project the best?
   - The Analysis Project
   - The Construction Project
@@ -39,6 +40,7 @@ Work on your project idea. Start working towardws a project plan. Consider the f
   - Can other beings besides people interact with it?
 - Do you use/need some special technology to create or to present your work?
 - What is the scale of the work? Is it a small object or a room-size installation?
+- What type of space does it require for exhibiting it?
 - Does your work have a physical part or is it completely digital?
 
 ### 12:00–13:00 | Lunch
