@@ -18,7 +18,7 @@ draft: false
 
 We will start every week with a breakfast meeting to plan the week and to just chat about what is happening in the world. BYOB (Bring Your Own Breakfast) and also bring some interesting topics to the table.
 
-### 10:00–12:00 | 
+### 10:00–12:00
 
 Work on your project idea. Start working towardws a project plan. Consider the following questions. Try to answer the relevant ones for your project.
 
