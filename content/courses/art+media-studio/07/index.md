@@ -11,7 +11,7 @@ draft: false
 
 ## Wednesday 23/05/2023
 
-Work on your project, Matti is mainly in G203.
+Work on your project, Matti is mainly in G203. **Sign up for Demo Day**
 
 ## Thursday 24/05/2023
 

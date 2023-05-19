@@ -42,4 +42,5 @@ This year we have quite limited options on spaces and time where we can show our
 - One short video of your project
 - One or more images of your work
 - [Artist statement of this specific work that you make during the course](https://www.gyst-ink.com/artist-statement-guidelines)
+    - Note: if your work is more like a tool or research project, you can write a more general project description of your work.
 - Additionally, take pictures, video, and written notes of your process. Each project will have an additional **Process** page where you can include these 
