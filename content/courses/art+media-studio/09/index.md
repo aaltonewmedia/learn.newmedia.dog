@@ -2,7 +2,7 @@
 title: "Final Project Documentation"
 bookCollapseSection: false
 weight: 80
-draft: false
+draft: false  
 ---
 
 # Final Project Documentation
@@ -11,7 +11,7 @@ draft: false
 
 ## Public Documentation
 
-This year we have quite limited options on spaces and time where we can show our work, so it is quite important that you document your work well.
+This year we have quite limited options on spaces and time where we can show our work, so it is quite important that you document your work well. [Send this to me via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1043723)
 
 - One short video of your project
 - One or more images of your work
@@ -27,7 +27,7 @@ This year we have quite limited options on spaces and time where we can show our
 
 ### Mandatory: Process documentation 
 
-Send me a freely formatted documentation of your process. This can be but is not limited to the following:
+Send me a freely formatted documentation of your process [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1043750). This can be but is not limited to the following:
 
 1. Pdf file with text and images.
 2. Link to a Miro board or some other online planning tool that you have been using to plan your project.
