@@ -2,16 +2,12 @@
 title: "Audiovisual Studio Workshop"
 bookCollapseSection: true
 weight: 40
-draft: true
----
-
-# Audiovisual Studio Workshop
-
+draft: false
 ---
 
 ## Schedule: Autumn 2023
 
-### Monday
+### Monday | 16/10/2023
 
 - 09.15–10:00 Introduction
 - 10:15–11:00 Timeline of AV Art #1
@@ -20,7 +16,7 @@ draft: true
 - 13:00–15:00 Building a VJ Tool - Realtime image processing
 - 16:00–17:00 Screening
 
-### Tuesday
+### Tuesday | 17/10/2023
 
 - 09.15–10:00 Timeline of AV Art #2
 - 10:15–11:00 Audio Analysis
@@ -29,25 +25,25 @@ draft: true
 - 13:00–15:00 Visualizing Sound #2
 - 16:00–17:00 Screening
 
-### Wednesday
+### Wednesday | 18/10/2023 (Calvin Guillot)
 
-- 09.15–10:00 Timeline of AV Art #3
-- 10:15–11:00 Realtime AI Generators
-- 11:15–12:00 Image to Sound
+- 09.15–10:00 TBA
+- 10:15–11:00 TBA
+- 11:15–12:00 TBA
 - 12:00–13:00 Lunch
-- 13:00–15:00 Experimenting with AI tools
+- 13:00–15:00 TBA
 - 16:00–17:00 Screening
 
-### Thursday
+### Thursday | 19/10/2023
 
 - 09.15–12:00 Project Work
 - 12:00–13:00 Lunch
 - 13:00–15:00 Project work
 - 16:00–17:00 Screening
 
-### Friday
+### Friday |  20/10/2023
 
 - 09.15–12:00 Project work
 - 12:00–13:00 Lunch
 - 13:00–14:00 Preparing the Screening (rendering, moving project files)
-- 14:00–17:00 Screenings of Workshop Results
+- 14:00–17:00 Screenings of Workshop Results (O102 and F005)
