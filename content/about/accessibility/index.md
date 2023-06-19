@@ -5,9 +5,11 @@ bookFlatSection: false
 weight: 10
 ---
 
+# Accessibility Statement
+
 This is an accessibility statement from Aalto University | learn.newmedia.dog.
 
-### Measures to support accessibility
+## Measures to support accessibility
  
 Aalto University | learn.newmedia.dog takes the following measures to ensure accessibility of New Media Courses:
 
