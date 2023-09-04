@@ -41,15 +41,15 @@ Submit a link to an online document (Miro board, Google Doc etc.) of your projec
 
 Note that your project can and probaly will change as you work on it. This is totally ok.
 
-**Present your idea in class on Friday, November 11.**
+**Present your idea in class on Friday, November 10.**
 
-### Final Project Presentation (Friday, December 2)
+### Final Project Presentation (Friday, December 1)
 
-You should present your project in class on Friday, December 2. We start presentations at 10 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
+You should present your project in class on Friday, December 1. We start presentations at 10 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
 
-### Final Project Documentation (Friday, December 16)
+### Final Project Documentation (Friday, December 15)
 
-You should send me documentation of the project via [MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=981392&forceview=1).
+You should send me documentation of the project via [MyCourses (link coming soon)](#).
 
 - a .pdf file that shortly explains your project (500–1000 words)
 - .zip archive of all of the files and code of your project
@@ -58,7 +58,7 @@ You should send me documentation of the project via [MyCourses](https://mycourse
 - *optional: a url to a website if you have published the work or some type of write-up about it.*
 
 Also include the answer to the following questions:
-1. Can I add the video of your projet to our [class showcase](../showcase/2022/)?
+1. Can I add the video of your projet to our [class showcase](../showcase/)?
 2. Can I publish your name next to the video?
 3. Would you like me to add a link to your portfolio website, social media account etc. next to the video?
 

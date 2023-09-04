@@ -16,7 +16,7 @@ During the first period, each week is divided into three classes just like they 
 
 <div class="calendar">
 
-| TIME | MON 28/02 | TUE 01/03 | WED 02/03 | THU 03/03 | FRI 04/03 |
+| TIME | MON 04/09  | TUE 05/09 | WED 06/09 | THU 06/09 | FRI 07/09 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Drawing with Code](./lesson-01) | [Animating with Code](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |

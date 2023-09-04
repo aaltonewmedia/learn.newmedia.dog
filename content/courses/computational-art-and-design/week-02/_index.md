@@ -16,7 +16,7 @@ During the first period, each week is divided into three classes just like they 
 
 <div class="calendar">
 
-| TIME | MON 12/09 | TUE 13/09 | WED 14/09 | THU 15/09 | FRI 16/09 |
+| TIME | MON 11/09 | TUE 12/09 | WED 13/09 | THU 14/09 | FRI 15/09 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Conditional Statements](./lesson-01) | [Conditional Statements](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |

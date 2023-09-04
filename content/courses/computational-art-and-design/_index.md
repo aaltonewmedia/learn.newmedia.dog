@@ -8,8 +8,8 @@ draft: false
 
 ## Important links
 
-- [MyCourses page (2022)](https://mycourses.aalto.fi/course/view.php?id=37604)
-- [Our OpenProcessing class](https://openprocessing.org/class/80657)
+- [MyCourses page (2023)](https://mycourses.aalto.fi/course/view.php?id=39808)
+- [Our OpenProcessing class](https://openprocessing.org/class/86575)
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
 - [p5js Reference](https://p5js.org/reference/)
@@ -39,7 +39,7 @@ On successful completion of this course, students will be able to:
 - Apply basic programming concepts and techniques, such as variables, functions, flow control, comments, types, objects and arrays.
 - Describe, discuss, and demonstrate uses of code as a creative medium.
 
-## Schedule | Autumn  2022
+## Schedule | Autumn  2023
 
 ### Period I
 
