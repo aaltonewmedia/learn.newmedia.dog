@@ -124,7 +124,7 @@ Using mouseIsPressed and keyIsPressed inside the draw() means that the program l
 
 ## Homework
 
-Add your version of the bouncing ball sketch to our [Open Processing class](https://openprocessing.org/class/80657). It can just be pretty much the same we did in class, but maybe try adding some of your own flavor to it.
+Add your version of the bouncing ball sketch to our [Open Processing class](https://openprocessing.org/class/86575). It can just be pretty much the same we did in class, but maybe try adding some of your own flavor to it.
 
 For extra challenge, try the following:
 

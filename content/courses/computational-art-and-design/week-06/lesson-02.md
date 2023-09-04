@@ -664,4 +664,4 @@ No coding homework but add something to our AI collection on the Open Processing
 - Use one or more [text-to-image generators](../lecture)
 - Create some images
 - Choose your favorite (or something that came out interesting)
-- Upload the image embedded inside a p5.js sketch to the [AI collection](https://openprocessing.org/class/80657)
+- Upload the image embedded inside a p5.js sketch to the [AI collection](https://openprocessing.org/class/86575)

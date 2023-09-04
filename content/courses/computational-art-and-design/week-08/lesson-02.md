@@ -89,7 +89,7 @@ function changeBG() {
 
 Create a sketch that uses sliders, buttons and other DOM elements to control colors and other variables in your sketch. Place the elements on top of the canvas and use `createCanvas(windowWidth, windowHeight);` so that it works well inside Open Processing.
 
-[Post it to our Open Processing class.](https://openprocessing.org/class/80657)
+[Post it to our Open Processing class.](https://openprocessing.org/class/)
 
 ## Classes
 
@@ -98,6 +98,6 @@ Let's also practice using classes and obejcts. Create a sketch that does the fol
 - Create a class called Bouncer
 - Make it behave like our earlier bouncing ball example
 - Create 100 bouncers bouncing on the canvas
-- [Post it to our Open Processing class](https://openprocessing.org/class/80657) in the Object/Classes collection.
+- [Post it to our Open Processing class](https://openprocessing.org/class/86575) in the Object/Classes collection.
 
 **Or if you want more challenge, make a particle that uses noise() for animating it.**
