@@ -5,6 +5,10 @@ weight: 17
 draft: false
 ---
 
+{{<hint info>}}
+**Note that this workshop is not running in 2023!**
+{{</hint>}}
+
 ## Content
 
 
