@@ -1,0 +1,389 @@
+{
+  "places": [
+    {
+      "name": "start",
+      "intro": "Republic of Zarowka, 1981 <br><br>The day has come. Your time in the municipal waiting list has ended after two years.<br>You are closer than ever to your dream of opening a traditional Zarowkan bakery.<br>You walk to the counter. The official asks: 'What document you need?'<br><br>(Type 'ask for workplace operation permit')",
+      "gives_docs": {},
+      "req_docs": {},
+      "valid_inputs": [
+        "start",
+        "ask for workplace operation permit",
+        "exit"
+      ],
+      "responses": [
+        "You cannot do that right now.",
+        "<br>The man answers: 'You do not have required documents for Municipal Office.' Bring me:<br>> Workplace Occupancy Licence from Department of Financial Services<br>> Registration to the Chamber of Commerce from Chamber of Commerce<br>> Declaration of Criminal Records from General Directorate of Security Affairs<br><br>'Collect these documents and bring them to Municipal Office.<br><br>You have until end of today. Or you go to back of queue.'<br><br>The queue is 8 years long.<br><br>(Type 'exit' to go outside.)"
+      ],
+      "inventory": []
+    },
+    {
+      "name": "outside",
+      "intro": "You are outside.",
+      "gives_docs": {},
+      "req_docs": {},
+      "valid_inputs": [
+        "go to department of financial services",
+        "go to ministry of labor"
+      ],
+      "responses": [],
+      "inventory": []
+    },
+    {
+      "name": "municipal_office",
+      "intro": "You arrive at the Municipal Office.<br>Built in 1967 by a great Zarowkan architect, it is a marvel of modern brutalist architecture. <br>It resembles a very large upside down plate standing on pillars made of car tires.<br>You go inside and take a queue number. You wonder why every concrete building has those small holes on the walls.<br><br>Your number is called...",
+      "gives_docs": [
+        {
+          "name": "workplace_operation_permit",
+          "loc": "Municipal Office",
+          "nameType": "Workplace Operation Permit"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "workplace_occupancy_licence",
+          "loc": "Department of Financial Services",
+          "nameType": "Workplace Occupancy Licence"
+        },
+        {
+          "name": "registration_to_the_chamber_of_commerce",
+          "loc": "Chamber of Commerce",
+          "nameType": "Registration to the Chamber of Commerce"
+        },
+        {
+          "name": "declaration_of_criminal_records",
+          "loc": "General Directorate of Security Affairs",
+          "nameType": "Declaration of Criminal Records"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for workplace operation permit",
+        "give workplace occupancy licence",
+        "give registration to the chamber of commerce",
+        "give declaration of criminal records"
+      ],
+      "responses": [
+        "Welcome to Municipal Office what you need?",
+        "You did not give us required documents. We require...",
+        "Here is your Workplace Operation Permit. You can open workplace now. ",
+        "We do not give that document here.",
+        "Is this correct document? Let me ask supervisor... Yes. Correct document.",
+        "We don't accept that document. Go somewhere else."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "department_of_financial_services",
+      "intro": "You arrive at the Department of Financial Services.<br>It is a large concrete building with small windows overlooking a busy street.<br>You see a crowd of people waiting outside for their number to be called. You go inside and take a queue number.<br><br>After a long wait, your number comes up and you go to the counter.",
+      "gives_docs": [
+        {
+          "name": "workplace_occupancy_licence",
+          "loc": "Department of Financial Services",
+          "nameType": "Workplace Occupancy Licence"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "registration_of_workplace_address",
+          "loc": "Regional Labor Association",
+          "nameType": "Registration of Workplace Address"
+        },
+        {
+          "name": "occupational_health_and_safety_certificate",
+          "loc": "Ministry of Labor",
+          "nameType": "Occupational Health and Safety Certificate"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for workplace occupancy licence",
+        "give registration of workplace address",
+        "give occupational health and safety certificate"
+      ],
+      "responses": [
+        "Welcome to DFS what you need?",
+        "You did not give me necessary documents. You need to get...",
+        "Here is your Workplace Occupancy Licence. Next person!",
+        "We do not give that document here.",
+        "Thank you. We received your document.",
+        "We don't accept that document. Go somewhere else."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "ministry_of_labor",
+      "intro": "You arrive at the Ministry of Labor.<br>You walk past a row of flagpoles, glancing at the Zarowkan banner.<br>Above the main door stands a giant wall of mosaic tiles, which have lost their colors after decades of exposure.<br>It depicts a mine worker holding a pickaxe. You go inside and take your number. <br><br>When your number is shouted across the room, you go to the counter.",
+      "gives_docs": [
+        {
+          "name": "occupational_health_and_safety_certificate",
+          "loc": "Ministry of Labor",
+          "nameType": "Occupational Health and Safety Certificate"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "declaration_of_insurance_statement",
+          "loc": "Social Insurance Bureau",
+          "nameType": "Declaration of Insurance Statement"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for occupational health and safety certificate",
+        "give declaration of insurance statement"
+      ],
+      "responses": [
+        "Welcome to Ministry of Labor what you need?",
+        "You did not give me enough documents. Get me these or go away...",
+        "I give you Occupational Health and Safety Certificate. Now go away.",
+        "Don't waste a state officer's time. We don't give that document here.",
+        "Yes, this is correct document.",
+        "We don't accept that document. You are time waste."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "regional_labor_association",
+      "intro": "You arrive at the Regional Labor Association. <br>The waiting area is not crowded, but very cold. It has no windows.<br><br>You go to the civil servant's desk. He is a balding man with a large moustache, surrounded by file cabinets.",
+      "gives_docs": [
+        {
+          "name": "registration_of_workplace_address",
+          "loc": "Regional Labor Association",
+          "nameType": "Registration of Workplace Address"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "occupational_health_and_safety_certificate",
+          "loc": "Ministry of Labor",
+          "nameType": "Occupational Health and Safety Certificate"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for registration of workplace address",
+        "give occupational health and safety certificate"
+      ],
+      "responses": [
+        "Welcome to Regional Labor Association what you need?",
+        "New legislation came last week. Now we need...",
+        "Your Registration of Workplace Address is here. Have nice day.",
+        "You are in wrong place. We do not give that document here.",
+        "Seems to be correct. Let me check... Yes, correct document",
+        "Don't give me that document. Other government office is responsible for that."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "chamber_of_commerce",
+      "intro": "You arrive at the Chamber of Commerce.<br>Before you enter you glance at a parking area near the building, reserved for upper management. <br>It is seperated from the rest of the compound by a metal gate.<br>You see four black Mercedes inside, side by side. German export cars are a rare sight in Zarowka these days.<br>You go inside thinking that your taxes are spent quite well; that metal gate was very nice looking after all.<br><br>Your thoughts are interrupted by your number being called.",
+      "gives_docs": [
+        {
+          "name": "registration_to_the_chamber_of_commerce",
+          "loc": "Chamber of Commerce",
+          "nameType": "Registration to the Chamber of Commerce"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "tax_registration_certificate",
+          "loc": "National Tax Adminstration",
+          "nameType": "Tax Registration Certificate"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for registration to the chamber of commerce",
+        "give tax registration certificate"
+      ],
+      "responses": [
+        "Welcome to Chamber of Commerce what you need?",
+        "Sorry, rules are strict. The Chamber of Commerce requires...",
+        "You are now registered to the Chamber of Commerce. Here is your registration document.",
+        "That document is not given here.",
+        "Thank you. This is the document we needed.",
+        "I can't take that document. Rules are like this."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "national_tax_adminstration",
+      "intro": "You arrive at the National Tax Adminstration. <br>The small waiting are is quite chaotic. You manage to squeeze against a wall near a woman scolding her child who is rolling on the floor screaming.<br>The air is thick with the smell of sweat. Every time the entrance door opens, you try to fill your lungs with the cold November air.<br><br>After a long wait, you manage to enter the tax office. The counter is empty.<br>A very tired man comes from the back room, yawning, and sits at the desk.",
+      "gives_docs": [
+        {
+          "name": "tax_registration_certificate",
+          "loc": "National Tax Adminstration",
+          "nameType": "Tax Registration Certificate"
+        }
+      ],
+      "req_docs": [],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for tax registration certificate"
+      ],
+      "responses": [
+        "Welcome to National Tax Adminstration what you need?",
+        "I don't know what this document is.",
+        "Hmmpphhh... You wake me up from afternoon sleep. You need document? Here take it.",
+        "Hmmmh... my afternoon nap is interrupted because you are stupid. We do not give that here.",
+        "Thank you. This is the document we needed.",
+        "Hmpfff? Why are you giving me this?"
+      ],
+      "inventory": []
+    },
+    {
+      "name": "union_of_bakers_and_food_workers",
+      "intro": "You arrive at the Union of Bakers and Food Workers. <br>It is on the second floor of an apartment block. You know a couple of people who work here.<br>You enter the small office of an old acquintance. The wall behind him has a giant picture of the founding father of Zarowka on a horse. <br>The other walls are decorated with framed pictures of bread. He offers you strange smelling coffee.<br><br>You take it.",
+      "gives_docs": [
+        {
+          "name": "proof_of_occupational_proficiency",
+          "loc": "Union of Bakers and Food Workers",
+          "nameType": "Proof of Occupational Proficiency"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "declaration_of_insurance_statement",
+          "loc": "Social Insurance Bureau",
+          "nameType": "Declaration of Insurance Statement"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for proof of occupational proficiency"
+      ],
+      "responses": [
+        "Welcome to Union of Bakers what you need?",
+        "Look, I know you are a fine baker but I still need more document. You know, formality and all...",
+        "Here, take your Proof of Occupational Proficiency. After you open bakery, don't forget to bring Zarowkan Pie to me.",
+        "Sorry, you have to go somewhere else for that document.",
+        "Hmm hmm, document looks real enough. Fine by me.",
+        "That's not the right document, sorry. You know I would not mind it for you, but there is inspection next week."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "general_directorate_of_security_affairs",
+      "intro": "You arrive at the General Directorate of Security Affairs.<br>You walk past a group of Zarowkan policemen, enjoying their smoke break sitting on a bench in the garden.<br>On the wall behind the front desk, hangs the engraved coat of arms of the Zarowkan Police Force, with a quote underneath written in copper lettering.<br>It reads: 'Your own police is your own conscience.'<br><br>After your name is called, you go up to a counter. A policeman is chatting with his colleagues near the window, ignoring you.<br>You call to him kindly. He ignores you. This is repeated for the next five minutes.<br><br>He finally decides to come and speak to you.",
+      "gives_docs": [
+        {
+          "name": "declaration_of_criminal_records",
+          "loc": "General Directorate of Security Affairs",
+          "nameType": "Declaration of Criminal Records"
+        }
+      ],
+      "req_docs": [
+        {
+          "name": "certificate_of_residence",
+          "loc": "Bureau of Population Adminstration",
+          "nameType": "Certificate of Residence"
+        }
+      ],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for declaration of criminal records",
+        "give certificate of residence"
+      ],
+      "responses": [
+        "Welcome to Security Affairs what you need?",
+        "Yeah... I have to go and check the back room for your records. In the meantime, why don't you go and bring me... ",
+        "*takes a sip from his coffee* Your record seems fine. Take this document. Next!",
+        "Why are you asking me this?",
+        "This is fine, I guess.",
+        "I don't know what this is. Take it somewhere else."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "bureau_of_population_adminstration",
+      "intro": "You arrive at the Bureau of Population Adminstration. <br>The bureau is at the basement of the recently renovated historical National Bank, originally built in 1852.<br>'The renovation efforts were quite the success', you think to yourself. 'The hand-carved stone works were looking really old.'<br>'Thank God they tore it down and put up this new shiny blue tiling, looks so much better.'<br><br>You walk up to one of the counters in the basement.",
+      "gives_docs": [
+        {
+          "name": "certificate_of_residence",
+          "loc": "Bureau of Population Adminstration",
+          "nameType": "Certificate of Residence"
+        }
+      ],
+      "req_docs": [],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for certificate of residence"
+      ],
+      "responses": [
+        "Welcome to Population Adminstration what you need?",
+        "I have no idea what this is.",
+        "Where you live? The blocks opposite the train yard? Yes I know place. Yes I sign your document. Is okay.",
+        "No.",
+        "Thank.",
+        "No this document accept here."
+      ],
+      "inventory": []
+    },
+    {
+      "name": "social_insurance_bureau",
+      "intro": "You arrive at the Social Insurance Bureau.<br>You wait in line with lots of old people. Behind you is an elderly man in a torn down brown jacket. He is missing an arm.<br>'Must be a veteran', you think to yourself. 'They must be getting a pretty good pension', at least that's what you've heard.<br><br>You enter the area with the service desks; the ceiling is a yellowish white with dark stains on the edges.<br>The smell of cigarette smoke lingers in the room. You sit at one of the desks, across a grey haired woman.",
+      "gives_docs": [
+        {
+          "name": "declaration_of_insurance_statement",
+          "loc": "Social Insurance Bureau",
+          "nameType": "Declaration of Insurance Statement"
+        }
+      ],
+      "req_docs": [],
+      "valid_inputs": [
+        "wait in queue",
+        "exit",
+        "ask for declaration of insurance statement"
+      ],
+      "responses": [
+        "Welcome to Social Insurance what you need?",
+        "I have no idea what this is.",
+        "*takes cigarette out of mouth* You want insurance statement? Here, take. Now leave. Next!",
+        "*continues smoking*",
+        "Yea fine.",
+        "*continues smoking*"
+      ],
+      "inventory": []
+    }
+  ],
+  "docsCommands": [
+    "give workplace operation permit",
+    "give workplace occupancy licence",
+    "give registration of workplace address",
+    "give occupational health and safety certificate",
+    "give registration to the chamber of commerce",
+    "give tax registration certificate",
+    "give proof of occupational proficiency",
+    "give declaration of criminal records",
+    "give certificate of residence",
+    "give declaration of insurance statement"
+  ],
+  "docs": [
+    "workplace_operation_permit",
+    "workplace_occupancy_licence",
+    "registration_of_workplace_address",
+    "occupational_health_and_safety_certificate",
+    "registration_to_the_chamber_of_commerce",
+    "tax_registration_certificate",
+    "proof_of_occupational_proficiency",
+    "declaration_of_criminal_records",
+    "certificate_of_residence",
+    "declaration_of_insurance_statement"
+  ],
+  "miscResponses": [
+    "I do not understand what you mean.",
+    "Please speak more clearly.",
+    "If you don't have business here, please leave.",
+    "We cannot do that.",
+    "Don't know what you mean."
+  ]
+}
