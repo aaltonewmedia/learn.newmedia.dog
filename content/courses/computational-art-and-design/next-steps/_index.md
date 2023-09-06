@@ -1,12 +1,8 @@
 ---
 title: "Next Steps"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
 weight: 899
----
-
-# Next Steps
-
 ---
 
 ## Courses in Aalto
