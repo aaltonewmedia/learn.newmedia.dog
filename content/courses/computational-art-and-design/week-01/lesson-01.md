@@ -10,6 +10,12 @@ draft: false
 
 ---
 
+{{<hint info>}}
+September 7, 2023  
+9:15–12:00  
+Room G203
+{{</hint>}}
+
 Welcome 👋 to the first steps in your creative coding journey!
 
 ## Inspiration

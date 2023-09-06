@@ -10,6 +10,13 @@ draft: false
 
 ---
 
+{{<hint info>}}
+September 8, 2023  
+9:15–12:00  
+Room G203
+{{</hint>}}
+
+
 ## Inspiration
 
 {{<vimeo 88190418>}}
