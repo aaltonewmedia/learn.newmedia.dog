@@ -50,6 +50,12 @@ This track of the course is aimed for beginners. The course also has another tra
 - [p5js Reference](https://p5js.org/reference/)
 - [The Coding Train by Daniel Shiffman.](https://thecodingtrain.com/) The classes in the beginning of the course are structured in a very similar way to the [Code! Programming with p5.js track on Coding Train](https://thecodingtrain.com/tracks/code-programming-with-p5-js) if you missed something during the class or just need to recap some of the topics, check out the excellent videos from Dan.
 
+## Book
+
+There is a great book that covers the topic. "An essential guide for teaching and learning computational art and design: exercises, assignments, interviews, and more than 170 illustrations of creative work."
+
+[Levin, Golan, and Tega Brain. 2021. A Handbook for Computational Art and Design. London, England: MIT Press.](https://mitpress.mit.edu/9780262542043/code-as-creative-medium/)
+
 ## Tools
 
 ### p5.js

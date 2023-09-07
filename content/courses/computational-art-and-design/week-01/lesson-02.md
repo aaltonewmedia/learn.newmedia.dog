@@ -40,22 +40,22 @@ A key thing to understand today is the difference between the two functions that
 - ```setup()``` runs only once when you start the program. Code that needs to run only once in the beginning of the program should go into ```setup()```. Like setting up the size of the canvas with ```createCanvas()```.
 - ```draw()``` starts running in an endless loop after the setup part. Most of your code will generally go inside the ```draw()```. By default, it tries to run 60 times per second.
 
-### Console, print()
+### Console, console.log(), print()
 
-As we start slowly creating interactive and dynamically changing content, it's going to be very useful to be able to display messages as text and numbers. We can do that with the ```print()```function. Try adding the following line inside the ```setup()``` part of your code.
+As we start slowly creating interactive and dynamically changing content, it's going to be very useful to be able to display messages as text and numbers. We can do that with the ```console.log()```function. Try adding the following line inside the ```setup()``` part of your code.
 
 ```js
-print("Hello World!");
+console.log("Hello World!");
 ```
 
-{{<hint info>}}
-You might often see ```console.log()``` instead of ```print()```.  
-Both of them do the same thing so you can use either one.
+{{<hint danger>}}
+You might sometimes see ```print()``` instead of ```console.log()```.  
+Both of them do the same thing so you can use either one, but be careful with `print()` if you use it without any arguments, it will try to print the webpage using an actual printer and you might end up in getting stuck with the site trying to print infinite copies of the site. I would recommend using ````console.log()```
 {{</hint>}}
 
 ### Simple interactions with the mouse
 
-In your homework, you were trying to draw something with code. Probably one of the most difficult aspects of it was just figuring out what x and y values a certain specific spot on the screen has. We can use the ```print()``` function to display the mouse coordinates on the console.
+In your homework, you were trying to draw something with code. Probably one of the most difficult aspects of it was just figuring out what x and y values a certain specific spot on the screen has. We can use the ```console.log()``` function to display the mouse coordinates on the console.
 
 <iframe src="https://editor.p5js.org/mnstri/sketches/aHKx82Wj6" width="600" height="600"></iframe>
 
