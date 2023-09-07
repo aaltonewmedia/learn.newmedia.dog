@@ -42,7 +42,7 @@ A key thing to understand today is the difference between the two functions that
 
 ### Console, console.log(), print()
 
-As we start slowly creating interactive and dynamically changing content, it's going to be very useful to be able to display messages as text and numbers. We can do that with the ```console.log()```function. Try adding the following line inside the ```setup()``` part of your code.
+As we start slowly creating interactive and dynamically changing content, it's going to be very useful to be able to display messages as text and numbers. We can do that with the ```console.log()``` function. Try adding the following line inside the ```setup()``` part of your code.
 
 ```js
 console.log("Hello World!");
@@ -50,7 +50,7 @@ console.log("Hello World!");
 
 {{<hint danger>}}
 You might sometimes see ```print()``` instead of ```console.log()```.  
-Both of them do the same thing so you can use either one, but be careful with `print()` if you use it without any arguments, it will try to print the webpage using an actual printer and you might end up in getting stuck with the site trying to print infinite copies of the site. I would recommend using ````console.log()```
+Both of them do the same thing so you can use either one, but be careful with `print()` if you use it without any arguments, it will try to print the webpage using an actual printer and you might end up getting stuck with the site trying to print infinite copies of the page. I would recommend using ```console.log()```.
 {{</hint>}}
 
 ### Simple interactions with the mouse
