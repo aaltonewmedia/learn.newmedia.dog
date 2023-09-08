@@ -16,7 +16,6 @@ September 8, 2023
 Room G203
 {{</hint>}}
 
-
 ## Inspiration
 
 {{<vimeo 88190418>}}
@@ -52,6 +51,14 @@ console.log("Hello World!");
 You might sometimes see ```print()``` instead of ```console.log()```.  
 Both of them do the same thing so you can use either one, but be careful with `print()` if you use it without any arguments, it will try to print the webpage using an actual printer and you might end up getting stuck with the site trying to print infinite copies of the page. I would recommend using ```console.log()```.
 {{</hint>}}
+
+### Drawing text on the canvas
+
+You can also draw text on the screen using the [`text()`](https://p5js.org/reference/#/p5/text) function.
+
+```js
+text("Hello World!", 50, 50);
+```
 
 ### Simple interactions with the mouse
 
@@ -189,7 +196,22 @@ We are going to spend a lot of time talking about variables as we go further. We
 
 To end the week, let's explore something that is more fun than learning about variables. Randomness.
 
-### Example: 
+You can use the [`random()`](https://p5js.org/reference/#/p5/random) function to get a random value every time this function is called.
+
+```js
+// you can use two values as parameters to define the minimum and maximum values
+random(100,200); // this would give you a vlaue betweeen 100 and 200
+
+// if you just use one value, it will be a value between 0 and the one you wrote.
+random(width); // this would give you a value between 0 and the width of the canvas
+```
+
+{{<hint info>}}
+Random values are... well, random...  
+Sometimes you want something that is still unpredictable but smoother. In those cases you can use [`noise()`](https://p5js.org/reference/#/p5/noise). Using `noise()` is a bit more complicated so this is more of an advanced topic, but good to know of its existence already.
+
+[I have made a tutorial about noise that you can find here.]({{< ref "tutorials/p5-js/noise" >}}  )
+{{</hint>}}
 
 ### Example: Random Lines
 
