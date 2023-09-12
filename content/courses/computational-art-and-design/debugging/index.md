@@ -2,7 +2,7 @@
 title: "Debugging"
 bookCollapseSection: false
 p5js-widget: true
-draft: true
+draft: false
 weight: 200
 ---
 
@@ -13,6 +13,8 @@ weight: 200
 Sooner or later, you will get stuck, annoyed, frustrated, confused, or some other form of negative emotions when your code just does not work and you don't know why. **This is normal.** You can choose to handle these situations calmly and focus on trying to solve the issues. There are several ways to approach this. Here are some recommendations
 
 ## Read the error messages
+
+The p5.js error messages are gwenerally very helpful. Try to understand what the message says and use the reference to unpack what you might be doing wrong.
 
 ## Google (or your favorite search engine)
 
@@ -51,21 +53,6 @@ One of the top perks of choosing this beginner group is that you will get your o
 ### DuckGPT
 
 In cases when your duck is not around you, there is an online variety of the duck, [DuckGPT](https://duckgpt.dev/). It is very realistic!
-
-### Sensei Duck
-
-Normally, the power of the duck is its silent stare, but we also have a slightly more talkative duck available in the classroom. Sensei Duck.
-
-You can talk to it and it will try to answer your questions:
-
-1. Just say ```Sensei Duck``` and wait for confirmation that they have heard you.
-2. Ask your question clearly and loudly.
-3. End you question with the words, ```The End```.
-4. Wait for an answer.
-
-{{<hint danger>}}
-Note that Sensei Duck is a known liar and will make stuff up occasionally.
-{{</hint>}}
 
 ## Matti and Calvin
 
