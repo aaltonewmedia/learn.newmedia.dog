@@ -7,6 +7,11 @@ draft: false
 
 ## Schedule: Autumn 2023
 
+## Links
+
+- [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=40047)
+- [Sisu 2023](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932525-20220801/completion-methods)
+
 ### Monday | 16/10/2023
 
 - 09.15–10:00 Introduction

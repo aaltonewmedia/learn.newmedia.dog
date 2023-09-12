@@ -232,6 +232,8 @@ let x;
 let y;
 let s;
 
+### Example: Random Circles
+
 function setup() {
   createCanvas(400, 400);
   background(255);
@@ -298,7 +300,7 @@ Go through the course materials for week 1. If you did not understand something 
 
 After reading and watching, consider the following questions:
 - Do you see your interest in new media art aligning with some specific area of this spectrum between First Word Art and Last Word Art? Are you interested more in constantly exploring new and emerging things or are you more interested in finding some medium that you want to master?
-- After exploring the work by artists and designers we covered this week, can you find any specific works that resonate or interest you?
+- After exploring the work by artists and designers we covered this week, can you find any specific works that interest or resonate with you?
 
 **I'm not expecting you to write this down anywhere beyond your own notebook but I would like to hear some of your thoughts next week.**
 
