@@ -14,7 +14,7 @@ Sooner or later, you will get stuck, annoyed, frustrated, confused, or some othe
 
 ## Read the error messages
 
-The p5.js error messages are gwenerally very helpful. Try to understand what the message says and use the reference to unpack what you might be doing wrong.
+The p5.js error messages are generally very helpful. Try to understand what the message says and use the reference to unpack what you might be doing wrong.
 
 ## Google (or your favorite search engine)
 

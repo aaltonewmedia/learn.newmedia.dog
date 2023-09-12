@@ -15,6 +15,10 @@ p5js-widget: false
 
 [Zach Liebermann](http://zach.li/)
 
+## Debugging, solving problems
+
+Sooner or later, you will get stuck, annoyed, frustrated, confused, or some other form of negative emotions when your code just does not work and you don't know why. **This is normal.** You can choose to handle these situations calmly and focus on trying to solve the issues. There are several ways to approach this. [Here are some recommendations](../../debugging/)
+
 ## p5js: mouseIsPressed and keyIsPressed
 
 There are two new system variables built into p5js that we are going to need to use this week:
