@@ -15,7 +15,7 @@ url: "courses/computational-art-and-design/showcase/2022-autumn"
 
 I have combined storytelling, Folk Art and AI in this project using p5.js as a medium. I narrate the story in Gujarati language and according to the flow of the story, it plays an animation of the scenes. I have trained the machine learning model using Teachable Machine and sound classification library.
 
-{{<video src="files/poonam/video.mp4">}}
+{{<video src="files/poonam/video">}}
 
 ## An Dang – EPI Data Visualization
 
@@ -26,7 +26,7 @@ represents countries in the world and their rankings on environmental practices.
 small interactive elements supporting the display of information and the code was done
 in Visual Studio Code with p5js library.
 
-{{<video src="files/an/video.mp4">}}
+{{<video src="files/an/video">}}
 
 ## Oonagh Graham – Visual Theremin
 
@@ -34,7 +34,7 @@ in Visual Studio Code with p5js library.
 
 I came to refer to my project as a ‘Visual Theremin’ as the theremin instrument was both genesis and the continuing idea for my creation. The premise was to create an ‘instrument’ with which one would control digital visuals without touching anything. The physical component was fairly simple. It was comprised of two SparkFun distance sensors attached to a plywood base. The sensors were located on different sides of the plywood so that one sensor faced the ceiling and the other faced the left side of the space. To change the readings of the sensors the audience would use a hand over each sensor, varying the distance between the hand and the sensor. These distance readings would be used to control separate elements of the visual component. To indicate and guide the audiences’ movements, I laser cut semi-circular grooves into the plywood. I hoped to create a similar movement from my audience as that of a musician playing a theremin.
 
-{{<video src="files/oonagh/video.mp4">}}
+{{<video src="files/oonagh/video">}}
 
 ## Julia Konttila – Collecting Game
 
@@ -49,7 +49,7 @@ balls before the time runs out they have won the game. The game can be altered t
 different difficulty levels by changing the time in the timer and/or by changing the
 amount of the collectible balls (num, numm, nummm & nummm).
 
-{{<video src="files/julia/video.mp4">}}
+{{<video src="files/julia/video">}}
 
 ## Tianjun Li – NHCo 1.0, an Interactive Sound Visualization Set for Live Music Performance
 
@@ -63,7 +63,7 @@ This work consists of three parts: A Goat in Blue - interactive background visua
 Jellyfish - holographic projection installation and AI generated, naturally sampled and
 human vocalized music.
 
-{{<video src="files/tianjun/video.mp4">}}
+{{<video src="files/tianjun/video">}}
 
 ## Ilona Pakarinen – Vine Builder
 
@@ -75,7 +75,7 @@ buttons create a short line, at the beginning of which is a flower corresponding
 button. The vines will continue to grow from the last point that has been drawn. When space is
 pressed, the vines will begin to grow from the bottom of the screen again.
 
-{{<video src="files/ilona/video.mp4">}}
+{{<video src="files/ilona/video">}}
 
 ## Vera Rantamaa – Lowdown
 
@@ -107,7 +107,7 @@ change when certain keys were pressed, in this case 1 to 4. The interaction caus
 visuals to tile by four next to each other from one screen to 64. Though the graphics are
 visualised using this specific song, it works well with others too.
 
-{{<video src="files/vera/video.mp4">}}
+{{<video src="files/vera/video">}}
 
 ## Burak Türköz – How I Learned to Stop Worrying and Love the Docs
 
@@ -117,7 +117,7 @@ visualised using this specific song, it works well with others too.
 
 You can try out the game [here](/projects/burak).
 
-{{<video src="files/burak/video.mp4">}}
+{{<video src="files/burak/video">}}
 
 ## Yan Zhang – Villanelle---silent sound
 
@@ -127,4 +127,4 @@ Body language is silent but full of emotion. We are used to dancing to music, bu
 
 This is an interaction installation that can be experienced in real time. After the pedal is triggered, the screen starts to show the moving skeleton (nose, wrists, knees) that controlled by people in the form of notes. These notes will stay on the screen at a frequency of once every two seconds recorded to form a piece of score. After ten seconds, the printer automatically prints out the music score for people to keep.
 
-{{<video src="files/yan/video.mp4">}}
+{{<video src="files/yan/video">}}

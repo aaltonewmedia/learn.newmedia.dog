@@ -23,8 +23,8 @@ Sooner or later, you will get stuck, annoyed, frustrated, confused, or some othe
 
 There are two new system variables built into p5js that we are going to need to use this week:
 
-- mouseIsPressed
-- keyIsPressed
+- [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed)
+- [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed)
 
 ## Conditional Statements
 
@@ -32,7 +32,7 @@ A very large part of your code will depend on being able to set rules on when ce
 
 ## Comparison Operators
 
-When setting up your conditions for ```if``` statements, you need to compare values in different ways. These are the different comparison operators that we are going to need:
+When setting up your conditions for [`if`](https://p5js.org/reference/#/p5/if-else) statements, you need to compare values in different ways. These are the different comparison operators that we are going to need:
 
 - [Equal: ==](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality) (note the **two** equal signs, don’t mix with assigning values!)
 - [Equal (strict equality): ===](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) (note the **three** equal signs, this is a JavaScript specialty that checks if the values AND the data types are equal.)
@@ -53,7 +53,7 @@ Do not mix these with the [arrow function =>](https://www.w3schools.com/js/js_ar
 
 [![if statement flowchart](/images/conditional_statements_if.jpg)](/images/conditional_statements_if.jpg)
 
-A very common structure in programming is the “if this then that” structure. You ask the code ```if``` some expression is ```true```, if it is, then we execute a specific block of code.
+A very common structure in programming is the “if this then that” structure. You ask the code `if` some expression is `true`, if it is, then we execute a specific block of code.
 
 ```
 if (condition) {
@@ -63,11 +63,11 @@ if (condition) {
 
 The code inside the curly brackets is the block of code that runs if the condition evaluates to true. Or in JavaScript, I should say when the condition is [truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy).
 
-For example, you could ask ```if``` the x position of the mouse is less or greater than a certain value, or you could check if a specific key on the keyboard is pressed, or you could connect a light sensor to your code and trigger a sound file to play when the light level goes below a certain level.
+For example, you could ask `if` the x position of the mouse is less or greater than a certain value, or you could check if a specific key on the keyboard is pressed, or you could connect a light sensor to your code and trigger a sound file to play when the light level goes below a certain level.
 
-A simple way to test how if statements work is to use the mouse. Just like ```mouseX``` and ```mouseY```, ```mouseIsPressed``` is a system variable in p5js. It stores the information if the mouse button is pressed or not. The value is a boolean value, so it is either ```true``` or ```false```.
+A simple way to test how if statements work is to use the mouse. Just like `mouseX` and `mouseY`, `mouseIsPressed` is a system variable in p5js. It stores the information if the mouse button is pressed or not. The value is a boolean value, so it is either `true` or `false`.
 
-The code below will simply print out a message in the console if the mouse button is pressed. If you you put this code inside your ```draw()``` function, the message will be printed as long as you hold down the button.
+The code below will simply print out a message in the console if the mouse button is pressed. If you you put this code inside your `draw()` function, the message will be printed as long as you hold down the button.
 
 ```
 if (mouseIsPressed == true) {
@@ -102,7 +102,7 @@ function draw() {
 
 [![if and else statement flowchart](/images/conditional_statements_if-else.jpg)](/images/conditional_statements_if-else.jpg)
 
-In many cases, just using ```if``` is enough, but you will soon run into situations where it is also necessary to have two different states in your program. That is where ```else``` comes in very handy. Use ```else``` to specify a block of code to be executed if the condition in the previous ```if``` is false.
+In many cases, just using `if` is enough, but you will soon run into situations where it is also necessary to have two different states in your program. That is where `else` comes in very handy. Use `else` to specify a block of code to be executed if the condition in the previous `if` is false.
 
 For example, do two different things depending on if the mouse button is pressed or not.
 
@@ -145,7 +145,7 @@ function draw() {
 This example continues on the previous one with the following additions:
 
 - The size of the brush changes depending on which side of the canvas we draw on
-- We use ```keyIsPressed``` to clear the drawing. You can press any key.
+- We use `keyIsPressed` to clear the drawing. You can press any key.
 - We add some randomness to the color of the brush to make it a bit more interesting.
 
 ```
@@ -185,7 +185,7 @@ function draw() {
 
 ## if/else if/else
 
-If you need to have three or more options, you can use the ```else if```.
+If you need to have three or more options, you can use the `else if`.
 
 [![if, else if, and else statement flowchart](/images/conditional_statements_if-else_if-else.jpg)](/images/conditional_statements_if-else_if-else.jpg)
 
@@ -199,7 +199,7 @@ if (mouseX < width/4) {
 }
 ```
 
-This structure can get a litlle bit confusing. Especially, when you are just starting to work with code. I would recommend using separate if statements for now instead of the ```else if```. 
+This structure can get a litlle bit confusing. Especially, when you are just starting to work with code. I would recommend using separate if statements for now instead of the `else if`. 
 
 ### Example
 
@@ -208,7 +208,7 @@ Coming soon....
 
 ## map()
 
-Another very useful function that we are going to need all the time is the [```map()```](https://p5js.org/reference/#/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
+Another very useful function that we are going to need all the time is the [`map()`](https://p5js.org/reference/#/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
 
 
 {{< p5js width="400" height="400">}}

@@ -323,7 +323,7 @@ class Raindrop{
 
 Then we should try to come up with a visual representation of a raindrop that we can draw in p5.js. I will go for a sort of comic book look for the rain: a stretched out rectangle. I used Midjourney to try to create an example of this look.
 
-![Comic book rain](../img/rain.png)
+![Comic book rain](img/rain.png)
 
 We need a ```draw()``` method for our class. The code inside the constructor randomizes the size and the position for the raindrop when it is created.
 

@@ -103,9 +103,9 @@ This is how it works:
 ### Example
 
 This example checks what key is pressed and does different things based on the input.
-- Keys ```1``` to ```5``` change the color
-- Keys ```u``` and ```d``` change the size of the brush
-- Pressing ```space``` will clear the drawing
+- Keys `1` to `5` change the color
+- Keys `u` and `d` change the size of the brush
+- Pressing `space` will clear the drawing
 
 <iframe src="https://openprocessing.org/sketch/1382646/embed/?plusEmbedHash=YmEyOWVlNjVjMzQ0NWM2MjgzMzgzMjQ5NzVjMjI0YmZjODY3OGJkYTA3NWQxNzZmNWZhMjhiOWYwMzM5YzA2ZjY3Y2RmZjU4ZGFjZDMwYTY3NDc2NjEyNDVmYzc0ZTNiY2I2NDk5ODAwMTllNzg5YWQzYTdjMjcwNzE3NWJmMmZlRGFJUkJROEs4N3lYWVVpdTlSTFFNVVZhV3U3NmdCaDB6ajdGOWN1bnI4R0VWeDZnQTJGaE85YUVnZVRDRkxYbVhnSWxyN2lEMVVpa0hPYkZpalFmUT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
 
@@ -123,6 +123,14 @@ Using mouseIsPressed and keyIsPressed inside the draw() means that the program l
 ---
 
 ## Homework
+
+### Recap
+
+- [map()](https://p5js.org/reference/#/p5/map)
+- [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed)
+- [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed)
+
+### Assignments
 
 Add your version of the bouncing ball sketch to our [Open Processing class](https://openprocessing.org/class/86575). It can just be pretty much the same we did in class, but maybe try adding some of your own flavor to it.
 
