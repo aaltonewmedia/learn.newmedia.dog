@@ -36,7 +36,7 @@ Your task during this course is to create a device that meets the following crit
 
 At the end of the workshop you should submit the following:
 
-- At least one image from each day of the workshop of your process and the final device
+- At least one image of the final device. Ideally also some more pictures of the process.
 - At least one video of your device in action that explains what it does (either a file or link to some video sharing service like YouTube or Vimeo).
 - A pdf file where you document and reflect on your process throughout the workshop. How did you end up to your final version that you presented? Was there something you struggled with? What did you learn?
 

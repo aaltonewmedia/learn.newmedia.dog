@@ -9,8 +9,14 @@ weight: 899
 
 ### Arduino
 
-- AXM-E7004 Physical Computing
+- [AXM-E7004 Physical Computing](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932207-20220801/brochure)
 - Digital Fabrication Courses
+
+### JavaScript (+ other web development courses)
+
+- [AXM-E7005 Internet Technologies and Web Development](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932211-20220801/brochure)
+- [Full Stack Open](https://fullstackopen.com/en/) MOOC from University of Helsinki. You can complete the credits through open university and then get them transferred to Aalto.
+- [FITech online courses from Aalto](https://fitech101.aalto.fi/)
 
 ### openFrameworks
 
@@ -18,6 +24,7 @@ weight: 899
 
 ### TouchDesigner (or any language)
 
+- [Workshop period 1, Audiovisual Studio](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932525-20220801/completion-methods)
 - AXM-E7008 Embodied Interaction
 - AXM-E0301 Art + Media Studio
 

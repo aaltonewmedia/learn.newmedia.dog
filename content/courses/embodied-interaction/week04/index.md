@@ -9,7 +9,6 @@ draft: false
 
 ---
 
-
 {{<hint info>}}
 **Monday, January 30, 2023**
 

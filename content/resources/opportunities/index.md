@@ -10,6 +10,13 @@ draft: false
 
 ## Grants and Scholarships
 
+## Tools for Finding Grant and Scholarship Opportunities
+
+- https://www.tinfo.fi/fi/Apurahavahti
+- https://research.fi/en/results/funding-calls?status=open
+- https://fyrk.fi/ in Swedish
+- https://www.artists.fi/fi/ajankohtaista/ilmoitustaulu
+
 ### Aalto Digital Creatives (Open Call)
 
 https://digitalcreatives.aalto.fi/
@@ -72,9 +79,15 @@ https://kordelin.fi/en/frontpage
 
 ### Ars Electronica
 
+https://ars.electronica.art/news/en/
+
 ### Think Ink
 
-### 
+https://www.mediaalantutkimussaatio.fi/thinkink/
+
+### Japan Media Arts
+
+https://j-mediaarts.jp/en/
 
 ### Grand One
 
@@ -82,6 +95,18 @@ https://kordelin.fi/en/frontpage
 ---
 
 ## Residencies
+
+### Mustarinda
+
+https://mustarinda.fi/
+
+### European Media Art Platform
+
+https://call.emare.eu/
+
+### Vasulka Kitchen
+
+https://www.vasulkakitchen.org/en
 
 --- 
 

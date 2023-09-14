@@ -3,8 +3,8 @@ title: The Unofficial Study Guide for New Media
 description: "When Into and SISU just make you confused."
 weight: 100
 draft: true
-bookFlatSection: false
-bookCollapseSection: true
+bookFlatSection: true
+bookCollapseSection: false
 bookFlatSection: true
 ---
 

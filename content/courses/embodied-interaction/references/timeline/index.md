@@ -19,6 +19,10 @@ It is important to note that this is very incomplete and gets updated on a very 
 
 ### Erkki Kurenniemi: DIMI-O
 
+## 1979 
+
+### Put That There
+
 ## 2001
 
 
@@ -28,3 +32,15 @@ It is important to note that this is very incomplete and gets updated on a very 
 ### The Original Kinect Was Released
 
 ### 
+
+## 2019
+
+### Mediapipe was released to the public
+
+Google released their MediaPipe tools to the public. The ML models 
+
+## 2021
+
+### Metahuman Creator released
+
+[Unreal Engine release the MetaHuman Creator](https://www.unrealengine.com/en-US/metahuman).
