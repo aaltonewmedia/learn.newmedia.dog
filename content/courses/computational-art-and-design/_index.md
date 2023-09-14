@@ -16,6 +16,9 @@ draft: false
 - [W3 Schools JavaScript Tutorials](https://www.w3schools.com/js/default.asp)
 - [Critical Coding Cookbook](https://criticalcode.recipes/)
 - [Programming Design Systems - Online Book](https://programmingdesignsystems.com/introduction/)
+- [The Art of Computer Designing](https://archive.org/details/satoArtOfComputerDesigning)
+- [Code as Creative Medium](https://mitpress.mit.edu/9780262542043/code-as-creative-medium/)
+  - [Available through Aalto](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526)
 
 ## Content
 

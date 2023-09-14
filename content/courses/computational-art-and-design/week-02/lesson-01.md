@@ -13,7 +13,8 @@ p5js-widget: false
 
 {{<vimeo 232656895>}}
 
-[Zach Liebermann](http://zach.li/)
+- [Zach Liebermann](http://zach.li/)
+- [The Art of Computer Designing](https://archive.org/details/satoArtOfComputerDesigning)
 
 ## Debugging, solving problems
 
