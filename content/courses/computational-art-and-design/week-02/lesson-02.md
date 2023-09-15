@@ -11,9 +11,11 @@ p5js-widget: false
 
 ## Inspiration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5eMSPtm6u5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{<youtube 5eMSPtm6u5Y>}}
 
 <iframe src="https://archive.org/embed/experimentsinmotiongraphics" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+{{<youtube cP5Mj6ZvZJc>}}
 
 [John Whitney](https://en.wikipedia.org/wiki/John_Whitney_(animator))
 
@@ -331,7 +333,8 @@ Using mouseIsPressed and keyIsPressed inside the draw() means that the program l
 
 ### Research
 
-
+- [Explore the works by Zach Liebermann.](http://zach.li/)
+- [Learn more about John Whitney](https://www.youtube.com/watch?v=cP5Mj6ZvZJc)
 
 ### Recap
 
@@ -341,7 +344,9 @@ Using mouseIsPressed and keyIsPressed inside the draw() means that the program l
 - [Comparison and Logical operators](https://www.w3schools.com/js/js_comparisons.asp)
 - [switch](https://www.w3schools.com/js/js_switch.asp)
 
-### Assignments
+Go through the course materials for week 2. If you did not understand something we did, go through the examples and tutorials again. Rewrite the code, read through the explanations, try changing things and see what happens.
+
+### Assignment
 
 Add your version of the bouncing ball sketch to our [Open Processing class](https://openprocessing.org/class/86575). It can just be pretty much the same we did in class, but maybe try adding some of your own flavor to it.
 
