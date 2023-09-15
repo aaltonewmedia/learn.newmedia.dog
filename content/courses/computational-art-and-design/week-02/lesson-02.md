@@ -17,18 +17,223 @@ p5js-widget: false
 
 [John Whitney](https://en.wikipedia.org/wiki/John_Whitney_(animator))
 
-## Incrementation operators
+---
+
+## Bouncing Ball
+
+Today, we finally get to the **dumb fish** phase, where we learn how to animate shapes using code with some level of behavior. Let's create the classic DVD logo animation that entertained me and my peers during many of the lectures during my time at the University of Lapland.
+
+{{<youtube QOtuX0jL85Y>}}
+
+### Incrementation operators
 
 - [Addition +](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition)
 - [Substratction -](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction)
 
-## Logical operators && and ||
+We can use the incrementation operators to manipulate variables over time. For example, here we have a variable `x` that increases by one pixel every frame.
+
+```js
+let x = 0;
+x = x + 1;
+```
+
+...or you can move left by subtracting
+
+```js
+let x = 0;
+x = x - 1;
+```
+
+{{<hint info>}}
+You might also see the following ways to write these:
+
+```js
+x++; // this is the same as x = x + 1;
+x--; // this is the same as x = x - 1;
+
+x += 5; // this is the same as x = x + 5;
+x -= 5; // this is the same as x = x - 5;
+```
+
+You will evantually start using these shorter versions, but I will use the long form in the beginning of the course.
+{{</hint>}}
+
+In the example below, the circle starts moving to the right but there is nothing stopping it from going beyond the edges of the canvas.
+
+{{< p5js width="400" height="400">}}
+let x;
+let y;
+
+function setup() {
+  createCanvas(300, 300);
+  //start from the middle of the screen
+  x = width/2;
+  y = height/2;
+}
+
+function draw() {
+  background(130,80,130);
+
+  x = x + 1;
+  circle(x,y,50);
+}
+{{</ p5js >}}
+
+We can add an `if` to check for the boundaries and change the direction. In order to do this in a more efficient way, let's also make the amount we increment a variable (the speed of the movement).
+
+{{< p5js width="400" height="400">}}
+let x;
+let y;
+let xSpeed = 1;
+
+function setup() {
+  createCanvas(300, 300);
+  //start from the middle of the screen
+  x = width/2;
+  y = height/2;
+}
+
+function draw() {
+  background(130,80,130);
+
+  x = x + xSpeed;
+  
+  // check if we hit the wall on the right
+  if(x > width){
+    // multiply by -1 to change the direction
+    xSpeed = xSpeed * -1;
+  }
+
+  // check if we hit the wall on the left
+  if(x < 0){
+    // multiply by -1 to change the direction
+    xSpeed = xSpeed * -1;
+  }
+
+  circle(x,y,50);
+}
+{{</ p5js >}}
+
+#### Example | Bouncing Ball
+
+The following code adds the following features that we go through in more detail in class:
+
+- animation for the y axis
+- fix the issue where the shape goes through the screen by taking into account the size of the circle
+- randomize the starting speed so that we get more interesting animations
+
+{{< p5js width="400" height="400">}}
+let x;
+let y;
+let xSpeed;
+let ySpeed;
+let s = 50; // size of the circle
+
+function setup() {
+  createCanvas(300, 300);
+  //start from the middle of the screen
+  x = width/2;
+  y = height/2;
+  xSpeed = random(2,5);
+  ySpeed = random(2,5);
+}
+
+function draw() {
+  background(130,80,130);
+
+  x = x + xSpeed;
+  y = y + ySpeed;
+  
+  // check if we hit the wall on the right
+  if(x > width - s/2){
+    // multiply by -1 to change the direction
+    xSpeed = xSpeed * -1;
+  }
+
+  // check if we hit the wall on the left
+  if(x < s/2){
+    // multiply by -1 to change the direction
+    xSpeed = xSpeed * -1;
+  }
+
+  // check if we hit the wall on the bottom
+  if(y > height - s/2){
+    // multiply by -1 to change the direction
+    ySpeed = ySpeed * -1;
+  }
+
+  // check if we hit the wall on the top
+  if(y < s/2){
+    // multiply by -1 to change the direction
+    ySpeed = ySpeed * -1;
+  }
+
+  circle(x,y,50);
+}
+{{</ p5js >}}
+
+
+### Logical operators && and ||
 
 - [AND &&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 - [OR ||](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR)
 - [JavaScript Comparison and Logical Operators](https://www.w3schools.com/js/js_comparisons.asp)
 
-### Example #03 | Bouncing Ball
+It is possible to combine multiple conditions inside one if statement using the logical operators `OR` and `AND`. 
+
+#### &&
+
+```js
+// AND is written with && in JavaScript
+// && checks if both of the conditions are true
+
+// check if the mouse is on the right side of the screen AND mouse is pressed
+if(mouseX > width/2 && mouseIsPressed == true){
+  console.log("clicked on the right side");
+}
+```
+
+{{< p5js width="400" height="400">}}
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(130,80,130);
+  if(mouseX > width/2 && mouseIsPressed == true){
+    text("clicked on the right side",20,100)
+  }
+}
+{{</ p5js >}}
+
+#### ||
+
+```js
+// OR is written with || in JavaScript
+// || checks if both of the conditions are true
+
+// check if either mouse or key is pressed
+if(mouseIsPressed == true || keyIsPressed == true){
+  console.log("something was pressed");
+}
+```
+
+{{< p5js width="400" height="400">}}
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(130,80,130);
+  if(mouseX > width/2 && mouseIsPressed == true){
+    text("clicked on the right side",20,100)
+  }
+}
+{{</ p5js >}}
+
+#### Example | Bouncing Ball with logical operators
+
+This version of our code uses the logical operators to combine multiple conditions inside one if statement. It works exactly the same as the one we made earlier but is just a bit more condensed.
 
 <iframe src="https://openprocessing.org/sketch/1380977/embed/?plusEmbedHash=YWUyZDcwODRmNjk2NmQwYzJiYTBlY2VhZmI3YTM3MGIxYWY5NWQ3YTk3YjMwYjk4NjY4YzA5OGMyOTBmMWUxYWI5MTY2ZjgwNTUwNmZiNmU4ZmM0MjYzNTM0ZjIwMDNiMTA0MGZjM2U4NTBjZGU0MTg0NzQ1ZWZhYzY4NTllNGNTd2E1dk56NTA5V05aVXNJSHZoQ1pHNGE5ZWJldmdLcnJTNVhNYktpNGhHbCtMK0R3M1llc2owdTZIci9qb1ZkdXc2bTFUOHpzd3ZEVVZzZTdZN2hzUT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
@@ -124,11 +329,17 @@ Using mouseIsPressed and keyIsPressed inside the draw() means that the program l
 
 ## Homework
 
+### Research
+
+
+
 ### Recap
 
-- [map()](https://p5js.org/reference/#/p5/map)
 - [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed)
 - [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed)
+- [if](https://www.w3schools.com/js/js_if_else.asp)
+- [Comparison and Logical operators](https://www.w3schools.com/js/js_comparisons.asp)
+- [switch](https://www.w3schools.com/js/js_switch.asp)
 
 ### Assignments
 

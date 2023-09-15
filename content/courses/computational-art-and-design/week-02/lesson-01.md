@@ -48,6 +48,10 @@ When setting up your conditions for [`if`](https://p5js.org/reference/#/p5/if-el
 Do not mix these with the [arrow function =>](https://www.w3schools.com/js/js_arrow_function.asp) which does something very different. We are nowhere near the stage where we would actually need to use or even understand the arrow function. For now, just don't mix it up with the comparison operators above.
 {{</hint>}}
 
+{{<hint warning>}}
+In general, it is recommended to use the strict equality `===` and strict unequality `!==` operators in JavaScript. **However, in this class I'm going to generally use the loose versions `==` and `!=`** This is because that is how they are **written** in other programming languages that we will be using throughout your studies, although many of these other languages actually **behave** more like the strict version. Confusing? Yes, a little bit. Just keep this in mind and be aware that you might sometimes run into strange or unexpected issues depending on which version you use.
+{{</hint>}}
+
 ---
 
 ## if
@@ -205,26 +209,6 @@ This structure can get a litlle bit confusing. Especially, when you are just sta
 ### Example
 
 Coming soon....
-
-
-## map()
-
-Another very useful function that we are going to need all the time is the [`map()`](https://p5js.org/reference/#/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
-
-
-{{< p5js width="400" height="400">}}
-let brightness = 0;
-
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  brightness = map(mouseX,0,width,0,255);
-  background(brightness);
-  text(mouseX,mouseX,mouseY);
-}
-{{</ p5js >}}
 
 ---
 

@@ -15,6 +15,85 @@ p5js-widget: true
 
 [Rafael Lozano-Hemmer](https://www.lozano-hemmer.com/)
 
+---
+
+## Mapping values
+
+Our main topic today is loops but let's take a quick look at two very useful functions in p5.js that will help us create interesting interactions.
+
+- [`map()`](https://p5js.org/reference/#/p5/map)
+- [`constrain()`](https://p5js.org/reference/#/p5/constrain)
+
+### map()
+
+Another very useful function that we are going to need all the time is the [`map()`](https://p5js.org/reference/#/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
+
+
+{{< p5js width="400" height="400">}}
+let brightness = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  brightness = map(mouseX,0,width,0,255);
+  background(brightness);
+  text(mouseX,mouseX,mouseY);
+}
+{{</ p5js >}}
+
+### constrain()
+
+Usually, it is not enough to just **map** the values, you might also need to **constrain** them. Let's use the previous example and modify the values a little bit.
+
+{{< p5js width="400" height="400">}}
+let brightness = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  brightness = map(mouseX,100,200,0,255);
+  background(brightness);
+  fill(255,0,0);
+  text(mouseX,mouseX,mouseY);
+  text("brightness: " + brightness,20,100);
+}
+{{</ p5js >}}
+
+Note that the `map()` now uses the mouse input only from 100 to 200 pixels and converts that range to 0 to 255. However, `map()` does not clamp or constrain the values to the desired output (0-255). The brightness is able to become negative or go over 255. You can use [`constrain()`](https://p5js.org/reference/#/p5/constrain) to clamp the values to whatever range you want to.
+
+```js
+brightness = map(mouseX,100,200,0,255);
+constrain(brightness,0,255);
+```
+
+{{< p5js width="400" height="400">}}
+let brightness = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  brightness = map(mouseX,100,200,0,255);
+  constrain(brightness,0,255);
+
+  background(brightness);
+  fill(255,0,0);
+  text(mouseX,mouseX,mouseY);
+  text("brightness: " + brightness,20,100);
+}
+{{</ p5js >}}
+
+{{<hint info>}}
+p5.js doesn't generally completely break down if you use values outside the expected range but sometimes you need this extra level of control. **If you continue to Physical Computing where we use Arduino, using constrain will become very important.**
+{{</hint>}} 
+
+---
+
 ## Loops
 
 We are going to learn about two different ways to create loops AKA repeat something AKA iterate. Those two options are [while](https://www.w3schools.com/js/js_loop_while.asp) and [for](https://www.w3schools.com/js/js_loop_for.asp). A simple rule of thumb for choosing which one to use
