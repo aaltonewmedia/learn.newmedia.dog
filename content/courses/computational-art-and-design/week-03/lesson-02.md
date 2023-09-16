@@ -25,7 +25,7 @@ let arr = new Array();
 let arr = [];
 ```
 
-Ususally, you will use the second option and you can already add elements to the array.
+Usually, you will use the second option and you can already add elements to the array.
 
 ```js
 let cities = ["Helsinki", "Espoo", "Vantaa"];
@@ -81,7 +81,7 @@ console.log(cities); // now ["Helsinki", "Espoo", "Vantaa", "Inari"]
 
 ### Length of the array (length)
 
-You can get the total length of the array using ```length````
+You can get the total length of the array using `length`
 
 ```js
 let cities = ["Helsinki", "Espoo", "Vantaa"];

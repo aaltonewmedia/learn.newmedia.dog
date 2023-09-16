@@ -21,6 +21,7 @@ draft: false
   - [Available through Aalto](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526)
 - [Generative Gestaltung](http://www.generative-gestaltung.de/2/)
 - [Nature of Code](https://natureofcode.com/)
+- [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 
 ## Content
 

@@ -44,7 +44,7 @@ weight: 899
 ### Pure Data
 
 - AXM-E6003 Composing with New Musical Instruments (Sound in New Media)
-- AXM-E6004 Deep Learning with Audio (Sound in New Media)
+- AXM-E6004 Deep Learning of Audio (Sound in New Media) (also uses Python)
 - AXM-E6009 Procedural Audio (Sound in New Media)
 
 ### Python
