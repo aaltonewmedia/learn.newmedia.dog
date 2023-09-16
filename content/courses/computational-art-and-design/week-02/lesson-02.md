@@ -227,8 +227,8 @@ function setup() {
 
 function draw() {
   background(130,80,130);
-  if(mouseX > width/2 && mouseIsPressed == true){
-    text("clicked on the right side",20,100)
+  if(mouseIsPressed == true || keyIsPressed == true){
+    text("something was pressed",20,100)
   }
 }
 {{</ p5js >}}

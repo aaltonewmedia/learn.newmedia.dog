@@ -36,6 +36,10 @@ weight: 899
 - AXM-E5005 Software Studies for Game Designers (Game Design and Development)
 - AXM-E0403 Coding Virtual Worlds
 
+### Unreal Engine
+
+- ELO-E5521 Reaaliaikainen virtuaalilavastus (Finnish)
+
 ### Pure Data
 
 - AXM-E6003 Composing with New Musical Instruments (Sound in New Media)

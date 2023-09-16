@@ -19,13 +19,20 @@ p5js-widget: true
 
 ## Inspiration
 
-- [Juhani Halkomäki Instagram](https://www.instagram.com/juhani.halkomaki/?hl=en)
-- [Juhani Halkomäki fxHash](https://www.fxhash.xyz/u/Juhani%20Halkom%C3%A4ki)
-- [Juhani Halkomäki Open Processing](https://openprocessing.org/user/208584/?view=sketches)
-- [Juhani Halkomäki objkt.com](https://objkt.com/profile/tz2LQg9NqXfgyMVrihTwzzXfUVdZTnmxpYts/created)
+...
 
 ---
 
+Before we go to today's topic. Make sure that you are able to access your [users.aalto.fi](https://users.aalto.fi/) folder. This is a simple, traditional WWW-service, a tool for one specific job, serving static content. This means that you can upload files to your user folder and it will then be accessible online from https://users.aalto.fi/yourusername. For example, Matti's user site is here: https://users.aalto.fi/~niinimm1/
+
+- [You will need to use the Aalto VPN.](https://www.aalto.fi/en/services/establishing-a-remote-connection-vpn-to-an-aalto-network) Make sure you get it to work before going to the next step.
+- [Instructions for setting up your site are here](https://www.aalto.fi/en/services/usersaaltofi)
+
+We will use this feature today to better understand how your p5.js sketch is connected to the .html file and how you can manipulate html elements using JavaScript.
+
+This also demonstrates a simple way for you to share your sketches without using OpenProcessing or the p5.js editor.
+
+---
 ## JavaScript DOM  (Document Object Model)
 
 - [See the W3 tutorials here.](https://www.w3schools.com/js/js_htmldom.asp)
@@ -90,14 +97,3 @@ function changeBG() {
 Create a sketch that uses sliders, buttons and other DOM elements to control colors and other variables in your sketch. Place the elements on top of the canvas and use `createCanvas(windowWidth, windowHeight);` so that it works well inside Open Processing.
 
 [Post it to our Open Processing class.](https://openprocessing.org/class/)
-
-## Classes
-
-Let's also practice using classes and obejcts. Create a sketch that does the following:
-
-- Create a class called Bouncer
-- Make it behave like our earlier bouncing ball example
-- Create 100 bouncers bouncing on the canvas
-- [Post it to our Open Processing class](https://openprocessing.org/class/86575) in the Object/Classes collection.
-
-**Or if you want more challenge, make a particle that uses noise() for animating it.**
