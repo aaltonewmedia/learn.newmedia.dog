@@ -18,8 +18,8 @@ We have 84h of contact teaching in this course:
 
 80% of this amounts to 16.8h. This means that you can be absent for:
 
-- 5 days out of the 24 of the Thursday and Friday sessions
-- 1 day out of the 6 of the Monday lectures
+- 5 days out of the 24 Thursday and Friday sessions
+- 1 day out of the 6 Monday lectures
 
 I would not recommend you to use this too often since you will very easily fall behind with what we are doing if you miss more than this.
 

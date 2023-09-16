@@ -67,7 +67,7 @@ Note that the `map()` now uses the mouse input only from 100 to 200 pixels and c
 
 ```js
 brightness = map(mouseX,100,200,0,255);
-constrain(brightness,0,255);
+brightness = constrain(brightness,0,255);
 ```
 
 {{< p5js width="400" height="400">}}
@@ -79,7 +79,7 @@ function setup() {
 
 function draw() {
   brightness = map(mouseX,100,200,0,255);
-  constrain(brightness,0,255);
+  brightness = constrain(brightness,0,255);
 
   background(brightness);
   fill(255,0,0);
