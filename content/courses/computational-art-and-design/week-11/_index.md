@@ -17,7 +17,7 @@ During the second period, each week is divided into two classes just like they a
 
 | TIME | MON 30/10 | TUE 31/10 | WED 01/11 | THU 02/11 | FRI 03/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Hardware (OSC)](./lesson-01) | [Machine Learning with ml5.js](./lesson-02) |
+| 09:15–12:00 |  |  |  | [Working with Hardware](./lesson-01) | [Pen plotters](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |

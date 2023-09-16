@@ -31,7 +31,7 @@ You are still required to submit all of the homework assignments, even if you mi
 Please let Matti know if you need to be absent more than the allowed 20% for **health reasons** and if we need to make special arrangements due to that.
 {{</hint>}}
 
-## Can I somehow compensate for the missed classes if I have to be away for more than the allowed amount of classes?
+## Can I somehow compensate for the missed classes if I have to be away for more than the allowed amount?
 
 Yes, you can complete assignments from the Excercises section of the book [Code as Creative Medium: A Handbook for Computational Art and Design](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526). Related to the topic that you missed. The amount of exercises you need to complete depends on what you have missed (more complex topics might only mean one exercise, simpler topics might mean more than one).
 
