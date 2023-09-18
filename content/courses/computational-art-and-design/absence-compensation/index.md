@@ -16,7 +16,7 @@ We have 84h of contact teaching in this course:
 - Monday lectures: 12h
 - Coding sessions: 72h
 
-80% of this amounts to 16.8h. This means that you can be absent for:
+20% of this amounts to 16.8h. This means that you can be absent for:
 
 - 5 days out of the 24 Thursday and Friday sessions
 - 1 day out of the 6 Monday lectures
