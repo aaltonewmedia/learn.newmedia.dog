@@ -1,5 +1,5 @@
 ---
-title: "11 | Working with Hardware | Machine Learning"
+title: "11 | Working with Hardware"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
