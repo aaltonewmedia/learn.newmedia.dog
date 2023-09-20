@@ -113,7 +113,7 @@ We might need or want to use them later in the course, but let's try to understa
 
 ## While
 
-The while loop structure resembles the if statement, with one key difference: an if statement is only executed once and the while loop is going to repeat itself as long as the expression is true. **Note: Because of this functionality, it is important to make sure that the while does not get stuck in an infinite loop. So make sure that there is a way for the expression to become false.**
+The while loop structure resembles the if statement, with one key difference: an if statement is only executed once and the while loop is going to repeat itself as long as the expression is true.
 
 ```js
 while (condition) {
@@ -123,10 +123,10 @@ while (condition) {
 
 [![while loop](../img/while.jpg)](../img/while.jpg)
 
-The example in the image below will get stuck in an infinite loop. The condition has no way of becoming false.
-
 {{<hint danger>}}
 When you use while loops, you always have to provide a condition that will eventually become false. If you don't, the code will get stuck in an infinite loop and might crash your browser.
+
+The example in the image below will get stuck in an infinite loop. The condition has no way of becoming false.
 {{</hint>}}
 
 [![while loop example](../img/while_example1.jpg)](../img/while_example1.jpg)
@@ -216,9 +216,9 @@ function draw() {
 
 As you can see, when you use the while loop you might often need:
 
-1. A variable that you reset in the beginning (initialization)
-2. An expression that compares that variable to some kind of limit (condition)
-3. Some kind of update statement that changes the variable. Often you increment this value by some amount. (update)
+1. A variable that you reset in the beginning (**initialization**)
+2. An expression that compares that variable to some kind of limit (**condition**)
+3. Some kind of update statement that changes the variable. Often you increment this value by some amount. (**update**)
 
 This is a very common structure and you often end up using it all the time. Therefore, a specific loop exists to do just this. This is the [for](https://www.w3schools.com/js/js_loop_for.asp) loop.
 
@@ -258,6 +258,8 @@ function draw() {
  }
 }
 {{</p5js >}}
+
+[![for loop example](../img/for_x_example.jpg)](../img/for_x_example.jpg)
 
 What happens when the loop of our example code runs:
 
@@ -302,6 +304,26 @@ function draw() {
 }
 {{</p5js >}}
 
+{{<hint info>}}
+You can then use `map()` to scale the index into pixels or whatever other range you would need.
+{{</hint>}}
+
+{{<p5js autoplay=1 width="200" height="400">}}
+let num=5;
+function setup() {
+  createCanvas(200, 200);
+}
+
+function draw() {
+  background(130,80,120);
+  for(let i = 0; i < num; i++){
+    // use map to scale the amount of shapes to the screen size
+    let x = map(i,0,num-1,0,width);
+    circle(x, height/2, 50);
+  }
+}
+{{</p5js >}}
+
 ## Example: For Loop Circle Tunnel
 
 {{<p5js autoplay=1 width="200" height="400">}}
@@ -325,3 +347,10 @@ function draw() {
   }
 }
 {{</p5js >}}
+
+---
+
+## Resources
+
+- [JavaScript While](https://www.w3schools.com/js/js_loop_while.asp)
+- [JavaScript For](https://www.w3schools.com/js/js_loop_for.asp)
