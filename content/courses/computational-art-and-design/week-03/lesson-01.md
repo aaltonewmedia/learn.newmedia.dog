@@ -121,6 +121,20 @@ while (condition) {
 }
 ```
 
+[![while loop](../img/while.jpg)](../img/while.jpg)
+
+The example in the image below will get stuck in an infinite loop. The condition has no way of becoming false.
+
+{{<hint danger>}}
+When you use while loops, you always have to provide a condition that will eventually become false. If you don't, the code will get stuck in an infinite loop and might crash your browser.
+{{</hint>}}
+
+[![while loop example](../img/while_example1.jpg)](../img/while_example1.jpg)
+
+This example has a condition that will eventually become false. `counter` increases by one on each loop and eventually becomes greater than or equal to 10.
+
+[![while loop example](../img/while_example2.jpg)](../img/while_example1.jpg)
+
 In general, you use the while loop when you want to repeat something, but you do not know exactly how many times you want to repeat it. Some examples of cases like these that you might run into:
 
 - Your program waits for the user to give some sort of input to move on to the next part of your code.
@@ -198,10 +212,6 @@ function draw() {
 }
 {{</p5js >}}
 
-{{<hint danger>}}
-When you use while loops, you always have to provide a condition that will eventually become false. If you don't, the code will get stuck in an infinite loop and might crash your browser.
-{{</hint>}}
-
 ## For
 
 As you can see, when you use the while loop you might often need:
@@ -222,7 +232,19 @@ for (initialization; condition; update) {
 - ```condition``` defines the condition for executing the code block. This is done at the beginning of each repetition of the loop.
 - ```update``` is executed (every time) after the code block has been executed.
 
-Our example looks like this using the for loop:
+[![for loop](../img/for.jpg)](../img/for.jpg)
+
+This is a simple example that prints out a number every time the loop repeats.
+
+```js
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+
+[![for loop example](../img/for_example.jpg)](../img/for_example.jpg)
+
+Our example with the circles looks like this using the for loop:
 
 {{<p5js autoplay=1 width="200" height="400">}}
 function setup() {
