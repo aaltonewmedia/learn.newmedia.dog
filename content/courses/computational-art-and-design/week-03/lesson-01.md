@@ -13,7 +13,10 @@ p5js-widget: true
 
 {{<vimeo 73939362>}}
 
-[Rafael Lozano-Hemmer](https://www.lozano-hemmer.com/)
+{{<youtube cywFvcRR-QI>}}
+
+- [Rafael Lozano-Hemmer](https://www.lozano-hemmer.com/)
+- [Ryoji Ikeda](https://www.ryojiikeda.com/)
 
 ---
 

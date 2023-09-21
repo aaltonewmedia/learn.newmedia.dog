@@ -11,11 +11,8 @@ p5js-widget: true
 
 ## Inspiration
 
-{{<youtube cywFvcRR-QI>}}
-
 {{<youtube rtR63-ecUNo>}}
 
-- [Ryoji Ikeda](https://www.ryojiikeda.com/)
 - [Jerobeam Fenderson](https://oscilloscopemusic.com)
 
 ## Download example files
