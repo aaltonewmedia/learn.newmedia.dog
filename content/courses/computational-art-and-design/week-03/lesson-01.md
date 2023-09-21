@@ -46,6 +46,10 @@ function draw() {
 }
 {{</ p5js >}}
 
+{{<hint info>}}
+If you want to know what happens behind-the-scenes with map(), [you can go look at the p5.js source code.](https://github.com/processing/p5.js/blob/main/src/math/calculation.js#L397)
+{{</hint>}}
+
 ### constrain()
 
 Usually, it is not enough to just **map** the values, you might also need to **constrain** them. Let's use the previous example and modify the values a little bit.
@@ -136,7 +140,7 @@ The example in the image below will get stuck in an infinite loop. The condition
 
 This example has a condition that will eventually become false. `counter` increases by one on each loop and eventually becomes greater than or equal to 10.
 
-[![while loop example](../img/while_example2.jpg)](../img/while_example1.jpg)
+[![while loop example](../img/while_example2.jpg)](../img/while_example2.jpg)
 
 In general, you use the while loop when you want to repeat something, but you do not know exactly how many times you want to repeat it. Some examples of cases like these that you might run into:
 
