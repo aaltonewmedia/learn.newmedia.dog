@@ -61,6 +61,19 @@ function draw() {
 
 {{</p5js >}}
 
+{{<hint warning>}}
+It is recommended to use `const` when you declare arrays. But I will generally just use `let` in this class to keep things simple. [You can learn more about const here.](https://www.w3schools.com/js/js_const.asp). If you want to start following best practices right from the beginning, you can start using `const` with arrays, but you can also use `let` for now (it will work just fine in all cases that we will run into during this course) and come back to this when you feel like you are ready to start learning JavaScript on a bit more in-depth level. We will come back to this topic later, but there are some confusing things about the differences between `let` and `const` that we are not really prepared to discuss in detail yet.
+
+For example:
+
+```js
+const cities = ["Helsinki", "Espoo", "Vantaa"];
+```
+{{</hint>}}
+
+
+
+
 ### Modifying the array
 
 You can change each individual element like you would a normal variable:
