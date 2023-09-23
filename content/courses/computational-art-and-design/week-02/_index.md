@@ -27,7 +27,7 @@ During the first period, each week is divided into three classes just like they 
 
 ## Absence Compensation
 
-If you miss the classes this week and you are going under the 80% allowed absence, you can compensate for them with these exercises from the [course book](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526):
+If you miss the classes this week and you are going over the 20% allowed absence, you can compensate for them with these exercises from the [course book](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526):
 
 Any of these exercises:
 - **Conditional Testing**

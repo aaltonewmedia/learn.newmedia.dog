@@ -24,3 +24,22 @@ During the first period, each week is divided into three classes just like they 
 | 15:15–17:00 | [Lecture: Interactive Art](./lecture) |  |  |  |  |
 
 </div> 
+
+---
+
+## Absence Compensation
+
+If you miss the classes this week and you are going over the 20% allowed absence, you can compensate for them with these exercises from the [course book](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526):
+
+Any of these exercises:
+- **Iteration**
+  - Simple Iteration: Seven Circles
+  - Transitioning Rectangles
+  - Mini-Calendar
+  - Receding Landscape
+  - Lines to the Cursor
+  - Dashed Line
+  - Nested Iteration: Checkers
+  - Geometric Progression
+
+**One exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/86575) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
