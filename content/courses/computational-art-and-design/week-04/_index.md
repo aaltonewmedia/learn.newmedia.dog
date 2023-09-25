@@ -21,6 +21,6 @@ During the first period, each week is divided into three classes just like they 
 | 09:15–12:00 |  |  |  | [Text, Images, Video](./lesson-01) | [Sound, Sound Visualizations](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Generative Art](./lecture) |  |  |  |  |
+| 15:15–17:00 | [Lecture: Generative Art and Design](./lecture) |  |  |  |  |
 
 </div> 
