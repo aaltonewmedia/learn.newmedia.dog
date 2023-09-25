@@ -11,6 +11,8 @@ p5js-widget: true
 
 ## Lecture Materials
 
+- [Lecture slides](https://miro.com/app/board/uXjVPTFC324=)
+
 ## Interesting Artists and Researchers
 
 - [Sol LeWitt](https://www.artnet.com/artists/sol-lewitt/)
