@@ -15,13 +15,6 @@ p5js-widget: true
 
 [Kimchi & Chips](https://www.kimchiandchips.com/)
 
-## New p5js functions that we are going to need today
-
-- [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
-- [mousePressed()](https://p5js.org/reference/#/p5/mousePressed)
-
-These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) system variables that we have been using.
-
 ## External files
 
 Take a look at this arrow icon on the p5js web editor. Click it!
@@ -55,6 +48,7 @@ Or if you want to make the Chromatrope example that I showed, you can download t
 [Chromatrope Images](/images/examples/chromatrope.zip)
 
 I also made this png image with transparent background you can use:
+
 [![Brush png](img/brush.png)](img/brush.png)
 
 - [loadImage()](https://p5js.org/reference/#/p5/loadImage)
@@ -63,8 +57,56 @@ I also made this png image with transparent background you can use:
 - [preload()](https://p5js.org/reference/#/p5/preload)
 
 ```js
+let img;
 
+// Loading the image file is usually done with the preload() function.
+// This function makes sure that the file is loaded before it goes to setup() and draw()
+function preload(){
+  img = loadImage("shroom.png");
+}
+
+function setup() {
+  createCanvas(512, 512);
+}
+
+function draw() {
+  background(0,20);
+  tint(255);
+  image(img,0,0,width,height);
+  tint(255,100);
+  image(img,mouseX,mouseY,256,256);
+}
 ```
+
+<iframe src="https://openprocessing.org/sketch/2024435/embed/?plusEmbedHash=ZmI1YjZjNmYwM2EwYTkzYmYwYmQ5ODEwMTBiZWM5MzQyNjRkNmQxMDhmZWFhODQ1OWNmNTI0NGIzNzEyOGU2ZWIwOWM5NDk4N2NmYzY5MWM2YzVhMTg4MTk0MjExMzUzZGU5MWU5ZTYwYzdkNWVmY2QxMGYwZjEyNmE4OTljNzJkaERyTUFXRjk3RytxOGFsVjdrR25Oc2xBdHpDdjJwR3pITHk2S1dqSGpENjRONytSN3J2cGx6eGxBNTlHdUpFelkxU24yNEVEU25ncFNzU3lIRXRQZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
+```js
+let brush;
+let img;
+
+function preload(){
+  img = loadImage("shroom.png");
+  brush = loadImage("brush.png");
+}
+
+function setup() {
+  createCanvas(512, 512);
+  imageMode(CENTER);
+}
+
+function draw() {
+  background(0,20);
+  tint(255);
+  imageMode(CORNER);
+  tint(255);
+  image(img,0,0,width,height);
+  imageMode(CENTER);
+  tint(180,0,0);
+  image(brush,mouseX,mouseY,32,32);
+}
+```
+
+<iframe src="https://openprocessing.org/sketch/2024421/embed/?plusEmbedHash=MGE1MDZiZWVlZjdhNzEwNmZkOTc0M2YyM2U1MzJlZGJiMGE2NGJkMzYxMzE1NjgyM2NhYjU4YzQ0YmEwMTYyMmU3MmE2NjAxZjdmOTQ5NDUxYTViMjhmMDdkYWRiZTc0ZTczNjMyMWY3Zjc2MzhhY2FiNTMwZjUwZThkMTI2NTIxTWRyZG5NM0ZTcy92akNGMGlIVXRTU1lLUkhUMkZidE0vdXcwVDgwZU5iRFZCd01JbjZKS0xWa0dWUnEyNDNDUzlFK3pKYVpkRnovRy9tdmZjRy9pZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
 ## Working with video
 

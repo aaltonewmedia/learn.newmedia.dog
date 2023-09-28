@@ -1,5 +1,5 @@
 ---
-title: "FRI | Sound Visualizations"
+title: "FRI | Sound"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
@@ -70,6 +70,10 @@ function mousePressed(){
 
 ### Example: Mic Input
 
+{{<hint warning>}}
+Note that the mic input is not working in Firefox, use Chrome or Safari for example. You also need to give your browser the permission to use the sound input when it asks for it.
+{{</hint>}}
+
 <iframe src="https://editor.p5js.org/mnstri/full/gJVPvB5ST"width="100%" height="450"></iframe>
 
 ```js
@@ -115,3 +119,23 @@ I used the mousePressed() function since we have been talking about in the class
 
 <iframe src="https://editor.p5js.org/mnstri/full/k21MpFuTt" width="100%" height="600"></iframe>
 
+---
+
+## Homework
+
+Create a sketch that uses the following:
+
+- at least one image
+- video camera input
+- at least one sound file
+- mouse and/or keyboard interaction
+
+Extra (add if you have the time):
+
+- Sound reactivity
+
+[Add your sketch to our OpenProcessing class.](https://openprocessing.org/class/86575)
+
+{{<hint info>}}
+NOTE! to make the sound library work in OpenProcessing, you should turn on the toggle for the sound library in the settings.
+{{</hint>}}
