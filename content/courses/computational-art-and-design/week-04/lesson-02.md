@@ -15,6 +15,13 @@ p5js-widget: true
 
 - [Jerobeam Fenderson](https://oscilloscopemusic.com)
 
+## New p5js functions that we are going to need today
+
+- [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
+- [mousePressed()](https://p5js.org/reference/#/p5/mousePressed)
+
+These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) system variables that we have been using.
+
 ## Download example files
 
 [Download the foghorn sample](/sound/foghorn.wav)

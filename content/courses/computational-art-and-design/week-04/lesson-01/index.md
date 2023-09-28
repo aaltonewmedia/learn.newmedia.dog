@@ -15,10 +15,6 @@ p5js-widget: true
 
 [Kimchi & Chips](https://www.kimchiandchips.com/)
 
-## Rubber ducks?
-
-[Why have I given you rubber ducks?](https://rubberduckdebugging.com/)
-
 ## New p5js functions that we are going to need today
 
 - [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
@@ -52,18 +48,19 @@ We can add additional files here (images, videos, sound, text etc.) if we want t
 
 ## Working with images
 
-You can use your own images, or if you want to follow along with my examples, you can download this .zip file:
+You can use your own images, or if you want to follow along with my examples, you can download the image below:
+[![Mushroom png](img/shroom.png)](/img/shroom.png)
 
+Or if you want to make the Chromatrope example that I showed, you can download this .zip file.
 [Chromatrope Images](/images/examples/chromatrope.zip)
 
-And I have this png image with transparent background you can use:
-
-[![Flower png](/images/examples/flower.png)](/images/examples/flower.png)
-This flower is from the [Biodiversity Heritage Library](https://www.flickr.com/photos/biodivlibrary/31302218865/).
+I also made this png image with transparent background you can use:
+[![Brush png](img/brush.png)](img/brush.png)
 
 - [loadImage()](https://p5js.org/reference/#/p5/loadImage)
 - [image()](https://p5js.org/reference/#/p5/image)
 - [tint()](https://p5js.org/reference/#/p5/tint)
+- [preload()](https://p5js.org/reference/#/p5/preload)
 
 ```js
 
@@ -73,12 +70,18 @@ This flower is from the [Biodiversity Heritage Library](https://www.flickr.com/p
 
 ### Video files
 
+Working with video files is quite similar to working with images. The loading of the video file and enabling playback of it just needs to be done in a specific way. Once that is done, you draw the video the same way you would draw any image.
+
+- [createVideo](https://p5js.org/reference/#/p5/createVideo)
+
 ### Live video
 
-Using live video capture from your webcam is not really that much more difficult than using any other image.
+Using video camera instead of a video file works in a similar way. You need to enable the capturing of the video in a specific way, after that it's just a moving image.
+
+- [createCapture](https://p5js.org/reference/#/p5/createCapture)
 
 {{<hint warning>}}
-The p5js widget that I have been using does not work with the live video. So I will just provide the code examples and links to the projects on the p5js editor.
+The p5js widget that I have been using does not work with the live video. So I will just provide the code examples and links to the projects on the p5js editor. **Links will be updated after the class.**
 {{</hint>}}
 
 ```js
