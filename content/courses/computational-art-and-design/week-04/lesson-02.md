@@ -117,6 +117,9 @@ I used the mousePressed() function since we have been talking about in the class
 
 ### Example: Advanced
 
+The sketch below uses a folder of images. You can download this .zip file:
+[Chromatrope Images](/images/examples/chromatrope.zip)
+
 <iframe src="https://editor.p5js.org/mnstri/full/k21MpFuTt" width="100%" height="600"></iframe>
 
 ---

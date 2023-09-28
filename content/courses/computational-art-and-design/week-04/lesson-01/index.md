@@ -44,10 +44,7 @@ We can add additional files here (images, videos, sound, text etc.) if we want t
 You can use your own images, or if you want to follow along with my examples, you can download the image below:
 [![Mushroom png](img/shroom.png)](/img/shroom.png)
 
-Or if you want to make the Chromatrope example that I showed, you can download this .zip file.
-[Chromatrope Images](/images/examples/chromatrope.zip)
-
-I also made this png image with transparent background you can use:
+I also made this png image with transparent background you can use (right click and save image as):
 
 [![Brush png](img/brush.png)](img/brush.png)
 
@@ -55,6 +52,7 @@ I also made this png image with transparent background you can use:
 - [image()](https://p5js.org/reference/#/p5/image)
 - [tint()](https://p5js.org/reference/#/p5/tint)
 - [preload()](https://p5js.org/reference/#/p5/preload)
+- [get()](https://p5js.org/reference/#/p5/get)
 
 ```js
 let img;
@@ -108,6 +106,40 @@ function draw() {
 
 <iframe src="https://openprocessing.org/sketch/2024421/embed/?plusEmbedHash=MGE1MDZiZWVlZjdhNzEwNmZkOTc0M2YyM2U1MzJlZGJiMGE2NGJkMzYxMzE1NjgyM2NhYjU4YzQ0YmEwMTYyMmU3MmE2NjAxZjdmOTQ5NDUxYTViMjhmMDdkYWRiZTc0ZTczNjMyMWY3Zjc2MzhhY2FiNTMwZjUwZThkMTI2NTIxTWRyZG5NM0ZTcy92akNGMGlIVXRTU1lLUkhUMkZidE0vdXcwVDgwZU5iRFZCd01JbjZKS0xWa0dWUnEyNDNDUzlFK3pKYVpkRnovRy9tdmZjRy9pZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
+### get()
+
+The get() function in p5.js is used to get the color of an idividual pixel or a region. 
+
+This could be used for many purposes. For example, you could check the color of the pixel where the mouse cursor is.
+
+```js
+let img;
+let c; // variable to store the color
+
+function preload(){
+  img = loadImage("shroom.png");
+}
+
+function setup() {
+  createCanvas(512, 512);
+  strokeWeight(3);
+}
+
+function draw() {
+  background(0);
+  image(img,0,0,width,height);
+  c = get(mouseX,mouseY);
+  fill(c);
+  circle(mouseX,mouseY,25);
+}
+```
+
+<iframe src="https://openprocessing.org/sketch/2024558/embed/?plusEmbedHash=ZDM2MzMzNTgxMzhmNTZkZGQ1OWRkYWY0NDQ0ZThkNDcxMGQzMDAzYjQxMmEyZGM5M2NhYTVlYjc2YjY3ZTk5MjhhODZhNzc1MjM2ZWVhMDljZmZmZDA2ZjcwZTM4YjliNmQzZTNiZjhhMzQxYmFiYTA0YTM5YjVhYThhOWE1NjZZYlRkYzBWalBoZUdhU25hU1NqQ2luMnVLRTFSeWc2aEZVOUlLUkNzZkRLTUNjRW9uQ2NkSmVEVElLSWsxS2hBSm5ndS9EaUhFSWg3K3Q1N0Jxa0dSdz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
+Or you can do the same thing we did with the random walkers last week, but pick a color for each particle based on the image.
+
+<iframe src="https://openprocessing.org/sketch/2024568/embed/?plusEmbedHash=YTRiNjUwMzIzYjM3MzlmNGE3NzBjMjA3Y2VmMGVkMTNjZDAxZDk2MGNmMTUwY2VmYmE0MjY3MzI0YWIxZTBhMzFiYTU3ZmUzZGQ2MzgzYmQ2YmUxODRiZjc0Yjc0ODNiZTc4MDIxMDk4ODc5ODIzOTU3ZGQ0YWI3M2EwZTc5ZDhhb2UrOGwyTnM5TUhxQjVaU3pFZThWVUZQTnBGVHVXY1R3YW44Q2xubWVGODlWMVRBQVA1eWtULzljMjAreHJPSTZCa2RUOEhGaE01Ti93RlVWcER6dz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
 ## Working with video
 
 ### Video files
@@ -115,6 +147,33 @@ function draw() {
 Working with video files is quite similar to working with images. The loading of the video file and enabling playback of it just needs to be done in a specific way. Once that is done, you draw the video the same way you would draw any image.
 
 - [createVideo](https://p5js.org/reference/#/p5/createVideo)
+
+You can [download my example video file here (right click --> save as).](img/shroom.mp4)
+
+```js
+let vid;
+
+function preload(){
+	vid = createVideo("shroom.mp4",vidLoad);
+}
+
+function setup() {
+	createCanvas(512, 512);
+	background(100);
+}
+
+function draw() {
+	image(vid,0,0,width,height);
+}
+
+// This function is called when the video loads
+function vidLoad() {
+  vid.loop();
+	vid.hide();
+}
+```
+
+<iframe src="https://openprocessing.org/sketch/2024550/embed/?plusEmbedHash=MWY0ODg5ZTEzOTZhM2ZjOTMxNjQ3OWRiYmY2YmE1ZTU3YWI4NmRiYjNiYTlmZmZkM2E2YzVkYTY4MzhmYzAyM2ExN2JhZDRlYjYyYjZmYTEyYWQ5ZjAxM2Q1YmI1MmE5ZDA4NjZkNTIwN2E1ZTc0ODhkYzk0Y2M4OGMxN2FhNWVzOE8xZjdUMU9KV2R4cUZsb1l1UlRidUlUWC9mL2p5N0tuM01aRStmTnNlTGV6aWdUbEhWaUpaNEczMDFBNmc4blhmSDlGU2s1K2lRTWlJbE10Q3cxUT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
 ### Live video
 
