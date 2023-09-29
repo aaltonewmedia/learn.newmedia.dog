@@ -203,7 +203,7 @@ function draw() {
 
 ### Camera Aspect Fix
 
-Unfortutely, the video capture is fetched with the correct aspect ratio. This could change depending on the browser you are using too. So we need to do some extra step to make sure the video is displayed correctly.
+Unfortutely, the video capture is fetched with the correct aspect ratio. This could change depending on the browser you are using too. So we need to do some extra step to make sure the video is displayed correctly. The following code access the stream object from the browser and sets the resolution to 960x540. This is done before the createCapture() function is called. It works in all browsers because it uses the native browser API.
 
 {{<hint warning>}}
 You could use the native resolution of your camera example 1280x720, or use a ratio like 16:9. The example below is using 960x540 which is still 16:9 but a 1920x1080 divided by two. Or you can fetch the full resolution of the camera and resize it inside the setup() function.
@@ -222,8 +222,8 @@ https://calculateaspectratio.com/16-9-calculator
 
 let video;
 
-const cameraWidth = 960;
-const cameraHeight = 540;
+const cameraWidth = 960; // modify your resolution x here
+const cameraHeight = 540; // modify your resolution y here
 
 function setup() {
   // canvas and other p5 functions HERE
@@ -242,5 +242,7 @@ function setup() {
   // Shows video
   video = createCapture(constraints);
   // video.hide()
+
+  // canvas and other p5 functions HERE
 }
 ```
