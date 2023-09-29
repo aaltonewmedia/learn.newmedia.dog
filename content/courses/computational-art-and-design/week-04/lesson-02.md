@@ -30,6 +30,22 @@ These functions are called ***once*** when you either press a key on your keyboa
 `lerpColor` is similar but works with colors instead of numbers.
 
 {{< p5js width="400" height="400">}}
+let x=0;
+let y=0;
+
+function setup() {
+  createCanvas(300, 300);
+}
+
+function draw() {
+  background(0);
+  x = lerp(x,mouseX,0.05);
+  y = lerp(y,mouseY,0.05);
+  circle(x,y,50);
+}
+{{</ p5js >}}
+
+{{< p5js width="400" height="400">}}
 let s = 10;
 let targetS = 10;
 
