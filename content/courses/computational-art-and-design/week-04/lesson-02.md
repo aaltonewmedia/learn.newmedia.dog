@@ -144,7 +144,7 @@ function mousePressed(){
 }
 ```
 
-### Exaample done in class
+### Example done in class
 
 This is the code we made during the class. I just changed the soundfile to a different one and added some small adjustments.
 
@@ -191,7 +191,7 @@ function mousePressed(){
 }
 ```
 
-The ```userStartAudio``` is required since modern browsers require the user to activaly start audio playback and input with a specific action. In the p5.js examples, you will probably see it done this way:
+The `userStartAudio` is required since modern browsers require the user to activaly start audio playback and input with a specific action. In the p5.js examples, you will probably see it done this way:
 
 ```js
 function setup(){
