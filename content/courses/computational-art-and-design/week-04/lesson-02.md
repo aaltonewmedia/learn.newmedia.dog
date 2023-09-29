@@ -15,6 +15,13 @@ p5js-widget: true
 
 - [Jerobeam Fenderson](https://oscilloscopemusic.com)
 
+## Images continued
+
+{{<hint info>}}
+Note that we did not manage to cover all of the topics yesterday about images and video, so we first start from [Thursday's page today](../lesson-01).
+{{</hint>}}
+
+
 ## New p5js functions that we are going to need today
 
 - [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
