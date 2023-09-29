@@ -23,21 +23,21 @@ Take a look at this arrow icon on the p5js web editor. Click it!
 
 This reveals something very importatnt about working with p5.js. Our code is part of a website with some additional files.
 
-- ***index.html*** The html file that provides the structure for the website. It uses the HTML markup language to describe how the page is structures.
-- ***sketch.js*** This is the file we have been working with so far. The actual JavaScript file that has all of our code.
-- ***style.css*** This CSS file is used to describe how all of the elements on the webpage should look like
+- **_index.html_** The html file that provides the structure for the website. It uses the HTML markup language to describe how the page is structures.
+- **_sketch.js_** This is the file we have been working with so far. The actual JavaScript file that has all of our code.
+- **_style.css_** This CSS file is used to describe how all of the elements on the webpage should look like
 
-We can add additional files here (images, videos, sound, text etc.) if we want to use them in our code. 
+We can add additional files here (images, videos, sound, text etc.) if we want to use them in our code.
 
 - Click the arrow icon pointing down next to where it says "Sketch Files"
 - "Create Folder"
-- Name the folder ***data***. Note that you can name this however you want but I'm using data as that name is used in Processing and other creative coding environments.
+- Name the folder **_data_**. Note that you can name this however you want but I'm using data as that name is used in Processing and other creative coding environments.
 - Select the folder you just created and press the arrow icon next to it
 - This menu shows options to create or upload files to the folder
 
 [![Files](../img/p5js-data-folder.png)](../img/p5js-data-folder.png)
 
-***Upload all of your files to this folder in today's examples.***
+**_Upload all of your files to this folder in today's examples._**
 
 ## Working with images
 
@@ -59,7 +59,7 @@ let img;
 
 // Loading the image file is usually done with the preload() function.
 // This function makes sure that the file is loaded before it goes to setup() and draw()
-function preload(){
+function preload() {
   img = loadImage("shroom.png");
 }
 
@@ -68,11 +68,11 @@ function setup() {
 }
 
 function draw() {
-  background(0,20);
+  background(0, 20);
   tint(255);
-  image(img,0,0,width,height);
-  tint(255,100);
-  image(img,mouseX,mouseY,256,256);
+  image(img, 0, 0, width, height);
+  tint(255, 100);
+  image(img, mouseX, mouseY, 256, 256);
 }
 ```
 
@@ -82,7 +82,7 @@ function draw() {
 let brush;
 let img;
 
-function preload(){
+function preload() {
   img = loadImage("shroom.png");
   brush = loadImage("brush.png");
 }
@@ -93,14 +93,14 @@ function setup() {
 }
 
 function draw() {
-  background(0,20);
+  background(0, 20);
   tint(255);
   imageMode(CORNER);
   tint(255);
-  image(img,0,0,width,height);
+  image(img, 0, 0, width, height);
   imageMode(CENTER);
-  tint(180,0,0);
-  image(brush,mouseX,mouseY,32,32);
+  tint(180, 0, 0);
+  image(brush, mouseX, mouseY, 32, 32);
 }
 ```
 
@@ -108,7 +108,7 @@ function draw() {
 
 ### get()
 
-The get() function in p5.js is used to get the color of an idividual pixel or a region. 
+The get() function in p5.js is used to get the color of an idividual pixel or a region.
 
 This could be used for many purposes. For example, you could check the color of the pixel where the mouse cursor is.
 
@@ -116,7 +116,7 @@ This could be used for many purposes. For example, you could check the color of 
 let img;
 let c; // variable to store the color
 
-function preload(){
+function preload() {
   img = loadImage("shroom.png");
 }
 
@@ -127,10 +127,10 @@ function setup() {
 
 function draw() {
   background(0);
-  image(img,0,0,width,height);
-  c = get(mouseX,mouseY);
+  image(img, 0, 0, width, height);
+  c = get(mouseX, mouseY);
   fill(c);
-  circle(mouseX,mouseY,25);
+  circle(mouseX, mouseY, 25);
 }
 ```
 
@@ -153,23 +153,23 @@ You can [download my example video file here (right click --> save as).](img/shr
 ```js
 let vid;
 
-function preload(){
-	vid = createVideo("shroom.mp4",vidLoad);
+function preload() {
+  vid = createVideo("shroom.mp4", vidLoad);
 }
 
 function setup() {
-	createCanvas(512, 512);
-	background(100);
+  createCanvas(512, 512);
+  background(100);
 }
 
 function draw() {
-	image(vid,0,0,width,height);
+  image(vid, 0, 0, width, height);
 }
 
 // This function is called when the video loads
 function vidLoad() {
   vid.loop();
-	vid.hide();
+  vid.hide();
 }
 ```
 
@@ -197,6 +197,50 @@ function setup() {
 
 function draw() {
   background(220);
-   image(capture, 0, 0, width, width * capture.height / capture.width);
+  image(capture, 0, 0, width, (width * capture.height) / capture.width);
+}
+```
+
+### Camera Aspect Fix
+
+Unfortutely, the video capture is fetched with the correct aspect ratio. This could change depending on the browser you are using too. So we need to do some extra step to make sure the video is displayed correctly.
+
+{{<hint warning>}}
+You could use the native resolution of your camera example 1280x720, or use a ratio like 16:9. The example below is using 960x540 which is still 16:9 but a 1920x1080 divided by two. Or you can fetch the full resolution of the camera and resize it inside the setup() function.
+{{</hint>}}
+
+```js
+/*
+
+MORE INFO
+
+https://w3c.github.io/mediacapture-main/getusermedia.html#dom-constraindouble
+https://www.folkstalk.com/tech/how-to-force-a-16-9-ratio-with-getusermedia-on-all-devices-solution/
+https://calculateaspectratio.com/16-9-calculator
+
+*/
+
+let video;
+
+const cameraWidth = 960;
+const cameraHeight = 540;
+
+function setup() {
+  // canvas and other p5 functions HERE
+
+  const constraints = {
+    video: { width: cameraWidth, height: cameraHeight, facingMode: "user" },
+  };
+  // Dont remove or change anything from the function below
+  navigator.mediaDevices
+    .getUserMedia(constraints)
+    .then((stream) => (video.srcObject = stream))
+    .then(() => new Promise((resolve) => (video.onloadedmetadata = resolve)))
+    .then(() => log(video.videoWidth + "x" + video.videoHeight))
+    .catch((e) => {});
+
+  // Shows video
+  video = createCapture(constraints);
+  // video.hide()
 }
 ```
