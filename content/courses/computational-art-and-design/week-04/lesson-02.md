@@ -22,6 +22,57 @@ p5js-widget: true
 
 These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) system variables that we have been using.
 
+- [lerp()](https://p5js.org/reference/#/p5/lerp)
+- [lerpColor](https://p5js.org/reference/#/p5/lerpColor)
+
+`lerp()` is a really useful function that is used to intepolate between two values. Use it to smooth audio input values or to create laggy or smoothed movements.
+
+`lerpColor` is similar but works with colors instead of numbers.
+
+{{< p5js width="400" height="400">}}
+let s = 10;
+let targetS = 10;
+
+function setup() {
+  createCanvas(300, 300);
+}
+
+function draw() {
+  background(0);
+  s = lerp(s, targetS, 0.2);
+  circle(width/2,height/2,s)
+}
+
+function mousePressed(){
+  targetS = targetS * 2;
+  if(targetS > width){
+    targetS = 10;
+  }
+}
+{{</ p5js >}}
+
+{{< p5js width="400" height="400">}}
+let c;
+let targetC;
+
+function setup() {
+  createCanvas(300, 300);
+  c = color(random(255), random(255), random(255));
+  targetC = c;
+}
+
+function draw() {
+  background(0);
+  c = lerpColor(c, targetC, 0.1);
+  fill(c);
+  circle(width/2,height/2,100)
+}
+
+function mousePressed(){
+  targetC = color(random(255), random(255), random(255));
+}
+{{</ p5js >}}
+
 ## Download example files
 
 [Download the foghorn sample](/sound/foghorn.wav)
@@ -37,7 +88,7 @@ The p5.js sound library allows you to:
 - get audio input from microphones and other input devices
 - analyze sound
 
-![Files](../img/p5js_files.png)
+In the p5.js editor, the sound library is loaded by default so you can just start using it.
 
 ## Examples
 
@@ -46,6 +97,8 @@ There seems to be something wrong with the sound library on some browsers. Use C
 {{</hint>}}
 
 ### Example: Play a SoundFile
+
+Loading a sound file is very similar to loading images. It's recommended to load the file using the preload function so that it gets loaded before you do anything else in your code.
 
 <iframe src="https://editor.p5js.org/mnstri/full/fhv6vN4z1" width="100%" height="450"></iframe>
 
@@ -80,6 +133,7 @@ Note that the mic input is not working in Firefox, use Chrome or Safari for exam
 let mic;
 let loudness;
 let s=10;
+let sTarget;
 
 function setup() {
   createCanvas(400, 400);
@@ -90,8 +144,14 @@ function setup() {
 
 function draw() {
   background(220);
+  
+  // get the audio level
   loudness = mic.getLevel();
-  s = map(loudness,0,1,10,100);
+  
+  // map the value to something more suitable for the size
+  sTarget = map(loudness,0,1,10,100);
+  // use lerp to create a smooth transition
+  s = lerp(s,sTarget,0.1);
   
   circle(width/2,height/2,s);
   text(loudness,width/2,20);

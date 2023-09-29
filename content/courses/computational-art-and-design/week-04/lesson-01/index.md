@@ -200,19 +200,3 @@ function draw() {
    image(capture, 0, 0, width, width * capture.height / capture.width);
 }
 ```
-
-{{<p5js autoplay=1 width="400" height="400">}}
-let capture;
-
-function setup() {
-  createCanvas(400, 400);
-  capture = createCapture(VIDEO);
-  // you can use this to hide the video preview under the canvas
-  capture.hide();
-}
-
-function draw() {
-  background(220);
-   image(capture, 0, 0, width, width * capture.height / capture.width);
-}
-{{</p5js >}}
