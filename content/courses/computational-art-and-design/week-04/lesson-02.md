@@ -144,6 +144,12 @@ function mousePressed(){
 }
 ```
 
+### Exaample done in class
+
+This is the code we made during the class. I just changed the soundfile to a different one and added some small adjustments.
+
+<iframe src="https://openprocessing.org/sketch/2025493/embed/?plusEmbedHash=MjlmYTJiNzE5MDMzY2U3MDdhNzFhNDBhZGZiMzA2MDMzZjQ4ZDM4ZjhiYjk0ZDkxM2U2YjY0N2NmNDkyYmM3ZmZjNmEwZDJhNjJjOTQ5NTA1YTc4NTA3MTZmZmEwYTgwNGY0Y2IyMGU3MjkxYmI5YWJjOTE3MTNiMjg1Zjc3Njg1QnI2YkFxeFdYMzhmK3EzZFRtR1NIQmhOVm5GMGplczBsZS82YTRtdFB2OGlRS1lyQWI0QUFKWGJ1bXU2VGpsekV1NGF0elZVZUE2TXZ2dHdsNkxUZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+
 ### Example: Mic Input
 
 {{<hint warning>}}
