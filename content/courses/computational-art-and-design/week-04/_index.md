@@ -36,7 +36,7 @@ Any of these exercises:
 - **Sound**
   - Theremin
 - **Time and Interractivity**
-  - Sudio-Sensitive Animation
+  - Audio-Sensitive Animation
 - **Color**
   - Color Inspector
 
