@@ -37,5 +37,7 @@ Any of these exercises:
   - Theremin
 - **Time and Interractivity**
   - Sudio-Sensitive Animation
+- **Color**
+  - Color Inspector
 
 **One exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/86575) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
