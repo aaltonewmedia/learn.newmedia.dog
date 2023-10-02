@@ -21,7 +21,7 @@ p5js-widget: true
 
 This week is going to be about finding ways to structure, simplify and compartmentalize your code. We will learn about **transformations** that allow you to rotate, move and scale things that you draw. Additionally, we will learn the basics of using **functions**.
 
-Let's take an example sketch, where we would like to draw a simple face that is centerd on the canvas. We could use some variables to store the x and y coordimnates of the center of the screen and use these as a reference point for drawing the shapes. I am calling these variables ```offsetX``` and ```offsetY```.
+Let's take an example sketch, where we would like to draw a simple face that is centerd on the canvas. We could use some variables to store the x and y coordinates of the center of the screen and use these as a reference point for drawing the shapes. I am calling these variables ```offsetX``` and ```offsetY```.
 
 {{<p5js autoplay=1 width="400" height="400">}}
 let offsetX;
@@ -303,10 +303,10 @@ This example does the following:
 
 ## References and more information
 
-I have been talking about the transforamtion **matrix**. What is that? Are you expected to choose between a red or blue pill? Is reality just a simulation? Maybe, but none of this has to do with the movie. 
+I have been talking about the transformation **matrix**. What is that? Are you expected to choose between a red or blue pill? Is reality just a simulation? Maybe, but none of this has to do with the movie. 
 
 <iframe src="https://openprocessing.org/sketch/408631/embed/?plusEmbedHash=YzBmMDUzYTJhYWViYzJhOGQ4ZTdmMTY4NTE5ODYwYjU5YWQwNWM4MWEwMjg3MWQyZTc4ZmNmMTI3YzliMDhjNDhmZDY1MzI2M2MxYzdmMjE0NGUwYTYyYzE2MWE3MzJlOTliNGIwMmZlYzI3ZGQzZTdmZmUwNDY1YjU1NThkNWFPTzlJa1pENS9MZ3o5QThxNFExSEtySE5RVkJ1N1k5K1NtUGV2Wm9FZUtrWDFvT3pRTHJzYndyQlRUZG4xOXFMMHNwaXdmdXp1Y3ppb1hLbTJjNnNOQT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
 
 You can learn more about transformation matrices on [Wikipedia](https://en.wikipedia.org/wiki/Transformation_matrix).
 
-Does everything on that page look completely alien to you? If so, you can keep on living in the simulation and just ignore all of the technical details. For our purposes this level of understanding that we covered on this page is enough. You do not have to necessarily know all the technical details. That is why we have computers. they can do all the complex technical stuff and we can make focus on making something interesting with them.
+Does everything on that page look completely alien to you? If so, you can keep on living in the simulation and just ignore all of the technical details. For our purposes this level of understanding that we covered on this page is enough. You do not have to necessarily know all the technical details. That is why we have computers. They can do all the complex technical stuff and we can focus on making something interesting with them.

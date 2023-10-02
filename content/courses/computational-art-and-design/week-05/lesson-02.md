@@ -181,9 +181,9 @@ function drawFace(){
 
 ### Passing parameters to a function
 
-Using the ```drawFace()``` function seems to be quite similar to using ```circle()``` or any other built-in function. However, with circle we are able to define directly where to draw the shape by using parameters. How could we use those? It's also quite simple, you just define what kind of parameters your function should be expecting.
+Using the `drawFace()` function seems to be quite similar to using `circle()` or any other built-in function. However, with circle we are able to define directly where to draw the shape by using parameters. How could we use those? It's also quite simple, you just define what kind of parameters your function should be expecting.
 
-We could say that our function needs to values passed to it. One value for ```x``` and one for ```y```. We use push(), translate() and pop() inside the function.
+We could decide that our function needs two values passed to it. One value for `x` and one for `y`. We use push(), translate() and pop() inside the function.
 
 ```js
 function drawFace(x,y){
@@ -230,7 +230,7 @@ Note that you don't need to use **let** when you define the expected parameters.
 
 ### Returning values from a function
 
-Functions do not necessarily have to draw something. They could also do some calculations, process other values, or in some other way provide you with **return value**. We use these types of functions all the time. For example, ```random()``` returns a random value, ```map()``` scales values from one range to another. Here is how to create these types of functions.
+Functions do not necessarily have to draw something. They could also do some calculations, process other values, or in some other way provide you with **return value**. We use these types of functions all the time. For example, `random()` returns a random value, `map()` scales values from one range to another. Here is how to create these types of functions.
 
 ```js
 // this function returns the squared value of the one passed to it
