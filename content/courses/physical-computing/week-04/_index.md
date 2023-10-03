@@ -8,15 +8,14 @@ p5js-widget: true
 
 <div class="calendar">
 
-| TIME | MON 14/11 | TUE 15/11 | WED 16/11 | THU 17/11 | FRI 18/11 |
+| TIME | MON 13/11 | TUE 14/11 | WED 15/11 | THU 16/11 | FRI 17/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Communication: Serial, Keyboard, Mouse, HID](./lesson-01) |  | [Communication: WiFi, OSC](./lesson-02) |  |
-| 15:15–17:00 | [Project Proposal Presentations](./lecture) |  |  |  |  |
+| 15:15–17:00 | [Project Proposal Presentations](./lecture) | [Communication: Serial, Keyboard, Mouse, HID](./lesson-01) |  | [Communication: WiFi, OSC](./lesson-02) |  |
 
 </div> 
-
 
 ## Homework
 

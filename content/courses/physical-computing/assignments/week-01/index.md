@@ -31,6 +31,8 @@ Create a circuit and Arduino code that does the following
 
 ### Solutions
 
+Only check these if you get stuck and cannot solve this on your own. Or compare your solution to these. If you did it differently and it works, that is great! Please document your solution. The aim of this is not to see how well you can copy solutions and follow instructions but rather to help you think how to start solving specific tasks with electronics and code.
+
 {{< details title="Solution #1" open=false >}}
 
 [![Solution 1 Breadboard](./img/assignment-01.png)](./img/assignment-01.png)

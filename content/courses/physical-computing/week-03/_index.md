@@ -8,12 +8,12 @@ p5js-widget: true
 
 <div class="calendar">
 
-| TIME | MON 07/11 | TUE 08/11 | WED 09/11 | THU 10/11 | FRI 11/11 |
+| TIME | MON 06/11 | TUE 07/11 | WED 08/11 | THU 09/11 | FRI 10/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Output: Motors & Actuators \| Digitla LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
-| 15:15–17:00 | [Making Things Move](./lecture)  |  |  |  |  |
+| 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
+| 15:15–17:00 | [Making Things Move](./lecture) | [Output: Motors & Actuators \Digital LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
 
 </div> 
 

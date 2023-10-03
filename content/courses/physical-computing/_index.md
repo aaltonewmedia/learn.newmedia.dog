@@ -69,7 +69,7 @@ This course is evaluated with a grade between 0-5.
 
 - Final Project and documentation of the project | 50% of the grade
 - Completed assignments and their documentation | 25% of the grade
-- Avtive attendance | 25% of the grade
+- Active attendance | 25% of the grade
 
 ### How are these things evaluated
 

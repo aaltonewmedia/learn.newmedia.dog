@@ -15,7 +15,7 @@ p5js-widget: true
 | 13:15–15:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition Setup |
 | 15:15–17:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition opening |
 
-</div>
+</div> 
 
 No teaching during this week. Just work on your project to finish it for Friday.
 
