@@ -454,3 +454,9 @@ Requirements:
 - You need to create a separate function for drawing each value (like we did in the example: drawHour(), drawMinute(), drawSecond())
 - For extra challenge, you can also use the date
 - The time does not have to be necessarily readable
+
+### Inspiration
+
+- [John Maeda 12 o'clocks](https://www.youtube.com/watch?v=B7dbz9qepe0)
+- [12 o'clocks p5.js adaptations](https://codingtrain.github.io/12oclocks/)
+- [The Pudding Data Clocks](https://pudding.cool/projects/clocks/)

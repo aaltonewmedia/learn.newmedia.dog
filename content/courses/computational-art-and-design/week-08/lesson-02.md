@@ -24,3 +24,5 @@ This technique is very commonly needed with Arduino so you will find this very u
 ### noise()
 
 [See the tutorial on noise()](../../../tutorials/p5-js/noise.md)
+
+### sin(), cos()

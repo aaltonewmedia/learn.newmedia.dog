@@ -19,6 +19,7 @@ p5js-widget: true
 - [Nadieh Bremer | fxHash](https://www.fxhash.xyz/u/Nadieh/creations)
 - [Shirley Wu](https://shirleywu.studio/)
 - [Data Sketches](https://www.datasketch.es/)
+- [The Pudding](https://pudding.cool/)
 
 ---
 

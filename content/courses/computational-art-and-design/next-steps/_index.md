@@ -60,3 +60,9 @@ weight: 899
 ## Resources
 
 - [The Future Sketches research group at MIT](https://www.media.mit.edu/groups/future-sketches/overview/)
+
+--- 
+
+## How to learn how to learn?
+
+{{<youtube FJn6_dCp-BM>}}

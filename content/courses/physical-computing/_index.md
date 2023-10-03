@@ -12,7 +12,7 @@ If you are looking for the old Electronics for Artists course, Physical Computin
 ## Important Links
 
 - [GitHub Repository for Code Examples](https://github.com/aaltonewmedia/physical-computing)
-- [MyCourses Link, 2022](https://mycourses.aalto.fi/course/view.php?id=37545)
+- [MyCourses Link, 2023](https://mycourses.aalto.fi/course/view.php?id=39931)
 - [Arduino and Electronics Tutorials](../../tutorials/arduino-and-electronics/)
 
 ## Content
@@ -90,7 +90,7 @@ The evaluation is based on the following:
 **Completed assignments**
 - Detail of the documentation of your assignments
 - Ability to reflect on your learning process
-- Note that you do not need to necessarily succeed in the assignemnts to do well. Trying, failing and trying to understand why things didn't work out can be as valuable (or even more valuable) as succeeding.
+- Note that you do not need to necessarily succeed in the assignments to do well. Trying, failing and trying to understand why things didn't work out can be as valuable (or even more valuable) as succeeding.
 
 **Active attendance**
 - You need to be present minimum 80% of the classes
@@ -99,11 +99,11 @@ The evaluation is based on the following:
 - Active participation and attitude in class will affect your attendance grade positively.
 - Helping others will affect your attendance grade positively
 
-## Schedule 2022
+## Schedule
 
 Each week is divided into three classes just like they are divided here on this website.
 
-- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignmnets and deliverables for each week.
+- **Mondays:** A thematic lecture that provides context for the topic of the course. Also presents the assignments and deliverables for each week.
 - **Tuesdays:** Hands-on demonstrations and work on small assignments.
 - **Thursdays:** Hands-on demonstrations and work on small assignments.
 
@@ -113,12 +113,12 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 24/10 | TUE 25/10 | WED 26/10 | THU 27/10 | FRI 28/10 |
+| TIME | MON 23/10 | TUE 24/10 | WED 25/10 | THU 26/10 | FRI 27/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./week-01/lesson-02) |  |
-| 15:15–17:00 | [Introduction to Physical Computing](./week-01/lecture) |  |  |  |  |
+| 15:15–17:00 | [Introduction to Physical Computing](./week-01/lecture) | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./week-01/lesson-02) |  |
 
 </div> 
 
@@ -126,12 +126,12 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 31/10 | TUE 01/11 | WED 02/11 | THU 03/11 | FRI 04/11 |
+| TIME | MON 30/10 | TUE 31/10 | WED 01/11 | THU 02/11 | FRI 03/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
-| 15:15–17:00 | [Alt+Ctrl Games](./week-02/lecture) |  |  |  |  |
+| 15:15–17:00 | [Alt+Ctrl Games](./week-02/lecture) | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
 
 </div> 
 
@@ -139,12 +139,12 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 07/11 | TUE 08/11 | WED 09/11 | THU 10/11 | FRI 11/11 |
+| TIME | MON 06/11 | TUE 07/11 | WED 08/11 | THU 09/11 | FRI 10/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
-| 15:15–17:00 | [Making Things Move](./week-03/lecture)  |  |  |  |  |
+| 15:15–17:00 | [Making Things Move](./week-03/lecture) | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
 
 </div> 
 
@@ -152,12 +152,12 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 14/11 | TUE 15/11 | WED 16/11 | THU 17/11 | FRI 18/11 |
+| TIME | MON 13/11 | TUE 14/11 | WED 15/11 | THU 16/11 | FRI 17/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
-| 15:15–17:00 | [Project Proposal Presentations](./week-04/lecture) |  |  |  |  |
+| 15:15–17:00 | [Project Proposal Presentations](./week-04/lecture) | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
 
 </div> 
 
@@ -165,12 +165,12 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 21/11 | TUE 22/11 | WED 23/11 | THU 24/11 | FRI 25/11 |
+| TIME | MON 20/11 | TUE 21/11 | WED 22/11 | THU 23/11 | FRI 24/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
-| 15:15–17:00 | [Levels of Prototyping](./week-05/lecture) |  |  |  |  |
+| 15:15–17:00 | [Levels of Prototyping](./week-05/lecture) | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
 
 </div> 
 
@@ -178,12 +178,12 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 28/11 | TUE 29/11 | WED 30/11 | THU 01/12 | FRI 02/12 |
+| TIME | MON 27/11 | TUE 28/11 | WED 29/11 | THU 30/11 | FRI 01/12 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
-| 15:15–17:00 | [Digital Fabrication courses](./week-06/lecture) |  |  |  |  |
+| 15:15–17:00 | [Digital Fabrication courses](./week-06/lecture) | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
 
 </div> 
 
@@ -191,11 +191,11 @@ Each week is divided into three classes just like they are divided here on this 
 
 <div class="calendar">
 
-| TIME | MON 05/12 | TUE 06/12 | WED 07/12 | THU 08/12 | FRI 09/12 |
+| TIME | MON 04/12 | TUE 05/12 | WED 06/12 | THU 07/12 | FRI 08/12 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | Project Work | INDEPENDENCE DAY | Project Work | Project Work | Exhibition Setup |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup | Exhibition Setup |
-| 15:15–17:00 | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup | Exhibition opening |
+| 09:15–12:00 | Project Work | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition Setup |
+| 15:15–17:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition opening |
 
 </div> 
