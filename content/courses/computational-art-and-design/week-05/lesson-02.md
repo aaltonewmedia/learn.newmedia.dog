@@ -22,6 +22,7 @@ p5js-widget: true
 - [John Maeda](https://maedastudio.com/)
 - [John Maeda's Blog](https://maeda.pm/)
 - [Design by Numbers](https://mitpress.mit.edu/9780262632447/design-by-numbers/)
+- [The Laws of Simplicity](http://lawsofsimplicity.com/)
 
 ## Functions
 
