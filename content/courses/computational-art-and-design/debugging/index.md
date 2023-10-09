@@ -54,6 +54,10 @@ One of the top perks of choosing this beginner group is that you will get your o
 
 In cases when your duck is not around you, there is an online variety of the duck, [DuckGPT](https://duckgpt.dev/). It is very realistic!
 
+### p5.js Guide to Debugging
+
+There is [a nice illustrated guide available from p5.js on debugging.](https://p5js.org/learn/debugging.html)
+
 ## Matti and Calvin
 
 After you have exhausted all other options (or sometimes earlier), you can come ask help from Matti or Calvin.

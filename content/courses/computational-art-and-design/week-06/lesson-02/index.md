@@ -186,9 +186,9 @@ class Walker{
     fill(this.c);
     noStroke();
     circle(this.x,this.y,this.s);
-		fill(255);
-		textAlign(CENTER);
-		text(this.name,this.x,this.y);
+    fill(255);
+    textAlign(CENTER);
+    text(this.name,this.x,this.y);
   }
 }
 {{</p5js>}}
@@ -232,9 +232,9 @@ class Walker{
     fill(this.c);
     noStroke();
     circle(this.x,this.y,this.s);
-		fill(255);
-		textAlign(CENTER);
-		text(this.name,this.x,this.y);
+    fill(255);
+    textAlign(CENTER);
+    text(this.name,this.x,this.y);
   }
 }
 {{</p5js>}}

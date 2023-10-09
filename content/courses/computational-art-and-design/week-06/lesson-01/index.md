@@ -19,6 +19,12 @@ p5js-widget: true
 
 - [Marshmallow Laser Feast](https://www.marshmallowlaserfeast.com/)
 
+---
+
+{{<hint danger>}}
+**The topic this week can be complex, overwhelming, and confusing at first. Don't be discouraged if you feel that way. Just keep on going. Many of these things will be repeated over and over again and they will slowly get more familiar.**
+{{</hint>}}
+
 ## Objects in JavaScript
 
 Objects are a handy way to **encapsulate** data and functions together. Or to be more precice we can create objects that have:
