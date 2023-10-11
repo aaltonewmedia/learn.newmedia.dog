@@ -72,6 +72,7 @@ Whenever you work with your own code, I recommend that you write it using [the o
 - [Open Processing](https://openprocessing.org/class/86575) (We will also use this today).
 - [CodePen](https://codepen.io/) (Another way to share code. I will show this one later.)
 - [How to setup Visual Studio Code for p5.j5](https://www.youtube.com/watch?v=yJw0SyKO9IU) (This will be the preffered way to work after you get the hang of how things work. I will explain how to do this later.)
+- You can even use the [Processing IDE with the p5.js mode](https://processing.org/)
 
 ### This website
 

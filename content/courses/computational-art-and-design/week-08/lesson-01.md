@@ -32,6 +32,7 @@ There are many options, feel free to explore them and choose the one that you li
 - [Brackets](https://brackets.io/)
 - [Espresso](https://espressoapp.com/) (only for Mac)
 - [Atom](https://github.com/atom/atom) This used to be a great text editor but the developers have now discontinued it.
+- You can even use the [Processing IDE with the p5.js mode](https://processing.org/) as your code editor.
 
 The text editor I recommend to use is Visual Studio Code.
 
@@ -76,6 +77,7 @@ This also demonstrates a simple way for you to share your sketches without using
 
 - [See the W3 tutorials here.](https://www.w3schools.com/js/js_htmldom.asp)
 - [p5.js examples for DOM](https://p5js.org/examples/)
+- [p5.js Tutorial: Beyond the Canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 
 ## p5.js Reference
 
