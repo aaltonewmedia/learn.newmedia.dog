@@ -13,7 +13,9 @@ p5js-widget: true
 
 {{<vimeo 287093890>}}
 
-[Janelle Shane - AI Weirdness](https://www.aiweirdness.com/)
+- [Janelle Shane - AI Weirdness](https://www.aiweirdness.com/)
+
+---
 
 ## Classes in JavaScript
 
@@ -28,19 +30,23 @@ Classes are kind of like cookie cutters that you can use to create multiple cook
 
 This way of using classes is very similar to how they work in Processing and many other programming languages. Therefore, I will generally use classes to create objects during this course. This will help you work with other programming languages that you might use during your studies.
 
+The minimum structure for a class is like this. You come up with a name for your class, and you write the constructor() method.
+
 ```js
 class ClassName {
   constructor() {
-    //
   }
 }
 ```
 
+A simple class called `Dog` could look like this.
+
 ```js
-class Particle {
-  constructor(x, y) {
-    this.x = x;
-    this.y = y;
+class Dog {
+  constructor() {
+    this.name = "Kimchi";
+    this.breed = "Husky";
+    this.age = 5;
   }
 }
 ```
@@ -64,17 +70,17 @@ Classes were added into JavaScript in an update called ES6 in 2015.
 Besides the constructor method, you can create your own methods as well. You write them in the same way as the constructor.
 
 {{<hint info>}}
-Note that you do not need the keyword function in front of the function name. This class has two methods besides the ```constructor()```. They are called ```move()``` and ```draw()```.
+Note that you do not need the keyword function in front of the function name. This class has two methods besides the `constructor()`. They are called `bark()` and `birthday()`.
 
 ```js
-class Walker {
+class Dog {
   constructor(){
     // code here
   }
-  move(){
+  bark(){
     // code here
   }
-  draw(){
+  birthday(){
     // code here
   }
 }
@@ -83,20 +89,21 @@ class Walker {
 
 ### this
 
-A special keyword ```this``` is used with classes and objects. It is used to refer to the object itself. Whan you want to use some property of an object, you need to add ```this```. before the property name.
+A special keyword `this` is used with classes and objects. It is used to refer to the object itself. Whan you want to use some property of an object, you need to add `this`. before the property name.
 
 ```js
-class Walker {
+class Dog {
   constructor(){
-    this.x = 100;
-    this.y = 100;
-    this.s = 25;
+    this.name = "Kimchi";
+    this.breed = "Husky";
+    this.age = 5;
   }
-  move(){
-    // code here
+  bark(){
+    console.log("Bark!");
   }
-  draw(){
-    // code here
+  birthday(){
+    console.log("Happy Birthday!");
+    this.age = this.age + 1;
   }
 }
 ```
@@ -657,11 +664,26 @@ class Particle{
 
 ---
 
-## Homework
+## Homework: Fish Class
 
-No coding homework but add something to our AI collection on the Open Processing site.
+These are the minimum requirements that you should try to fill for this assignment. You will notice that they are a recap of many of the different topics we have covered already in other assignments. This is on purpose for you to recap the things we have learned and also to be able to see how we can start to create more complex programs by breaking the different aspects of it into smaller and more manageable parts.
 
-- Use one or more [text-to-image generators](../lecture)
-- Create some images
-- Choose your favorite (or something that came out interesting)
-- Upload the image embedded inside a p5.js sketch to the [AI collection](https://openprocessing.org/class/86575)
+Create a class called `Fish`. The class should have the following methods:
+
+- `constructor()` This one needs to always be there when using JavaScript classes. Use random() for some of the variables to create a slightly different fish every time you use the class.
+- `swim()` This method animates the fish to move around. You can use the bouncing ball example as the way to move the fish around.
+- `show()` This method displays the fish. Use the 2D shapes to draw the fish.
+
+Then make an array that uses the Fish class to draw multiple fish on the canvas.
+
+### Extra challenge
+
+If the basic requirements are too easy or you want to challenge yourself, consider adding some of these features:
+
+- interaction with the keyboard and/or mouse
+- sound effects
+- interaction with the sound input
+- more complex animation for the fish (rotations, randomness etc.)
+- Use layers of .png images as the fish and animate them like a cut-out animation
+- Import a 3D object as the fish
+- Anything else you can think of!

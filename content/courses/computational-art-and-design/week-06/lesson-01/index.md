@@ -35,7 +35,119 @@ Objects are a handy way to **encapsulate** data and functions together. Or to be
 
 [Take a look at the Objects tutorial from W3 School.](https://www.w3schools.com/js/js_objects.asp)
 
-We could create and object called `walker` that stores all the properties we need for a random walker that we have coded many times before in the class.
+### Objects VS Arrays?
+
+Arrays store multiple ***values***, objects also store multiple ***values***.
+
+The difference is that in objects, each ***value*** also has a unique ***name***. The data in an object is stored as ***name:value*** pairs. These are very similar to how we have understood **variables**, but they exist inside the object.
+
+```js
+// these are arrays:
+let x = [100,10,20,58];
+let names = ["Matti", "Maija", "Hermanni"];
+// note that arrays can also contain different types of data
+let stuff = ["book", 99, true];
+
+// these are objects:
+let dog = {name:"Kimchi", breed: "Husky", age: 5};
+let person = {name: "Matti", age: 21, liar: true};
+```
+
+{{<hint info>}}
+You recognize arrays in JavaScript from the square brackets `[ ]`  
+Objects have curly brackets `{ }`
+{{</hint>}}
+
+### Properties
+
+These variables or **name:value** pairs inside objects are called ***properties***.
+
+```js
+let dog = {name:"Kimchi", breed: "Husky", age: 5};
+```
+
+You can also write it like this. Linebreaks and spaces do not matter. It might be easier to read this way.
+
+```js
+let dog = {
+  name:"Kimchi",
+  breed: "Husky",
+  age: 5
+};
+```
+
+This creates a table like this:
+
+| Property | Property Value |
+| -- | -- |
+| name | "Kimchi" |
+| breed | "Husky" |
+| age | 5 |
+
+Accessing the properties of the object can be done using the dot syntax:
+
+```js
+objectName.propertyName
+```
+
+In our case
+
+```js
+console.log(dog.name);
+```
+
+You can change the values of the properties like you would any other variable:
+
+```js
+// Happy birthday!
+dog.age = dog.age + 1;
+```
+
+You can also add more properties to an object:
+
+```js
+dog.eyeColor = "blue";
+```
+
+### Methods
+
+Dogs have properties, but they also have some type of behaviors, such as **bark**, **eat**, **run**. Objects can also have behaviors, or **functions** encapsulated inside the object. When a **function** is inside an object it is called a **method**. Here we create a **method** called `bark()`.
+
+```js
+let dog = {
+  breed: "Husky",
+  name:"Kimchi",
+  age: 5,
+  bark: function(){
+    console.log("Bark!");
+  }
+};
+```
+
+You call the method like this:
+```js
+  dog.bark();
+```
+
+
+### const
+
+{{<hint warning>}}
+It is recommended to use `const` when you define and create an object (just like with arrays). But I will generally just use `let` in this class to keep things simple.
+
+```js
+const names = ["Matti", "Maija", "Hermanni"];
+const dog = {name:"Kimchi", breed: "Husky",  age: 5};
+```
+
+[You can learn more about const here.](https://www.w3schools.com/js/js_const.asp)
+{{</hint>}}
+
+---
+
+## Walker Object
+
+Let's try doing this again with a familiar example. We could create an object called `walker` that stores all the properties we need for a random walker that we have coded many times before in the class.
 
 ```js
 let walker = {x: 100, y: 100, s: 50, c: 255, name: "Matti"};
@@ -65,7 +177,7 @@ In our case
 walker.x
 ```
 
-Then we can use these properties of the object in out code. For example, we can create two functions: ```moveWalker()``` and ```drawWalker()```.
+Then we can use these properties of the object in our code. For example, we can create two functions: ```moveWalker()``` and ```drawWalker()```.
 
 ```js
 function moveWalker() {
@@ -113,25 +225,9 @@ function drawWalker() {
 }
 {{</p5js>}}
 
-{{<hint warning>}}
-It is recommended to use ```const``` when you define and create an object. But I will generally just use ```let``` in this class to keep things simple.
+### Walker methods
 
-```js
-const walker = {
-  x: 100,
-  y: 100,
-  s: 50,
-  c: 255,
-  name: "Matti",
-};
-```
-
-[You can learn more about const here.](https://www.w3schools.com/js/js_const.asp)
-{{</hint>}}
-
-### Methods
-
-In JavaScript we could also have **functions** encapsulated inside the objects, which is a very common way to use objects in JavaScript. Functions that are part of objects are called **methods**.
+As we learned above, we can move these functions to be part of the object itself by creating methods inside the objects.
 
 ```js
 let walker = {
@@ -191,9 +287,11 @@ JavaScript has multiple ways to do many things, including how to work with objec
 
 ---
 
-## Examples
+## More objects?
 
-[Jump to the next lesson to see the examples we did in class about classes.](../lesson-02)
+When we create objects this way, we can only create one object at a time. What if we would like to make lots of walker objects with slighly different values for the properties like we have done previously with multiple arrays for each variable? Seems like it would be very complicated or impossible to do this with objects? That is where ***classes*** come into play!
+
+[Jump to the next lesson to learn about classes.](../lesson-02)
 
 ---
 
