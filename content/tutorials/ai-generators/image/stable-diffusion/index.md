@@ -53,7 +53,7 @@ A browser interface based on Gradio library for Stable Diffusion. IT is the most
 The general installation guide and repo is here [Automatic 1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 {{<hint warning>}}
-The following are instructions for windows, for other operating systems, please refer to the [Automatic 1111 on MAC](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon) and [Automatic 1111 on Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux)
+The following are instructions for windows, for other operating systems, please refer to the [Automatic 1111 on Mac](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon) and [Automatic 1111 on Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux).
 {{</hint>}}
 
 In order to install Automatic 1111 on a PC, there are some requirements that you need to satisfy first. Make sure you have python 3.8 or higher installed, and Git. If you dont have those, please install them first. You can get them from the following links:
@@ -74,7 +74,7 @@ This wil create a folder called sd-webui. Now browse to that folder and open the
 You can create a shortcut to the webui-user.bat file and place it on your desktop for easy access.
 {{</hint>}}
 
-```
+---
 
 ## Prompt Engineering
 
@@ -92,6 +92,8 @@ You can create a shortcut to the webui-user.bat file and place it on your deskto
 
 ### Upscaling
 
+---
+
 ## Models
 
 ### SD 1.5
@@ -108,11 +110,17 @@ You can create a shortcut to the webui-user.bat file and place it on your deskto
 
 ### Merging
 
+---
+
 ## Extensions
+
+---
 
 ## ControlNet
 
 ### Models
+
+---
 
 ## Animation
 
@@ -122,14 +130,17 @@ You can create a shortcut to the webui-user.bat file and place it on your deskto
 
 ### AnimateDiff
 
+---
+
 ## API
 
 ### Setup
 
 ### Touchdesigner
 
+---
+
 ## Other Resources
 
 - Stable Diffusion
 - [ControlNet](https://arxiv.org/abs/2302.05543)
-```
