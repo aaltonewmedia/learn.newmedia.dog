@@ -1,14 +1,14 @@
 ---
 title: Craiyon
 weight: 30
-draft: false
+draft: true
 ---
 
 # Craiyon / Dall-e mini
 
 ---
 
-*by Calvin Guillot*
+_by Calvin Guillot_
 
 ---
 

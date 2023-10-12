@@ -4,9 +4,9 @@ bookCollapseSection: true
 draft: false
 ---
 
-*by Calvin Guillot*
+_by Calvin Guillot_
 
----
+<!-- ---
 Here you can find several tutorials an examples on how to understand and work with AI text to image generation.
 
 ... In construction 🏗️ ...
@@ -27,7 +27,7 @@ https://promptomania.com/prompt-builder/
 
 - links to the diffusion papers and breif explanation
 
-## Tips and Tricks
+## Tips and Tricks -->
 
 <!-- {{< hint danger >}}
 {{</ hint >}}
@@ -35,7 +35,7 @@ https://promptomania.com/prompt-builder/
 {{< hint info >}}
 {{</ hint >}} -->
 
-### Biases and Censorship
+<!-- ### Biases and Censorship
 
 - links to papers
 
@@ -45,11 +45,11 @@ https://www.reddit.com/r/dalle2/comments/well7v/midjourney_vs_dallee_vs_disco_di
 
 ### The importance of keywords
 
-https://www.reddit.com/r/dalle2/comments/waax7p/realistic_and_photorealistic_keywords_give/
+https://www.reddit.com/r/dalle2/comments/waax7p/realistic_and_photorealistic_keywords_give/ -->
 
 ---
 
-## Resources
+<!-- ## Resources
 
 https://analyticsindiamag.com/diffusion-models-vs-gans-which-one-to-choose-for-image-synthesis/
 
@@ -59,4 +59,4 @@ https://www.theverge.com/2022/8/2/23287173/ai-image-generation-art-midjourney-mu
 
 https://www.theregister.com/2022/08/01/david_holz_midjourney/
 
-https://www.youtube.com/watch?v=af6WPqvzjjk&ab_channel=YannicKilcher
+https://www.youtube.com/watch?v=af6WPqvzjjk&ab_channel=YannicKilcher -->

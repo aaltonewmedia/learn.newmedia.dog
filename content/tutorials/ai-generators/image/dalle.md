@@ -1,14 +1,14 @@
 ---
 title: Dall-E 2
 weight: 10
-draft: false
+draft: true
 ---
 
 # OpenAI Dall-E 2
 
 ---
 
-*by Calvin Guillot*
+_by Calvin Guillot_
 
 ---
 

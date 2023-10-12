@@ -1,14 +1,14 @@
 ---
 title: Stability AI
 weight: 25
-draft: false
+draft: true
 ---
 
 # Stability AI
 
 ---
 
-*by Calvin Guillot*
+_by Calvin Guillot_
 
 ---
 

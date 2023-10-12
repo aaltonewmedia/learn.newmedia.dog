@@ -1,7 +1,7 @@
 ---
 title: Blockade Labs
 bookCollapseSection: false
-draft: false
+draft: true
 ---
 
 # Blockade Labs

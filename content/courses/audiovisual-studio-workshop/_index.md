@@ -11,6 +11,7 @@ draft: false
 
 - [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=40047)
 - [Sisu 2023](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932525-20220801/completion-methods)
+- [AI Generator: Stable Diffusion](../../tutorials/ai-generators/image/stable-diffusion)
 
 ### Monday | 16/10/2023
 
@@ -32,11 +33,12 @@ draft: false
 
 ### Wednesday | 18/10/2023 (Calvin Guillot)
 
-- 09.15–10:00 TBA
-- 10:15–11:00 TBA
-- 11:15–12:00 TBA
+- 09.15–10:00 Introduction to AI Generators
+- 10:15–11:00 Models and Prompts
+- 11:15–12:00 Scripts #1
 - 12:00–13:00 Lunch
-- 13:00–15:00 TBA
+- 13:00–15:00 Scripts #2 and Animation
+- 14:00–16:00 Touchdesigner and AI
 - 16:00–17:00 Screening
 
 ### Thursday | 19/10/2023
@@ -46,7 +48,7 @@ draft: false
 - 13:00–15:00 Project work
 - 16:00–17:00 Screening
 
-### Friday |  20/10/2023
+### Friday | 20/10/2023
 
 - 09.15–12:00 Project work
 - 12:00–13:00 Lunch

@@ -1,14 +1,14 @@
 ---
 title: Midjourney
 weight: 20
-draft: false
+draft: true
 ---
 
 # Midjourney
 
 ---
 
-*by Calvin Guillot*
+_by Calvin Guillot_
 
 ---
 
