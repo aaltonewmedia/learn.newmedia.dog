@@ -1,7 +1,7 @@
 ---
 title: Opportunities
 p5js-widget: true
-draft: false
+draft: true
 ---
 
 # Opportunities

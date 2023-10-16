@@ -17,7 +17,7 @@ What is this workshop about? What are we going to do? What am I expecting you to
 
 ## The Timeline of AV Art
 
-I have been slowly compiling a timeline of Audiovisual Art here on this site. During this workshop, we are going to go through a selection of some key moments from this timeline. Today, we are going to focus on the time
+I have been slowly compiling [a timeline of Audiovisual Art here on this site]({{<ref "/resources/av-timeline">}} "AV Timeline"). During this workshop, we are going to go through a selection of some key moments from this timeline. Today, we are going to focus on the time between 1600-1900. Time when magic lantern shows and phantasmagorias were the places where artists were experimenting with projected light.
 
 ### Richard Balzer
 
@@ -59,10 +59,6 @@ We are going to build a project that simulates the operation of a magic lantern 
 
 [Download the files we need.](https://learn.newmedia.dog/images/examples/chromatrope.zip)
 
-## Video tutorials
-
-If you missed something during the class, [you can check out this series of videos I recorded that go through building the entire process.]( {{< ref "/tutorials/touchdesigner/chromatrope" >}} "Chromatrope Video Tutorials")
-
 ### Learning outcomes
 
 After this session, you should be able to:
@@ -71,3 +67,7 @@ After this session, you should be able to:
 - combine multiple compositing steps for more complex image processing
 - create simple interactions with keyboard input
 - use simple audio-reactivity to drive animations
+
+### Video tutorials
+
+If you missed something during the class, [you can check out this series of videos I recorded that go through building the entire process.]( {{< ref "/tutorials/touchdesigner/chromatrope" >}} "Chromatrope Video Tutorials")
