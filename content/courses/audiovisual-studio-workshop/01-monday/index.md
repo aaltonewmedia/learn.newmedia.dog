@@ -49,13 +49,15 @@ After this session, you should be able to:
 
 If you missed something in class or just need to recap on these basic topics, [go through the tutorials from Derivative, the company that makes TouchDesigner.](https://learn.derivative.ca/courses/100-fundamentals/)
 
-We are going to need one specific image file today. [Download it here (rigt-click and save as).](./files/thomas-mann-baynes-rat.jpg)
+We are going to need one specific image file today. [Download it here (right-click and save as).](./files/thomas-mann-baynes-rat.jpg)
 
 ---
 
 ## 1st Project: Chromatrope
 
 We are going to build a project that simulates the operation of a magic lantern Chromatrope slide.
+
+[Download the files we need.](https://learn.newmedia.dog/images/examples/chromatrope.zip)
 
 ## Video tutorials
 
