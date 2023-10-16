@@ -5,21 +5,41 @@ weight: 40
 draft: false
 ---
 
-## Schedule: Autumn 2023
-
 ## Links
 
 - [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=40047)
 - [Sisu 2023](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932525-20220801/completion-methods)
 - [AI Generator: Stable Diffusion](../../tutorials/ai-generators/image/stable-diffusion)
 
+### Tools, tutorials and resources
+
+- [Derivative (TouchDesigner)](https://derivative.ca/)
+- [TouchDesigner Tutorials]({{<ref "/tutorials/touchdesigner">}} "TD Tutorials")
+
+### Archive materials
+
+- [archive.org Moving Image Archive](https://archive.org/details/movies)
+  - [Prelinger Archives](https://archive.org/details/prelinger)
+  - [Ephemeral Films](https://archive.org/details/ephemera)
+
+## Schedule: Autumn 2023
+
+{{<hint info>}}
+All classes are in room H003 at Väre.  
+This is a computer classroom in the G floor that is a little bit hidden. You can access it either through the Mechatronics workshop (G014) or the Laser Cutter/Plastics room (H001).
+
+We also use the Screening Room H005 in the afternoons.
+{{</hint>}}
+
 ### Monday | 16/10/2023
+
+[Detailed materials for Monday](./01-monday/)
 
 - 09.15–10:00 Introduction
 - 10:15–11:00 Timeline of AV Art #1
 - 11:15–12:00 Introduction to TouchDesigner
 - 12:00–13:00 Lunch
-- 13:00–15:00 Building a VJ Tool - Realtime image processing
+- 13:00–15:00 Building a Chromatrope
 - 16:00–17:00 Screening
 
 ### Tuesday | 17/10/2023
@@ -29,7 +49,7 @@ draft: false
 - 11:15–12:00 Visualizing Sound #1
 - 12:00–13:00 Lunch
 - 13:00–15:00 Visualizing Sound #2
-- 16:00–17:00 Screening
+- 16:00–17:00 Visit to the IglooVision 360° space at Aalto Studios (Otakaari 7)
 
 ### Wednesday | 18/10/2023 (Calvin Guillot)
 

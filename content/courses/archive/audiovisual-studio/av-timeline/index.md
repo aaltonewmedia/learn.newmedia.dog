@@ -18,16 +18,21 @@ It is also important to note that most of this list is compiled from the perspec
 
 ## 1700s
 
-- [1725, Louis Bertrand Castel, The Ocular Harpsichord (Clavecin pour les yeux)](https://en.wikipedia.org/wiki/Louis_Bertrand_Castel)
+- 1725, [Louis Bertrand Castel, The Ocular Harpsichord (Clavecin pour les yeux)](https://en.wikipedia.org/wiki/Louis_Bertrand_Castel)
+- 1780s, [Paul Philidor/Paul de Philipsthal, Phantasmagoria shows](https://en.wikipedia.org/wiki/Paul_Philidor)
+- 1797, [Étienne-Gaspard Robert (Robertson), Fantasmagorie](https://en.wikipedia.org/wiki/%C3%89tienne-Gaspard_Robert)
+
 
 ## 1800s
 
-- [1825, Thaumatrope](https://en.wikipedia.org/wiki/Thaumatrope)
-- [1833, Phenakistiscope](https://en.wikipedia.org/wiki/Phenakistiscope)
-- [1834, Zoetrope](https://en.wikipedia.org/wiki/Zoetrope)
-- [1877, Praxinoscope](https://en.wikipedia.org/wiki/Praxinoscope)
-- [1879, Zoopraxinoscope](https://en.wikipedia.org/wiki/Zoopraxiscope)
-- [1891, Kinetoscope](https://en.wikipedia.org/wiki/Kinetoscope)
+- 1815, [Kaleidoscope, Sir David Brewster](https://archive.org/details/b29295440/page/176/mode/2up)
+- 1825, [Thaumatrope](https://en.wikipedia.org/wiki/Thaumatrope)
+- 1833, [Phenakistiscope/Phantasmascope/Fantascope](https://en.wikipedia.org/wiki/Phenakistiscope)
+    - 1833, Thomas Mann Baynes - Fantascope (rats)
+- 1834, [Zoetrope](https://en.wikipedia.org/wiki/Zoetrope)
+- 1877, [Praxinoscope](https://en.wikipedia.org/wiki/Praxinoscope)
+- 1879, [Zoopraxinoscope](https://en.wikipedia.org/wiki/Zoopraxiscope)
+- 1891, [Kinetoscope](https://en.wikipedia.org/wiki/Kinetoscope)
 
 ## 1900-1919
 
