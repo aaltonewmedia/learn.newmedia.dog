@@ -262,7 +262,7 @@ Under Seed field we can find some script tabs. Depending on the extension that w
 
 ### Img2Img
 
-This is a method that uses the diffusion process to generate new a image from an input image and text prompt. The output image will follow the color and composition of the input image.
+This is a method that uses the diffusion process to generate new a image from an input image and text prompt i.e., image translation. The output image will follow the color and composition of the input image.
 
 We can drag and drop any image into the img2img field, or we can send an image that we generated from the txt2img tab to the img2img tab by using the "send to img2img" button under the resulting image in the txt2img tab.
 
@@ -293,12 +293,29 @@ You can find more information about the img2img process here:
 - [How to use img2img](https://stable-diffusion-art.com/how-to-use-img2img-to-turn-an-amateur-drawing-to-professional-with-stable-diffusion-image-to-image/)
 - [img2img in Stable Diffusion (Step-by-Step)](https://www.greataiprompts.com/guide/how-to-use-img2img-in-stable-diffusion/)
 
+The last tab in the terciary group of tabs is the **Batch Tab**. Here we can upload a directory containing images and then generate new images from them. We can also use the same prompt for all the images, or we can use a different prompt for each image. We can also use the same seed for all the images, or we can use a different seed for each image. To achieve this we can use the script tab.
+
 ### Inpainting
 
-[![Lulo inpaint](/images/tutorials/ai/lulo_inpaint.jpg)](/images/tutorials/ai/lulo_img2img_2.jpg)
+Similar to the img2img process, the inpainting method translates a part of an image into another image. This method is useful in the cases where our images have defects or we want to replace parts of itIn this case we use a brush to mask the area that we want to be replaced. Likewise we can send our images from the txt2img tab or even from the img2img to the inpainting tab by using the "send to inpainting" button under the resulting image.
 
-painting
-latent space
+Many of the parameters, fields, and configurations are the same as img2img, thus they will not mentioned here again. The main difference is that we have a mask and the choice to fill the mask space with different things.
+
+We paint into the image using the brush tool. to change the size or delete our strokes, we can use the buttons on the top right corner of the input image field. To remove the image we can click the "x" near the aforementioned buttons, and simply drag and drop another one.
+
+The main parameters for inpainting are:
+
+- **Mask blur**: This controls how much the mask edges will be blur before the inpainting process.
+
+- **Mask mode**: We can choose if we mask what is inside the mask or outside the mask.
+
+- **Mask content**: If we pick fill, the area will be filled with the colours of the image; if we pick original, a new diffusion porcess will be performed; if we pick latent noise, the area will be filled with the noise of the image; if we pick latent nothing the area will be filled with zeros(black).
+
+- **Inpaint area**: here we can choose if the mask will be filled with the "awareness" of the whole image or just what is within the masked area.
+
+An example of the inpainting process can be seen below.
+
+[![Lulo inpaint](/images/tutorials/ai/lulo_inpaint.jpg)](/images/tutorials/ai/lulo_img2img_2.jpg)
 
 You can find more information about inpainting process here:
 
