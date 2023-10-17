@@ -9,7 +9,6 @@ draft: false
 
 - [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=40047)
 - [Sisu 2023](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932525-20220801/completion-methods)
-- [AI Generator: Stable Diffusion](../../tutorials/ai-generators/image/stable-diffusion)
 
 ### Tools, tutorials and resources
 

@@ -17,41 +17,56 @@ draft: false
 
 ## Introduction
 
-Stable Diffusion is a latent text-to-image diffusion that uses machine learning to generate images. It was developed by StabilityAI and several research institutions, and released in 2022.
+Stable Diffusion is a latent text-to-image diffusion that uses machine learning to generate images. It was developed by StabilityAI in collaboration with several research institutions and was released in 2022. Stable Diffusion is open-source and can be used for free.
 
-It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations , animations, videos and imge-to-audio transformations.
+It is primarily used to generate detailed images conditioned on text descriptions. However, it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations, animations, videos, and image-to-audio transformations.
 
 [![Difussion Process 1](/images/tutorials/ai/sd_process_1.png)](/images/tutorials/ai/sd_process_1.png)
 
-It works by by diffusing noise over a series of steps. The model uses a text encoder to encode the input text into a latent space (representation of data), which is then used to generate the image, by reversing the a initial noise or "diffusing" an image. Different noise decoders (samplers) produce different results, which can achive different aestehtic goals. This is different than a more traditional GAN approach(which involves two networks competing against eachother), beacuse the process is faster and yiled more accurate results.
+It works by diffusing noise over a series of steps. The model uses a text encoder to encode the input text into a latent space (representation of data), which is then used to generate the image by reversing the initial noise or "diffusing" an image. Different noise decoders (samplers) produce different results, which can achieve various aesthetic goals. This differs from a more traditional GAN approach (which involves two networks competing against each other) because the process is faster and yields more accurate results.
 
-The process works with noise seeds, not unlike generaative art systems, whica can be used to "lock" the latetn space in order to procude consistent results. This is useful for animation, where the same seed can be used to generate a sequence of images.
+The process works with noise seeds, similar to generative art systems, which can be used to "lock" the latent space in order to produce consistent results. This is useful for animation, where the same seed can be used to generate a sequence of images.
 
 [![Difussion Process 2](/images/tutorials/ai/sd_process_2.jpg)](/images/tutorials/ai/sd_process_2.jpg)
 
-Similarly, the diffusion porcess can be trained. This is useful for generating images that are consistent with a given text description, or for generating images that are consistent with a given set of images, that have not been previously enconded in to the model. Different models contain different knowledge, and can be used to generate different results.
+Similarly, the diffusion process can be trained. This is useful for generating images that are consistent with a given text description or for generating images that are consistent with a set of images that have not been previously encoded into the model. Different models contain different knowledge and can be used to generate varied results.
 
-Stable Diffusion is open-source and can be used for free.
+More information about Stable Diffusion and how it works can be found here:
 
 - [Stable Diffusion Original Release](https://github.com/CompVis/stable-diffusion)
 - [Latent Diffusion Models](https://github.com/CompVis/latent-diffusion)
 - [Diffusion vs GANs](https://developer.nvidia.com/blog/improving-diffusion-models-as-an-alternative-to-gans-part-1/)
 - [How Diffusion Models Work](https://theaisummer.com/diffusion-models/)
+- [How Stable Diffusion Works](https://stable-diffusion-art.com/how-stable-diffusion-work/)
 - [Stability AI](https://stability.ai/)
+
+---
+
+## Note on Ethics
+
+Stable Diffusion, is a breakthrough in generative AI. This tool offers potentially anyone, revolutionary tool to visualize concepts, create new pieces of art, animations, and many more possiblities in many differenct sectors.However, its power also comes with ethical challenges. While it can catalyze creativity, there's potential for misuse in creating harmful or misleading content.
+
+The developers and researches expect that the individuals that use Stable Diffusion can understand the potential consequences of their actions and make informed decisions. However, it's essential to remember that not everyone will approach this technology with the same level of prudence. Hence, it's imperative for users to be conscious of their actions and the content they generate.As we embrace this addition to the AI-generated media landscape, it's crucial to approach its use with responsibility, ensuring that technological advancements align with societal values and safety.
 
 ---
 
 ## Installation
 
-The base configuration of Stable Diffusion is meant to be modular, open-source and easy to use, and it can be extended with additional models and features. This is why there is several solutions that have been build on top of the base Stable Diffusion code. This tutorial will focus on Automatic 1111, but you can find more information about other open-source solutions on the links below.
+The base configuration of Stable Diffusion is designed to be modular, open-source, and user-friendly. It can be further extended with additional models and features. This has led to the development of several solutions built on top of the base Stable Diffusion code.
+
+This tutorial will focus on Automatic 1111 on windows. More information about other open-source solutions, and how to run Stable Diffusion in other operating systems can be found in the links provided below:
 
 - [Invoke AI](https://invoke.ai/)
 - [Vladmandic](https://github.com/vladmandic/automatic)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+- [Diffusion Bee for MacOS](https://diffusionbee.com/)
+- [Auto1111 for Mac](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)
+- [Diffusion Solutions for MacOS](https://stable-diffusion-art.com/install-mac/)
+- [Auto1111 for Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux)
 
-### Automatic 1111
+### Automatic 1111 on Windows
 
-A browser interface based on Gradio library for Stable Diffusion. IT is the most popular and extendable solution for Stable Diffusion. Automatic 1111 has hundreds of extensions and a large community of users, that are constantly developing new models and features.
+Automatic 1111 is a browser interface based on Gradio library for Stable Diffusion. It is the most popular and extendable solution for Stable Diffusion. Automatic 1111 has hundreds of extensions and a large community of users, that are constantly developing new models and features.
 
 The general installation guide and repo is here [Automatic 1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 
@@ -59,46 +74,68 @@ The general installation guide and repo is here [Automatic 1111](https://github.
 The following are instructions for windows, for other operating systems, please refer to the [Automatic 1111 on Mac](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon) and [Automatic 1111 on Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux).
 {{</hint>}}
 
-In order to install Automatic 1111 on a PC, there are some requirements that you need to satisfy first. Make sure you have python 3.8 or higher installed, and Git. If you dont have those, please install them first. You can get them from the following links:
+To install Automatic 1111 on a PC, there are certain prerequisites. Ensure you have Python 3.8 or higher and Git installed. If you don't have these, please install them first. You can obtain them from the following links:
 
 - [Python](https://www.python.org/downloads/release/python-3106/)
 - [Git](https://git-scm.com/download/win)
 
-Now first browse to your desired folder, open the terminal in that folder (by typing cmd on the address bar in the explorer), and then clone the repository by typing the following command:
+Then, rowse to your desired folder, open the terminal in that folder (by typing cmd on the address bar in the explorer), and then clone the repository by typing the following command:
 
 ```
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 
 ```
 
-This wil create a folder called sd-webui. Now browse into that folder and open the file called webui-user.bat. Now the system should start.
+This wil create a folder called stable-diffusion-webui. Now browse into that folder and open the file called:
+
+```
+webui-user.bat
+```
+
+Now the system should start.
 
 {{<hint info>}}
-You can create a shortcut to the webui-user.bat file and place it on your desktop for easy access.
+You can create a shortcut to the webui-user.bat file and place it on your desktop for easy access. More info [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5314#discussioncomment-4296394).
 {{</hint>}}
+
+### Audiovisual Studio Workshop
+
+Automatic 1111 is installed on the computers in the room H003 in the Väre buidling. You do not need to install anything in these computers.
+
+To start the program browse to the folder below and open the file called `webui-user.bat`:
+
+```
+C:\Programs\automatic1111\stable-diffusion-webui
+```
+
+The outputs are in the root folder of the program:
+
+```
+stable-diffusion-webui\outputs
+```
 
 ---
 
 ## Prompt Engineering
 
-The underlying sytem that understands the text that we input into Stable Diffusion is called CLIP. [CLIP](https://openai.com/research/clip) is a neural network that has been trained to understand text and images. It is a very powerful system, but it is also very sensitive to the way we write our prompts. This is why we need to learn how to write prompts that will produce the results that we want.
+The underlying system that interprets the text input into Stable Diffusion is named CLIP. . [CLIP](https://openai.com/research/clip) is a neural network trained to understand both text and images. It's an incredibly potent system but is sensitive to the phrasing of our prompts. Concepts are often separated by commas, and the system attempts to generate an image encompassing all these concepts. Sometimes, these are referred to as tokens. Hence, it's crucial to craft prompts that will yield the desired results.
 
-This meand that the descriptions have to be tailored in a way that the system can understand them. This is not always easy, and it requires some practice. The following are some tips that can help you write better prompts.
+This means that descriptions must be tailored in a manner that the system comprehends. Achieving this isn't always straightforward and demands practice. Here are some tips to help you craft effective prompts:
 
-- Be as descriptive and declarative as possible
-- Use simple language in short sentences
-- Having a really long prompt will hinder the results because the will start converging
-- You can use text weight to accetuate the "importance of a word" in the prompt
-- You can use negative prompt to steering the generation away from concepts
+- Be as descriptive and direct as possible.
+- Use simple language and concise sentences.
+- Overly lengthy prompts can compromise results as they might start converging.
+- Use text weight to emphasize the "importance of a word" in the prompt.
+- Employ negative prompts to steer the generation away from certain concepts.
 
 {{<hint info>}}
-Use parenthesis to increase the importance example: (dog), ((dog)). (((dog))). Each parenthsis increaseis the importance of that work by 1.1 times
-Use bracket to reduce the importance of a word example: [dog], [[dog]], [[[dog]]]. Each bracket reduces the importance of that word by 0.9 times
-Similarly you can just assing the importance of the word directly as a number example: (dog:1.5), (dog:0.5)
+Use parentheses to increase the importance, for example: (dog), ((dog)), (((dog))). Each parenthesis increases the importance of that word by 1.1 times.
+Use brackets to decrease the importance, for example: [dog], [[dog]], [[[dog]]]. Each bracket diminishes the importance of that word by 0.9 times.
+Alternatively, you can assign the importance of the word directly using a number, for example: (dog:1.5), (dog:0.5).
 {{</hint>}}
 
 {{<hint warning>}}
-In Autoamtic 1111 and other solutions there is always two boxes for propmting. One for the "normal" or positive prompt and one for the negative prompt.
+In Automatic 1111 and similar solutions, there are always two boxes for prompting: one for the "normal" or positive prompt and another for the negative prompt.
 {{</hint>}}
 
 An example of a good prompt would be:
@@ -122,8 +159,6 @@ negative: cartoon, drawing, sketch, illustration, 2 dogs, deformed
 
 [![Prompt Differences1](/images/tutorials/ai/lulos_diff.png)](/images/tutorials/ai/lulos_diff.png)
 
-<!-- Concepts are often separted by commas, and the system will try to generate an image that contains all of the concepts. Someties these are also called tokens. -->
-
 You can find more detailed information about prompt engineering here:
 
 - [Stable Diffusion Prompt Guide for Beginners](https://aituts.com/stable-diffusion-prompts/)
@@ -140,72 +175,161 @@ We could also query ChatGPT or Bing Chat (which is more up-to-date) about the pr
 
 [![Main Interface](/images/tutorials/ai/interface_basic.png)](/images/tutorials/ai/interface_basic.png)
 
-<!-- model loader
-input prompt
-generate button with ulnimeted -->
+### General
+
+The following are the basic fields and button that are found on the top of the interface:
+
+- **Model**: Select the model you want to use. The default model is SD 1.5 (it could have another name in your machine), which is the base model released by Stability AI. However, there are other models that can be used for different purposes. You can click the reload button to refresh the list of models.
+
+- **Prompt**: The text prompt that will be used to generate the image.
+
+- **Negative Prompt**: The negative prompt that will be used to steer the diffusion process away from certain concepts.
+
+- **Generate**: This button will start the diffusion process. The process will take some time, depending on the model and the parameters used, and on the hardware in your machine.
+
+{{<hint info>}}
+if you right-click the Generate button you can get some extra options, like generate forever.
+{{</hint>}}
+
+- **Interrupt**: You can click this button to stop the process.
+
+The buttons under the Generate buttun are useful to save your prompts, which can then be reused later. These are called styles in Automatic 1111You can also load prompts from a file. Styles allow you to add custom text to prompt. Use the {prompt} token in style text, and it will be replaced with user's prompt when applying style. Otherwise, style's text will be added to the end of the prompt.
+
+The tabs serve different purposes. The main tabs are txt2img, img2img, Extras, Settings and Extensions. Each of these tabs has different parameters and options.
+
+You can only execute 1 process at at time. That meas that if you generate a new iamge from the txt2img tab, you cannot do any other process in the meantime.
+
+All the outputs by default are saved in the `stable-diffusion-webui\outputs` folder. You can change this in the settings tab.
 
 ### Txt2Img
 
-<!-- samplimen methods IMG HERE
-steps (PUT IMAGE HERE)
+The txt2img tab is used to generate images from text. The following are the fields and buttons that are found in this tab:
+
+- **Sampling Method**: To produce an image, Stable Diffusion first generates a completely random noisy image in the latent space. The noise predictor then estimates the noise of the image. The predicted noise is subtracted from the image. This process is repeated a dozen times. In the end, you get a clean image. This denoising process is called sampling because Stable Diffusion generates a new sample image in each step. The functions used in sampling is called the sampler or sampling method. You can change the method using the drop-down menu.
+
+[![Difussion Process 3](/images/tutorials/ai/sd_process_4.png)](/images/tutorials/ai/sd_process_4.png)
+
+{{<hint info>}}
+More information about sampling can be found [here](https://stable-diffusion-art.com/samplers/). It is recommended to experiment with different methods because come can produce better results, others can converge faster, meaning the process needs less steps and some can be used to generate more reproducbile results.
+{{</hint>}}
+
+- **Steps**: The number of steps that will be used to generate the image. The more steps, the more time it will take to generate the image. As a rule of thumb, 20-30 steps is a good number to start with. Less than that and the image will be noisy, more than that and the image will be too overdone or oversharpened. You can also use the slider to change the number of steps. Different samplers will require different number of steps to produce good results.
+
+An example of the relationship between the number of steps and the quality of the image can be seen below:
+
+[![Difussion Process 3](/images/tutorials/ai/lulo_grid_samplers.jpg)](/images/tutorials/ai/lulo_grid_samplers.jpg)
+
+- **Width**: The width of the image that will be generated. The default value is 512px because the training set dor the diffuison process was originally 512px by 512px. You can change this value using the slider, but we ware that the larger the image, the more time it will take to generate it.
+
+- **Height**: The height of the image that will be generated. You can change this value using the slider, but we ware that the larger the image, the more time it will take to generate it.
+
+{{<hint warning>}}
+Because of the nature of the training (512x512), the diffusion process could start to lose coherence if the ratio of the images is not square, or if the dimmensions are too big. There are solutions to this such as the Hires.fix and upscalling (mentioned below). Recently, this lack of cohesion can be solved using different models and the new SDXL. Because the training of those models was done with different image sizes.
+{{</hint>}}
+
+The image below showcases the cohesion problem. The prompt was `a sheltie sleeping on a cloud` with dimensions `width:952, height:784`. On the left we have a generation with the standard model, and on the right we have a generation with a newer model.
+
+[![Difussion Process 3](/images/tutorials/ai/lulo_cohesion.png)](/images/tutorials/ai/lulo_cohesion.png)
+
+- **Batch Count**: The number of times that this configuration of the diffusion process will be executed.
+
+- **Batch Size**: This is the number of images within one batch.
+
+- **CFG**:
+
+[![Difussion Process 3](/images/tutorials/ai/lulo_cfg.jpg)](/images/tutorials/ai/lulo_cfg.jpg)
+
+- **Seed**: The seed that will be used to generate the image. This is a number that will be used to "lock" the latent space in order to produce consistent results. This is useful for animation, where the same seed can be used to generate a sequence of images. If you leave this field empty, the system will generate a random seed. You can press the recycle button to get the seed of the previous image.
+
+extra variation
 hires fix
 
-witdh
-height
-batch count
-batchsize
-seed
-extra variation
-scripts -->
+scripts Tabs
+
+scripts
 
 ### Img2Img
 
-<!-- drop
+many of the parametnrs fields and configurations are the same as txt2img, thus they will not meinoted here again.
+
+drop
 batch
-denoising -->
+denoising
+
+IMG
 
 ### Inpainting
 
-<!-- painting
-latent space -->
+painting
+latent space
+
+IMG
 
 ### Upscaling
 
-<!-- upscaler -->
+upscaler
 
 ---
 
 ## Models
 
-<!-- where to get models from -->
+where to get models from
 
 ### SD 1.5
 
+sd 2 and 2.1 are not that good
+
 ### SDXL
+
+working better with comfy ui
+takes more time ,a nd refiner
 
 ### Embeddings
 
+where to get them and how to put them
+
 ### Lora
+
+where to get them and how to put them
 
 ### Textual Inversion
 
+where to get them and how to put them, kinda old so quick info only
+
 ### Hypernetworks
+
+where to get them and how to put them, kinda old so quick info only
 
 ### Training
 
+find some new colabs fro 1.5 and xl
+
 ### Merging
+
+within auto1111
 
 ---
 
 ## Extensions
 
-<!-- https://github.com/hallatore/stable-diffusion-webui-chatgpt-utilities -->
+how to isntall them within auto1111
 
----
+### Notable extensions
+
+<!-- https://github.com/hallatore/stable-diffusion-webui-chatgpt-utilities -->
+<!-- https://github.com/Gourieff/sd-webui-reactor -->
+
+## <!-- https://github.com/OpenTalker/SadTalker -->
 
 ## ControlNet
 
+wht is it and why is differnt thatn img2img
+
+- [ControlNet](https://arxiv.org/abs/2302.05543)
+
 ### Models
+
+canny, depth, qr, temporalNet
 
 ---
 
@@ -213,9 +337,18 @@ latent space -->
 
 ### Deforum
 
+within auto1111 and how to make a simple one
+
 ### Batch
 
+within img2img and how to make a simple one
+
 ### AnimateDiff
+
+how to use it and how to make a simple one
+explain how to use it withn comfy ui
+
+[![Surfing Dog](/images/tutorials/ai/lulo_surf.gif)](/images/tutorials/ai/lulo_surf.gif)
 
 ---
 
@@ -223,11 +356,27 @@ latent space -->
 
 ### Setup
 
+flags and configs for the webui.bat
+
+how to acess the api IMG HERE
+
 ### Touchdesigner
+
+fix the tox file (upload to mycourses)
+test with a moviFile in
+test with camera in realtime
+
+get the resutls from SD and do something with them
+
+<!-- https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations -->
 
 ---
 
 ## Other Resources
 
-<!-- - Stable Diffusion
-- [ControlNet](https://arxiv.org/abs/2302.05543) -->
+topaz
+midjourney
+runway gen2
+links to youtube rodent and such
+links to more auto1111 informatoin
+that website that i always use that i forger the name of
