@@ -141,7 +141,7 @@ In Automatic 1111 and similar solutions, there are always two boxes for promptin
 An example of a good prompt would be:
 
 ```
-A realistic painting of a dog in a forest, by Van Gogh, at night
+A painting of a dog in a forest, by Van Gogh, at night
 ```
 
 An example of a bad prompt would be:
@@ -153,7 +153,7 @@ I want a painting of a dog painted by van gogh in a forest at night. I want it t
 An example of a prompt with text weights and negative prompt too would be:
 
 ```
-A realistic painting of a dog in a forest, by Van Gogh, at night
+A painting of a dog in a forest, by Van Gogh, at night
 negative: cartoon, drawing, sketch, illustration, 2 dogs, deformed
 ```
 
@@ -164,6 +164,7 @@ You can find more detailed information about prompt engineering here:
 - [Stable Diffusion Prompt Guide for Beginners](https://aituts.com/stable-diffusion-prompts/)
 - [Stable Diffusion prompt: a definitive guide](https://stable-diffusion-art.com/prompt-guide/)
 - [The Ultimate Prompt Guide](https://prompthero.com/stable-diffusion-prompt-guide)
+- [Stable Diffusion Good Prompts](https://stable-diffusion-art.com/how-to-come-up-with-good-prompts-for-ai-image-generation/)
 
 ### ChatGPT
 
@@ -197,9 +198,13 @@ The buttons under the Generate buttun are useful to save your prompts, which can
 
 The tabs serve different purposes. The main tabs are txt2img, img2img, Extras, Settings and Extensions. Each of these tabs has different parameters and options.
 
+There are some secondary tabs including generation, textual inversion, hypernetworks, checkpoints, and Lora. These tabs contain the models that we use for our generations. Its mostly used as a browser so we can easily access the models in our machine.
+
 You can only execute 1 process at at time. That meas that if you generate a new iamge from the txt2img tab, you cannot do any other process in the meantime.
 
-All the outputs by default are saved in the `stable-diffusion-webui\outputs` folder. You can change this in the settings tab.
+{{<hint info>}}
+All the outputs by default are saved in the `stable-diffusion-webui\outputs` folder. You can easliy access the outputs folder by clicking the folder icon under the resulting image after your generation is complete. You can laso change this folder path in the settings tab.
+{{</hint>}}
 
 ### Txt2Img
 
@@ -235,35 +240,69 @@ The image below showcases the cohesion problem. The prompt was `a sheltie sleepi
 
 - **Batch Size**: This is the number of images within one batch.
 
-- **CFG**:
+- **CFG**: This value determines the fidelety of the generation according to the prompt. At lower values the resulting image will have "less" of the prompt on it, so it will be guided to some random space, or in others words it will comform less to the prompt. At higher values there willb e less artificat and the system will try to produce an image as close to the prompt as possible, however this can lead to overfitting, oversharpening and over hallucinations. A rule of thumb is to use something bewteen 7 and 12. You can also use the slider to change the value.
+
+Below is an example of different CFG values and how that affects the iamge.
 
 [![Difussion Process 3](/images/tutorials/ai/lulo_cfg.jpg)](/images/tutorials/ai/lulo_cfg.jpg)
 
 - **Seed**: The seed that will be used to generate the image. This is a number that will be used to "lock" the latent space in order to produce consistent results. This is useful for animation, where the same seed can be used to generate a sequence of images. If you leave this field empty, the system will generate a random seed. You can press the recycle button to get the seed of the previous image.
 
-extra variation
-hires fix
+- **Extra Variation**: This is a parameter that can be used to add more variation to seed. It is useful if you are creating several images at the same time and want to have smaller variations in the generations. The value can be between 0 and 1. The higher the value, the more variation will be added.
 
-scripts Tabs
+- **Hires.fix**: This dropdown menu can help produce higher resolution images while keeping the context of an image. Because of the diffusion process, images with different sizes will have a different initial noise, thus different results will be produced, even if the same seed and prompt are used. The Hires.fix will have 2 passes on the generation. The first one is a normal diffusion generation, then it will use a upscaler (which can be changed) and will generate an image to a size that you can choose. Depending on your hardware you will reach a limit in how big the images can be.
 
-scripts
+Below we can see a comparison between a normal generation and a upscaled one using the Hires.fix. We can notice that the context and composition reamin the same, but more details are added. Image on the right is 512x512 and on the left is 1280x1280.
+
+[![Difussion Process 3](/images/tutorials/ai/lulo_hires.jpg)](/images/tutorials/ai/lulo_hires.jpg)
+
+Under Seed field we can find some script tabs. Depending on the extension that we have installed the will appear here or in the main tabs on the top.
+
+- **Script**: This is a field where we use some scripts to modify the generation process. This is useful if we want to modify the prompt or the seed as we generate multiple images. We can also create XY plots to compare difrent values and how they relate to each other.
 
 ### Img2Img
 
-many of the parametnrs fields and configurations are the same as txt2img, thus they will not meinoted here again.
+This is a method that uses the diffusion process to generate new a image from an input image and text prompt. The output image will follow the color and composition of the input image.
 
-drop
-batch
-denoising
+We can drag and drop any image into the img2img field, or we can send an image that we generated from the txt2img tab to the img2img tab by using the "send to img2img" button under the resulting image in the txt2img tab.
 
-IMG
+Then we change the prompt to what we want the resutling image to "have" or to be removed (using the negative prompts).
+
+The example below shows how we can use the img2img tab to generate a new image from an input image and a prompt. The original prompt was `a photograph of sheltie underwater`, and we change the word `dog -> cat`.
+
+[![Lulo img2img](/images/tutorials/ai/lulo_img2img_2.jpg)](/images/tutorials/ai/lulo_img2img_2.jpg)
+
+Many of the parameters, fields, and configurations are the same as txt2img, thus they will not mentioned here again. The main difference is that we have an input image, and we can use the following fields:
+
+- **Input Image**: This is the image that will be used to generate the new image. You can drag and drop any image into this field.
+
+- **Resize Mode**: We can choose what to do with the resulting image. It could be crop and just diffuse some part of the input image or resize and then diffuse it.
+
+- **Resize**: In the img2img tab we can already do some resizing, but it is less powerfull and we dont have as much control as the Hires.fix method.
+
+- **Denoising**: This is a parameter that can be used to add more or less fidelity to the resulting image i.e., how much of the input image will affect the resulting image. At value 0. We will get the input image. At value 1 we will get a complete different image. As a rule of thumb, values around 0.7 are good to start with.
+
+{{<hint warning>}}
+There are specific models for the img2img process. All models can be used but there are some that produce better results.
+{{</hint>}}
+
+We can also use the Sketch Tab, where we can draw on top of an input image using a simple brush and the diffuse the image to generate e.g., some realistic or artistic version of our drawing.
+
+You can find more information about the img2img process here:
+
+- [How to use img2img](https://stable-diffusion-art.com/how-to-use-img2img-to-turn-an-amateur-drawing-to-professional-with-stable-diffusion-image-to-image/)
+- [img2img in Stable Diffusion (Step-by-Step)](https://www.greataiprompts.com/guide/how-to-use-img2img-in-stable-diffusion/)
 
 ### Inpainting
+
+[![Lulo inpaint](/images/tutorials/ai/lulo_inpaint.jpg)](/images/tutorials/ai/lulo_img2img_2.jpg)
 
 painting
 latent space
 
-IMG
+You can find more information about inpainting process here:
+
+- [Stable Diffusion inpainting](https://stable-diffusion-art.com/inpainting-remove-extra-limbs/)
 
 ### Upscaling
 
@@ -349,6 +388,8 @@ how to use it and how to make a simple one
 explain how to use it withn comfy ui
 
 [![Surfing Dog](/images/tutorials/ai/lulo_surf.gif)](/images/tutorials/ai/lulo_surf.gif)
+
+<!-- https://stable-diffusion-art.com/animatediff/ -->
 
 ---
 
