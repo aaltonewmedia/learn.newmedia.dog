@@ -71,3 +71,9 @@ After this session, you should be able to:
 ### Video tutorials
 
 If you missed something during the class, [you can check out this series of videos I recorded that go through building the entire process.]( {{< ref "/tutorials/touchdesigner/chromatrope" >}} "Chromatrope Video Tutorials")
+
+---
+
+## Download files
+
+- [The Chromatrope TouchDesigner project](./files/chromatrope-project.zip)
