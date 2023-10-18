@@ -431,30 +431,50 @@ It is reccomended to save merged models and downloaded models as `.safetensors`.
 
 ## Extensions
 
-how to isntall them within auto1111
+The functionality of Automatic 1111 can be greatly extended by installing extensions. These are additional python scripts and features that can be added to the interface. There are many extensions that can be used for different purposes. Some are used to generate prompts, others are used to generate animations, and others are used to generate images from audio. You can find more information about extensions here:
 
-### Notable extensions
+- [Extensions](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Extensions)
 
-<!-- https://github.com/hallatore/stable-diffusion-webui-chatgpt-utilities -->
-<!-- https://github.com/Gourieff/sd-webui-reactor -->
+- [Custom Scripts](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
-<!-- https://github.com/OpenTalker/SadTalker -->
+To install extensions you can either load them within the Extensions tab by click Load from, which fetches extensions from the Automatic 1111 repository, or by installing from an URL (usually a github repo)
+
+[![Installing Extensions](/images/tutorials/ai/sd_extensions.jpg)](/images/tutorials/sd_extensions.jpg)
+
+Some notable extensions are:
+
+- [Auto1111 ChatGPT](https://github.com/hallatore/stable-diffusion-webui-chatgpt-utilities)
+
+- [R-Reactor: Face Replacement](https://github.com/Gourieff/sd-webui-reactor)
+
+- [SadTalker: making your characters talk](https://github.com/OpenTalker/SadTalker)
+
+- [Tex23D: Creating 3D objects with Diffusion Methods](https://github.com/jtydhr88/sd-webui-txt-img-to-3d-model)
 
 ---
 
 ## ControlNet
 
-wht is it and why is differnt thatn img2img
+By far the most popular extension for Automatic 1111 is ControlNet.
+
+This is a neural network structure that enhances the control over diffusion models by adding additional constraints. It allows you to generate better and more controlled outputs. The neural network blocks are copied into a "locked" copy and a "trainable" copy. The "trainable" one learns your condition, while the "locked" one preserves your model. This allows to embed your condition into the model, and generate images that are conditioned on your input., in other words it will follow your image closer than img2img or other tehcniques because is feeding the system with a guide rather thatn concepts.
+
+More information about the system here:
 
 - [ControlNet](https://arxiv.org/abs/2302.05543)
+- [ControlNet GitHub](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
 
-### Models
+[![ControlNEt Interface](/images/tutorials/ai/sd_control.jpg)](/images/tutorials/ai/sd_control.jpg)
 
-canny, depth, qr, temporalNet
+[![ControlNEt Interface](/images/tutorials/ai/lulo_control.jpg)](/images/tutorials/ai/lulo_control.jpg)
+
+<!-- ### Models
+
+canny, depth, qr, temporalNet -->
 
 ---
 
-## Animation
+<!-- ## Animation
 
 ### Deforum
 
@@ -480,13 +500,13 @@ explain how to use it withn comfy ui
 <video autoplay muted loop width="100%">
     <source src="/images/tutorials/ai/lulo_surfer.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video>
+</video> -->
 
 <!-- https://stable-diffusion-art.com/animatediff/ -->
 
 ---
 
-## API
+<!-- ## API
 
 ### Setup
 
@@ -500,7 +520,7 @@ fix the tox file (upload to mycourses)
 test with a moviFile in
 test with camera in realtime
 
-get the resutls from SD and do something with them
+get the resutls from SD and do something with them -->
 
 <!-- https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations -->
 
@@ -508,9 +528,9 @@ get the resutls from SD and do something with them
 
 ## Other Resources
 
-topaz
+<!-- topaz
 midjourney
 runway gen2
 links to youtube rodent and such
 links to more auto1111 informatoin
-that website that i always use that i forger the name of
+that website that i always use that i forger the name of -->
