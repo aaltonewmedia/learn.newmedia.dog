@@ -563,9 +563,9 @@ The most important fields are:
 
 - **Reverse**: This allow us reverse the motino of the animation.
 
--**Interpolation**: This allow us to generate a smooth animation by interpolating between the frames using the Deforum FILM method.
+- **Interpolation**: This allow us to generate a smooth animation by interpolating between the frames using the Deforum FILM method.
 
--**Drop Area**: We can drive the animation (similar to Deforum's video input) with our own videos or gifs
+- **Drop Area**: We can drive the animation (similar to Deforum's video input) with our own videos or gifs
 
 Below you can find an example of an animation using AnimateDiff. It is worth noticed that the motion is more coherent than Deforum, and the animation is smoother. The flickering is almost gone and the looping is better.
 
