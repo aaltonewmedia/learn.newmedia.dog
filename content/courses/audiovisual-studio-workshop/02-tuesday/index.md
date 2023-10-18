@@ -83,3 +83,9 @@ Basic specs of the space:
 - [Center for Visual Music](http://www.centerforvisualmusic.org/)
 - [Center for Visual Music | Vimeo](https://vimeo.com/user4392897)
 - [Re:Voir | Vimeo](https://vimeo.com/revoir)
+
+---
+
+## Download files
+
+- [The project I was working on during Tuesday](./files/chromatrope-project-tuesday.zip)
