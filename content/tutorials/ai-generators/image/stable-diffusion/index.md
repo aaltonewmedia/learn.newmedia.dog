@@ -615,13 +615,11 @@ This is how the API should look:
 
 ### Touchdesigner
 
-To
+{{<hint warning>}}
+This part of the guide is only for the workshop week and will be expanded to use other `.tox` file later
+{{</hint>}}
 
-fix the tox file (upload to mycourses)
-test with a moviFile in
-test with camera in realtime
-
-get the resutls from SD and do something with them
+Please accees my courses and download the `SD_API_AV_Workshop.tox` file.
 
 ---
 
