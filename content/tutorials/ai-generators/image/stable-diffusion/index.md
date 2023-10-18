@@ -464,13 +464,25 @@ More information about the system here:
 - [ControlNet](https://arxiv.org/abs/2302.05543)
 - [ControlNet GitHub](https://github.com/lllyasviel/ControlNet-v1-1-nightly)
 
+- [ControlNet Complete Guide](https://stable-diffusion-art.com/controlnet/)
+
+The main interface of the ControlNet Tab is similar to the img2img tab in the sense that you can also drag and drop an input image, but there are some key fields that are different.
+
 [![ControlNEt Interface](/images/tutorials/ai/sd_control.jpg)](/images/tutorials/ai/sd_control.jpg)
 
+- **Enable Row**: This is a field that allows you to enable or disable the ControlNet. You can also check the buttons if you want a pixelperfect matching of the image, and if you want to see a preview of the network.
+
+- **Control Type**: This is a field that allows you to choose the type of control that you want to use. It could vary from canny, depth, qr, temporalNet, etc. Different control types will produce different results.
+
+- **Preprocessor**: This is helpful to turn on the preview so that you know what the preprocessor is doing. Once the preprocessing is done, the original image is discarded, and only the preprocessed image will be used for ControlNet.
+
+- **Weight**: We can choose how much the ControlNet affects the diffusion process. The higher the weight, the stronger the effect of the input image.
+
+- **Steps**: This determined when the ControlNet will be applied. We have lower and higher bounds, e.g., if we have 20 steps, we can apply the ControlNet from step 5 to step 15, which translates to 0.25 to 0.75. This is useful if we want to have a more controlled or free diffusion process.
+
+Below you can find an example of a canny model in action.
+
 [![ControlNEt Interface](/images/tutorials/ai/lulo_control.jpg)](/images/tutorials/ai/lulo_control.jpg)
-
-<!-- ### Models
-
-canny, depth, qr, temporalNet -->
 
 ---
 
@@ -500,13 +512,13 @@ explain how to use it withn comfy ui
 <video autoplay muted loop width="100%">
     <source src="/images/tutorials/ai/lulo_surfer.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video> -->
+</video>
 
-<!-- https://stable-diffusion-art.com/animatediff/ -->
+https://stable-diffusion-art.com/animatediff/
 
 ---
 
-<!-- ## API
+## API
 
 ### Setup
 
@@ -520,15 +532,15 @@ fix the tox file (upload to mycourses)
 test with a moviFile in
 test with camera in realtime
 
-get the resutls from SD and do something with them -->
+get the resutls from SD and do something with them
 
-<!-- https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations -->
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations
 
 ---
 
 ## Other Resources
 
-<!-- topaz
+topaz
 midjourney
 runway gen2
 links to youtube rodent and such
