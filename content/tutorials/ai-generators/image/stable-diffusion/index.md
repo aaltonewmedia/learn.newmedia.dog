@@ -533,7 +533,7 @@ You should follow a specific convetion when inputing the keyframes. The keyframe
 Below you can find an example using the keyframes from the previous image.
 
 <video autoplay muted loop width="100%">
-    <source src="/images/tutorials/ai/lulo_deforum.mp4" type="video/mp4">
+    <source src="/images/tutorials/ai/lulo_deforum_fix.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -570,7 +570,7 @@ The most important fields are:
 Below you can find an example of an animation using AnimateDiff. It is worth noticed that the motion is more coherent than Deforum, and the animation is smoother. The flickering is almost gone and the looping is better.
 
 <video autoplay muted loop width="100%">
-    <source src="/images/tutorials/ai/lulo_surfer.mp4" type="video/mp4">
+    <source src="/images/tutorials/ai/lulo_surfer_fix.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
