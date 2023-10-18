@@ -543,12 +543,42 @@ Within the img2img **Batch** tab we can use ControlNet as well. If we add on top
 
 ### AnimateDiff
 
-AnimateDiff is a technique for adding limited motion to Stable Diffusion generations. It uses a control module to influence a Stable Diffusion model, which is trained with a variety of short video clips. The control module conditions the image generation process to produce a series of images that look like the video clips it learns.
+AnimateDiff is a technique for adding limited motion to Stable Diffusion generations. It uses a control module to influence a Stable Diffusion model, which is trained with a variety of short video clips. The control module conditions the image generation process to produce a series of images that look like the video clips it learns. The main different with other appraoches is that it contains motion modules that dictate the movement of the camera and the objects in the scene, and that the coehrnce is better than other methods because these modules are injected at each diffused frame.
+
+[![AnimateDiff Interface](/images/tutorials/ai/sd_anidiff.jpg)](/images/tutorials/ai/sd_anidiff.jpg)
+
+The most important fields are:
+
+- **Enable**: This is a field that allows you to enable or disable the AnimateDiff.
+
+- **Close Loop**: This allow us to have looping animations by setting the first frame the same as the last frame. Then the diffusion-motion prosess will interpolate between the first and last frame.
+
+- **Number of frames**: if it left in "0", then only the FPS will count once. Otherwise we can specify how many frames we want to generate.
+
+- **FPS**: The number of frames per second that will be generated.
+
+- **Context Batch Size**: This is the number of frames that exist in the memory at a time. A good value is between 16-32. Higher values could use more resources and produce more static animations.
+
+- **Save**: This allow us to choose how to save our animation, but is reccomended to use mark all the options.
+
+- **Reverse**: This allow us reverse the motino of the animation.
+
+-**Interpolation**: This allow us to generate a smooth animation by interpolating between the frames using the Deforum FILM method.
+
+-**Drop Area**: We can drive the animation (similar to Deforum's video input) with our own videos or gifs
+
+Below you can find an example of an animation using AnimateDiff. It is worth noticed that the motion is more coherent than Deforum, and the animation is smoother. The flickering is almost gone and the looping is better.
 
 <video autoplay muted loop width="100%">
     <source src="/images/tutorials/ai/lulo_surfer.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
+You can find more information about AnimateDiff here:
+
+- [AnimateDiff GitHub](https://animatediff.github.io/)
+
+- [AnimateDiff GitHub Modules](https://github.com/guoyww/AnimateDiff)
 
 - [AnimateDiff Complete Guide](https://stable-diffusion-art.com/animatediff/)
 
