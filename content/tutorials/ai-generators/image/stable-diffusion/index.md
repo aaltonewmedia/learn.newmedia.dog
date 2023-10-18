@@ -497,11 +497,18 @@ We could also use a model called TemporalNet within the Batch img2img, which is 
 
 ---
 
-<!-- ## Animation
+## Animation
 
 ### Deforum
 
-within auto1111 and how to make a simple one
+Deforum is an open-source software for making animations using Stable Diffusion's image-to-image function. It applies small transformations to an image frame and uses the image-to-image function to create the next frame.
+
+There are lots of parameters and configurations that can be used to generate different types of animations. Therefore this guide will only cover the basics of the extension. You can find more information about Deforum here:
+
+- [Deforum Complete Guide](https://dreamingcomputers.com/deforum-stable-diffusion/deforum-stable-diffusion-settings/)
+- [How to use Deforum](https://stable-diffusion-art.com/deforum/)
+
+We can focus on the second page of the deforum tab
 
 [![Deforum Keyframes](/images/tutorials/ai/deforum_keys.jpg)](/images/tutorials/ai/deforum_key.jpg)
 [![Deforum Prompts](/images/tutorials/ai/deforum_prompts.jpg)](/images/tutorials/ai/deforum_prompts.jpg)
@@ -517,17 +524,18 @@ within img2img and how to make a simple one
 
 ### AnimateDiff
 
-how to use it and how to make a simple one
-explain how to use it withn comfy ui
+AnimateDiff is a technique for adding limited motion to Stable Diffusion generations. It uses a control module to influence a Stable Diffusion model, which is trained with a variety of short video clips. The control module conditions the image generation process to produce a series of images that look like the video clips it learns.
 
 <video autoplay muted loop width="100%">
     <source src="/images/tutorials/ai/lulo_surfer.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-https://stable-diffusion-art.com/animatediff/
+- [AnimateDiff Complete Guide](https://stable-diffusion-art.com/animatediff/)
 
 ---
+
+<!--
 
 ## API
 
