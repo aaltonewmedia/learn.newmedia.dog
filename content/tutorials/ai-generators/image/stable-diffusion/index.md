@@ -480,9 +480,20 @@ The main interface of the ControlNet Tab is similar to the img2img tab in the se
 
 - **Steps**: This determined when the ControlNet will be applied. We have lower and higher bounds, e.g., if we have 20 steps, we can apply the ControlNet from step 5 to step 15, which translates to 0.25 to 0.75. This is useful if we want to have a more controlled or free diffusion process.
 
+- **Control Mode**: We can swtich between what is more imporant, the input image or the prompt.
+
+- **Resize Mode**: This will adjust our image according to the `width` and `height` fields. We can choose to crop the image or to resize it.
+
 Below you can find an example of a canny model in action.
 
 [![ControlNEt Interface](/images/tutorials/ai/lulo_control.jpg)](/images/tutorials/ai/lulo_control.jpg)
+
+ControlNet can also be used within the img2img Tab to further guide the diffusion process.
+
+We could also use a model called TemporalNet within the Batch img2img, which is rather usefull for animations. This model will try to keep coherence between the images and will reduce the flickering resulting from the diffusion process. You can find more information about TemporalNet below:
+
+- [Ciara TemporalNet](https://huggingface.co/CiaraRowles/TemporalNet)
+- [Digital Magic](https://www.youtube.com/watch?v=vSp-GZ4yzrg)
 
 ---
 
