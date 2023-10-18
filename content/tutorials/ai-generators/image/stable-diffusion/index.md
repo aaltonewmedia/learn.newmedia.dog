@@ -501,26 +501,45 @@ We could also use a model called TemporalNet within the Batch img2img, which is 
 
 ### Deforum
 
-Deforum is an open-source software for making animations using Stable Diffusion's image-to-image function. It applies small transformations to an image frame and uses the image-to-image function to create the next frame.
+Deforum is an open-source software for making animations using Stable Diffusion's image-to-image function. It applies small transformations to an image frame and uses the image-to-image function to create the next frame. Deforum interpolates betwen the rfams by generating a new noise vector for each frame. We can schedule the transformations, interpolation, noise CFG scale and seeds to create different types of animations. Often the results are "trippy" or "psychedelic" because of the nature of the interpolation.
 
 There are lots of parameters and configurations that can be used to generate different types of animations. Therefore this guide will only cover the basics of the extension. You can find more information about Deforum here:
 
 - [Deforum Complete Guide](https://dreamingcomputers.com/deforum-stable-diffusion/deforum-stable-diffusion-settings/)
 - [How to use Deforum](https://stable-diffusion-art.com/deforum/)
 
-We can focus on the second page of the deforum tab
-
 [![Deforum Keyframes](/images/tutorials/ai/deforum_keys.jpg)](/images/tutorials/ai/deforum_key.jpg)
+
+We can focus on the second page of the deforum tab (keyframes). The most important fields are:
+
+- **Animation Mode**: It can be 2D (flat animation);3d which is useful if we have some motion in 3D space; video input, which draives the animation, and interpolation that is helpful to modify existing animations.
+
+- **Motion Tab**: Her we can discribe how our virtual camera will move troughout the scene. The movements are described with mathematical functions and steps.
+
+You can find more information about how to do specific motions for your animations here:
+
+- [Animation in DEforum](https://rentry.org/AnimAnon-Deforum)
+- [Deforum Motion Examples](https://github.com/deforum-art/sd-webui-deforum/wiki/Animation-Video-Examples-Gallery)
+- [Function Calculator](https://www.framesync.xyz/)
+
+The second most important tab is the prompts tab. Here we can input our keyframes and the descrition of what happens at each keyframe.
+
 [![Deforum Prompts](/images/tutorials/ai/deforum_prompts.jpg)](/images/tutorials/ai/deforum_prompts.jpg)
+
+{{<hint warning>}}
+You should follow a specific convetion when inputing the keyframes. The keyframe should be types as `"0":"your prompt here",`. The first set of quotes defien the keyframe, the second the prompt and finally a comma. Most of the errors in deforum are because of this.
+{{</hint>}}
+
+Below you can find an example using the keyframes from the previous image.
 
 <video autoplay muted loop width="100%">
     <source src="/images/tutorials/ai/lulo_deforum.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-### Batch
+### Batch Animation
 
-within img2img and how to make a simple one
+Within the img2img **Batch** tab we can use ControlNet as well. If we add on top of that the TemporalNet model, we could have animations that are more coherent thatn Deforum and glitch less. To do this we just have to enable the ControlNet modules in the **Batch** img2img and provide and input and output folder. Then, we leave the ControlNet drop area empty because ControlNet will get the iamges from the input folder automatically.
 
 ### AnimateDiff
 
