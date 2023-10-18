@@ -44,9 +44,11 @@ More information about Stable Diffusion and how it works can be found here:
 
 ## Note on Ethics
 
-Stable Diffusion, is a breakthrough in generative AI. This tool offers potentially anyone, revolutionary tool to visualize concepts, create new pieces of art, animations, and many more possiblities in many differenct sectors.However, its power also comes with ethical challenges. While it can catalyze creativity, there's potential for misuse in creating harmful or misleading content.
+Stable Diffusion, is a breakthrough in generative AI. This tool offers potentially anyone, revolutionary tool to visualize concepts, create new pieces of art, animations, and many more possiblities in many different sectors. However, its power also comes with ethical challenges. While it can catalyze creativity, there's potential for misuse in creating harmful or misleading content.
 
-The developers and researches expect that the individuals that use Stable Diffusion can understand the potential consequences of their actions and make informed decisions. However, it's essential to remember that not everyone will approach this technology with the same level of prudence. Hence, it's imperative for users to be conscious of their actions and the content they generate.As we embrace this addition to the AI-generated media landscape, it's crucial to approach its use with responsibility, ensuring that technological advancements align with societal values and safety.
+The developers and researches expect that the individuals that use Stable Diffusion can understand the potential consequences of their actions and make informed decisions e.g., creating images depicting that can be too explicit, or creating images that could fall into copyright and claim them as the owner (these are ongoing discussions within the larger community). It's essential to remember that not everyone will approach this technology with the same level of prudence.
+
+Hence, it's imperative for users to be conscious of their actions and the content they generate. As we embrace this addition to the AI-generated media landscape, it's crucial to approach its use with responsibility, ensuring that technological advancements align with societal values and safety.
 
 ---
 
@@ -60,9 +62,7 @@ This tutorial will focus on Automatic 1111 on windows. More information about ot
 - [Vladmandic](https://github.com/vladmandic/automatic)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [Diffusion Bee for MacOS](https://diffusionbee.com/)
-- [Auto1111 for Mac](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon)
 - [Diffusion Solutions for MacOS](https://stable-diffusion-art.com/install-mac/)
-- [Auto1111 for Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux)
 
 ### Automatic 1111 on Windows
 
@@ -118,7 +118,7 @@ stable-diffusion-webui\outputs
 
 ## Prompt Engineering
 
-The underlying system that interprets the text input into Stable Diffusion is named CLIP. . [CLIP](https://openai.com/research/clip) is a neural network trained to understand both text and images. It's an incredibly potent system but is sensitive to the phrasing of our prompts. Concepts are often separated by commas, and the system attempts to generate an image encompassing all these concepts. Sometimes, these are referred to as tokens. Hence, it's crucial to craft prompts that will yield the desired results.
+The underlying system that interprets the text input into Stable Diffusion is named [CLIP](https://openai.com/research/clip). This is a neural network trained to understand both text and images. It's an incredibly potent system but is sensitive to the phrasing of our prompts. Concepts are often separated by commas, and the system attempts to generate an image encompassing all these concepts. Sometimes, these are referred to as tokens. Hence, it's crucial to craft prompts that will yield the desired results.
 
 This means that descriptions must be tailored in a manner that the system comprehends. Achieving this isn't always straightforward and demands practice. Here are some tips to help you craft effective prompts:
 
@@ -256,9 +256,7 @@ Below we can see a comparison between a normal generation and a upscaled one usi
 
 [![Difussion Process 3](/images/tutorials/ai/lulo_hires.jpg)](/images/tutorials/ai/lulo_hires.jpg)
 
-Under Seed field we can find some script tabs. Depending on the extension that we have installed the will appear here or in the main tabs on the top.
-
-- **Script**: This is a field where we use some scripts to modify the generation process. This is useful if we want to modify the prompt or the seed as we generate multiple images. We can also create XY plots to compare difrent values and how they relate to each other.
+Under Seed field we can find some **Script** tabs. Depending on the extension that we have installed the will appear here or in the main tabs on the top. This is a field where we use some scripts to modify the generation process. This is useful if we want to modify the prompt or the seed as we generate multiple images. We can also create XY plots to compare difrent values and how they relate to each other.
 
 ### Img2Img
 
@@ -315,7 +313,7 @@ The main parameters for inpainting are:
 
 An example of the inpainting process can be seen below.
 
-[![Lulo inpaint](/images/tutorials/ai/lulo_inpaint.jpg)](/images/tutorials/ai/lulo_img2img_2.jpg)
+[![Lulo inpaint](/images/tutorials/ai/lulo_inpaint.jpg)](/images/tutorials/ai/lulo_inpaint.jpg)
 
 You can find more information about inpainting process here:
 
@@ -323,46 +321,111 @@ You can find more information about inpainting process here:
 
 ### Upscaling
 
-upscaler
+Upscaling is the process of increasing the resolution of an image. In Stable Diffusion, upscalers are used to enhance the quality of images produced by the model. The Extras tab in Automatic 1111 is a feature that allows users to install additional models and tools to use with Stable Diffusion. Different upscalers can produce different results, e.g., the R-ESRGAN 4x is good for general use but sometimes is not as good with faces. It is recommended to experiment with different upscalers to find the one that best suits your needs.
+
+[![Lulo Upscale](/images/tutorials/ai/lulo_ups_1.jpg)](/images/tutorials/ai/lulo_ups_1.jpg)
+
+There are some extra field and sliders in this tab:
+
+- **Drop Area**: You can drop your image here, or similar as txt2img and img2img, you can send your image to this tab by using the "send to upscaling" button under the resulting image.
+
+- **Resize**: The amount to be resized. Depending on your hardware you can do larger sizes. However the process could be slower becase the upscalers work by tiling the input image and upscalling different parts of it, then merging it all together.
+
+- **Upscaler**: The upscaler that will be used to enhance the image.
+
+- **GFPGAN Visibility**: GFPGAN is a popular upscaler for faces, so it can compensate for the lack of detail that some upscalers can generate. This slider controls how much of the GFPGAN upscaler will be used. The higher the value, the more GFPGAN will be used.
+
+- **Codeformer**: This is a newer and perhaps more accurate restorer for faces. It can be used in combination with GFPGAN to produce better results. This slider controls how much of the Codeformer upscaler will be used. The higher the value, the more Codeformer will be used.
+
+As a rule of thumb, you should use a combination of all these upscalers/restorers but it depends on your input image. To do extra large images, you can upscale in small amounts (2) and then re upload the image to the drop area
+
+[![Lulo Upscale](/images/tutorials/ai/lulo_ups_2.jpg)](/images/tutorials/ai/lulo_ups_2.jpg)
+
+The upscalers included with Automatic 1111 are good for most cases but you can find more here:
+
+- [Upscalers Guide](https://ambcrypto.com/blog/how-to-download-upscalers-stable-diffusion-2023-guide/)
+- [Upscalers Database](https://openmodeldb.info/)
 
 ---
 
 ## Models
 
-where to get models from
+There are different types of models that Stable Diffusion can use. Some are the core checkpoints that were released by Stability AI, and others are checkpoints that were trained by the community. The core checkpoints contain the information in the latent space that we use to generate images, therfore they can be trained to focus on specific styles. Some can be really good at generating cars, and others can focus on natura or people.
 
-### SD 1.5
+### SD 1.5 & SDXL Checkpoints
 
-sd 2 and 2.1 are not that good
+SD 1.5 has been the most popular version of all the current models. It is easy to train and to combine with other models, and consumes less RAM than SD 2.x ( which is not reccomened for most users).
 
-### SDXL
+SDXL on the other hand is a new model that was trained with a different dataset and has a different latent space. This model is more powerful and can produce better results, but it is also more demanding in terms of hardware. This model was training on larger images, thus it can produce higher resolutoin images without the need for an upscaler. This model can still run on GPUs with at least 8GB of VRAM, but it is a bit trickier to train.
 
-working better with comfy ui
-takes more time ,a nd refiner
+Furthermore, this model required a "refiner" which is a model that enhances the image details produced by the SDXL Base. It is designed for the enhancement of low-noise stage images, resulting in high-frequency, superior-quality visuals. Additionally, SDXL works better (for now) in other Stable Diffusion solutions such as Comfy UI.
 
-### Embeddings
+To install checkpoints/core models, you can move the `your_model.ckpt /. safetensors` to the folder:
 
-where to get them and how to put them
+```
+stable-diffusion-webui\models\Stable-diffusion
+```
+
+You can find the base models here:
+
+- [SD 1.5 from Stability AI](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+- [SDXL from Stability AI](https://huggingface.co/runwayml/stable-diffusion-xl)
+
+And community models(checkpoints, Loras, embeddings) here:
+
+- [Civitai](https://civitai.com/)
+- [HuggingFace](https://huggingface.co/models?other=stable-diffusion)
+- [Models in General](https://github.com/awesome-stable-diffusion/awesome-stable-diffusion)
 
 ### Lora
 
-where to get them and how to put them
+Low-Rank Adaptation of Large Language Models (LoRA) is a training method that accelerates the training of large models while consuming less memory. These are models that are added on top of the core checkpoints. That means that the information on the checkpoint is not modified. These models are trained to focus on specific styles, and can be combined with other models to produce better results. Loras are really popular because they are quite lightweigth and can be trained easily to focus on a specific concept and can be control with an embedded parameter or weight.
 
-### Textual Inversion
+To install Loras you can move the `your_lora.pth /. safetensors` to the folder:
 
-where to get them and how to put them, kinda old so quick info only
+```
+stable-diffusion-webui\models\lora
+```
 
-### Hypernetworks
+Then you can refresh the models in the main interface by clicking the reload button. You can also use the Lora tab to browse the models in your machine. Some Loras can work better or worse with some models e.g., if a core model has a lot of cars, then a Lora that focuses on cars will work better with that model.
 
-where to get them and how to put them, kinda old so quick info only
+You can find more information about Loras and Lora models here:
+
+- [LoRas for LLM](https://huggingface.co/docs/diffusers/training/lora)
+- [Civitai](https://civitai.com/)
+- [HuggingFace Models](https://huggingface.co/models?other=lora)
+
+### Others
+
+There are other model types that can also be used within Automatic 1111. However they have recently become less popular in part due to the flexibity and lightweightness of Loras. These are:
+
+- **VAE**: Variational Autoencoder. This is a model that can be used to generate images from a latent space. It is a bit more complex to train and use, but it can produce good results. It is also a bit more demanding in terms of hardware. It is a crucial component of the neural network model used in Stable Diffusion v 1.4 and 1.5. The VAE encodes and decodes images to and from a smaller latent space to the RGB space, allowing for faster computation and better color representation. You can get the base VAE [here](https://huggingface.co/stabilityai/sd-vae-ft-mse). However never models have the VAE baked in, so it is not needed to install a separate VAE model.
+
+- **Embeddings**: Embedding is the result of textual inversion, a method to define new keywords in a model without modifying it. The method has gained attention because its capable of injecting new styles or objects to a model with as few as 3 -5 sample images. Textual inversion finds the embedding vector of the new keyword that best represents the new style or object, without changing any part of the model. In other words it uses existing words witiohn the model to describe a new concept. You can find more information [here](https://stable-diffusion-art.com/embedding/).
+
+- **Hypernetworks**: These are a small neural network attached to a Stable Diffusion model to modify its style. These networks in fact modify the core models to inject new concepts. They are even smaller than Loras and easy to train but they are not as flexible because of the nature of the injection. You can find more information [here](https://stable-diffusion-art.com/hypernetwork/).
 
 ### Training
 
-find some new colabs fro 1.5 and xl
+We can add extra network or using extra models to the checkpoints. But if we need to have a checkpoint that specializes in a specific concept, we need to train it. Luckyly Google realeased a technique called Dreambooth that can inject custom concepts into a model as a whole, not just parts of it like hypernetworks.
 
-### Merging
+It it possible to train using Automatic 1111, but depending on your machine the training process could be slow. Thus you can use a Colab instance or other services listed below:
 
-within auto1111
+- [TheLastBen](https://github.com/TheLastBen/fast-stable-diffusion)
+- [HuggingFace](https://huggingface.co/blog/dreambooth)
+- [Dreambooth Complete Guide](https://stable-diffusion-art.com/dreambooth/).
+
+### Checkpoint Merging
+
+We can merge different checkpoints to produce a new one. This is useful if we want to combine different styles or concepts into a single checkpoint. This can be done using the Checkpoint Merging tab. We can select the checkpoints that we want to merge, and then we can select the weights that we want to use for each checkpoint. The higher the weight, the more influence that checkpoint will have on the resulting checkpoint. You have to bare in mind that by merging some information is lost, thus the models could be less accurate for certain concepts.
+
+[![Checkpoint Merging](/images/tutorials/ai/merger.jpg)](/images/tutorials/aimerger.jpg)
+
+The merging process does not take too long and can be performed in any machine because the process is about merging the ckpt matrices.
+
+{{<hint warning>}}
+It is reccomended to save merged models and downloaded models as `.safetensors`. This type of checkpoints have the same size as a normal `.ckpt/.pth` but they are just numbers, thus they cannot be used to distribute malware or other information within them.
+{{</hint>}}
 
 ---
 
@@ -375,7 +438,9 @@ how to isntall them within auto1111
 <!-- https://github.com/hallatore/stable-diffusion-webui-chatgpt-utilities -->
 <!-- https://github.com/Gourieff/sd-webui-reactor -->
 
-## <!-- https://github.com/OpenTalker/SadTalker -->
+<!-- https://github.com/OpenTalker/SadTalker -->
+
+---
 
 ## ControlNet
 
@@ -395,6 +460,14 @@ canny, depth, qr, temporalNet
 
 within auto1111 and how to make a simple one
 
+[![Deforum Keyframes](/images/tutorials/ai/deforum_keys.jpg)](/images/tutorials/ai/deforum_key.jpg)
+[![Deforum Prompts](/images/tutorials/ai/deforum_prompts.jpg)](/images/tutorials/ai/deforum_prompts.jpg)
+
+<video autoplay muted loop width="100%">
+    <source src="/images/tutorials/ai/lulo_deforum.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 ### Batch
 
 within img2img and how to make a simple one
@@ -404,7 +477,10 @@ within img2img and how to make a simple one
 how to use it and how to make a simple one
 explain how to use it withn comfy ui
 
-[![Surfing Dog](/images/tutorials/ai/lulo_surf.gif)](/images/tutorials/ai/lulo_surf.gif)
+<video autoplay muted loop width="100%">
+    <source src="/images/tutorials/ai/lulo_surfer.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 <!-- https://stable-diffusion-art.com/animatediff/ -->
 
