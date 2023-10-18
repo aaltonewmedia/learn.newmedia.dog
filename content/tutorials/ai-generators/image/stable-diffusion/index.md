@@ -584,17 +584,38 @@ You can find more information about AnimateDiff here:
 
 ---
 
-<!--
-
 ## API
 
 ### Setup
 
-flags and configs for the webui.bat
+We can modify the certain low level parameters of Automatic 1111 using `flags`. These are parameters that we can set before launching the program. To set some flags we have to edit our `webui-user.bat`. Then we can add the following lines:
 
-how to acess the api IMG HERE
+```
+-- api --autolaunch
+
+```
+
+You can find more information about flags below among other ways to optimize the interface and make the diffusion process faster.
+
+- [Automatic 1111 Optimizations](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations)
+
+The `--api` flag allow us to control the interface using an API. The `--autolaunch` flag will launch the interface automatically. You can also use the `--port` flag to change the port that the interface will use. To access the API we go to the brower and type:
+
+```
+http://127.0.0.1:7860/docs
+```
+
+{{<hint warning>}}
+Be sure that you are using the same port as the normal web UI
+{{</hint>}}
+
+This is how the API should look:
+
+[![API](/images/tutorials/ai/api.jpg)](/images/tutorials/ai/api.jpg)
 
 ### Touchdesigner
+
+To
 
 fix the tox file (upload to mycourses)
 test with a moviFile in
@@ -602,15 +623,10 @@ test with camera in realtime
 
 get the resutls from SD and do something with them
 
-https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Optimizations
-
 ---
 
 ## Other Resources
 
-topaz
-midjourney
-runway gen2
-links to youtube rodent and such
-links to more auto1111 informatoin
-that website that i always use that i forger the name of -->
+- [Topaz AI](https://www.topazlabs.com/)
+- [Gen-2: The Next Step Forward for Generative AI](https://research.runwayml.com/gen2)
+- [Everything SD](https://stable-diffusion-art.com)
