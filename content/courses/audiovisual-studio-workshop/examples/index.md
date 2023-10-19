@@ -1,7 +1,7 @@
 ---
 title: "Examples"
 bookCollapseSection: false
-weight: 70
+weight: 60
 p5js-widget: false
 ---
 

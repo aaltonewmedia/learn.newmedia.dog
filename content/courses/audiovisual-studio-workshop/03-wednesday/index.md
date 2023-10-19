@@ -1,7 +1,7 @@
 ---
 title: "03 WED | Generative AI"
 bookCollapseSection: false
-weight: 10
+weight: 30
 p5js-widget: false
 ---
 
