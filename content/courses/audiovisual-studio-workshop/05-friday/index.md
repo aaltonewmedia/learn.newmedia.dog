@@ -9,6 +9,8 @@ p5js-widget: false
 
 ---
 
+## Schedule
+
 - 09.15–12:00 Project work
 - 12:00–13:00 Lunch
 - 13:00–14:00 Preparing the Screening (rendering, moving project files)
@@ -16,9 +18,9 @@ p5js-widget: false
 
 ## Screenings at 14:00
 
-If what you want to show us today is a video file or images, please add them to the OneDrive folder and we can then watch them all in room F005 (the tiny screeing room in Väre).
+If what you want to show us today is a video file or images, please add them to the OneDrive folder and we can then watch them all in room F005 (the tiny screening room in Väre).
 
-If you want to show your TouchDesigner project running in real-time, also add that to the folder as a .zip with all the assets that you need for the project (images, data files, videos etc.)
+If you want to show your TouchDesigner project running in real-time, also add that to the folder as a .zip with all the assets that you need for the project (images, data files, videos etc.). This can then be shown in room H003 or if it runs smoothly on Matti's laptop, we can watch it in room F005.
 
 **Please let Matti know if you want to present your work in some other space (like O102 or the Igloo) since it takes a little bit of time to prepare that.**
 
