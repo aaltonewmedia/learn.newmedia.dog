@@ -28,7 +28,20 @@ Your outcome can be, but is not limited to:
 - A short performance that you do on Friday (same locations as above)
 - A collection of short experiments during the workshop
 
-## Final Documentation
+---
+
+## Final Documentation (Deadline: Fiday, November 3)
+
+Submit three things:
+1) Video file
+2) PDF document
+3) .zip archive of your project
+
+Submit all of these either:
+-  in the OneDrive folder that we used during the last day of the course if you are ok with everyone in the course baing able to access your files **OR**
+- in MyCourses if you want to send these only to the teachers
+
+### Video
 
 No matter what form your actual project/process is and how you present it on Friday. I would like to eventually get a video file out this in the end as a form of documentation.
 
@@ -43,6 +56,28 @@ You can also add some text, explanations, narration and edit the final video in 
 {{<hint warning>}}
 If you want to use some music, use royalty-free music, so that we are able to publish it without any issues.
 {{</hint>}}
+
+### PDF
+
+{{<hint info>}}
+In addition, please provide a .pdf file that has the following mimimum information:
+
+1) Name of your project
+2) 1-2 paragraphs of general description of what your project is about. ***If you give me permission to publish your documentation video, this will be public together with the video.***
+3) Also answer these questions in the .pdf file:
+  - Can we publish the video and the project description on this site [or on the project archive site.](https://newmedia.dog/)?
+  - In what way would you like us to write your name if you give the permission to publish it?
+  - Would you like us to add a link to your website, social media profile, or some other website below the video?
+{{</hint>}}
+
+{{<hint warning>}}
+Additional information:
+
+Your pdf can also include more detailed information:
+- sketches, process images, pictures
+{{</hint>}}
+
+### Project files
 
 ---
 
