@@ -35,11 +35,11 @@ Your outcome can be, but is not limited to:
 Submit three things:
 1) Video file
 2) PDF document
-3) .zip archive of your project
+3) Your project files (if you use MyCourses, please upload the files as a.zip archive).
 
 Submit all of these either:
--  in the OneDrive folder that we used during the last day of the course if you are ok with everyone in the course baing able to access your files **OR**
-- in MyCourses if you want to send these only to the teachers
+-  in the [OneDrive folder](https://aaltofi-my.sharepoint.com/:f:/r/personal/matti_niinimaki_aalto_fi/Documents/AVStudioWorkshop?csf=1&web=1&e=rocX21) that we used during the last day of the course if you are ok with everyone in the course being able to access your files **OR**
+- in [MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1108490) if you want to send these only to the teacher
 
 ### Video
 
@@ -59,25 +59,36 @@ If you want to use some music, use royalty-free music, so that we are able to pu
 
 ### PDF
 
+In addition, please provide a .pdf file that has the following
+
 {{<hint info>}}
-In addition, please provide a .pdf file that has the following mimimum information:
+ **Mimimum information:**
 
 1) Name of your project
-2) 1-2 paragraphs of general description of what your project is about. ***If you give me permission to publish your documentation video, this will be public together with the video.***
-3) Also answer these questions in the .pdf file:
-  - Can we publish the video and the project description on this site [or on the project archive site.](https://newmedia.dog/)?
+2) 1-2 paragraphs of general description of what your project is about. This is meant as a general description for people to understand what you did. ***If you give me permission to publish your documentation video, this will be public together with the video.***
+3) List of external resources that you used to create your work. Links to sources for music and audio files, tutorials you used etc.
+4) Also answer these questions in the .pdf file:
+  - Can we publish the video and the project description on this site [or on the project archive site](https://newmedia.dog/)?
+  - Can we upload your video file to the Aalto Media Lab [Vimeo](https://vimeo.com/medialabhelsinki) and [YouTube](https://www.youtube.com/@aaltomedialab/featured) channels? The videos will be better quality if we can upload them there.
   - In what way would you like us to write your name if you give the permission to publish it?
-  - Would you like us to add a link to your website, social media profile, or some other website below the video?
+  - Would you like us to add a link to your website, social media profile, or some other website below the video? Please list any link you would like to have there.
 {{</hint>}}
 
 {{<hint warning>}}
-Additional information:
+**Additional information:**
 
 Your pdf can also include more detailed information:
-- sketches, process images, pictures
+- sketches, process images, other pictures
+- a description and reflection of your working and learning process, what worked out, how would you like to improve further.
 {{</hint>}}
 
 ### Project files
+
+Also send your TouchDesigner project files including all images, music, videos, data files that are required to run your project. Note that you can submit your files either here on MyCourses OR to the OneDrive folder that we used during the last day of the course. OneDrive folder is accessible by everyone in the class. MyCourses is accessible only by you and the teachers.
+
+{{<hint info>}}
+If you upload the files to MyCourses, please make a .zip archive of the files. OneDrive works ok with just the folder as well.
+{{</hint>}}
 
 ---
 
