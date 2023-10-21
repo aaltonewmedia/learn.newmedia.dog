@@ -73,3 +73,63 @@ We also use the Screening Room H005 in the afternoons.
 - 12:00–13:00 Lunch
 - 13:00–14:00 Preparing the Screening (rendering, moving project files)
 - 14:00–17:00 Screenings of Workshop Results (O102 and F005)
+
+---
+
+## Workload
+
+3 ECTS ≈ 80h
+
+- 35h contact teaching (including some independent experimentation)
+- 40h time for reflection and processing the lectures (not active work, happens mostly passively outside the class hours and even after the workshop)
+- 5h documenting your work and preparing the video recording of your project work, writing the documentation
+
+---
+
+## Evaluation
+
+To successfully pass the course, the student needs to:
+
+- Have a minimum attendance of 80% in the workshop
+- Produce a short experimental AV work that is presented on the final day of the course (Friday 20/10/2023)
+- Provide a video recording and a short written documentation of their work during the workshop. (Deadline 03/11/2023)
+
+
+## Grading
+
+This course is evaluated with a grade between 0-5.
+
+- 5 Excellent
+- 4 Very good
+- 3 Good
+- 2 Satisfactory
+- 1 Passable
+- 0 Fail
+
+### Grading criteria
+
+- Attendance 25%
+- Project work 50%
+- Project documentation 25%
+
+### Attendance (25%)
+
+- You need to be present minimum 80% of the classes
+- Each missed class (without a valid reason such as illness etc.) will affect your attendance grade negatively.
+- Each time you arrive late in class will affect your attendance grade negatively.
+- Active participation and attitude in class will affect your attendance grade positively.
+- Helping others will affect your attendance grade positively
+
+### Project work (50%)
+
+- Aesthetic quality of the work
+- Novelty and creativity of the concept
+- Command of the technology
+- Attention to detail
+
+### Project documentation (25%)
+
+- Audiovisual quality and attention to detail in the documentation video
+- Detail level of the documentation
+- Use of sketches, images, videos
+- Ability to reflect on your learning process
