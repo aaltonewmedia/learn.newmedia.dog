@@ -30,7 +30,7 @@ Your outcome can be, but is not limited to:
 
 ---
 
-## Final Documentation (Deadline: Fiday, November 3)
+## Final Documentation (Deadline: Friday, November 3)
 
 Submit three things:
 1) Video file
@@ -102,4 +102,6 @@ Check the license for each piece carefully and follow the license restrictions.
 - [Tagirijus](https://music.tagirijus.de/?cc=1)
 - [Loyalty Freak Music](https://loyaltyfreakmusic.com/music/)
 - [Flickr](https://www.flickr.com/) | Quite many people seemed to have forgotten about Flickr, but it has a large collection of royalty-free images
-- [Archive.org](https://archive.org/) | Lots of public domain videos (but also copyrighted material, check carefully what you use)
+- [archive.org](https://archive.org/) | Lots of public domain videos (but also copyrighted material, check carefully what you use)
+- [freesound.org](https://freesound.org/)
+- [ccMixter](https://ccmixter.org/)
