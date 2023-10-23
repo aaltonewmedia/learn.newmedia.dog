@@ -19,21 +19,19 @@ p5js-widget: true
 
 ## Deliverables for Week 1
 
-### 1. Course Documentation Website (Monday, October 31, 15:00)
+### 1. Course Documentation website
 
-Create a course website to document your assignments, final project work and progress during the course. Here are some suggestions:
-- Create a blog at [blogs.aalto.fi](https://blogs.aalto.fi/). ***This is the easiest solution.***
-- Use your own website if you have one.
-- You can use [Webflow](https://webflow.com/), ask Matti for access to educational version.
-- You can use [Cargo Collective](https://cargo.site/), ask Matti for a code for free educational license.
-- Create a new website as a GitHub page. This is the recommended option if you plan to take the Digital Fabrication courses in the Spring. You can use this course to already practise using git and a static website generator called Hugo.
-- **You can also use something like Miro or Google Docs as your documentation. I highly recommend creating a publicly accessible website though so that others can learn from what you do.**
+{{<hint info>}}
+For the 2023 course, we are experimenting with a new way of doing the project documentation. Matti has been setting up a website at [newmedia.dog](https://newmedia.dog/) for archiving course work, student projects, and generally as a project documentation site for new media students. All of you will have a way to contribute to this site under your own repository.
 
-However you decide to create it, send the URL to Matti [using MyCourses](https://mycourses.aalto.fi/course/view.php?id=37545&section=1).
+I am still figuring out some of the ways this could be done as smooth as possible, so please bear with me if/when there are some hiccups.
+
+I did not have the time to prepare the instructions properly for the beginning of the course, so We will go through this in detail tomorrow (October 24).
+{{</hint>}}
 
 [This page has more detailed instructions on the options.](../documentation-website/)
 
-### 2. Arduino Basics (Thursday, November 1, 13:00)
+### 1. Arduino Basics (Thursday, November 1, 13:00)
 
 Create a circuit and Arduino code that does the following
 

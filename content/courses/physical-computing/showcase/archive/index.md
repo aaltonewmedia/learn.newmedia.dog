@@ -18,7 +18,7 @@ p5js-widget: false
 
 [More information](https://www.nooraheiskanen.com/work/silent-wings-cellulose-nitinol-installation/)
 
-### Liga Felta – Oxugen Crawlers
+### Liga Felta – Oxygen Crawlers
 
 {{<vimeo 666799496>}}
 
@@ -51,3 +51,51 @@ Oxygen crawlers is a speculative Arduino-based oxygen station for aquatic ecosys
 ### Yuhan Tseng - Future Creature
 
 {{<youtube q5PHm4vBs8o>}}
+
+## 2019 
+
+### Jasmine Xie – Squish That Cat!
+
+{{<youtube X1e-9C5cO1c>}}
+
+- [More information](https://www.jasminexie.art/squish-that-cat)
+
+## 2018 
+
+### Arto Chydenius – Cyclops Synth
+
+{{<vimeo 303690529>}}
+
+- [Cyclops Synth GitHub](https://github.com/achydenius/cyclops-synth)
+
+## 2017
+
+## Juhani Halkomäki – Bird
+
+{{<vimeo 285545317>}}
+
+--- 
+
+## Other projects 
+
+### Jasmine Xie - Transcension
+
+- [Thesis](https://aaltodoc.aalto.fi/handle/123456789/111903)
+
+### Arto Chydenius – Oscilloscope Cubes
+
+{{<vimeo 371820819>}}
+
+{{<vimeo 365700846>}}
+
+- [An oscillographics programming library called Voltage for supported microcontrollers)](https://github.com/achydenius/voltage)
+
+### Robbert Groenendijk – Echo
+
+- [Echo](https://robbert.xyz/?portfolio=echo)
+
+### Sourya Sen – Hybrid Video Synthesizer
+
+- [More information](https://ayruos.com/hybrid-video-synthesiser/)
+- [Thesis](http://urn.fi/URN:NBN:fi:aalto-201905193158)
+- [GitHub Repository](https://github.com/sourya-sen/rPi_synth)
