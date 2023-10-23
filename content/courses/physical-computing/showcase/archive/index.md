@@ -99,3 +99,7 @@ Oxygen crawlers is a speculative Arduino-based oxygen station for aquatic ecosys
 - [More information](https://ayruos.com/hybrid-video-synthesiser/)
 - [Thesis](http://urn.fi/URN:NBN:fi:aalto-201905193158)
 - [GitHub Repository](https://github.com/sourya-sen/rPi_synth)
+
+### Caleb Rugg – Global Warning
+
+{{<youtube nahqFan9TkM>}}
