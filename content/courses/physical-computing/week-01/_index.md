@@ -26,12 +26,12 @@ For the 2023 course, we are experimenting with a new way of doing the project do
 
 I am still figuring out some of the ways this could be done as smooth as possible, so please bear with me if/when there are some hiccups.
 
-I did not have the time to prepare the instructions properly for the beginning of the course, so We will go through this in detail tomorrow (October 24).
+I did not have the time to prepare the instructions properly for the beginning of the course, so we will go through this in detail tomorrow (October 24).
 {{</hint>}}
 
 [This page has more detailed instructions on the options.](../documentation-website/)
 
-### 1. Arduino Basics (Thursday, November 1, 13:00)
+### 2. Arduino Basics (Thursday, November 1, 13:00)
 
 Create a circuit and Arduino code that does the following
 
