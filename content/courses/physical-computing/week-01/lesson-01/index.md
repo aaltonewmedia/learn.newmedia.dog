@@ -65,4 +65,4 @@ p5js-widget: true
 ## Prepare for Thursday
 
 1. You will need to bring a laptop. If you don't have one, let Matti know and we can figure out something.
-2. Download and nstall the [Arduino IDE 2.0.0 ](https://www.arduino.cc/en/software)
+2. Download and install the [Arduino IDE 2.2.1 ](https://www.arduino.cc/en/software) or setup your browser to work with the [Web Editor](https://docs.arduino.cc/arduino-cloud/getting-started/getting-started-web-editor)
