@@ -12,6 +12,10 @@ This list is by no means exhaustive and is constantly updating. It is an ongoing
 
 It is also important to note that most of this list is compiled from the perspective of working as an audiovisual artist in Finland by a person educated in Finland and Canada. I very warmly welcome perspectives and suggestions from a non-western point of view.
 
+## 1200s
+
+- ~1290 or earlier, [走马灯/走馬燈](https://web.archive.org/web/20191202065903/http://hk.chiculture.net/0811/html/c36/0811c36.html) ("running-horse-lantern", similar to laterna magica) was documented in the writing of《武林舊事》:"..It looks like shadow puppets, where there are running horses and people spinning like about to fly...「……若沙戲影燈，馬騎人物，旋轉如飛。……」"
+
 ## 1600s
 
 - 1659, Christiaan Huygens, credited as the inventor of the Magic Lantern (Lanterna Magica)
