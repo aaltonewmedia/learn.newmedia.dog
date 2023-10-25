@@ -12,8 +12,8 @@ p5js-widget: true
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
-| 15:15–17:00 | [Making Things Move](./lecture) | [Output: Motors & Actuators \Digital LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
+| 13:15–15:00 |  | [Making Things Move](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
+| 15:15–17:00 | [Guest lecture by Leo McElroy](./lecture) | [Output: Motors & Actuators \Digital LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
 
 </div> 
 

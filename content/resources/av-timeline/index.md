@@ -36,6 +36,8 @@ It is also important to note that most of this list is compiled from the perspec
 
 ## 1900-1919
 
+- 1915, [Alexander Scriabin's](https://en.wikipedia.org/wiki/Alexander_Scriabin) synaesthetic symphony [Prometheus: The Poem of Fire](https://en.wikipedia.org/wiki/Prometheus:_The_Poem_of_Fire) was premiered in New York, the performance was accompanied with a colour organ/keyboard, ["Clavier à lumières"](https://en.wikipedia.org/wiki/Clavier_%C3%A0_lumi%C3%A8res), constructed by Preston S. Miller, the president of the Illuminating Engineering Society
+
 ## 1920–1929
 
 - [1921, Hans Richter, Rhythmus 21 (silent film)](https://archive.org/details/1921HANSRITCHERRYTHM21)
@@ -81,7 +83,7 @@ It is also important to note that most of this list is compiled from the perspec
 ### Highlights
 
 - Erkki Kurenniemi
-- [John Whitney](john-whitney)
+- [John Whitney](./john-whitney)
 - Nam June Paik
 - [Daphne Oram (Oramics)](daphne-oram)
 - [Delia Derbyshire](delia-derbyshire/)
@@ -146,6 +148,7 @@ It is also important to note that most of this list is compiled from the perspec
 
 ## 2010–2019
 
+- 2010, [Anna Gawboy realized Alexander Scriabin's Prometheus: The Poem of Fire with lighting designer Justin Townsend and the Yale Symphony Orchestra](https://www.youtube.com/watch?v=V3B7uQ5K0IU)
 - 2011-> [Keijiro Takahashi](http://www.keijiro.tokyo/)
     - [Github](https://github.com/keijiro)
     - [Vimeo](https://vimeo.com/keijiro)
