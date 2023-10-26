@@ -77,3 +77,4 @@ If you missed something during the class, [you can check out this series of vide
 ## Download files
 
 - [The Chromatrope TouchDesigner project](./files/chromatrope-project.zip)
+- [Source for Chromatrope images](https://lucerna.exeter.ac.uk/set/index.php?language=EN&id=3009241)
