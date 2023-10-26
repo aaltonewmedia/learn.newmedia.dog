@@ -78,16 +78,18 @@ Also include the answer to the following questions:
 ## 2023: Exhibition & Demo Day
 
 {{<hint info>}}
-**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day.**
+**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, December 1**
 {{</hint>}}
 
 ### Exhibition Dates
 
 {{<hint info>}}
-- Setting up: November 30 and December 1
-- Opening: Friday, December 1
+We have the spaces booked from November 30 to December 15. These spaces are going to be shared with the projects from this course and the Physical Computing course. Our official opening event will be on December 8, but it's great if you can finish up setting up your work even earlier than that. The dates of our exhibition are a little bit fluid. The first week is more of a work-in-progress where some things might be ready, some things still a little bit under construction.
+
+- Setting up: November 30 to December 7
+- Opening: Friday, December 8 
 - Exhibition: December 2–14
-- Take down: Friday, December 15
+- Take down: Friday, December 15 at 15:00
 {{</hint>}}
 
 ### Exhibition Spaces

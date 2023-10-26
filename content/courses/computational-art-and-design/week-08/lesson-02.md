@@ -9,6 +9,12 @@ p5js-widget: true
 
 ---
 
+{{<hint info>}}
+- October 27, 2022
+- Room L208
+- 9:15–12:00
+{{</hint>}}
+
 ## Advanced techniques for animating with code
 
 ### % remainder

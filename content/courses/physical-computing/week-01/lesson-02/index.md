@@ -34,9 +34,13 @@ Microcontrollers are essentially small computers built into one single chip. You
 {{<hint info>}}
 Note that microcontrollers and [microprocessors](https://en.wikipedia.org/wiki/Microprocessor) are two different things. Microprocessor is the CPU that you have inside your laptop or desktop computer.
 
-[For example, Raspberry Pi computers use microprocessors not microcontrollers](https://www.raspberrypi.org/), **but** the Raspberry Pi company also makes a microcontroller called [RP2040](https://www.raspberrypi.com/products/rp2040/) and the [Raspberry Pi Pico microcontroller board.](https://www.raspberrypi.com/products/raspberry-pi-pico/) We use two types of microcontrollers during this course: 
+[For example, Raspberry Pi computers use microprocessors not microcontrollers](https://www.raspberrypi.org/), **but** the Raspberry Pi company also makes a microcontroller called [RP2040](https://www.raspberrypi.com/products/rp2040/) and the [Raspberry Pi Pico microcontroller board.](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
-- Arduino Uno that uses the [ATMega328P microcontroller made by Microchip](https://www.microchip.com/en-us/product/ATmega328P)
+In 2023, we use this microcontroller:
+- [Arduino Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) that uses the [Renesas RA4M1 (Arm® Cortex®-M4)](https://www.renesas.com/us/en/document/dst/ra4m1-group-datasheet) as the main microcontroller and the [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3) as the WiFi and Bluetooth module.
+
+In older runs of the course we have used these:
+- Arduino Uno R3 that uses the [ATMega328P microcontroller made by Microchip](https://www.microchip.com/en-us/product/ATmega328P)
 - Arduino RP2040 Connect that uses the [RP2040 microcontroller made by Raspberry Pi](https://www.raspberrypi.com/products/rp2040/)
 {{</hint>}}
 
@@ -85,7 +89,7 @@ Arduino means multiple things:
 {{<hint info>}}
 You don't need to use the Arduino IDE or even the Arduino functions to program an Arduino board. You also don't need to have a board made by Arduino to use the Arduino IDE. 
 
-You can use boards made by other manufacturers or you can even make your own boards! The IDE and the code works for many othere boards and microcontrollers as well.
+You can use boards made by other manufacturers or you can even make your own boards! The IDE and the code works for many other boards and microcontrollers as well.
 
 This all seems very confusing, but don't worry. Things will slowly start to make sense.
 {{</hint>}}
@@ -111,28 +115,38 @@ Arduino just recently released an updated version (2.0) of the Arduino IDE. We a
 
 The old and new version look slightly different but the code will be the same. You can also use the older version of the software if you want/need to.
 
-### Arduino Uno R3
+### Arduino boards used in this course
+
+#### Arduino Uno R4 WiFi
+
+[![Arduino Uno R4 WiFi](./img/arduino-uno-r4-wifi-pinout.png)](./img/arduino-uno-r4-wifi-pinout.png)
+
+The board that you have in your kit is called [Arduino Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) and it's the one that we are mainly going to use for everything in this class. You might also want to use some other boards depending on the requirements of your final project.
+
+---
+
+#### Arduino Uno R3
 
 [![Arduino Uno](./img/arduino-uno-pinout.png)](./img/arduino-uno-pinout.png)
 
 - [Arduino Uno R3 Documentation](https://docs.arduino.cc/hardware/uno-rev3)
 
-Arduino Uno is the basic model of the Arduino that is based on the ATMega328 8-bit microcontroller. The ATMega328 is quite old and not really recommended to be used on any new designs anymore. There are many newer and more powerful microcontrollers available, but we are still going to start learning with the Uno for the following reasons:
+Arduino Uno R3 is the basic model of the Arduino that is based on the ATMega328 8-bit microcontroller. The ATMega328 is quite old and not really recommended to be used on any new designs anymore. There are many newer and more powerful microcontrollers available, but it is still very good place to start with for the following reasons:
 
 - It is quite robust and durable, it's not very easy to break one (compared to many of the newer models).
 - If you manage to burn or otherwise break the microcontroller chip, it can be easily replaced without soldering.
 - So many of the examples you find online will be based on the Uno so it is going to be easier to start learning with it.
-- Most of the code that you will create during this class will not be anywhere near hitting the limits of the Uno/ATMega328.
+- Most of the code that you will create during this class will not be anywhere near hitting the limits of the Uno R3/ATMega328.
 
 ---
 
-### Arduino RP2040 Connect
+#### Arduino RP2040 Connect
 
 [![Arduino RP2040 Connect](./img/arduino-rp2040-connect-pinout.png)](./img/arduino-rp2040-connect-pinout.png)
 
 - [Arduino RP2040 Connect Documentation](https://docs.arduino.cc/hardware/nano-rp2040-connect)
 
-The other microcontroller you have in your kit is the Arduino RP2040 Connect. It's a much more powerful microcontroller than the Uno. It also has two built-in sensors (IMU, microphone) as well as a wireless chip that supports WiFi and Bluetooth.
+The other microcontroller we have quite many of is the Arduino RP2040 Connect. It's a much more powerful microcontroller than the Uno. It also has two built-in sensors (IMU, microphone) as well as a wireless chip that supports WiFi and Bluetooth.
 
 {{<hint danger>}}
 Please be very careful with these boards! There are two things that can fairly easily break on them.

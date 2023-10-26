@@ -66,3 +66,18 @@ weight: 899
 ## How to learn how to learn?
 
 {{<youtube FJn6_dCp-BM>}}
+
+---
+
+## Hosting simple projects online
+
+### users.aalto.fi
+
+Make sure that you are able to access your [users.aalto.fi](https://users.aalto.fi/) folder. This is a simple, traditional WWW-service, a tool for one specific job, serving static content. This means that you can upload files to your user folder and it will then be accessible online from https://users.aalto.fi/yourusername. For example, Matti's user site is here: https://users.aalto.fi/~niinimm1/
+
+- [You will need to use the Aalto VPN.](https://www.aalto.fi/en/services/establishing-a-remote-connection-vpn-to-an-aalto-network) Make sure you get it to work before going to the next step.
+- [Instructions for setting up your site are here](https://www.aalto.fi/en/services/usersaaltofi)
+
+You can use this to better understand how your p5.js sketch is connected to the .html file and how you can manipulate html elements using JavaScript.
+
+This also demonstrates a simple way for you to share your sketches without using OpenProcessing or the p5.js editor.

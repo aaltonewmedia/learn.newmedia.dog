@@ -10,8 +10,8 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 28, 2022
-- Room L208
+- October 26, 2022
+- Room G203
 - 9:15–12:00
 {{</hint>}}
 
@@ -19,7 +19,10 @@ p5js-widget: true
 
 ## Inspiration
 
-...
+Now is a good time to start thinking about what kind of project you would like to do during this course.
+
+- [Final Project Guidelines](../../final-project/)
+- [Showcase of projects from previous years](../../showcase/)
 
 ---
 
@@ -38,22 +41,26 @@ The text editor I recommend to use is Visual Studio Code.
 
 ### Visual Studio Code + Live Server extension
 
-Visual Studio Code will be our text editor for writing the code but it's not quite enough on its own. In order to make your sketches actually run on the browser, you need to have a local werver running on your computer. Kind of like what would happen on the server where your website is online. Easy way to do this is using an extension called Live Server.
+Visual Studio Code will be our text editor for writing the code but it's not quite enough on its own. In order to make your sketches actually run on the browser, you need to have a local server running on your computer. Kind of like what would happen on the server where your website is online. Easy way to do this is using an extension called Live Server.
 
 1. [Download and install VS Code](https://code.visualstudio.com/)
 2. Click the Extensions icon on the left sidebar
 3. Search for Live Server and install it
-4. You should now see a button called Go Live on the bottom-left part of the window.
+4. You should now see a button called Go Live on the bottom-right part of the window.
 
 ### Creating projects
 
-In order to run p5.js locally you need to download the p5.js library and setup all your other local files (.httml, .css).
+#### Manually
+
+In order to run p5.js locally you need to download the p5.js library and setup all your other local files (.httml, .css). You can do this manually by copying the required files to your project.
 
 1. Download the files from ps.js
 2. Create a new folder with all the files needed. [Instructions here].
 3. Open the project folder in VS Code
 
 #### p5.vscode extension
+
+Another way to do this is to use another Visual Studio Code extension that does creates the project for us.
 
 1. Open VS Code
 2. Click the Extensions icon on the left sidebar
@@ -63,17 +70,7 @@ In order to run p5.js locally you need to download the p5.js library and setup a
 
 ---
 
-Before we go to today's topic. Make sure that you are able to access your [users.aalto.fi](https://users.aalto.fi/) folder. This is a simple, traditional WWW-service, a tool for one specific job, serving static content. This means that you can upload files to your user folder and it will then be accessible online from https://users.aalto.fi/yourusername. For example, Matti's user site is here: https://users.aalto.fi/~niinimm1/
-
-- [You will need to use the Aalto VPN.](https://www.aalto.fi/en/services/establishing-a-remote-connection-vpn-to-an-aalto-network) Make sure you get it to work before going to the next step.
-- [Instructions for setting up your site are here](https://www.aalto.fi/en/services/usersaaltofi)
-
-We will use this feature today to better understand how your p5.js sketch is connected to the .html file and how you can manipulate html elements using JavaScript.
-
-This also demonstrates a simple way for you to share your sketches without using OpenProcessing or the p5.js editor.
-
----
-## JavaScript DOM  (Document Object Model)
+## JavaScript DOM (Document Object Model)
 
 - [See the W3 tutorials here.](https://www.w3schools.com/js/js_htmldom.asp)
 - [p5.js examples for DOM](https://p5js.org/examples/)
@@ -128,13 +125,3 @@ function changeBG() {
   c = color(random(255),random(255),random(255));
 }
 {{</p5js>}}
-
----
-
-## Assignments
-
-## DOM Elements
-
-Create a sketch that uses sliders, buttons and other DOM elements to control colors and other variables in your sketch. Place the elements on top of the canvas and use `createCanvas(windowWidth, windowHeight);` so that it works well inside Open Processing.
-
-[Post it to our Open Processing class.](https://openprocessing.org/class/)
