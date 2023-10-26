@@ -26,10 +26,16 @@ For the 2023 course, we are experimenting with a new way of doing the project do
 
 I am still figuring out some of the ways this could be done as smooth as possible, so please bear with me if/when there are some hiccups.
 
-I did not have the time to prepare the instructions properly for the beginning of the course, so we will go through this in detail tomorrow (October 24).
+I did not have the time to prepare the instructions properly for the beginning of the course, so we will go through this in detail on October 26.
 {{</hint>}}
 
-[This page has more detailed instructions on the options.](../documentation-website/)
+Do the following:
+
+- Change the `me.png` to something else
+- Update any other information on the site
+- Try to add the documentation of the second assignment below to the folder called `week-01` inside the `physical-computing` folder.
+
+[This page will have more detailed instructions on the how to update the site](../documentation-website/)
 
 ### 2. Arduino Basics (Thursday, November 1, 13:00)
 
