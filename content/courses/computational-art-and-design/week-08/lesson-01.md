@@ -28,7 +28,11 @@ Now is a good time to start thinking about what kind of project you would like t
 
 ## Setting up p5.js to run locally
 
-There are many options, feel free to explore them and choose the one that you like the most:
+The first thing that you have to do for local development is to choose a text editor.
+
+{{<hint info>}}
+There are many options, feel free to explore them and choose the one that you like the most. The text editor I recommend to use is Visual Studio Code.
+{{</hint>}}
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Sublime Text](https://www.sublimetext.com/)
@@ -36,8 +40,6 @@ There are many options, feel free to explore them and choose the one that you li
 - [Espresso](https://espressoapp.com/) (only for Mac)
 - [Atom](https://github.com/atom/atom) This used to be a great text editor but the developers have now discontinued it.
 - You can even use the [Processing IDE with the p5.js mode](https://processing.org/) as your code editor.
-
-The text editor I recommend to use is Visual Studio Code.
 
 ### Visual Studio Code + Live Server extension
 
