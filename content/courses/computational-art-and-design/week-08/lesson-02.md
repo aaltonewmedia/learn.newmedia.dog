@@ -32,3 +32,5 @@ This technique is very commonly needed with Arduino so you will find this very u
 [See the tutorial on noise()](../../../tutorials/p5-js/noise.md)
 
 ### sin(), cos()
+
+[See the tutorial on noise()](../../../tutorials/p5-js/trigonometry.md)

@@ -11,7 +11,7 @@ p5js-widget: true
 
 ## Microcontrollers
 
-Microcontrollers are all around you. **This is a line I edited now.** They are inside many of the devices that you use in your everyday life. They come in many shapes and sizes, but generally look something like this:
+Microcontrollers are all around you. They are inside many of the devices that you use in your everyday life. They come in many shapes and sizes, but generally look something like this:
 
 [![ATMega328](./img/atmega328.jpg)](./img/atmega328.jpg)
 
