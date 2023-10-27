@@ -76,7 +76,7 @@ function saveSVG(){
 }
 
 // this one worked
-function downloadSvg()
+function downloadSVG()
 {
     let svgElement = document.getElementsByTagName('svg')[0];
     let svg = svgElement.outerHTML;
