@@ -27,11 +27,11 @@ Create a circuit and Arduino code that does the following
 **Document your work on the course website that you created. Deadline: Thursday, November 1, 13:00**
 
 ### Tips
-[Check the tutorials on Digital Input from here](../../../tutorials/arduino-and-electronics/arduino/)
+[Check the tutorials on Digital Input from here]({{< ref "/tutorials/arduino-and-electronics/arduino/" >}} "Arduino Tutorials")
 
 ### Solutions
 
-Only check these if you get stuck and cannot solve this on your own. Or compare your solution to these. If you did it differently and it works, that is great! Please document your solution. The aim of this is not to see how well you can copy solutions and follow instructions but rather to help you think how to start solving specific tasks with electronics and code.
+Only check these if you get stuck and cannot solve this on your own. Or compare your solution to these. If you did it differently and it works, that is great! Please document your solution. The aim of this is not to see how well you can copy solutions and follow instructions but rather to help you think how to start solving specific tasks with electronics and code. 
 
 {{< details title="Solution #1" open=false >}}
 
