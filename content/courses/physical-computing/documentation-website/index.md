@@ -29,6 +29,10 @@ We will go through this in detail tomorrow (October 24)
 5. Replace the image called `me.png` with a new image of you or something that represents you. It will be the featured picture on your section on the site.
 6. Edit the `_index.md` file to have some details about you, you can add links to your personal website, social media etc. here if you want to.
 7. Edit the files in the `physical-computing` folder for each week assignments and final project documentation.
+8. After you have edited the files, click the icon that says `Source Control` which looks like line connected with circles. There will probably also be a number next to the icon showing that you have chnaged some files.
+9. Add a message to the text box that says `Commit message`. This is a comment where you can shortly describe what kind of changes you have made.
+10. Press the button that says `Commit to main`, the editor will ask for your confirmation, select `Continue`. We don't need to create new branches for changes in this repository. Let's keep things simple.
+11. Your changes will not immediately appear on the site, I have to pull the changes and confirm that they did not break the site. I do this periodically whenever I see new updates coming in.
 
 ### Detailed instructions
 
