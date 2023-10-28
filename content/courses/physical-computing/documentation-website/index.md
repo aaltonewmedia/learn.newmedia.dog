@@ -24,11 +24,11 @@ We will go through this in detail tomorrow (October 24)
 
 1. Login to [version.aalto.fi](https://version.aalto.fi) (use the Aalto Haka login)
 2. There should be a repository with your name that I have created. You should have gotten an email invitation to edit the repository.
-3. Click on the name of that project. These files are what are used to generate content to the project website [newmedia.dog](https://newmedia.dog/)
+3. Click on the name of that project. These files are what are used to generate content to the project website [newmedia.dog](https://newmedia.dog/). Your section is either under the [Students-->2023](https://newmedia.dog/students/2023/) or [2022](https://newmedia.dog/students/2022/) section depending on when you started your studies.
 4. Edit the files by selecting `Edit-->Web IDE`. This opens an online text editor where you can start editing your files and adding new ones.
 5. Replace the image called `me.png` with a new image of you or something that represents you. It will be the featured picture on your section on the site.
 6. Edit the `_index.md` file to have some details about you, you can add links to your personal website, social media etc. here if you want to.
-7. Edit the files in the `physical-computing` folder for each week assignemnts and final project documentation.
+7. Edit the files in the `physical-computing` folder for each week assignments and final project documentation.
 
 ### Detailed instructions
 
