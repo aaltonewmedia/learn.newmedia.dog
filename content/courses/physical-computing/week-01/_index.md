@@ -37,6 +37,8 @@ Do the following:
 
 [This page will have more detailed instructions on the how to update the site](../documentation-website/)
 
+---
+
 ### 2. Arduino Basics (Thursday, November 1, 13:00)
 
 Create a circuit and Arduino code that does the following
@@ -53,11 +55,21 @@ Create a circuit and Arduino code that does the following
 5. When the switch is pressed the third time, both LEDs turn off
 6. Repeat this same cycle of LEDs turning on and off in sequence (off, one LED, two LEDs, off...)
 
-**Document your work on the course website that you created. Deadline: Thursday, November 1, 13:00**
+**Document your work on the course website that you created. Deadline: Thursday, November 2, 13:00**
 
 #### Tips
-[Check the tutorials on Digital Input from here](../../../tutorials/arduino-and-electronics/arduino/)
 
+There are multiple ways to solve this. As long as it works, it works.
+
+{{<hint info>}}
+[Check the tutorials on Digital Input from here](../../../tutorials/arduino-and-electronics/arduino/) for tips on getting through some of the problems.
+{{</hint>}}
+
+{{<hint warning>}}
+If you get stuck and cannot make it work. [Follow the solutions here.](../assignments/week-01/) There is even a video tutorial for one way of doing this.
+{{</hint>}}
+
+---
 
 ### 3. Readings
 
