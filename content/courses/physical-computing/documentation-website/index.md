@@ -72,7 +72,7 @@ Edit the `_index.md` file to have some details about you, you can add links to y
 - **title:** This will be the title of the page. Whatever you write here also appears as a h1 heading on the top of the site.
 - **draft:** Changing this to `true` would unpublish your page and it would only be in the repository as a draft.
 - **description:** The text here will appear in the HTML description of the page. This appears in preview links and search results on Google and elsewhere.
-- **summary:** This texrt appears on the site in the little box that acts as a link to your page.
+- **summary:** This text appears on the site in the little box that acts as a link to your page.
 - **authors:** Write your name here and write it exactly the same way for all of the pages you create so those pages get linked to be created by you. If a page or a project has multiple authors, you can add an array of names like this: `['Nick Newmedia', 'Matti Niinimäki']`
 - **bookCollapseSection:** Set this to `true` for pages that are parent pages for something under them. It should be `false` for pages that do not have any child pages.
 - **image:** If you have this field and a filename written in it, the image appears on top of that page and also as the thumbnail image for the link to that page in the list view.
@@ -93,7 +93,7 @@ After you have edited the files, click the icon that says `Source Control` which
 
 [![Step 8](./images/step08.png)](./images/step08.png)
 
-#### 9. Commit maessage
+#### 9. Commit message
 
 Add a message to the text box that says `Commit message`. This is a comment where you can shortly describe what kind of changes you have made.
 
@@ -115,9 +115,24 @@ Your changes will not immediately appear on the site, I have to pull the changes
 
 ## Setting up Hugo and the newmedia.dog website locally
 
-If you would like to see how the changes actually look like on the website, you need to download all of the files on your computer and setup Hugo for testing the site locally. See the instructions below.
+If you would like to see how the changes actually look like on the website before you commit the changes to your repository, you need to download all of the files on your computer and setup Hugo for testing the site locally. See the instructions below.
 
 Coming soon...
+
+### Install git
+
+### Install Hugo
+
+[Follow the instructions here on how to install Hugo on your operating system.](https://gohugo.io/installation/) I have short versions of the recommended installation process below.
+
+#### macOS
+
+1. Open `Terminal`. It is installed on your computer in Applications/Utilities 
+2. Install [Homebrew](https://brew.sh/) if you don't have it already by writing the command below in the Terminal window:  
+```zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 
 ---
 

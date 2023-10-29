@@ -1,6 +1,6 @@
 ---
 title: "Kit and Workstation"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: false
 ---
 

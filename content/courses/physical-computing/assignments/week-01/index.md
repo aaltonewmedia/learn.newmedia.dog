@@ -92,12 +92,21 @@ void loop() {
   delay(10);
 }
 ```
+
+- [Simulation of the circuit and the code on wokwi](https://wokwi.com/projects/379865157614149633)
+
+<iframe src="https://wokwi.com/projects/379865157614149633" width="100%" height="500px"></iframe>
+
 {{</ details >}}
 
 {{< details title="Solution #2" open=false >}}
 
 This solution uses 3 LEDs and is a little bit more complicated since it uses arrays and for loops but it is also more flexible in a situation where you have more LEDs than just a couple. I made the video for the class in 2020 (covid year) when we had lots of restrictions in using the spaces.
 
+- [Simulation of the circuit and the code on wokwi](https://wokwi.com/projects/379865501756807169)
+
 <iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5d4498d6-73aa-48a8-8e17-ac6a012cef7c&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=true&interactivity=all" width="100%" height="500px" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+<iframe src="https://wokwi.com/projects/379865501756807169" width="100%" height="500px"></iframe>
 
 {{</ details >}}
