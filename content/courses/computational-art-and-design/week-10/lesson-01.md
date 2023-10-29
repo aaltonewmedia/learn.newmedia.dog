@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# Other creative coding environments
-
----
-
 [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding) is and excellent resource on all things creative coding.
 
 ## Creative Coding Tools/Environments/Frameworks

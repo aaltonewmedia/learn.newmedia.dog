@@ -1,11 +1,9 @@
 ---
-title: "Guest Lecture"
+title: "Guest Lectur: Leo McElroye"
 bookCollapseSection: false
 weight: 10
 p5js-widget: true
 ---
-
-# Guest Lecture: Leo McElroy
 
 {{<hint info>}}
 - Date and time: Monday, November 6, 15:15 to 17:00

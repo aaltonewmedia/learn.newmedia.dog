@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# DOM Elements
-
----
-
 {{<hint info>}}
 - October 26, 2022
 - Room G203

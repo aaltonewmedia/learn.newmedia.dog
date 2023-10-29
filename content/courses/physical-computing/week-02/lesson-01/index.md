@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# 02 | Simple Sensors
-
----
-
 ## Inspiration
 
 {{<vimeo 59829961>}}

@@ -4,10 +4,6 @@ bookCollapseSection: false
 weight: 99
 ---
 
-# Showcase
-
----
-
 ## 2021
 
 Here are some of the works from the 2021 class:

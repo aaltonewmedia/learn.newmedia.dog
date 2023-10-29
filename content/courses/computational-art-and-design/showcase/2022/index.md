@@ -6,10 +6,6 @@ url: "courses/computational-art-and-design/showcase/2022-autumn"
 weight: 10
 ---
 
-# 2022
-
----
-
 ## Poonam Chawda – AI Tribal Storytelling
 
 [![Final Project, Poonam](./files/poonam/image.png)](./files/poonam/image.png)

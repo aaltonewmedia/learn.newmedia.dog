@@ -5,10 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-# Week 02 | Lecture: Interactive Art
-
----
-
 ## Matti Niinimäki: Interactive Art
 
 - [Lecture slides](https://miro.com/app/board/uXjVPVA3tlc=)

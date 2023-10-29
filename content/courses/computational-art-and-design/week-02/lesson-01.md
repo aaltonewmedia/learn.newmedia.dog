@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: false
 ---
 
-# Week 02 | Control Flow | Conditional Statements
-
----
-
 ## Inspiration
 
 {{<vimeo 232656895>}}

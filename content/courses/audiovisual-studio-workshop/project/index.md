@@ -5,10 +5,6 @@ weight: 70
 p5js-widget: false
 ---
 
-# Project
-
----
-
 ## General guidelines
 
 You can approach this project in many different ways. There is no one correct way. I would just like there to be some form of exploration to **audio** and **visuals**, but you can approach this in many ways. Here are some examples:

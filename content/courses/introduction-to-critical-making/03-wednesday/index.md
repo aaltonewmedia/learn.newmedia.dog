@@ -5,10 +5,6 @@ weight: 30
 draft: false
 ---
 
-# Electronics + Programming
-
----
-
 {{<hint info>}}
 - October 19, 2022
 - Room H003

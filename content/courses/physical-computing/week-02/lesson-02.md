@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Advanced sensors (I2C)
-
----
-
 ## I2C
 
 Benefits of I2C sensors:

@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Advanced Animation: noise(), trigonometric functions
-
----
-
 {{<hint info>}}
 - October 27, 2022
 - Room L208

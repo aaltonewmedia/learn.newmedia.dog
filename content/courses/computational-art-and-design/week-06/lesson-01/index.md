@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# Week 06 | Objects
-
----
-
 ## Inspiration
 
 {{<vimeo 140057053>}}

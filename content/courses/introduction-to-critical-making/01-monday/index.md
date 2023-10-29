@@ -5,10 +5,6 @@ weight: 10
 draft: false
 ---
 
-# Introduction to Critical Making
-
----
-
 {{<hint info>}}
 - October 17, 2022
 - Room H003

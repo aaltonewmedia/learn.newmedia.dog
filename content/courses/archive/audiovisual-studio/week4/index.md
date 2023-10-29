@@ -5,10 +5,6 @@ weight: 40
 draft: false
 ---
 
-# Week 04 | Projection Mapping, Immersive Spaces
-
----
-
 ## Tuesday, March 22, 2022
 
 - 9:15-10:15 Projection Mapping

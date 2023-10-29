@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# Communication
-
----
-
 ## Inspiration
 
 {{<vimeo 104996493>}}

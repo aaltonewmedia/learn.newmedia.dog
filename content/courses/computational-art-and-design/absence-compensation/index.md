@@ -6,10 +6,6 @@ draft: false
 weight: 200
 ---
 
-# Absence Compensation
-
----
-
 The course has a minimum 80% attendace requirement  (unless you are doing the independent study option).
 
 We have 84h of contact teaching in this course:

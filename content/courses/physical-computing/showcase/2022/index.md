@@ -4,10 +4,6 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
-# 2022
-
----
-
 ## Students | Fall 2022
 
 - [Gabriel Fuentes](https://gafugu.cargo.site)

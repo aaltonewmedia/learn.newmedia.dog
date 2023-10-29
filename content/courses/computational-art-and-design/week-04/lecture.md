@@ -1,5 +1,5 @@
 ---
-title: "MON | Lecture"
+title: "MON | Lecture: Generative Art and Design"
 bookCollapseSection: false
 weight: 10
 p5js-widget: true

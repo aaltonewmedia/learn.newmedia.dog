@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Week 06 | Classes
-
----
-
 ## Inspiration
 
 {{<vimeo 287093890>}}

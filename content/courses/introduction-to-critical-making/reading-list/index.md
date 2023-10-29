@@ -5,10 +5,6 @@ weight: 700
 draft: false
 ---
 
-# Introduction to Critical Making | Reading List
-
----
-
 ## Mandatory Readings
 
 - [Bogers, Loes and Chiappini, Letizia. 2019. The Critical Makers Reader: (Un)learning Technology.](https://networkcultures.org/blog/publication/the-critical-makers-reader-unlearning-technology/)

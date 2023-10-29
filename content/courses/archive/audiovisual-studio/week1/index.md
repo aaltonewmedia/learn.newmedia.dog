@@ -4,10 +4,6 @@ bookCollapseSection: false
 weight: 10
 ---
 
-# Week 01 | Introduction
-
----
-
 ## Tuesday, March 1, 2022
 
 See the [course home page](../) for the basic information of the course.

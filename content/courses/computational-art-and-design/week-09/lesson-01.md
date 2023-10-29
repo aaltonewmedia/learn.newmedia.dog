@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# Reading Data
-
----
-
 ## Inspiration
 
 {{<youtube okFtJ1iMARM>}}

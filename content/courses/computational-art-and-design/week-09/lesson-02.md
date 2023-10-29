@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Sound Analysis Using FFT
-
----
-
 {{<hint info>}}
 - November 4, 2022
 - Room L208

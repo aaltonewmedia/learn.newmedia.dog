@@ -5,10 +5,6 @@ weight: 40
 draft: false
 ---
 
-# 3D Printing
-
----
-
 {{<hint info>}}
 - October 20, 2022
 - 9:15–17:00

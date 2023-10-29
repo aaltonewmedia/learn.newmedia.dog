@@ -5,8 +5,6 @@ p5js-widget: false
 draft: false
 ---
 
-# Where to Get Stuff?
-
 ## Electronics
 
 ### Finland
@@ -16,6 +14,7 @@ draft: false
 - [Kouluelektroniikka](https://www.kouluelektroniikka.fi/) | Rauma
 - [Yleiselektroniikka](https://www.partco.fi) | Vantaa (you can also order from [RS](https://fi.rsdelivers.com/) and pick up from here)
 - [Uraltone](https://uraltone.com/) | Helsinki, Kallio
+- [Radioduo](https://www.radioduo.fi/) | Helsinki, Herttoniemi
 - [SP-Elektroniikka](https://www.spelektroniikka.fi/index.html) | Oulu
 - [Triopak](https://www.triopak.fi/fi) | Turku
 

@@ -1,12 +1,8 @@
 ---
-title: "MON | Lecture"
+title: "MON | Lecture: History of Programming"
 bookCollapseSection: false
 weight: 10
 p5js-widget: false
----
-
-# Week 02 | Lecture: History of Programming
-
 ---
 
 ## Markku Reunanen: History of Programming

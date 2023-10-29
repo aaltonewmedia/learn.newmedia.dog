@@ -6,10 +6,6 @@ p5js-widget: true
 draft: false
 ---
 
-# Week 01 | Animating With Code
-
----
-
 {{<hint info>}}
 September 8, 2023  
 9:15–12:00  

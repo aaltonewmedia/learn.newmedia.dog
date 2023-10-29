@@ -5,10 +5,6 @@ weight: 50
 draft: false
 ---
 
-# Assembly
-
----
-
 {{<hint info>}}
 - October 20, 2022
 - Room H003

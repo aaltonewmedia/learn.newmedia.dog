@@ -5,10 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-# Week 06 | Lecture & Deliverables
-
----
-
 ## Timeline (WIP)
 
 ### 2009

@@ -4,10 +4,6 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
-# Documentation Website
-
----
-
 {{<hint info>}}
 For the 2023 course, we are experimenting with a new way of doing the project documentation. Matti has been setting up a website at [newmedia.dog](https://newmedia.dog/) for archiving course work, student projects, and generally as a project documentation site for new media students. All of you will have a way to contribute to this site under your own repository.
 

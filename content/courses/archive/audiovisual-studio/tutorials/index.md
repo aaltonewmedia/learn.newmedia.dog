@@ -4,8 +4,6 @@ bookCollapseSection: false
 weight: 80
 ---
 
-# TouchDesigner Tutorials
-
 Below you can find all of the TouchDesigner tutorials recorded for this course. Also scroll down for a list of other great TD resources.
 
 If you want to watch when I record these videos, follow aaltomedialab at Twitch: https://www.twitch.tv/aaltomedialab/. I’m going to stream all (or at least most) of my recording sessions.

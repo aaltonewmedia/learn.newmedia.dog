@@ -5,10 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-# Alt+Ctrl Games
-
----
-
 ## Examples
 
 ### Matti Niinimäki & Pasi Rauhala

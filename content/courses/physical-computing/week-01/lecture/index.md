@@ -5,10 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-# Introduction to Physical Computing
-
----
-
 [![How Computers See Us](./img/howcomputer.png)](./img/howcomputer.png)
 
 ## Course practicalities

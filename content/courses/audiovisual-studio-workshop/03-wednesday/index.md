@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: false
 ---
 
-# 03 WED | Generative AI
-
----
-
 ## Stable Diffusion
 
 We refer to the guide here:

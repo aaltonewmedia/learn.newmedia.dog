@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: false
 ---
 
-# Week 02 | Conditional Statements Continued
-
----
-
 ## Inspiration
 
 {{<youtube 5eMSPtm6u5Y>}}

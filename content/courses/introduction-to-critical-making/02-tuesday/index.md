@@ -5,10 +5,6 @@ weight: 20
 draft: false
 ---
 
-# Laser Cutting
-
----
-
 {{<hint info>}}
 - October 18, 2022
 - Room H003 + H001 Laser Cutter & Plastics workshop

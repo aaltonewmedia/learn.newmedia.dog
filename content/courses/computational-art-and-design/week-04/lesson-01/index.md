@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# Week 04 | Images & Video
-
----
-
 ## Inspiration
 
 {{<youtube d8Op4cTZChs>}}

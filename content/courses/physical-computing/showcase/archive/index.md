@@ -4,10 +4,6 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
-# Archive
-
----
-
 ## 2021
 
 ### Noora Heiskanen

@@ -4,8 +4,6 @@ bookCollapseSection: false
 weight: 90
 ---
 
-# Final project gudelines
-
 As a final project for Audiovisual Studio, you should explore the things you learned and create some form of audiovisual artwork. The work should in some way explore the conection of sound/music and visuals.
 
 This outcome can be:

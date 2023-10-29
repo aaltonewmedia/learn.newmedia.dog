@@ -5,10 +5,6 @@ weight: 600
 draft: false
 ---
 
-# Introduction to Critical Making | Project
-
----
-
 ## Your Task
 
 Your task during this course is to create a device that meets the following criteria and guidelines.

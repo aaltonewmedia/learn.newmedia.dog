@@ -5,10 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-# 01 MON | Introduction
-
----
-
 ## Introduction to the Audiovisual Studio Workshop
 
 What is this workshop about? What are we going to do? What am I expecting you to do?

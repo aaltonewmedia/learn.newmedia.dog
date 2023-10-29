@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Machine Learning with ml5.js
-
----
-
 ## Machine Learning
 
 Machine learning is a way to make machines do certain tasks without being explicitly programmed to do so.

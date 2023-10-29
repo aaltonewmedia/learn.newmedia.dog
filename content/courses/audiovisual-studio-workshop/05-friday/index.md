@@ -5,10 +5,6 @@ weight: 50
 p5js-widget: false
 ---
 
-# 05 FRI | Project
-
----
-
 ## Schedule
 
 - 09.15–12:00 Project work

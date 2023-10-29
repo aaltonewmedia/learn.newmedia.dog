@@ -4,10 +4,6 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
-# Week 01
-
----
-
 ## Assignment 01: LED Counter
 
 Create a circuit and Arduino code that does the following

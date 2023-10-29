@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# 02 TUE | Audio Analysis
-
----
-
 ## Visual Music
 
 Today we are going to jump ahead in time from Magic Lanterns to the 1920s and 1930s. This is a time period when many artists were experimenting with the newly invented media of film and animation.

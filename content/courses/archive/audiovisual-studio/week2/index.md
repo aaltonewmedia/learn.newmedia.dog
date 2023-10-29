@@ -4,10 +4,6 @@ bookCollapseSection: false
 weight: 20
 ---
 
-# Week 02 | Visual Music, Audio Analysis
-
----
-
 ## Tuesday, March 8, 2022
 
 ### Visual Music & Experimental Animation on Film

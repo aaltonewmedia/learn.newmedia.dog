@@ -5,8 +5,6 @@ bookFlatSection: false
 weight: 10
 ---
 
-# Accessibility Statement
-
 This is an accessibility statement from Aalto University | learn.newmedia.dog.
 
 ## Measures to support accessibility

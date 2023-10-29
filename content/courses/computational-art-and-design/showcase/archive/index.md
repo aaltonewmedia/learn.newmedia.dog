@@ -5,10 +5,6 @@ p5js-widget: true
 weight: 99
 ---
 
-# Archive
-
----
-
 These works are some highlights from earlier versions of the course.
 
 - Introduction to Creative Coding

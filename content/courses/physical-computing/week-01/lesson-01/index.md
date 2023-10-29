@@ -5,10 +5,6 @@ weight: 20
 p5js-widget: true
 ---
 
-# Introduction to Electronics
-
----
-
 [![Electronics illustration](./img/ele.jpg)](./img/ele.jpg)
 
 ## Inspiration

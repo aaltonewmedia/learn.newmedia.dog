@@ -6,10 +6,6 @@ p5js-widget: true
 draft: false
 ---
 
-# Week 01 | Lecture
-
----
-
 {{<hint info>}}
 September 4, 2023  
 15:15–17:00  

@@ -5,10 +5,6 @@ weight: 30
 draft: false
 ---
 
-# Week 03 | Computer Graphics and Sound Synthesis, Project Proposals
-
----
-
 ## Tuesday, March 15, 2022
 
 **No class, Matti is in admissions interviews.**

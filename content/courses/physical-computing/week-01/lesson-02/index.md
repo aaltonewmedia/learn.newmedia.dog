@@ -5,10 +5,6 @@ weight: 30
 p5js-widget: true
 ---
 
-# Introduction to Microcontrollers (Arduino)
-
----
-
 ## Microcontrollers
 
 Microcontrollers are all around you. They are inside many of the devices that you use in your everyday life. They come in many shapes and sizes, but generally look something like this:

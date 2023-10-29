@@ -6,10 +6,6 @@ draft: false
 weight: 200
 ---
 
-# Debugging, finding help
-
----
-
 Sooner or later, you will get stuck, annoyed, frustrated, confused, or some other form of negative emotions when your code just does not work and you don't know why. **This is normal.** You can choose to handle these situations calmly and focus on trying to solve the issues. There are several ways to approach this. Here are some recommendations
 
 ## Read the error messages
