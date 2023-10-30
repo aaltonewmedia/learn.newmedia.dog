@@ -55,3 +55,17 @@ When thinking of new interactions, I find it helpful to go to hardware stores, a
 
 - [OT14 3D Print](https://mycourses.aalto.fi/course/view.php?id=23273)
 - [OT14 Plastics & Laser H001](https://mycourses.aalto.fi/course/view.php?id=19552)
+
+#### Files for 3D printing
+
+We will use class time next week to go print the parts that we need, but if you already have time, you can go and 3D print the sensormount/googly eye holder for our robot. Check MyCourses for the cost center and project code that you can give at the 3D Print workshops so you don't have to pay for the materials.
+
+- [roboeyes.stl](/files/physical-computin-robot/roboeyes.stl)
+
+If you want to edit the design, you can use this [Fusion 360 file](https://a360.co/479P6xB).
+
+#### Files for Laser Cutting
+
+We will use class time next week to go cut the parts that we need. I will upload the files here in advance so you can already cut them if you know how.
+
+*Matti is still working on this file. Come back later...*
