@@ -6,8 +6,5 @@ draft: false
 weight: 100
 ---
 
-# Sound | Electret Microphone + Amplifier (MAX4466)
-
----
-
+## Coming soon
 

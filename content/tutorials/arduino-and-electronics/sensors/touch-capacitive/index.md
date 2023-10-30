@@ -6,10 +6,6 @@ draft: false
 weight: 100
 ---
 
-# Touch | Capacitive
-
----
-
 Capacitive sensing is based on the fact that your body is able to store an electric charge. You can use almost any conductive object as a sensor with just one wire connecting the object to the microcontroller/sensor.
 
 - [CapacitiveSensor Library](https://github.com/PaulStoffregen/CapacitiveSensor) – Works with most microcontrollers. Requires a couple of extra components.
