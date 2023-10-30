@@ -6,10 +6,6 @@ draft: false
 weight: 100
 ---
 
-# Light | Photoresistor (LDR, Light Sensor)
-
----
-
 The following circuit can be used to read the values from various sensors, such as the light sensor we are using.
 
 [![LDR Breadboard circuit](https://newmedia.dog/wp-content/uploads/2016/10/Screen-Shot-2016-10-20-at-14.08.58.png)](https://newmedia.dog/wp-content/uploads/2016/10/Screen-Shot-2016-10-20-at-14.08.58.png)

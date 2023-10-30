@@ -1,28 +1,18 @@
 ---
-title: Accelerometer | MSA301
+title: Temperature and Humidity | AHT20
 bookCollapseSection: false
 p5js-widget: true
 draft: false
 weight: 100
 ---
 
-[![Adafruit MSA301](./images/msa301.jpg)](./images/msa301.jpg)
-
-The MSA301 is a super small and low cost triple-axis accelerometer. It's inexpensive, but has just about every 'extra' you'd want in an accelerometer:
-
-- Three axis sensing, 14-bit resolution
-- ±2g/±4g/±8g/±16g selectable scaling
-- I2C interface on fixed I2C address 0x26
-- Interrupt output
-- Multiple data rate options from 1 Hz to 500 Hz
-- As low as 2uA current draw in low power mode (just the chip itself, not including any supporting circuitry)
-- Tap, Double-tap, orientation & freefall detection
+[![Adafruit AHT-20](./images/aht-20.jpg)](./images/aht-20.jpg)
 
 ## Links and Resources
 
-- Datasheet of the sensor
-- [Adafruit tutorial for the breakout board](https://learn.adafruit.com/msa301-triple-axis-accelerometer)
-- [Adafruit product page](https://www.adafruit.com/product/4344)
+- [Datasheet of the sensor](./files/datasheet_aht20.pdf)
+- [Adafruit tutorial for the breakout board](https://learn.adafruit.com/adafruit-aht20)
+- [Adafruit product page](https://www.adafruit.com/product/4566)
 
 ## Connecting the Sensor
 
@@ -32,22 +22,20 @@ These sensors come with a very handy connector that allows us to use it without 
 
 Just use a Qwiic/STEMMA QT cable to connect the sensor to your board. It does not matter which of the connectors you use, they are all connected together.
 
-[![Adafruit MSA301 Qwiic](./images/msa301-qwiic.jpg)](./images/msa301-qwiic.jpg)
+[![Adafruit AHT-20 Qwiic](./images/aht-20-qwiic.jpg)](./images/aht-20-qwiic.jpg)
 
 ### Connecting directly to the pins
 
 Sometimes you might not have the connector on your microcontroller so you need to wire it up manually. This is also quite simple:
 
-- **VIN** - this is the power pin.  To power the board, give it the same power as the logic level of your microcontroller - e.g. for a 5V micro like Arduino, use 5V
-- **3Vo** - this is the 3.3V output from the voltage regulator, you can grab up to 100mA from this if you like
-- **GND** – common ground for power and logic, connect to GND on your board
+- **VIN** this is the power pin.  To power the board, give it the same power as the logic level of your microcontroller - e.g. for a 5V micro like Arduino, use 5V
+- **GND** - common ground for power and logic, connect to GND on your board
 - **SCL** - I2C clock pin, connect to your microcontrollers I2C clock line. The logic level is the same as VIN and it has a 10K pullup already on it.
 - **SDA** - I2C data pin, connect to your microcontrollers I2C data line. The logic level is the same as VIN. and it has a 10K pullup already on it.
-- **INT** - This is the interrupt pin. You can setup the MSA301 to pull this low when certain conditions are met such as taps being detected.
 
 ## Recommended Library
 
-Use the Adafruit MSA301 Library.
+Use the Adafruit AHTX0 Library
 
 ## I2C Bus on the Uno R4 boards
 
@@ -73,13 +61,13 @@ libraryName.setBus(&Wire1);
 
 {{</hint>}}
 
-### Selecting Wire1 I2C Bus with the Adafruit MSA301 Library
+### Selecting Wire1 I2C Bus with the Adafruit AHTX0 Library
 
 {{<hint info>}}
 For the **Adafruit AHT20** sensor breakout boards, you do it like this:
 
 ```c
-msa.begin(MSA301_I2CADDR_DEFAULT, &Wire1)
+aht20.begin(&Wire1);
 ```
 
 The `&` means that we are passing a reference to the address of the variable. This is a pretty confusing and complicated topic, but you can read up on it:
@@ -91,40 +79,27 @@ The `&` means that we are passing a reference to the address of the variable. Th
 
 ## Full example code
 ```c
-// Basic demo for plotting accelerometer readings from Adafruit MSA301
+#include <Adafruit_AHTX0.h>
 
-#include <Wire.h>
-#include <Adafruit_MSA301.h>
-#include <Adafruit_Sensor.h>
+Adafruit_AHTX0 aht;
 
-Adafruit_MSA301 msa;
-
-void setup(void) {
+void setup() {
   Serial.begin(115200);
-  while (!Serial) delay(10);     // will pause Zero, Leonardo, etc until serial console opens
+  Serial.println("Adafruit AHT10/AHT20 demo!");
 
-  Serial.println("Adafruit MSA301 test!");
-  
-  // Try to initialize!
-  if (! msa.begin(MSA301_I2CADDR_DEFAULT, &Wire1)) {
-    Serial.println("Failed to find MSA301 chip");
-    while (1) { delay(10); }
+  if (! aht.begin(&Wire1)) {
+    Serial.println("Could not find AHT? Check wiring");
+    while (1) delay(10);
   }
-  Serial.println("MSA301 Found!");
+  Serial.println("AHT10 or AHT20 found");
 }
 
 void loop() {
+  sensors_event_t humidity, temp;
+  aht.getEvent(&humidity, &temp);// populate temp and humidity objects with fresh data
+  Serial.print("Temperature: "); Serial.print(temp.temperature); Serial.println(" degrees C");
+  Serial.print("Humidity: "); Serial.print(humidity.relative_humidity); Serial.println("% rH");
 
-  /* Get a new sensor event, normalized */ 
-  sensors_event_t event; 
-  msa.getEvent(&event);
-  
-  /* Display the results (acceleration is measured in m/s^2), with commas in between */
-  Serial.print(event.acceleration.x);
-  Serial.print(", "); Serial.print(event.acceleration.y); 
-  Serial.print(", "); Serial.print(event.acceleration.z); 
-  Serial.println();
- 
-  delay(10); 
+  delay(500);
 }
 ```
