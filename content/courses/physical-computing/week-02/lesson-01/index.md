@@ -17,7 +17,6 @@ p5js-widget: true
 - [Tim Hunkin](https://www.timhunkin.com/)
   - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
   - [Watch the episodes](https://www.exploratorium.edu/ronh/SLOM/)
-- [Niklas Roy](https://www.niklasroy.com/)
 
 ## Variable resistors
 
@@ -25,15 +24,27 @@ Many sensors are just variable resistors that change their resistance value base
 
 ### Voltage Divider | Converting resistance to voltage
 
-If you connect two resistors in series as in the image below, the voltage read from Vout depends on the ratio of the two resistors. Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or check [this tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/voltage-dividers/all), if you want to learn how to calculate the values.
+If you connect two resistors in series as in the image below, the voltage read from Vout depends on the ratio of the two resistors. Using a variable resistor instead of a fixed-value one as one of the resistors will create a circuit where the voltage read between the resistors will vary depending on the conditions that change the resistance. For example, using an LDR (light dependent resistor) as R1 allows you to read the change of the light level.
+
+Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or check [this tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/voltage-dividers/all), if you want to learn how to calculate the values.
 
 [![Voltage Divider](/images/tutorials/electronics/voltage-divider.jpg)](/images/tutorials/electronics/voltage-divider.jpg)
 
+#### Light Dependent Resistor
+
 [See the LDR tutorial to learn how to use the photoresistor (LDR) we have in the kit.](../../../../tutorials/arduino-and-electronics/sensors/light-ldr/)
+
+#### Other variable resistors
+
+- Potentiometer
+- Thermistor
+- Stretch Sensor
+- Force Sensitive Resistor (FSR)
+- ...
 
 ## Sensors with analog output
 
-There are also many sensors that have an analog outpput. Analog in this case meaning that they are directly outputting a varyying level of voltage. Some of the analog sensors we have in the Mechatronics workshops:
+There are also many sensors that have an analog output. Analog in this case meaning that they are directly outputting a varying level of voltage. Some of the analog sensors we have in the Mechatronics workshops:
 
 - Accelerometer ADXL335
 - Sharp IR Distance Sensors

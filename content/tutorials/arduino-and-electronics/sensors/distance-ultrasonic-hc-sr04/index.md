@@ -6,7 +6,7 @@ draft: false
 weight: 100
 ---
 
-![Ultrasonic Sensor HC-SR04](https://newmedia.dog/wp-content/uploads/2018/11/hc-sr04.jpg)
+![Ultrasonic Sensor HC-SR04](./images/hc-sr04.jpg)
 
 The HC-SR04 is a low-cost ultrasonic ranging sensor for measuring distances between 2–400cm. It is not the most accurate sensor and it can give a bit erratic readings sometimes, especially when the detected object is soft and uneven. It still does a fairly good job in most cases when you need to know how far a person or an object is from your sensor.
 
@@ -32,7 +32,7 @@ You need to connect 4 pins:
 - Trig to one of the digital pins of the Arduino (pin 3)
 - Echo to one of the digital pins of the Arduino (pin 2)
 
-![Ultrasonic pins](https://newmedia.dog/wp-content/uploads/2018/11/hc-sr04_bb.png)
+[![Ultrasonic pins](./images/hc-sr04_bb.png)](./images/hc-sr04_bb.png)
 
 ```c
 #define TRIG_PIN 3

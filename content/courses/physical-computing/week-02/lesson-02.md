@@ -20,10 +20,12 @@ I2C is not just for sensors. There are many other types of devices that use I2C 
 
 The boards we use have a specific connector for easily working with I2C devices. The actual connector is a 4-pin JST SH connector but it is called Qwiic by Sparkfun and STEMMA QT by Adafruit.
 
-Your kit includes three sensors that can be connected using this handy system:
+Your kit includes four sensors that can be connected using this handy system:
 
-- [MSA301](../../../tutorials/arduino-and-electronics/sensors/accelerometer-msa301/)
-- [VL53L1X](../../../tutorials/arduino-and-electronics/sensors/distance-vl53l1x/)
+- [Accelerometer | MSA301](../../../tutorials/arduino-and-electronics/sensors/accelerometer-msa301/)
+- [Distance Sensor | VL53L1X](../../../tutorials/arduino-and-electronics/sensors/distance-vl53l1x/)
+- [Temperature and Humidity Sensor | AHT20](../../../tutorials/arduino-and-electronics/sensors/temperature-and-humidity-aht20/)
+- [Magnetometer | TLV493D](../../../tutorials/arduino-and-electronics/sensors/magnetometer-tlv493d/)
 
 {{<hint info>}}
 You don't have to use the Qwiic connectors to work with these sensors. You could solder wires or header pins to them just as well. The connectors are very handy for quick prototyping without worrying about damaging the sensors.
