@@ -11,11 +11,13 @@ p5js-widget: true
 {{<vimeo 48937359>}}
 
 - [Peter Vogel](http://vogelexhibition.weebly.com/)
+  - [The Sound of Shadows](https://vimeo.com/59829961)
 - [Yuri Suzuki](https://www.yurisuzuki.com/)
 - [Mohit Bhoite](https://www.bhoite.com/sculptures/)
 - [Tim Hunkin](https://www.timhunkin.com/)
   - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
   - [Watch the episodes](https://www.exploratorium.edu/ronh/SLOM/)
+- [Niklas Roy](https://www.niklasroy.com/)
 
 ## Variable resistors
 
