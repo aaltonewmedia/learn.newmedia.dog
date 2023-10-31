@@ -214,3 +214,5 @@ Punto y Raya Festival is an international festival that celebrates abstract art 
 - [VJ MasterDamus 20 years of Projection Mapping](https://www.youtube.com/watch?v=ZBMfnJcE5uI&ab_channel=SeanBowes)
 
 - [MediaLab Github](https://github.com/aalto-mediacode)
+
+- [Problems of Modern Vjing](https://medium.com/@predzemsar/3-problems-of-modern-vjing-ed59f8bb6688)
