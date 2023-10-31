@@ -79,6 +79,8 @@ As a VJ, you can experience a wide range of setups, from small underground clubs
 
 Regardless of the setup, a VJ must be fluent in both the technology and aesthetics of their craft. They must be able to adapt to the environment and work with the equipment available to them. For example, in a small club, a VJ may need to use creative techniques to make the most of limited space and equipment. They may need to use projection mapping to create the illusion of a larger screen, or use generative art to create dynamic visuals that don't require a large screen.
 
+[![Venue](/images/tutorials/vj/venue.jpeg)](/images/tutorials/vj/venue.jpeg)
+
 In larger venues, a VJ may need to work with multiple projectors and screens, and synchronize their visuals with a complex audio system. They may need to work closely with the sound engineer to ensure that the visuals and audio are perfectly synchronized. They may also need to create custom content that is tailored to the specific needs of the performance, such as creating visuals that respond to the music or the audience.
 
 ### Guerilla Projection
