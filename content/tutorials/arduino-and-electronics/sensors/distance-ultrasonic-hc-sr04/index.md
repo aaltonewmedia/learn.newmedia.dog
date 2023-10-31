@@ -3,7 +3,6 @@ title: Distance | HC-SR04
 bookCollapseSection: false
 p5js-widget: true
 draft: false
-weight: 100
 ---
 
 ![Ultrasonic Sensor HC-SR04](./images/hc-sr04.jpg)
