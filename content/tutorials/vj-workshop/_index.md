@@ -155,7 +155,7 @@ There are several tools that can be used to get streaming real-time video a VJ s
 
 - [OBS](https://obsproject.com/)
 
-- [Ninja](https://www.vdoninja.com/)
+- [Ninja](https://www.vdo.ninja)
 
 - [Twitch](https://www.twitch.tv/)
 
