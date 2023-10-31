@@ -183,7 +183,7 @@ Aavistus Festival is a biennial festival of audiovisual art and VJ culture, whic
 
 - [Aavistus](https://aavistusfestival.fi/)
 
-### Kinomural Proejction Festival
+### Kinomural Projection Festival
 
 Kinomural Festival is an annual event that takes place in Wroclaw, Poland. It is a celebration of audio-visual art and features moving murals created by audio-visual artists from all around the world. The festival is held once a year, and the walls of the city come to life with stunning visuals that are projected onto them.
 
