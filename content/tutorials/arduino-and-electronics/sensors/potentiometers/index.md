@@ -87,6 +87,8 @@ function draw() {
 
 ## Linear potentiometers
 
+## Code Example
+
 ```c
 // Read and display the value from the potentiometer.
 
