@@ -22,9 +22,15 @@ draft: false
 
 ## Artists
 
-- Love Hulten
-- Erkki Kurenniemi
+- [Love Hultén](https://www.lovehulten.com/)
+- [Erkki Kurenniemi](https://fi.wikipedia.org/wiki/Erkki_Kurenniemi)
   - [Master Chaynjis](https://www.youtube.com/watch?v=L1qtHLGQPIU)
+- [Peter Vogel](http://vogelexhibition.weebly.com/)
+- [Mohit Bhoite](https://www.bhoite.com/sculptures/)
+- [Tim Hunkin](https://www.timhunkin.com/)
+  - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
+  - [Watch the episodes](https://www.exploratorium.edu/ronh/SLOM/)
+- [Niklas Roy](https://www.niklasroy.com/)
 
 
 

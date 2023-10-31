@@ -3,7 +3,6 @@ title: Magnetometer | TLV493D
 bookCollapseSection: false
 p5js-widget: true
 draft: false
-weight: 100
 ---
 
 [![Adafruit TLV493D](./images/tlv493d.jpg)](./images/tlv493d.jpg)

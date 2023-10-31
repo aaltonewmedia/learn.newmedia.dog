@@ -11,6 +11,7 @@ p5js-widget: true
 {{<vimeo 48937359>}}
 
 - [Peter Vogel](http://vogelexhibition.weebly.com/)
+  - [The Sound of Shadows](https://vimeo.com/59829961)
 - [Yuri Suzuki](https://www.yurisuzuki.com/)
 - [Mohit Bhoite](https://www.bhoite.com/sculptures/)
 - [Tim Hunkin](https://www.timhunkin.com/)
@@ -23,15 +24,27 @@ Many sensors are just variable resistors that change their resistance value base
 
 ### Voltage Divider | Converting resistance to voltage
 
-If you connect two resistors in series as in the image below, the voltage read from Vout depends on the ratio of the two resistors. Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or check [this tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/voltage-dividers/all), if you want to learn how to calculate the values.
+If you connect two resistors in series as in the image below, the voltage read from Vout depends on the ratio of the two resistors. Using a variable resistor instead of a fixed-value one as one of the resistors will create a circuit where the voltage read between the resistors will vary depending on the conditions that change the resistance. For example, using an LDR (light dependent resistor) as R1 allows you to read the change of the light level.
+
+Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or check [this tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/voltage-dividers/all), if you want to learn how to calculate the values.
 
 [![Voltage Divider](/images/tutorials/electronics/voltage-divider.jpg)](/images/tutorials/electronics/voltage-divider.jpg)
 
+#### Light Dependent Resistor
+
 [See the LDR tutorial to learn how to use the photoresistor (LDR) we have in the kit.](../../../../tutorials/arduino-and-electronics/sensors/light-ldr/)
+
+#### Other variable resistors
+
+- Potentiometer
+- Thermistor
+- Stretch Sensor
+- Force Sensitive Resistor (FSR)
+- ...
 
 ## Sensors with analog output
 
-There are also many sensors that have an analog outpput. Analog in this case meaning that they are directly outputting a varyying level of voltage. Some of the analog sensors we have in the Mechatronics workshops:
+There are also many sensors that have an analog output. Analog in this case meaning that they are directly outputting a varying level of voltage. Some of the analog sensors we have in the Mechatronics workshops:
 
 - Accelerometer ADXL335
 - Sharp IR Distance Sensors
@@ -63,53 +76,64 @@ There are many other digital communication protocols that are often used with mo
 
 ## Examples done in class
 
+The project we are going to build in class implements a simple threshold for deciding when an LED should turn on.
+
 ### Circuit
+
+This example uses two analog inputs:
+
+- Light sensor connected to pin A0
+- Potentiometer connected to pin A1
+
+One digital output:
+
+- LED connected to pin 9
 
 [![Example Breadboard image](./img/example-bb.png)](./img/example-bb.png)
 
 ### Code
 
+{{<hint info>}}
+The code does the following
+- Read the light level using the light sensor and store the value to a variable called `lightValue`
+- Read the potentiometer value and store the value to a variable called `pot`
+- If `lightValue` is less than `pot`, turn on the LED with the brigthness value `b`
+- Otherwise, turn the LED off
+- Print all the values using the serial port for feedback. Variable called `trigger` is used to print out a value of `0` or `1023` depending on the state of the LED.
+{{</hint>}}
+
 ```c
-int light;
+int lightValue;
 int pot;
-int b;
+// b is used to store the brightness of the LED
+int b = 255;
+// trigger variable is used to visualize the output on the plotter
+int trigger = 0;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(9,OUTPUT);
+  pinMode(9, OUTPUT);
 }
 
 void loop() {
-  // read both sensors
-  light = analogRead(A0);
+  lightValue = analogRead(A0);
   pot = analogRead(A1);
-
-  // print the min and max values so the Serial Plotter doesn't autoscale. Go to a new line.
-  Serial.println("Min:0, Max:1023");
-
-  // print the light sensor value
-  Serial.print(light);
-  // print space character so that the values each get a separate graph in the plotter
-  Serial.print(' ');
-  // print the potentiometer value and go to a new line
-  Serial.println(pot);
-
-  // map the values from the light sensor to a new range between 100-255
-  // store the value to a variable called b (the brightness of the LED)
-  // when the light sensor value reaches the value of pot, the brightness of the LED will be 100
-  // the darker it gets the brighter the LED becomes
-  // if the light sensor would read a value of 0, the brightness would be 255
-  b = map(light,pot,0,100,255);
-
-  // if light level goes below the threshold (pot), turn the LED on, set brightness to b
-  // otherwise set the LED brightness to 0
-  if(light < pot){ 
-    analogWrite(9,b);
-  }else{
-    analogWrite(9,0);
+  if (lightValue < pot) {
+    analogWrite(9, b);
+    trigger = 1023;
+  } else {
+    analogWrite(9, LOW);
+    trigger = 0;
   }
 
-  // delay to slow down the loop a bit
+  // 0 and 1023 are printed to make sure the plotter doesn't autoscale
+  Serial.println("Min:0, Max:1023");
+
+  Serial.print(lightValue);
+  Serial.print(" ");
+  Serial.print(pot);
+  Serial.print(" ");
+  Serial.println(trigger);
   delay(10);
 }
 ```

@@ -3,7 +3,6 @@ title: Distance | VL53L1X
 bookCollapseSection: false
 p5js-widget: true
 draft: false
-weight: 100
 ---
 
 [![Sparkfun VL53L1X](./images/VL53L1X.jpg)](./images/VL53L1X.jpg)

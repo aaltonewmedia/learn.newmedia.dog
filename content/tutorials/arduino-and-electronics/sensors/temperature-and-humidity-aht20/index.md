@@ -3,7 +3,6 @@ title: Temperature and Humidity | AHT20
 bookCollapseSection: false
 p5js-widget: true
 draft: false
-weight: 100
 ---
 
 [![Adafruit AHT-20](./images/aht-20.jpg)](./images/aht-20.jpg)

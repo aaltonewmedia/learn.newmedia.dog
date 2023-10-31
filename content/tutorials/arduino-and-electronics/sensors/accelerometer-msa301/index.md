@@ -3,7 +3,6 @@ title: Accelerometer | MSA301
 bookCollapseSection: false
 p5js-widget: true
 draft: false
-weight: 100
 ---
 
 [![Adafruit MSA301](./images/msa301.jpg)](./images/msa301.jpg)
