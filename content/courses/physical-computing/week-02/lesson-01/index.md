@@ -36,7 +36,7 @@ Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or c
 
 #### Other variable resistors
 
-- Potentiometer
+- [Potentiometers]( {{<ref "tutorials/arduino-and-electronics/sensors/potentiometers" >}} )
 - Thermistor
 - Stretch Sensor
 - Force Sensitive Resistor (FSR)
