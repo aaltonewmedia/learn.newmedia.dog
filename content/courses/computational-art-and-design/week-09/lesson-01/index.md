@@ -64,11 +64,11 @@ function pickNew(){
 
 ## Reading tables (CSV files)
 
-...
+[See the loadTable example](https://p5js.org/reference/#/p5/loadTable)
 
 ## Reading XML files
 
-...
+[See the loadXML example](https://p5js.org/reference/#/p5/loadXML)
 
 ## JSON
 
@@ -119,10 +119,12 @@ As you can see, a JSON file is one object that can contain other objects, arrays
 
 We could try to parse the data with p5.js in the following way:
 
+<iframe src="https://openprocessing.org/sketch/2071253/embed/?plusEmbedHash=13051fdd&userID=7588&plusEmbedTitle=true#sketch" width="100%" height="300"></iframe>
+
 ```js
 let person;
 function preload() {
-  person = loadJSON("data/person.json");
+  person = loadJSON("person.json");
 }
 function setup() {
   noCanvas();
@@ -140,28 +142,6 @@ function setup() {
   }
 }
 ```
-
-{{<p5js autoplay=1 width="300" height="500">}}
-let person;
-function preload() {
-  person = loadJSON("/files/data.json");
-}
-function setup() {
-  noCanvas();
-  noLoop();
-
-  let name = person.firstName + " " + person.lastName;
-  createElement("h2", name);
-
-  createElement("p", name + " has the following pets:");
-  let pets = person.pets;
-  let list = createElement("ul");
-  for (let i = 0; i < pets.length; i++) {
-    let p = createElement("li", pets[i].name + ", " + pets[i].animal);
-    list.child(p);
-  }
-}
-{{</p5js>}}
 
 ---
 

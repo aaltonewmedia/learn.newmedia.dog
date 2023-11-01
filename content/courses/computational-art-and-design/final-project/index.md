@@ -38,7 +38,7 @@ You can combine the final project of this course to the one you are working on i
 
 ## Deliverables
 
-### Project Proposal (Friday, November 11)
+### Project Proposal (Friday, November 10)
 
 Submit a link to an online document (Miro board, Google Doc etc.) of your project proposal via MyCourses. It should include the following:
 - A short description of your idea. What do you want to do? Why?
