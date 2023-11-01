@@ -30,7 +30,37 @@ We are going to jump right into reading JSON files, but I have also provided som
 
 ## Reading text files
 
-...
+<iframe src="https://openprocessing.org/sketch/2071219/embed/?plusEmbedHash=18be9346&userID=7588&plusEmbedTitle=true#sketch" width="100%" height="500"></iframe>
+
+```js
+let result;
+let sentence;
+let btn;
+function preload() {
+  result = loadStrings('shalli.txt');
+}
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	background(100);
+	textAlign(CENTER,CENTER);
+	textSize(16);
+	textFont('monospace')
+	sentence = random(result);
+	btn = createButton("Click for a new sentence");
+	btn.mousePressed(pickNew);
+	btn.size(200,50);
+	btn.position(width/2-100,100);
+}
+
+function draw() {
+	background(100);
+	text(sentence,width/2,height/2);
+}
+
+function pickNew(){
+	sentence = random(result);
+}
+```
 
 ## Reading tables (CSV files)
 
@@ -114,7 +144,7 @@ function setup() {
 {{<p5js autoplay=1 width="300" height="500">}}
 let person;
 function preload() {
-  person = loadJSON("../files/data.json");
+  person = loadJSON("/files/data.json");
 }
 function setup() {
   noCanvas();

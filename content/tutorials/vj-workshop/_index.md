@@ -5,6 +5,10 @@ bookCollapseSection: false
 draft: false
 ---
 
+>by [Calvin Guillot](https://calvinguillot.com/)
+
+---
+
 [![After Arts](/images/tutorials/vj/after_arts.png)](/images/tutorials/vj/after_arts.png)
 
 ---
