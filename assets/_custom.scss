@@ -3,6 +3,31 @@
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
 
+// fonts
+
+@font-face {
+  font-family: 'aalto-icons';
+  src: url('/fonts/aalto-icons.woff') format('woff');
+}
+
+/* base class */
+.icon {
+
+}
+
+/* icons */
+.icon-arrow-down::before {
+  content: "\e901";
+}
+
+.icon-arrow-right::before {
+  content: "\e903";
+}
+
+.icon-chevron-right::before {
+  content: "\e90a";
+}
+
 body {
   scrollbar-color: var(--gray-100) var(--body-background);
 }
@@ -86,6 +111,16 @@ hr{
 .book-menu a, .book-menu label{
   color: var(--color-link);
 }
+.book-menu{
+  input.toggle + label::after {
+    font-family: 'aalto-icons';
+    content: "\e924";
+  }
+  input.toggle:checked + label::after {
+    content: "\e91e";
+  }
+}
+
 
 .book-toc{
   border-left: 0.1rem solid rgba($nm_yellow, 0.2);
@@ -191,8 +226,12 @@ ul.breadcrumb li {
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
-  padding: 8px;
-  content: "/\00a0";
+  font-family: 'aalto-icons';
+  padding: 5px;
+  content: "\e90a";
+  //content: "icon icon-chevron-right";
+  //content: "\e90a"
+  //content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
@@ -215,4 +254,5 @@ ul.breadcrumb li a:hover {
     }
   }
 }
+
 

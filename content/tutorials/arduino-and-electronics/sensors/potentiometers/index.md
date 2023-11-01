@@ -5,20 +5,32 @@ p5js-widget: true
 draft: false
 ---
 
-Potentiometers are essentially voltage dividers built into a single component with an interface that you can manipulate. You can imagine them as two variable resistors that you are controlling by turning a knog or moving a slider.
+Potentiometers are essentially voltage dividers built into a single component with an interface that you can manipulate. You can imagine them as two variable resistors that you are controlling by turning a knob or moving a slider.
 
 ## Rotational potentiometers
 
 {{< p5js width="400" height="400" autoplay="true">}}
 let slider;
+let r1, r2, rPot, vIn;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   slider = createSlider(0,1023,200,1);
   slider.position(width/2-slider.width/2,height-height/6);
+  vIn = 5;
+  rPot = 10000;
 }
 
 function draw() {
   background(220);
+  
+  // voltage divider
+  let sliderVal = slider.value();
+  let sliderNorm = sliderVal/1023;
+  r2 = rPot*sliderNorm;
+  r1 = rPot - r2;
+  let vOut = nfs( (vIn*r2) / rPot, 0, 2 );
+  //console.log(vOut);
+  
   textAlign(CENTER);
   textFont('monospace');
   textSize(32);
@@ -26,7 +38,7 @@ function draw() {
   noStroke();
   text("Potentiometer",width/2,60);
   textSize(12);
-  text(slider.value(),width/2,height-height/6);
+  text(sliderVal + " /" + vOut + "V" ,width/2,height-height/7);
   noFill();
   stroke(0);
   strokeWeight(5);
