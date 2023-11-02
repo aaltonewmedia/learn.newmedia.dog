@@ -17,7 +17,7 @@ p5js-widget: true
 
 </div> 
 
-## Deliverables for Week 2 (Deadline: Tuesday, November 7, 13:00)
+## Deliverables for Week 2 (Deadline: Thursday, November 9, 13:00)
 
 ### 1. Find an interesting existing Alt+Ctrl Interface
 
