@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- November 4, 2022
+- November 3, 2023
 - Room L208
 - 9:15–12:00
 {{</hint>}}

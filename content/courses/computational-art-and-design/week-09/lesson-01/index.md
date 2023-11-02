@@ -5,6 +5,12 @@ weight: 20
 p5js-widget: true
 ---
 
+{{<hint info>}}
+- November 2, 2023
+- Room G203
+- 9:15–12:00
+{{</hint>}}
+
 ## Inspiration
 
 {{<youtube okFtJ1iMARM>}}
@@ -16,6 +22,8 @@ p5js-widget: true
 - [Shirley Wu](https://shirleywu.studio/)
 - [Data Sketches](https://www.datasketch.es/)
 - [The Pudding](https://pudding.cool/)
+- [Forensic Architecture](https://forensic-architecture.org/)
+- [Bellingcat](https://www.bellingcat.com/)
 
 ---
 
