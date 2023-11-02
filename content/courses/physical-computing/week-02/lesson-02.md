@@ -5,6 +5,12 @@ weight: 30
 p5js-widget: true
 ---
 
+## Inspiration
+
+{{<vimeo 20897840>}}
+
+{{<vimeo 3737365>}}
+
 ## I2C
 
 Benefits of I2C sensors:
