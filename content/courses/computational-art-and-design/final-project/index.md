@@ -40,7 +40,7 @@ You can combine the final project of this course to the one you are working on i
 
 ### Project Proposal (Friday, November 10)
 
-Submit a link to an online document (Miro board, [newmedia.dog](https://newmedia.dog/) Google Doc, OneDrive etc.) of your project proposal via MyCourses. It should include the following:
+Submit a link to an online document (Miro board, [newmedia.dog](https://newmedia.dog/), Google Doc, OneDrive etc.) of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1113720). It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
@@ -54,9 +54,13 @@ Note that your project can and probaly will change as you work on it. This is to
 
 **Present your idea in class on Friday, November 10.**
 
+---
+
 ### Final Project Presentation (Friday, December 1)
 
 You should present your project in class on Friday, December 1. We start presentations at 10 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
+
+---
 
 ### Final Project Documentation (Friday, December 15)
 
