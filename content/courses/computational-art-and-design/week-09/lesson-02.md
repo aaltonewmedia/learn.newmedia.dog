@@ -13,10 +13,6 @@ p5js-widget: true
 
 ---
 
-{{<hint info>}}
-We start off by continuing with the examples from yesterday.
-{{</hint>}}
-
 ## Inspiration
 
 {{<youtube pLAma-lrJRM>}}
@@ -45,6 +41,8 @@ Here are some files we need today:
 ### FFT Analysis
 
 - [FFT in the p5.js Sound Library](https://p5js.org/reference/#/p5.FFT)
+- [FFT getEnergy()](https://p5js.org/reference/#/p5.FFT/getEnergy)
+- [FFT getCentroid()](https://p5js.org/reference/#/p5.FFT/getCentroid)
 
 What is FFT (Fast Fourier transform)? [The actual definition of it is very complex](https://en.wikipedia.org/wiki/Fast_Fourier_transform), but with what we are doing here, we can describe it in a bit simpler way.
 
@@ -54,7 +52,8 @@ We are essentially able to get multiple amplitude values of different frequency 
 
 <iframe src="https://openprocessing.org/sketch/1724489/embed/?plusEmbedHash=ZTlkMzFkZTMzZGZhYjY1NjJlNjNiNmUxYjU2ZTk3NGExNDA5YmE0ZDhjNDU2YWFjYjQ5NjllMDJkNzI4NzA2MDRlNTlkZWIyZTdjOTljYTQ3YTlkZjljMDI3NzAzNjEzYTViNWIzMGQwYzU1OGExNjdkNGIyNDE4MzQ5MjU0MGFCSDBNMDhncmZOdWpidTJRZHB4eXoyQkZ6dk55blRkUHZmdmJhLzdKRVJKaklFaWtUNTdiQy9JTkhvaXJoUldzMG5aT1BRQUJYeVRUbGgvRExPT0Nkdz09&plusEmbedTitle=true" width="100%" height="650"></iframe>
 
----
+## Final Project Proposal
 
-# Resources and References
+Please do the following before next Friday:
 
+- [Create a project proposal document](../final-project/#project-proposal-friday-november-10)

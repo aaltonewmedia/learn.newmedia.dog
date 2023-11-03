@@ -58,7 +58,7 @@ When thinking of new interactions, I find it helpful to go to hardware stores, a
 
 #### Files for 3D printing
 
-We will use class time next week to go print the parts that we need, but if you already have time, you can go and 3D print the sensormount/googly eye holder for our robot. Check MyCourses for the cost center and project code that you can give at the 3D Print workshops so you don't have to pay for the materials.
+We will use class time next week to go print the parts that we need, but if you already have time, you can go and 3D print the sensormount/googly eye holder for our robot. [Check MyCourses for the cost center and project code that you can give at the 3D Print workshops so you don't have to pay for the materials.](https://mycourses.aalto.fi/mod/page/view.php?id=1113688&forceview=1)
 
 - [roboeyes.stl](/files/physical-computing-robot/roboeyes.stl)
 

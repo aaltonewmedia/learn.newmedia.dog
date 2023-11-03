@@ -40,7 +40,7 @@ You can combine the final project of this course to the one you are working on i
 
 ### Project Proposal (Friday, November 10)
 
-Submit a link to an online document (Miro board, Google Doc etc.) of your project proposal via MyCourses. It should include the following:
+Submit a link to an online document (Miro board, [newmedia.dog](https://newmedia.dog/) Google Doc, OneDrive etc.) of your project proposal via MyCourses. It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
