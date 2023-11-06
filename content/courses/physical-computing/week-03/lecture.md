@@ -1,5 +1,5 @@
 ---
-title: "Guest Lectur: Leo McElroye"
+title: "Guest Lecture: Leo McElroy"
 bookCollapseSection: false
 weight: 10
 p5js-widget: true
