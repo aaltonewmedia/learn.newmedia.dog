@@ -5,6 +5,27 @@ weight: 40
 draft: false
 ---
 
+## Course content
+
+Audiovisual Studio workshop is a studio course that explores real-time video art, generative art and audiovisual performances through hands-on experimentation, lectures and screenings.
+
+The content includes but is not limited to:
+
+- Experimental video art
+- Real-time video
+- Generative art
+- AI generated audiovisual art
+
+The workshop introduces TouchDesigner as the main tool for experimenting with the topic, but students are able to use other tools as well. Students are expected and encouraged to develop their personal strengths and existing skills to find their own distinctive styles and workflows as audiovisual artists.
+
+## Learning outcomes
+
+On successful completion of this course, students will be able to:
+
+- Experiment with audio-reactive visuals and other real-time video processing techniques using TouchDesigner software
+- Apply generative AI tools in their real-time visual workflow
+- Outline and explain historical and contemporary examples of audiovisual art
+
 ## Links
 
 - [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=40047)

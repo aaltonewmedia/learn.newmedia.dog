@@ -7,7 +7,7 @@ weight: 10
 
 ## Who created this website?
 
-Matti Niinimäki  
+Matti Niinimäki
 Senior University Lecturer  
 Programme Director of the Master's Programme in Art and Media  
 Aalto University

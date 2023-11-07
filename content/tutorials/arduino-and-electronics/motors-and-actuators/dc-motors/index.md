@@ -5,15 +5,11 @@ p5js-widget: false
 draft: false
 ---
 
-# DC Motors
-
----
-
 ## DC Motors at Aalto Mechatronics
 
 ### Standard DC Motors
 
-[![DC motor](https://newmedia.dog/wp-content/uploads/2019/11/DC-Motor-RF-385-.jpg)](https://newmedia.dog/wp-content/uploads/2019/11/DC-Motor-RF-385-.jpg)
+[![DC motor](dc-motor.jpg))
 
 - Usually just 2 wires
 - You can control the speed and direction. The direction depends on which terminal of the motor you connect to + and – of your power supply
@@ -23,7 +19,7 @@ draft: false
 
 ### TT Motor
 
-[![TT motor](https://newmedia.dog/wp-content/uploads/2019/11/3777-00_1024x1024@2x.jpg)](https://newmedia.dog/wp-content/uploads/2019/11/3777-00_1024x1024@2x.jpg)
+[![TT motor](./images/tt-motor.jpg)
 
 - 3–6V DC
 - About 250 rpm
@@ -33,7 +29,7 @@ draft: false
 
 ### 12V DC Motors
 
-[![12V DC motor](https://newmedia.dog/wp-content/uploads/2019/11/80402_0_1024x1024@2x.jpg)](https://newmedia.dog/wp-content/uploads/2019/11/80402_0_1024x1024@2x.jpg)
+[![12V DC motor](12v-dc-motor.jpg)
 
 - Stronger
 - Different gear ratios (slower rpm means higher torque)

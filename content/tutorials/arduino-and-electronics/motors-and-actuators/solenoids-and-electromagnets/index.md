@@ -5,10 +5,6 @@ p5js-widget: false
 draft: false
 ---
 
-# Solenoids and Electromagnets
-
----
-
 ## Examples
 
 ### Electromagnet/DC Motor + Ferrofluid | Controlled with the TIP120 transistor

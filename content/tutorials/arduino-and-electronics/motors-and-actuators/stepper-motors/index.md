@@ -5,13 +5,6 @@ p5js-widget: false
 draft: false
 ---
 
-# Stepper Motors
-
----
-
-
-
-
 ## How to control stepper motors?
 
 ### SilentStepStick TMC 2209

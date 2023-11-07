@@ -46,9 +46,13 @@ Simple movements can make objects seem very alive.
 - [Jinhee Kim: A Fortune Tweeeting Bird](http://www.kimjinhee.com/A-Fortune-Telling-BIrd)
 - [Jinhee Kim: A Lucky Charm Drawing Robot](http://www.kimjinhee.com/A-Lucky-Charm-Drawing-Robot)
 
+### Daniel Rozin
+
+{{<youtube kV8v2GKC8WA>}}
+
 ## Artists working with robotics, mechanics and kinetic sculptures
 
-- [Daniel Rozin](https://www.smoothware.com/danny/)
+- [Daniel Rozin](https://www.smoothware.com/danny/) – [Instagram](https://www.instagram.com/dannyrozin/)
 - [Niklas Roy](http://niklasroy.com/) – Berlin-based artist working a lot with mechanical devices
 - [Teija ja Pekka Isorättyä](http://www.isorattya.com/Videos.xhtml) – Finnish artist couple working with robotic installations
 - [Markus Copper](https://kiasma.fi/en/exhibitions/markus-copper/)
@@ -60,6 +64,7 @@ Simple movements can make objects seem very alive.
 - [Theo Jansen](http://www.strandbeest.com/index.php) – Amazing wind-powered artificial creatures
 - [Jie Qi](https://technolojie.com/) – Some interesting projects using muscle wire, paper electronics
 - [Eunyoung Park](https://eunyoungpark.co/studio/) – From Aalto Media Lab, her thesis project was [LINKKI](http://eunyoungpark.co/linkki/)
+- Tim Lewis – [Instagram](https://www.instagram.com/timlewis.info/)
 
 ## Resources
 
