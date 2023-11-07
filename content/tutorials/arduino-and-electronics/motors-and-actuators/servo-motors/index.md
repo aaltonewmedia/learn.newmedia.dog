@@ -5,7 +5,7 @@ p5js-widget: false
 draft: false
 ---
 
-[![Servo motor](.images/servo.jpg)
+[![Servo motor](./images/servo.jpg)](./images/servo.jpg)
 
 - Servo motors usually have 3 wires (VCC,GND,DATA)
 - No need for special controlling circuits if you have an Arduino

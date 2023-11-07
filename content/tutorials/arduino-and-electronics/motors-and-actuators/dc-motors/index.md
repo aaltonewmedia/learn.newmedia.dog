@@ -9,7 +9,7 @@ draft: false
 
 ### Standard DC Motors
 
-[![DC motor](dc-motor.jpg))
+[![DC motor](./images/dc-motor.jpg)](./images/dc-motor.jpg)
 
 - Usually just 2 wires
 - You can control the speed and direction. The direction depends on which terminal of the motor you connect to + and – of your power supply
@@ -19,7 +19,7 @@ draft: false
 
 ### TT Motor
 
-[![TT motor](./images/tt-motor.jpg)
+[![TT motor](./images/tt-motor.jpg)](./images/tt-motor.jpg)
 
 - 3–6V DC
 - About 250 rpm
@@ -29,7 +29,7 @@ draft: false
 
 ### 12V DC Motors
 
-[![12V DC motor](12v-dc-motor.jpg)
+[![12V DC motor](12v-dc-motor.jpg)](./images/tt-motor.jpg)
 
 - Stronger
 - Different gear ratios (slower rpm means higher torque)
