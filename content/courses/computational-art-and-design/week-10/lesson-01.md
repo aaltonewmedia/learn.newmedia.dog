@@ -5,6 +5,14 @@ weight: 20
 p5js-widget: true
 ---
 
+{{<hint info>}}
+- November 9, 2023
+- Room G203
+- 9:15–12:00
+{{</hint>}}
+
+---
+
 [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding) is and excellent resource on all things creative coding.
 
 ## Creative Coding Tools/Environments/Frameworks
@@ -14,10 +22,11 @@ I have listed some tools here under different categories. Some of them appear in
 ### Frameworks/Libraries for text-based programming languages
 
 - [p5.js](https://p5js.org/)
+  - [P5LIVE](https://teddavis.org/p5live/)
 - [Processing](https://processing.org/)
 - [openFrameworks](https://openframeworks.cc/)
 - [Cinder](https://libcinder.org/)
-- 
+- [ISF](https://isf.vidvox.net/) Interactive Shader Format for shader programming
 
 ### Visual Programming Languages
 
@@ -29,6 +38,7 @@ I have listed some tools here under different categories. Some of them appear in
 - [Quartz Composer](https://en.wikipedia.org/wiki/Quartz_Composer) (sadly pretty much killed by Apple)
 - [Troikatronix Isadora](https://troikatronix.com/)
 - [Notch](https://www.notch.one/)
+- [Cables.gl](https://cables.gl/)
 
 ### Sound Programming
 
@@ -52,46 +62,24 @@ I have listed some tools here under different categories. Some of them appear in
 
 ## Courses in Aalto
 
-### Processing
-
-- Computational Art and Design
-
-### p5.js
-
-- Computational Art and Design
-- Programming for Visual Artists (TAITE)
-- AXM-E2002 Creative computation for Visual Communication
-
-### TouchDesigner
-
-- Embodied Interaction
-- Art & Media Studio: Audiovisual Studio
-
-## openFrameworks
-
-- Workshop period 3: Generative Media Coding
-
-### Pure Data
-
-- AXM-E6003 Composing with New Musical Instruments
-- AXM-E6009	Procedural Audio
-
-### SuperCollider
-
-- AXM-E6006	IXI Workshop
-
-### Unity
-
-- Software Studies for Game Designers
-- Coding Virtual Worlds
-
-### Unreal Engine
-
-- 
+See the [Next Steps page.](../../next-steps/)
 
 ---
 
-## Example done in class
+## Explore
+
+Use the class time to explore one or more of the tools listed above. Try some examples, poke things, see what happens...
+
+Suggestions:
+
+- [Code together using P5LIVE in a shared session](https://teddavis.org/p5live/?cc=f8cse)
+- Install [Vuo](https://vuo.org/) and try to make something that works together with [VDMX](https://vidvox.net/) (if you are on a Mac)
+- [Go through some TouchDesigner tutorials](https://learn.derivative.ca/)
+- Work on your final project idea.
+
+---
+
+## Example done in class 2022
 
 ```js
 let theta;

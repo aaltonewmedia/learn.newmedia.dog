@@ -31,6 +31,66 @@ The VL53L1X is a Time of Flight (ToF) module that is able to measure the distanc
 
 ---
 
+## Details
+
+### Field of View (FoV) of the sensor
+
+The sensor sees the world basically as a cone shape. 4 meters away the cone has a diameter of 192cm!
+
+[![Sensor cone](./images/cone.jpg)](./images/cone.jpg)
+
+### Region of Interest (ROI)
+
+We can limit this cone to a smaller area by using the ROI setting of the sensor.
+
+[![ROI](./images/roi.jpg)](./images/roi.jpg)
+
+Using the ROI seems to be a little complicated at first but it is actually quite simple. There are two steps to define the ROI using the Pololu library:
+
+1. Set the center of the Region of Interest (ROI)
+2. Set the width and height of the ROI
+  - Minimum 4x4
+  - Maximum 16x16
+  - Note that you have to take into account where the center is, you cannot go beyond the edges of the grid.
+
+The photon detector is made up of a 16 x 16 array of SPADs (single photon avalanche diode). Each SPAD is identified by a number as shown in the table below.
+
+[![SPAD](./images/spad.jpg)](./images/spad.jpg)
+
+#### 4x4 ROI
+
+[![ROI](./images/roi-4-4.jpg)](./images/roi-4-4.jpg)
+
+Let's say you want to set the ROI to be only the blue area. You would set the code like below (using the Pololu library).
+
+```c
+sensor.setROICenter(58);
+sensor.setROISize(4, 4);
+```
+
+Why 199? We have an even value as width and height (4). Since the actual center value of an even number would be in-between the SPADs, we cannot directly say that.
+
+We must choose the closest value that is to the right and up of the actual center. In this case it's 199.
+
+#### 4x8 ROI
+
+[![ROI](./images/roi-4-8.jpg)](./images/roi-4-8.jpg)
+
+Let's say you want to set the ROI to be only the blue area. You would set the code like below (using the Pololu library)
+
+```c
+sensor.setROICenter(247);
+sensor.setROISize(4, 8);
+```
+
+Why 247? We have even values as width (4) and height (8). Since the actual center value of an even number would be in-between the SPADs, we cannot directly say that.
+
+We must choose the closest value that is to the right and up of the actual center. In this case it's 247.
+
+
+
+---
+
 ## Connecting the Sensor
 
 These sensors come with a very handy connector that allows us to use it without any soldering or having to use the breadboard.
