@@ -23,6 +23,10 @@ I have listed some tools here under different categories. Some of them appear in
 
 - [p5.js](https://p5js.org/)
   - [P5LIVE](https://teddavis.org/p5live/)
+- Other JavaScript Libraries
+  - [D3.js](https://d3js.org/)
+  - [Paper.js](http://paperjs.org/)
+  - [Three.js](https://threejs.org/)
 - [Processing](https://processing.org/)
 - [openFrameworks](https://openframeworks.cc/)
 - [Cinder](https://libcinder.org/)
