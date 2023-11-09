@@ -135,6 +135,10 @@ Take one battery out of the battery holder and use one of the M3x6 screws to att
 
 [![Base plate](./images/base-plate.jpg)](./images/base-plate.jpg)
 
+[![Base plate Arduino](./images/base-plate-arduino.jpg)](./images/base-plate-arduino.jpg)
+
+[![Base plate back](./images/base-plate-back.jpg)](./images/base-plate-back.jpg)
+
 ### 5. Wheels
 
 {{<hint warning>}}
