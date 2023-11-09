@@ -27,7 +27,7 @@ Additional tips
 
 It is ok to combine this project with the final project of the Computational Art and Design course.
 
-## Project Proposal (Deadline: Monday, November 14)
+## Project Proposal (Deadline: Thursday, November 16)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
@@ -35,7 +35,7 @@ Create a project proposal for your final project. Think of this as a constantly 
 - Some references (artworks/projects that are similar to what you would like to do)
 - Initial list of parts and components you think you will need
 
-You will present your idea in class on Monday (14/11/2022). This is a very uninformal presentation and mainly serves as a way for us to discuss your ideas together.
+You will present your idea in class on Thursday (16/11/2023). This is a very uninformal presentation and mainly serves as a way for us to discuss your ideas together.
 
 {{<hint info>}}
 It is ok if your idea changes after this. I am expecting it to change or evolve as you learn more about the topic. **You just need a starting point.**
