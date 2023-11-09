@@ -122,7 +122,7 @@ Feed the wires through the L-shaped holes.
 ### 3. Batteries
 
 - 1 x Battery Pack (5xAA)
-- 2 x M3x6 Machine Screws
+- 1 x M3x6 Machine Screws
 
 Take one battery out of the battery holder and use one of the M3x6 screws to attach it to the chassis.
 
@@ -138,6 +138,10 @@ Take one battery out of the battery holder and use one of the M3x6 screws to att
 [![Base plate Arduino](./images/base-plate-arduino.jpg)](./images/base-plate-arduino.jpg)
 
 [![Base plate back](./images/base-plate-back.jpg)](./images/base-plate-back.jpg)
+
+{{<hint warning>}}
+When you get this far, wait for a while. Let's test the electronics and change the batteries before we attach the acrylic plate.
+{{</hint>}}
 
 ### 5. Wheels
 
