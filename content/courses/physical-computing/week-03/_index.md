@@ -19,11 +19,11 @@ p5js-widget: true
 
 ---
 
-## Deliverables for Week 3 (Deadline: Monday, November 14, 2022)
+## Deliverables for Week 3 (Deadline: Thursday, November 16, 2022)
 
 ### Project Ideas: First Draft
 
-[See the Final Project Guidelines and document your project ideas on your course website/document.](../final-project/)
+[See the Final Project Guidelines and document your project ideas on your course website.](../final-project/)
 
 ### Readings
 
@@ -31,3 +31,4 @@ The following articles might help you think about action and interaction for you
 
 - [Tom Igoe: What do the people do?](https://www.tigoe.com/blog/category/physicalcomputing/606/)
 - [Making Interactive Art: Set the Stage, Then Shut Up and Listen](https://www.tigoe.com/blog/category/physicalcomputing/405/)
+- [Tom Igoe: Physical Computing’s Greatest Hits (and misses)](https://www.tigoe.com/blog/category/physicalcomputing/176/)
