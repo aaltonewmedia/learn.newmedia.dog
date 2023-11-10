@@ -22,8 +22,8 @@ You need the following parts:
 - 1 x 3D Printed Sensor Mount (you make this with the 3D printer)
 - 1 x Battery Pack (5xAA)
 - 1 x Bag of nuts, bolts, screws and other items
+- 1 x Arduino Uno R4 WiFi
 - 1 x Half-sized Breadboard
-- 1 x Arduino Uno R4 WiFi 
 - 1 x Distance Sensor
 - 1 x Qwiic cable for the sensor (100 mm)
 - 1 x L293D H-Bridge (Motor Driver)
@@ -49,9 +49,8 @@ The bag of nuts, bolts and other items should have the following things:
 - 2 x M4x12 Machine Screws
 - 4 x M3x25 Machine Screws
 - 2 x M3x10 Machine Screws
-- 2 x M3x8 Machine Screws
-- 3 x M3x6 Machine Screws (I forgot these when I took the picture of the components)
-- 6 x M3 Nuts
+- 8 x M3x8 Machine Screws (Black)
+- 8 x M3 Nuts
 - 2 x 2x16 Brass Screws
 {{</hint>}}
 
@@ -97,7 +96,7 @@ Please return all of these in the plastic bag inside the kit box at the end of t
 
 {{<hint info>}}
 - 4 x M3x25 Machine Screws
-- 2 x M3 Nuts
+- 4 x M3 Nuts
 {{</hint>}}
 
 [![Motors](./images/robot-motors.jpg)](./images/robot-motors.jpg)
@@ -112,7 +111,7 @@ Feed the wires through the L-shaped holes.
 
 {{<hint info>}}
 - 1 x Caster Wheel
-- 2 x M3x6 Machine Screws
+- 2 x M3x8 Machine Screws
 {{</hint>}}
 
 [![Caster Wheel](./images/robot-caster.jpg)](./images/robot-caster.jpg)
@@ -121,27 +120,41 @@ Feed the wires through the L-shaped holes.
 
 ### 3. Batteries
 
+{{<hint info>}}
 - 1 x Battery Pack (5xAA)
-- 1 x M3x6 Machine Screws
+- 1 x M3x8 Machine Screws
+{{</hint>}}
 
-Take one battery out of the battery holder and use one of the M3x6 screws to attach it to the chassis.
+Take one battery out of the battery holder and use one of the black M3x8 screws to attach it to the chassis.
+
+[![Batteries](./images/battery-screw.jpg)](./images/battery-screw.jpg)
 
 [![Batteries](./images/batteries.jpg)](./images/batteries.jpg)
 
 ### 4. Base Plate + Arduino and Breadboard
 
+{{<hint info>}}
 - 3 x M3x20 Standoff Screws
+- 3 x M3x8 Machine Screws
+- 2 x M3x10 Machine Screws
+- 2 x M3 Nuts
 - 1 x Acrylic base plate (you make this with the laser cutter)
-
-[![Base plate](./images/base-plate.jpg)](./images/base-plate.jpg)
+- 1 x Arduino Uno R4 WiFi 
+- 1 x Half-sized Breadboard
+{{</hint>}}
 
 [![Base plate Arduino](./images/base-plate-arduino.jpg)](./images/base-plate-arduino.jpg)
 
 [![Base plate back](./images/base-plate-back.jpg)](./images/base-plate-back.jpg)
 
 {{<hint warning>}}
-When you get this far, wait for a while. Let's test the electronics and change the batteries before we attach the acrylic plate.
+When you get this far, change the batteries to fresh ones before attaching the acrylic plate.
 {{</hint>}}
+
+[![Base plate](./images/base-plate.jpg)](./images/base-plate.jpg)
+
+[![Base plate attached](./images/base-plate-attached.jpg)](./images/base-plate-attached.jpg)
+
 
 ### 5. Wheels
 
