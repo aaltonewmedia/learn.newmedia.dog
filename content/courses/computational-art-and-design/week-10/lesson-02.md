@@ -5,6 +5,19 @@ weight: 30
 p5js-widget: true
 ---
 
+{{<hint info>}}
+- November 10, 2023
+- Room L208
+- 9:15–12:00
+{{</hint>}}
+
+## Project Proposals
+
+{{<hint info>}}
+We start off by checking yout project proposals.
+{{</hint>}}
+
+
 ## Machine Learning
 
 Machine learning is a way to make machines do certain tasks without being explicitly programmed to do so.
