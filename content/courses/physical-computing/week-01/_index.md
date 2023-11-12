@@ -6,16 +6,12 @@ p5js-widget: true
 
 ## Schedule
 
-<div class="calendar">
-
 | TIME | MON 23/10 | TUE 24/10 | WED 25/10 | THU 26/10 | FRI 27/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Introduction to Electronics](./lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./lesson-02) |  |
 | 15:15–17:00 | [Introduction to Physical Computing](./lecture) | [Introduction to Electronics](./lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./lesson-02) |  |
-
-</div> 
 
 ## Deliverables for Week 1
 

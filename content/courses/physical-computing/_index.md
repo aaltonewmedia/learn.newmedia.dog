@@ -111,8 +111,6 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 1 | Introduction
 
-<div class="calendar">
-
 | TIME | MON 23/10 | TUE 24/10 | WED 25/10 | THU 26/10 | FRI 27/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
@@ -120,11 +118,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./week-01/lesson-02) |  |
 | 15:15–17:00 | [Introduction to Physical Computing](./week-01/lecture) | [Introduction to Electronics](./week-01/lesson-01) |  | [Introduction to Microcontrollers (Arduino)](./week-01/lesson-02) |  |
 
-</div> 
-
 #### Week 2 | Sensing the World
-
-<div class="calendar">
 
 | TIME | MON 30/10 | TUE 31/10 | WED 01/11 | THU 02/11 | FRI 03/11 |
 | --- | --- | --- | --- | --- | --- |
@@ -133,11 +127,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
 | 15:15–17:00 | [Alt+Ctrl Games](./week-02/lecture) | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
 
-</div> 
-
 #### Week 3 | Making Things Move
-
-<div class="calendar">
 
 | TIME | MON 06/11 | TUE 07/11 | WED 08/11 | THU 09/11 | FRI 10/11 |
 | --- | --- | --- | --- | --- | --- |
@@ -146,11 +136,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
 | 15:15–17:00 | [Making Things Move](./week-03/lecture) | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
 
-</div> 
-
 #### Week 4 | Communication
-
-<div class="calendar">
 
 | TIME | MON 13/11 | TUE 14/11 | WED 15/11 | THU 16/11 | FRI 17/11 |
 | --- | --- | --- | --- | --- | --- |
@@ -159,11 +145,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
 | 15:15–17:00 | [Project Proposal Presentations](./week-04/lecture) | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
 
-</div> 
-
 #### Week 5 | Project Work
-
-<div class="calendar">
 
 | TIME | MON 20/11 | TUE 21/11 | WED 22/11 | THU 23/11 | FRI 24/11 |
 | --- | --- | --- | --- | --- | --- |
@@ -172,11 +154,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
 | 15:15–17:00 | [Levels of Prototyping](./week-05/lecture) | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
 
-</div> 
-
 #### Week 6 | Project Work
-
-<div class="calendar">
 
 | TIME | MON 27/11 | TUE 28/11 | WED 29/11 | THU 30/11 | FRI 01/12 |
 | --- | --- | --- | --- | --- | --- |
@@ -185,11 +163,7 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
 | 15:15–17:00 | [Digital Fabrication courses](./week-06/lecture) | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
 
-</div> 
-
 #### Week 7 (Workshop Week) | Project Work
-
-<div class="calendar">
 
 | TIME | MON 04/12 | TUE 05/12 | WED 06/12 | THU 07/12 | FRI 08/12 |
 | --- | --- | --- | --- | --- | --- |
@@ -197,5 +171,3 @@ Each week is divided into three classes just like they are divided here on this 
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition Setup |
 | 15:15–17:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition opening |
-
-</div> 

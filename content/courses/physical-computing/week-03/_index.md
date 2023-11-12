@@ -6,8 +6,6 @@ p5js-widget: true
 
 ## Schedule
 
-<div class="calendar">
-
 | TIME | MON 06/11 | TUE 07/11 | WED 08/11 | THU 09/11 | FRI 10/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
@@ -15,7 +13,6 @@ p5js-widget: true
 | 13:15–15:00 |  | [Making Things Move](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
 | 15:15–17:00 | [Guest lecture by Leo McElroy](./lecture) | [Output: Motors & Actuators \Digital LEDs](./lesson-01) |  | [Build a Robot](./lesson-02) |  |
 
-</div> 
 
 ---
 
