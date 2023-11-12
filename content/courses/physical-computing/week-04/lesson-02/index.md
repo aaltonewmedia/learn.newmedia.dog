@@ -86,7 +86,7 @@ I would not recommend to rely on this technology for new designs but it is a ver
 ### Install the ArduinoOSC library
 
 {{<hint info>}}
-Note! The official version of the library does not work with the Arduino Nano RP2040 Connect boards. Install this version: [https://github.com/mnstri/ArduinoOSC](https://github.com/mnstri/ArduinoOSC) manually.
+Note! The official version of the library does not work with the Arduino Uno R4 WiFi boards. Install this version: [https://github.com/mnstri/ArduinoOSC](https://github.com/mnstri/ArduinoOSC) manually.
 
 1. Go to [https://github.com/mnstri/ArduinoOSC](https://github.com/mnstri/ArduinoOSC)
 2. Click the green button that says Code
@@ -544,15 +544,9 @@ void printWifiStatus() {
 
 {{< /tabs >}}
 
-
-
 ### Processing Code
 
-If you don't have processing installed, you can download the application:
-
-- [MacOS](./files/macos-x86_64.zip)
-- [Windows](./files/windows-amd64.zip)
-- [Linux](./files/linux-amd64.zip)
+Here you can find the Processing code for controlling the robot using OSC.
 
 {{< details title="Show the Processing Code" open=false >}}
 

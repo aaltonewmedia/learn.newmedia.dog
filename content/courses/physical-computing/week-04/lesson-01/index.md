@@ -22,11 +22,8 @@ We have already used them both, mainly for seeing data printed from the sensors 
 
 You can also use serial communication with other software on your computer.
 
-### p5.webserial.js 
 
-[See the documentation](https://github.com/gohai/p5.webserial/) of the library.
-
-#### Circuit
+### Circuit
 
 - Light sensor connected to pin A3
 - The VL53L1X distance sensor connected to the I2C bus using the Qwiic connector
@@ -35,7 +32,7 @@ You can also use serial communication with other software on your computer.
 We have this done with our robot we built last week so just keep that connected.
 {{</hint>}}
 
-#### Arduino Code
+### Arduino Code
 
 Upload the following code to your Arduino. It reads the two sensors and prints out the data on one line with the values separated by a comma.
 
@@ -48,11 +45,11 @@ int light;
 int distance;
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   // Setup the sensor
-  Wire.begin();
-  Wire.setClock(400000);  // use 400 kHz I2C
-
+  Wire1.begin();
+  Wire1.setClock(400000);  // use 400 kHz I2C
+  sensor.setBus(&Wire1);
   sensor.setTimeout(500);
   if (!sensor.init()) {
     Serial.println("Failed to detect and initialize sensor!");
@@ -60,11 +57,11 @@ void setup() {
       ;
   }
   sensor.setDistanceMode(VL53L1X::Long);
-  sensor.setMeasurementTimingBudget(25000);  // time is in microseconds
+  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
   sensor.setROICenter(199);
   // the smallest size for the ROI is 4x4
   sensor.setROISize(4, 4);
-  sensor.startContinuous(25);
+  sensor.startContinuous(33);
 }
 
 void loop() {
@@ -79,9 +76,11 @@ void loop() {
 }
 ```
 
-#### Option #1: p5.js code
+### Option #1: p5.js code
 
-Then you can create a p5.js sketch to read the data from the serial port. This works with [the online editor](https://editor.p5js.org/) as well.
+We can use the p5.webserial library to communicate with the Arduino board directly from the browser. [See the documentation](https://github.com/gohai/p5.webserial/) of the library.
+
+You can create a p5.js sketch to read the data from the serial port. This works with [the online editor](https://editor.p5js.org/) as well.
 
 {{<hint info>}}
 Note that you have to use a browser that supports the Web Serial API, such as Chrome, for this to work.
@@ -130,16 +129,14 @@ function draw() {
 
 function mousePressed(){
   if (!port.opened()) {
-    port.open(9600);
+    port.open(115200);
   }
 }
 ```
 
-#### Option #2: Processing code
+### Option #2: Processing code
 
-{{<hint warning>}}
-If you have the new Mac computers with Apple Silicon (M1 or M2 chips), [see this page to fix the Serial library](https://notes.osteele.com/courses/interaction-lab/using-serial-with-processing-4-on-apple-silicon)
-{{</hint>}}
+You can also do the same thing using Processing. The Serial library comes built-in with Processing so you don't need to install anything extra. Just include the library in yur code.
 
 ```java
 import processing.serial.*;
@@ -150,18 +147,16 @@ float light;
 float distance;
 float c;
 float s=10;
-void setup()
-{
+void setup(){
   size(500, 500);
   // Open whatever port is the one you're using.
   // Change the 0 in  Serial.list()[0] to the correct device
   printArray(Serial.list());
   String portName = Serial.list()[5];
-  myPort = new Serial(this, portName, 9600);
+  myPort = new Serial(this, portName, 115200);
 }
 
-void draw()
-{
+void draw(){
   if ( myPort.available() > 0) {  // If data is available,
     str = myPort.readStringUntil('\n');         // read it and store it in str
     if(str != null){
@@ -181,11 +176,13 @@ void draw()
 }
 ```
 
+### Option #3: TouchDesigner Example
+
 ---
 
 ## Keyboard
 
-You can make the Arduino Nano RP2040 Connect to appear as a USB keyboard for your computer.
+You can make the Arduino Uno R4 WiFi appear as a USB keyboard for your computer.
 
 {{<hint danger>}}
 Be careful with this. It's quite easy to accidentally create something that is constantly typing something, which can make it really hard to reprogram your board.
@@ -195,82 +192,48 @@ Be careful with this. It's quite easy to accidentally create something that is c
 
 ```c
 // Send an individual keystroke
-Keyboard.key_code('a');
+Keyboard.press('a');
+delay(1);
+Keyboard.release('a');
 
 // Use modifier keys
-Keyboard.key_code('a', KEY_SHIFT);
+Keyboard.press(KEY_LEFT_SHIFT);
+Keyboard.press('a');
+delay(1);
+Keyboard.releaseAll();
 ```
 
 ### Sending text
 
 ```c
-// use printf() to
-Keyboard.printf("Hello world!");
+// use println() to write text followed by a newline character
+Keyboard.println("Hello world!");
 ```
 
 ### Special keys
 
-You can use the following names for special keys on the keyboard
-
-- KEY_CTRL
-- KEY_SHIFT
-- KEY_ALT
-- KEY_LOGO
-- KEY_RCTRL
-- KEY_RSHIFT
-- KEY_RALT
-- KEY_RLOGO
-- KEY_NEXT_TRACK
-- KEY_PREVIOUS_TRACK
-- KEY_STOP
-- KEY_PLAY_PAUSE
-- KEY_MUTE
-- KEY_VOLUME_UP
-- KEY_VOLUME_DOWN
-- KEY_F1
-- KEY_F2
-- KEY_F3
-- KEY_F4
-- KEY_F5
-- KEY_F6
-- KEY_F7
-- KEY_F8
-- KEY_F9
-- KEY_F10
-- KEY_F11
-- KEY_F12
-- KEY_PRINT_SCREEN
-- KEY_SCROLL_LOCK
-- KEY_CAPS_LOCK
-- KEY_NUM_LOCK
-- KEY_INSERT
-- KEY_HOME
-- KEY_PAGE_UP
-- KEY_PAGE_DOWN
-- RIGHT_ARROW
-- LEFT_ARROW
-- DOWN_ARROW
-- UP_ARROW
+You can find the [full list of supported special keyes here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/).
 
 ### Example
 
 ```c
-#include "PluggableUSBHID.h"
-#include "USBKeyboard.h"
-
-USBKeyboard Keyboard;
+#include "Keyboard.h"
 
 void setup(){
-  
+  // initialize control over the keyboard:
+  Keyboard.begin();
 }
 
 void loop(){
   delay(5000);
-  Keyboard.key_code('a');
+  Keyboard.print('a');
   delay(5000);
-  Keyboard.key_code('a', KEY_SHIFT);
+  Keyboard.press(KEY_LEFT_SHIFT);
+  Keyboard.print('a');
+  delay(100);
+  Keyboard.releaseAll();
   delay(5000);
-  Keyboard.printf("Hello World!");
+  Keyboard.println("Hello World!");
 }
 ```
 
@@ -278,24 +241,27 @@ void loop(){
 
 ## Mouse
 
-You can also make the Arduino Nano RP2040 Connect appear as a USB mouse to your computer.
+You can also make the Arduino Uno R4 WiFi appear as a USB mouse to your computer.
+
+{{<hint danger>}}
+Be careful with this. It's quite easy to accidentally create something that is constantly moving the mouse, which can make it really hard to reprogram your board.
+{{</hint>}}
 
 ```c
-#include "PluggableUSBHID.h"
-#include "USBMouse.h"
-
-USBMouse Mouse;
+#include <Mouse.h>
 
 void setup() {
   // put your setup code here, to run once:
+  Mouse.begin();
+  delay(1000);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  delay(1000);
   Mouse.move(100,100);
   delay(1000);
   Mouse.move(-100,-100);
+  delay(1000);
 }
 ```
 
