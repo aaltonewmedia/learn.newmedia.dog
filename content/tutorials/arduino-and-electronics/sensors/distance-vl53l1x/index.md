@@ -59,12 +59,12 @@ The photon detector is made up of a 16 x 16 array of SPADs (single photon avalan
 
 #### 4x4 ROI
 
-[![ROI](./images/roi-4-4.jpg)](./images/roi-4-4.jpg)
-
 Let's say you want to set the ROI to be only the blue area. You would set the code like below (using the Pololu library).
 
+[![ROI](./images/roi-4-4.jpg)](./images/roi-4-4.jpg)
+
 ```c
-sensor.setROICenter(58);
+sensor.setROICenter(199);
 sensor.setROISize(4, 4);
 ```
 
@@ -74,9 +74,9 @@ We must choose the closest value that is to the right and up of the actual cente
 
 #### 4x8 ROI
 
-[![ROI](./images/roi-4-8.jpg)](./images/roi-4-8.jpg)
-
 Let's say you want to set the ROI to be only the blue area. You would set the code like below (using the Pololu library)
+
+[![ROI](./images/roi-4-8.jpg)](./images/roi-4-8.jpg)
 
 ```c
 sensor.setROICenter(247);

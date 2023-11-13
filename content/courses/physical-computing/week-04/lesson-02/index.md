@@ -449,14 +449,14 @@ void setupDistanceSensor(){
   }
 
   // ROI settings
-  // 194 is the center of the array
-  sensor.setROICenter(194);
+  // 195 is the center of the array
+  sensor.setROICenter(195);
   int center = sensor.getROICenter();
   Serial.print("ROI center: ");
   Serial.println(center);
 
   // the smallest size for the ROI is 4x4
-  sensor.setROISize(16, 4);
+  sensor.setROISize(16, 8);
 
   // Start continuous readings at a rate of one measurement every 33 ms (the
   // inter-measurement period). This period should be at least as long as the

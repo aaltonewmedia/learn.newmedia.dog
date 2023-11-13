@@ -1,5 +1,5 @@
 ---
-title: "Final Project"
+title: "Physical Computing | Final Project"
 bookCollapseSection: false
 p5js-widget: false
 ---
@@ -27,6 +27,8 @@ Additional tips
 
 It is ok to combine this project with the final project of the Computational Art and Design course.
 
+---
+
 ## Project Proposal (Deadline: Thursday, November 16)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
@@ -44,6 +46,8 @@ It is ok if your idea changes after this. I am expecting it to change or evolve 
 {{<hint info>}}
 After this presentation, some of you might also decide to join forces. You can also mention if you are looking for someone to work with or if you just want to focus on working on your own thing.
 {{</hint>}}
+
+---
 
 ## Project Documentation
 

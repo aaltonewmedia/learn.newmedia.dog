@@ -15,4 +15,4 @@ p5js-widget: true
 
 ## Homework
 
-Continue developing your Final Project
+Continue developing your Final Project idea.

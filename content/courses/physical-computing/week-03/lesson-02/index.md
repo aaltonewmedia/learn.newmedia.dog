@@ -193,6 +193,12 @@ The distance sensor is connected using the Qwiic cable. [See the VL53L1X sensor 
 
 ### Motor Test
 
+{{<hint info>}}
+Use this code first to test out if the motors and the H-Bridge have been connected properly. Uncomment the functions in the `loop()` one by one and see if the robot does what your code is telling. If not, you might need to check your wiring.
+
+For example, If your code is saying `goForward()` and your robot moves backwards, the wires of the motors should be changed to be the opposite (swap the black and red wires on both motors.)
+{{</hint>}}
+
 {{< details title="Show the Code" open=false >}}
 
 ```c
@@ -205,7 +211,7 @@ The distance sensor is connected using the Qwiic cable. [See the VL53L1X sensor 
 #define ML_C2 11
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   pinMode(MR_EN, OUTPUT);
   pinMode(MR_C1, OUTPUT);
@@ -305,16 +311,28 @@ void rightSpeed(int mSpeed) {
 The final code adds the following:
 
 - Distance sensor configuration
-  - ROI 16x4
+  - ROI 16x8
   - Continuous reading every 33 ms
 - Distance sensor reading
 - Light Sensor
 
 The region of interest is set in the following way to reduce the amount of issues with the sensor seeing the floor while still keeping as wide as possible view horizontally.
 
-[![ROI](./images/robot-roi.jpg)](./images/robot-roi.jpg)
+[![ROI](./images/robot-roi-16-8.jpg)](./images/robot-roi-16-8.jpg)
 
 {{< details title="Show the Code" open=false >}}
+
+{{<hint info>}}
+Note that I have separated the code into two tabs. The second tab `motors.ino` has all of the functions dealing with the motors.
+
+[You can also download the code.](./files/RobotSensorControl.zip)
+{{</hint>}}
+
+[![Code Screenshot](./images/robot-sensor-control-code.png)](./images/robot-sensor-control-code.png)
+
+{{< tabs "sensor-robot" >}}
+{{< tab "RobotSensorControl.ino" >}}
+
 ```c
 #define MR_EN 5
 #define MR_C1 6
@@ -336,7 +354,7 @@ int light;
 int lightThreshold = 800;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   pinMode(MR_EN, OUTPUT);
   pinMode(MR_C1, OUTPUT);
@@ -361,29 +379,21 @@ void setup() {
       ;
   }
 
-  // Use long distance mode and allow up to 50000 us (50 ms) for a measurement.
-  // You can change these settings to adjust the performance of the sensor, but
-  // the minimum timing budget is 20 ms for short distance mode and 33 ms for
-  // medium and long distance modes. See the VL53L1X datasheet for more
-  // information on range and timing limits.
-  sensor.setDistanceMode(VL53L1X::Long);
-  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
-
   // ROI settings
-  // 199 is the center of the array
-
-  sensor.setROICenter(194);
+  // 195 is the center of the array
+  sensor.setROICenter(195);
   int center = sensor.getROICenter();
   Serial.print("ROI center: ");
   Serial.println(center);
-
   // the smallest size for the ROI is 4x4
-  sensor.setROISize(16, 4);
+  sensor.setROISize(16, 8);
 
   // Start continuous readings at a rate of one measurement every 33 ms (the
   // inter-measurement period). This period should be at least as long as the
   // timing budget.
-  sensor.startContinuous(33);
+  sensor.setDistanceMode(VL53L1X::Long);
+  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
+  sensor.startContinuous(33); // time is in milliseconds
 }
 
 void loop() {
@@ -401,7 +411,7 @@ void loop() {
 }
 
 void readLight() {
-  light = analogRead(A3);
+  light = analogRead(A0);
   Serial.print("light: ");
   Serial.println(light);
 }
@@ -423,7 +433,13 @@ void readDistance() {
   Serial.print(distance);
   Serial.println();
 }
+```
 
+{{< /tab >}}
+
+{{< tab "motors.ino" >}}
+
+```c
 void goForward() {
   leftMotorForward();
   rightMotorForward();
@@ -474,7 +490,6 @@ void rightMotorForward() {
   digitalWrite(MR_C2, LOW);
 }
 
-
 void rightMotorBackward() {
   digitalWrite(MR_C1, LOW);
   digitalWrite(MR_C2, HIGH);
@@ -487,6 +502,7 @@ void leftSpeed(int mSpeed) {
 void rightSpeed(int mSpeed) {
   analogWrite(MR_EN, mSpeed);
 }
-
-
+```
+{{< /tab >}}
+{{< /tabs >}}
 {{</ details >}}

@@ -160,8 +160,8 @@ Each week is divided into three classes just like they are divided here on this 
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
-| 15:15–17:00 | [Digital Fabrication courses](./week-06/lecture) | [Project Work](./week-06/lesson-01) |  | [Project Work](./week-06/lesson-02) |  |
+| 13:15–15:00 |  | Project Work |  | Project Work |  |
+| 15:15–17:00 | Project Work | Project Work |  | Project Work |  |
 
 #### Week 7 (Workshop Week) | Project Work
 

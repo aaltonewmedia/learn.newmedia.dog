@@ -1,12 +1,10 @@
 ---
 title: "07 | Project Work (Workshop Week)"
-bookCollapseSection: true
+bookCollapseSection: false
 p5js-widget: true
 ---
 
 ## Schedule
-
-<div class="calendar">
 
 | TIME | MON 04/12 | TUE 05/12 | WED 06/12 | THU 07/12 | FRI 08/12 |
 | --- | --- | --- | --- | --- | --- |
@@ -15,7 +13,10 @@ p5js-widget: true
 | 13:15–15:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition Setup |
 | 15:15–17:00 | Project Work | Project Work | INDEPENDENCE DAY | Exhibition Setup | Exhibition opening |
 
-</div> 
+## Project Work
 
-No teaching during this week. Just work on your project to finish it for Friday.
+The rest of the course is reserved for project work. See these useful links:
 
+- [Final Project Guidelines](../final-project/)
+- [Resources](../resources/)
+- [Tutorials](../../../tutorials/arduino-and-electronics/)
