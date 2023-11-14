@@ -31,6 +31,8 @@ draft: false
   - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
   - [Watch the episodes](https://www.exploratorium.edu/ronh/SLOM/)
 - [Niklas Roy](https://www.niklasroy.com/)
-
-
-
+- [Nicole He](https://nicole.pizza/)
+- [Simone Giertz](https://www.simonegiertz.com/)
+- [Marina Fujiwara](https://fujiwaram.com/)
+  - [Muda-Zukuri Youtube](https://www.youtube.com/user/mudadukuri)
+- [Myriam Bleau](https://www.myriambleau.com/)

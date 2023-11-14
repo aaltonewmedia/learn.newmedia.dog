@@ -25,7 +25,7 @@ You can also use serial communication with other software on your computer.
 
 ### Circuit
 
-- Light sensor connected to pin A3
+- Light sensor connected to pin A0
 - The VL53L1X distance sensor connected to the I2C bus using the Qwiic connector
 
 {{<hint info>}}
@@ -57,16 +57,15 @@ void setup() {
       ;
   }
   sensor.setDistanceMode(VL53L1X::Long);
-  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
   sensor.setROICenter(199);
-  // the smallest size for the ROI is 4x4
-  sensor.setROISize(4, 4);
+  sensor.setROISize(4, 4);  // the smallest size for the ROI is 4x4
+  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
   sensor.startContinuous(33);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  light = analogRead(A3);
+  light = analogRead(A0);
   sensor.read();
   distance = sensor.ranging_data.range_mm;
   Serial.print(light);
@@ -136,7 +135,7 @@ function mousePressed(){
 
 ### Option #2: Processing code
 
-You can also do the same thing using Processing. The Serial library comes built-in with Processing so you don't need to install anything extra. Just include the library in yur code.
+You can also do the same thing using Processing. The Serial library comes built-in with Processing so you don't need to install anything extra. Just include the library in your code.
 
 ```java
 import processing.serial.*;
@@ -177,6 +176,15 @@ void draw(){
 ```
 
 ### Option #3: TouchDesigner Example
+
+[![TD Serial](./img/td-serial-dat.jpg)](./img/td-serial-dat.jpg)
+
+There are two ways to use serial communication in TouchDesigner:
+
+1. Using the Serial CHOP | This is useful when you are only receiving one value
+2. Usingt the Serial DAT | Use this for more complex cases or when you need to receive multiple values
+
+[Download a TouchDesigner example of reading the values from the Serial Port.](./files/ArduinoToTDSerial.toe)
 
 ---
 
