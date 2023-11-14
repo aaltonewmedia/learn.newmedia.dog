@@ -133,6 +133,10 @@ function mousePressed(){
 }
 ```
 
+Some other p5.js examples **(open in Chrome)**
+
+- [Eye Plops](https://editor.p5js.org/mnstri/sketches/hEWJR0Ons)
+
 ### Option #2: Processing code
 
 You can also do the same thing using Processing. The Serial library comes built-in with Processing so you don't need to install anything extra. Just include the library in your code.
