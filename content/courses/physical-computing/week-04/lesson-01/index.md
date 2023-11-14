@@ -192,6 +192,8 @@ There are two ways to use serial communication in TouchDesigner:
 
 You can make the Arduino Uno R4 WiFi appear as a USB keyboard for your computer.
 
+- [Keyboard reference](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/)
+
 {{<hint danger>}}
 Be careful with this. It's quite easy to accidentally create something that is constantly typing something, which can make it really hard to reprogram your board.
 {{</hint>}}
@@ -250,6 +252,8 @@ void loop(){
 ## Mouse
 
 You can also make the Arduino Uno R4 WiFi appear as a USB mouse to your computer.
+
+- [Mouse reference](https://www.arduino.cc/reference/en/language/functions/usb/mouse/)
 
 {{<hint danger>}}
 Be careful with this. It's quite easy to accidentally create something that is constantly moving the mouse, which can make it really hard to reprogram your board.
