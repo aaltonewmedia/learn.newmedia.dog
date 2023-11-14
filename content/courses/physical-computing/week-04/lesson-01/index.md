@@ -220,7 +220,7 @@ Keyboard.println("Hello world!");
 
 ### Special keys
 
-You can find the [full list of supported special keyes here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/).
+You can find the [full list of supported special keys here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/).
 
 ### Example
 
@@ -286,16 +286,3 @@ The [Teensy boards](https://www.pjrc.com/teensy/) are also capable of becoming v
 - [USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html])
 
 [The Teensy Audio library even allows you to use your Teensy as a USB Audio Interface.](https://www.pjrc.com/teensy/td_libs_Audio.html)
-
---- 
-
-## Assignment (Deadline: Tuesday, November 22 at 13:00)
-
-Create a small project that does the following:
-
-- Read at least two sensor values using Arduino. You can use any sensor you want to but they should be some other sensors than the ones we used in the class examples this week. They can also be two channels from the same sensor such as the X and Y of the accelerometer.
-- Print out the values using the Serial port in a way that you can separate the different values.
-- Create a small sketch using Processing or p5.js (or some other programming environment) to read the sensor values from the serial port. You can use the examples on this page as a starting point.
-- Map the sensor values to some parameters in your sketch. You can simply visualize the data in some way or create something more interesting and meaningful that is more connected to the interaction. Do something else than the example we created today.
-
-Document your project on your course website. **Deadline: Tuesday, November 22 at 13:00.**
