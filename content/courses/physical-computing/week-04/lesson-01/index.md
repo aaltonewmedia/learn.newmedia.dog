@@ -192,6 +192,15 @@ There are two ways to use serial communication in TouchDesigner:
 
 ---
 
+## Controlling the LED Matrix on the Arduino R4 Uno WiFi
+
+1. Upload the example code from Examples -> LED Matrix
+- [Arduino online LED matrix editor](https://ledmatrix-editor.arduino.cc/)
+
+**Use Chrome for this as well.**
+
+---
+
 ## Keyboard
 
 You can make the Arduino Uno R4 WiFi appear as a USB keyboard for your computer.
