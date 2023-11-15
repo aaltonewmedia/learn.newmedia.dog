@@ -5,6 +5,16 @@ weight: 20
 p5js-widget: true
 ---
 
+{{<hint info>}}
+- November 15, 2023
+- Room G203
+- 9:15–12:00
+
+**We continue with ml5.js which we were not able to complete last year.**
+{{</hint>}}
+
+---
+
 ## Mobile phone sensors
 
 Many mobile phones have built-in sensors (accelerometers, gyroscopes, compass etc.). You are able to access some of this data in your p5.js sketch. [See the Events section from the p5.js reference.](https://p5js.org/reference/#group-Events)
