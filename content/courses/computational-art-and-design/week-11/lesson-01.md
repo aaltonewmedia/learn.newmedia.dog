@@ -10,7 +10,7 @@ p5js-widget: true
 - Room G203
 - 9:15–12:00
 
-**We continue with ml5.js which we were not able to complete last year.**
+**We continue with the ml5.js examples which we were not able to complete last week.**
 {{</hint>}}
 
 ---
