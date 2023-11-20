@@ -111,7 +111,6 @@ Note! The official version of the library does not work with the Arduino Uno R4 
 {{< details title="Show the Arduino Code" open=false >}}
 ```c
 #include <ArduinoOSCWiFi.h>
-#include <WiFiNINA.h>
 
 char ssid[] = "matti";
 char pass[] = "robomatti";
@@ -121,6 +120,7 @@ int status = WL_IDLE_STATUS;
 // for ArduinoOSC
 const char* host = "192.168.4.2";
 const int send_port = 55556;
+WiFiUDP Udp;
 
 int light;
 
@@ -138,6 +138,7 @@ void setup() {
   Serial.print("Creating access point named: ");
   Serial.println(ssid);
   status = WiFi.beginAP(ssid,pass);
+  Udp.begin(recv_port);
   printWifiStatus();
   OscWiFi.publish(host, send_port, "/sensor",light)->setFrameRate(60.f);
 }
