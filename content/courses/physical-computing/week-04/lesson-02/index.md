@@ -106,27 +106,44 @@ Note! The official version of the library does not work with the Arduino Uno R4 
 
 ## Example: Simple OSC Send and Receive
 
-### Arduino Code
+{{<hint warning>}}
+Note that there are two separate codes here. The two different codes are meant to be uploaded to two different boards.
 
-{{< details title="Show the Arduino Code" open=false >}}
+1. Arduino #1 is the access point and creates a WiFi network
+2. Arduino #2 connects to this WiFi network
+{{</hint>}}
+
+### Arduino #1: Access Point (AP)
+
+{{< details title="Show the Code" open=false >}}
 ```c
+// Arduino #1
+// This Arduino is the Access Point (AP) and creates a WiFi network
+
 #include <ArduinoOSCWiFi.h>
 
-char ssid[] = "matti";
-char pass[] = "robomatti";
-
+// The name and password of the network
+char ssid[] = "physicalcomputing";
+char pass[] = "12345678";
 int status = WL_IDLE_STATUS;
 
-// for ArduinoOSC
-const char* host = "192.168.4.2";
-const int send_port = 55556;
+// The IP of THIS Arduino board
+const IPAddress ip(192, 168, 4, 1);
+const IPAddress gateway(192, 168, 4, 1);
+const IPAddress subnet(255, 255, 0, 0);
+
+// The IP of the OTHER Arduino board
+const char* other_ip = "192.168.4.10";
+// send and receive ports
+const int send_port = 12345;
+const int recv_port = 54321;
 WiFiUDP Udp;
 
 int light;
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   // check for the WiFi module:
   if (WiFi.status() == WL_NO_MODULE) {
     Serial.println("Communication with WiFi module failed!");
@@ -137,10 +154,12 @@ void setup() {
   // print the network name (SSID);
   Serial.print("Creating access point named: ");
   Serial.println(ssid);
+  WiFi.config(ip, gateway, subnet);
   status = WiFi.beginAP(ssid,pass);
-  Udp.begin(recv_port);
+  Udp.begin(send_port);
   printWifiStatus();
-  OscWiFi.publish(host, send_port, "/sensor",light)->setFrameRate(60.f);
+  OscWiFi.publish(other_ip, send_port, "/arduino/ap",light)->setFrameRate(60.f);
+  OscWiFi.subscribe(recv_port, "/arduino/client", onOscReceived);
 }
 
 void loop() {
@@ -148,6 +167,18 @@ void loop() {
   light = analogRead(A3);
 }
 
+void onOscReceived(const OscMessage& m) {
+    Serial.print(m.remoteIP());
+    Serial.print(" ");
+    Serial.print(m.remotePort());
+    Serial.print(" ");
+    Serial.print(m.size());
+    Serial.print(" ");
+    Serial.print(m.address());
+    Serial.print(" ");
+    Serial.print(m.arg<int>(0));
+    Serial.println();
+}
 
 void printWifiStatus() {
   // print the SSID of the network you're attached to:
@@ -162,33 +193,92 @@ void printWifiStatus() {
 ```
 {{</details>}}
 
-### Processing Code
+### Arduino #2: Client
 
-{{< details title="Show the Processing Code" open=false >}}
-```java
-import netP5.*;
-import oscP5.*;
-OscP5 oscP5;
+{{< details title="Show the Code" open=false >}}
+```c
+// Arduino #2
+// This Arduino connects to the AP
+
+#include <ArduinoOSCWiFi.h>
+
+// The name and password of the network
+char ssid[] = "physicalcomputing";
+char pass[] = "12345678";
+
+int status = WL_IDLE_STATUS;
+
+// The IP of THIS Arduino board
+const IPAddress ip(192, 168, 4, 10);
+const IPAddress gateway(192, 168, 4, 1);
+const IPAddress subnet(255, 255, 0, 0);
+
+// The IP of the OTHER Arduino board
+const char* other_ip = "192.168.4.1";
+// send and receive ports
+const int send_port = 54321;
+const int recv_port = 12345;
+WiFiUDP Udp;
+
 int light;
-void setup(){
-  size(500,500);
-  oscP5 = new OscP5(this, 55556);
-}
 
-void draw(){
-  background(255);
-  fill(0);
-  textSize(36);
-  text(light,100,100);
-}
-
-void oscEvent(OscMessage m){
-  println(m.addrPattern());
-  if(m.checkAddrPattern("/sensor")){
-    light = m.get(0).intValue();
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  // check for the WiFi module:
+  if (WiFi.status() == WL_NO_MODULE) {
+    Serial.println("Communication with WiFi module failed!");
+    // don't continue
+    while (true)
+      ;
   }
+  // print the network name (SSID);
+  Serial.print("Connecting to network: ");
+  Serial.println(ssid);
+  WiFi.config(ip, gateway, subnet);
+  status = WiFi.begin(ssid,pass);
+  while (status != WL_CONNECTED) {
+        Serial.println("connecting...");
+        delay(500);
+        status = WiFi.begin(ssid,pass);
+  }
+  Udp.begin(send_port);
+  printWifiStatus();
+  OscWiFi.publish(other_ip, send_port, "/arduino/client",light)->setFrameRate(60.f);
+  OscWiFi.subscribe(recv_port, "/arduino/ap", onOscReceived);
+}
+
+void loop() {
+  OscWiFi.update();
+  light = analogRead(A3);
+}
+
+void onOscReceived(const OscMessage& m) {
+    Serial.print(m.remoteIP());
+    Serial.print(" ");
+    Serial.print(m.remotePort());
+    Serial.print(" ");
+    Serial.print(m.size());
+    Serial.print(" ");
+    Serial.print(m.address());
+    Serial.print(" ");
+    Serial.print(m.arg<int>(0));
+    Serial.println();
+}
+
+void printWifiStatus() {
+  Serial.println("Connected!");
+  // print the SSID of the network you're attached to:
+  Serial.print("SSID: ");
+  Serial.println(WiFi.SSID());
+
+  // print your board's IP address:
+  IPAddress ip = WiFi.localIP();
+  Serial.print("IP Address: ");
+  Serial.println(ip);
 }
 ```
+
 {{</details>}}
 
 ---
