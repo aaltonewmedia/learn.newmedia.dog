@@ -105,7 +105,7 @@ We have booked two spaces for exhibiting the work that we have been doing throgh
 
 ### Fill in the requirements for your work
 
-If you want to show your work in the exhibition, please submit requiremnets for your work [in MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1111345&forceview=1).
+If you want to show your work in the exhibition, please submit requirements for your work [in MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1111345&forceview=1).
 
 ### Winter Demo Day 2023
 
