@@ -103,7 +103,11 @@ We have booked two spaces for exhibiting the work that we have been doing throgh
 - Väre, LQ Lobby
 - Learning Centre, Lobby
 
+### Fill in the requirements for your work
+
+If you want to show your work in the exhibition, please submit requiremnets for your work [in MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1111345&forceview=1).
+
 ### Winter Demo Day 2023
 
-You can also present or show your work during one day as well at the Aalto Media Lab Demo Day
+You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
 
