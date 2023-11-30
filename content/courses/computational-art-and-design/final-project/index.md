@@ -92,7 +92,7 @@ We have the spaces booked from November 30 to December 15. These spaces are goin
 
 - Setting up: November 30 to December 7
 - Opening: Friday, December 8 
-- Exhibition: December 2–14
+- Exhibition: December 8–15
 - Take down: Friday, December 15 at 15:00
 {{</hint>}}
 

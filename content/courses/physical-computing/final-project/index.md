@@ -49,7 +49,39 @@ After this presentation, some of you might also decide to join forces. You can a
 
 ---
 
-## Project Documentation
+## Course Exhibition and Demo Day
+
+{{<hint info>}}
+**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, December 8**
+{{</hint>}}
+
+### Exhibition Dates
+
+{{<hint info>}}
+We have the spaces booked from November 30 to December 15. These spaces are going to be shared with the projects from this course and the Computational Art and Design course. Our official opening event will be on December 8, but it's great if you can finish up setting up your work even earlier than that. The dates of our exhibition are a little bit fluid. The first week is more of a work-in-progress where some things might be ready, some things still a little bit under construction.
+
+- Setting up: November 30 to December 7
+- Opening: Friday, December 8, 16:00
+- Exhibition: December 8–15
+- Take down: Friday, December 15 at 15:00
+{{</hint>}}
+
+### Exhibition Spaces
+
+We have booked two spaces for exhibiting the work that we have been doing throghout the semester.
+
+- Väre, LQ Lobby
+- Learning Centre, Lobby
+
+***Let Matti know about any equipment or space requirements for your work!***
+
+### Winter Demo Day 2023
+
+You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
+
+---
+
+## Project Documentation (Deadline December 15)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. Your course website should have a dedicated section(s)/page(s) for your final project.
 
@@ -61,7 +93,7 @@ Minimum documentation consists of:
 
 Recommended documentation also would include one or more of the following
 
--A guide/tutorial on how to build your project from the technical side. See the [EFA Robot documentation as an example](https://create.arduino.cc/projecthub/mnstri/the-little-efa-robot-b41959).
+-A guide/tutorial on how to build your project from the technical side. 
 - A more detailed report on the process of creating your work.
 - More photos, sketches, high-quality video.
 
