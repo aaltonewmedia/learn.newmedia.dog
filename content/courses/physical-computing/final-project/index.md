@@ -49,6 +49,13 @@ After this presentation, some of you might also decide to join forces. You can a
 
 ---
 
+## Project Presentations (December 8, 14:00)
+
+- Your project should be ready before 14:00 on December 8.
+- Present it either in the Mechatronics workshop just for the class or in the exhibition space (see below).
+
+---
+
 ## Course Exhibition and Demo Day
 
 {{<hint info>}}
