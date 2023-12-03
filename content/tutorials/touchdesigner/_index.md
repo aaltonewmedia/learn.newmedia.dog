@@ -16,15 +16,15 @@ Derivative has released TouchDesigner Curriculum, a great resource for learning 
 
 ## Other TouchDesigner Resources
 
-Here are some great resources made by other people:
+Here are some other great resources:
 
 - [TouchDesigner Tutorials](https://derivative.ca/tutorials)
 - [The official TouchDesigner Channel](https://www.youtube.com/channel/UCbgFCfj0vp-nNGQ4hT5uEAg)
-- [The Interactive and Immersive HQ](https://www.youtube.com/channel/UC-9DT8kpvykuBEQ2iVatWbA)
+- [The Interactive and Immersive HQ](https://interactiveimmersive.io/) and their [YouTube channel](https://www.youtube.com/channel/UC-9DT8kpvykuBEQ2iVatWbA)
+- [TouchDesigner Book](https://interactiveimmersivehq.github.io/touchdesigner-book/) - If you prefer to read text instead of watching videos
 - [bileam tschepe](https://www.youtube.com/channel/UCONptu0J1PCrW9YfBtSdqjA)
 - [Paketa12 Youtube](https://www.youtube.com/@paketa12) - Also check his patreon for files
 - [Matthew Ragan](https://www.youtube.com/channel/UCKAAKTI2xLNNBJRkdf8E58A)
 - [Tokyo Developers Study Weekend](https://www.youtube.com/c/TDSW-online/about)
 - [alltd](https://alltd.org/) - a site that pulls all TD tutorials from YouTube on one site
 - [Noto the Talking Ball](https://www.youtube.com/c/NotoTheTalkingBall/videos)
-- [TouchDesigner Book](https://nvoid.github.io/) - If you prefer to read text instead of watching videos
