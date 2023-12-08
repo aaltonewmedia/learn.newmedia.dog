@@ -53,6 +53,12 @@ After this presentation, some of you might also decide to join forces. You can a
 
 - Your project should be ready before 14:00 on December 8.
 - Present it either in the Mechatronics workshop just for the class or in the exhibition space (see below).
+- We first do presentation in Mechatronics starting at 14:00
+- Then we start with the other works in the exhibition. We starts at 15:00 in LQ Lobby.
+
+### Opening 16:00
+
+Join for some snacks at 16:00 to clebrate the end of the semester! Invite your friends as well!
 
 ---
 
