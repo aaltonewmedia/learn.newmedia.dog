@@ -102,12 +102,12 @@ Minimum documentation consists of:
 
 - A short description of your project and reflection on the things you learned (500-1000 words)
 - One photo of the finished work
-- One short video of the finished work. This can be on Youtube, Vimeo etc. or a separate video file you upload to your website.
+- One short video of the finished work. **Please send this separatewly to Matti, check your email for instructions on how to submit it. The repository cannot handle large files.**
 
 Recommended documentation also would include one or more of the following:
 
 - A more detailed report on the process of creating your work.
-- More photos, sketches, high-quality video.
+- More photos, sketches, high-quality video, process videos.
 - A guide/tutorial on how to build your project from the technical side. 
 
-**No separate assignment submission to MyCourses, just use the website that you have been using for the course.**
+**No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately.**
