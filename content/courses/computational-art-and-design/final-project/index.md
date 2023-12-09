@@ -67,6 +67,7 @@ You should present your project in class on Friday, December 1. We start present
 You should send me documentation of the project via [MyCourses (link coming soon)](#).
 
 - a .pdf file that shortly explains your project (500–1000 words)
+  - If your project is combined with Physical Computing, it's also ok to just submit link to your final project page.
 - .zip archive of all of the files and code of your project
 - at least one image of the project as a separate file (.png or .jpg)
 - a short video capture of the project (can be screen capture or shot with a camera if there is some physical component). 
@@ -74,8 +75,9 @@ You should send me documentation of the project via [MyCourses (link coming soon
 
 Also include the answer to the following questions:
 1. Can I add the video of your projet to our [class showcase](../showcase/)?
-2. Can I publish your name next to the video?
-3. Would you like me to add a link to your portfolio website, social media account etc. next to the video?
+2. Can I upload the video file to the Media Lab Vimeo channel (the video will be much better quality this way)
+3. Can I publish your name on the site?
+4. Would you like me to add a link to your portfolio website, social media account etc. next to the video?
 
 ---
 
@@ -110,4 +112,3 @@ If you want to show your work in the exhibition, please submit requirements for 
 ### Winter Demo Day 2023
 
 You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
-
