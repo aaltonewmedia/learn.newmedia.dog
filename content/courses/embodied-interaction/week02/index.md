@@ -2,7 +2,7 @@
 title: "Week 02 | Embodied Interaction"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 02 | Context-Aware Computing, Embodied Interaction

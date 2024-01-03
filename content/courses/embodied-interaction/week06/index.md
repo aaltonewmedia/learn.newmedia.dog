@@ -2,7 +2,7 @@
 title: "Week 06 | Final Project Ideation"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 06 | Final Project Ideation

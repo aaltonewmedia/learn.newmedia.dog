@@ -5,10 +5,6 @@ weight: 85
 draft: false
 ---
 
-# Gesture Assignment (February 6, 2023)
-
----
-
 Work together in your group. 3–4 people. Matti will pick out the groups randomly. **Note that this group does not have to be the one for your final project.**
 
 Think about the **gestures that you use in your everyday life.** What are some of the most interesting gestures that really take full advantage of your capabilities as a human being? Are these gestures associated with a specific object, context, or culture?

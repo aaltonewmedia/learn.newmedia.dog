@@ -2,7 +2,7 @@
 title: Week 09 | Body/Space/Place Continued + Project Proposals
 bookCollapseSection: true
 weight: 20
-draft: false
+draft: true
 ---
 
 This week we will have a couple of short lectures the more theoretical sides of embodied interaction. We also continue with Mediapipe and learning some new techniques inside TouchDesigner for experimenting with interactions.

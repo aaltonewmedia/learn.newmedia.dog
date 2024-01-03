@@ -2,7 +2,7 @@
 title: "Week 03 | Proxemic Interaction"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 03 | Proxemic Interaction

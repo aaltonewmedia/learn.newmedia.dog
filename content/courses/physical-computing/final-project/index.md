@@ -111,3 +111,24 @@ Recommended documentation also would include one or more of the following:
 - A guide/tutorial on how to build your project from the technical side. 
 
 **No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately.**
+
+{{<hint info>}}
+### Video (for 2024 class)
+
+These instructions are here for the class in 2024.
+
+Please follow these specifications:
+
+- Horizontal video in 16:9 aspect ratio **(No vertical videos)**.
+- Resolution: 1920x1080 or 3840x2160
+- .mp4 with H264 compression
+- 30fps (or 60fps if it is really needed for your project)
+
+#### Recommended Preset from HandBrake 
+
+- Download and install [HandBrake](https://handbrake.fr/)
+- Open your video file
+- Choose the following preset: Web --> Creator1080p60 (for 1920x1080 resolution)
+- **Go to the Video tab and chnage the frame rate to 30fps**
+
+{{</hint>}}

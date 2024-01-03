@@ -2,7 +2,7 @@
 title: "Week 04 | Tools & Technology #1 | Depth Cameras (Kinect)"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 04 | Tools & Technology #1 | Depth Cameras (Kinect)

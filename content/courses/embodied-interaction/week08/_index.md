@@ -1,7 +1,7 @@
 ---
 title: Week 08 | Body/Space/Place
 bookCollapseSection: true
-draft: false
+draft: true
 weight: 20
 ---
 

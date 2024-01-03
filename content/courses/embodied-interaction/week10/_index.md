@@ -2,7 +2,7 @@
 title: Week 10 | Biosensors, Haptics, Field Trip
 bookCollapseSection: true
 weight: 20
-draft: false
+draft: true
 ---
 
 This week we are going to go visit an interactive sound installation that is being developed at the WHS theatre.
