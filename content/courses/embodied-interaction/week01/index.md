@@ -65,5 +65,5 @@ If you do not already know the basics of TouchDesigner, start going through [The
 **You should go through this series of tutorials during Period 3. All of the examples that I will show in Period 4 assumes that you have completed this Fundamentals course.**
 
 {{<hint info>}}
-As I have already said multiple times, you can use any tool that you want during this course but if you want to follow and experiment with many of the practical examples during this course, I highly recommend you to learn how to use TouchDesigner. It is one of the most flexible tools for experimenting with different types input and output devices and allows you to 
+As I have already said multiple times, you can use any tool that you want during this course but if you want to follow and experiment with many of the practical examples during this course, I highly recommend you to learn how to use TouchDesigner. It is one of the most flexible tools for experimenting with different types input and output devices and allows you to quickly get to the crative part of your work.
 {{</hint>}}
