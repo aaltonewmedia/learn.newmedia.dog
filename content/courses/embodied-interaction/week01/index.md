@@ -8,7 +8,7 @@ draft: false
 {{<hint info>}}
 **Monday, January 8, 2024**
 
-*We start in Room L208*
+*We start in Room G203*
 {{</hint>}}
 
 ## Introduction
@@ -18,3 +18,15 @@ draft: false
 ### Examples from previous years
 
 [Go here to see some examples from previous years](../showcase/)
+
+## Course Structure
+
+### Period III
+
+- Lectures on Monday afternoons (15:15–17:00)
+- Some readings, videos to watch etc.
+- 
+
+### Period IV
+
+### Exhibition
