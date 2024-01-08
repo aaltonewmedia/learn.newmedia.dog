@@ -41,7 +41,7 @@ It is possible to participate in the course without taking the classes above but
 
 ## Spaces, Studios and Workshops
 
-- We have multpiple spaces booked for the lectures (L208, M101, G203). Please check this site or MyCourses for each week to see where we are.
+- We have multpiple spaces booked for the lectures (L208, G203). Please check this site or MyCourses for each week to see where we are.
 - For the last four weeks of the course, room G203 is booked for us for working. There will be some Desktop PCs with Touchdesigner installed, projectors, and other equipment for you to use.
 - The Media Lab Home Base room O102 is also equipped with a projector, two powerful computers with TouchDesigner installed, surround sound and other equipment. Use that room also for working independently.
 - Use [vdi.aalto.fi](https://vdi.aalto.fi/) to remotely access Aalto computers with TouchDesigner
@@ -53,10 +53,11 @@ It is possible to participate in the course without taking the classes above but
 Embodied Interaction is a very hands-on course (especially in Period IV). We are creating novel interfaces and embodied experiences that often require software and hardware design and development. The course introduces you to some specific tools but you are not required to use those specifically for your project. However, this is a list of some of the tools and technologies that we are going to use:
 
 - **Touchdesigner** | This will be our main software tool. It supports many input devices in a very robust way and allows for fast prototyping of your ideas. You can download a free version of TouchDesigner on your own computer or you can use educational licenses that we have at Aalto in many of the computer classrooms.
-- Stereolabs
+- **Stereolabs ZED 2i Camera** |
+- **MediaPipe** |
 - **Kinect Azure** | This is a depth camera that allows you to detect movement of humans in a space. The Kinect Azure can also be used as an infrared camera for more traditional computer vision techniques.
-- Gesture Sensors | You will have access to various sensor that can be used to detect certain gestures. 
-- VR/AR devices | For example, the Varjo XR-3 heasdset.
+- **Gesture Sensors** | You will have access to various sensor that can be used to detect certain gestures. 
+- **VR/AR devices** | For example, the Varjo XR-3 heasdset, Hololens 2, Oculus Quest etc.
 
 You can also use any other development environments and tools (Processing, Arduino, Unity, Unreal Engine etc.).
 
@@ -73,9 +74,8 @@ Although there is no strict requirement for any specific tools or technology, yo
 You have to do the following to complete this course:
 
 - Actively attend the classes, show up, don't be late, participate, help others. (If the topic of a specific class is already familiar to you, use your time working on your project or in some other constructive way.)
-- Complete the [gesture assignment](./gesture-assignment/)
-- Complete a [final project](./final-project/)
-- Document your learning process and the final project development on a website or some other type of online document. [See guidelines here.](./documentation-website/) You need to keep updating your personal documentation even if you work as a group. Your group can of course share materials and content if needed.
+- Complete a [final project](./final-project/). You can so this alone or as a small group (2-4 people).
+- Submit documentation for the final project. Instructions will follow later.
 
 ### Evaluation
 
@@ -93,6 +93,7 @@ You will be graded based on the following criteria
 - Active attendance to classes and discussions (25% of the grade).
     - Minimum 80% attendance (being sick or other emergency is a valid reason to not to be present)
     - Your attitude and activeness in class. Please note that this does not necessarily mean being very extroverted and loud. I also appreciate a more introspective and quiet way of working.
+    - Participation in building and takedown of the exhibition.
 - The final project (50% of the grade). You will be evaluated based on:
     - Aesthetic quality of the work
     - Novelty and creativity of the concept
@@ -121,51 +122,51 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | [Introduction](./week01/) |  |  |  |  |
 
-#### Week 2 | Embodied Interaction
+#### Week 2 | 
 
 | TIME | MON 15/01 | TUE 16/01 | WED 17/01 | THU 18/01 | FRI 19/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Embodied Interaction](./week02/) |  |  |  |  |
+| 15:15–17:00 | [Lecture](./week02/) |  |  |  |  |
 
-#### Week 3 | Proxemic Interaction
+#### Week 3 |
 
 | TIME | MON 22/01 | TUE 23/01 | WED 24/01 | THU 25/01 | FRI 26/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Proxemic Interaction](./week03/) |  |  |  |  |
+| 15:15–17:00 | [Lecture](./week03/) |  |  |  |  |
 
 
-#### Week 4 | Tools & Technology #1: Depth Cameras (Kinect)
+#### Week 4 |
 
 | TIME | MON 29/01 | TUE 30/01 | WED 31/02 | THU 01/02 | FRI 02/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Lecture: Embodied Technology](./week04/) |  |  |  |  |
+| 15:15–17:00 | [TouchDesigner Tutoring](./week04/) |  |  |  |  |
 
-#### Week 5 | Gesture Assignment
+#### Week 5 |
 
 | TIME | MON 05/02 | TUE 06/02 | WED 07/02 | THU 08/02 | FRI 09/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Gesture Assignment](./week05/) |  |  |  |  |
+| 15:15–17:00 | [Introduction to MediaPipe](./week05/) |  |  |  |  |
 
-#### Week 6 | Final Project Ideation
+#### Week 6 |
 
 | TIME | MON 12/02 | TUE 13/02 | WED 14/02 | THU 15/02 | FRI 16/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Final Project Ideation ](./week06/) |  |  |  |  |
+| 15:15–17:00 | [Lecture](./week06/) |  |  |  |  |
 
 #### Week 7 | WORKSHOP WEEK (NO CLASS)
 
@@ -178,38 +179,38 @@ You will be graded based on the following criteria
 
 ### Period IV
 
-#### Week 8 | Body/Space/Place
+#### Week 8 |
 
 | TIME | MON 26/02 | TUE 27/02 | WED 28/03 | THU 29/03 | FRI 01/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week08/lesson-01) | [Theory + Hands-on lecture](./week08/lesson-02) | [Theory + Experimentation](./week08/lesson-03) |
+| 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week08/lesson-01) | [Theory + Hands-on lecture](./week08/lesson-02) | [Experimentation](./week08/lesson-03) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 9 | TouchDesigner Bootcamp, Project Proposals
+#### Week 9 |
 
 | TIME | MON 04/03 | TUE 05/03 | WED 06/03 | THU 07/03 | FRI 08/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [TouchDesigner Techniques](./week09/lesson-01) | [TouchDesigner Techniques](./week09/lesson-02) | [Project Proposal Presentations](./week09/lesson-03)  |
+| 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week09/lesson-01) | [Theory + Hands-on lecture](./week09/lesson-02) | [Experimentation](./week09/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 10 | Biosensors, Haptics, Field Trip
+#### Week 10 |
 
 | TIME | MON 11/03 | TUE 12/03 | WED 13/03 | THU 14/03 | FRI 15/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Matti in admissions interviews, no class]((./week10/lesson-01)) | [Biosensors, Haptics](./week10/lesson-02) | [Field Trip](./week10/lesson-03)  |
+| 09:15–12:00 |  |  | [Theory + Hands-on lecture]((./week10/lesson-01)) | [Theory + Hands-on lecture](./week10/lesson-02) | [Project Proposal Presentations](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 11 | Project Work, Tutorials
+#### Week 11 |
 
 | TIME | MON 18/03 | TUE 19/03 | WED 20/03 | THU 21/03 | FRI 22/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [FIELD TRIP: Art & Tech Demo Day](./weekx)  |
+| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -218,28 +219,28 @@ You will be graded based on the following criteria
 
 | TIME | MON 25/03 | TUE 26/03 | WED 27/03 | THU 28/03 | FRI 29/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Work + Review](./weekx) | [Project Work](./weekx) | [Project Work](./weekx)  |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
-
-#### Week 13 | Project Work
-
-| TIME | MON 01/04 | TUE 02/04 | WED 03/04 | THU 04/04 | FRI 05/04 |
-| --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Project Work](./weekx) |  EASTER HOLIDAY | EASTER HOLIDAY |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
 | 15:15–17:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
 
+#### Week 13 | Project Work
+
+| TIME | MON 01/04 | TUE 02/04 | WED 03/04 | THU 04/04 | FRI 05/04 |
+| --- | --- | --- | --- | --- | --- |
+| 09:15–12:00 |  |  | EASTER HOLIDAY | [Project Work](./weekx) | [Project Work](./weekx)  |
+| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
+| 13:15–15:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
+| 15:15–17:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
+
 #### Week 14 | Project Work, Final Presentations
 
 | TIME | MON 08/04 | TUE 09/04 | WED 10/04 | THU 11/04 | FRI 12/04 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | EASTER HOLIDAY | EASTER HOLIDAY | EASTER HOLIDAY | [Project Work](./weekx) | Final Project Presentations |
+| 09:15–12:00 |  | | [Project Work](./weekx) | [Project Work](./weekx) | Final Project Presentations + Exhibition Opens |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
-| 15:15–17:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
+| 13:15–15:00 |  |  |  |  |  |
+| 15:15–17:00 |  |  |  |  |  |
 
 #### Week 15 | WORKSHOP WEEK (NO CLASS, EXHIBITION)
 
