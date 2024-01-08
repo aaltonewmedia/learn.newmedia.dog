@@ -7,16 +7,9 @@ draft: false
 
 Welcome to Embodied Interaction. This is a course that has been running at Aalto since 2011 (previously named Bodily Interaction). Matti Niinimäki has been teaching this course since 2012. It was originally created by [Ferhat Sen](https://www.ferhatsen.com/)
 
-This year the course has seen some structural changes:
-- New course code due to the merger of the Department of Art and Department of Media
-- It is now spanning across two periods (used to be 6 weeks inside one period in 2020–2022 and only three weeks before that).
-- Hopefully the content improves and gets clearer each iteration.
-- More time for theory.
-- Many new tools and technologies are available each year (as well as some things become obsolete).
-
 ## Important Links
 
-- [MyCourses 2023](https://mycourses.aalto.fi/course/view.php?id=35386)
+- [MyCourses 2024](https://mycourses.aalto.fi/course/view.php?id=39807)
 
 ## Content
 
@@ -51,18 +44,17 @@ It is possible to participate in the course without taking the classes above but
 - We have multpiple spaces booked for the lectures (L208, M101, G203). Please check this site or MyCourses for each week to see where we are.
 - For the last four weeks of the course, room G203 is booked for us for working. There will be some Desktop PCs with Touchdesigner installed, projectors, and other equipment for you to use.
 - The Media Lab Home Base room O102 is also equipped with a projector, two powerful computers with TouchDesigner installed, surround sound and other equipment. Use that room also for working independently.
-- If needed, I can book the room R106 for independent work for you. It has HTC Vive Pro, two projectors, DMX lights, and a powerful computer with TD installed.
-- Use vdi.aalto.fi to remotely access the L208 computers with TouchDesigner
-- Mechatronics (G014) and other workshops in Väre are available for you to use
+- Use [vdi.aalto.fi](https://vdi.aalto.fi/) to remotely access Aalto computers with TouchDesigner
+- Mechatronics (G014) and other workshops in Väre are available for you to use as long as you have done the required introductions or training.
 - Aalto Fab Lab is available for you to use.
-- Book the the Open photostudio whenever you need to use it.
 
 ## Tools & Technology
 
 Embodied Interaction is a very hands-on course (especially in Period IV). We are creating novel interfaces and embodied experiences that often require software and hardware design and development. The course introduces you to some specific tools but you are not required to use those specifically for your project. However, this is a list of some of the tools and technologies that we are going to use:
 
-- Touchdesigner | This will be our main software tool. It supports many input devices in a very robust way and allows for fast prototyping of your ideas. You can download a free version of TouchDesigner on your own computer or you can use educational licenses that we have at Aalto in many of the computer classrooms.
-- Kinect Azure | This is a depth camera that allows you to detect movement of humans in a space. The Kinect Azure can also be used as an infrared camera for more traditional computer vision techniques.
+- **Touchdesigner** | This will be our main software tool. It supports many input devices in a very robust way and allows for fast prototyping of your ideas. You can download a free version of TouchDesigner on your own computer or you can use educational licenses that we have at Aalto in many of the computer classrooms.
+- Stereolabs
+- **Kinect Azure** | This is a depth camera that allows you to detect movement of humans in a space. The Kinect Azure can also be used as an infrared camera for more traditional computer vision techniques.
 - Gesture Sensors | You will have access to various sensor that can be used to detect certain gestures. 
 - VR/AR devices | For example, the Varjo XR-3 heasdset.
 
@@ -114,7 +106,7 @@ You will be graded based on the following criteria
 
 ---
 
-## Schedule | Spring 2023
+## Schedule | Spring 2024
 
 **PLEASE NOTE: THERE MIGHT BE STILL SOME SMALL CHANGES TO THE TOPICS.**
 
@@ -122,7 +114,7 @@ You will be graded based on the following criteria
 
 #### Week 1 | Introduction
 
-| TIME | MON 09/01 | TUE 10/01 | WED 11/01 | THU 12/01 | FRI 13/01 |
+| TIME | MON 08/01 | TUE 09/01 | WED 10/01 | THU 11/01 | FRI 12/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -131,7 +123,7 @@ You will be graded based on the following criteria
 
 #### Week 2 | Embodied Interaction
 
-| TIME | MON 16/01 | TUE 17/01 | WED 18/01 | THU 19/01 | FRI 20/01 |
+| TIME | MON 15/01 | TUE 16/01 | WED 17/01 | THU 18/01 | FRI 19/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -140,7 +132,7 @@ You will be graded based on the following criteria
 
 #### Week 3 | Proxemic Interaction
 
-| TIME | MON 23/01 | TUE 24/01 | WED 25/01 | THU 26/01 | FRI 27/01 |
+| TIME | MON 22/01 | TUE 23/01 | WED 24/01 | THU 25/01 | FRI 26/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -150,7 +142,7 @@ You will be graded based on the following criteria
 
 #### Week 4 | Tools & Technology #1: Depth Cameras (Kinect)
 
-| TIME | MON 30/01 | TUE 31/01 | WED 01/02 | THU 02/02 | FRI 03/02 |
+| TIME | MON 29/01 | TUE 30/01 | WED 31/02 | THU 01/02 | FRI 02/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -159,7 +151,7 @@ You will be graded based on the following criteria
 
 #### Week 5 | Gesture Assignment
 
-| TIME | MON 06/02 | TUE 07/02 | WED 08/02 | THU 09/02 | FRI 10/02 |
+| TIME | MON 05/02 | TUE 06/02 | WED 07/02 | THU 08/02 | FRI 09/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -168,7 +160,7 @@ You will be graded based on the following criteria
 
 #### Week 6 | Final Project Ideation
 
-| TIME | MON 13/02 | TUE 14/02 | WED 15/02 | THU 16/02 | FRI 17/02 |
+| TIME | MON 12/02 | TUE 13/02 | WED 14/02 | THU 15/02 | FRI 16/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -177,7 +169,7 @@ You will be graded based on the following criteria
 
 #### Week 7 | WORKSHOP WEEK (NO CLASS)
 
-| TIME | MON 20/02 | TUE 21/02 | WED 22/02 | THU 23/02 | FRI 24/02 |
+| TIME | MON 19/02 | TUE 20/02 | WED 21/02 | THU 22/02 | FRI 23/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -188,7 +180,7 @@ You will be graded based on the following criteria
 
 #### Week 8 | Body/Space/Place
 
-| TIME | MON 27.02. | TUE 28.02. | WED 01.03. | THU 02.03. | FRI 03.03. |
+| TIME | MON 26/02 | TUE 27/02 | WED 28/03 | THU 29/03 | FRI 01/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week08/lesson-01) | [Theory + Hands-on lecture](./week08/lesson-02) | [Theory + Experimentation](./week08/lesson-03) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -197,7 +189,7 @@ You will be graded based on the following criteria
 
 #### Week 9 | TouchDesigner Bootcamp, Project Proposals
 
-| TIME | MON 06.03. | TUE 07.03. | WED 08.03. | THU 09.03. | FRI 10.03. |
+| TIME | MON 04/03 | TUE 05/03 | WED 06/03 | THU 07/03 | FRI 08/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [TouchDesigner Techniques](./week09/lesson-01) | [TouchDesigner Techniques](./week09/lesson-02) | [Project Proposal Presentations](./week09/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -206,7 +198,7 @@ You will be graded based on the following criteria
 
 #### Week 10 | Biosensors, Haptics, Field Trip
 
-| TIME | MON 13.03. | TUE 14.03. | WED 15.03. | THU 16.03. | FRI 17.03. |
+| TIME | MON 11/03 | TUE 12/03 | WED 13/03 | THU 14/03 | FRI 15/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Matti in admissions interviews, no class]((./week10/lesson-01)) | [Biosensors, Haptics](./week10/lesson-02) | [Field Trip](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -215,7 +207,7 @@ You will be graded based on the following criteria
 
 #### Week 11 | Project Work, Tutorials
 
-| TIME | MON 20.03. | TUE 21.03. | WED 22.03. | THU 23.03. | FRI 24.03. |
+| TIME | MON 18/03 | TUE 19/03 | WED 20/03 | THU 21/03 | FRI 22/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [FIELD TRIP: Art & Tech Demo Day](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -224,7 +216,7 @@ You will be graded based on the following criteria
 
 #### Week 12 | Project Work
 
-| TIME | MON 27.03. | TUE 28.03. | WED 29.03. | THU 30.03. | FRI 31.03. |
+| TIME | MON 25/03 | TUE 26/03 | WED 27/03 | THU 28/03 | FRI 29/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Project Work + Review](./weekx) | [Project Work](./weekx) | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -233,7 +225,7 @@ You will be graded based on the following criteria
 
 #### Week 13 | Project Work
 
-| TIME | MON 04.04. | TUE 05.04. | WED 06.04. | THU 07.04. | FRI 08.04. |
+| TIME | MON 01/04 | TUE 02/04 | WED 03/04 | THU 04/04 | FRI 05/04 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Project Work](./weekx) |  EASTER HOLIDAY | EASTER HOLIDAY |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -242,16 +234,16 @@ You will be graded based on the following criteria
 
 #### Week 14 | Project Work, Final Presentations
 
-| TIME | MON 10.04. | TUE 11.04. | WED 12.04. | THU 13.04. | FRI 14.04. |
+| TIME | MON 08/04 | TUE 09/04 | WED 10/04 | THU 11/04 | FRI 12/04 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 | EASTER HOLIDAY | EASTER HOLIDAY | EASTER HOLIDAY | [Project Work](./weekx) | Final Project Presentations |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
 | 15:15–17:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
 
-#### Week 15 | WORKSHOP WEEK (NO CLASS)
+#### Week 15 | WORKSHOP WEEK (NO CLASS, EXHIBITION)
 
-| TIME | MON 17.04. | TUE 18.04. | WED 19.04. | THU 20.04. | FRI 21.04. |
+| TIME | MON 15/04 | TUE 16/04 | WED 17/04 | THU 18/04 | FRI 19/04 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |

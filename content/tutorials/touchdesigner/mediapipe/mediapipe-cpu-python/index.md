@@ -1,17 +1,11 @@
 ---
-title: "Mediapipe"
+title: "Mediapipe CPU (Python)"
 bookCollapseSection: false
----   
-
-# Mediapipe
-
 ---
 
 - [Mediapipe website](https://google.github.io/mediapipe/)
 - [GitHub](https://github.com/google/mediapipe)
 - [Awesome Mediapipe](https://github.com/mgyong/awesome-mediapipe)
-
-Mediapipe is an excellent way to prototype projects involving face tracking, hand tracking, pose detection and other advanced detection solutions based on machine learning. Google originally used it internally for many of their products (Google Lens, NestCam etc.) and in 2019 they released it for public use.
 
 | Face Detection | Face Mesh | Iris | Hands | Pose | Holistic |
 | --- | --- | --- | --- | --- | --- |
@@ -20,23 +14,6 @@ Mediapipe is an excellent way to prototype projects involving face tracking, han
 | Hair Segmentation | Object Detection | Box Tracking | Instant Motion Tracking | Objectron | KNIFT |
 | --- | --- | --- | --- | --- | --- |
 | [![hair_segmentation](https://mediapipe.dev/images/mobile/hair_segmentation_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/hair_segmentation) | [![object_detection](https://mediapipe.dev/images/mobile/object_detection_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/object_detection) | [![box_tracking](https://mediapipe.dev/images/mobile/object_tracking_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/box_tracking) | [![instant_motion_tracking](https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif)](https://google.github.io/mediapipe/solutions/instant_motion_tracking) | [![objectron](https://mediapipe.dev/images/mobile/objectron_chair_android_gpu_small.gif)](https://google.github.io/mediapipe/solutions/objectron) | [![knift](https://mediapipe.dev/images/mobile/template_matching_android_cpu_small.gif)](https://google.github.io/mediapipe/solutions/knift)|
-
-## Pros and Cons of Mediapipe
-
-### Pros
-
-- Cross-platform (C++, Android, iOS, Python, JavaScript).
-- Doesn't need any specific hardware like the Azure Kinect. You can just use your webcam.
-- Runs on mobile devices as well.
-- Very fast!
-
-### Cons
-
-- Most of the tracking data is not fully 3D. If you need to get real 3D coordinates of all the tracking points with a fixed reference in the real world, the Kinect and some other depth camera solutions will work better.
-- Documentation is not very detailed so it can be a little bit confusing to work with it sometimes.
-- It is using just your normal webcam, so you might run into issues when you are trying track people in a space where you have projections and other types of constantly changing lights.
-- The quality is very good, but not perfect.
-- The pose estimation only detects one skeleton at a time.
 
 ## Mediapipe + TouchDesigner
 

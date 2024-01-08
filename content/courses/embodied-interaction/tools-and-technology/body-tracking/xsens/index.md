@@ -1,10 +1,6 @@
 ---
 title: "Xsens MVN Motion Capture Suit"
 bookCollapseSection: false
----   
-
-# Xsens MVN Motion Capture Suit
-
 ---
 
 - [XSens](https://www.xsens.com/motion-capture)

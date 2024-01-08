@@ -3,10 +3,6 @@ title: "Kinect"
 bookCollapseSection: false
 ---   
 
-# Kinect Tutorials
-
----
-
 ## Kinect versions
 
 ### Azure Kinect
