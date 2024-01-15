@@ -28,7 +28,9 @@ Bret Victor: The Humane Representation of Thought
 {{<vimeo 115154289>}}
 
 {{<hint info>}}
-Also read through [the pdf here on the notes about the talk](http://worrydream.com/TheHumaneRepresentationOfThought/note.html).
+- Also read through [the pdf here on the notes about the talk](http://worrydream.com/TheHumaneRepresentationOfThought/note.html).
+- [Dynamicland](https://dynamicland.org/) | Take a look at the Dynamicland website for more information about a prototype of what Bret Victor talks about in the video.
+- [Folk Computer](https://folk.computer/start) | There is also an open-source initiative to build something very similar
 {{</hint>}}
 
 Continue with the video lectures by Jelle van Dijk. This time about Tangible Interaction. Some things that I talked about are repeated but it might be a good recap to hear this from another person with a slightly different angle.
