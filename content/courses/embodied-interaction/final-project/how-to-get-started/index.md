@@ -2,6 +2,7 @@
 title: "How to get started?"
 bookCollapseSection: false
 weight: 90
+draft: true
 ---
 
 # Final Project: How to get started?

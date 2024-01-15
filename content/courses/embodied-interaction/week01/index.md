@@ -43,6 +43,12 @@ draft: false
 
 ---
 
+## Lecture Slides
+
+- [See the lecture slides here](https://miro.com/app/board/uXjVP0G1Ft0=/)
+
+---
+
 ## Homework
 
 ### Read

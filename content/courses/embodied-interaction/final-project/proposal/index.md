@@ -4,7 +4,7 @@ bookCollapseSection: false
 weight: 100
 ---
 
-# Final project proposal (March 10, 2023)
+# Final project proposal (March 15, 2023)
 
 ---
 
@@ -15,7 +15,7 @@ Create a project proposal for your final project. Think of this as a constantly 
 - Initial list of any specific space or technology requirements. How much space do you need? A rough sketch helps a lot.
 - Any other references that you have collected. Papers, books, articles, videos, podcasts etc. Keep notes for yourself.
 
-You will present your idea in class on Friday (10/03/2023). Also document your proposal on your course site.
+You will present your idea in class on Friday (15/03/2023).
 
 {{<hint info>}}
 It is ok if your idea changes after this. I am expecting it to change or evolve as you learn more about the topic. **You just need a starting point.**

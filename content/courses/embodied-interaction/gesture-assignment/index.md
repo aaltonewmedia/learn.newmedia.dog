@@ -2,7 +2,7 @@
 title: "Gesture Assignment"
 bookCollapseSection: false
 weight: 85
-draft: false
+draft: true
 ---
 
 Work together in your group. 3–4 people. Matti will pick out the groups randomly. **Note that this group does not have to be the one for your final project.**

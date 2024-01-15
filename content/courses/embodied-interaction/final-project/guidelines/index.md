@@ -12,7 +12,7 @@ The final project:
 
 - Is something you do either on your own or as a group (2–4 people)
 - Is an interactive artwork/design/artifact/experience/game/interface that builds upon the theory and practice that we learn during this course.
-- Is something that you will present your project during the last class of the course **(Friday, April 14)**.
+- Is something that you will present your project during the last class of the course **(Friday, April 12)**.
 - Is something that you need to document online (either publicly or more privately)
 
 This outcome can be:
@@ -24,7 +24,7 @@ This outcome can be:
 5. Product design
 6. Something else?
 
-## Final project proposal (March 10, 2023)
+## Final project proposal (March 15, 2024)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
@@ -32,7 +32,7 @@ Create a project proposal for your final project. Think of this as a constantly 
 - Some references (artworks/projects that are similar to what you would like to do).
 - Initial list of any specific space or technology requirement
 
-You will present your idea in class on Friday (10/03/2023). Also document your proposal on your course site.
+You will present your idea in class on Friday (15/03/2023).
 
 {{<hint info>}}
 It is ok if your idea changes after this. I am expecting it to change or evolve as you learn more about the topic. **You just need a starting point.**
@@ -42,17 +42,15 @@ It is ok if your idea changes after this. I am expecting it to change or evolve 
 After this presentation, some of you might also decide to join forces. You can consider this presentation as a way to pitch your idea to other people who could then join you. You should mention if you are looking for someone to work with or if you just want to focus on working on your own thing.
 {{</hint>}}
 
-## Final Project presentations (April 14, 2023)
+## Final Project presentations (April 12, 2024)
 
 Present your work on the last day of the course. We will mainly be in room G203 but you can present somewhere else as well, if you are making work for some other space.
 
-**Note: Some students are already presenting on Wednesday, April 5**
-
-## Final project documentation (April 26, 2023)
+## Final project documentation (April 19, 2023)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. [Your course website](../documentation-website/) should have a dedicated section(s)/page(s) for your final project.
 
-Deadline for finishing the documentation is Wednesday, April 26.
+Deadline for finishing the documentation is Wednesday, April 19.
 
 Minimum documentation consists of:
 
@@ -70,4 +68,4 @@ Additionally, keep updating your documentation website throughout the course. Do
 You can further develop and exhibit your project in Period V during the Art+Media Studio course.
 {{</hint>}}
 
-## Spring Demo Day 2023
+## Spring Demo Day 2024
