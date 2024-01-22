@@ -57,8 +57,8 @@ This is what he is doing with it now:
 
 Continue with the video lectures by Jelle van Dijk. This time about External representation and computation.
 
-- [Embodied Interaction - Lecture #02, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
-- [Embodied Interaction - Lecture #02, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
+- [Embodied Interaction - Lecture #03, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
+- [Embodied Interaction - Lecture #03, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
 
 Additionally, watch the [Proxemic Interactions presentation from Nicolai Marquadt.](https://www.youtube.com/watch?v=Q13dM4hmEJQ)
 
