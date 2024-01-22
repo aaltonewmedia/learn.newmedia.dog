@@ -1,5 +1,5 @@
 ---
-title: "Week 03 | Proxemic Interaction"
+title: "Week 03 | External Computation and Representation | Proxemic Interaction"
 bookCollapseSection: false
 weight: 20
 draft: false
