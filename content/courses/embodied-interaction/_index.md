@@ -210,7 +210,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 18/03 | TUE 19/03 | WED 20/03 | THU 21/03 | FRI 22/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [Project Work](./weekx)  |
+| 09:15–12:00 |  |  | [Matti in Admission interviews! Project Work](./weekx)  | [Matti in Admission interviews! Project Work](./weekx)  | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |

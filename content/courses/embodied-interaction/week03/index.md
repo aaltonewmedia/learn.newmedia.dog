@@ -2,82 +2,66 @@
 title: "Week 03 | Proxemic Interaction"
 bookCollapseSection: false
 weight: 20
-draft: true
----
-
-# Week 03 | Proxemic Interaction
-
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, January 23, 2023**
+**Monday, January 22, 2023**
 
 *We start in Room G203*
 {{</hint>}}
 
-## Inspiration
-
-### Rafael Lozano-Hemmer – Standards and Double Standards, 2004
-
-{{<vimeo 33931469>}}
-
-[More information](https://www.lozano-hemmer.com/standards_and_double_standards.php)
-
-### Random International – Audience, 2010
-
-{{<vimeo 9852175>}}
-
-[More Information](https://www.random-international.com/audience-2008)
-
-### MIT Media Lab | Put That There
-
-{{<youtube RyBEUyEtxQo>}}
-
-{{<youtube sC5Zg0fU2e8>}}
-
-{{<youtube CbIn8p4_4CQ>}}
-
-- https://www.media.mit.edu/publications/put-that-there-voice-and-gesture-at-the-graphics-interface/
-
-### Myron Krueger | Videoplace, Responsive Environment, 1972-1990s
-
-{{<youtube dmmxVA5xhuo>}}
-
-{{<youtube d4DUIeXSEpk>}}
-
-- https://aboutmyronkrueger.weebly.com/videoplace.html
-
-## Proxemic Interaction
+---
 
 ### Lecture Slides
 
 [Lecture slides Miro board](https://miro.com/app/board/uXjVPx9O_0A=/)
 
-### Papers and Books
+---
 
-You have access to these pdf files via the Aalto University library or [you can also find them from MyCourses by logging in.](https://mycourses.aalto.fi/course/view.php?id=35386&section=3)
+For the last two weeks we have been exploring in general some different ways that humans interact with technology (and each other). Today we try to go deeper into understanding this topic of Embodied Interaction that has been approached from many directions by different people. 
 
-- Hall, Edward, T. [The Hidden Dimension](https://archive.org/details/hiddendimensionhall00hall)
-- [Proxemic Interactions](https://interactions.acm.org/archive/view/january-february-2011/proxemic-interactions1)
-- [Proxemic Interactions: From Theory to Practice](https://www.morganclaypool.com/doi/abs/10.2200/S00619ED1V01Y201502HCI025)
-- [Dark patterns in proxemic interactions: a critical perspective](https://dl.acm.org/doi/abs/10.1145/2598510.2598541)
+Specifically, we are going to focus on how the space around you and the objects in that space can become part of your thinking.
 
-### Videos and lectures
+Mark Weiser called his ideas **Ubiquitous Computing** in 1988 in the form of computational, networked devices embedded to our surroundings and everyday objects in three different sizes: tabs, pads and boards.
 
-#### Saul Greenberg: Proxemic Interactions: the New Ubicomp?
+Hiroshi Ishii and the Tangible Media Group call their vision **Tangible Bits and Radical Atoms** since the 1990s. As an example, a more physical or experimental version of the idea of Ubiquitous Computing was explored in the [ambientROOM project](https://tangible.media.mit.edu/project/ambientroom/).
+
+{{<vimeo 48815734>}}
+
+Saul Greenberg has investigated **Proxemic Interaction** that builds on **Proxemics** by Edward T. Hall and many of the ideas above.
 
 {{<youtube hBANQ3blCiw>}}
 
---- 
+{{<youtube Q13dM4hmEJQ>}}
+
+Bret Victor and collaborators are hoping to create a more **humane representation of thought**. The first prototype was called **Dynamicland** or **Realtalk**. Originally developed at the Dynamicland space and right now at [UCSF](https://cmp.ucsf.edu/). 
+
+This talk was your homework:
+
+{{<vimeo 115154289>}}
+
+This is what Dynamicland looked like:
+
+{{<youtube cErKuEHWCpM>}}
+
+This is what he is doing with it now:
+
+{{<youtube -80VsIdAHZw>}}
+
+---
 
 ## Homework
 
-### Gesture Assignment
+### Watch
 
-[Start working on your gesture assignment](https://learn.newmedia.dog/courses/embodied-interaction/gesture-assignment/) (deadline: February 6, 2023).
+Continue with the video lectures by Jelle van Dijk. This time about External representation and computation.
 
-[You can find the groups in MyCourses](https://mycourses.aalto.fi/mod/page/view.php?id=1004594&forceview=1). Gather in your group, decide on how you are going to communicate, start discussing some initial ideas.
+- [Embodied Interaction - Lecture #02, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
+- [Embodied Interaction - Lecture #02, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
 
-## Readings
+Additionally, watch the [Proxemic Interactions presentation from Nicolai Marquadt.](https://www.youtube.com/watch?v=Q13dM4hmEJQ)
 
-- [Dark patterns in proxemic interactions: a critical perspective](https://dl.acm.org/doi/abs/10.1145/2598510.2598541)
+### Read
+
+Greenberg, Saul, Nicolai Marquardt, Till Ballendat, Rob Diaz-Marino, and Miaosen Wang. 2011. “Proxemic Interactions: The New Ubicomp?” Interactions 18 (1): 42–50. https://doi.org/10.1145/1897239.1897250. [**Access it through Aalto library.**](https://primo.aalto.fi/permalink/358AALTO_INST/cis3s6/cdi_openaire_primary_doi_80527708dd595e384eaa79f51ed0040d)
