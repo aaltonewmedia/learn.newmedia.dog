@@ -5,10 +5,6 @@ weight: 20
 draft: false
 ---
 
-# Week 04 | Tools & Technology #1 | TouchDesigner Tutoring | Setting Up MediaPipe
-
----
-
 {{<hint info>}}
 **Monday, January 29, 2024**
 
