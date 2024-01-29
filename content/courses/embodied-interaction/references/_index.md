@@ -37,6 +37,14 @@ Suchman, Lucy A. 1987. Learning in Doing: Social, Cognitive and Computational Pe
 
 Torrance, Steve. 2005. “In Search of the Enactive: Introduction to Special Issue on Enactive Experience.” Phenomenology and the Cognitive Sciences 4 (4): 357–68. https://doi.org/10.1007/s11097-005-9004-9.
 
-Varela, Francisco J., Evan Thompson, and Eleanor Rosch. 2017. The Embodied Mind: Cognitive Science and Human Experience. London, England: MIT Press.
+Varela, Francisco J., Evan Thompson, and Eleanor Rosch. 2017. The Embodied Mind: Cognitive Science and Human Experience. London, England: MIT Press. (First published in 1991)
 
 Weiser, Mark. “The Computer for the 21 St Century.” Scientific American 265, no. 3 (1991): 94–105. http://www.jstor.org/stable/24938718.
+
+## Video Lectures
+
+
+### Lucy Suchman
+
+- [Lucy Suchman Presentation Man Against Machine](https://www.youtube.com/watch?v=cNJWafS-BA4)
+- [Lucy Suchman: Restoring Information's Body - Remediations at the human-machine interface](https://www.youtube.com/watch?v=Z3I-ndAXYWg)

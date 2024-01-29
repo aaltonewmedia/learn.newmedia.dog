@@ -14,7 +14,7 @@ Mediapipe is an excellent way to prototype projects involving face tracking, han
 - Cross-platform (C++, Android, iOS, Python, JavaScript).
 - Doesn't need any specific hardware like the Azure Kinect. You can just use your webcam.
 - Runs on mobile devices as well.
-- Very fast!
+- Very fast (compared to past solutions)!
 
 ### Cons
 
