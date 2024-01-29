@@ -30,7 +30,7 @@ Sometimes the license manager does not work and it cannot connect to the the ser
 These classrooms have TouchDesigner installed. You can use any of them when there is space.
 
 - [Room L208](https://booking.aalto.fi/onlinekalenteri/aaltobooking/?kt=tila%2C39790&laji=IT-luokka&sijainti=R028&ctila=28138) (This room is booked for us during most of the classes. Not a great GPU but will do the trick for most cases.)
-- [Room H003](https://booking.aalto.fi/onlinekalenteri/aaltobooking/?kt=tila%2C39790&laji=IT-luokka&sijainti=R028&ctila=28766) (These have the most powerful graphics cards that we have RTX 3080 or RTX A5000, use these when you need to do more complex things.)
+- [Room H003](https://booking.aalto.fi/onlinekalenteri/aaltobooking/?kt=tila%2C39790&laji=IT-luokka&sijainti=R028&ctila=28766) (These have the most powerful graphics cards that we have available (RTX 3080 or RTX A5000), use these when you need to do more complex things.)
 - [Room K103](https://booking.aalto.fi/onlinekalenteri/aaltobooking/?kt=tila%2C39790&laji=Pajat+ja+piirustussalit&sijainti=R028&ctila=28174) (These are the second best option we have. RTX 2080 Ti GPUs)
 - [Room G203](https://booking.aalto.fi/onlinekalenteri/aaltobooking/?kt=tila%2C39790&laji=Luokka&sijainti=R028&ctila=28139) We have two computers in the G203 space available for working on your projects.
 - [Media Lab Homebase]() We also have some computers in the Media Lab Homebase rooms. Specifications differ from computer to computer. The best GPU is in room O102.
@@ -41,7 +41,7 @@ Log in to [vdi.aalto.fi](https://vdi.aalto.fi/) with your Aalto account and choo
 
 {{<hint info>}}
 This actually works really well and it's very convenient! Can be used with a low-power machine like a laptop with much better performance. Also great for using on your Mac to access some of the Windows-only features.
-{{<hint>}}
+{{</hint>}}
 
 ---
 
