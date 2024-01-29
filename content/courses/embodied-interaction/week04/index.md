@@ -1,5 +1,5 @@
 ---
-title: "Week 04 | Tools & Technology #1 | TouchDesigner Tutoring"
+title: "Week 04 | Tools & Technology #1 | TouchDesigner Tutoring | Setting Up MediaPipe"
 bookCollapseSection: false
 weight: 20
 draft: false
@@ -34,7 +34,7 @@ Do the following in order to have an easy access to the components throughout th
 1. Download the plugin from the [GitHub repository](https://github.com/torinmb/mediapipe-touchdesigner). Click Releases and download the latest `release.zip` file(v0.3.3 when writing this).
 2. Unzip the .zip archive somewhere on your computer.
 3. Open TouchDesigner.
-4. Find the palette on the left side of the interface and scroll down to `My Components`.
+4. Find the Palette on the left side of the interface and scroll down to `My Components`.
 5. Right-click on `My Components` and choose `Add Folder`. Name it `MediaPipe GPU`.
 6. Right-click on this new folder you created and choose `Browse Folder`. It opens your File Explorer (Windows) or Finder(Mac) in a location where your custom paletette components are stored.
 7. Copy all of the .tox files from the `toxes` folder into the `MediaPipe GPU` folder you had created earlier.

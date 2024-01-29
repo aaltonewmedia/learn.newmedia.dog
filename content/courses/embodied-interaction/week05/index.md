@@ -1,25 +1,12 @@
 ---
-title: "Week 05 | Gesture Assignment Presentations"
+title: "Week 04 | Tools & Technology #2 | Body Tracking | Working with MediaPipe"
 bookCollapseSection: false
 weight: 20
-draft: true
----
-
-# Week 05 | Gesture Assignment Presentations
-
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, February 6, 2023**
+**Monday, February 5, 2024**
 
-*We are going to be in room G203*
+**Room L208**
 {{</hint>}}
-
-## Homework
-
-Start thinking about your final project and what you want to do. You have until March 10, 2023 to come up with a project proposal. Start working on it now. Document your process on your website. You will get more detailed instructions on the format of the project proposal next week.
-
-See the following pages for information:
-
-- [Final Project Guidelines](../final-project/)
-- [Final Project: How to get started?](../final-project/how-to-get-started/)
