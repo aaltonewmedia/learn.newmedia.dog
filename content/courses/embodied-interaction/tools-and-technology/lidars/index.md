@@ -16,3 +16,21 @@ Matti has one of the Hokuyo Hokuyo URG-04LX-UG01 Scanning Laser Rangefinders. Th
 This example reads the data from the Lidar and does blob tracking.
 
 [Download the TouchDesigner file](./files/Lidar.toe)
+
+---
+
+### Tools
+
+### HokuyoUtil
+
+There is a nice tool built in TouchDesigner by [Starryworks](https://www.starryworks.co.jp/) that works specifically with the Hokuyo lidars.
+
+- [Download from GitHub](https://github.com/STARRYWORKS-inc/HokuyoUtil)
+
+{{<youtube Xxw_gUPUcy8>}}
+
+### Lidartracker
+
+- [Download from GitHub](https://github.com/FifthChat/LidarTracker)
+
+{{<youtube 2V0cCm96xZU>}}
