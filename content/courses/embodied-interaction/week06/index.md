@@ -1,18 +1,12 @@
 ---
-title: "Week 06 | Final Project Ideation"
+title: "Week 06 | "
 bookCollapseSection: false
 weight: 20
-draft: true
----
-
-# Week 06 | Final Project Ideation
-
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, February 13, 2023**
+**Monday, February 12, 2023**
 
 *We are going to be in room G203*
 {{</hint>}}
-
-Today is dedicated to questions and answers about the final project.
