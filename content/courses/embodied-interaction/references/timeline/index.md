@@ -2,7 +2,7 @@
 title: "(Incomplete) Timeline of Physical Computing/Embodied Interaction"
 bookCollapseSection: false
 weight: 85
-draft: false
+draft: true
 ---
 
 # (Incomplete) Timeline of Physical Computing/Embodied Interaction
@@ -22,6 +22,10 @@ It is important to note that this is very incomplete and gets updated on a very 
 ## 1979 
 
 ### Put That There
+
+## 1988
+
+### Ubiquitous Computing
 
 ## 2001
 
