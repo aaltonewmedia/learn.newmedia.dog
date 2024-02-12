@@ -6,7 +6,7 @@ draft: false
 ---
 
 {{<hint info>}}
-**Monday, February 12, 2023**
+**Monday, February 12, 2024**
 
 *We are going to be in room G203*
 {{</hint>}}
