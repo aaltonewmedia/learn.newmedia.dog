@@ -8,7 +8,7 @@ draft: false
 # Week 08 | Lesson 03
 
 {{<hint info>}}
-**Friday, March 3, 2023**
+**Friday, March 1, 2024**
 
 *Room G203*
 {{</hint>}}

@@ -280,3 +280,52 @@ We will examine how this works in more detail during class. I will upload the fi
 - [Examples partly based on work from Bryan Chung](https://github.com/chungbwc/TouchDesigner)
 - [Mediapipe website](https://mediapipe.dev/)
 - [More information on learn.newmedia.dog](../../tools-and-technology/mediapipe/), I will update this as I build more materials
+
+---
+
+## Inspiration: Faces
+
+{{<vimeo 211271693>}}
+
+[Zach Liebermann Más Que la Cara](https://zachlieberman.medium.com/m%C3%A1s-que-la-cara-overview-48331a0202c0)
+
+---
+
+## Inspiration: Hands
+
+{{<youtube 3paLKLZbRY4>}}
+
+[Manual Input Workstation](http://www.tmema.org/mis/)
+
+---
+
+## Downloads
+
+- [mediapipeFace component](../../tools-and-technology/mediapipe/examples/mediapipeFace.tox)
+- [mediaPipeHands component](../../tools-and-technology/mediapipe/examples/mediapipeHands.tox)
+
+---
+
+## Examples
+
+[Download the example we built in class](./files/mediapipeFace-example.toe)
+
+---
+
+# Week 09 | Lesson 02 | 09/03/2023
+
+- [Download the updated mediapipeHands.tox file](../../tools-and-technology/mediapipe/examples/mediapipeHands.tox) This one provides also the 3D coordinates.
+- [Download the starting point for today](../../tools-and-technology/mediapipe/examples/tests/mediapipeHands_2D-VS-3D.toe)
+- Downlad a .zip of the TouchDesigner and Wekinator projects that were made during the class.
+
+We are going to take a look at a machine learning tool called [Wekinator](http://www.wekinator.org/). It is unfortunately not yet installed on the computers at Aalto. So I recommend just following the demonstration today.
+
+Matti will make a video tutorial detailing the use of the tool in the next couple of days so you can come back to it if you wish to use it yourself.
+
+---
+
+## References
+
+- [Mediapipe built-in gesture recognition](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer)
+- [Mediapipe Gesture Recognition Web Demo](https://codepen.io/mediapipe-preview/pen/zYamdVd)
+- [Gesture recognition example in Python](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
