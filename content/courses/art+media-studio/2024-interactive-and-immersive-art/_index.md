@@ -33,3 +33,14 @@ https://osintframework.com/
 
 - [Bellingcat Discord](https://discord.gg/bellingcat)
 - [Forensic Architecture Discord](https://discord.gg/Vy34Ndw)
+
+## Artists
+- http://lawrenceabuhamdan.com/
+
+## Other Resources
+
+- [Berkeley Human Rights Center](https://humanrights.berkeley.edu/)
+- https://cerosetenta.uniandes.edu.co/
+- https://students.uu.nl/en/news/new-course-open-source-global-justice-investigations-lab-osgjil
+- https://thestudentview.org/
+- https://forensic-architecture.org/

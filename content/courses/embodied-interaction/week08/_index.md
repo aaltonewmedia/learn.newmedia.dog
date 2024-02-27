@@ -12,4 +12,4 @@ This week we take a deeper look into the concept of Embodied Interaction. This w
 - Thursday (L208)
   - Technical demonstration: Face and hand tracking + TouchDesigner
 - Friday (G203)
-  - Technical demonstration: AR systems (HoloLens 2, Varjo XR-3, Tilt Five)
+  - AR Playground: AR systems (HoloLens 2, Varjo XR-3, Tilt Five)
