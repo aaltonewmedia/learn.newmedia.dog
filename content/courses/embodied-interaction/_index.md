@@ -179,7 +179,7 @@ You will be graded based on the following criteria
 
 ### Period IV
 
-#### Week 8 |
+#### Week 8 | Hand Tracking + Gesture Detection
 
 | TIME | MON 26/02 | TUE 27/02 | WED 28/03 | THU 29/03 | FRI 01/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -188,7 +188,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 9 |
+#### Week 9 | TBA
 
 | TIME | MON 04/03 | TUE 05/03 | WED 06/03 | THU 07/03 | FRI 08/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -197,16 +197,16 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 10 |
+#### Week 10 | Project Propsal Presentations + Project Work
 
 | TIME | MON 11/03 | TUE 12/03 | WED 13/03 | THU 14/03 | FRI 15/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Theory + Hands-on lecture]((./week10/lesson-01)) | [Theory + Hands-on lecture](./week10/lesson-02) | [Project Proposal Presentations](./week10/lesson-03)  |
+| 09:15–12:00 |  |  | [Project Proposal Presentations]((./week10/lesson-01)) | [Project Work and Tutoring](./week10/lesson-02) | [Project Work and Tutoring](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 11 |
+#### Week 11 | Project Work
 
 | TIME | MON 18/03 | TUE 19/03 | WED 20/03 | THU 21/03 | FRI 22/03 |
 | --- | --- | --- | --- | --- | --- |

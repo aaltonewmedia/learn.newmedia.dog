@@ -14,5 +14,3 @@ This week we will have a couple of short lectures the more theoretical sides of 
   - Technical demonstration: TouchDesigner Techniques – Gesture recognintion with TouchDesigner + Wekinator
 - Friday (G203)
   - Project Proposal Presentations
-
-

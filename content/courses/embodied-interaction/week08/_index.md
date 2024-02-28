@@ -1,15 +1,15 @@
 ---
-title: Week 08 | 
+title: Week 08 | Studio Time Begins
 bookCollapseSection: true
 draft: false
 weight: 20
 ---
 
-This week we take a deeper look into the concept of Embodied Interaction. This week is structured in the following way:
+New period, now we start the more intensive studio time for this course.
 
 - Wednesday (L208)
-  - Technical demonstration: Full-body interaction + TouchDesigner
+  - Final Project Kickoff
 - Thursday (L208)
-  - Technical demonstration: Face and hand tracking + TouchDesigner
+  - Technical demonstration: Hand Tracking + Gesture Recognition with Wekinator
 - Friday (G203)
   - AR Playground: AR systems (HoloLens 2, Varjo XR-3, Tilt Five)

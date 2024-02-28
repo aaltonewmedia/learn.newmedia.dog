@@ -1,12 +1,8 @@
 ---
-title: "Thu | "
+title: "Thu 29/02 | Hand Tracking, Gestures"
 bookCollapseSection: false
 weight: 20
-draft: false
----
-
-# Thu | 
-
+draft: false 
 ---
 
 {{<hint info>}}

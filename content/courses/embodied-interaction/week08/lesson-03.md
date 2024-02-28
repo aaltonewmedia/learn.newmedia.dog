@@ -1,5 +1,5 @@
 ---
-title: "Fri | Technical demonstration: AR/VR/XR"
+title: "Fri | 01/03 | Technical demonstration: AR/VR/XR Playground"
 bookCollapseSection: false
 weight: 30
 draft: false
@@ -21,3 +21,5 @@ We have a bunch of dfferent demos today in G203:
 - Lidar
 - Varjo XR-3
 - Tilt Five
+- Zed
+- Lidar

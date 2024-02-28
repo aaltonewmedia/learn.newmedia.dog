@@ -87,9 +87,9 @@ Cons:
 Although the Azure Kinect is discontinued by Microsoft, there are a couple of options that are almost direct replacements. Orbbec makes two cameras that use the samer Body Tracking models as the Kinect.
 - [Femto Mega](https://www.orbbec.com/products/tof-camera/femto-mega/)
 - [Femto Bolt](https://www.orbbec.com/products/tof-camera/femto-bolt/)
-
-In TouchDesigner, you can find the 
 {{</hint>}}
+
+In TouchDesigner, you can find the Kinect Azure TOP and CHOP that give you the image and tracking data from the Kincet Azure sensor.
 
 ---
 
@@ -108,7 +108,7 @@ Cons:
 
 ### MediaPipe
 
-MediaPipe is the simplest option in the sense that it doesn't require any special hardware and works wi
+MediaPipe is the simplest option in the sense that it doesn't require any special hardware and works with different operating systems.
 
 Pros:
 
