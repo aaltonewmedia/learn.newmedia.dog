@@ -28,7 +28,11 @@ Mediapipe is an excellent way to prototype projects involving face tracking, han
 
 - [MediaPipe Developer Guide](https://developers.google.com/mediapipe)
 
-## MediaPipe GPU
+---
+
+## MediaPipe in TouchDesigner
+
+### MediaPipe GPU
 
 - [MediaPipe GPU Plugin for TouchDesigner](https://github.com/torinmb/mediapipe-touchdesigner)
 
@@ -38,8 +42,16 @@ Mediapipe is an excellent way to prototype projects involving face tracking, han
 
 ---
 
-## Mediapipe CPU (Python Inside TouchDesigner)
+### Mediapipe CPU (Python Inside TouchDesigner)
 
 {{<hint danger>}}
 The instructions below explains how to setup Mediapipe to run on Python inside TouchDesigner. This method does not run quite as fast as the GPU version above. I am providing these instructions for archival purposes and also for cases where you cannot make the GPU version work. **It is recommended to use the GPU version above.**
 {{</hint>}}
+
+- [MediaPipe CPU (Python inside TouchDesigner)](./mediapipe-cpu-python/)
+
+---
+
+## MediaPipe in Unity
+
+- [Unity plugin for MediaPipe](https://github.com/homuler/MediaPipeUnityPlugin)
