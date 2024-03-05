@@ -1,11 +1,9 @@
 ---
-title: Week 10 | 16/03/2023 | Biosensors, Haptics
+title: "Thu 14/03 | "
 bookCollapseSection: false
 weight: 20
 draft: false
 ---
-
-# Week 10 | 16/03/2023 | Biosensors, Haptics
 
 ## Biosensors
 

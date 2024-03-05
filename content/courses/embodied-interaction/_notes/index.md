@@ -369,3 +369,25 @@ Matti will make a video tutorial detailing the use of the tool in the next coupl
 - [Mediapipe built-in gesture recognition](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer)
 - [Mediapipe Gesture Recognition Web Demo](https://codepen.io/mediapipe-preview/pen/zYamdVd)
 - [Gesture recognition example in Python](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
+
+
+
+---
+
+## Project
+
+### Week 11 | 20.–21.3. Matti in Admissio interviews
+
+Note that Matti will be in the New Media MA admission interviews during this week so you will be working on your own on Wednesday and Thursday.
+
+### Easter holiday: 28.03.–03.04.2024
+
+I will be out of office during the Easter Holiday. You can of course work during that time, but I recommend you to take some rest as well. You should be able to acceess the school with your keycard.
+
+### Friday, 12.04.2023 | Final Project Presentations
+
+Present your work to the class. We have so many students that we need to start 9:15 sharp.
+
+### Friday, 19.04.2023 | Final Project Documetation deadline 
+
+You have until April 19 to finish up your documentation. I will check your sites/documents after that point to evaluate your work.

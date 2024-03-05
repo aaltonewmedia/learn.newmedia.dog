@@ -1,10 +1,8 @@
 ---
-title: Week 10 | 15/03/2023 | No class
+title: "Wed 13/03 | Project Proposals"
 bookCollapseSection: false
 weight: 10
 draft: false
 ---
 
-# Week 10 | Lesson 01 | 15/03/2023
-
-**No class, Matti is in the admissions interview. Start working on your project**
+Details TBA

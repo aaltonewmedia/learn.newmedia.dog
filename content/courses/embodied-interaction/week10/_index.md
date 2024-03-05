@@ -1,15 +1,13 @@
 ---
-title: Week 10 | Biosensors, Haptics, Field Trip
+title: Week 10 | Project Proposals
 bookCollapseSection: true
 weight: 20
-draft: true
+draft: false
 ---
 
-This week we are going to go visit an interactive sound installation that is being developed at the WHS theatre.
-
-- Wednesday
-  - **No class, Matti is in admissions interviews**
+- Wednesday (L208)
+  - Project Presentations
 - Thursday (L208)
-  - Technical demonstration: Biosensors, Haptics
+  - TBA
 - Friday (G203)
-  - Visit to WHS
+  - TBA

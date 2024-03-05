@@ -1,7 +1,7 @@
 ---
 title: "Fri 08/03 | "
 bookCollapseSection: false
-weight: 20
+weight: 40
 draft: false
 ---
 
