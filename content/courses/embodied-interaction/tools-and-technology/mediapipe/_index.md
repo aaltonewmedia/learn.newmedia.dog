@@ -1,5 +1,5 @@
 ---
-title: MediaPipe in TouchDesigner
+title: MediaPipe
 bookCollapseSection: true
 p5js-widget: false
 draft: false

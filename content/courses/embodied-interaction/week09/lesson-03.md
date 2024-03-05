@@ -1,14 +1,12 @@
 ---
-title: Week 09 | Lesson 03 | 10/03/2023
+title: "Fri 08/03 | "
 bookCollapseSection: false
 weight: 20
 draft: false
 ---
 
-# Week 09 | Lesson 03 | 10/03/2023
-
 {{<hint info>}}
-**Wednesday, March 10, 2023**
+**Friday, March 8 2024**
 
 *Room G203*
 {{</hint>}}
