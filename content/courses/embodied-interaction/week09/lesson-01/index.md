@@ -1,5 +1,5 @@
 ---
-title: "Wed 06/03 | Robotics, Embodied AI"
+title: "Wed 06/03 | AI Tools"
 bookCollapseSection: false
 weight: 20
 draft: false

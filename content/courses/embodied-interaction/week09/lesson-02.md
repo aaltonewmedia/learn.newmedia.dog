@@ -13,6 +13,8 @@ draft: false
 
 ---
 
+**Unprocessed class materials, will be cleaned before the class.**
+
 ## Robotics and Embodied AI
 
 So far we have been focusing on technology that somehow connects to or enhances the human body or capabilities in one way or another. But what if we look at this from the other side of the coin? What if we create bodies for digital technology?
