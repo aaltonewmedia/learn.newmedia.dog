@@ -11,6 +11,32 @@ draft: false
 *Room L208*
 {{</hint>}}
 
+---
+
+## Robotics and Embodied AI
+
+So far we have been focusing on technology that somehow connects to or enhances the human body or capabilities in one way or another. But what if we look at this from the other side of the coin? What if we create bodies for digital technology?
+
+## Robotic Art
+
+{{<youtube ZS4Bpr2BgnE>}}
+
+This is a series of videos 
+
+## Embodied AI
+
+{{<youtube Qob2k_ldLuw>}}
+
+{{<youtube Q5MKo7Idsok>}}
+
+{{<youtube EjXcEU3Bbw>}}
+
+## Other Resources
+
+- [HRI (Human-Robot Interaction)](https://humanrobotinteraction.org/)
+
+---
+
 ## Biosensors
 
 ### Pulse, oximeter, heart rate

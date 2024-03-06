@@ -113,7 +113,7 @@ MediaPipe is the simplest option in the sense that it doesn't require any specia
 Pros:
 
 - No special hardware needed (any webcam that is able to output a 720p image will work)
-- Does also much more beyond the pose tracking
+- Does also much more beyond the pose tracking (face tracking, hand tracking, object tracking, image classification, image segmentation)
 - Multiplatform
 
 Cons:
