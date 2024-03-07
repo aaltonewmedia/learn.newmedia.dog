@@ -37,6 +37,7 @@ https://osintframework.com/
 ## Artists
 - http://lawrenceabuhamdan.com/
 - https://seads.network/
+  - https://www.youtube.com/watch?v=3qDOOxPBXqM
 
 ## Other Resources
 
