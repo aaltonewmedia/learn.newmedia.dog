@@ -7,6 +7,6 @@ draft: false
 
 {{<hint info>}}
 **Friday, March 8 2024**
-
-*Room G203*
+*Room G203*  
+**We start again at 10 AM**
 {{</hint>}}
