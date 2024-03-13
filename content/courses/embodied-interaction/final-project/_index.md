@@ -35,7 +35,7 @@ Submit this to MyCourses and present in class.
 - For example: Miro, Figma, Notion, Google Doc etc.
 - pdf is also acceptable
 
-Deadline for the document, Tuesday March 12, 23:59  
+Deadline for the document, Tuesday March 12, 23:59 (I had the date wrong in MyCourses, sorry. It says Thursday there, so follow that.) 
 Present in class on Wednesday, March 13.
 {{</hint>}}
 
