@@ -5,4 +5,10 @@ weight: 10
 draft: false
 ---
 
-Details TBA
+{{<hint info>}}
+**Wednesday, March 13 2024**
+
+*Room L208*
+{{</hint>}}
+
+Project proposal presentations
