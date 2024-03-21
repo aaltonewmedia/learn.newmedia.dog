@@ -9,7 +9,7 @@ weight: 10
 
 ### Wednesday, 27.03
 
-On this day we will have the introduction to the course and the topics we will cover. We will setup the communication channels, the common drive, and other tools we will use. We will also have a short introduction to the possibilities, ethics, and brief history of Generative AI.
+On this day we will have the introduction to the course and the topics we will cover. We will setup the communication channels, the common drive, and other tools we will use. We will also have a short introduction to the possibilities, ethics, and brief history of Generative AI. Finally we will give out the guidelines for the presentation for the next session.
 
 ### Wednesday, 10.04
 
