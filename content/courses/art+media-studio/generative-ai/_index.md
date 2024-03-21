@@ -163,5 +163,3 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 | 13:15–17:00 | Project Work | Exhibition Opening |            |
 
 </div>
-
-## Relevant Links
