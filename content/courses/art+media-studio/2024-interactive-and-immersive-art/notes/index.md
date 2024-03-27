@@ -46,3 +46,8 @@ https://osintframework.com/
 - https://students.uu.nl/en/news/new-course-open-source-global-justice-investigations-lab-osgjil
 - https://thestudentview.org/
 - https://forensic-architecture.org/
+
+## Articles
+
+- [Eyal Weizman: Why Aesthetics Must Mean More than Beauty](https://artreview.com/eyal-weizman-why-aesthetics-must-mean-more-than-beauty/)
+- [When Does Artistic Research Become Fake News? Forensic Architecture Keeps Dodging The Question](https://www.artnews.com/art-in-america/features/forensic-architecture-fake-news-1234661013/)
