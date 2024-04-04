@@ -26,21 +26,32 @@ In period V, we have three days booked for each week. Most of this will be indep
 - Thu 25.04. | Independent Work, G203 is booked for us
 - Fri 26.04. | Student Presentations, Concept Development
 
+---
+
 - Wed 01.05. | Vappu, no class
 - Thu 02.05. | Independent Work, G203 is booked for us
-- Fri 03.05. | When Open Source Investigations Go Wrong
+- Fri 03.05. | Guest lecture and workshop by Kazuhiro Jo
 
-- Wed 08.05. | Work on your project, Technical Clinics
+---
+
+- **Tue 07.05. | [Recommended talk: Can computers create art? (Kyle McDonald, Tomi Slotte Dufva, Hannu Toivonen)](https://creativetechnologies.aalto.fi/)**
+- Wed 08.05. | Work on your project, Technical Clinics based on your wishes
 - Thu 09.05. | Independent Work, G203 is booked for us
 - Fri 10.05. | Mid-period feedback
+
+---
 
 - Wed 15.05. | Work on your project, Technical Clinics
 - Thu 16.05. | Independent Work, G203 is booked for us
 - Fri 17.05. | Work on your project, Technical Clinics
 
+---
+
 - Wed 22.05. | Work on your project. Exhibition Setup
 - Thu 23.05. | Independent Work, G203 is booked for us
 - Fri 24.05. | Work on your project. Exhibition Setup
+
+---
 
 - Wed 29.05. | Exhibition Setup
 - Thu 30.05. | Exhibition Setup
