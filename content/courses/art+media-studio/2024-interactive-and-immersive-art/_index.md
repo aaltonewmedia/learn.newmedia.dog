@@ -16,7 +16,7 @@ Period IV starts off with joint lectures/sessions together with all of the group
 - Wednesday 13.3.2024 | Joint lecture. See the content from the General page. + Online gatherings with the group on Discord
 - Wednesday 20.3.2024 | Joint lecture. See the content from the General page. + Online gatherings with the group on Discord
 - Wednesday, 27.3.2024 | G203 | Group Meeting: Guest lecture: KairUs (Linda Kronman and Andreas Zingerle)
-- Wednesday 10.4.2024 | **Q201 (Note that we moved to a different space!)** | Group Meeting: Introduction to Artistic Approaches to Open Source Investigations.
+- [Wednesday 10.4.2024 | **Q201 (Note that we moved to a different space!)** | Group Meeting: Introduction to Artistic Approaches to Open Source Investigations.](https://miro.com/app/board/uXjVKWO8wlI=/)
 
 ### Period V
 
