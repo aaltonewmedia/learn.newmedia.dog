@@ -22,3 +22,6 @@ We have the following spaces booked for the course
 ## Key dates
 
 - Easter holiday: March 28 to April 3
+- Final project presentations: Friday April 12, 9.30 AM
+  - We start in G203 and check all of the works either as presentations or in the gallery space.
+- Opening of the exhibition: let's also have a more informal opening with some snack at 5 PM on April 12
