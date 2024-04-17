@@ -78,7 +78,7 @@ We have the gallery spaces V1 and V2 and room G203 are booked for the end of the
 
 ---
 
-## Final project documentation (April 26, 2023)
+## Final project documentation (April 26, 2024)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well.
 

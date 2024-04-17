@@ -21,16 +21,17 @@ This example reads the data from the Lidar and does blob tracking.
 
 ### Tools
 
+### Lidartracker
+
+- [Download from GitHub](https://github.com/FifthChat/LidarTracker)
+- [Tutorial](https://www.youtube.com/playlist?list=PLQjcZ7FICSKODL-hvjV5XxAgrxHJwHpOJ)
+
+{{<youtube 2V0cCm96xZU>}}
+
 ### HokuyoUtil
 
-There is a nice tool built in TouchDesigner by [Starryworks](https://www.starryworks.co.jp/) that works specifically with the Hokuyo lidars.
+Another nice tool built in TouchDesigner by [Starryworks](https://www.starryworks.co.jp/) that works specifically with the Hokuyo lidars.
 
 - [Download from GitHub](https://github.com/STARRYWORKS-inc/HokuyoUtil)
 
 {{<youtube Xxw_gUPUcy8>}}
-
-### Lidartracker
-
-- [Download from GitHub](https://github.com/FifthChat/LidarTracker)
-
-{{<youtube 2V0cCm96xZU>}}

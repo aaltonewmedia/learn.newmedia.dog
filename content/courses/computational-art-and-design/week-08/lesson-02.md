@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 27, 2022
+- October 27, 2023
 - Room L208
 - 9:15–12:00
 {{</hint>}}

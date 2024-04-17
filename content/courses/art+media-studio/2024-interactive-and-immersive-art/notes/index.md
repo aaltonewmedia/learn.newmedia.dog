@@ -28,6 +28,7 @@ source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 
 https://github.com/jivoi/awesome-osint
 https://osintframework.com/
+http://bit.ly/bcattools
 
 ## Join Communities
 

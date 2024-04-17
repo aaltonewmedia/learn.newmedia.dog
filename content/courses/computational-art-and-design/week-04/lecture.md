@@ -5,10 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-# Week 04 | Generative Art and Design
-
----
-
 ## Lecture Materials
 
 - [Lecture slides](https://miro.com/app/board/uXjVPTFC324=)

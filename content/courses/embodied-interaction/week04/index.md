@@ -36,7 +36,7 @@ These classrooms have TouchDesigner installed. You can use any of them when ther
 - [Media Lab Homebase]() We also have some computers in the Media Lab Homebase rooms. Specifications differ from computer to computer. The best GPU is in room O102.
 
 ### Using vdi.aalto.fi to connect to the Aalto computers remotely
-
+  
 Log in to [vdi.aalto.fi](https://vdi.aalto.fi/) with your Aalto account and choose any of the rooms listed above and you should have access to a computer with TD installed.
 
 {{<hint info>}}

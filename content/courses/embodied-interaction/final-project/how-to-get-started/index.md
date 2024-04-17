@@ -12,7 +12,7 @@ Start thinking about your final project and what you want to do. You have until 
 Some questions that might help you situate your work? Your work might fit into multiple of these "boxes", for example, nothing stops your work from being art and research that you publish at the same time.
 
 - Is your project a form of artistic expression? Is it an installation, sculpture, performance, or some kind of other artwork that uses the technology and concepts introduced during the course? What is it that you want to say with your work? Or what is that you want people to experience through the work?
-- Is your project interaction or user experience design? 
+- Is your project more of an exploration of user experience design? 
 - Is your project a tool? What does it do? Who is it for? What problem or task is it meant to be used for? How is it different from existing tools?
 - Is your project interaction research? Are you interested in creating something that might become a research paper? What is your research aim or question? [Explore the TEI conference to see what kind of topics have been presented in recent years.](https://tei.acm.org/2023/about/)
 - Is your project a game with an experimental interface? Why does the game need this? [Is it a form of exergaming?](https://www.valomotion.com/)
