@@ -70,10 +70,10 @@ Present your work on the last day of the course. Either just as a presentation o
 We have the gallery spaces V1 and V2 and room G203 are booked for the end of the course exhibition.
 
 {{<hint info>}}
-- Dates: April 10–24
+- Dates: April 10–23
 - Setup: April 10-12
 - Opening: April 12
-- Takedown: ~~ April 24~~ **April 23**
+- Takedown: ~~April 24~~ **April 23**
 {{</hint>}}
 
 ---
