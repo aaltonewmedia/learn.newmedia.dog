@@ -73,7 +73,7 @@ We have the gallery spaces V1 and V2 and room G203 are booked for the end of the
 - Dates: April 10–24
 - Setup: April 10-12
 - Opening: April 12
-- Takedown: April 24
+- Takedown: ~~ April 24~~ **April 23**
 {{</hint>}}
 
 ---
@@ -92,6 +92,10 @@ The required documentation consists of:
 - One short video of the finished work. We will upload this to Panopto.
 
 Part of the documentation will be added to [this website](https://newmedia.dog/) if you give the permission to do so. More details on the exact format will be provided soon.
+
+{{<hint info>}}
+[Please upload your documentation to MyCourses.](https://mycourses.aalto.fi/mod/assign/view.php?id=1184824&forceview=1)
+{{</hint>}}
 
 ---
 
