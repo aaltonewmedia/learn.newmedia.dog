@@ -23,32 +23,32 @@ Period IV starts off with joint lectures/sessions together with all of the group
 In period V, we have three days booked for each week. Most of this will be independent work with tutoring available from Matti. We will also offer some specific clinics depending on the type of projects that students are interested in working on.
 
 - Wed 24.04. | Interactivity, Immersion, Investigations | Tools for Open Source Investigations: Geolocation, Machine Learning etc.
-- Thu 25.04. | Independent Work, G203 is booked for us
-- Fri 26.04. | Student Presentations, Concept Development
+- Thu 25.04. | Independent Work, G203 is booked for us if you want to use that
+- Fri 26.04. | Student Presentations, Concept Development, How to prepare grant applications
 
 ---
 
 - Wed 01.05. | Vappu, no class
-- Thu 02.05. | Independent Work, G203 is booked for us
+- Thu 02.05. | Independent Work, G203 is booked for us if you want to use that
 - Fri 03.05. | Guest lecture and workshop by Kazuhiro Jo
 
 ---
 
 - **Tue 07.05. | [Recommended talk: Can computers create art? (Kyle McDonald, Tomi Slotte Dufva, Hannu Toivonen)](https://creativetechnologies.aalto.fi/)**
 - Wed 08.05. | Work on your project, Technical Clinics based on your wishes
-- Thu 09.05. | Independent Work, G203 is booked for us
+- Thu 09.05. | Independent Work, G203 is booked for us if you want to use that
 - Fri 10.05. | Mid-period feedback
 
 ---
 
 - Wed 15.05. | Work on your project, Technical Clinics
-- Thu 16.05. | Independent Work, G203 is booked for us
+- Thu 16.05. | Independent Work, G203 is booked for us if you want to use that
 - Fri 17.05. | Work on your project, Technical Clinics
 
 ---
 
 - Wed 22.05. | Work on your project. Exhibition Setup
-- Thu 23.05. | Independent Work, G203 is booked for us
+- Thu 23.05. | Independent Work, G203 is booked for us if you want to use that
 - Fri 24.05. | Work on your project. Exhibition Setup
 
 ---
