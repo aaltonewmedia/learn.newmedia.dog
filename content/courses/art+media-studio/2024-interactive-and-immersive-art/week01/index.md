@@ -18,9 +18,9 @@ draft: false
 
 ### 14:45–
 
-### Exersice 
+### Exercise 
 
-[Open this image](./files/where-is-matti-when-is-matti.jpg)
+[Open this image](./files/where-is-matti-when-is-matti.jpg) and try to figure out where and when it was taken.
 
 ---
 
