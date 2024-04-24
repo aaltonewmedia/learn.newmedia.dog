@@ -96,7 +96,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 24/04           | TUE 25/04        | FRI 26/04         |
+| TIME        | WED 24/04           | THU 25/04        | FRI 26/04         |
 | ----------- | ------------------- | ---------------- | ----------------- |
 | 09:15–12:00 | How machines think? | Independent Work | Diffusion Process |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕          | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕        |
@@ -108,7 +108,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 01/05 | TUE 02/05        | FRI 03/05      |
+| TIME        | WED 01/05 | THU 02/05        | FRI 03/05      |
 | ----------- | --------- | ---------------- | -------------- |
 | 09:15–12:00 | No Class  | Independent Work | Models         |
 | 12:00–13:00 | No Class  | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕     |
@@ -120,7 +120,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 08/05            | TUE 09/05        | FRI 10/05   |
+| TIME        | WED 08/05            | THU 09/05        | FRI 10/05   |
 | ----------- | -------------------- | ---------------- | ----------- |
 | 09:15–12:00 | From images to Video | Independent Work | Fake Voices |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕           | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕  |
@@ -132,7 +132,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 15/05            | TUE 16/05        | FRI 17/05  |
+| TIME        | WED 15/05            | THU 16/05        | FRI 17/05  |
 | ----------- | -------------------- | ---------------- | ---------- |
 | 09:15–12:00 | TouchDesigner and AI | Independent Work | Scripting  |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕           | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕 |
@@ -144,7 +144,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 22/05    | TUE 23/05        | FRI 24/05    |
+| TIME        | WED 22/05    | THU 23/05        | FRI 24/05    |
 | ----------- | ------------ | ---------------- | ------------ |
 | 09:15–12:00 | New Tools    | Independent Work | Project Work |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕   | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕   |
@@ -156,7 +156,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 29/05    | TUE 30/05          | FRI 31/05  |
+| TIME        | WED 29/05    | THU 30/05          | FRI 31/05  |
 | ----------- | ------------ | ------------------ | ---------- |
 | 09:15–12:00 | Project Work | Exhibition Setup   |            |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕   | 🥗🍜🍱🍝🍕         | 🥗🍜🍱🍝🍕 |
