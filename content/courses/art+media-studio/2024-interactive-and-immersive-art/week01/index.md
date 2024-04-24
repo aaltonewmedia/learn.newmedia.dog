@@ -20,7 +20,9 @@ draft: false
 
 ### Exercise 
 
-[Open this image](./files/where-is-matti-when-is-matti.jpg) and try to figure out where and when it was taken.
+[Example1](./files/whereismatti.jpg) and try to figure out where it was taken.
+
+[Example2](./files/where-is-matti-when-is-matti.jpg) and try to figure out where and when it was taken.
 
 ---
 
