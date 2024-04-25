@@ -1,5 +1,5 @@
 ---
-title: "03 | Models and Copies"
+title: "03 | Everything is a Remix"
 bookCollapseSection: true
 draft: false
 weight: 30
@@ -21,14 +21,14 @@ Building on this, diffusion models represent a newer approach in image generatio
 
 We will continue with the following tutorial to understand the diffusion process and start generating images using it:
 
-[Stable Diffusion Tutorial](../../../../tutorials/ai-generators/image/stable-diffusion/)
+- [Stable Diffusion Tutorial](../../../../tutorials/ai-generators/image/stable-diffusion/)
 
 ## Comfy UI and Auto1111
 
 We will explore the Comfy UI and Auto1111 tools to generate images and videos. These tools offer a user-friendly interface for creating visuals and animations, making them accessible to artists and creators without extensive technical knowledge.
 
-[Auto1111](../../../../tutorials/ai-generators/image/stable-diffusion/)
-[Comfy UI Tutorial](../../../../tutorials/ai-generators/image/comfy-ui/)
+- [Auto1111](../../../../tutorials/ai-generators/image/stable-diffusion/)
+- [Comfy UI](../../../../tutorials/ai-generators/image/comfy-ui/)
 
 ## Workflows
 
