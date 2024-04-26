@@ -2,7 +2,7 @@
 title: "Notes"
 bookCollapseSection: true
 weight: 60
-draft: false
+draft: true
 ---
 
 Install log
