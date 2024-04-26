@@ -31,6 +31,6 @@ Additionally, there are also some specific grants that you might want to conside
 
 For this class, you are going to create the application based on the guidelines of AVEK Audiovisual Centre Films and Media Art Project Grant.
 
-1. Read the instructions on the AVEK website
+1. [Read the instructions on the AVEK website](https://www.kopiosto.fi/en/AVEK/funding/avek-grants-and-support-guidelines/films-and-media-art/) - Choose Project Grant
 2. Also register to the [AVEK grant application system](https://avek.apurahat.net/login.aspx?lcid=1033) as well so that you can make real applications when you need to and that you get familiar with the system.
-3. You will submit your "application" to MyCourses where i will create a form that asks for the same things as are requestedd in the real application.
+3. You will [submit your "application" to MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1187075) where i will create a form that asks for the same things as are requestedd in the real application.
