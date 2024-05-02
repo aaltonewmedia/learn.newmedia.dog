@@ -31,6 +31,8 @@ In period V, we have three days booked for each week. Most of this will be indep
 - Wed 01.05. | Vappu, no class
 - Thu 02.05. | Independent Work, G203 is booked for us if you want to use that
 - Fri 03.05. | Guest lecture and workshop by Kazuhiro Jo
+  - Lecture 10:00–12:00 Room V001 (School of Business side!)
+  - Workshop 13:15–15:00 | Aalto Fab Lab | Making a Paper Record - a record without prior acoustic information 
 
 ---
 
