@@ -44,6 +44,6 @@ We can customize the models to generate images that are more aligned with our ar
 
 - [Fast-Dreambooth](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb#scrollTo=O3KHGKqyeJp9)
 - [How to Dreambooth](https://stable-diffusion-art.com/dreambooth/)
-- [Birme Iamge Cropper](https://www.birme.net/?target_width=512&target_height=512)
+- [Birme Image Cropper](https://www.birme.net/?target_width=512&target_height=512)
 - [Auto1111 Roop](https://github.com/s0md3v/sd-webui-roop)
 - [ComfyUI Reactor](https://github.com/Gourieff/comfyui-reactor-node)
