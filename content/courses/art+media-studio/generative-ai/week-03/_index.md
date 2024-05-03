@@ -37,3 +37,13 @@ We will discuss different workflows for generating images and videos using Comfy
 ## Experimentation
 
 The last few hours of the day will be dedicated to experimenting with the tools and workflows discussed, allowing students to create their own images and and perhaps videos too.
+
+## Training your own model
+
+We can customize the models to generate images that are more aligned with our artistic vision. This process involves training the model on specific datasets, allowing us to control the output and style of the generated images. We can train a Stable Diffusion model using our own images using the following links:
+
+- [Fast-Dreambooth](https://colab.research.google.com/github/TheLastBen/fast-stable-diffusion/blob/main/fast-DreamBooth.ipynb#scrollTo=O3KHGKqyeJp9)
+- [How to Dreambooth](https://stable-diffusion-art.com/dreambooth/)
+- [Birme Iamge Cropper](https://www.birme.net/?target_width=512&target_height=512)
+- [Auto1111 Roop](https://github.com/s0md3v/sd-webui-roop)
+- [ComfyUI Reactor](https://github.com/Gourieff/comfyui-reactor-node)
