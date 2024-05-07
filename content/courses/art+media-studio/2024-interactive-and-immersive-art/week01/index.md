@@ -30,7 +30,7 @@ Miro lecture slides
 
 ---
 
-## Homework (Deadline May 9, 23:59)
+## Homework (Deadline ~~May 9~~ May 14, 23:59)
 
 1. Please develop your idea further, continue your research, explore 
 2. Start preparing for a more defined concept and create a pretend grant application for your project based on the AVEK guidelines.

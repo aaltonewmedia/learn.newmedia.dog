@@ -18,8 +18,8 @@ This week, we will do some technicla clinics based on the topics that you had
 
 ## Wed 08.05. | Technical Clinics
 
-9:15–12:00 Projection Mapping pt. 1
-13:15–16:00 Projection Mapping pt. 2
+- 9:15–12:00 Projection Mapping pt. 1
+- 13:15–16:00 Projection Mapping pt. 2
 
 {{<hint>}}
 Bring a laptop and install [TouchDesigner](https://derivative.ca/download) on it. We have some desktop PCs if your laptop can't handle the software
