@@ -11,7 +11,7 @@ draft: false
 
 If you are serious about working in the field of art, you need to be prepared to write applications for grants and other open calls. Writing grant applications is a very large portion of the work as a professional artist.
 
-I am asking you to prepare your project proposal for this course in the format of a real grant application. **The deadline for this is Thursday, May 9 (this is a national holiday so submit the day before if you plan to take that day off). You should not wait until that day to start working on your project and the research for it.**
+I am asking you to prepare your project proposal for this course in the format of a real grant application. **~~The deadline for this is Thursday, May 9 (this is a national holiday so submit the day before if you plan to take that day off).~~ I'm givin you a bit more time, new deadline is May 14.**
 
 - [Constantly updating list of available funding opportunities available in Finland or for artists living in Finland.](https://www.tinfo.fi/fi/Apurahavahti) Note that the page is only in Finnish but many of the funding opportunities will also have English instructions. Use your browser's translate feature to translate the page and follow the links to the actual websites of the calls.
 
@@ -33,4 +33,4 @@ For this class, you are going to create the application based on the guidelines 
 
 1. [Read the instructions on the AVEK website](https://www.kopiosto.fi/en/AVEK/funding/avek-grants-and-support-guidelines/films-and-media-art/) - Choose Project Grant
 2. Also register to the [AVEK grant application system](https://avek.apurahat.net/login.aspx?lcid=1033) as well so that you can make real applications when you need to and that you get familiar with the system.
-3. You will [submit your "application" to MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1187075) where i will create a form that asks for the same things as are requestedd in the real application.
+3. You will [submit your "application" to MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1187075) where i will create a form that asks for the same things as are requestedd in the real application. [Upload the attachments to a separate assignemnt box on MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1189932).

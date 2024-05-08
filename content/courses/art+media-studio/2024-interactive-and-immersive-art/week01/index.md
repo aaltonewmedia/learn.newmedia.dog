@@ -36,4 +36,5 @@ Miro lecture slides
 2. Start preparing for a more defined concept and create a pretend grant application for your project based on the AVEK guidelines.
   - See the general guidelines in the [Project Proposal page](../project-propsal/)
   - See the [AVEK Project Grant guidelines for Project Grants](https://www.kopiosto.fi/en/AVEK/funding/avek-grants-and-support-guidelines/films-and-media-art/)
+  - You can find [example budget from here](https://docs.google.com/spreadsheets/d/1LZ-GsTOP_QItojDLVVnt-xKCfERfT4_izDRAwyhBSys/edit#gid=0)
   - [Submit it to MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1187075)
