@@ -5,10 +5,6 @@ draft: false
 weight: 30
 ---
 
-## Brief Presentations Feedback
-
-Recap of some of the ideas and concepts discussed in the presentations.
-
 ## How AIs generate images?
 
 Artificial intelligence has evolved in its ability to generate images, with significant developments moving from simpler algorithms to more complex systems like Generative Adversarial Networks (GANs). GANs involve two neural networks—the generator and the discriminator—competing to produce increasingly realistic images. The generator tries to create convincing images, while the discriminator evaluates them against real images, enhancing the generator's capabilities through this adversarial process.

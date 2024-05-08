@@ -120,11 +120,11 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 08/05            | THU 09/05        | FRI 10/05   |
-| ----------- | -------------------- | ---------------- | ----------- |
-| 09:15–12:00 | From images to Video | Independent Work | Fake Voices |
-| 12:00–13:00 | 🥗🍜🍱🍝🍕           | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕  |
-| 13:15–17:00 | Fake Videos          | Independent Work | Fake Music  |
+| TIME        | WED 08/05       | THU 09/05        | FRI 10/05   |
+| ----------- | --------------- | ---------------- | ----------- |
+| 09:15–12:00 | Advance ComfyUI | Independent Work | Fake Voices |
+| 12:00–13:00 | 🥗🍜🍱🍝🍕      | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕  |
+| 13:15–17:00 | Advance ComfyUI | Independent Work | Fake Music  |
 
 </div>
 
@@ -132,11 +132,11 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 15/05            | THU 16/05        | FRI 17/05  |
-| ----------- | -------------------- | ---------------- | ---------- |
-| 09:15–12:00 | TouchDesigner and AI | Independent Work | Scripting  |
-| 12:00–13:00 | 🥗🍜🍱🍝🍕           | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕 |
-| 13:15–17:00 | TouchDesigner and AI | Independent Work | VR and AI  |
+| TIME        | WED 15/05        | THU 16/05        | FRI 17/05            |
+| ----------- | ---------------- | ---------------- | -------------------- |
+| 09:15–12:00 | Scripting and 3D | Independent Work | TouchDesigner and AI |
+| 12:00–13:00 | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕           |
+| 13:15–17:00 | VR and AI        | Independent Work | TouchDesigner and AI |
 
 </div>
 

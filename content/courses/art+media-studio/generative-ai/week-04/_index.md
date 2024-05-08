@@ -1,21 +1,32 @@
 ---
-title: "04 | Videos and Voices"
+title: "04 | Fake Everything"
 bookCollapseSection: true
 draft: false
 weight: 40
 ---
 
-TBA
+## Advanced ComfyUI
 
-<!-- Generative AI
+### Ip-Adapter
 
-History and Ethics h
-how diffusion models work?
-text (LLM, copilot, chatgpt)
-images (stable diffuion and similar, dalle3) - training your own model - Loras and all that
-interactive 1 (td, krita)
-videos (sd comfy, auto1111)
-audio (elevenlabs, FOSS)
-3D (FOSS. blender)
-scripting and APIs
-interactive 2 (td, blender, vr) -->
+## How to create a million videos?
+
+### Pre-processing
+
+### Automation
+
+## Fake Music
+
+### Riffusion
+
+### Suno
+
+### Others
+
+## Fake Voices
+
+### ElevenLabs
+
+### Others
+
+## Fake People
