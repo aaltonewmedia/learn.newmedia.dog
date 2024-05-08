@@ -124,7 +124,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 | ----------- | --------------- | ---------------- | ----------- |
 | 09:15–12:00 | Advance ComfyUI | Independent Work | Fake Voices |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕      | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕  |
-| 13:15–17:00 | Advance ComfyUI | Independent Work | Fake Music  |
+| 13:15–17:00 | Krita & ComfyUI | Independent Work | Fake Music  |
 
 </div>
 
