@@ -45,3 +45,4 @@ We can customize the models to generate images that are more aligned with our ar
 - [Auto1111 Roop](https://github.com/s0md3v/sd-webui-roop)
 - [Auto1111 ReActor](https://github.com/Gourieff/sd-webui-reactor)
 - [ComfyUI Reactor](https://github.com/Gourieff/comfyui-reactor-node)
+- [ComfyUI Uses](https://www.youtube.com/watch?v=fUcDAExxndQ)
