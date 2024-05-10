@@ -33,20 +33,21 @@ For the course, all the computers at K103 have Krita installed already, however 
 - Click on `Configure` and select `Local Server`
 - Press `Connect`
 
-Fianlly save your Krita file before starting the generation process. Now you can press the `Play` and `Record` buttons. The system will genenerate a new image every time you press `Play` or if you are in the "Live mode", everytimes you make a change in the canvas.
+Finally save your Krita file before starting the generation process. Now you can press the `Play` and `Record` buttons. The system will genenerate a new image every time you press `Play` or if you are in the "Live mode", everytime you make a change in the canvas. You can change the style on the dropdown menu, and the strength of the diffusion process with the slider.
 
-## Fake Music
+## Fake Music & Voices
 
-### Riffusion
+We can also use diffusion systems (or other AI implementations) to generate music and voices. Some of the tools that we can use are:
 
-### Suno
-
-### Others
-
-## Fake Voices
-
-### ElevenLabs
-
-### Others
-
-## Fake People
+- (Riffusion)[https://github.com/riffusion/riffusion]
+- (Suno)[https://suno.com/]
+- (Udio)[https://www.udio.com/])
+- (ElevenLabs)[https://elevenlabs.io/]
+- (Tortoise TTS)[https://github.com/neonbjb/tortoise-tts]
+- (Resemble)[https://app.resemble.ai/]
+- (Voice AI)[https://voice.ai/]
+- (Coqui TTS)[https://github.com/coqui-ai/TTS]
+- (Coqui XTTS2)[https://huggingface.co/spaces/coqui/xtts]
+- (Bark)[https://github.com/suno-ai/bark]
+- (Bark Voice Clone)[https://github.com/serp-ai/bark-with-voice-clone]
+- (OpenVoice)[https://huggingface.co/myshell-ai/OpenVoice]
