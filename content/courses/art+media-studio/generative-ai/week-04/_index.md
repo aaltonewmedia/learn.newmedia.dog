@@ -41,7 +41,7 @@ We can also use diffusion systems (or other AI implementations) to generate musi
 
 - (Riffusion)[https://github.com/riffusion/riffusion]
 - (Suno)[https://suno.com/]
-- (Udio)[https://www.udio.com/])
+- (Udio)[https://www.udio.com/]
 - (ElevenLabs)[https://elevenlabs.io/]
 - (Tortoise TTS)[https://github.com/neonbjb/tortoise-tts]
 - (Resemble)[https://app.resemble.ai/]
