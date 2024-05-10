@@ -39,15 +39,15 @@ Finally save your Krita file before starting the generation process. Now you can
 
 We can also use diffusion systems (or other AI implementations) to generate music and voices. Some of the tools that we can use are:
 
-- (Riffusion)[https://github.com/riffusion/riffusion]
-- (Suno)[https://suno.com/]
-- (Udio)[https://www.udio.com/]
-- (ElevenLabs)[https://elevenlabs.io/]
-- (Tortoise TTS)[https://github.com/neonbjb/tortoise-tts]
-- (Resemble)[https://app.resemble.ai/]
-- (Voice AI)[https://voice.ai/]
-- (Coqui TTS)[https://github.com/coqui-ai/TTS]
-- (Coqui XTTS2)[https://huggingface.co/spaces/coqui/xtts]
-- (Bark)[https://github.com/suno-ai/bark]
-- (Bark Voice Clone)[https://github.com/serp-ai/bark-with-voice-clone]
-- (OpenVoice)[https://huggingface.co/myshell-ai/OpenVoice]
+- [Riffusion](https://github.com/riffusion/riffusion)
+- [Suno](https://suno.com/)
+- [Udio](https://www.udio.com/)
+- [ElevenLabs](https://elevenlabs.io/)
+- [Tortoise TTS](https://github.com/neonbjb/tortoise-tts)
+- [Resemble](https://app.resemble.ai/)
+- [Voice AI](https://voice.ai/)
+- [Coqui TTS](https://github.com/coqui-ai/TTS)
+- [Coqui XTTS2](https://huggingface.co/spaces/coqui/xtts)
+- [Bark](https://github.com/suno-ai/bark)
+- [Bark Voice Clone](https://github.com/serp-ai/bark-with-voice-clone)
+- [OpenVoice](https://huggingface.co/myshell-ai/OpenVoice)
