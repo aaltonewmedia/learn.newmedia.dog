@@ -39,19 +39,19 @@ In period V, we have three days booked for each week. Most of this will be indep
 - **Tue 07.05. | [Recommended talk: Can computers create art? (Kyle McDonald, Tomi Slotte Dufva, Hannu Toivonen)](https://creativetechnologies.aalto.fi/)**
 - Wed 08.05. | Work on your project, Technical Clinics based on your wishes
 - Thu 09.05. | Independent Work, G203 is booked for us if you want to use that
-- Fri 10.05. | Mid-period feedback
+- Fri 10.05. | Work on your ptoject, optional lecture by Soyun Park. VR prototyping basics in the afternoon
 
 ---
 
-- Wed 15.05. | Work on your project, Technical Clinics
+- Wed 15.05. | Discussing your project ideas and planning the next stepds, mid-period feedback.
 - Thu 16.05. | Independent Work, G203 is booked for us if you want to use that
-- Fri 17.05. | Work on your project, Technical Clinics
+- Fri 17.05. | More detailed VR prototyping workshop in Unity
 
 ---
 
-- Wed 22.05. | Work on your project. Exhibition Setup
+- Wed 22.05. | Work on your project. Tutoring.
 - Thu 23.05. | Independent Work, G203 is booked for us if you want to use that
-- Fri 24.05. | Work on your project. Exhibition Setup
+- Fri 24.05. | Work on your project. Tutoring.
 
 ---
 

@@ -5,7 +5,7 @@ weight: 30
 draft: false
 ---
 
-This week, we will do some technicla clinics based on the topics that you had 
+This week, we will do some technicla clinics based on the topics that you had voted on.
 
 ## Tue 07.05. | Recommended Lecture
 
