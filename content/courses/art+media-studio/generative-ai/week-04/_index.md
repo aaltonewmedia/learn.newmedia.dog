@@ -57,3 +57,21 @@ We can also use diffusion systems (or other AI implementations) to generate musi
 - [Gooey LipSync](https://gooey.ai/Lipsync/)
 - [Gooey TTS](https://gooey.ai/lipsync-maker/)
 - [ComfyUI TTS](https://github.com/AIFSH/ComfyUI-XTTS?tab=readme-ov-file)
+
+We can use the following prompt to record our own voice and generate a clone that we can use for further processing:
+
+```
+The tube was blown and the tire flat and useless.
+Fruit flavors are used in fizz drinks.
+The young kid jumped the rusty gate.
+
+Pack the records in a neat thin case.
+Let it burn, it gives us warmth and comfort.
+The walled town was seized without a fight.
+
+Next Tuesday we must vote.
+The sofa cushion is red and of light weight.
+Tack the strip of carpet to the worn floor.
+```
+
+- [Hardvard Sentences](http://practice.herostrat.us/)
