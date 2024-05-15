@@ -120,11 +120,11 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 08/05       | THU 09/05        | FRI 10/05   |
-| ----------- | --------------- | ---------------- | ----------- |
-| 09:15–12:00 | Advance ComfyUI | Independent Work | Fake Voices |
-| 12:00–13:00 | 🥗🍜🍱🍝🍕      | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕  |
-| 13:15–17:00 | Krita & ComfyUI | Independent Work | Fake Music  |
+| TIME        | WED 08/05        | THU 09/05        | FRI 10/05   |
+| ----------- | ---------------- | ---------------- | ----------- |
+| 09:15–12:00 | Advanced ComfyUI | Independent Work | Fake Voices |
+| 12:00–13:00 | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕  |
+| 13:15–17:00 | Krita & ComfyUI  | Independent Work | Fake Music  |
 
 </div>
 
@@ -144,11 +144,11 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 22/05    | THU 23/05        | FRI 24/05    |
-| ----------- | ------------ | ---------------- | ------------ |
-| 10:00–12:00 | New Tools    | Independent Work | Project Work |
-| 12:00–13:00 | 🥗🍜🍱🍝🍕   | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕   |
-| 13:15–17:00 | Project Work | Independent Work | Project Work |
+| TIME        | WED 22/05        | THU 23/05        | FRI 24/05    |
+| ----------- | ---------------- | ---------------- | ------------ |
+| 10:00–12:00 | Independent Work | Independent Work | Project Work |
+| 12:00–13:00 | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕   |
+| 13:15–17:00 | Project Work     | Independent Work | Project Work |
 
 </div>
 
