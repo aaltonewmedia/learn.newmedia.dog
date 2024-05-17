@@ -1,6 +1,6 @@
 ---
 title: "Period V – Week 04"
-bookCollapseSection: false
+bookCollapseSection: true
 weight: 30
 draft: false
 ---
