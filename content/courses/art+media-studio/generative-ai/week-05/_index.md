@@ -5,7 +5,7 @@ draft: false
 weight: 50
 ---
 
-## Into 3D
+## Intoa cactus 3D
 
 We will explore how to use AI to generate 3D models and animations. We will use different methods to create and manipulate 3D models.
 

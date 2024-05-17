@@ -134,7 +134,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 | TIME        | WED 15/05            | THU 16/05        | FRI 17/05            |
 | ----------- | -------------------- | ---------------- | -------------------- |
-| 10:00–12:00 | Scripting and 3D     | Independent Work | Independent Work     |
+| 10:00–12:00 | Scripting and 3D     | Independent Work | TouchDesigner and AI |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕           | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕           |
 | 13:15–17:00 | TouchDesigner and AI | Independent Work | TouchDesigner and AI |
 
@@ -146,7 +146,7 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 | TIME        | WED 22/05        | THU 23/05        | FRI 24/05    |
 | ----------- | ---------------- | ---------------- | ------------ |
-| 10:00–12:00 | Independent Work | Independent Work | Project Work |
+| 10:00–12:00 | Independent Work | Project Work     | Project Work |
 | 12:00–13:00 | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕       | 🥗🍜🍱🍝🍕   |
 | 13:15–17:00 | Project Work     | Independent Work | Project Work |
 
@@ -156,10 +156,10 @@ WE have reserved the K103 classroom for the duration of the course, on Wednesday
 
 <div class="calendar">
 
-| TIME        | WED 29/05    | THU 30/05          | FRI 31/05  |
-| ----------- | ------------ | ------------------ | ---------- |
-| 10:00–12:00 | Project Work | Exhibition Setup   |            |
-| 12:00–13:00 | 🥗🍜🍱🍝🍕   | 🥗🍜🍱🍝🍕         | 🥗🍜🍱🍝🍕 |
-| 13:15–17:00 | Project Work | Exhibition Opening |            |
+| TIME        | WED 29/05    | THU 30/05    | FRI 31/05                  |
+| ----------- | ------------ | ------------ | -------------------------- |
+| 10:00–12:00 | Project Work | Project Work | Exhibition Setup           |
+| 12:00–13:00 | 🥗🍜🍱🍝🍕   | 🥗🍜🍱🍝🍕   | 🥗🍜🍱🍝🍕                 |
+| 13:15–17:00 | Project Work | Project Work | Exhibition Opening (16:00) |
 
 </div>
