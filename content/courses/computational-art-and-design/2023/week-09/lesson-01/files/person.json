@@ -1,0 +1,27 @@
+{
+  "firstName": "Matti",
+  "lastName": "Niinimäki",
+  "isAlive": true,
+  "age": 21,
+  "liar": true,
+  "address": {
+    "street": "Imaginary Avenue",
+    "apartment": "20 A 5",
+    "postalCode": 99999,
+    "city": "Helsinki"
+  },
+  "pets": [
+    {
+      "animal": "dog",
+      "name": "Kimchi"
+    },
+    {
+      "animal": "cat",
+      "name": "Pancake"
+    },
+    {
+      "animal": "duck",
+      "name": "Tale"
+    }
+  ]
+}

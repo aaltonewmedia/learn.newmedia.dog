@@ -6,11 +6,9 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- November 15, 2023
-- Room G203
+- November 14, 2024
 - 9:15–12:00
-
-**We continue with the ml5.js examples which we were not able to complete last week.**
+- Room 3448 (Marsio)
 {{</hint>}}
 
 ---

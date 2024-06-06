@@ -27,4 +27,4 @@ Finish up your work. Set up in the exhibition spaces. Matti is available for hel
 
 {{<hint info>}}
 Our exhibition opens 16:00. Whatever it is that you want to show needs to be ready then.
-{{>/<hint>}}
+{{</hint>}}

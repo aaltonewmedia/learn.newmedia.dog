@@ -5,6 +5,15 @@ weight: 20
 draft: true
 ---
 
+
+## For 2025
+
+- Define the video documentation specs very specifically!
+- Streamline syllabus, make a pdf
+- individual assignments: Hands/Touch, Face, Body
+- Exhibition planning
+
+
 {{<hint info>}}
 **Monday, February 6, 2023**
 

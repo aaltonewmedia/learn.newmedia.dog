@@ -5,6 +5,12 @@ weight: 20
 p5js-widget: true
 ---
 
+{{<hint info>}}
+- October 10, 2024
+- 9:15–12:00
+- Room 2420 (Marsio)
+{{</hint>}}
+
 ## Inspiration
 
 {{<vimeo 140057053>}}

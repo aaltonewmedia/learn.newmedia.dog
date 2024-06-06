@@ -5,9 +5,11 @@ weight: 20
 p5js-widget: true
 ---
 
-# Week 05 | 2D Transformations
-
----
+{{<hint info>}}
+- October 3, 2024
+- 9:15–12:00
+- Room 2420 (Marsio)
+{{</hint>}}
 
 ## Inspiration
 

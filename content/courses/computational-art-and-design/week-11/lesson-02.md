@@ -5,6 +5,12 @@ weight: 30
 p5js-widget: true
 ---
 
+{{<hint info>}}
+- November 15, 2024
+- 9:15–12:00
+- Room 3448 (Marsio)
+{{</hint>}}
+
 ## SVG Library for p5.js
 
 - [Library](https://github.com/zenozeng/p5.js-svg)

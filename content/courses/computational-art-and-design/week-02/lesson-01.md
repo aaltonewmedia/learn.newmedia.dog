@@ -5,6 +5,12 @@ weight: 20
 p5js-widget: false
 ---
 
+{{<hint info>}}
+- September 12, 2024
+- 9:15–12:00
+- Room 2420 (Marsio)
+{{</hint>}}
+
 ## Inspiration
 
 {{<vimeo 232656895>}}

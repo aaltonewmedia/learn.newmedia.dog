@@ -7,9 +7,9 @@ draft: false
 ---
 
 {{<hint info>}}
-September 4, 2023  
-15:15–17:00  
-Room Q101
+- September 2, 2024
+- 15:15–17:00
+- Room Q101
 {{</hint>}}
 
 ## Introduction

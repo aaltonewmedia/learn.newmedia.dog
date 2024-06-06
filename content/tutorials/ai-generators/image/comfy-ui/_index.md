@@ -101,7 +101,7 @@ Coming soon...
 
 ## TouchDesigner
 
-You can try to integrate your own API with python in TouchDesginer but by far the best way it to use DotSimualted .tox file that includes ComfyUI. You can find more information about it on his page below, however for GenAI course you can find the .tox file in the TouchDesigner Folder in OneDrive. Same goes with the StreamDiffusion extension.
+You can try to integrate your own API with python in TouchDesginer but by far the best way it to use the components created by DotSimulate file that includes ComfyUI. You can access their components by supporting them on Patreon.
 
 - [DotSimulate ComfyUI](https://www.youtube.com/watch?v=jIIqE8cp420&t=2s&ab_channel=dotsimulate)
 - [DotSimulate StreamDiffusion](https://www.youtube.com/watch?v=X4rlC6y1ahw&ab_channel=dotsimulate)

@@ -6,9 +6,9 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- November 9, 2023
-- Room G203
+- November 7, 2024
 - 9:15–12:00
+- Room 3448 (Marsio)
 {{</hint>}}
 
 ---

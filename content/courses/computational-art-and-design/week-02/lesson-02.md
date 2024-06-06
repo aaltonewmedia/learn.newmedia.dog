@@ -5,6 +5,12 @@ weight: 30
 p5js-widget: false
 ---
 
+{{<hint info>}}
+- September 13, 2024
+- 9:15–12:00
+- Room 2420 (Marsio)
+{{</hint>}}
+
 ## Inspiration
 
 {{<youtube 5eMSPtm6u5Y>}}

@@ -7,9 +7,9 @@ draft: false
 ---
 
 {{<hint info>}}
-September 7, 2023  
-9:15–12:00  
-Room G203
+- September 5, 2024
+- 9:15–12:00
+- Room 2420 (Marsio)
 {{</hint>}}
 
 Welcome 👋 to the first steps in your creative coding journey!

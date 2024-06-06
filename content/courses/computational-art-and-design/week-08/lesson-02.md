@@ -6,9 +6,9 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 27, 2023
-- Room L208
+- October 25, 2024
 - 9:15–12:00
+- Room 2420 (Marsio)
 {{</hint>}}
 
 ## Advanced techniques for animating with code

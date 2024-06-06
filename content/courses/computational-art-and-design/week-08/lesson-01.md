@@ -6,9 +6,9 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 26, 2023
-- Room G203
+- October 24, 2024
 - 9:15–12:00
+- Room 2420 (Marsio)
 {{</hint>}}
 
 ---

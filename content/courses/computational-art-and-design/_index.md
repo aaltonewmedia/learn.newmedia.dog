@@ -8,7 +8,7 @@ draft: false
 
 ## Important links
 
-- [MyCourses page (2023)](https://mycourses.aalto.fi/course/view.php?id=39808)
+- [MyCourses page (2024)](#)
 - [Our OpenProcessing class](https://openprocessing.org/class/86575)
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)

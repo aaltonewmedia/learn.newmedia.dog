@@ -5,6 +5,8 @@ p5js-widget: false
 draft: false
 ---
 
+[![Text highlight](./files/text-highlight.png)](./files/text-highlight.png)
+
 Something that has popped up quite many times in classes is the need to find and highlight certain words in a text dynamically.
 
 This technique is based on these features:
@@ -67,7 +69,11 @@ output_dat.text = formatted_text
 - Word Wrap | On
 - Change the Font options and Width and Height of the Layout to your liking. You can see all the setting I have changed from the image below.
 
-6. At this point it's a good idea to test the code. Right-click on the `text_highlight_script` DAT and choose `Run Script`. You should see the `text_output` DAT update with the processed text and the `Text COMP` update show the formatted text. If it doesn't work, check the error messages and go back step-by-step to see where the you might have done something incorrectly. Edit the onTableChange() method to include a call to run our script whenever the input text changes.
+6. At this point it's a good idea to test the code. Right-click on the `text_highlight_script` DAT and choose `Run Script`. You should see the `text_output` DAT update with the processed text and the `Text COMP` update show the formatted text. If it doesn't work, check the error messages and go back step-by-step to see where the you might have done something incorrectly. 
+
+7. Add a `DAT Execute` DAT, write `text_input` to the DATs property to monitor changes happening in the input text.
+
+8. Edit the onTableChange() method to include a call to run our script whenever the input text changes.
 
 ```python
 def onTableChange(dat):
@@ -75,7 +81,7 @@ def onTableChange(dat):
 	return
 ```
 
-7. You can also add an `OP Viewer` TOP if you need to process the text image further. Turn on `Preserve Alpha` to keep the transparent background if needed.
+9. You can also add an `OP Viewer` TOP if you need to process the text image further. Turn on `Preserve Alpha` to keep the transparent background if needed.
 
 ---
 

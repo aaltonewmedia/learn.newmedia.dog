@@ -5,6 +5,12 @@ weight: 30
 p5js-widget: true
 ---
 
+{{<hint info>}}
+September 20, 2024  
+9:15–12:00  
+Room 2420 (Marsio)
+{{</hint>}}
+
 ## Arrays
 
 [Arrays](https://www.w3schools.com/jsref/jsref_obj_array.asp) enable you to store multiple values under a single variable name. [JavaScript arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) are really flexible and allow you to do many things that are not possible with arrays in many other programming languages:
