@@ -3,7 +3,7 @@ title: "Computational Art and Design | 2023"
 bookCollapseSection: true
 weight: 10
 p5js-widget: true
-draft: false
+draft: true
 ---
 
 ## Important links
