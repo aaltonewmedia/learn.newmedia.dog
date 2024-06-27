@@ -13,6 +13,14 @@ draft: true
 - individual assignments: Hands/Touch, Face, Body
 - Exhibition planning
 
+## Artists
+
+[Chagall](https://chagall.io/)
+
+{{<youtube GFd0C2PyoPc>}}
+
+Also check out this talk, where she goes into details of the latest technical setup. [Chagall's section starts at 02:05:05](https://www.youtube.com/live/aGxNG_91a9U?feature=shared&t=7505)
+{{<youtube aGxNG_91a9U>}}
 
 {{<hint info>}}
 **Monday, February 6, 2023**

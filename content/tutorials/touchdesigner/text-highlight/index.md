@@ -17,6 +17,8 @@ This technique is based on these features:
 
 ---
 
+[![Text highlight result](./files/result.png)](./files/result.png)
+
 ## Tutorial
 
 1. Create a `Text DAT` and name it `text_input`. This will be the input text that you are going to process. For testing purposes, I asked ChatGPT to write a short story that includes the words *squirrel*, *tree* and *lake*. You can copy the text from [here](./files/story.txt).
@@ -89,4 +91,12 @@ def onTableChange(dat):
 
 {{<hint info>}}
 [Download the example file.](./files/TextKeywordHighlight.toe)
+{{</hint>}}
+
+---
+
+## Notes
+
+{{<hint warning>}}
+The code is now hardcoded for these specific operators. It could be made much more modular for flexible reuse.
 {{</hint>}}
