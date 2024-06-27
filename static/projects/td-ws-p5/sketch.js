@@ -4,6 +4,7 @@ let lastDataSentTime = Date.now();
 const timeoutDuration = 10000;
 setInterval(checkTimeout, 1000); // Check every second
 let alive;
+document.addEventListener('touchstart', {});
 
 function checkTimeout() {
   const currentTime = Date.now();
@@ -84,6 +85,7 @@ function mouseMoved(){
 }
 
 function touchMoved(){
+  alive = true;
   for (let i = 0; i<touches.length; i++) {
     if(i==0){
       let data = {
