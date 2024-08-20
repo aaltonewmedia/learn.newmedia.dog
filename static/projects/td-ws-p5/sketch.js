@@ -57,7 +57,7 @@ ws.addEventListener("close", (event) => {
 });
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(displayWidth, displayHeight);
   id = floor(random(1000));
   noLoop();
 }
@@ -77,8 +77,8 @@ function mouseMoved(){
   alive = true;
   let data = {
     type: "update",
-    x: mouseX,
-    y: mouseY,
+    x: mouseX/width,
+    y: mouseY/height,
     sliderId: id};
   //console.log(data);
   sendWS(data);

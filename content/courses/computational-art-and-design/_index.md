@@ -53,7 +53,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 04/09 | TUE 05/09 | WED 06/09 | THU 07/09 | FRI 08/09 |
+| TIME | MON 02/09 | TUE 03/09 | WED 04/09 | THU 05/09 | FRI 06/09 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Drawing with Code](./week-01/lesson-01) | [Animating with Code](./week-01/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -66,7 +66,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 11/09 | TUE 12/09 | WED 13/09 | THU 14/09 | FRI 15/09 |
+| TIME | MON 09/09 | TUE 10/09 | WED 11/09 | THU 12/09 | FRI 13/09 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Conditional Statements](./week-02/lesson-01) | [Conditional Statements](./week-02/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -79,7 +79,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 18/09 | TUE 19/09 | WED 20/09 | THU 21/09 | FRI 22/09 |
+| TIME | MON 16/09 | TUE 17/09 | WED 18/09 | THU 19/09 | FRI 20/09 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Loops](./week-03/lesson-01) | [Arrays](./week-03/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -92,7 +92,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 25/09 | TUE 26/09 | WED 27/09 | THU 28/09 | FRI 29/09 |
+| TIME | MON 23/09 | TUE 24/09 | WED 25/09 | THU 26/09 | FRI 27/09 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Working with Media](./week-04/lesson-01) | [Sound Visualizations](./week-04/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -105,7 +105,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 03/10 | TUE 04/10 | WED 05/10 | THU 06/10 | FRI 07/10 |
+| TIME | MON 30/09 | TUE 01/10 | WED 02/10 | THU 03/10 | FRI 04/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Functions](./week-05/lesson-01) | [Functions](./week-05/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -118,7 +118,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 09/10 | TUE 10/10 | WED 11/10 | THU 12/10 | FRI 13/10 |
+| TIME | MON 07/10 | TUE 08/10 | WED 09/10 | THU 10/10 | FRI 11/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Objects & Classes](./week-06/lesson-01) | [Objects & Classes](./week-06/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -131,7 +131,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 16/10 | TUE 17/10 | WED 18/10 | THU 19/10 | FRI 20/10 |
+| TIME | MON 14/10 | TUE 15/10 | WED 16/10 | THU 17/10 | FRI 18/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -146,7 +146,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 23/10 | TUE 24/10 | WED 25/10 | THU 26/10 | FRI 27/10 |
+| TIME | MON 21/10 | TUE 22/10 | WED 23/10 | THU 24/10 | FRI 25/10 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Advanced Animation](./week-08/lesson-01) | [DOM Elements](./week-08/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -159,7 +159,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 30/10 | TUE 31/10 | WED 01/11 | THU 02/11 | FRI 03/11 |
+| TIME | MON 28/10 | TUE 29/10 | WED 30/10 | THU 31/10 | FRI 01/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Working with Data](./week-09/lesson-01) | [Working with Data \| FFT](./week-09/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -172,9 +172,9 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 06/11 | TUE 07/11 | WED 08/11 | THU 09/11 | FRI 10/11 |
+| TIME | MON 04/11 | TUE 05/11 | WED 06/11 | THU 07/11 | FRI 08/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Introduction to other creative coding environments: Processing](./week-10/lesson-01) | [Introduction to other creative coding environments: TouchDesigner, Project Proposals Deadline](./week-10/lesson-02) |
+| 09:15–12:00 |  |  |  | [TBA](./week-10/lesson-01) | [Project Proposals Presentations](./week-10/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -185,7 +185,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 13/11 | TUE 14/11 | WED 15/11 | THU 16/11 | FRI 17/11 |
+| TIME | MON 11/11 | TUE 12/11 | WED 13/11 | THU 14/11 | FRI 15/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Working with Hardware (serial, OSC)](./week-11/lesson-01) | [Machine learning with ml5.js](./week-11/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -198,7 +198,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 20/11 | TUE 21/11 | WED 22/11 | THU 23/11 | FRI 24/11 |
+| TIME | MON 18/11 | TUE 19/11 | WED 20/11 | THU 21/11 | FRI 22/11 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [3D \| Project Work and Tutoring](./week-12/lesson-01) | [Project Work and Tutoring](./week12/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -211,7 +211,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 27/11 | TUE 28/11 | WED 29/11 | THU 30/12 | FRI 01/12 |
+| TIME | MON 25/11 | TUE 26/11 | WED 27/11 | THU 28/12 | FRI 29/12 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Project Work and Tutoring](./week13/lesson-01) | [Project Work and Tutoring](./week13/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -224,7 +224,7 @@ On successful completion of this course, students will be able to:
 
 <div class="calendar">
 
-| TIME | MON 04/12 | TUE 05/12 | WED 06/12 | THU 09/12 | FRI 08/12 |
+| TIME | MON 02/12 | TUE 03/12 | WED 04/12 | THU 05/12 | FRI 06/12 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
