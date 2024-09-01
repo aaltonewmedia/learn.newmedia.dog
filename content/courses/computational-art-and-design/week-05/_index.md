@@ -16,7 +16,7 @@ During the first period, each week is divided into three classes just like they 
 
 <div class="calendar">
 
-| TIME | MON 02/10 | TUE 03/10 | WED 04/10 | THU 05/10 | FRI 06/10 |
+| TIME | MON | TUE | WED  | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [2D Transformations, Functions](./lesson-01) | [Functions](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -61,4 +61,4 @@ If you miss the classes this week and you are going over the 20% allowed absence
   - Sampler
   - Hand-Drawn Graphics Library (this might be a bit hard, even one shape would be enough)
 
-**Choose one exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/86575) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
+**Choose one exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/92392) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.

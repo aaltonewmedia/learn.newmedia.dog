@@ -16,7 +16,7 @@ During the first period, each week is divided into three classes just like they 
 
 <div class="calendar">
 
-| TIME | MON 25/09 | TUE 26/09 | WED 27/09 | THU 28/09 | FRI 29/09 |
+| TIME | MON | TUE | WED  | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Text, Images, Video](./lesson-01) | [Sound, Sound Visualizations](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -40,4 +40,4 @@ Any of these exercises:
 - **Color**
   - Color Inspector
 
-**Choose one exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/86575) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
+**Choose one exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/92392) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.

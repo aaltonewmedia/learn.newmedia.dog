@@ -13,7 +13,7 @@ During the second period, each week is divided into two classes just like they a
 - **Thursdays:** First technical lesson of the week. Focuses on the coding side.
 - **Fridays:** Second technical lesson of the week. Focuses on the coding side.
 
-| TIME | MON 13/11 | TUE 14/11 | WED 15/11 | THU 16/11 | FRI 17/11 |
+| TIME | MON | TUE | WED  | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Working with Hardware](./lesson-01) | [Pen plotters](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |

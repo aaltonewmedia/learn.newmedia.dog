@@ -81,7 +81,7 @@ Also include the answer to the following questions:
 
 ---
 
-## 2023: Exhibition & Demo Day
+## 2024: Exhibition & Demo Day
 
 {{<hint info>}}
 **Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, December 1**
@@ -90,11 +90,8 @@ Also include the answer to the following questions:
 ### Exhibition Dates
 
 {{<hint info>}}
-We have the spaces booked from November 30 to December 15. These spaces are going to be shared with the projects from this course and the Physical Computing course. Our official opening event will be on December 8, but it's great if you can finish up setting up your work even earlier than that. The dates of our exhibition are a little bit fluid. The first week is more of a work-in-progress where some things might be ready, some things still a little bit under construction.
-
-- Setting up: November 30 to December 7
-- Opening: Friday, December 8 
-- Exhibition: December 8–15
+- Setting up: December 2–10
+- Opening: Wednesday, December 11 (Demo Day)
 - Take down: Friday, December 15 at 15:00
 {{</hint>}}
 
@@ -102,8 +99,8 @@ We have the spaces booked from November 30 to December 15. These spaces are goin
 
 We have booked two spaces for exhibiting the work that we have been doing throghout the semester.
 
-- Väre, LQ Lobby
-- Learning Centre, Lobby
+- Marsio Event Studio (longer exhibition, Media Lab 30th Anniversary)
+- Marsio Digital Studio (shorter exhibition, smaller course work)
 
 ### Fill in the requirements for your work
 

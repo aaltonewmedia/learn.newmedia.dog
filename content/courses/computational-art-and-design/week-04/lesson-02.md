@@ -228,7 +228,7 @@ Extra (add if you have the time):
 
 - Sound reactivity
 
-[Add your sketch to our OpenProcessing class.](https://openprocessing.org/class/86575)
+[Add your sketch to our OpenProcessing class.](https://openprocessing.org/class/92392)
 
 {{<hint info>}}
 NOTE! to make the sound library work in OpenProcessing, you should turn on the toggle for the sound library in the settings.

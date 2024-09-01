@@ -8,20 +8,26 @@ draft: false
 
 ## Important links
 
-- [MyCourses page (2024)](#)
-- [Our OpenProcessing class](https://openprocessing.org/class/86575)
+- [MyCourses page (2024)](https://mycourses.aalto.fi/course/view.php?id=44107)
+- [Our OpenProcessing class](https://openprocessing.org/class/92392#/)
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
 - [p5js Reference](https://p5js.org/reference/)
 - [W3 Schools JavaScript Tutorials](https://www.w3schools.com/js/default.asp)
+
+### Course Book
+
+- [Code as Creative Medium](https://mitpress.mit.edu/9780262542043/code-as-creative-medium/)
+  - [Available through Aalto](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526)
+
+### Other Resources
+
+- [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
+- [Nature of Code](https://natureofcode.com/)
 - [Critical Coding Cookbook](https://criticalcode.recipes/)
 - [Programming Design Systems - Online Book](https://programmingdesignsystems.com/introduction/)
 - [The Art of Computer Designing](https://archive.org/details/satoArtOfComputerDesigning)
-- [Code as Creative Medium](https://mitpress.mit.edu/9780262542043/code-as-creative-medium/)
-  - [Available through Aalto](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526)
 - [Generative Gestaltung](http://www.generative-gestaltung.de/2/)
-- [Nature of Code](https://natureofcode.com/)
-- [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 
 ## Content
 
@@ -45,7 +51,7 @@ On successful completion of this course, students will be able to:
 - Apply basic programming concepts and techniques, such as variables, functions, flow control, comments, types, objects and arrays.
 - Describe, discuss, and demonstrate uses of code as a creative medium.
 
-## Schedule | Autumn  2023
+## Schedule | Autumn 2024
 
 ### Period I
 

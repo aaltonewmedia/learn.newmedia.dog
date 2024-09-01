@@ -48,12 +48,16 @@ One of the top perks of choosing this beginner group is that you will get your o
 
 ### DuckGPT
 
-In cases when your duck is not around you, there is an online variety of the duck, [DuckGPT](https://duckgpt.dev/). It is very realistic!
+In cases when your duck is not around you, there is an online variety of the duck, [DuckGPT](https://duckgpt.vercel.app/). It is very realistic!
 
 ### p5.js Guide to Debugging
 
-There is [a nice illustrated guide available from p5.js on debugging.](https://p5js.org/learn/debugging.html)
+There is [a nice illustrated guide available from p5.js on debugging.](https://p5js.org/tutorials/field-guide-to-debugging/)
 
-## Matti and Calvin
+## Matti
 
-After you have exhausted all other options (or sometimes earlier), you can come ask help from Matti or Calvin.
+After you have exhausted all other options (or sometimes earlier), you can come ask help from Matti.
+
+## LLMs (ChatGPT etc.)
+
+AI tools are also incredibly capable in helping you out to figure out problems in your code. Note that sometimes they make up things, invent libraries or functions that don't exist, or generally just get things wrong. Do not trust them blindly, and most importantly ask more questions when you don't understand something. **Do not use LLMs to write ready code for you, use them to understand why things are done in a certain way.**

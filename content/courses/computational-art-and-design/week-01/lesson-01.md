@@ -40,7 +40,7 @@ This track of the course is aimed for beginners. The course also has another tra
 ## Important resources
 
 - [MyCourses page (2023)](https://mycourses.aalto.fi/course/view.php?id=39808)
-- [Our OpenProcessing class](https://openprocessing.org/class/86575). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
+- [Our OpenProcessing class](https://openprocessing.org/class/92392). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
 - [p5js Reference](https://p5js.org/reference/)
@@ -65,7 +65,7 @@ The programming language we use on this course is JavaScript. More specifically,
 Whenever you work with your own code, I recommend that you write it using [the official p5.js editor](https://editor.p5js.org/). Especially in the beginning. However, these are some other options:
 
 - [p5.js Editor](https://editor.p5js.org/) (We start with this one and move on to the other ways later).
-- [Open Processing](https://openprocessing.org/class/86575) (We will also use this today).
+- [Open Processing](https://openprocessing.org/class/92392) (We will also use this today).
 - [CodePen](https://codepen.io/) (Another way to share code. I will show this one later.)
 - [How to setup Visual Studio Code for p5.j5](https://www.youtube.com/watch?v=yJw0SyKO9IU) (This will be the preffered way to work after you get the hang of how things work. I will explain how to do this later.)
 - You can even use the [Processing IDE with the p5.js mode](https://processing.org/)
@@ -248,6 +248,6 @@ Limit yourself only to the following functions:
 - [Shape](https://p5js.org/reference/#group-Shape) --> Attributes --> strokeWeight()
 - [Color](https://p5js.org/reference/#group-Color) --> Setting --> background(), fill(), noFill(), stroke(), noStroke()
 
-[Add your sketch to our Open Processing page.](https://openprocessing.org/class/86575)
+[Add your sketch to our Open Processing page.](https://openprocessing.org/class/92392)
 
 

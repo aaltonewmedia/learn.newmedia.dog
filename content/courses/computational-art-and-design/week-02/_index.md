@@ -16,7 +16,7 @@ During the first period, each week is divided into three classes just like they 
 
 <div class="calendar">
 
-| TIME | MON 11/09 | TUE 12/09 | WED 13/09 | THU 14/09 | FRI 15/09 |
+| TIME | MON | TUE | WED  | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  | [Conditional Statements](./lesson-01) | [Conditional Statements](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -43,4 +43,4 @@ Any of these exercises:
   - Color: Josef Albers Color Relativity I
   - Color: Josef Albers Color Relativity II
 
-**Choose two exercises per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/86575) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
+**Choose two exercises per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/92392) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
