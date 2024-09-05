@@ -39,7 +39,7 @@ This track of the course is aimed for beginners. The course also has another tra
 
 ## Important resources
 
-- [MyCourses page (2023)](https://mycourses.aalto.fi/course/view.php?id=39808)
+- [MyCourses page (2024)](https://mycourses.aalto.fi/course/view.php?id=44107#section-0)
 - [Our OpenProcessing class](https://openprocessing.org/class/92392). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)

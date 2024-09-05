@@ -223,12 +223,12 @@ function draw() {
 }
 {{</ p5js >}}
 
+### Example: Random Circles
+
 {{< p5js autoplay="1" width="400" height="600">}}
 let x;
 let y;
 let s;
-
-### Example: Random Circles
 
 function setup() {
   createCanvas(400, 400);
