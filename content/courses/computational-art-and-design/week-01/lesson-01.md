@@ -24,6 +24,7 @@ Every week, I introduce you to different artists and designers who use code/comp
 
 - [Bret Victor](http://worrydream.com/)
 - [Casey Reas](https://reas.com/)
+  - [The History of Processing](https://medium.com/processing-foundation/a-modern-prometheus-59aed94abe85)
 
 ## Introduction
 
