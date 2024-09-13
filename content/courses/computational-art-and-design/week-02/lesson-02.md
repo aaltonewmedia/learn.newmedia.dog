@@ -350,11 +350,19 @@ Go through the course materials for week 2. If you did not understand something 
 
 ### Assignment
 
-Add your version of the bouncing ball sketch to our [Open Processing class](https://openprocessing.org/class/92392). It can just be pretty much the same we did in class, but maybe try adding some of your own flavor to it.
+Practice if statements. Add interactions with mouse and keyboard or set rules for how shapes are moving on the screen with code.
+
+You can also extend some of the examples we created during the class (Bouncing Ball or Drawing With Mouse). Or check our course book for examples.
 
 For extra challenge, try the following:
+
+Bouncing Ball:
 
 - something happens when the ball hits the wall (color changes)
 - try adding gravity and friction
 - try replacing the 2d shape with an image
 
+Drawing With Mouse:
+- Use keyboard to set different brush options (color, size etc.)
+
+Upload your sketch to our [Open Processing class](https://openprocessing.org/class/92392).
