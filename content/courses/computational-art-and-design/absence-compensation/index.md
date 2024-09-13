@@ -29,13 +29,13 @@ Please let Matti know if you need to be absent more than the allowed 20% for **h
 
 ## Can I somehow compensate for the missed classes if I have to be away for more than the allowed amount?
 
-Yes, you can complete assignments from the Excercises section of the book [Code as Creative Medium: A Handbook for Computational Art and Design](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526). Related to the topic that you missed. The amount of exercises you need to complete depends on what you have missed (more complex topics might only mean one exercise, simpler topics might mean more than one).
+Yes, you can complete assignments from the Exercises section of the book [Code as Creative Medium: A Handbook for Computational Art and Design](https://primo.aalto.fi/permalink/358AALTO_INST/ha1cg5/alma999439982606526). Related to the topic that you missed. The amount of exercises you need to complete depends on what you have missed (more complex topics might only mean one exercise, simpler topics might mean more than one).
 
 - [Week 01](../week-01/#absence-compensation)
 - [Week 02](../week-02/#absence-compensation)
 - [Week 03](../week-03/#absence-compensation)
 - [Week 04](../week-04/#absence-compensation)
-- [Week 05](../week-05/)
+- [Week 05](../week-05/#absence-compensation)
 - [Week 06](../week-06/)
 - [Week 07](../week-07/) (workshop week, no class this week)
 - [Week 08](../week-08/)

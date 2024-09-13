@@ -26,8 +26,8 @@ Sooner or later, you will get stuck, annoyed, frustrated, confused, or some othe
 
 There are two new system variables built into p5js that we are going to need to use this week:
 
-- [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed)
-- [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed)
+- [mouseIsPressed](https://p5js.org/reference/p5/mouseIsPressed/)
+- [keyIsPressed](https://p5js.org/reference/p5/keyIsPressed)
 
 ## Conditional Statements
 

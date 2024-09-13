@@ -21,7 +21,7 @@ During the first period, each week is divided into three classes just like they 
 | 09:15–12:00 |  |  |  | [2D Transformations, Functions](./lesson-01) | [Functions](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Visit to Amos Rex](./lecture) |  |  |  |  |
+| 15:15–17:00 | [TBA](./lecture) |  |  |  |  |
 
 </div> 
 
