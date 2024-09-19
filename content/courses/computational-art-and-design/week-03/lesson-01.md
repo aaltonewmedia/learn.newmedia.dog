@@ -13,12 +13,9 @@ p5js-widget: true
 
 ## Inspiration
 
-{{<vimeo 73939362>}}
+{{<youtube WSDNXUggK_4>}}
 
-{{<youtube cywFvcRR-QI>}}
-
-- [Rafael Lozano-Hemmer](https://www.lozano-hemmer.com/)
-- [Ryoji Ikeda](https://www.ryojiikeda.com/)
+- [Yehwan Song](https://yhsong.com/) also check out her [Instagram](https://www.instagram.com/yehwan.yen.song/?hl=en)
 
 ---
 
