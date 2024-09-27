@@ -26,13 +26,13 @@ Note that we did not manage to cover all of the topics yesterday about images an
 
 ## New p5js functions that we are going to need today
 
-- [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
-- [mousePressed()](https://p5js.org/reference/#/p5/mousePressed)
+- [keyPressed()](https://p5js.org/reference/p5/keyPressed/)
+- [mousePressed()](https://p5js.org/reference/p5/mousePressed)
 
-These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) system variables that we have been using.
+These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/p5/mouseIsPressed) system variables that we have been using.
 
-- [lerp()](https://p5js.org/reference/#/p5/lerp)
-- [lerpColor](https://p5js.org/reference/#/p5/lerpColor)
+- [lerp()](https://p5js.org/reference/p5/lerp)
+- [lerpColor](https://p5js.org/reference/p5/lerpColor)
 
 `lerp()` is a really useful function that is used to intepolate between two values. Use it to smooth audio input values or to create laggy or smoothed movements.
 
@@ -104,7 +104,7 @@ function mousePressed(){
 
 ## p5js Sound Library
 
-[Sound library reference](https://p5js.org/reference/#/libraries/p5.sound)
+[Sound library reference](https://archive.p5js.org/reference/#/libraries/p5.sound)
 
 The p5.js sound library allows you to:
 - load, play and manipulate sound files
@@ -217,16 +217,16 @@ The sketch below uses a folder of images. You can download this .zip file:
 
 ## Homework
 
-Create a sketch that uses the following:
-
-- at least one image
+Create a sketch that uses **some** of the following:
+- images
 - video camera input
-- at least one sound file
+- sound files
+- mic input
 - mouse and/or keyboard interaction
 
-Extra (add if you have the time):
+NOTE! to make the sound library work in OpenProcessing, you should turn on the toggle for the sound library in the settings.
 
-- Sound reactivity
+You can keep this quite simple, I just want you to try and explore.
 
 [Add your sketch to our OpenProcessing class.](https://openprocessing.org/class/92392)
 
