@@ -150,7 +150,9 @@ Working with video files is quite similar to working with images. The loading of
 
 - [createVideo](https://p5js.org/reference/#/p5/createVideo)
 
-You can [download my example video file here (right click --> save as).](img/shroom.mp4)
+Ypu can dowload saome videos here if you don't have anything on your hard drive (right click --> save as):
+- [Shroom](img/shroom.mp4)
+- [AI Generated Runway Video](./img/gen3-runway.mp4)
 
 ```js
 let vid;
