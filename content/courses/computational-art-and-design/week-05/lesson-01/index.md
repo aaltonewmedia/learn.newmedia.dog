@@ -21,6 +21,16 @@ p5js-widget: true
 
 ## 2D Transformations
 
+### Summary as an AI Podcast
+
+{{<hint info>}}
+I am trying out something new this time. I used [NotebookLM](https://notebooklm.google.com) to generate a podcast based on the course materials on this page, YouTube video from the Coding Train, p5.js reference, and the Wikipedia article on Transformation Matrix.
+
+{{< audio src="../audio/deep-dive_2d-transformations.wav" class="something" >}}
+
+Let me know if you feel that it is helpful and I can keep on making more of them from the other topics. Or better yet, learn how to use NotebookLM yourself.
+{{</hint>}}
+
 This week is going to be about finding ways to structure, simplify and compartmentalize your code. We will learn about **transformations** that allow you to rotate, move and scale things that you draw. Additionally, we will learn the basics of using **functions**.
 
 Let's take an example sketch, where we would like to draw a simple face that is centerd on the canvas. We could use some variables to store the x and y coordinates of the center of the screen and use these as a reference point for drawing the shapes. I am calling these variables ```offsetX``` and ```offsetY```.
