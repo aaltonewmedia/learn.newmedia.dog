@@ -26,7 +26,7 @@ p5js-widget: true
 {{<hint info>}}
 I am trying out something new this time. I used [NotebookLM](https://notebooklm.google.com) to generate a podcast based on the course materials on this page, YouTube video from the Coding Train, p5.js reference, and the Wikipedia article on Transformation Matrix.
 
-{{< audio src="../audio/deep-dive_2d-transformations.wav" class="something" >}}
+{{< audio src="../audio/deep-dive_2d-transformations.mp3" class="podcast" >}}
 
 Let me know if you feel that it is helpful and I can keep on making more of them from the other topics. Or better yet, learn how to use NotebookLM yourself.
 {{</hint>}}
