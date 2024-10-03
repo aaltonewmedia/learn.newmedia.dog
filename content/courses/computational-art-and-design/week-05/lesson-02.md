@@ -26,9 +26,7 @@ p5js-widget: true
 - [Design by Numbers](https://mitpress.mit.edu/9780262632447/design-by-numbers/)
 - [The Laws of Simplicity](http://lawsofsimplicity.com/)
 
-## Functions
-
-### Summary as an AI Podcast
+## Summary as an AI Podcast
 
 {{<hint info>}}
 I am trying out something new this time. I used [NotebookLM](https://notebooklm.google.com) to generate a podcast based on the course materials on this page, YouTube videos from the Coding Train, and p5.js tutorial about Functions.
@@ -37,6 +35,8 @@ I am trying out something new this time. I used [NotebookLM](https://notebooklm.
 
 Let me know if you feel that it is helpful and I can keep on making more of them from the other topics. Or better yet, learn how to use NotebookLM yourself.
 {{</hint>}}
+
+## Functions
 
 So far, we have written functions that are part of the p5.js library.
 
