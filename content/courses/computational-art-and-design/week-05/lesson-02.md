@@ -28,6 +28,16 @@ p5js-widget: true
 
 ## Functions
 
+### Summary as an AI Podcast
+
+{{<hint info>}}
+I am trying out something new this time. I used [NotebookLM](https://notebooklm.google.com) to generate a podcast based on the course materials on this page, YouTube videos from the Coding Train, and p5.js tutorial about Functions.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1927990637&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mansteri" title="Månsteri" target="_blank" style="color: #cccccc; text-decoration: none;">Månsteri</a> · <a href="https://soundcloud.com/mansteri/notebooklm-deep-dive-functions-in-p5js" title="NotebookLM Deep Dive | Functions in p5.js" target="_blank" style="color: #cccccc; text-decoration: none;">NotebookLM Deep Dive | Functions in p5.js</a></div>
+
+Let me know if you feel that it is helpful and I can keep on making more of them from the other topics. Or better yet, learn how to use NotebookLM yourself.
+{{</hint>}}
+
 So far, we have written functions that are part of the p5.js library.
 
 - [setup()](https://p5js.org/reference/#/p5/setup)
