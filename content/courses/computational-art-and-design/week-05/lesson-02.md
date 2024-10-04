@@ -40,11 +40,11 @@ Let me know if you feel that it is helpful and I can keep on making more of them
 
 So far, we have written functions that are part of the p5.js library.
 
-- [setup()](https://p5js.org/reference/#/p5/setup)
-- [draw()](https://p5js.org/reference/#/p5/draw)
-- [preload()](https://p5js.org/reference/#/p5/preload)
-- [mousePressed()](https://p5js.org/reference/#/p5/mousePressed)
-- [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
+- [setup()](https://p5js.org/reference/p5/setup)
+- [draw()](https://p5js.org/reference/p5/draw)
+- [preload()](https://p5js.org/reference/p5/preload)
+- [mousePressed()](https://p5js.org/reference/p5/mousePressed)
+- [keyPressed()](https://p5js.org/reference/p5/keyPressed)
 
 {{<hint info>}}
 The functions I listed above are the ones that we actually write out in the code and the program decides when to call them. For example, ```setup()``` is called once when the program starts, ```draw()``` gets called 60 times per second, ```mousePressed()``` when a person presses the mouse etc. Check the [reference](https://p5js.org/reference/) for more functions that behave in similar ways. Most of them are in the **Sructure**, **Mouse** or **Keyboard** sections.
@@ -52,9 +52,9 @@ The functions I listed above are the ones that we actually write out in the code
 
 Other type of functions we have been using from the p5.js library are functions that we don't have to write/define in our code. We just call them by using them.
 
-- [circle()](https://p5js.org/reference/#/p5/circle)
-- [background()](https://p5js.org/reference/#/p5/background)
-- [translate()](https://p5js.org/reference/#/p5/translate)
+- [circle()](https://p5js.org/reference/p5/circle)
+- [background()](https://p5js.org/reference/p5/background)
+- [translate()](https://p5js.org/reference/p5/translate)
 - etc.
 
 You can see how the library looks like by [opening this link that is the actual code of the p5.js library (version 1.4.2)](https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.js). Or a more friendlier version is the [actual source code on GitHub](https://github.com/processing/p5.js). If you are interested, you can dig into them to see how the library works under the hood.
@@ -264,7 +264,7 @@ function checkLarger(a,b){
 }
 ```
 
-Both of these functions already exist in p5.js [sq()](https://p5js.org/reference/#/p5/sq) and [max()](https://p5js.org/reference/#/p5/max) so there is no need to re-invent them. These were just used to illustrate how the return values could work.
+Both of these functions already exist in p5.js [sq()](https://p5js.org/reference/p5/sq) and [max()](https://p5js.org/reference/p5/max) so there is no need to re-invent them. These were just used to illustrate how the return values could work.
 
 Here are two handy functions that do not directly exist in p5.js:
 
@@ -473,3 +473,5 @@ Requirements:
 - [John Maeda 12 o'clocks](https://www.youtube.com/watch?v=B7dbz9qepe0)
 - [12 o'clocks p5.js adaptations](https://codingtrain.github.io/12oclocks/)
 - [The Pudding Data Clocks](https://pudding.cool/projects/clocks/)
+- [Golan Levin's Clock Lecture](https://github.com/golanlevin/lectures/tree/master/lecture_clock)
+- [Plotclock](https://www.youtube.com/watch?v=iOLFP90DneY)
