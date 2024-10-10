@@ -23,6 +23,16 @@ p5js-widget: true
 
 ---
 
+## Summary as an AI Podcast
+
+{{<hint info>}}
+I am trying out something new this time. I used [NotebookLM](https://notebooklm.google.com) to generate a podcast based on the course materials on this page.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1932204935&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mansteri" title="Månsteri" target="_blank" style="color: #cccccc; text-decoration: none;">Månsteri</a> · <a href="https://soundcloud.com/mansteri/notebooklm-deep-dive-javascript-objects" title="NotebookLM Deep Dive | JavaScript Objects" target="_blank" style="color: #cccccc; text-decoration: none;">NotebookLM Deep Dive | JavaScript Objects</a></div>
+
+Let me know if you feel that it is helpful and I can keep on making more of them from the other topics. Or better yet, learn how to use NotebookLM yourself.
+{{</hint>}}
+
 {{<hint danger>}}
 **The topic this week can be complex, overwhelming, and confusing at first. Don't be discouraged if you feel that way. Just keep on going. Many of these things will be repeated over and over again and they will slowly get more familiar.**
 {{</hint>}}
