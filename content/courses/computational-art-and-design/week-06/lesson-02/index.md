@@ -13,9 +13,10 @@ p5js-widget: true
 
 ## Inspiration
 
-{{<vimeo 287093890>}}
+{{<youtube HldUmr6VMSs>}}
 
-- [Janelle Shane - AI Weirdness](https://www.aiweirdness.com/)
+- [Qianqian Ye](https://qianqian-ye.com/index.html)
+- [p5.js Lead](https://p5js.org/people/)
 
 ---
 
