@@ -4,8 +4,6 @@ bookCollapseSection: false
 weight: 90
 ---
 
-# An Incomplete Timeline of Audiovisual Art
-
 This page is an attempt to collect a list of notable artworks, artists, documentaries, papers and other resources related to the course Audiovisual Studio at Aalto Media Lab. The focus is on works that specifically explore the connection between sound/music and visuals, real-time media, or works that have had a significant impact on the field in some other way.
 
 This list is by no means exhaustive and is constantly updating. It is an ongoing research and note-taking process that will probably never come to a conclusion.
