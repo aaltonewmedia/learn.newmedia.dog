@@ -99,4 +99,4 @@ If you missed something during the class, [you can check out this series of vide
 
 #### Project Files
 
-The project file will be uploaded after the class today.
+- [The project I was working on during Monday](./files/monday_001.zip)
