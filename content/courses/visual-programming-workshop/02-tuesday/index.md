@@ -13,8 +13,7 @@ p5js-widget: true
 - 12:00–13:15 | Lunch
 - 13:15–14:30 | Building a VJ Tool #2: Making it audio reactive
 - 14:30–14:45 | Break
-- 14:45–15:45 | Building a VJ Tool #2: Making it audio reactive
-- 15:45–16:00 | Break
+- 14:45–16:00 | [Screening at Marsio Cinema: Visualist - Those Who See Beyond](https://www.imdb.com/title/tt13586636/)
 - 16:00–17:00 | Experimenting, Q&A
 
 ## Visual Music
@@ -83,6 +82,12 @@ Basic specs of the space:
 - 9.1 surround sound
 - The computer in the space has TouchDesigner Educational (and many other software) installed
 - I have made several TouchDesigner helper files that can found from the TouchDesigner Palette menu on the computer. Those files will also be shared and documented on this site as well as soon as I have the time.
+
+---
+
+## Screening
+
+{{<youtube VColqJiYOOM>}}
 
 ---
 
