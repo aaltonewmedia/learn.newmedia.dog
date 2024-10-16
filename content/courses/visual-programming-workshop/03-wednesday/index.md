@@ -23,7 +23,8 @@ p5js-widget: true
 
 Everyone has been working on their own projects now and I think that we probably have very different looking projects at this point. For this part, please download my starting point file and we can work together from there.
 
-[Download the project file.](./files/wednesday_starting_point.zip)
+- [Download the project file.](./files/wednesday_starting_point.zip)
+- [After lunch: party finished interface](./files/wednesday_starting_point_done.zip)
 
 ---
 
