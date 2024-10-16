@@ -69,29 +69,28 @@ We also use the following spaces at Marsio:
 - 12:00–13:15 | Lunch
 - 13:15–14:30 | Building a VJ Tool #2: Making it audio reactive
 - 14:30–14:45 | Break
-- 14:45–15:45 | Building a VJ Tool #2: Making it audio reactive
-- 15:45–16:00 | Break
+- 14:45–16:00 | [Screening at Marsio Cinema: Visualist - Those Who See Beyond](https://www.imdb.com/title/tt13586636/)
 - 16:00–17:00 | Experimenting, Q&A
 
 ### Wednesday | 16/10/2024
 
 [Detailed materials for Wednesday](./03-wednesday)
 
-- 09:15–10:15 | Working with COMPs
+- 09:15–10:15 | Cleaning Up Our Project
 - 10:15–10:30 | Break
-- 10:30–12:00 | Working with SOPs
+- 10:30–12:00 | Audio Analysis Continued
 - 12:00–13:15 | Lunch
 - 13:15–14:30 | Building a VJ Tool #3: User Interface
 - 14:30–14:45 | Break
-- 14:45–15:45 | Building a VJ Tool #2: User Interface
+- 14:45–15:45 | Building a VJ Tool #3: User Interface
 - 15:45–16:00 | Break
-- 16:00–17:00 | Experimenting, Q&A
+- 16:00–17:00 | Special Topics: Loading JSON Data, 3D etc.
 
 ### Thursday | 17/10/2024
 
-- 09.15–12:00 Project Work
+- 09.15–12:00 Project Work and Tutoring
 - 12:00–13:00 Lunch
-- 13:00–15:00 Project work
+- 13:00–15:00 Project Work and Tutoring
 - 16:00–17:00 Q&A, progress report
 
 ### Friday | 18/10/2024
