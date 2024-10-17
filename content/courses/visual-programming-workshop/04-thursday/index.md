@@ -16,12 +16,6 @@ weight: 40
 
 ### Outcome
 
-You can approach this project in many different ways. There is no one correct way.
-
-- Start with a clear concept and try to create that vision
-- Import lots of materials and start messign around with it and see where it takes you like you be sketching with the code
-- Explore some - [TouchDesigner Tutorials]({{<ref "/tutorials/touchdesigner">}} "TD Tutorials") and do a couple of them
-
 Your outcome can be, but is not limited to:
 
 - A video file that you record/render/animate/generate (video art, music video, animation, short film etc.)
@@ -30,7 +24,23 @@ Your outcome can be, but is not limited to:
 - A short performance that you do on Friday (same locations as above)
 - A collection of short experiments during the workshop
 
+You can approach this project in many different ways. There is no one correct way.
+
+- Start with a clear concept and try to create that vision
+- Import lots of materials and start messign around with it and see where it takes you like you be sketching with the code
+- Explore some - [TouchDesigner Tutorials]({{<ref "/tutorials/touchdesigner">}} "TD Tutorials") and do a couple of them
+
 ### Deliverables
+
+#### Presentation (Friday 18.10.2024)
+
+Present your to the class and others who might show up in some way:
+
+- Presentation in classroom, Experimental Studio or Visualization Studio
+- VJing in the Experimental Studio
+- Screening in the Cinema
+
+#### Documentation (Deadline next week)
 
 Create a short video recording (1 to 5 minutes). This could be for example:
 
