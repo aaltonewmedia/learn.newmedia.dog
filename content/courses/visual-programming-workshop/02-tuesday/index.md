@@ -2,7 +2,6 @@
 title: "02 TUE | Audio Analysis"
 bookCollapseSection: false
 weight: 20
-p5js-widget: true
 ---
 
 ## Schedule

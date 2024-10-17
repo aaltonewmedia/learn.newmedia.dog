@@ -1,8 +1,7 @@
 ---
 title: "03 WED | User Interface"
 bookCollapseSection: false
-weight: 20
-p5js-widget: true
+weight: 30
 ---
 
 ## Schedule

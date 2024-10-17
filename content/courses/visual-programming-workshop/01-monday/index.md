@@ -2,7 +2,6 @@
 title: "01 MON | Introduction"
 bookCollapseSection: false
 weight: 10
-p5js-widget: true
 ---
 
 ## Schedule

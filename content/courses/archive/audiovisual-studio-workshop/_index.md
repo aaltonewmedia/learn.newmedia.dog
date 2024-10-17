@@ -85,7 +85,7 @@ We also use the Screening Room H005 in the afternoons.
 
 - 09.15–12:00 Project Work
 - 12:00–13:00 Lunch
-- 13:00–15:00 Project work
+- 13:00–16:00 Project work
 - 16:00–17:00 Screening
 
 ### Friday | 20/10/2023
