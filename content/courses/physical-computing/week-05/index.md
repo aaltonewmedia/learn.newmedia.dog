@@ -2,7 +2,7 @@
 title: "05 | Project Work"
 bookCollapseSection: false
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## Schedule

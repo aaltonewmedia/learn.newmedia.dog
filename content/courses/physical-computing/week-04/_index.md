@@ -2,7 +2,7 @@
 title: "04 | Communication"
 bookCollapseSection: true
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## Schedule

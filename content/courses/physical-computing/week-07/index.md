@@ -2,7 +2,7 @@
 title: "07 | Project Work (Workshop Week)"
 bookCollapseSection: false
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## Schedule
