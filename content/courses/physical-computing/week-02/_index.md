@@ -2,6 +2,7 @@
 title: "02 | Sensing the World"
 bookCollapseSection: true
 p5js-widget: true
+draft: true
 ---
 
 ## Schedule

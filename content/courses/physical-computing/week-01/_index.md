@@ -17,25 +17,23 @@ p5js-widget: true
 
 ### 1. Course Documentation website
 
-{{<hint info>}}
-For the 2023 course, we are experimenting with a new way of doing the project documentation. Matti has been setting up a website at [newmedia.dog](https://newmedia.dog/) for archiving course work, student projects, and generally as a project documentation site for new media students. All of you will have a way to contribute to this site under your own repository.
-
-I am still figuring out some of the ways this could be done as smooth as possible, so please bear with me if/when there are some hiccups.
-
-I did not have the time to prepare the instructions properly for the beginning of the course, so we will go through this in detail on October 26.
-{{</hint>}}
+[This page will have more detailed instructions on the how to update the site](../documentation-website/)
 
 Do the following:
 
-- Change the `me.png` to something else
-- Update any other information on the site
-- Try to add the documentation of the second assignment below to the folder called `week-01` inside the `physical-computing` folder.
-
-[This page will have more detailed instructions on the how to update the site](../documentation-website/)
-
+1. Fill in this form on MyCourses (before Tuesday's class) and decide if you want to have the documentation public on the internet or not.
+2. Once you get access to the site, log in and look around the folder that has your name.
+3. Add an image to the page that is already there with you name
+    - call it `featured.jpg`
+    - the resolution should be smaller than 2000x2000 pixels
+    - **Make sure that the size of the file is smaller than 1 MB**
+4. Edit the page and add some short text about yourself.
+5. Press Publish --> Publish Now
+6. Wait for a couple of minutes and the website updates.
+    
 ---
 
-### 2. Arduino Basics (Thursday, November 1, 13:00)
+### 2. Arduino Basics (Deadline: Thursday, October 31, 13:00)
 
 Create a circuit and Arduino code that does the following
 
@@ -51,7 +49,12 @@ Create a circuit and Arduino code that does the following
 5. When the switch is pressed the third time, both LEDs turn off
 6. Repeat this same cycle of LEDs turning on and off in sequence (off, one LED, two LEDs, off...)
 
-**Document your work on the course website that you created. Deadline: Thursday, November 2, 13:00**
+#### Documentation
+
+**Document your work on the course website that you created. Deadline: Thursday, October 31, 13:00**
+
+- Add a new page under your collection. Call it `Week 01`
+- Add your code, picture of your circuit, and short description/reflection on your process. What was easy, what was difficult?
 
 #### Tips
 

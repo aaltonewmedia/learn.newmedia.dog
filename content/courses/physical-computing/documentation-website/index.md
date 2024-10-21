@@ -17,7 +17,7 @@ I am still figuring out some of the ways this could be done as smooth as possibl
 
 1. Setup your Aalto Google Drive account [by following these instructions.](https://www.aalto.fi/en/services/google-drive-registration-and-closing-of-an-account)
 
-2. Fill in the form on MyCourses so that I can prepare the usernames and access for you.
+2. [Fill in the form on MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1258687) so that I can prepare the usernames and access for you.
 
 3. You will get your own section on the website under the 2024 page: [physcomp.newmedia.dog/2024/](https://physcomp.newmedia.dog/2024/)
 
