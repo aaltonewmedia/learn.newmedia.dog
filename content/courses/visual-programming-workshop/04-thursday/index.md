@@ -32,7 +32,7 @@ You can approach this project in many different ways. There is no one correct wa
 
 ### Deliverables
 
-#### Presentation (Friday 18.10.2024)
+#### Presentation (Friday 18.10.2024 at 14:00)
 
 Present your to the class and others who might show up in some way:
 
@@ -77,3 +77,4 @@ Check the license for each piece carefully and follow the license restrictions.
 
 - [TouchDesigner Tutorials from Derivative](https://learn.derivative.ca/)
 - [List of different TouchDesigner Tutorials]({{<ref "/tutorials/touchdesigner">}} "TD Tutorials") 
+- [Load Weather Data with an API using TouchDesigner](https://www.youtube.com/watch?v=7A0HCGySkfA)

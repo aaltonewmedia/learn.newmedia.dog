@@ -6,7 +6,7 @@ p5js-widget: true
 
 ## Schedule
 
-| TIME | MON 04/12 | TUE 05/12 | WED 06/12 | THU 07/12 | FRI 08/12 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 | Project Work | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |

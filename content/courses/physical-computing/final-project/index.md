@@ -1,5 +1,5 @@
 ---
-title: "Physical Computing | Final Project"
+title: "Final Project"
 bookCollapseSection: false
 p5js-widget: false
 ---

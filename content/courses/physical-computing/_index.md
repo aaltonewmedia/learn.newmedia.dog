@@ -12,7 +12,7 @@ If you are looking for the old Electronics for Artists course, Physical Computin
 ## Important Links
 
 - [GitHub Repository for Code Examples](https://github.com/aaltonewmedia/physical-computing)
-- [MyCourses Link, 2023](https://mycourses.aalto.fi/course/view.php?id=39931)
+- [MyCourses Link, 2024](https://mycourses.aalto.fi/course/view.php?id=44021)
 - [Arduino and Electronics Tutorials](../../tutorials/arduino-and-electronics/)
 
 ## Content
@@ -111,7 +111,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 1 | Introduction
 
-| TIME | MON 23/10 | TUE 24/10 | WED 25/10 | THU 26/10 | FRI 27/10 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -120,7 +120,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 2 | Sensing the World
 
-| TIME | MON 30/10 | TUE 31/10 | WED 01/11 | THU 02/11 | FRI 03/11 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -129,7 +129,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 3 | Making Things Move
 
-| TIME | MON 06/11 | TUE 07/11 | WED 08/11 | THU 09/11 | FRI 10/11 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -138,7 +138,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 4 | Communication
 
-| TIME | MON 13/11 | TUE 14/11 | WED 15/11 | THU 16/11 | FRI 17/11 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -147,7 +147,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 5 | Project Work
 
-| TIME | MON 20/11 | TUE 21/11 | WED 22/11 | THU 23/11 | FRI 24/11 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -156,7 +156,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 6 | Project Work
 
-| TIME | MON 27/11 | TUE 28/11 | WED 29/11 | THU 30/11 | FRI 01/12 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -165,7 +165,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 #### Week 7 (Workshop Week) | Project Work
 
-| TIME | MON 04/12 | TUE 05/12 | WED 06/12 | THU 07/12 | FRI 08/12 |
+| TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 | Project Work | Project Work | INDEPENDENCE DAY | Project Work | Exhibition Setup |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | INDEPENDENCE DAY | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
