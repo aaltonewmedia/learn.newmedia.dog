@@ -4,6 +4,10 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
+{{<hint danger>}}
+**Most of the dates and some other information here is from last year and has not yet been updated to 2024!**
+{{</hint>}}
+
 ## Guidelines
 
 Students should complete a final project, either individually or in a small group (max. 3 students), that explores electronics as a creative medium.
