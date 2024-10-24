@@ -15,12 +15,10 @@ I am still figuring out some of the ways this could be done as smooth as possibl
 
 ## Instructions
 
-1. Setup your Aalto Google Drive account [by following these instructions.](https://www.aalto.fi/en/services/google-drive-registration-and-closing-of-an-account)
+1. [Fill in the form on MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1258687) so that I can prepare the access for you.
 
-2. [Fill in the form on MyCourses](https://mycourses.aalto.fi/mod/questionnaire/view.php?id=1258687) so that I can prepare the usernames and access for you.
+2. You will get your own section on the website under the 2024 page: [physcomp.newmedia.dog/2024/](https://physcomp.newmedia.dog/2024/)
 
-3. You will get your own section on the website under the 2024 page: [physcomp.newmedia.dog/2024/](https://physcomp.newmedia.dog/2024/)
+3. Click the login link on the top of the page and login with the username and password that you can find in MyCourses.
 
-4. Click the login link on the top of the page and login with your google account connected to your Aalto email (step 1).
-
-5. You can start adding new pages by using the content-management system.
+4. You can start adding new pages by using the content-management system.

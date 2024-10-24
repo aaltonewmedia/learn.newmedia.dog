@@ -23,7 +23,7 @@ Do the following:
 
 1. Fill in this form on MyCourses (before Tuesday's class) and decide if you want to have the documentation public on the internet or not.
 2. Once you get access to the site, log in and look around the folder that has your name.
-3. Add an image to the page that is already there with you name
+3. Add a featured image to the page that is already there with you name
     - call it `featured.jpg`
     - the resolution should be smaller than 2000x2000 pixels
     - **Make sure that the size of the file is smaller than 1 MB**
@@ -55,10 +55,11 @@ Create a circuit and Arduino code that does the following
 
 - Add a new page under your collection. Call it `Week 01`
 - Add your code, picture of your circuit, and short description/reflection on your process. What was easy, what was difficult?
+- Optional: Add your thoughts and reflections on the readings.
 
 #### Tips
 
-There are multiple ways to solve this. As long as it works, it works.
+There are multiple ways to solve this. As long as it works, it works. **Do not use Chat GPT to give you the answer directly. That is not you learning.**
 
 {{<hint info>}}
 [Check the tutorials on Digital Input from here](../../../tutorials/arduino-and-electronics/arduino/) for tips on getting through some of the problems.
