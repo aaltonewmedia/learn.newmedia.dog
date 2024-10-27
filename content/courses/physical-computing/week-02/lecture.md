@@ -5,6 +5,12 @@ weight: 10
 p5js-widget: true
 ---
 
+{{<hint info>}}
+Note that we are in a different location today!  
+**Room Q101, Väre**
+{{</hint>}}
+
+
 ## Examples
 
 ### Matti Niinimäki & Pasi Rauhala
