@@ -6,10 +6,6 @@ draft: false
 weight: 220
 ---
 
-# Analog Input: Hysteresis
-
----
-
 Hysteresis is a phenomenon in which the value of a physical property lags behind changes in the effect causing it, as for instance when magnetic induction lags behind the magnetizing force. In electronics this could mean the lag between an input value and a corresponding output.
 
 Sometimes you might want to try to minimize hysteresis in your circuits to get rid of any lag. **However, when working with interactive systems and sensors (inputs) you often want to add hysteresis in your system to prevent unwanted flickering between two different states due to noisy signals.** We saw this happening in the examples above when using just a simple threshold.

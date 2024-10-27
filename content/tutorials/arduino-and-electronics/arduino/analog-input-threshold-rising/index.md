@@ -6,10 +6,6 @@ draft: false
 weight: 210
 ---
 
-# Analog Input: Threshold With Rising/Falling Signal
-
----
-
 Just like we already did with the digital signals, we can also make a small change to the code to have the output triggered only once when the input goes above or below the threshold.
 
 ## Code

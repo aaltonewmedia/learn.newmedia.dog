@@ -6,10 +6,6 @@ draft: false
 weight: 102
 ---
 
-# Digital Input: Falling or Rising Edge
-
----
-
 In most cases, it’s not enough just to know if the signal changed. You often need to also know if your signal changed from on to off or vice versa.
 
 The change from LOW to HIGH is called Rising Edge

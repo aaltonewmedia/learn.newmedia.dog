@@ -6,10 +6,6 @@ draft: false
 weight: 240
 ---
 
-# Analog Input: Filtering and Smothing
-
----
-
 Quite often the readings you get from sensors or other inputs are noisy. The noise might be due to electrical noise in the circuit, faulty sensors, or just from how the physical world works (shaky hands, unstable movements, wind etc.)
 
 ## Average

@@ -6,10 +6,6 @@ draft: false
 weight: 230
 ---
 
-# Analog Input: Mapping
-
----
-
 ## map()
 
 Arduino has a a very useful [map()](https://www.arduino.cc/reference/en/language/functions/math/map/) function that might be familiar to you from Processing or p5.js.  

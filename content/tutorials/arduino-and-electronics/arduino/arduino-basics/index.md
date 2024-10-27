@@ -6,10 +6,6 @@ draft: false
 weight: 1
 ---
 
-# Arduino Basics
-
----
-
 ## How To Get Started?
 
 [Download the Arduino software](https://www.arduino.cc/en/software) and follow the instructions on the Arduino website if you have problems setting things up. The Arduino boards that you have are Arduino Unos and do not require any driver installation for Mac or Linux. Windows will require a driver that comes with the installer package.
