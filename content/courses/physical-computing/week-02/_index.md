@@ -14,7 +14,7 @@ draft: false
 | 13:15–15:00 |  | [Input: Simple Sensors](./lesson-01) |  | [Input: Digital Sensors](./lesson-01) |  |
 | 15:15–17:00 | [Alt+Ctrl Games](./lecture) | [Input: Simple Sensors](./lesson-01) |  | [Input: Digital Sensors](./lesson-01) |  |
 
-## Deliverables for Week 2 (Deadline: Thursday, November 9, 13:00)
+## Deliverables for Week 2
 
 ### 1. Find an interesting existing Alt+Ctrl Interface
 
@@ -32,7 +32,7 @@ Find one interesting project/controller and write a short description of the pro
 - Think of different interactions and/or gestures that could be detected with the sensor you picked.
 - Choose an existing video game that could be controlled using the interaction/interface enabled by this sensor. You can also come up with a completely new game/game mechanic.
 - You don't need to make it work yet. Just come up with the idea/concept for your alternative controller.
-- Write about your idea on your site.
+- **Write about your idea on your site.**
 - You can draw sketches or other ways to illustrate your idea.
 - You can also make a prototype if you are able to, but I am not requiring it. It's enough to just describe the concept.
 
@@ -52,17 +52,3 @@ When thinking of new interactions, I find it helpful to go to hardware stores, a
 
 - [OT14 3D Print](https://mycourses.aalto.fi/course/view.php?id=23273)
 - [OT14 Plastics & Laser H001](https://mycourses.aalto.fi/course/view.php?id=19552)
-
-#### Files for 3D printing
-
-We will use class time next week to go print the parts that we need, but if you already have time, you can go and 3D print the sensormount/googly eye holder for our robot. [Check MyCourses for the cost center and project code that you can give at the 3D Print workshops so you don't have to pay for the materials.](https://mycourses.aalto.fi/mod/page/view.php?id=1113688&forceview=1)
-
-- [roboeyes.stl](/files/physical-computing-robot/roboeyes.stl)
-
-If you want to edit the design, you can use this [Fusion 360 file](https://a360.co/479P6xB).
-
-#### Files for Laser Cutting
-
-We will use class time next week to go cut the parts that we need. I will upload the files here in advance so you can already cut them if you know how.
-
-*Matti is still working on this file. Come back later...*
