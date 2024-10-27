@@ -69,6 +69,12 @@ There are multiple ways to solve this. As long as it works, it works. **Do not u
 If you get stuck and cannot make it work. [Follow the solutions here.](../assignments/week-01/) There is even a video tutorial for one way of doing this.
 {{</hint>}}
 
+{{<hint danger>}}
+Test your code and circuit for bugs. Does it still work if you do the following:
+- How fast can you click? Does it respond even if you click very fast?
+- Hold the button down for a long time, what happens?
+{{</hint>}}
+
 ---
 
 ### 3. Readings
