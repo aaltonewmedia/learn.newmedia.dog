@@ -20,10 +20,16 @@ Create a circuit and Arduino code that does the following
 5. When the switch is pressed the third time, both LEDs turn off
 6. Repeat this same cycle of LEDs turning on and off in sequence (off, one LED, two LEDs, off...)
 
-**Document your work on the course website that you created. Deadline: Thursday, November 2, 13:00**
+**Document your work on the course website that you created. Deadline: Thursday, October 31, 13:00**
 
 ### Tips
 [Check the tutorials on Digital Input from here]({{< ref "/tutorials/arduino-and-electronics/arduino/" >}} "Arduino Tutorials")
+
+{{<hint danger>}}
+Test your code and circuit for bugs. Does it still work if you do the following:
+- How fast can you click? Does it respond even if you click very fast?
+- Hold the button down for a long time, what happens?
+{{</hint>}}
 
 ### Solutions
 
