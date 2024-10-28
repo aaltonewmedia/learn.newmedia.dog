@@ -33,7 +33,9 @@ Find one interesting project/controller and write a short description of the pro
 
 ### 2. Come up with a concept for your own Alt+Ctrl Interface
 
-- Explore at least one sensor in more detail. Figure out how to read the values from it with your Arduino. Print out the data from the sensor to the Serial Monitor or Serial Plotter
+- Explore at least one sensor in more detail. You can do this with the actual sensor or just do some research on what is available in general.
+  - If you have access to the sensor, figure out how to read the values from it with your Arduino. Print out the data from the sensor to the Serial Monitor or Serial Plotter.
+  - If you are not able to actually use it, find out what type of data you can get out of it. Is it on/off signal, continuous number, some more complex data?
 - Think of different interactions and/or gestures that could be detected with the sensor you picked.
 - Choose an existing video game that could be controlled using the interaction/interface enabled by this sensor. You can also come up with a completely new game/game mechanic.
 - You don't need to make it work yet. Just come up with the idea/concept for your alternative controller.
@@ -51,6 +53,13 @@ When thinking of new interactions, I find it helpful to go to hardware stores, a
 - [Recycling Centers](https://www.kierratyskeskus.fi/myymalat_ja_palvelut)
 - [Hobby Point](https://hobbypoint.fi/)
 - [Metka](https://www.kirppikset.info/kirppikset/metkan-kirpputori-helsinki)
+{{</hint>}}
+
+{{<hint info>}}
+If you do not know what kind of sensors exist, I recommend exploring the following sites:
+- [Adafruit](https://www.adafruit.com/category/35)
+- [Sparkfun](https://www.sparkfun.com/categories/23)
+- [Sensorwiki](https://sensorwiki.org/welcome)
 {{</hint>}}
 
 ### 3. Complete the MyCourses introductions for the 3D Printing and Laser Cutter workshops

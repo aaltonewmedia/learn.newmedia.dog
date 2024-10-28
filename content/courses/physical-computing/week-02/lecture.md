@@ -10,6 +10,17 @@ Note that we are in a different location today!
 **Room Q101, Väre**
 {{</hint>}}
 
+Alternative controller games (often called ALT+CTRL games or some variations of the spelling) are games that are played with experimental controllers beyond mouse, joystick, and game controllers. Usually, these controllers are built by the artists/designers/developers themselves.
+
+Sometimes thes games are also played on an experimental output device beyond a normal screen, such as LED lights or mechanical machines.
+
+I am presenting this idea as the start of the sensor week to hopefully make you look at everyday objects in a different way. What kind of sensors could be used to convert the interactions to signals that can be read with a microcontroller?
+
+{{<youtube IDVHkcUB9jI>}}
+
+{{<hint info>}}
+ALT+CTRL games and making playful interactions are not somehow new although the term has only been used since 2014 or so. Artists have been creating interactive and playful artworks for decades. And there have been experimental controllers developed directly in the games industry (Nintendo Power Glove, Arcade Games). The term has been coined to describe this practice where the focus is on games instead of interactive installation art.
+{{</hint>}}
 
 ## Examples
 
@@ -59,6 +70,10 @@ The [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc) is a specific category of th
 [Mechbird | Tatiana Vilela Dos Santos](https://mechbird.fr/)
 
 Tatiana also has a [YouTube channel](https://www.youtube.com/@MechBird) where she presents lots of ALT+CTRL projects.
+
+### Lieven van Velthoven | Room Racers
+
+{{<youtube BNquGMrxN1U>}}
 
 ---
 
