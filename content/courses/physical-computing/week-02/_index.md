@@ -29,19 +29,20 @@ Explore the archive from GDC, Shake That Button and beyond:
 - [Tatiana Vilela dos Santos | Mechbird](https://mechbird.fr/)
 - [Mechbird YouTube Channel](https://www.youtube.com/@MechBird)
 
-Find one interesting project/controller and write a short description of the project. Include a link to it and even embed a video to your site if there it is available. Why did you choose this? What caught your attention?
+Find one interesting project/controller and write a short description of the project. Include a link to it and even embed a video to your site if it is available. Why did you choose this? What caught your attention?
 
 ### 2. Come up with a concept for your own Alt+Ctrl Interface
 
 - Explore at least one sensor in more detail. You can do this with the actual sensor or just do some research on what is available in general.
   - If you have access to the sensor, figure out how to read the values from it with your Arduino. Print out the data from the sensor to the Serial Monitor or Serial Plotter.
   - If you are not able to actually use it, find out what type of data you can get out of it. Is it on/off signal, continuous number, some more complex data?
-- Think of different interactions and/or gestures that could be detected with the sensor you picked.
-- Choose an existing video game that could be controlled using the interaction/interface enabled by this sensor. You can also come up with a completely new game/game mechanic.
+- Think of different interactions and/or gestures that could be detected with the sensor you picked. What kind of objects could the sensor be attached to?
+- Choose an existing video game that could be controlled using the interaction/interface enabled by this sensor OR come up with a completely new game or game mechanic.
 - You don't need to make it work yet. Just come up with the idea/concept for your alternative controller.
 - **Write about your idea on your site.**
 - You can draw sketches or other ways to illustrate your idea.
 - You can also make a prototype if you are able to, but I am not requiring it. It's enough to just describe the concept.
+- These can be silly, experimental, ridiculous, absurd...
 
 {{<hint info>}}
 Do not make this too complex. Think of simple games and game mechanics.
