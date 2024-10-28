@@ -34,7 +34,7 @@ ALT+CTRL games and making playful interactions are not somehow new although the 
 
 {{<youtube e2h8AtDR85Y>}}
 
-[Robin Baumgarten | More information](https://wobblylabs.com/projects/wobbler)
+[Robin Baumgarten | More information](https://www.wobblylabs.com/line-wobbler)
 
 ### AaltoXFlow (2018)
 
