@@ -48,7 +48,19 @@ Note that we are in a different location today!
 
 {{<youtube WprcPLSy13I>}}
 
-The [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc) is a specific category of the [Game Developer's Conference](https://gdconf.com/about) that showcases alternative controllers for games. [The deadline for 2025 submission is on December 6, 2024.](https://docs.google.com/forms/d/e/1FAIpQLSdG2BmnfW-yzhq1aOE4m12D0dMTgubnGcSnJfLNwMqlfBi92A/viewform)
+The [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc) is a specific category of the [Game Developer's Conference](https://gdconf.com/about) that showcases alternative controllers for games. [The deadline for 2025 submission is on December 6, 2024.](https://docs.google.com/forms/d/e/1FAIpQLSdG2BmnfW-yzhq1aOE4m12D0dMTgubnGcSnJfLNwMqlfBi92A/viewform). Please apply to the conference if the work you do in this class seems relevant to the topic.
+
+### How (not) to get hit by a self-driving car
+
+{{<vimeo 858031520>}}
+
+### Mechbird
+
+[Mechbird | Tatiana Vilela Dos Santos](https://mechbird.fr/)
+
+Tatiana also has a [YouTube channel](https://www.youtube.com/@MechBird) where she presents lots of ALT+CTRL projects.
+
+---
 
 ### Other resources
 
@@ -58,6 +70,8 @@ The [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc) is a specific category of th
 - [ITP New Arcade Class](https://www.instagram.com/newarcadeitp/)
 - [Wonderville](https://www.wonderville.nyc/)
 - [alt.ctrl.CDG](https://gdconf.com/alt-ctrl-gdc)
+- [Tatiana Vilela dos Santos | Mechbird](https://mechbird.fr/)
+- [Mechbird YouTube Channel](https://www.youtube.com/@MechBird)
 
 ---
 

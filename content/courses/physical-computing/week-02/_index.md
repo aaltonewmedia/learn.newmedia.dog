@@ -23,6 +23,11 @@ Explore the archive from GDC, Shake That Button and beyond:
 - [GDC alt.ctrl](https://gdconf.com/alt-ctrl-gdc)
 - [GDC alt.ctrl Archive](https://gdconf.com/alt-ctrl-gdc/archive)
 - [Shake that Button](https://shakethatbutton.com/)
+- [Makey Makey](https://makeymakey.com/)
+- [ITP New Arcade Class](https://www.instagram.com/newarcadeitp/)
+- [Wonderville](https://www.wonderville.nyc/)
+- [Tatiana Vilela dos Santos | Mechbird](https://mechbird.fr/)
+- [Mechbird YouTube Channel](https://www.youtube.com/@MechBird)
 
 Find one interesting project/controller and write a short description of the project. Include a link to it and even embed a video to your site if there it is available. Why did you choose this? What caught your attention?
 
