@@ -7,6 +7,10 @@ draft: false
 
 [![Adafruit MPR121 12-Key Capacitive Touch Sensor](./images/mpr121.jpg)](./images/mpr121.jpg)
 
+{{<hint danger>}}
+Note that I have had some issues sometins connecting to the sensor with the Arduino Uno R4 boards that we use. I am looking into the issues and hopefully be able to solve it. For now, just disconnecting the power and trying again seems to work. -Matti
+{{</hint>}}
+
 ## Links and Resources
 
 - [Datasheet of the sensor](./files/mpr121.pdf)
@@ -78,13 +82,45 @@ The `&` means that we are passing a reference to the address of the variable. Th
 
 {{</hint>}}
 
-## Full example code - Color Sensor
-```c
+## Full example code - Read Filtered Dara
 
-void setup(void) {
+```c
+#include "Wire.h"
+#include "Adafruit_MPR121.h"
+
+// You can have up to 4 on one i2c bus but one is enough for testing!
+Adafruit_MPR121 cap = Adafruit_MPR121();
+
+void setup() {
+  Serial.begin(115200);
+
+  Serial.println("Adafruit MPR121 Capacitive Touch sensor test"); 
+  // Default address is 0x5A, if tied to 3.3V its 0x5B
+  // If tied to SDA its 0x5C and if SCL then 0x5D
+  // &Wire1 is needed for Arduino Uno R4
+  while (!cap.begin(0x5A, &Wire1)) {
+    Serial.println("MPR121 not found, check wiring?");
+    delay(500);
+  }
+  Serial.println("MPR121 found!");
 }
 
 void loop() {
+  Serial.print("Filtered: ");
+  for (int i=0; i<12; i++) {
+    // print the touchpad number
+    Serial.print(i);
+    Serial.print(": ");
 
+    // print the filtered value from the sensor
+    Serial.print(cap.filteredData(i));
+    
+    // \t means tab character
+    Serial.print("\t");
+  }
+  Serial.println();
+  
+  // put a delay so it isn't overwhelming
+  delay(100);
 }
 ```

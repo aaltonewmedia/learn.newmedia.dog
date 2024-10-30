@@ -92,3 +92,27 @@ void loop() {
 
 }
 ```
+
+## Full example code - Proximity Sensor
+
+```c
+
+void setup(void) {
+}
+
+void loop() {
+
+}
+```
+
+## Full example code - Gesture Sensor
+
+```c
+
+void setup(void) {
+}
+
+void loop() {
+
+}
+```
