@@ -38,6 +38,8 @@ We are going to jump right into reading JSON files, but I have also provided som
 
 ## Reading text files
 
+[Here is a sample text file that you could use](./files/data.txt)
+
 <iframe src="https://openprocessing.org/sketch/2071219/embed/?plusEmbedHash=18be9346&userID=7588&plusEmbedTitle=true#sketch" width="100%" height="500"></iframe>
 
 ```js
