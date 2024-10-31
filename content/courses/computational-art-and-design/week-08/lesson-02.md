@@ -21,7 +21,7 @@ p5js-widget: true
 
 This technique is very commonly needed with Arduino so you will find this very useful in Physical Computing.
 
-[millis()](https://p5js.org/reference/#/p5/millis)
+[millis()](https://p5js.org/reference/p5/millis)
 
 ### noise()
 

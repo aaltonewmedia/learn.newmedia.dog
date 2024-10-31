@@ -34,7 +34,7 @@ p5js-widget: true
 - [loadXML](https://p5js.org/reference/p5/loadXML)
 - [loadJSON](https://p5js.org/reference/p5/loadJSON)
 
-We are going to jump right into reading JSON files, but I have also provided some infromation and examples for how to read text files, CSV files, and XML files.
+We are going to jump right into reading JSON files, but I have also provided some information and examples for how to read text files, CSV files, and XML files.
 
 ## Reading text files
 
