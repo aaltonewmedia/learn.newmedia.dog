@@ -29,10 +29,10 @@ p5js-widget: true
 
 ## Reading data with p5.js
 
-- [loadStrings](https://p5js.org/reference/#/p5/loadStrings)
-- [loadTable](https://p5js.org/reference/#/p5/loadTable)
-- [loadXML](https://p5js.org/reference/#/p5/loadXML)
-- [loadJSON](https://p5js.org/reference/#/p5/loadJSON)
+- [loadStrings](https://p5js.org/reference/p5/loadStrings)
+- [loadTable](https://p5js.org/reference/p5/loadTable)
+- [loadXML](https://p5js.org/reference/p5/loadXML)
+- [loadJSON](https://p5js.org/reference/p5/loadJSON)
 
 We are going to jump right into reading JSON files, but I have also provided some infromation and examples for how to read text files, CSV files, and XML files.
 
@@ -74,11 +74,11 @@ function pickNew(){
 
 ## Reading tables (CSV files)
 
-[See the loadTable example](https://p5js.org/reference/#/p5/loadTable)
+[See the loadTable example](https://p5js.org/reference/p5/loadTable)
 
 ## Reading XML files
 
-[See the loadXML example](https://p5js.org/reference/#/p5/loadXML)
+[See the loadXML example](https://p5js.org/reference/p5/loadXML)
 
 ## JSON
 
