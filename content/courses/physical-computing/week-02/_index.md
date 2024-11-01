@@ -16,6 +16,10 @@ draft: false
 
 ## Deliverables for Week 2
 
+{{<hint info>}}
+Deadline for these is Thursday, November 7, 13:00
+{{</hint info>}}
+
 ### 1. Find an interesting existing Alt+Ctrl Interface
 
 Explore the archive from GDC, Shake That Button and beyond:
