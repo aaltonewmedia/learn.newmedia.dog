@@ -26,10 +26,6 @@ Here are some suggestions for simple projects:
 - A simple data visualization of some dataset that you find interesting.
 - [See some examples from earlier years](../showcase/)
 
-{{<hint info>}}
-There is one specific project that I would like to see someone take on. **A poster for the exhibition we are doing at the end of the semester.** There should be a digital and printed version of the poster. The printed one can be printed with at the Printlab or you could also make it with [the Axidraw Plotter](../week-11/lesson-02.md).
-{{</hint>}}
-
 ### Combined Final Project with Physical Computing?
 
 You can combine the final project of this course to the one you are working on in Physical Computing. For example, you create some type of interactive installation that has a physical interface combined to immersive generative graphics, or you make a simple game with a custom controller etc.
@@ -38,13 +34,14 @@ You can combine the final project of this course to the one you are working on i
 
 ## Deliverables
 
-### Project Proposal (Friday, November 10)
+### Project Proposal (Friday, November 8)
 
-Submit a link to an online document (Miro board, [newmedia.dog](https://newmedia.dog/), Google Doc, OneDrive etc.) of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1113720). It should include the following:
+Submit a link to an online document (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc.) of your project proposal [via MyCourses](). It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
 - 1-3 examples of works that other people have done that are similar.
+- Are you combining this project with another course? (Physical Computing 21st Century Art & Science Lab, Storytelling etc.)
 
 {{<hint info>}}
 Note that your project can and probaly will change as you work on it. This is totally ok. Think of this document as a notebook that you keep updating as you work on your idea. Keep on adding references, code samples, sketches etc. to this "notebook"
@@ -52,17 +49,17 @@ Note that your project can and probaly will change as you work on it. This is to
 **Ideally, this should be something where Matti could directly add some comments.**
 {{</hint>}}
 
-**Present your idea in class on Friday, November 10.**
+**Present your idea in class on Friday, November 8.**
 
 ---
 
-### Final Project Presentation (Friday, December 1)
+### Final Project Presentation (Friday, November 30)
 
 You should present your project in class on Friday, December 1. We start presentations at 10 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
 
 ---
 
-### Final Project Documentation (Friday, December 15)
+### Final Project Documentation (Friday, December 13)
 
 You should send me documentation of the project via [MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1125442&forceview=1).
 
@@ -104,8 +101,8 @@ We have booked two spaces for exhibiting the work that we have been doing throgh
 
 ### Fill in the requirements for your work
 
-If you want to show your work in the exhibition, please submit requirements for your work [in MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1111345&forceview=1).
+If you want to show your work in the exhibition, we need to start gathering equipment for it. I will add a form here soon that you need to fill out.
 
-### Winter Demo Day 2023
+### Winter Demo Day 2024
 
-You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
+You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Registration form coming soon](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
