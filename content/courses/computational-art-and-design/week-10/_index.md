@@ -1,5 +1,5 @@
 ---
-title: "10 | Other Creative Coding Frameworks"
+title: "10 | Machine Learning | Project Proposals"
 bookCollapseSection: true
 p5js-widget: true
 draft: false

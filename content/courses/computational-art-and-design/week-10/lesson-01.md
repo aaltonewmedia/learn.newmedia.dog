@@ -1,5 +1,5 @@
 ---
-title: "THU | Other creative coding environments"
+title: "THU | Machine Learning with ml5.js"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
@@ -13,111 +13,340 @@ p5js-widget: true
 
 ---
 
-[Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding) is and excellent resource on all things creative coding.
+## Machine Learning
 
-## Creative Coding Tools/Environments/Frameworks
+Machine learning is a way to make machines do certain tasks without being explicitly programmed to do so.
 
-I have listed some tools here under different categories. Some of them appear in multiple categories.
+## ml5.js
 
-### Frameworks/Libraries for text-based programming languages
+[ml5.js](https://ml5js.org/) is a JavaScript library that can be combined with p5.js to use and explore certain artificial intelligence and machine learning libraries in your projects.
 
-- [p5.js](https://p5js.org/)
-  - [P5LIVE](https://teddavis.org/p5live/)
-- Other JavaScript Libraries
-  - [D3.js](https://d3js.org/)
-  - [Paper.js](http://paperjs.org/)
-  - [Three.js](https://threejs.org/)
-- [Processing](https://processing.org/)
-- [openFrameworks](https://openframeworks.cc/)
-- [Cinder](https://libcinder.org/)
-- [ISF](https://isf.vidvox.net/) Interactive Shader Format for shader programming
+ml5.js uses the Tensorflow library by Google. ml5.js is a library that attempts to make the usage of tensorflow a little bit easier.
 
-### Visual Programming Languages
+Important links
 
-- [TouchDesigner](https://derivative.ca/)
-- [vvvv](https://vvvv.org/)
-- [Pure Data](https://puredata.info/)
-- [Max](https://cycling74.com/)
-- [Vuo](https://vuo.org/)
-- [Quartz Composer](https://en.wikipedia.org/wiki/Quartz_Composer) (sadly pretty much killed by Apple)
-- [Troikatronix Isadora](https://troikatronix.com/)
-- [Notch](https://www.notch.one/)
-- [Cables.gl](https://cables.gl/)
+- [Tensorflow](https://www.tensorflow.org/)
+- [ml5.js](https://ml5js.org/)
+- [Getting Started](https://learn.ml5js.org/#/)
+- [Coding Train tutorial on ml5.js](https://thecodingtrain.com/tracks/ml5js-beginners-guide)
+- [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
-### Sound Programming
+These are the models that are available in ml5.js, explore the examples to understand what is possible.
 
-- [SuperCollider](https://supercollider.github.io/)
-- [Pure Data](https://puredata.info/)
-- [Max](https://cycling74.com/)
-- [SonicPi](https://sonic-pi.net/)
+Image
 
-### Visual Effects (Realtime)
+- [Image Classifier](https://learn.ml5js.org/#/reference/image-classifier) uses neural networks to recognize the content of images.
+- [PoseNet](https://learn.ml5js.org/#/reference/posenet) allows you to estimate "poses" from an image (still or video). This means that you can detect specific features of a human being from an image. These features would be your eyes, nose, hands, arms, legs, feet etc.
+- [BodyPix](https://learn.ml5js.org/#/reference/bodypix) allows for person and body-part segmentation from an image.
+- [UNET](https://learn.ml5js.org/#/reference/unet)
+- [Handpose](https://learn.ml5js.org/#/reference/handpose)
+- [Facemesh](https://learn.ml5js.org/#/reference/facemesh)
+- [FaceApi](https://learn.ml5js.org/#/reference/face-api)
+- [Styletransfer](https://learn.ml5js.org/#/reference/style-transfer)
+- [pix2pix](https://learn.ml5js.org/#/reference/pix2pix)
+- [CVAE](https://learn.ml5js.org/#/reference/cvae)
+- [DCGAN](https://learn.ml5js.org/#/reference/dcgan)
+- [SketchRNN](https://learn.ml5js.org/#/reference/sketchrnn)
+- [ObjectDetector](https://learn.ml5js.org/#/reference/object-detector)
 
-- [TouchDesigner](https://derivative.ca/)
-- [Houdini](https://www.sidefx.com/)
-- [Notch](https://www.notch.one/)
-- [Unity](https://unity.com/)
-- [Unreal Engine](https://www.unrealengine.com/)
+Text
 
-### Game Engines
+- [CharRNN](https://learn.ml5js.org/#/reference/charrnn)
+- [Sentiment](https://learn.ml5js.org/#/reference/sentiment)
+- [Word2Vec](https://learn.ml5js.org/#/reference/word2vec?id=examples) (currently disabled)
 
-- [Unity](https://unity.com/)
-- [Unreal Engine](https://www.unrealengine.com/)
+Sound
 
-## Courses in Aalto
-
-See the [Next Steps page.](../../next-steps/)
+- [SoundClassification](https://learn.ml5js.org/#/reference/sound-classifier)
+- [PitchDetection](https://learn.ml5js.org/#/reference/pitch-detection)
 
 ---
 
-## Explore
+## Example: PoseNet
 
-Use the class time to explore one or more of the tools listed above. Try some examples, poke things, see what happens...
+As we saw above, ml5.js allows you to use various models but we are going to explore just one of them in detail. This model is [PoseNet](https://learn.ml5js.org/#/reference/posenet).
 
-Suggestions:
+### Step #1: Prepare your sketch files
 
-- [Code together using P5LIVE in a shared session](https://teddavis.org/p5live/?cc=f8cse)
-- Install [Vuo](https://vuo.org/) and try to make something that works together with [VDMX](https://vidvox.net/) (if you are on a Mac)
-- [Go through some TouchDesigner tutorials](https://learn.derivative.ca/)
-- Work on your final project idea.
+The first step is to include the ml5.js library in your `ìndex.html` file. Add the following line inside the head part of the html file:
 
----
+```html
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+```
 
-## Example done in class 2022
+The basic starting poinf for your p5.js sketch is here:
 
 ```js
-let theta;
+// Open up your console - if everything loaded properly you should see the version number
+// corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
+console.log("ml5 version:", ml5.version);
+
 function setup() {
-  createCanvas(640, 360);
+  createCanvas(640, 480);
 }
 
 function draw() {
-  background(0);
-  stroke(255);
-  let a = (mouseX/width) * 90;
-  theta = radians(a);
-  translate(width/2,height);
-  line(0,0,0,-120);
-  translate(0,-120);
-  branch(120);
+  background(200);
+}
+```
+
+### Step 2: Enable Video Camera Input
+
+Next, make sure your webcam works.
+
+```js
+// Open up your console - if everything loaded properly you should see the version number
+// corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
+console.log("ml5 version:", ml5.version);
+
+let cam;
+
+function setup() {
+  createCanvas(640, 480);
+  cam = createCapture(VIDEO, videoLoaded);
+  cam.hide();
 }
 
-function branch(h){
-  h *= 0.66; // h = h * 0.66;
-  if(h>2){
-    push();
-    rotate(theta);
-    line(0,0,0,-h);
-    translate(0,-h);
-    branch(h);
-    pop();
-    
-    push();
-    rotate(-theta);
-    line(0,0,0,-h);
-    translate(0,-h);
-    branch(h);
-    pop();
+function draw() {
+  background(200);
+  image(cam, 0, 0);
+}
+
+function videoLoaded() {
+  // resize the canvas to be the same size as you camera resolution
+  resizeCanvas(cam.width, cam.height);
+}
+```
+
+{{<hint warning>}}
+There seems to be something wrong with setting the video camera image ration in p5.js. to fix that you can use the following example code.
+{{</hint>}}
+
+```js
+/*
+
+MORE INFO
+
+https://w3c.github.io/mediacapture-main/getusermedia.html#dom-constraindouble
+https://www.folkstalk.com/tech/how-to-force-a-16-9-ratio-with-getusermedia-on-all-devices-solution/
+https://calculateaspectratio.com/16-9-calculator
+
+*/
+
+let video; // or cam
+
+const cameraWidth = 960;
+const cameraHeight = 540;
+
+function setup() {
+  // canvas and other p5 functions HERE
+
+  const constraints = {
+    video: { width: cameraWidth, height: cameraHeight, facingMode: "user" },
+  };
+  // Dont remove or change anything from the function below. This is what you need to set any ratio
+  navigator.mediaDevices
+    .getUserMedia(constraints)
+    .then((stream) => (video.srcObject = stream))
+    .then(() => new Promise((resolve) => (video.onloadedmetadata = resolve)))
+    .then(() => log(video.videoWidth + "x" + video.videoHeight))
+    .catch((e) => {});
+
+  // Shows video
+  video = createCapture(constraints);
+  // video.hide()
+}
+```
+
+### Step 3: Load the PoseNet model and save the poses to an array
+
+```js
+// Open up your console - if everything loaded properly you should see the version number
+// corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
+console.log("ml5 version:", ml5.version);
+
+let cam;
+let posenet;
+// create an empty array to store the data from the posenet tracking
+let poses = [];
+
+function setup() {
+  createCanvas(640, 480);
+  cam = createCapture(VIDEO, videoLoaded);
+  cam.hide();
+
+  // Create a new poseNet method with a single detection
+  // modelReady function is called when the model has been loaded
+  poseNet = ml5.poseNet(cam, modelReady);
+
+  // This sets up an event that fills the global variable "poses"
+  // with an array every time new poses are detected
+  poseNet.on("pose", poseResults);
+}
+
+function draw() {
+  background(200);
+  image(cam, 0, 0);
+}
+
+function videoLoaded() {
+  // resize the canvas to be the same size as you camera resolution
+  resizeCanvas(cam.width, cam.height);
+}
+
+function modelReady() {
+  console.log("model loaded!");
+}
+
+function poseResults(results) {
+  poses = results;
+}
+
+function mousePressed() {
+  console.log(poses);
+}
+```
+
+### Step 4: Draw all the keypoints for one person (pose)
+
+```js
+// Open up your console - if everything loaded properly you should see the version number
+// corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
+console.log("ml5 version:", ml5.version);
+
+let cam;
+let posenet;
+// create an empty array to store the data from the posenet tracking
+let poses = [];
+
+function setup() {
+  createCanvas(640, 480);
+  cam = createCapture(VIDEO, videoLoaded);
+  cam.hide();
+
+  // Create a new poseNet method with a single detection
+  // modelReady function is called when the model has been loaded
+  poseNet = ml5.poseNet(cam, modelReady);
+
+  // This sets up an event that fills the global variable "poses"
+  // with an array every time new poses are detected
+  poseNet.on("pose", poseResults);
+}
+
+function draw() {
+  background(200);
+  image(cam, 0, 0);
+
+  // check that there is at least one person
+  if (poses.length > 0) {
+    // get the first pose (person) in the array
+    let person = poses[0].pose;
+    fill(255);
+    noStroke();
+    // loop through all of the keypoints in the pose
+    for (let i = 0; i < person.keypoints.length; i++) {
+      let x = person.keypoints[i].position.x;
+      let y = person.keypoints[i].position.y;
+      circle(x, y, 10);
+    }
   }
+}
+
+function videoLoaded() {
+  // resize the canvas to be the same size as you camera resolution
+  resizeCanvas(cam.width, cam.height);
+}
+
+function modelReady() {
+  console.log("model loaded!");
+}
+
+function poseResults(results) {
+  poses = results;
+}
+
+function mousePressed() {
+  // print the poses in the console when the mouse is pressed
+  console.log(poses);
+}
+```
+
+### Step 5: Get individual points
+
+```js
+// Open up your console - if everything loaded properly you should see the version number
+// corresponding to the latest version of ml5 printed to the console and in the p5.js canvas.
+console.log("ml5 version:", ml5.version);
+
+let cam;
+let posenet;
+// create an empty array to store the data from the posenet tracking
+let poses = [];
+let noseEmoji = "👃🏻";
+let eyeEmoji = "👁️";
+
+function setup() {
+  createCanvas(640, 480);
+  cam = createCapture(VIDEO, videoLoaded);
+  cam.hide();
+
+  // Create a new poseNet method with a single detection
+  // modelReady function is called when the model has been loaded
+  poseNet = ml5.poseNet(cam, modelReady);
+
+  // This sets up an event that fills the global variable "poses"
+  // with an array every time new poses are detected
+  poseNet.on("pose", poseResults);
+}
+
+function draw() {
+  background(200);
+  image(cam, 0, 0);
+
+  // check that there is at least one person
+  if (poses.length > 0) {
+    // get the first pose (person) in the array
+    let person = poses[0].pose;
+    fill(255);
+    noStroke();
+    // loop through all of the keypoints in the pose
+    for (let i = 0; i < person.keypoints.length; i++) {
+      let x = person.keypoints[i].position.x;
+      let y = person.keypoints[i].position.y;
+      circle(x, y, 10);
+    }
+
+    // set the text size and alignment for drawing the emojis
+    textAlign(CENTER, CENTER);
+    textSize(50);
+
+    // get the nose point and draw the nose emoji in that location
+    let nosePoint = person.nose;
+    text(noseEmoji, nosePoint.x, nosePoint.y);
+
+    // get the eye points
+    let leftEyePoint = person.leftEye;
+    let rightEyePoint = person.rightEye;
+    text(eyeEmoji, leftEyePoint.x, leftEyePoint.y);
+    text(eyeEmoji, rightEyePoint.x, rightEyePoint.y);
+  }
+}
+
+function videoLoaded() {
+  // resize the canvas to be the same size as you camera resolution
+  resizeCanvas(cam.width, cam.height);
+}
+
+function modelReady() {
+  console.log("model loaded!");
+}
+
+function poseResults(results) {
+  poses = results;
+}
+
+function mousePressed() {
+  // print the poses in the console when the mouse is pressed
+  console.log(poses);
 }
 ```

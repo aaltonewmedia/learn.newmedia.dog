@@ -105,4 +105,4 @@ If you want to show your work in the exhibition, we need to start gathering equi
 
 ### Winter Demo Day 2024
 
-You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Registration form coming soon](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
+You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Registration form coming soon]().
