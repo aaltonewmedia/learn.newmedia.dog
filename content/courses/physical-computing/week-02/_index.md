@@ -18,7 +18,7 @@ draft: false
 
 {{<hint info>}}
 Deadline for these is Thursday, November 7, 13:00
-{{</hint info>}}
+{{</hint>}}
 
 ### 1. Find an interesting existing Alt+Ctrl Interface
 
