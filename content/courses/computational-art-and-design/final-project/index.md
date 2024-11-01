@@ -36,7 +36,7 @@ You can combine the final project of this course to the one you are working on i
 
 ### Project Proposal (Friday, November 8)
 
-Submit a link to an online document (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc.) of your project proposal [via MyCourses](). It should include the following:
+Submit a link to an online document (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc.) of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1263273). It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
@@ -55,13 +55,13 @@ Note that your project can and probaly will change as you work on it. This is to
 
 ### Final Project Presentation (Friday, November 30)
 
-You should present your project in class on Friday, December 1. We start presentations at 10 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
+You should present your project in class on Friday, November 30. We start presentations at 9:15 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
 
 ---
 
 ### Final Project Documentation (Friday, December 13)
 
-You should send me documentation of the project via [MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1125442&forceview=1).
+You should send me documentation of the project via [MyCourses (link coming later)]().
 
 - a .pdf file that shortly explains your project (500–1000 words)
   - If your project is combined with Physical Computing, it's also ok to just submit link to your final project page.

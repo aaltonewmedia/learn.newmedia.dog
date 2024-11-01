@@ -250,6 +250,8 @@ This example visualizes Crayola crayon colors from the json file.
 
 - [Coding Train playlist for Working with Data and APIs using p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 - [Coding Train playlist for Working with Data and APIs with JavaScript (not using p5.js)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Visualizing Knowledge](https://vizknowledge.aalto.fi/index.html)
 
 Courses in Aalto:
 
