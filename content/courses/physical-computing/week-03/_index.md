@@ -17,11 +17,13 @@ draft: false
 
 ---
 
-## Deliverables for Week 3 ()
+## Deliverables for Week 3 (Deadline: Tuesday, November 12, 13:00)
 
 ### Project Ideas: First Draft
 
-[See the Final Project Guidelines and document your project ideas on your course website.](../final-project/)
+1. [See the Final Project Guidelines](../final-project/)
+2. Create a **Final Project** page on your course documentation website and start sketching out your ideas.
+3. Present your idea in class on **November 12**
 
 ### Readings
 
