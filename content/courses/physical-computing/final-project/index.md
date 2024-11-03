@@ -33,7 +33,7 @@ It is ok to combine this project with the final project of the Computational Art
 
 ---
 
-## Project Proposal (Deadline: Thursday, November 16)
+## Project Proposal (Deadline: TBA)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
@@ -53,52 +53,30 @@ After this presentation, some of you might also decide to join forces. You can a
 
 ---
 
-## Project Presentations (December 8, 14:00)
+## Project Presentations (December 5, 13:00)
 
-- Your project should be ready before 14:00 on December 8.
+- Your project should be ready before 13:00 on December 5.
 - Present it either in the Mechatronics workshop just for the class or in the exhibition space (see below).
 - We first do presentation in Mechatronics starting at 14:00
-- Then we start with the other works in the exhibition. We start at 15:00 in LQ Lobby and then move to the Learning Centre gallery.
-
-### Opening 16:00
-
-Join for some snacks at 16:00 to clebrate the end of the semester! Invite your friends as well!
+- Then we go see the other works still being installed in the exhibition at Marsio.
 
 ---
 
 ## Course Exhibition and Demo Day
 
 {{<hint info>}}
-**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, December 8**
+**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Thursday, December 5**
 {{</hint>}}
 
-### Exhibition Dates
+### Winter Demo Day 2024
 
-{{<hint info>}}
-We have the spaces booked from November 30 to December 15. These spaces are going to be shared with the projects from this course and the Computational Art and Design course. Our official opening event will be on December 8, but it's great if you can finish up setting up your work even earlier than that. The dates of our exhibition are a little bit fluid. The first week is more of a work-in-progress where some things might be ready, some things still a little bit under construction.
+You can also present or show your work during the Aalto Demo Day on December 11. We also have two spaces for exhibiting work connected to the Demo Day event.  
 
-- Setting up: November 30 to December 7
-- Opening: Friday, December 8, 16:00
-- Exhibition: December 8–15
-- Take down: Friday, December 15 at 15:00
-{{</hint>}}
-
-### Exhibition Spaces
-
-We have booked two spaces for exhibiting the work that we have been doing throghout the semester.
-
-- Väre, LQ Lobby
-- Learning Centre, Lobby
-
-***Let Matti know about any equipment or space requirements for your work!***
-
-### Winter Demo Day 2023
-
-You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
+Please fill out the form if you want to present your work or show it in the exhibition. [Open Call is open now](https://medialabdemoday.aalto.fi/2024-winter/open-call/).
 
 ---
 
-## Project Documentation (Deadline December 15)
+## Project Documentation (Deadline December 13)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. Your course website should have a dedicated section(s)/page(s) for your final project.
 
@@ -117,9 +95,7 @@ Recommended documentation also would include one or more of the following:
 **No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately.**
 
 {{<hint info>}}
-### Video (for 2024 class)
-
-These instructions are here for the class in 2024.
+### Video Specifications
 
 Please follow these specifications:
 
