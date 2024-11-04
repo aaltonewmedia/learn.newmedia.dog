@@ -65,6 +65,7 @@ Simple movements can make objects seem very alive.
 - [Jie Qi](https://technolojie.com/) – Some interesting projects using muscle wire, paper electronics
 - [Eunyoung Park](https://eunyoungpark.co/studio/) – From Aalto Media Lab, her thesis project was [LINKKI](http://eunyoungpark.co/linkki/)
 - Tim Lewis – [Instagram](https://www.instagram.com/timlewis.info/)
+- Behnaz Farahi - [Instagram](https://www.instagram.com/behnazfarahi/)
 
 ## Resources
 
