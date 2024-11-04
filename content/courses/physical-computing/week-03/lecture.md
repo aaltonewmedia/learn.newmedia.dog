@@ -13,7 +13,7 @@ Mechatronics Workshop
 ## Final Project
 
 - [See the final project guidelines.](../final-project/)
-- [Your homework for this week](../_index.md)
+- [Your homework for this week](../week-03)
 
 ## Inspiration
 
