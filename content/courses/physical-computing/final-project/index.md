@@ -4,10 +4,6 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
-{{<hint danger>}}
-**Most of the dates and some other information here is from last year and has not yet been updated to 2024!**
-{{</hint>}}
-
 ## Guidelines
 
 Students should complete a final project, either individually or in a small group (max. 3 students), that explores electronics as a creative medium.
@@ -21,15 +17,26 @@ Some common topics that could be good starting points if you are still looking f
 - Simple robots
 - Interactive installations 
 
-Additional tips
+It is ok to combine this project with the final project of the Computational Art and Design course.
+
+### Additional tips
 - Read through Tom Igoe’s post about [Physical Computing’s Greatest Hits and Misses](https://www.tigoe.com/blog/category/physicalcomputing/176/)
+- [Tom Igoe: What do the people do?](https://www.tigoe.com/blog/category/physicalcomputing/606/)
+- [Making Interactive Art: Set the Stage, Then Shut Up and Listen](https://www.tigoe.com/blog/category/physicalcomputing/405/)
 - If you are still a bit uncomfortable with working with electronics, start from simple and expand from there.
-- Browse through the [Critical Making Projects](http://www.conceptlab.com/criticalmaking/) and the [Disobedient Electronics Book](http://www.disobedientelectronics.com/) for some inspiration.
 - [Check out some projects on Hackster](https://www.hackster.io/)
 - [Browse through some Adafruit tutorials](https://learn.adafruit.com/)
 - [See some examples from the Arduino Project Hub](https://create.arduino.cc/projecthub)
 
-It is ok to combine this project with the final project of the Computational Art and Design course.
+### Critical Making Reading List
+
+- [Bogers, Loes and Chiappini, Letizia. 2019. The Critical Makers Reader: (Un)learning Technology.](https://networkcultures.org/blog/publication/the-critical-makers-reader-unlearning-technology/)
+- [Ratto, Matt. 2011. Critical Making in Open Design Now](http://opendesignnow.org/index.html%3Fp=434.html)
+- [Hertz, Garnet. What is Critical Making?](https://current.ecuad.ca/what-is-critical-making)
+- [Critical Making Booklets](http://www.conceptlab.com/criticalmaking/)
+- [Disobedient Electronics](http://www.disobedientelectronics.com/)
+- [Waag Futurelab: The role of critical making](https://waag.org/en/article/role-critical-making/)
+- [Critical Engineering Manifesto](https://criticalengineering.org/)
 
 ---
 
