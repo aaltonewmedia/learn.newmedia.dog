@@ -23,6 +23,34 @@ I have created tutorials for different types of actuators.
 - [Stepper Motors](../../../tutorials/arduino-and-electronics/motors-and-actuators/stepper-motors/)
 - [Solenoids](../../../../tutorials/arduino-and-electronics/motors-and-actuators/solenoids-and-electromagnets/)
 
+---
+
+## Using Transistors
+
+Transistors are very useful little components that can be used in many different ways. We are not going to go very deep into the details how transistors work. We are basically only going to use transistors (NPN) as switches, but keep in mind that it is not the only way to use a transistor.
+
+If you want to learn more details, see this tutorial:
+- [Sparkfun tutorial on transistors](https://learn.sparkfun.com/tutorials/transistors)
+
+![Transistors](./img/transistor.png "Image from Sparkfun CC BY-SA 4.0")
+
+The way my electronics teacher taught how to remember which of the schematic symbols is NPN and which one is PNP:
+
+- NPN = Never Point iN
+- PNP = Point iN Please
+
+### NPN Transistor
+
+When you use an NPN transistor as a switch, the load that you want to switch (lights, motor etc.) needs to be between the positive voltage pin and the collector. This is called a low-side switch, since the transistor is on the low (ground) side of the circuit.
+
+Always connect the thing that you want to switch on/off to the collector side with the NPN transistor.
+
+The base turns the switch on or off. In our case the base pin would be often connected to one of the Arduino pins.
+
+[![Transistors](./img/tip120.png)](./img/tip120.png)
+
+---
+
 ## Working with addressable digital LEDs (Neopixels)
 
 [I have made a simple tutorial and some examples here.](../../../tutorials/arduino-and-electronics/leds-and-other-lights/neopixels/)
