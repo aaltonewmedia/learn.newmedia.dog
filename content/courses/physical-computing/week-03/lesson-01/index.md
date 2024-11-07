@@ -47,6 +47,8 @@ Always connect the thing that you want to switch on/off to the collector side wi
 
 The base turns the switch on or off. In our case the base pin would be often connected to one of the Arduino pins.
 
+[![Transistors](./img/tip120_schematic.jpg)](./img/tip120_schematic.jpg)
+
 [![Transistors](./img/tip120.png)](./img/tip120.png)
 
 ---
