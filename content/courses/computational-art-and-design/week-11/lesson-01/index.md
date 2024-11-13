@@ -44,11 +44,16 @@ For this class I have made a simple server that receives all incoming messages a
 
 ```js
 let socket;
-
+let myPicker;
+let slider;
+let c;
+let s;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  socket = io.connect(""); //Add the server url here. You can find it from Mycourses.
+  createCanvas(800, 800);
+  socket = io.connect(" "); //Add the server url here. You can find it from Mycourses.
   socket.on('mouse', gotData);
+  myPicker = createColorPicker('deeppink');
+  slider = createSlider(1,30,10,1);
 }
 
 function draw() {
@@ -56,22 +61,27 @@ function draw() {
 }
 
 function mouseDragged() {
+  c = myPicker.color();
+  s = slider.value();
   let data = {
     x: mouseX,
     y: mouseY,
+    r: c.levels[0],
+    g: c.levels[1],
+    b: c.levels[2],
+    s: s
   };
   socket.emit("mouse", data);
   // Draw a circle with the defined color
-  fill(255,0,0);
+  fill(c);
   noStroke();
-  ellipse(data.x, data.y, 20, 20);
+  circle(data.x, data.y, s);
 }
 
 function gotData(data) {
-  console.log("Got: " + data.x + " " + data.y);
-  // Draw a blue circle
-  fill(data.c);
+  console.log("Got: " + data.r + " " + data.g);
+  fill(data.r,data.g,data.b);
   noStroke();
-  ellipse(data.x, data.y, 20, 20);
+  circle(data.x, data.y, data.s);
 }
 ```
