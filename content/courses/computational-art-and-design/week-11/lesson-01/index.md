@@ -15,7 +15,7 @@ p5js-widget: true
 
 ## Using WebSocket
 
-WebSocket is a communication protocol that allows you to
+WebSocket is a communication protocol that allows you to send and receive data over the local network or the internet.
 
 {{<hint info>}}
 WebSockets could be used for chat rooms, multiplayer games, collaborative drawing tools etc.
@@ -35,19 +35,26 @@ Import the socket.io library to your sketch by adding the following line to your
 
 ### Server
 
-For this class I have made a simple server that receives all incoming messages and broadcasts them to the other clients. See the link in MyCourses. The coding train tutorial shows how you could make your own server.
+For this class I have made a simple server that receives all incoming messages and broadcasts them to the other clients. See the link in MyCourses.
 
-- [This is the code for the serve I used](https://github.com/mnstri/node-socket.io/tree/main)
+- [This is the code for the server I used](https://github.com/mnstri/node-socket.io/tree/main)
 - [Documentation here](https://devcenter.heroku.com/articles/node-websockets#option-2-socket-io)
 
+The coding train tutorial shows how you could make your own server.
+
+{{<youtube bjULmG8fqc8>}}
+
+{{<youtube 2hhEOGXcCvg>}}
+
 ### Client | p5.js code
+
+Our client allows each one to draw on the canvas and to choose the size and color of the brush. All drawings should be synced to the other clients.
 
 ```js
 let socket;
 let myPicker;
 let slider;
 let c;
-let s;
 function setup() {
   createCanvas(800, 800);
   socket = io.connect(" "); //Add the server url here. You can find it from Mycourses.
@@ -62,26 +69,33 @@ function draw() {
 
 function mouseDragged() {
   c = myPicker.color();
-  s = slider.value();
   let data = {
     x: mouseX,
     y: mouseY,
     r: c.levels[0],
     g: c.levels[1],
     b: c.levels[2],
-    s: s
+    s: slider.value()
   };
   socket.emit("mouse", data);
   // Draw a circle with the defined color
   fill(c);
   noStroke();
-  circle(data.x, data.y, s);
+  circle(data.x, data.y, data.s);
 }
 
 function gotData(data) {
-  console.log("Got: " + data.r + " " + data.g);
+  //console.log("Got: " + data.x + " " + data.y);
   fill(data.r,data.g,data.b);
   noStroke();
   circle(data.x, data.y, data.s);
 }
 ```
+
+#### Coding Train Tutorial
+
+Once again, Dan Shiffman is there to the rescue if you didn't understand something.
+
+{{<youtube HZWmrt3Jy10>}}
+
+{{<youtube i6eP1Lw4gZk>}}
