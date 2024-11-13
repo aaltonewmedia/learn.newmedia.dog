@@ -1,5 +1,5 @@
 ---
-title: "THU | Working with Hardware"
+title: "THU | WebSocket & socket.io"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
@@ -13,42 +13,15 @@ p5js-widget: true
 
 ---
 
-## Mobile phone sensors
+## Using WebSocket
 
-Many mobile phones have built-in sensors (accelerometers, gyroscopes, compass etc.). You are able to access some of this data in your p5.js sketch. [See the Events section from the p5.js reference.](https://p5js.org/reference/#group-Events)
+WebSocket is a communication protocol that allows you to
 
-We are going to use the rotation values today:
+{{<hint info>}}
+WebSockets could be used for chat rooms, multiplayer games, collaborative drawing tools etc.
+{{</hint>}}
 
-- [rotationX](https://p5js.org/reference/#/p5/rotationX)
-- [rotationY](https://p5js.org/reference/#/p5/rotationY)
-- [rotationZ](https://p5js.org/reference/#/p5/rotationZ) (only if your device has a compass)
-
-- [My example](https://editor.p5js.org/mnstri/sketches/3FMgL5M0f)
-
-### Request Permission (iOS 13)
-
-On some devices, you are able to just use the sensor data directly. On Apple mobile devices that are running iOS 13 or higher, you need to specifically ask for the permission to use the sensors.
-
-```js
-let button;
-function setup() {
-  createCanvas(400, 400);
-  button = createButton("Click to allow access to sensor");
-  button.mousePressed(DeviceOrientationEvent.requestPermission);
-}
-
-function draw() {
-  background(220);
-  text(rotationY, 100,100);
-  let x = map(rotationY,-90,90,0,width);
-  let y = map(rotationX,-90,90,0,height);
-  circle(x,y,50);
-}
-```
-
----
-
-## Websockets
+For this class, our server is going to be hosted on a service called Heroku, and all of us will create a client that connects to it. The specific library we use is [socket.io](https://socket.io/) that is based on WebSocket but adds a couple of extra features.
 
 [![socket.io](./img/socketio.jpg)](./img/socketio.jpg)
 
