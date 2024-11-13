@@ -1,5 +1,5 @@
 ---
-title: "11 | Working with Hardware"
+title: "11 | Websockets & Pen Plotters"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
@@ -15,7 +15,7 @@ During the second period, each week is divided into two classes just like they a
 
 | TIME | MON | TUE | WED  | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Hardware](./lesson-01) | [Pen plotters](./lesson-02) |
+| 09:15–12:00 |  |  |  | [Websockets](./lesson-01) | [Pen plotters](./lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |

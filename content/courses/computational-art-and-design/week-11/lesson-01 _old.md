@@ -3,6 +3,7 @@ title: "THU | Working with Hardware"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
+draft: true
 ---
 
 {{<hint info>}}

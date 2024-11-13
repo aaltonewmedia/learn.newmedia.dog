@@ -62,26 +62,7 @@ Download the app on your mobile device from the app store of your mobile device.
 
 [Protokol](https://hexler.net/protokol) is an excellent tool for monitoring and debugging OSC, MIDI and Gamepad data. I use it all the time to see what kind of data is being received.
 
-### TUIO
-
-[TUIO](https://www.tuio.org/) is a specific format of OSC messages that were developed originally for the [Reactable](http://reactable.com/) project in 2005.
-
-{{<youtube 0h-RhyopUmc>}}
-
-{{<youtube I9AeUISg-Og>}}
-
-After this initial development, TUIO as a protocol was also implement to many other tangible user interfaces that include multi-touch or object detection.
-
-More information:
-
-- [Reactable](http://reactable.com/)
-- [TUIO.org](https://www.tuio.org/)
-- [reacTIVision software](https://reactivision.sourceforge.net/)
-- [Source Code](https://github.com/mkalten)
-
-{{<hint info>}}
-I would not recommend to rely on this technology for new designs but it is a very interesting example and might become useful in some situations even still. [The latest update to the TUIO protocol itself was done in 2014.](http://www.tuio.org/?tuio20)
-{{</hint>}}
+---
 
 ### Install the ArduinoOSC library
 
