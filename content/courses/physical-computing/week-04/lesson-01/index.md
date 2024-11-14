@@ -1,9 +1,13 @@
 ---
-title: "USB: Serial, Keyboard, Mouse"
+title: "Project Proposals (USB: Serial, Keyboard, Mouse)"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
 ---
+
+{{<hint info>}}
+The class time was used for going through the project proposals.
+{{</hint>}}
 
 ## Inspiration
 
