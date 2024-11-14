@@ -29,7 +29,7 @@ For this class, our server is going to be hosted on a service called Heroku, and
 
 Import the socket.io library to your sketch by adding the following line to your `index.html` file.
 
-```js
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
 ```
 

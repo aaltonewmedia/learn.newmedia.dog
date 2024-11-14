@@ -17,7 +17,7 @@ p5js-widget: true
 
 Just include the following in your `index.html`
 
-```js
+```html
 <script src="https://unpkg.com/p5.js-svg@1.5.1"></script>
 ```
 
