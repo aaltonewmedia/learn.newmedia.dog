@@ -76,3 +76,23 @@ There are some materials that you should never use with a laser cutter.
 - Beryllium oxide
 - Any materials containing halogens (fluorine, chlorine, bromine, iodine and astatine), epoxy or phenolic resins
 {{</hint>}}
+
+---
+
+## Cutting
+
+## Engraving
+
+## Kerf
+
+When a laser cutter cuts through a sheet of material, it burns away part of it. You are left with a piece that is a little bit smaller than you designed. That small amount of material lost is the width of the laser beam and is know as the kerf.
+
+[![Kerf and taper angle](./img/kerf.png)](./img/kerf.png)
+
+Quite often, this small amount is not so crucial for your designs but sometimes it makes a big difference. Especially, when you are creating objects that should fit together with friction. Our first laser cutting project is one of those cases. We are going to try to create a laser cut box with finger joints.
+
+[![Kerf illustration](./img/kerf_illustration.jpg)](./img/kerf_illustration.jpg)
+
+To compensate for this small amount of removed material, we need to offset the cutting paths of our designs. This is called **kerf compensation**.
+
+If you want more accurate results, you should cut multiple little pieces and get an average of the cuts.
