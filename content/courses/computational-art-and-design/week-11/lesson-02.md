@@ -39,8 +39,23 @@ createCanvas(100, 100, SVG);
 ```
 
 {{<hint danger>}}
-The SVG library is not compatible with the newest version of the p5.js library. You need to use an older version of p5.
+The SVG library is not compatible with the newest version of the p5.js library. You need to use an older version of p5. Use p5.js version 1.6.0
+
+You can do this in two ways:
+
+1. Download the older version from: [https://github.com/processing/p5.js/releases/tag/v1.6.0](https://github.com/processing/p5.js/releases/tag/v1.6.0) Replace the files in your library folder with these older versions if you use Visual Studio Code
+
+**OR**
+
+2. Change the `index.html` to load the older version from CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.sound.min.js"></script>
+```
 {{</hint>}}
+
+---
 
 ## Examples
 
