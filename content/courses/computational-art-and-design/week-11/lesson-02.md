@@ -11,6 +11,17 @@ p5js-widget: true
 - Room 3448 (Marsio)
 {{</hint>}}
 
+## Axidraw Plotter
+
+## Tools for Plotter Machines
+
+- [AxiDraw Manual](https://wiki.evilmadscientist.com/AxiDraw_User_Guide)
+- [AxiDraw Software](https://wiki.evilmadscientist.com/Axidraw_Software_Installation)
+- [Inkscape](https://inkscape.org/)
+- [DrawingBotV3](https://drawingbotv3.com/) (there are paid and free versions available)
+
+---
+
 ## SVG Library for p5.js
 
 - [Library](https://github.com/zenozeng/p5.js-svg)
@@ -26,6 +37,10 @@ And then set your canvas mode to `SVG`
 ```js
 createCanvas(100, 100, SVG);
 ```
+
+{{<hint danger>}}
+The SVG library is not compatible with the newest version of the p5.js library. You need to use an older version of p5.
+{{</hint>}}
 
 ## Examples
 
@@ -129,3 +144,11 @@ function windowResized() {
 }
 
 ```
+
+---
+
+## Directly Controlling the Plotter (with serial)
+
+There is a library that allows you to directly control the AxiDraw Plotter from p5.js.
+
+- [GitHub page](https://github.com/jmpinit/p5.axidraw)
