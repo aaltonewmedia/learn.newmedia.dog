@@ -20,6 +20,8 @@ weight: 130
 - 9:15–12:00
 - Room 3448 (Marsio)
 - **Room 3430, Experimental Studio 1 (Marsio) | For exhibition testing and setup**
+
+Final presentations
 {{</hint>}}
 
 ---
@@ -36,6 +38,6 @@ If you want to show your work in the exhibition, please submit requirements for 
 
 Or if you want to present it only during Demo Day, [fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
 
-## Project Presentations (Friday, December 1)
+## Project Presentations (Friday, November 29)
 
-Present your project in class on December 1. If your work will be in the exhibition, this can be still somewhat a work-in-progress presentation.
+Present your project in class on November 29. If your work will be in the exhibition, this can be still somewhat a work-in-progress presentation.
