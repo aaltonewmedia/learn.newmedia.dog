@@ -38,7 +38,6 @@ If you want to present or show your work in Demo Day or the exhibitiion. See the
 
  [Fill in the registration form if you want to show your work](https://forms.gle/Uc1s1G81e6exKAWMA).
 
-
 ## Project Presentations (Friday, November 29)
 
 Present your project in class on November 29. If your work will be in the exhibition, this can be still somewhat a work-in-progress presentation.
