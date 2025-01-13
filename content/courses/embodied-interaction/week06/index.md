@@ -2,7 +2,7 @@
 title: "Week 06 | Context-Aware Computing | Spatial Computing"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

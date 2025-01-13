@@ -6,9 +6,9 @@ draft: false
 ---
 
 {{<hint info>}}
-**Monday, January 8, 2024**
+**Monday, January 13, 2024**
 
-*We start in Room G203*
+
 {{</hint>}}
 
 ## Introduction

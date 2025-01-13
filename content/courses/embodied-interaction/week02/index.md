@@ -2,7 +2,7 @@
 title: "Week 02 | How Do We Interact With Computers/Technology?"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

@@ -2,7 +2,7 @@
 title: "Week 03 | External Computation and Representation | Proxemic Interaction"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

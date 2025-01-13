@@ -2,7 +2,7 @@
 title: "Week 04 | Tools & Technology #1 | TouchDesigner Tutoring | Setting Up MediaPipe"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

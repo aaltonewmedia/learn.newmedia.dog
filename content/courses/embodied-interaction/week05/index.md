@@ -2,7 +2,7 @@
 title: "Week 05 | Tools & Technology #2 | Body Tracking | Working with MediaPipe"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}
