@@ -9,7 +9,7 @@ Welcome to Embodied Interaction. This is a course that has been running at Aalto
 
 ## Important Links
 
-- [MyCourses 2024](https://mycourses.aalto.fi/course/view.php?id=39807)
+- [MyCourses 2025](https://mycourses.aalto.fi/course/view.php?id=39807)
 
 ## Content
 
@@ -28,6 +28,10 @@ On successful completion of this course, students will be able to:
 
 ## Prerequisites
 
+Require prerequisites:
+
+- Completed Bachelor's Degree
+
 Recommended prerequisites:
 
 - AXM-E7002 Introduction to Media Art and Culture (or equivalent knowledge of media art)
@@ -41,12 +45,14 @@ It is possible to participate in the course without taking the classes above but
 
 ## Spaces, Studios and Workshops
 
-- We have multpiple spaces booked for the lectures (L208, G203). Please check this site or MyCourses for each week to see where we are.
-- For the last four weeks of the course, room G203 is booked for us for working. There will be some Desktop PCs with Touchdesigner installed, projectors, and other equipment for you to use.
+- We have multpiple spaces booked for the lectures (3448, 3430, 3430). Please check this site or MyCourses for each week to see where we are.
+- For the last four weeks of the course, room 3430 is booked for us for working. There will be some Desktop PCs with Touchdesigner installed, projectors, and other equipment for you to use.
 - The Media Lab Home Base room O102 is also equipped with a projector, two powerful computers with TouchDesigner installed, surround sound and other equipment. Use that room also for working independently.
 - Use [vdi.aalto.fi](https://vdi.aalto.fi/) to remotely access Aalto computers with TouchDesigner
 - Mechatronics (G014) and other workshops in Väre are available for you to use as long as you have done the required introductions or training.
 - Aalto Fab Lab is available for you to use.
+- Marsio Studios are available for you to use
+- We have also one Project Room in Marsio booked in Period IV
 
 ## Tools & Technology
 
@@ -59,7 +65,7 @@ Embodied Interaction is a very hands-on course (especially in Period IV). We are
 - **Gesture Sensors** | You will have access to various sensor that can be used to detect certain gestures. 
 - **VR/AR devices** | For example, the Varjo XR-3 heasdset, Hololens 2, Oculus Quest etc.
 
-You can also use any other development environments and tools (Processing, Arduino, Unity, Unreal Engine etc.).
+You can also use any other development environments and tools (Processing, p5js, Arduino, Unity, Unreal Engine etc.).
 
 {{<hint info>}}
 Although there is no strict requirement for any specific tools or technology, your project should still actually work. It should exist as a real thing and not just as a concept. It might have some bugs, issues, and unfinished parts at the end of the course, but it should still be something that we can experience to some extent.
@@ -107,7 +113,7 @@ You will be graded based on the following criteria
 
 ---
 
-## Schedule | Spring 2024
+## Schedule | Spring 2025
 
 **PLEASE NOTE: THERE MIGHT BE STILL SOME SMALL CHANGES TO THE TOPICS.**
 
@@ -115,16 +121,16 @@ You will be graded based on the following criteria
 
 #### Week 1 | Introduction
 
-| TIME | MON 08/01 | TUE 09/01 | WED 10/01 | THU 11/01 | FRI 12/01 |
+| TIME | MON 06/01 | TUE 07/01 | WED 08/01 | THU 09/01 | FRI 10/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Introduction](./week01/) |  |  |  |  |
+| 15:15–17:00 | **No class, holiday** |  |  |  |  |
 
 #### Week 2 | 
 
-| TIME | MON 15/01 | TUE 16/01 | WED 17/01 | THU 18/01 | FRI 19/01 |
+| TIME | MON 13/01 | TUE 14/01 | WED 15/01 | THU 16/01 | FRI 17/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -133,7 +139,7 @@ You will be graded based on the following criteria
 
 #### Week 3 |
 
-| TIME | MON 22/01 | TUE 23/01 | WED 24/01 | THU 25/01 | FRI 26/01 |
+| TIME | MON 20/01 | TUE 21/01 | WED 22/01 | THU 23/01 | FRI 24/01 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -143,25 +149,25 @@ You will be graded based on the following criteria
 
 #### Week 4 |
 
-| TIME | MON 29/01 | TUE 30/01 | WED 31/02 | THU 01/02 | FRI 02/02 |
+| TIME | MON 27/01 | TUE 28/01 | WED 29/02 | THU 30/02 | FRI 31/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [TouchDesigner Tutoring](./week04/) |  |  |  |  |
+| 15:15–17:00 | [Lecture](./week04/) |  |  |  |  |
 
 #### Week 5 |
 
-| TIME | MON 05/02 | TUE 06/02 | WED 07/02 | THU 08/02 | FRI 09/02 |
+| TIME | MON 03/02 | TUE 04/02 | WED 05/02 | THU 06/02 | FRI 07/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 | [Introduction to MediaPipe](./week05/) |  |  |  |  |
+| 15:15–17:00 | [Lecture](./week05/) |  |  |  |  |
 
 #### Week 6 |
 
-| TIME | MON 12/02 | TUE 13/02 | WED 14/02 | THU 15/02 | FRI 16/02 |
+| TIME | MON 10/02 | TUE 11/02 | WED 12/02 | THU 13/02 | FRI 14/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -170,7 +176,7 @@ You will be graded based on the following criteria
 
 #### Week 7 | WORKSHOP WEEK (NO CLASS)
 
-| TIME | MON 19/02 | TUE 20/02 | WED 21/02 | THU 22/02 | FRI 23/02 |
+| TIME | MON 17/02 | TUE 18/02 | WED 19/02 | THU 20/02 | FRI 21/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |   |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -179,9 +185,9 @@ You will be graded based on the following criteria
 
 ### Period IV
 
-#### Week 8 | Hand Tracking + Gesture Detection
+#### Week 8 | TBA
 
-| TIME | MON 26/02 | TUE 27/02 | WED 28/03 | THU 29/03 | FRI 01/03 |
+| TIME | MON 24/02 | TUE 25/02 | WED 26/03 | THU 27/03 | FRI 28/02 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week08/lesson-01) | [Theory + Hands-on lecture](./week08/lesson-02) | [Experimentation](./week08/lesson-03) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -190,7 +196,7 @@ You will be graded based on the following criteria
 
 #### Week 9 | TBA
 
-| TIME | MON 04/03 | TUE 05/03 | WED 06/03 | THU 07/03 | FRI 08/03 |
+| TIME | MON 03/03 | TUE 04/03 | WED 05/03 | THU 06/03 | FRI 07/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Theory + Hands-on lecture](./week09/lesson-01) | [Theory + Hands-on lecture](./week09/lesson-02) | [Experimentation](./week09/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -199,7 +205,7 @@ You will be graded based on the following criteria
 
 #### Week 10 | Project Propsal Presentations + Project Work
 
-| TIME | MON 11/03 | TUE 12/03 | WED 13/03 | THU 14/03 | FRI 15/03 |
+| TIME | MON 10/03 | TUE 11/03 | WED 12/03 | THU 13/03 | FRI 14/03 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  | [Project Proposal Presentations]((./week10/lesson-01)) | [Project Work and Tutoring](./week10/lesson-02) | [Project Work and Tutoring](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
@@ -208,43 +214,34 @@ You will be graded based on the following criteria
 
 #### Week 11 | Project Work
 
-| TIME | MON 18/03 | TUE 19/03 | WED 20/03 | THU 21/03 | FRI 22/03 |
+| TIME | MON 19/03 | TUE 18/03 | WED 19/03 | THU 20/03 | FRI 21/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Matti in Admission interviews! Project Work](./weekx)  | [Matti in Admission interviews! Project Work](./weekx)  | [Project Work](./weekx)  |
+| 09:15–12:00 |  |  | [Project Work](./weekx)  | [Project Work](./weekx)  | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
 #### Week 12 | Project Work
 
-| TIME | MON 25/03 | TUE 26/03 | WED 27/03 | THU 28/03 | FRI 29/03 |
+| TIME | MON 24/03 | TUE 25/03 | WED 26/03 | THU 27/03 | FRI 28/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Work](./weekx) |  EASTER HOLIDAY | EASTER HOLIDAY |
+| 09:15–12:00 |  |  | [Project Work](./weekx) | [Project Work](./weekx) | [Project Work](./weekx) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
-| 15:15–17:00 |  |  |  | EASTER HOLIDAY  | EASTER HOLIDAY  |
+| 13:15–15:00 |  |  |  |  |   |
+| 15:15–17:00 |  |  |  |  |   |
 
 #### Week 13 | Project Work
 
-| TIME | MON 01/04 | TUE 02/04 | WED 03/04 | THU 04/04 | FRI 05/04 |
+| TIME | MON 31/03 | TUE 01/04 | WED 02/04 | THU 03/04 | FRI 04/04 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | EASTER HOLIDAY | [Project Work](./weekx) | [Project Work](./weekx)  |
+| 09:15–12:00 |  |  | [Project Work](./weekx) | [Project Work](./weekx) | [Project Work](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
-| 15:15–17:00 | EASTER HOLIDAY  | EASTER HOLIDAY | EASTER HOLIDAY |  |  |
+| 13:15–15:00 |   |  |  |  |  |
+| 15:15–17:00 |   |  |  |  |  |
 
-#### Week 14 | Project Work, Final Presentations
+#### Week 14 | WORKSHOP WEEK (NO CLASS, EXHIBITION)
 
-| TIME | MON 08/04 | TUE 09/04 | WED 10/04 | THU 11/04 | FRI 12/04 |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  | | [Project Work](./weekx) | [Project Work](./weekx) | Final Project Presentations + Exhibition Opens |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
-
-#### Week 15 | WORKSHOP WEEK (NO CLASS, EXHIBITION)
-
-| TIME | MON 15/04 | TUE 16/04 | WED 17/04 | THU 18/04 | FRI 19/04 |
+| TIME | MON 07/04 | TUE 08/04 | WED 09/04 | THU 10/04 | FRI 11/04 |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |

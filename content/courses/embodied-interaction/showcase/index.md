@@ -4,6 +4,10 @@ bookCollapseSection: false
 weight: 999
 ---
 
+## 2024
+
+
+
 ## 2023
 
 - [Ilona Pakarinen](https://blogs.aalto.fi/ilonanalle/)
