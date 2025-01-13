@@ -2,14 +2,14 @@
 title: "Embodied Interaction | AXM-E7008"
 bookCollapseSection: true
 weight: 50
-draft: false
+draft: true
 ---
 
 Welcome to Embodied Interaction. This is a course that has been running at Aalto since 2011 (previously named Bodily Interaction). Matti Niinimäki has been teaching this course since 2012. It was originally created by [Ferhat Sen](https://www.ferhatsen.com/)
 
 ## Important Links
 
-- [MyCourses 2024](https://mycourses.aalto.fi/course/view.php?id=39807)
+- [MyCourses 2025]()
 
 ## Content
 
