@@ -6,8 +6,8 @@ draft: false
 ---
 
 {{<hint info>}}
-**Monday, January 13, 2024**
-
+**Monday, January 13, 2024**  
+Room 3448, Marsio
 
 {{</hint>}}
 
