@@ -51,3 +51,9 @@ Continue with the video lectures by Jelle van Dijk. This time about Tangible Int
 ### Explore
 
 - Explore other projects from the [Tangible Media Group](https://tangible.media.mit.edu/projects/) for inspiration
+
+### Think
+
+Whenever you go about your day, take some moments to think about the subconcious actions that you do throughout your everyday experiences. How do you interact with objects while cooking, eating, doing sports, commuting from one place to another etc.? How do you organise your space around you for specific tasks? Or do you? What do you think you are really skilled in?
+
+Be prepared to discuss this in a small group next week, you will eventually do some more thorough documentation of this during the course but for now just take in some moments when you observe yourself closely.
