@@ -17,6 +17,14 @@ draft: false
 
 [Lecture slides](https://miro.com/app/board/uXjVPyL8kRg=/)
 
+## Showcase
+
+Simon Dreyer was working on the idea of the *cartesian split* between the mind and the body and created [Duo Dimension](https://www.simonarcher.design/accessible-realities).
+
+>Duo Dimension is a two-player game centered on teamwork and designed for a single VR headset. While one player immerses themselves in the digital environment through the VR goggles, the other uses a controller to interact with the same digital space. Together, they create a connection between the digital and physical worlds.
+
+{{<youtube pOiRyS5vmGM>}}
+
 ---
 
 ## Homework
