@@ -2,7 +2,7 @@
 title: "Week 04 | Context-Aware Computing"
 bookCollapseSection: false
 weight: 20
-draft: true
+draft: false
 ---
 
 {{<hint info>}}
