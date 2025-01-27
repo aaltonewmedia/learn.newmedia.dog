@@ -58,6 +58,7 @@ You can also login remotely using [vdi.aalto.fi](vdi.aalto.fi)
 Matti will also do an additional TouchDesigner tutoring day if you need help or have any questions:
 
 Friday, January 31  
+Experimental Studio 1 (Marsio, 3430)  
 9:00–17:00 (lunch break 12-13)
 
 I will be in the studio all day, come and drop by at any point to ask questions or to get a short private tutoring lesson (one-on-one or small groups).
