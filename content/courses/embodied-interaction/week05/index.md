@@ -69,6 +69,19 @@ Do the following in order to have an easy access to the components throughout th
 8. Go back to TouchDesigner. Right-click on top of the `MediaPipe GPU` folder in the Palette and choose `Refresh Folder`.
 9. You can open the `MediaPipe TouchDesigner.toe` file to see an example on how to to use some of this data. We will make our own experimentations next week.
 
+## Using MediaPipe in your own projects
+
+After you have added the components to your Palette, you have access to the .tox files easily. Just make sure you do the following step to not make your file size too large.
+
+1. Drag the main MediaPipe component to your project from the Palette
+2. Select the component and go to the Common page of the properties.
+3. Turn on `Enable External .tox`
+4. Add the path of the component to the `External .tox Path` to point to the location where your Palette folder is. Easisest way to do this is to go to the Palette and find the folder you created earlier (MediaPipe GPU), right click and select Browse Folder, drag the MediaPipe.tox into the text box for `External .tox Path`
+
+Doing this makes sure that the component is properly loaded and you need to only have one copy of the component on your hard drive.
+
+### Information About MediaPipe
+
 More information:
 
 - [MediaPipe Developer Guide](https://developers.google.com/mediapipe)
@@ -82,9 +95,33 @@ More information:
 - [The Poet Engineer](https://www.instagram.com/the.poet.engineer/)
 - [Bonnie Pham](https://www.instagram.com/bonnie2.0.0/)
 
+---
+
 ## Homework
+
+### Watch
 
 Continue the video lectures by Jelle van Dijk
 
 - [Embodied Interaction - Lecture #03, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
 - [Embodied Interaction - Lecture #03, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
+
+### Experiment
+
+Experiment with gestural interactions using MediaPipe or some other tool of your choice. Create a **simple** interactive sketch that does the following:
+
+- It should use some form of tracking with live video (hands, face, body, object tracking, classification etc.)
+- Use the data to control **one output** graphics, video, animation, sound, lights, mechanical movement etc.
+- Record a short video of it and submit to MyCourses
+- Try to do something that is not just one-to-one mapping of your movements to the movements of a virtual avatar. Think about interactions and different types of controls or conversions from input to output.
+- **Keep it simple, no need to do anything beyond one type of interaction.** This is not yet your final project.
+
+I recommend experimenting with TouchDesigner and MediaPipe, but you are free to use some other tools as well, such as:
+
+- p5.js with ml5.js
+- Unity (there is also a [MediaPipe plugin for Unity](https://github.com/homuler/MediaPipeUnityPlugin))
+- Unreal Engine (for example with Live Link)
+- Kinect camera
+- ZED camera
+
+**Deadline: Tuesday, February 25, 23:59**
