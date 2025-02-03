@@ -13,6 +13,12 @@ draft: false
 
 ---
 
+2025:
+
+https://www.youtube.com/watch?v=7ARBJQn6QkM
+
+---
+
 ## Final Project Kickoff
 
 If you haven't already, now is the time to start planning your final project for the course. [See the guidelines here.](../../final-project/) We will go over the details in class today and get this process started.
