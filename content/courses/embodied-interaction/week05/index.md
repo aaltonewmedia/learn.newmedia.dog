@@ -80,6 +80,33 @@ After you have added the components to your Palette, you have access to the .tox
 
 Doing this makes sure that the component is properly loaded and you need to only have one copy of the component on your hard drive.
 
+### Workaround to get the camera image working with Aalto computers
+
+{{<hint warning>}}
+Some of the computers we have do not for some reason load the camera inputs correctly with the MediaPipe GPU plugin. If that is the case with you, use this workaround:
+
+1. Open OBS Studio
+2. Change the video settings to 1280x720/60 fps
+2. Add a Video Capture Device into as the Source
+3. Change the settings of the webcam to also be 1270x720/60fps
+4. Scale the source image to the output by selecting it and pressing Ctrl+F (Fit to screen)
+5. Turn on the Virtual Camera by pressing the Start Virtual Camera button.
+{{</hint>}}
+
+
+{{<hint info>}}
+You can also dowload the profile and scene files by [clicking here](.files/mediapipeobs.zip). Once you have downloaded them, do the following:
+
+- Unzip the files
+- Select Profile -> Import
+- Select the mediapipeobs folder
+- Select Profile -> mediapipe
+- Select Scene Collection -> Import
+- Click the ... to open the filebrowser
+- Select the `mediapipe.json` file that you downloaded
+- Select Scene Collection -> mediapipe
+{{</hint>}}
+
 ### Information About MediaPipe
 
 More information:
@@ -106,7 +133,7 @@ Continue the video lectures by Jelle van Dijk
 - [Embodied Interaction - Lecture #03, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
 - [Embodied Interaction - Lecture #03, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
 
-### Experiment
+### Experiment: Gesture Interaction
 
 Experiment with gestural interactions using MediaPipe or some other tool of your choice. Create a **simple** interactive sketch that does the following:
 
@@ -118,7 +145,7 @@ Experiment with gestural interactions using MediaPipe or some other tool of your
 
 I recommend experimenting with TouchDesigner and MediaPipe, but you are free to use some other tools as well, such as:
 
-- p5.js with ml5.js
+- p5.js with [ml5.js](https://ml5js.org/)
 - Unity (there is also a [MediaPipe plugin for Unity](https://github.com/homuler/MediaPipeUnityPlugin))
 - Unreal Engine (for example with Live Link)
 - Kinect camera

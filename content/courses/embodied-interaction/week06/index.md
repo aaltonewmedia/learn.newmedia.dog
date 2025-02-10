@@ -1,18 +1,14 @@
 ---
-title: "Week 06 | Context-Aware Computing | Spatial Computing"
+title: "Week 06 | Tools & Technology #2 | "
 bookCollapseSection: false
 weight: 20
-draft: true
----
-
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, February 5, 2024**
+**Monday, February 10, 2024**
 
-**Room H003**  
-**Note that we are in a completely different classroom today! You can access the room by going through either the Mechatronics (G014) or Laser Cutter (H001) Workshops.**
-
+**Room 3420 (Marsio), Computer classrooom**
 {{</hint>}}
 
 ---
@@ -43,7 +39,7 @@ People were also able to have themselves photographed and they could decide whic
 
 This was based on a similar setup used in the [Reverse Shadow Theatre](https://www.youtube.com/watch?v=gY2dC9fi02s) and used the Animata software.
 
-{<vimeo 12910372>}}
+{{<vimeo 12910372>}}
 
 {{<vimeo 13420275>}}
 
@@ -123,86 +119,13 @@ Cons:
 - No true 3D information. The Z-coordinate is a relative coordinate based on the center-of-mass
 - The TouchDesigner plugin is sometimes buggy and doesn't load the camera. Especially with the Aalto computers.
 
-#### Workaround to get the camera image working with Aalto computers
-
-{{<hint warning>}}
-Some of the computers we have do not for some reason load the camera inputs correctly with the MediaPipe GPU plugin. If that is the case with you, use this workaround:
-
-1. Open OBS Studio
-2. Change the video settings to 1280x720/60 fps
-2. Add a Video Capture Device into as the Source
-3. Change the settings of the webcam to also be 1270x720/60fps
-4. Scale the source image to the output by selecting it and pressing Ctrl+F (Fit to screen)
-5. Turn on the Virtual Camera by pressing the Start Virtual Camera button.
-{{</hint>}}
-
-
-{{<hint info>}}
-You can also dowload the profile and scene files by [clicking here](.files/mediapipeobs.zip). Once you have downloaded them, do the following:
-
-- Unzip the files
-- Select Profile -> Import
-- Select the mediapipeobs folder
-- Select Profile -> mediapipe
-- Select Scene Collection -> Import
-- Click the ... to open the filebrowser
-- Select the `mediapipe.json` file that you downloaded
-- Select Scene Collection -> mediapipe
-{{</hint>}}
-
 ---
-
-{{<hint info>}}
-**Monday, February 12, 2024**
-
-*We are going to be in room G203*
-{{</hint>}}
-
----
-
-## Lecture Slides
-
-[See the lecture slides here.](https://miro.com/app/board/uXjVNuPCLRs=/)
-
----
-
-## MIT Media Lab | Put That There
-
-{{<youtube RyBEUyEtxQo>}}
-
-{{<youtube sC5Zg0fU2e8>}}
-
-{{<youtube CbIn8p4_4CQ>}}
-
-- https://www.media.mit.edu/publications/put-that-there-voice-and-gesture-at-the-graphics-interface/
-
----
-
-## Myron Krueger | Videoplace, Responsive Environment, 1972-1990s
-
-{{<youtube dmmxVA5xhuo>}}
-
-{{<youtube d4DUIeXSEpk>}}
-
-- https://aboutmyronkrueger.weebly.com/videoplace.html
-
----
-
-## Spatial Computing
-
-### HoloLens
-
-{{<youtube me8AzTCiabI>}}
-
-### Apple Vision Pro
-
-{{<youtube Vb0dG-2huJE>}}
 
 ## Homework
 
-### Read
+### Final Project Ideation
 
-[Dourish, Paul. 2001. “Seeking a Foundation for Context-Aware Computing.” Human-Computer Interaction 16 (2–4): 229–41.](https://primo.aalto.fi/permalink/358AALTO_INST/cis3s6/cdi_openaire_primary_doi_80527708dd595e384eaa79f51ed0040d)
+If you haven't already, now is the time to start planning your final project for the course. [See the guidelines here.](../../final-project/) We will go over the details in class today and get this process started.
 
 ### Watch
 

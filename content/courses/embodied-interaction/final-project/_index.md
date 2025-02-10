@@ -10,7 +10,7 @@ The final project:
 
 - Is something you do either on your own or as a group (2–4 people)
 - Is an interactive artwork/design/artifact/experience/game/interface that builds upon the theory and practice that we learn during this course.
-- Is something that you will present your project during the last class of the course **(Friday, April 12)**.
+- Is something that you will present your project during the last class of the course **(Friday, April 4)**.
 - Is something that you can exhibit in some way at the end of the course.
 - Is something that you need to document online (either publicly or more privately)
 
@@ -25,7 +25,7 @@ This outcome can be:
 
 ---
 
-## Final project proposal (March 13, 2024)
+## Final project proposal (March 12, 2025)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
@@ -35,8 +35,7 @@ Submit this to MyCourses and present in class.
 - For example: Miro, Figma, Notion, Google Doc etc.
 - pdf is also acceptable
 
-Deadline for the document, Tuesday March 12, 23:59 (I had the date wrong in MyCourses, sorry. It says Thursday there, so follow that.) 
-Present in class on Wednesday, March 13.
+Deadline for the document, Tuesday March 11, 23:59 
 {{</hint>}}
 
 - Some short thoughts on what you would like to explore and work with conceptually and technically. What is it that you want to create? How do people interact with it? How does it look like? How does it sound like? How does it feel like?
@@ -61,28 +60,25 @@ Some questions that might help you situate your work? Your work might fit into m
 
 ---
 
-## Final Project presentations and exhibition (April 12, 2024)
+## Final Project presentations and exhibition (April 4, 2025)
 
 Present your work on the last day of the course. Either just as a presentation or work towards having your work exhibited in one way or another.
 
-### Embodied Interaction Exhibition
+### Embodied Interaction | Open Studio Exhibition
 
-We have the gallery spaces V1 and V2 and room G203 are booked for the end of the course exhibition.
+We will use the Experimental Studio 1 as an Open Studio style exhibition space so that more people can experience the works.
 
 {{<hint info>}}
-- Dates: April 10–23
-- Setup: April 10-12
-- Opening: April 12
-- Takedown: ~~April 24~~ **April 23**
+- Dates: April 7–11
 {{</hint>}}
 
 ---
 
-## Final project documentation (April 26, 2024)
+## Final project documentation (April 16, 2025)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well.
 
-Deadline for finishing the documentation is Friday, April 26.
+Deadline for finishing the documentation is Wednesday, April 16.
 
 The required documentation consists of:
 
@@ -94,7 +90,7 @@ The required documentation consists of:
 Part of the documentation will be added to [this website](https://newmedia.dog/) if you give the permission to do so. More details on the exact format will be provided soon.
 
 {{<hint info>}}
-[Please upload your documentation to MyCourses.](https://mycourses.aalto.fi/mod/assign/view.php?id=1184824&forceview=1)
+[Please upload your documentation to MyCourses.]()
 {{</hint>}}
 
 ---
