@@ -1,15 +1,15 @@
 ---
 title: Week 08 | Studio Time Begins
 bookCollapseSection: true
-draft: true
+draft: false
 weight: 20
 ---
 
 New period, now we start the more intensive studio time for this course.
 
-- Wednesday (L208)
+- Wednesday (3430)
   - Final Project Kickoff
-- Thursday (L208)
+- Thursday (3430 + 3420)
   - Technical demonstration: Hand Tracking + Gesture Recognition with Wekinator
-- Friday (G203)
-  - AR Playground: AR systems (HoloLens 2, Varjo XR-3, Tilt Five)
+- Friday (3430)
+  - Experimenting and
