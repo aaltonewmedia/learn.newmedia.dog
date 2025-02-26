@@ -2,7 +2,7 @@
 title: "Fri | 01/03 | Technical demonstration: AR/VR/XR Playground"
 bookCollapseSection: false
 weight: 30
-draft: false
+draft: true
 ---
 
 # Week 08 | Lesson 03
