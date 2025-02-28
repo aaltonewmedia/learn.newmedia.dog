@@ -10,6 +10,8 @@ New period, now we start the more intensive studio time for this course.
 - Wednesday (3430)
   - Final Project Kickoff
 - Thursday (3430 + 3420)
-  - Technical demonstration: Hand Tracking + Gesture Recognition with Wekinator
+  - Technical demonstration: Lidar
 - Friday (3430)
-  - Experimenting and
+  - Hand Tracking + Gesture Recognition with Wekinator
+  - ZED Camera
+  - Experimenting and final project matchmaking
