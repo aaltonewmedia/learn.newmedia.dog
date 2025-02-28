@@ -2,7 +2,7 @@
 title: "Thu 27/02 | Lidar"
 bookCollapseSection: false
 weight: 20
-draft: true 
+draft: false 
 ---
 
 {{<hint info>}}
