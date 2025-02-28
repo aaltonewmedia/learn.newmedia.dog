@@ -1,14 +1,14 @@
 ---
-title: "Thu 29/02 | Hand Tracking, Gestures"
+title: "Thu 27/02 | Lidar"
 bookCollapseSection: false
 weight: 20
 draft: true 
 ---
 
 {{<hint info>}}
-**Wednesday, February 29, 2024**
+**Thursday, February 27, 2025**
 
-*Room L208*
+*Room 3430, Experimantal Studio 1*
 {{</hint>}}
 
 ---
