@@ -10,7 +10,7 @@ draft: false
 {{<hint info>}}
 **Friday, February 28, 2025**  
 
-*Room 3430, Experimantal Studio 1*
+*Room 3430, Experimental Studio 1*
 {{</hint>}}
 
 ---

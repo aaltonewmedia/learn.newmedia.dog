@@ -1,8 +1,8 @@
 ---
-title: Week 09 | Embodied AI, Affordances, Skeuomorphs
+title: Week 09 | Embodied AI
 bookCollapseSection: true
 weight: 20
-draft: true
+draft: false
 ---
 
 - Wednesday (L208)

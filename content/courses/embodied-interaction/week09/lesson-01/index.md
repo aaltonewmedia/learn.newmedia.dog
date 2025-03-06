@@ -1,14 +1,14 @@
 ---
-title: "Wed 06/03 | AI Tools"
+title: "Wed 05/03 | Project Planning"
 bookCollapseSection: false
 weight: 20
 draft: false
 ---
 
 {{<hint info>}}
-**Wednesday, March 6 2024**
+**Wednesday, March 5 2025**
 
-*Room L208*
+*Room 3430, Experimental Studio 1*
 {{</hint>}}
 
 ## AI Tools

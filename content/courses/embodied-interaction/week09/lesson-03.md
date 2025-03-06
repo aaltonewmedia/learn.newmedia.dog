@@ -1,12 +1,12 @@
 ---
-title: "Fri 08/03 | "
+title: "Fri 07/03 | "
 bookCollapseSection: false
 weight: 40
 draft: false
 ---
 
 {{<hint info>}}
-**Friday, March 8 2024**
-*Room G203*  
-**We start again at 10:30 AM**
+**Friday, March 7 2025**  
+
+*Room 3430, Experimental Studio 1*
 {{</hint>}}
