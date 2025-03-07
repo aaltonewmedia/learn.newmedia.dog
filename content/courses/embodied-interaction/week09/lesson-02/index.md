@@ -53,3 +53,4 @@ If you want to learn a little bit more in-depth how to work with the API, this t
 
 ## Examples
 
+[Download the examples from MyCourses]()

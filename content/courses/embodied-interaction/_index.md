@@ -185,7 +185,7 @@ You will be graded based on the following criteria
 
 ### Period IV
 
-#### Week 8 | TBA
+#### Week 8 | Working with Gestures | ZED
 
 | TIME | MON 24/02 | TUE 25/02 | WED 26/03 | THU 27/03 | FRI 28/02 |
 | --- | --- | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 9 | TBA
+#### Week 9 | AI Tools, Embodied AI
 
 | TIME | MON 03/03 | TUE 04/03 | WED 05/03 | THU 06/03 | FRI 07/03 |
 | --- | --- | --- | --- | --- | --- |
@@ -203,11 +203,11 @@ You will be graded based on the following criteria
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
-#### Week 10 | Project Propsal Presentations + Project Work
+#### Week 10 | Project Proposal Presentations + Project Work
 
 | TIME | MON 10/03 | TUE 11/03 | WED 12/03 | THU 13/03 | FRI 14/03 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Proposal Presentations]((./week10/lesson-01)) | [Project Work and Tutoring](./week10/lesson-02) | [Project Work and Tutoring](./week10/lesson-03)  |
+| 09:15–12:00 |  |  | [Project Work and Tutoring]((./week10/lesson-01)) | [Project Work and Tutoring](./week10/lesson-02) | [Project Proposal Presentations](./week10/lesson-03)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -234,7 +234,7 @@ You will be graded based on the following criteria
 
 | TIME | MON 31/03 | TUE 01/04 | WED 02/04 | THU 03/04 | FRI 04/04 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  | [Project Work](./weekx) | [Project Work](./weekx) | [Project Work](./weekx)  |
+| 09:15–12:00 |  |  | [Project Work](./weekx) | [Project Work](./weekx) | [Project Presentations](./weekx)  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |   |  |  |  |  |
 | 15:15–17:00 |   |  |  |  |  |

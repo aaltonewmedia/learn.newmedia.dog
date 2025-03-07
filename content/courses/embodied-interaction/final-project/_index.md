@@ -25,7 +25,7 @@ This outcome can be:
 
 ---
 
-## Final project proposal (March 12, 2025)
+## Final project proposal (March 14, 2025)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
@@ -35,7 +35,7 @@ Submit this to MyCourses and present in class.
 - For example: Miro, Figma, Notion, Google Doc etc.
 - pdf is also acceptable
 
-Deadline for the document, Tuesday March 11, 23:59 
+Deadline for the document, Thursday March 13, 23:59 
 {{</hint>}}
 
 - Some short thoughts on what you would like to explore and work with conceptually and technically. What is it that you want to create? How do people interact with it? How does it look like? How does it sound like? How does it feel like?
