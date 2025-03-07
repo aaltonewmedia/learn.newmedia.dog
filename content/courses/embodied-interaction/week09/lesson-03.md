@@ -15,7 +15,8 @@ draft: false
 
 ## Inspiration
 
-[Reality Design Lab](https://reality.design/) by Botao "Amber" Hu
+- [Reality Design Lab](https://reality.design/) by Botao "Amber" Hu
+- [HoloKit X](https://holokit.io/)
 
 ---
 
@@ -56,4 +57,4 @@ Please note! I had some confusing and conflicting dates in MyCourses and here on
 - Create a project planning document or proposal that you can present in class on **Friday, March 14**. [Submit a link or the document to MyCourses.](https://mycourses.aalto.fi/mod/assign/view.php?id=1321855)
 - Already start prototyping and testing some aspects of if you have not done so already
 
-Booking calendar for the studio. If you need to use some of the special equipment like the projectors, lights etc. in the Experimental Studio 1—or just generally plan to come work inside the studio—please mark it in this calendar so that other students know when is a good time to come there.
+[Booking calendar for the studio](https://mycourses.aalto.fi/mod/url/view.php?id=1321859). If you need to use some of the special equipment like the projectors, lights etc. in the Experimental Studio 1—or just generally plan to come work inside the studio—please mark it in this calendar so that other students know when is a good time to come there.
