@@ -2,12 +2,12 @@
 title: Week 10 | Project Proposals
 bookCollapseSection: true
 weight: 20
-draft: true
+draft: false
 ---
 
-- Wednesday (L208)
-  - Project Presentations
-- Thursday (L208)
-  - TBA
+- Wednesday
+  - Project Work and Tutoring
+- Thursday
+  - Project Work and Tutoring
 - Friday (G203)
-  - TBA
+  - Project Presentations

@@ -1,14 +1,14 @@
 ---
-title: "Fri 15/03 | Project Work"
+title: "Fri 15/03 | Project Proposal Presentations"
 bookCollapseSection: false
 weight: 30
 draft: false
 ---
 
 {{<hint info>}}
-**Thursday, March 14 2024**
+**Friday, March 14 2025**
 
-*Room G203*
+*Experimental Studio 1 and 3420 Computer classroom*
 {{</hint>}}
 
-Work on your project, Matti is available in room G203 for help and tutoring.
+Work on your project, Matti is available for tutoring.

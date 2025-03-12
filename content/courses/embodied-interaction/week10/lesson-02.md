@@ -1,14 +1,14 @@
 ---
-title: "Thu 14/03 | Project Work"
+title: "Thu 13/03 | Project Work and Tutoring"
 bookCollapseSection: false
 weight: 20
 draft: false
 ---
 
 {{<hint info>}}
-**Thursday, March 14 2024**
+**Thursday, March 13 2024**
 
-*Room L208*
+*Experimental Studio 1 and 3420 Computer classroom*
 {{</hint>}}
 
-Work on your project, Matti is available in room L208 for help and tutoring.
+Work on your project, Matti is available for tutoring.

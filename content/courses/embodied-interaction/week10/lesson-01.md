@@ -1,14 +1,14 @@
 ---
-title: "Wed 13/03 | Project Proposals"
+title: "Wed 12/03 | Project Work and Tutoring"
 bookCollapseSection: false
 weight: 10
 draft: false
 ---
 
 {{<hint info>}}
-**Wednesday, March 13 2024**
+**Wednesday, March 12 2025**
 
-*Room L208*
+*Experimental Studio 1 and 3420 Computer classroom*
 {{</hint>}}
 
-Project proposal presentations
+Work on your project, Matti is available for tutoring.
