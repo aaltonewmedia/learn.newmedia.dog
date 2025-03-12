@@ -9,5 +9,5 @@ draft: false
   - Project Work and Tutoring
 - Thursday
   - Project Work and Tutoring
-- Friday (G203)
+- Friday
   - Project Presentations
