@@ -74,11 +74,11 @@ We will use the Experimental Studio 1 as an Open Studio style exhibition space s
 
 ---
 
-## Final project documentation (April 16, 2025)
+## Final project documentation (April 18, 2025)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well.
 
-Deadline for finishing the documentation is Wednesday, April 16.
+Deadline for finishing the documentation is Wednesday, April 18.
 
 The required documentation consists of:
 
@@ -90,7 +90,7 @@ The required documentation consists of:
 Part of the documentation will be added to [this website](https://newmedia.dog/) if you give the permission to do so. More details on the exact format will be provided soon.
 
 {{<hint info>}}
-[Please upload your documentation to MyCourses.]()
+[Please upload your documentation to MyCourses.](https://mycourses.aalto.fi/mod/assign/view.php?id=1331041)
 {{</hint>}}
 
 ---
