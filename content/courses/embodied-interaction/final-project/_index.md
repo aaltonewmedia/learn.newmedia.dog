@@ -78,7 +78,7 @@ We will use the Experimental Studio 1 as an Open Studio style exhibition space s
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well.
 
-Deadline for finishing the documentation is Wednesday, April 18.
+Deadline for finishing the documentation is Friday, April 18.
 
 The required documentation consists of:
 
