@@ -7,9 +7,9 @@ draft: false
 ---
 
 {{<hint info>}}
-September 6, 2024  
-9:15–12:00  
-Room 2420 (Marsio)
+- September 5, 2024  
+- 9:15–12:00  
+- Room 2420 (Marsio)
 {{</hint>}}
 
 ## Inspiration

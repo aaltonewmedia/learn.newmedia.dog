@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{<hint info>}}
-- September 2, 2024
+- September 1, 2024
 - 15:15–17:00
 - Room Q101
 {{</hint>}}

@@ -6,7 +6,7 @@ p5js-widget: false
 ---
 
 {{<hint info>}}
-- September 12, 2024
+- September 11, 2024
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
