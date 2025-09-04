@@ -18,12 +18,11 @@ weight: 20
 
 <div class="calendar">
 
-| Compulsory programme studies | 27 ECTS |
+| Compulsory programme studies | 21 ECTS |
 | --- | --- |
 | Thinking Practices in Art & Media | 6 ECTS |
-| Doing Research in Art & Media | 6 ECTS |
+| Doing Research in Art & Media | 3 ECTS |
 | Art of Writing | 6 ECTS |
-| Creative Professional Life | 3 ECTS |
 | Master's Thesis Seminar | 6 ECTS |
 
 </div>
@@ -40,8 +39,10 @@ weight: 20
 
 <div class="calendar">
 
-| Alternative major studies | choose 12 ECTS |
+| Alternative major studies | choose 18 ECTS |
 | --- | --- |
+| Storytelling | 6 ECTS |
+| The 21st Century Art & Science Lab | 6 ECTS |
 | Physical Computing | 6 ECTS |
 | Embodied Interaction| 6 ECTS |
 | Systems of Representation: Culture Lab | 6 ECTS |
@@ -67,7 +68,6 @@ weight: 20
 
 | Elective studies | choose 30 ECTS |
 | --- | --- |
-| Storytelling | 6 ECTS |
 | Introduction to Virtual Reality | 3 ECTS |
 | 3D Animation minor | 18-24 ECTS |
 | Building Virtual Worlds minor | 18-25 ECTS |
@@ -75,154 +75,3 @@ weight: 20
 | Other elective courses | up to 30 ECTS |
 
 </div>
-
-## Teaching Calendar
-
-A calendar of all of the New Media major courses and some selected electives.
-- **Courses in bold** are compulsory studies
-- Courses with regular text are alternative major studies
-- *Courses in italics* are elective studies
-
-### Period I
-
-#### 6 Weeks
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | **Introduction to Media Art and Culture** | **Thinking Practices in Art & Media** | *Introduction to Virtual Reality* | **Computational Art and Design** | **Computational Art and Design** |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | **Thinking Practices in Art & Media** | **Master's Thesis Seminar (2nd Year)** | **Introduction to Media Art and Culture** | *Storytelling* |
-| 15:15–17:00 | **Computational Art and Design** |  | **Master's Thesis Seminar (2nd Year)** | **Introduction to Media Art and Culture** | *Storytelling* |
-
-</div> 
-
-#### Workshop Week
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making |
-| 15:15–17:00 | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making | Introduction to Critical Making |
-
-</div> 
-
-### Period II
-
-#### 6 Weeks
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | **Interaction Design** | **Interaction Design** |  | **Computational Art and Design** | **Computational Art and Design** |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | Physical Computing | **Master's Thesis Seminar (2nd Year)** | Physical Computing | *Storytelling* |
-| 15:15–17:00 | Physical Computing | Physical Computing | **Master's Thesis Seminar (2nd Year)** | Physical Computing | *Storytelling* |
-
-</div> 
-
-#### Workshop Week
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  |  |  |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
-
-</div> 
-
-### Period III
-
-#### 6 Weeks
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | **Doing Research in Art & Media** |  | Internet Technologies and Web Development | Internet Technologies and Web Development | Internet Technologies and Web Development |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | Systems of Representation: Culture Lab | **Master's Thesis Seminar (2nd Year)** | Digital Fabrication I | Generative and Interactive Narratives |
-| 15:15–17:00 | Embodied Interaction | Systems of Representation: Culture Lab  | **Master's Thesis Seminar (2nd Year)** / Digital Fabrication I | Digital Fabrication I | Generative and Interactive Narratives |
-| 17:15–20:00 |  |  | Digital Fabrication I |  |  |
-
-</div> 
-
-#### Workshop Week
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  |  |  |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
-
-</div> 
-
-### Period IV
-
-#### 6 Weeks
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | **Doing Research in Art & Media** | **Art of Writing** | Embodied Interaction | Embodied Interaction | Embodied Interaction |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | Systems of Representation: Culture Lab | Art + Media Studio | Digital Fabrication II | Generative and Interactive Narratives |
-| 15:15–17:00 |  | Systems of Representation: Culture Lab  | Digital Fabrication II | Digital Fabrication II | Generative and Interactive Narratives |
-| 17:15–20:00 |  |  | Digital Fabrication II |  |  |
-
-</div> 
-
-#### Workshop Week
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  |  |  |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  |  |  |  |  |
-| 15:15–17:00 |  |  |  |  |  |
-
-</div> 
-
-### Period V
-
-#### 6 Weeks
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | **Creative Professional Life** | **Art of Writing** | Art+Media Studio | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | **Creative Professional Life (Clinics)** |  | Art + Media Studio | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio |
-| 15:15–17:00 | **Creative Professional Life (Clinics)** |   | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio | Art+Media Studio / Digital Fabrication Studio |
-| 17:15–20:00 |  |  | Digital Fabrication Studio |  |  |
-
-</div> 
-
-#### Workshop Week
-
-<div class="calendar">
-
-| TIME | MON | TUE | WED | THU | FRI |
-| --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | Digital Fabrication Studio | Digital Fabrication Studio |  | Digital Fabrication Studio | Digital Fabrication Studio |
-| 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | Digital Fabrication Studio | Digital Fabrication Studio |  | Digital Fabrication Studio | Digital Fabrication Studio |
-| 15:15–17:00 | Digital Fabrication Studio | Digital Fabrication Studio | Digital Fabrication Studio | Digital Fabrication Studio | Digital Fabrication Studio |
-| 17:15–20:00 |  |  | Digital Fabrication Studio |  |  |
-
-</div> 
