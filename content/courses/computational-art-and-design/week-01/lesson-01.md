@@ -40,7 +40,7 @@ This track of the course is aimed for beginners. The course also has another tra
 
 ## Important resources
 
-- [MyCourses page (2024)](https://mycourses.aalto.fi/course/view.php?id=48452)
+- [MyCourses page (2025)](https://mycourses.aalto.fi/course/view.php?id=48452)
 - [Our OpenProcessing class](https://openprocessing.org/class/101465#/). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
@@ -238,7 +238,7 @@ function draw() {
 
 ## Saving and Making Your Sketches Private
 
-The files will be saved to your account on p5js.org. If you would like to have your sketches only visible to you and not accesible publicly, you can set them private using a feature that was just added very recently.
+The files will be saved to your account on p5js.org. If you would like to have your sketches only visible to you and not accesible publicly, you can set them private using a [feature that was just added very recently](https://medium.com/@ProcessingOrg/building-the-private-sketch-feature-what-made-this-journey-so-special-7c4a6b0de8f9).
 
 {{<youtube m4me8uExCA0>}}
 
