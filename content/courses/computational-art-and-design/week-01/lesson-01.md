@@ -40,8 +40,8 @@ This track of the course is aimed for beginners. The course also has another tra
 
 ## Important resources
 
-- [MyCourses page (2024)](https://mycourses.aalto.fi/course/view.php?id=44107#section-0)
-- [Our OpenProcessing class](https://openprocessing.org/class/92392). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
+- [MyCourses page (2024)](https://mycourses.aalto.fi/course/view.php?id=48452)
+- [Our OpenProcessing class](https://openprocessing.org/class/101465#/). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
 - [p5js Reference](https://p5js.org/reference/)
@@ -236,6 +236,12 @@ function draw() {
 }
 {{</ p5js >}}
 
+## Saving and Making Your Sketches Private
+
+The files will be saved to your account on p5js.org. If you would like to have your sketches only visible to you and not accesible publicly, you can set them private using a feature that was just added very recently.
+
+{{<youtube m4me8uExCA0>}}
+
 ---
 
 ## Homework
@@ -247,8 +253,8 @@ Experiment with the various shapes and drawing possibilities and try to create s
 Limit yourself only to the following functions:
 - [Shape](https://p5js.org/reference/#group-Shape) --> 2D Primitives (all of them should be quite simple to use except arc())
 - [Shape](https://p5js.org/reference/#group-Shape) --> Attributes --> strokeWeight()
-- [Color](https://p5js.org/reference/#group-Color) --> Setting --> background(), fill(), noFill(), stroke(), noStroke()
+- [Color](https://p5js.org/reference/#group-Color) --> Setting --> [background()](https://p5js.org/reference/p5/background/), [fill()](https://p5js.org/reference/p5/fill/), [noFill()](https://p5js.org/reference/p5/noFill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
 
-[Add your sketch to our Open Processing page.](https://openprocessing.org/class/92392)
+[Add your sketch to our Open Processing page.](https://openprocessing.org/class/101465#/)
 
 
