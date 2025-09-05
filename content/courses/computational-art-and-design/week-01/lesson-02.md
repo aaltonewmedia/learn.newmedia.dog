@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{<hint info>}}
-- September 5, 2024  
+- September 5, 2025  
 - 9:15–12:00  
 - Room 2420 (Marsio)
 {{</hint>}}
