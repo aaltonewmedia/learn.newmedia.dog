@@ -6,7 +6,7 @@ p5js-widget: false
 ---
 
 {{<hint info>}}
-- September 12, 2024
+- September 12, 2025
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -365,4 +365,4 @@ Bouncing Ball:
 Drawing With Mouse:
 - Use keyboard to set different brush options (color, size etc.)
 
-Upload your sketch to our [Open Processing class](https://openprocessing.org/class/92392).
+Upload your sketch to our [Open Processing class](https://openprocessing.org/class/101465#/).
