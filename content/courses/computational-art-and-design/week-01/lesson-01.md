@@ -66,7 +66,7 @@ The programming language we use on this course is JavaScript. More specifically,
 Whenever you work with your own code, I recommend that you write it using [the official p5.js editor](https://editor.p5js.org/). Especially in the beginning. However, these are some other options:
 
 - [p5.js Editor](https://editor.p5js.org/) (We start with this one and move on to the other ways later).
-- [Open Processing](https://openprocessing.org/class/92392) (We will also use this today).
+- [Open Processing](https://openprocessing.org/class/101465#/) (We will also use this today).
 - [CodePen](https://codepen.io/) (Another way to share code. I will show this one later.)
 - [How to setup Visual Studio Code for p5.j5](https://www.youtube.com/watch?v=yJw0SyKO9IU) (This will be the preffered way to work after you get the hang of how things work. I will explain how to do this later.)
 - You can even use the [Processing IDE with the p5.js mode](https://processing.org/)

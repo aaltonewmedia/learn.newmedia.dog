@@ -43,4 +43,4 @@ Any of these exercises:
   - Color: Josef Albers Color Relativity I
   - Color: Josef Albers Color Relativity II
 
-**Choose two exercises per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/92392) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
+**Choose two exercises per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/101465#/) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.

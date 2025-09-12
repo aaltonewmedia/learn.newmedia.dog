@@ -61,4 +61,4 @@ If you miss the classes this week and you are going over the 20% allowed absence
   - Sampler
   - Hand-Drawn Graphics Library (this might be a bit hard, even one shape would be enough)
 
-**Choose one exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/92392) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
+**Choose one exercise per missed day of class.** Add your sketches to our [OpenProcessing](https://openprocessing.org/class/101465#/) class. There is a collection specifically for this. Name your file with the date that you are compensating for and the exercise name from the book. For example, `06/09 Butt Generator`.
