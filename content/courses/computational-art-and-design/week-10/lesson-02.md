@@ -17,5 +17,3 @@ p5js-widget: true
 We start off by checking yout project proposals.
 {{</hint>}}
 
-
-

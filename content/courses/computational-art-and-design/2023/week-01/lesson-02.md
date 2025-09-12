@@ -50,7 +50,7 @@ Both of them do the same thing so you can use either one, but be careful with `p
 
 ### Drawing text on the canvas
 
-You can also draw text on the screen using the [`text()`](https://p5js.org/reference/#/p5/text) function.
+You can also draw text on the screen using the [`text()`](https://p5js.org/reference/p5/text) function.
 
 ```js
 text("Hello World!", 50, 50);
@@ -120,12 +120,12 @@ function draw() {
 }
 {{</ p5js >}}
 
-These variables called [```mouseX```](https://p5js.org/reference/#/p5/mouseX) and [```mouseY```](https://p5js.org/reference/#/p5/mouseY) are **system variables** that come with the p5.js library. They get updated behind the scenes and you can just use them to get the mouse position.
+These variables called [```mouseX```](https://p5js.org/reference/p5/mouseX) and [```mouseY```](https://p5js.org/reference/p5/mouseY) are **system variables** that come with the p5.js library. They get updated behind the scenes and you can just use them to get the mouse position.
 
 p5.js comes with a bunch of other **system variables**. We are not going to cover all of them today but there are two other variables that we should know today:
 
-- [```width```](https://p5js.org/reference/#/p5/width) – This system variable stores the width of the canvas that you set with ```createCanvas()```
-- [```height```]((https://p5js.org/reference/#/p5/height)) – This system variable stores the height of the canvas that you set with ```createCanvas()```
+- [```width```](https://p5js.org/reference/p5/width) – This system variable stores the width of the canvas that you set with ```createCanvas()```
+- [```height```]((https://p5js.org/reference/p5/height)) – This system variable stores the height of the canvas that you set with ```createCanvas()```
 
 How to use these? For example, you can figure out the center of the canvas. If you change the size of the canvas, you don't have to update the rest of the code.
 
@@ -192,7 +192,7 @@ We are going to spend a lot of time talking about variables as we go further. We
 
 To end the week, let's explore something that is more fun than learning about variables. Randomness.
 
-You can use the [`random()`](https://p5js.org/reference/#/p5/random) function to get a random value every time this function is called.
+You can use the [`random()`](https://p5js.org/reference/p5/random) function to get a random value every time this function is called.
 
 ```js
 // you can use two values as parameters to define the minimum and maximum values
@@ -204,7 +204,7 @@ random(width); // this would give you a value between 0 and the width of the can
 
 {{<hint info>}}
 Random values are... well, random...  
-Sometimes you want something that is still unpredictable but smoother. In those cases you can use [`noise()`](https://p5js.org/reference/#/p5/noise). Using `noise()` is a bit more complicated so this is more of an advanced topic, but good to know of its existence already.
+Sometimes you want something that is still unpredictable but smoother. In those cases you can use [`noise()`](https://p5js.org/reference/p5/noise). Using `noise()` is a bit more complicated so this is more of an advanced topic, but good to know of its existence already.
 
 [I have made a tutorial about noise that you can find here.]({{< ref "tutorials/p5-js/noise" >}}  )
 {{</hint>}}

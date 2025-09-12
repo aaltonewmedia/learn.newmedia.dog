@@ -141,7 +141,7 @@ You define the size of the canvas in pixels using the command (function) called:
 createCanvas(400, 400);
 ```
 
-The two ```parameters``` inside the parenthesis of ```createCanvas()``` define the size of our canvas. The first value is the **width** and the second is the **height**. You can find a detailed explanation of how it works in the [reference](https://p5js.org/reference/#/p5/createCanvas).
+The two ```parameters``` inside the parenthesis of ```createCanvas()``` define the size of our canvas. The first value is the **width** and the second is the **height**. You can find a detailed explanation of how it works in the [reference](https://p5js.org/reference/p5/createCanvas).
 
 {{< hint info >}}
 Note that you can use ```windowWidth``` and ```windowHeight``` to stretch the canvas to the entire window.
@@ -164,30 +164,30 @@ background(255,0,0);
 
 These functions will be useful for you today:
 
-- [background()](https://p5js.org/reference/#/p5/background)
-- [fill()](https://p5js.org/reference/#/p5/fill)
-- [noFill()](https://p5js.org/reference/#/p5/noFill)
-- [stroke()](https://p5js.org/reference/#/p5/stroke)
-- [noStroke()](https://p5js.org/reference/#/p5/noStroke)
+- [background()](https://p5js.org/reference/p5/background)
+- [fill()](https://p5js.org/reference/p5/fill)
+- [noFill()](https://p5js.org/reference/p5/noFill)
+- [stroke()](https://p5js.org/reference/p5/stroke)
+- [noStroke()](https://p5js.org/reference/p5/noStroke)
 
-You can also change the way the color channel values are interpreted using [```colorMode()```](https://p5js.org/reference/#/p5/colorMode) but let's stick with RGB for now.
+You can also change the way the color channel values are interpreted using [```colorMode()```](https://p5js.org/reference/p5/colorMode) but let's stick with RGB for now.
 
 ### Shapes (2D Primitives)
 
-- [point()](https://p5js.org/reference/#/p5/point)
-- [line()](https://p5js.org/reference/#/p5/line)
-- [circle()](https://p5js.org/reference/#/p5/circle)
-- [ellipse()](https://p5js.org/reference/#/p5/ellipse)
-- [square()](https://p5js.org/reference/#/p5/square)
-- [rect()](https://p5js.org/reference/#/p5/rect)
-- [triangle()](https://p5js.org/reference/#/p5/triangle)
-- [quad()](https://p5js.org/reference/#/p5/quad)
-- [arc()](https://p5js.org/reference/#/p5/arc)
+- [point()](https://p5js.org/reference/p5/point)
+- [line()](https://p5js.org/reference/p5/line)
+- [circle()](https://p5js.org/reference/p5/circle)
+- [ellipse()](https://p5js.org/reference/p5/ellipse)
+- [square()](https://p5js.org/reference/p5/square)
+- [rect()](https://p5js.org/reference/p5/rect)
+- [triangle()](https://p5js.org/reference/p5/triangle)
+- [quad()](https://p5js.org/reference/p5/quad)
+- [arc()](https://p5js.org/reference/p5/arc)
 
 There are a couple of attributes that will be useful today also:
 
-- [strokeWeight()](https://p5js.org/reference/#/p5/strokeWeight)
-- [strokeCap()](https://p5js.org/reference/#/p5/strokeCap)
+- [strokeWeight()](https://p5js.org/reference/p5/strokeWeight)
+- [strokeCap()](https://p5js.org/reference/p5/strokeCap)
 
 ### Comments
 

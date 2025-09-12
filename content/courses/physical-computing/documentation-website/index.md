@@ -25,6 +25,5 @@ I am still figuring out some of the ways this could be done as smooth as possibl
 
 1. When you make a change and publish it, it will update [this GitHub repository](https://github.com/aaltonewmedia/physcomp.newmedia.dog) with a new commit.
 2. You can see [the commits here](https://github.com/aaltonewmedia/physcomp.newmedia.dog/commits/main/).
-3. You can see the structure of your own section here. (go to content/2024/your-name)
+3. You can see the structure of your own section [here](https://github.com/aaltonewmedia/physcomp.newmedia.dog). (go to content/2024/your-name)
 4. After a commit has been made, the site gets built and published on Netlify. **This takes a minute or two so be patient!**
-

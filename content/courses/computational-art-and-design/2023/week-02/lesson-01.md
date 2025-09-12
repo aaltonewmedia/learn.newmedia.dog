@@ -20,8 +20,8 @@ Sooner or later, you will get stuck, annoyed, frustrated, confused, or some othe
 
 There are two new system variables built into p5js that we are going to need to use this week:
 
-- [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed)
-- [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed)
+- [mouseIsPressed](https://p5js.org/reference/p5/mouseIsPressed)
+- [keyIsPressed](https://p5js.org/reference/p5/keyIsPressed)
 
 ## Conditional Statements
 
@@ -29,7 +29,7 @@ A very large part of your code will depend on being able to set rules on when ce
 
 ## Comparison Operators
 
-When setting up your conditions for [`if`](https://p5js.org/reference/#/p5/if-else) statements, you need to compare values in different ways. These are the different comparison operators that we are going to need:
+When setting up your conditions for [`if`](https://p5js.org/reference/p5/if-else) statements, you need to compare values in different ways. These are the different comparison operators that we are going to need:
 
 - [Equal: ==](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality) (note the **two** equal signs, don’t mix with assigning values!)
 - [Equal (strict equality): ===](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality) (note the **three** equal signs, this is a JavaScript specialty that checks if the values AND the data types are equal.)
@@ -212,6 +212,6 @@ Coming soon....
 
 To learn more about this topic, go through the following links:
 
-- [p5js Reference](https://p5js.org/reference/#/p5/if-else)
+- [p5js Reference](https://p5js.org/reference/p5/if-else)
 - [JavaScript Conditions](https://www.w3schools.com/js/js_if_else.asp)
 - [JavaScript Comparison and Logical Operators](https://www.w3schools.com/js/js_comparisons.asp)

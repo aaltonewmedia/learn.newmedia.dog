@@ -340,8 +340,8 @@ Using mouseIsPressed and keyIsPressed inside the draw() means that the program l
 
 ### Recap
 
-- [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed)
-- [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed)
+- [mouseIsPressed](https://p5js.org/reference/p5/mouseIsPressed)
+- [keyIsPressed](https://p5js.org/reference/p5/keyIsPressed)
 - [if](https://www.w3schools.com/js/js_if_else.asp)
 - [Comparison and Logical operators](https://www.w3schools.com/js/js_comparisons.asp)
 - [switch](https://www.w3schools.com/js/js_switch.asp)

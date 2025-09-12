@@ -20,13 +20,13 @@ Note that we did not manage to cover all of the topics yesterday about images an
 
 ## New p5js functions that we are going to need today
 
-- [keyPressed()](https://p5js.org/reference/#/p5/keyPressed)
-- [mousePressed()](https://p5js.org/reference/#/p5/mousePressed)
+- [keyPressed()](https://p5js.org/reference/p5/keyPressed)
+- [mousePressed()](https://p5js.org/reference/p5/mousePressed)
 
-These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/#/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/#/p5/mouseIsPressed) system variables that we have been using.
+These functions are called ***once*** when you either press a key on your keyboard or a button on your mouse/touchpad. This is often more desired functionality compared to the [keyIsPressed](https://p5js.org/reference/p5/keyIsPressed) and [mouseIsPressed](https://p5js.org/reference/p5/mouseIsPressed) system variables that we have been using.
 
-- [lerp()](https://p5js.org/reference/#/p5/lerp)
-- [lerpColor](https://p5js.org/reference/#/p5/lerpColor)
+- [lerp()](https://p5js.org/reference/p5/lerp)
+- [lerpColor](https://p5js.org/reference/p5/lerpColor)
 
 `lerp()` is a really useful function that is used to intepolate between two values. Use it to smooth audio input values or to create laggy or smoothed movements.
 

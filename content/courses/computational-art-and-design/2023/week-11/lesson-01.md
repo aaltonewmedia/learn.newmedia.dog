@@ -21,9 +21,9 @@ Many mobile phones have built-in sensors (accelerometers, gyroscopes, compass et
 
 We are going to use the rotation values today:
 
-- [rotationX](https://p5js.org/reference/#/p5/rotationX)
-- [rotationY](https://p5js.org/reference/#/p5/rotationY)
-- [rotationZ](https://p5js.org/reference/#/p5/rotationZ) (only if your device has a compass)
+- [rotationX](https://p5js.org/reference/p5/rotationX)
+- [rotationY](https://p5js.org/reference/p5/rotationY)
+- [rotationZ](https://p5js.org/reference/p5/rotationZ) (only if your device has a compass)
 
 - [My example](https://editor.p5js.org/mnstri/sketches/3FMgL5M0f)
 

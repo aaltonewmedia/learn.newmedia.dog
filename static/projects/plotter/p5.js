@@ -56865,7 +56865,7 @@
  * </div>
  *
  * @alt
- * current url (http://p5js.org/reference/#/p5/getURL) moves right to left.
+ * current url (http://p5js.org/reference/p5/getURL) moves right to left.
  */
 
         _main.default.prototype.getURL = function () {
@@ -58481,7 +58481,7 @@
               //if the element in variableArray is a  p5.js constant then the below condidion
               //will be true, hence a match is found
               if (constants[variableArray[i]] !== undefined) {
-                var url = 'https://p5js.org/reference/#/p5/'.concat(variableArray[i]); //display the FES message if a match is found
+                var url = 'https://p5js.org/reference/p5/'.concat(variableArray[i]); //display the FES message if a match is found
                 _main.default._friendlyError((0, _internationalization.translator) ('fes.sketchReaderErrors.reservedConst', {
                   url: url,
                   symbol: variableArray[i]
@@ -58506,7 +58506,7 @@
                 for (; j < keyArray.length; j++) {
                   if (p5Constructors[keyArray[j]].prototype[variableArray[_i2]] !== undefined) {
                     //if a p5.js function is used ie it is in the funcs array
-                    var _url = 'https://p5js.org/reference/#/p5/'.concat(variableArray[_i2]);
+                    var _url = 'https://p5js.org/reference/p5/'.concat(variableArray[_i2]);
                     _main.default._friendlyError((0, _internationalization.translator) ('fes.sketchReaderErrors.reservedFunc', {
                       url: _url,
                       symbol: variableArray[_i2]
@@ -58660,7 +58660,7 @@
               //then report.
 
               if (constants[tempArray[i]] !== element) {
-                var url = 'https://p5js.org/reference/#/p5/'.concat(tempArray[i]);
+                var url = 'https://p5js.org/reference/p5/'.concat(tempArray[i]);
                 _main.default._friendlyError((0, _internationalization.translator) ('fes.sketchReaderErrors.reservedConst', {
                   url: url,
                   symbol: tempArray[i]
@@ -58707,7 +58707,7 @@
                   if (p5Constructors[keyArray[k]].prototype[functionArray[_i5]] === undefined);
                    else {
                     if (p5Constructors[keyArray[k]].prototype[functionArray[_i5]] !== element) {
-                      var _url2 = 'https://p5js.org/reference/#/p5/'.concat(functionArray[_i5]);
+                      var _url2 = 'https://p5js.org/reference/p5/'.concat(functionArray[_i5]);
                       _main.default._friendlyError((0, _internationalization.translator) ('fes.sketchReaderErrors.reservedFunc', {
                         url: _url2,
                         symbol: functionArray[_i5]
@@ -74526,7 +74526,7 @@
         /**
  * The <a href="#/p5/deviceMoved">deviceMoved()</a> function is called when the device is moved by more than
  * the threshold value along X, Y or Z axis. The default threshold is set to 0.5.
- * The threshold value can be changed using <a href="https://p5js.org/reference/#/p5/setMoveThreshold">setMoveThreshold()</a>.
+ * The threshold value can be changed using <a href="https://p5js.org/reference/p5/setMoveThreshold">setMoveThreshold()</a>.
  *
  * @method deviceMoved
  * @example
@@ -74613,7 +74613,7 @@
  * The <a href="#/p5/deviceShaken">deviceShaken()</a> function is called when the device total acceleration
  * changes of accelerationX and accelerationY values is more than
  * the threshold value. The default threshold is set to 30.
- * The threshold value can be changed using <a href="https://p5js.org/reference/#/p5/setShakeThreshold">setShakeThreshold()</a>.
+ * The threshold value can be changed using <a href="https://p5js.org/reference/p5/setShakeThreshold">setShakeThreshold()</a>.
  *
  * @method deviceShaken
  * @example
@@ -99729,7 +99729,7 @@
  *
  * Setting the frustum changes the perspective of the scene being rendered.
  * This can be achieved more simply in many cases by using
- * <a href="https://p5js.org/reference/#/p5/perspective">perspective()</a>.
+ * <a href="https://p5js.org/reference/p5/perspective">perspective()</a>.
  *
  * If no parameters are given, the following default is used:
  * frustum(-width/2, width/2, -height/2, height/2, 0, max(width, height)).
@@ -105392,7 +105392,7 @@
  * // Click within the image to toggle the value of uniforms
  * // Note: for an alternative approach to the same example,
  * // involving toggling between shaders please refer to:
- * // https://p5js.org/reference/#/p5/shader
+ * // https://p5js.org/reference/p5/shader
  *
  * let grad;
  * let showRedGreen = false;

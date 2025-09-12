@@ -90,8 +90,7 @@ We also use the following spaces at Marsio:
 
 - 09.15–12:00 Project Work and Tutoring
 - 12:00–13:00 Lunch
-- 13:00–15:00 Project Work and Tutoring
-- 16:00–17:00 Q&A, progress report
+- 13:00–17:00 Project Work and Tutoring
 
 ### Friday | 18/10/2024
 

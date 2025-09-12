@@ -43,6 +43,6 @@ background(255, 0, 200);
 
 To learn more about this topic, go through the following links:
 
-- [p5js Reference](https://p5js.org/reference/#/p5/if-else)
+- [p5js Reference](https://p5js.org/reference/p5/if-else)
 
 <!-- https://natureofcode.com/book/introduction/ -->

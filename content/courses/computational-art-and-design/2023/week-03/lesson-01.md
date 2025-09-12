@@ -20,12 +20,12 @@ p5js-widget: true
 
 Our main topic today is loops but let's take a quick look at two very useful functions in p5.js that will help us create interesting interactions.
 
-- [`map()`](https://p5js.org/reference/#/p5/map)
-- [`constrain()`](https://p5js.org/reference/#/p5/constrain)
+- [`map()`](https://p5js.org/reference/p5/map)
+- [`constrain()`](https://p5js.org/reference/p5/constrain)
 
 ### map()
 
-Another very useful function that we are going to need all the time is the [`map()`](https://p5js.org/reference/#/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
+Another very useful function that we are going to need all the time is the [`map()`](https://p5js.org/reference/p5/map) function. It allows you to convert values from one range to another. For example, if you would like to have the mouseX control a color value and you would want to use the full width of your canvas to have an effect on the value.
 
 
 {{< p5js width="400" height="400">}}
@@ -66,7 +66,7 @@ function draw() {
 }
 {{</ p5js >}}
 
-Note that the `map()` now uses the mouse input only from 100 to 200 pixels and converts that range to 0 to 255. However, `map()` does not clamp or constrain the values to the desired output (0-255). The brightness is able to become negative or go over 255. You can use [`constrain()`](https://p5js.org/reference/#/p5/constrain) to clamp the values to whatever range you want to.
+Note that the `map()` now uses the mouse input only from 100 to 200 pixels and converts that range to 0 to 255. However, `map()` does not clamp or constrain the values to the desired output (0-255). The brightness is able to become negative or go over 255. You can use [`constrain()`](https://p5js.org/reference/p5/constrain) to clamp the values to whatever range you want to.
 
 ```js
 brightness = map(mouseX,100,200,0,255);

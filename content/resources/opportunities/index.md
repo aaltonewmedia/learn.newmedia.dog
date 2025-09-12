@@ -75,7 +75,7 @@ https://kordelin.fi/en/frontpage
 
 ---
 
-## Competitions and Awards
+## FEstivals, Competitions, and Awards
 
 ### Ars Electronica
 
@@ -91,6 +91,13 @@ https://j-mediaarts.jp/en/
 
 ### Grand One
 
+### Bright Festival
+
+https://www.brightfestival.com/
+
+### Currents New Media
+
+https://currentsnewmedia.org/
 
 ---
 

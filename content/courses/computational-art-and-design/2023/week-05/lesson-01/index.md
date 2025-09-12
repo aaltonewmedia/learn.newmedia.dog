@@ -75,11 +75,11 @@ function draw() {
 }
 {{</p5js >}}
 
-You will notice that there is a lot of repetition of these variable names ```offsetX``` and ```offsetY```. As I have said before, whenever you see your code repeating the same things over and over again, there probably is a better way to do it. There is. It's called [translate()](https://p5js.org/reference/#/p5/translate).
+You will notice that there is a lot of repetition of these variable names ```offsetX``` and ```offsetY```. As I have said before, whenever you see your code repeating the same things over and over again, there probably is a better way to do it. There is. It's called [translate()](https://p5js.org/reference/p5/translate).
 
 ### translate()
 
-The [translate()](https://p5js.org/reference/#/p5/translate) transformation essentially moves anything you draw after calling it by the amount you define in the parameters. Here is an example based on what we did earlier.
+The [translate()](https://p5js.org/reference/p5/translate) transformation essentially moves anything you draw after calling it by the amount you define in the parameters. Here is an example based on what we did earlier.
 
 {{<p5js autoplay=1 width="400" height="400">}}
 let offsetX;
@@ -151,7 +151,7 @@ Here is an example with the grid image.
 
 ### scale()
 
-We can also control the size of things we draw using the [scale()](https://p5js.org/reference/#/p5/push) transformation. 
+We can also control the size of things we draw using the [scale()](https://p5js.org/reference/p5/push) transformation. 
 
 {{<hint info>}}
 ***Please note!*** The order of transformation operations matters. You will get very different results depending on the order you translate, rotate and scale.
@@ -279,14 +279,14 @@ function draw() {
 }
 {{</p5js >}}
 
-For this simple example, it's not such a complicated thing to do. But what if we want to have lots of different shapes, images or text moving, rotating or scaling independently of each other? Keeping track of all this would get really complicated. Surely there must be some way to get around this issue? The solution is to use [push()](https://p5js.org/reference/#/p5/push) and [pop()](https://p5js.org/reference/#/p5/pop).
+For this simple example, it's not such a complicated thing to do. But what if we want to have lots of different shapes, images or text moving, rotating or scaling independently of each other? Keeping track of all this would get really complicated. Surely there must be some way to get around this issue? The solution is to use [push()](https://p5js.org/reference/p5/push) and [pop()](https://p5js.org/reference/p5/pop).
 
 ### push() and pop()
 
 These two handy functions are used to **save** and **restore** the transformation matrix back to a certain state.
 
-- [push()](https://p5js.org/reference/#/p5/push) tells your program to save whatever the state of the transformation is at that specific point in the code.
-- [pop()](https://p5js.org/reference/#/p5/pop) tells your program to restore the state of the transformation matrix to the previously saved state. Meaning the last time you called push().
+- [push()](https://p5js.org/reference/p5/push) tells your program to save whatever the state of the transformation is at that specific point in the code.
+- [pop()](https://p5js.org/reference/p5/pop) tells your program to restore the state of the transformation matrix to the previously saved state. Meaning the last time you called push().
 
 {{<hint info>}}
 You could think of them like layers in Photoshop. Each section of your code that is between the push() and pop() commands is sort of like its own layer.

@@ -44,11 +44,11 @@ I also made this png image with transparent background you can use (right click 
 
 [![Brush png](img/brush.png)](img/brush.png)
 
-- [loadImage()](https://p5js.org/reference/#/p5/loadImage)
-- [image()](https://p5js.org/reference/#/p5/image)
-- [tint()](https://p5js.org/reference/#/p5/tint)
-- [preload()](https://p5js.org/reference/#/p5/preload)
-- [get()](https://p5js.org/reference/#/p5/get)
+- [loadImage()](https://p5js.org/reference/p5/loadImage)
+- [image()](https://p5js.org/reference/p5/image)
+- [tint()](https://p5js.org/reference/p5/tint)
+- [preload()](https://p5js.org/reference/p5/preload)
+- [get()](https://p5js.org/reference/p5/get)
 
 ```js
 let img;
@@ -142,7 +142,7 @@ Or you can do the same thing we did with the random walkers last week, but pick 
 
 Working with video files is quite similar to working with images. The loading of the video file and enabling playback of it just needs to be done in a specific way. Once that is done, you draw the video the same way you would draw any image.
 
-- [createVideo](https://p5js.org/reference/#/p5/createVideo)
+- [createVideo](https://p5js.org/reference/p5/createVideo)
 
 You can [download my example video file here (right click --> save as).](img/shroom.mp4)
 
@@ -175,7 +175,7 @@ function vidLoad() {
 
 Using video camera instead of a video file works in a similar way. You need to enable the capturing of the video in a specific way, after that it's just a moving image.
 
-- [createCapture](https://p5js.org/reference/#/p5/createCapture)
+- [createCapture](https://p5js.org/reference/p5/createCapture)
 
 {{<hint warning>}}
 The p5js widget that I have been using does not work with the live video. So I will just provide the code examples and links to the projects on the p5js editor. **Links will be updated after the class.**
