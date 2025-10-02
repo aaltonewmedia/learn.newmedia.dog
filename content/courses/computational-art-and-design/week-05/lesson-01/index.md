@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 3, 2024
+- October 2, 2025
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -320,3 +320,13 @@ I have been talking about the transformation **matrix**. What is that? Are you e
 You can learn more about transformation matrices on [Wikipedia](https://en.wikipedia.org/wiki/Transformation_matrix).
 
 Does everything on that page look completely alien to you? If so, you can keep on living in the simulation and just ignore all of the technical details. For our purposes this level of understanding that we covered on this page is enough. You do not have to necessarily know all the technical details. That is why we have computers. They can do all the complex technical stuff and we can focus on making something interesting with them.
+
+The Coding Train tutorials are very useful:
+
+{{<youtube o9sgjuh-CBM>}}
+
+{{<youtube pkHZTWOoTLM>}}
+
+{{<youtube IVMvq9rd8dA>}}
+
+
