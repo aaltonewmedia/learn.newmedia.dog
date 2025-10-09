@@ -460,6 +460,10 @@ function drawSecond(x,y){
 
 ## Homework
 
+{{<hint info>}}
+For 2025 clas we didn't have time to go throught the example properly so you don't have to do the coding homework yet. I will give it to you another time. For now, just go through the links in the inspiration section below.
+{{</hint>}}
+
 Make a new type of clock that visualizes time using color, shapes, movement, sound, images, text etc. Something that is not so literal as a normal clock.
 
 Requirements:
