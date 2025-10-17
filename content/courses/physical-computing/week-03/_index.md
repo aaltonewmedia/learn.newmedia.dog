@@ -2,7 +2,7 @@
 title: "03 | Making Things Move"
 bookCollapseSection: true
 p5js-widget: true
-draft: false
+draft: true
 ---
 
 ## Schedule

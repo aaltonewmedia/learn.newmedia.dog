@@ -2,7 +2,7 @@
 title: "05 | Project Work (+ WiFI, USB)"
 bookCollapseSection: false
 p5js-widget: true
-draft: false
+draft: true
 ---
 
 ## Schedule

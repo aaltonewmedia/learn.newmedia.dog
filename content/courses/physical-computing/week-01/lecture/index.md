@@ -26,7 +26,9 @@ We have three classes each week. They are divided like this:
 
 - Learning about artists and designers working with physical computing and electronics
 - You will need to learn the basics of working with electronics.
-- You should have basic understanding of programming before coming to the course (you will learn some more).
+- You will learn more about programming, and specifically programming small microcontrollers.
+- We will figure out how to read data from all types of different sensors
+- We will build a small robot army
 - You will be working a lot with your hands: building circuits, assembling prototypes etc.
 
 ---

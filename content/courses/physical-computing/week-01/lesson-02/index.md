@@ -27,17 +27,86 @@ Or nowadays most likely more like this:
 
 Microcontrollers are essentially small computers built into one single chip. You can connect input and output devices to them. You can also program them to do specific things with those input and output devices. Microcontrollers are used when you need a small, low-power device to read data from sensors or to control some output devices.
 
+### Microcontrollers Used in This Course
+
+Over the years we have used differnet types of microcontrollers, generally some variation of the [Arduino](https://www.arduino.cc/) boards.
+
 {{<hint info>}}
 Note that microcontrollers and [microprocessors](https://en.wikipedia.org/wiki/Microprocessor) are two different things. Microprocessor is the CPU that you have inside your laptop or desktop computer.
 
 [For example, Raspberry Pi computers use microprocessors not microcontrollers](https://www.raspberrypi.org/), **but** the Raspberry Pi company also makes a microcontroller called [RP2040](https://www.raspberrypi.com/products/rp2040/) and the [Raspberry Pi Pico microcontroller board.](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
-In 2023, we use this microcontroller:
-- [Arduino Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) that uses the [Renesas RA4M1 (Arm® Cortex®-M4)](https://www.renesas.com/us/en/document/dst/ra4m1-group-datasheet) as the main microcontroller and the [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3) as the WiFi and Bluetooth module.
+{{< tabs >}}
+{{% tab "2025" %}}
+#### Raspberry Pi Pico 2 W
+In the 2025 Physical Computing course, we use this microcontroller:
 
-In older runs of the course we have used these:
-- Arduino Uno R3 that uses the [ATMega328P microcontroller made by Microchip](https://www.microchip.com/en-us/product/ATmega328P)
-- Arduino RP2040 Connect that uses the [RP2040 microcontroller made by Raspberry Pi](https://www.raspberrypi.com/products/rp2040/)
+[![Pico 2W](./img/pico2w-pinout.png)](./img/pico2w-pinout.png)
+
+- [Raspberry Pi Pico 2 W](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico2w-technical-specification)
+
+The Raspberry Pi Pico 2 W is a low-cost microcontroller from the makers of Rasberry Pi. It uses the RP2350 microcontroller that has a wide variety of features and an additonal chip for wireless communication (WiFI and Bluetooth).
+
+
+{{% /tab %}}
+{{% tab "2023-2024" %}}
+#### Arduino Uno R4 WiFi
+
+In the 2024 Physical Computing course, we use this microcontroller:
+
+[![Arduino Uno R4 WiFi](./img/arduino-uno-r4-wifi-pinout.png)](./img/arduino-uno-r4-wifi-pinout.png)
+
+The board that you have in your kit is called [Arduino Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) and it's the one that we are mainly going to use for everything in this class. You might also want to use some other boards depending on the requirements of your final project.
+- [Arduino Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) that uses the [Renesas RA4M1 (Arm® Cortex®-M4)](https://www.renesas.com/us/en/document/dst/ra4m1-group-datasheet) as the main microcontroller and the [ESP32-S3](https://www.espressif.com/en/products/socs/esp32-s3) as the WiFi and Bluetooth module.
+{{% /tab %}}
+{{% tab "2022 and earlier" %}}
+
+#### Arduino Uno R3
+
+[![Arduino Uno](./img/arduino-uno-pinout.png)](./img/arduino-uno-pinout.png)
+
+- [Arduino Uno R3 Documentation](https://docs.arduino.cc/hardware/uno-rev3)
+
+Arduino Uno R3 is the basic model of the Arduino that is based on the ATMega328 8-bit microcontroller. The ATMega328 is quite old and not really recommended to be used on any new designs anymore. There are many newer and more powerful microcontrollers available, but it is still very good place to start with for the following reasons:
+
+- It is quite robust and durable, it's not very easy to break one (compared to many of the newer models).
+- If you manage to burn or otherwise break the microcontroller chip, it can be easily replaced without soldering.
+- So many of the examples you find online will be based on the Uno so it is going to be easier to start learning with it.
+- Most of the code that you will create during this class will not be anywhere near hitting the limits of the Uno R3/ATMega328.
+
+---
+
+#### Arduino RP2040 Connect
+
+[![Arduino RP2040 Connect](./img/arduino-rp2040-connect-pinout.png)](./img/arduino-rp2040-connect-pinout.png)
+
+- [Arduino RP2040 Connect Documentation](https://docs.arduino.cc/hardware/nano-rp2040-connect)
+
+The other microcontroller we have quite many of is the Arduino RP2040 Connect. It's a much more powerful microcontroller than the Uno. It also has two built-in sensors (IMU, microphone) as well as a wireless chip that supports WiFi and Bluetooth.
+
+{{<hint danger>}}
+Please be very careful with these boards! There are two things that can fairly easily break on them.
+
+[![Arduino RP2040 Connect](./img/arduino-rp2040-image.jpg)](./img/arduino-rp2040-image.jpg)
+
+1. The USB connector. Always unplug your USB cable from the board when you pack it up into your kit. Also be careful not to drop the board with the USB cable connected to it.
+2. The antenna. The antenna is very fragile and can also snap off quite easily if you drop the board or otherwise hit the antenna.
+{{</hint>}}
+
+Features:
+- Microcontroller Raspberry Pi® RP2040
+- Digital I/O Pins: 20
+- Analog Input Pins: 8
+- PWM pins: 
+- IMU sensor: LSM6DSOXTR (6-axis)
+- Microphone: MP34DT05
+
+- Can be programmed either with the Arduino code (C++) or Python
+- [See this turorial for instructions on how to use the board with MicroPython if you prefer Python](https://docs.arduino.cc/learn/programming/arduino-and-python)
+
+{{% /tab %}}
+{{< /tabs >}}
+
 {{</hint>}}
 
 ## Time Before Arduino
@@ -100,10 +169,13 @@ You wouldn't think that there could be a lot of interesting controversy in the w
 - [The Untold History of Arduino by Hernando Barragán, the creator of Wiring](https://arduinohistory.github.io/)
 - [Two Arduinos become one](https://blog.arduino.cc/2016/10/01/two-arduinos-become-one-2/)
 - [A new era for Arduino begins today](https://blog.arduino.cc/2017/07/28/a-new-era-for-arduino-begins-today/)
+- (+ many other articles that followed)
+
+[In 2025, Qualcomm bought Arduino](https://www.arduino.cc/qualcomm/), it is quite uncertain still what that will mean to the Arduino project and the open source side.
 
 ### Arduino IDE
 
-Arduino just recently released an updated version (2.0) of the Arduino IDE. We are going to use that. Just note that the computers at Aalto still have the older version.
+The Arduino IDE is a code editor and a toolchain fro uploading code to various microcontrollers.
 
 [![Arduino IDE 1.8.19](./img/arduino-18.png)](./img/arduino-18.png)
 
@@ -111,58 +183,10 @@ Arduino just recently released an updated version (2.0) of the Arduino IDE. We a
 
 The old and new version look slightly different but the code will be the same. You can also use the older version of the software if you want/need to.
 
-### Arduino boards used in this course
+### Arduino-Pico
 
-#### Arduino Uno R4 WiFi
+Although we use the Pico boards, we are going to program them using the Arduino IDE instead of Python. This is done with the help of a great project by [Earle F. Philhower, III ](https://github.com/earlephilhower). It is called [Arduino-Pico](https://github.com/earlephilhower/arduino-pico) and it essentially provides 
 
-[![Arduino Uno R4 WiFi](./img/arduino-uno-r4-wifi-pinout.png)](./img/arduino-uno-r4-wifi-pinout.png)
-
-The board that you have in your kit is called [Arduino Uno R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi) and it's the one that we are mainly going to use for everything in this class. You might also want to use some other boards depending on the requirements of your final project.
-
----
-
-#### Arduino Uno R3
-
-[![Arduino Uno](./img/arduino-uno-pinout.png)](./img/arduino-uno-pinout.png)
-
-- [Arduino Uno R3 Documentation](https://docs.arduino.cc/hardware/uno-rev3)
-
-Arduino Uno R3 is the basic model of the Arduino that is based on the ATMega328 8-bit microcontroller. The ATMega328 is quite old and not really recommended to be used on any new designs anymore. There are many newer and more powerful microcontrollers available, but it is still very good place to start with for the following reasons:
-
-- It is quite robust and durable, it's not very easy to break one (compared to many of the newer models).
-- If you manage to burn or otherwise break the microcontroller chip, it can be easily replaced without soldering.
-- So many of the examples you find online will be based on the Uno so it is going to be easier to start learning with it.
-- Most of the code that you will create during this class will not be anywhere near hitting the limits of the Uno R3/ATMega328.
-
----
-
-#### Arduino RP2040 Connect
-
-[![Arduino RP2040 Connect](./img/arduino-rp2040-connect-pinout.png)](./img/arduino-rp2040-connect-pinout.png)
-
-- [Arduino RP2040 Connect Documentation](https://docs.arduino.cc/hardware/nano-rp2040-connect)
-
-The other microcontroller we have quite many of is the Arduino RP2040 Connect. It's a much more powerful microcontroller than the Uno. It also has two built-in sensors (IMU, microphone) as well as a wireless chip that supports WiFi and Bluetooth.
-
-{{<hint danger>}}
-Please be very careful with these boards! There are two things that can fairly easily break on them.
-
-[![Arduino RP2040 Connect](./img/arduino-rp2040-image.jpg)](./img/arduino-rp2040-image.jpg)
-
-1. The USB connector. Always unplug your USB cable from the board when you pack it up into your kit. Also be careful not to drop the board with the USB cable connected to it.
-2. The antenna. The antenna is very fragile and can also snap off quite easily if you drop the board or otherwise hit the antenna.
-{{</hint>}}
-
-Features:
-- Microcontroller Raspberry Pi® RP2040
-- Digital I/O Pins: 20
-- Analog Input Pins: 8
-- PWM pins: 
-- IMU sensor: LSM6DSOXTR (6-axis)
-- Microphone: MP34DT05
-
-- Can be programmed either with the Arduino code (C++) or Python
-- [See this turorial for instructions on how to use the board with MicroPython if you prefer Python](https://docs.arduino.cc/learn/programming/arduino-and-python)
 
 ---
 
