@@ -7,19 +7,17 @@ weight: 130
 ---
 
 {{<hint info>}}
-- Thursday, November 28, 2024
+- Thursday, November 27, 2025
 - 9:15–12:00
-- Room 3448 (Marsio)
-- **Room 3430, Experimental Studio 1 (Marsio) | For exhibition testing and setup**
+- Room 3430, Experimental Studio 1 (Marsio)
 {{</hint>}}
 
 ---
 
 {{<hint info>}}
-- Friday, November 29, 2024
+- Friday, November 28, 2025
 - 9:15–12:00
-- Room 3448 (Marsio)
-- **Room 3430, Experimental Studio 1 (Marsio) | For exhibition testing and setup**
+- Room 3430, Experimental Studio 1 (Marsio)
 
 Final presentations
 {{</hint>}}

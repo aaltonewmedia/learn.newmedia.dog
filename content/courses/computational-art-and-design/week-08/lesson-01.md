@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 24, 2024
+- October 23, 2025
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -34,7 +34,6 @@ There are many options, feel free to explore them and choose the one that you li
 - [Sublime Text](https://www.sublimetext.com/)
 - [Brackets](https://brackets.io/)
 - [Espresso](https://espressoapp.com/) (only for Mac)
-- [Atom](https://github.com/atom/atom) This used to be a great text editor but the developers have now discontinued it.
 - You can even use the [Processing IDE with the p5.js mode](https://processing.org/) as your code editor.
 
 ### Visual Studio Code + Live Server extension

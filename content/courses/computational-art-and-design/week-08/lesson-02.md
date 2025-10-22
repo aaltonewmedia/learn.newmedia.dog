@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 25, 2024
+- October 24, 2025
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}

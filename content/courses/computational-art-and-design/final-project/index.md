@@ -28,15 +28,15 @@ Here are some suggestions for simple projects:
 
 ### Combined Final Project with Physical Computing?
 
-You can combine the final project of this course to the one you are working on in Physical Computing. For example, you create some type of interactive installation that has a physical interface combined to immersive generative graphics, or you make a simple game with a custom controller etc.
+You can combine the final project of this course to the one you are working on in Physical Computing. For example, you create some type of interactive installation that has a physical interface combined to immersive generative graphics, or you can make a simple game with a custom controller etc.
 
 ---
 
 ## Deliverables
 
-### Project Proposal (Friday, November 8)
+### Project Proposal (Friday, November 7)
 
-Submit a link to an online document (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc.) of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1263273). It should include the following:
+Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1263273). It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
@@ -53,13 +53,13 @@ Note that your project can and probaly will change as you work on it. This is to
 
 ---
 
-### Final Project Presentation (Friday, November 30)
+### Final Project Presentation (Friday, November 29)
 
-You should present your project in class on Friday, November 30. We start presentations at 9:15 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
+You should present your project in class on Friday, November 29. We start presentations at 9:15 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
 
 ---
 
-### Final Project Documentation (Friday, December 13)
+### Final Project Documentation (Friday, December 12)
 
 You should send me documentation of the project via [MyCourses (link coming later)]().
 
@@ -78,31 +78,25 @@ Also include the answer to the following questions:
 
 ---
 
-## 2024: Exhibition & Demo Day
+## 2025: Winter Demo Day
 
 {{<hint info>}}
-**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, December 1**
+**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, November 29**
 {{</hint>}}
 
 ### Exhibition Dates
 
 {{<hint info>}}
 - Setting up: December 2–10
-- Opening: Wednesday, December 11 (Demo Day)
-- Take down: Friday, December 15 at 15:00
+- Media Lab Demo Day: Wednesday, December 10 (Demo Day)
 {{</hint>}}
 
 ### Exhibition Spaces
 
-We have booked two spaces for exhibiting the work that we have been doing throghout the semester.
+We have booked one space for Demo Day this year
 
-- Marsio Event Studio (longer exhibition, Media Lab 30th Anniversary)
-- Marsio Digital Studio (shorter exhibition, smaller course work)
+- Marsio Digital Studio
 
 ### Fill in the requirements for your work
 
-If you want to show your work in the exhibition, we need to start gathering equipment for it. I will add a form here soon that you need to fill out.
-
-### Winter Demo Day 2024
-
-You can also present or show your work during one day as well at the Aalto Media Lab Demo Day. [Registration form coming soon]().
+If you want to show your work in the exhibition, we need to start gathering equipment for it. I will add a form here soon that you need to fill out. [Registration form coming soon]().
