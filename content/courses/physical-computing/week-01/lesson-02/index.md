@@ -148,7 +148,7 @@ Arduino means multiple things:
 - [Arduino](https://www.arduino.cc/en/about), the company that designs and manufactures the Arduino boards, maintains the software, and creates educational content
 - [Arduino IDE](https://www.arduino.cc/en/software) (open source development tool for writing code and uploading it to your microcontroller)
 - [Arduino Language](https://www.arduino.cc/reference/en/) (not really a programming language but rather a collection of functions and classes written in C++)
-- [Arduino is also a collection of open source development boards built around different microcontrollers.](https://www.arduino.cc/en/hardware) These boards have unique names like Uno, Nano, MKR 1000 WiFI, RP2040 Connect etc.)
+- [Arduino is also a collection of open source development boards built around different microcontrollers.](https://www.arduino.cc/en/hardware) These boards have unique names like Uno, Nano, MKR 1000 WiFI, RP2040 Connect etc.) Arduino has become in some ways a general term like **tupperware** to describe a microcontoller.
 - ...and a couple of other things, but this is enough for now
 
 {{<hint info>}}
@@ -175,7 +175,7 @@ You wouldn't think that there could be a lot of interesting controversy in the w
 
 ### Arduino IDE
 
-The Arduino IDE is a code editor and a toolchain fro uploading code to various microcontrollers.
+The Arduino IDE is a code editor and a toolchain for uploading code to various microcontrollers.
 
 [![Arduino IDE 1.8.19](./img/arduino-18.png)](./img/arduino-18.png)
 
@@ -183,44 +183,94 @@ The Arduino IDE is a code editor and a toolchain fro uploading code to various m
 
 The old and new version look slightly different but the code will be the same. You can also use the older version of the software if you want/need to.
 
+---
+
+## Raspberry Pi Pico
+
+
+In the 2025 class, we use the Raspberry Pi Pico 2 W boards. 
+
+### Programming the Pico
+
+The Pico boards can be programmed in multiple ways:
+
+- Python
+  - MicroPython
+  - CircuitPyhon. An alternative version of python for microcontrollers maintained by Adafruit. It includes many libraries for sensors and other components that we commonly use in this class. **If you wish to use python, I would recommend CircuitPython for our use case.**
+- C++
+  - You can use the standard C++ libraries from Raspberry Pi
+  - Or you can use the Arduino libraries using Arduino-Pico. **This is what we will use in this course!**
+
+#### Why C++ and not Python?
+
+Mainly because of two reasons:
+- Our introductory programming classes use either Processing (Java) or p5.js (JavaScript) which are very very similar to using the Arduino libraries in C++.
+- C++ is faster (although we rarely run into the speed limits of either language)
+
 ### Arduino-Pico
 
-Although we use the Pico boards, we are going to program them using the Arduino IDE instead of Python. This is done with the help of a great project by [Earle F. Philhower, III ](https://github.com/earlephilhower). It is called [Arduino-Pico](https://github.com/earlephilhower/arduino-pico) and it essentially provides 
+Although we use the Pico boards, we are going to program them using the Arduino IDE instead of Python. This is done with the help of a great project by [Earle F. Philhower, III ](https://github.com/earlephilhower). It is called [Arduino-Pico](https://github.com/earlephilhower/arduino-pico) and it essentially provides the support for dozens of microcontroller boards based on the Raspberry Pi chips RP2040 and RP2350 chips.
+
+### Installing Arduino-Pico
+
+1. Download and install the Arduino IDE
+2. Open the software
+3. Open the Settings/Preferences. And click the icn at the end of the field `Additional boards manager URLs` [![Boards Manager Button](./img/boards-manager.png)](./img/boards-manager.png)
+4. Paste the following to the pop-up window: `https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json` [![Boards Manager Filled](./img/boards-manager-filled.png)](./img/boards-manager-filled.png)
+5. Hit ok to close and confirm
+6. Go to the Boards Manager and search for `pico``
+7. Find the option called `Raspberry Pi Pico/RP2040/RP2350 by Earle F. Philhower, III` from the search results and install it.
+[![Boards Manager Filled](./img/install-boards.png)](./img/install-boards.png)
+
+
 
 
 ---
 
 ## Example done in class
 
-[![Class Example](./img/example.png)](./img/example.png)
+[![Class Example](./img/001_example_pico.png)](./img/001_example_pico.png)
 
-[![Class Example](./img/example-led.png)](./img/example-led.png)
+[![Class Example](./img/example-led_pico.png)](./img/example-led_pico.png)
 
-[![Class Example](./img/example-button.png)](./img/example-button.png)
+[![Class Example](./img/example-button_pico.png)](./img/example-button_pico.png)
 
-[![Class Example](./img/example-ldr.png)](./img/example-ldr.png)
+[![Class Example](./img/example-ldr_pico.png)](./img/example-ldr_pico.png)
 
 ```c
 int button;
 int light;
+int brightness;
 void setup() {
   // put your setup code here, to run once:
-  pinMode(9,OUTPUT);
-  pinMode(2,INPUT);
+  pinMode(15,OUTPUT);
+  pinMode(16,INPUT);
   Serial.begin(9600);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
- button = digitalRead(2);
- light = analogRead(A0);
- Serial.println(light);
- if(button==HIGH){
-   digitalWrite(9,HIGH);
- }else{
-   digitalWrite(9,LOW);
- }
- delay(10);
+  // read the button
+  button = digitalRead(16);
+
+  // read the light level
+  light = analogRead(A0);
+  Serial.print("light level: ");
+  Serial.println(light);
+
+  // map the light level (0,1023) to a value suitable for the LED (0-255)
+  brightness = map(light)
+  Serial.print("LED: ");
+  Serial.println(brightness,0,1023,0,255);
+
+  // only turn on the light if the button is pressed
+  if(button==HIGH){
+    analogWrite(15,HIGH);
+  }else{
+    digitalWrite(15,LOW);
+  }
+  // small delay to not send too much data over the serial port
+  delay(10);
 }
 ```
 
