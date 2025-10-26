@@ -2,7 +2,7 @@
 title: "02 | Sensing the World"
 bookCollapseSection: true
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## Schedule
@@ -17,7 +17,7 @@ draft: true
 ## Deliverables for Week 2
 
 {{<hint info>}}
-Deadline for these is Thursday, November 7, 13:00
+Deadline for these is Thursday, November 6, 13:00
 {{</hint>}}
 
 ### 1. Find an interesting existing Alt+Ctrl Interface
