@@ -74,9 +74,78 @@ There are many other digital communication protocols that are often used with mo
 
 ---
 
-## Examples done in class
+## Example done in class
 
 The project we are going to build in class implements a simple threshold for deciding when an LED should turn on.
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+
+### Circuit
+
+This example uses two analog inputs:
+
+- Light sensor connected to pin ADC0 (GP26)
+- Potentiometer connected to pin ADC1 (GP27)
+
+One digital output:
+
+- LED connected to pin GP15
+
+[![Example Schematic image](./img/example-schematic-pico.png)](./img/example-schematic-pico.png)
+
+[![Example Breadboard image](./img/example-bb-pico.png)](./img/example-bb-pico.png)
+
+### Code
+
+{{<hint info>}}
+The code does the following
+- Read the light level using the light sensor and store the value to a variable called `lightValue`
+- Read the potentiometer value and store the value to a variable called `pot`
+- If `lightValue` is less than `pot`, turn on the LED with the brigthness value `b`
+- Otherwise, turn the LED off
+- Print all the values using the serial port for feedback. Variable called `trigger` is used to print out a value of `0` or `1023` depending on the state of the LED.
+{{</hint>}}
+
+```c
+int lightValue;
+int pot;
+// b is used to store the brightness of the LED
+int b = 255;
+// trigger variable is used to visualize the output on the plotter
+int trigger = 0;
+
+void setup() {
+  Serial.begin(9600);
+  // make the pin where LED is connected to an output
+  pinMode(15, OUTPUT);
+}
+
+void loop() {
+  lightValue = analogRead(26);
+  pot = analogRead(27);
+  if (lightValue < pot) {
+    analogWrite(15, b);
+    trigger = 1023;
+  } else {
+    analogWrite(15, LOW);
+    trigger = 0;
+  }
+
+  // 0 and 1023 are printed to make sure the plotter doesn't autoscale
+  Serial.println("Min:0, Max:1023");
+
+  Serial.print(lightValue);
+  Serial.print(" ");
+  Serial.print(pot);
+  Serial.print(" ");
+  Serial.println(trigger);
+  delay(10);
+}
+```
+
+{{% /tab %}}
+{{% tab "Arduino Uno" %}}
 
 ### Circuit
 
@@ -102,6 +171,8 @@ The code does the following
 - Print all the values using the serial port for feedback. Variable called `trigger` is used to print out a value of `0` or `1023` depending on the state of the LED.
 {{</hint>}}
 
+This code is for the Arduino Uno boards.
+
 ```c
 int lightValue;
 int pot;
@@ -112,6 +183,7 @@ int trigger = 0;
 
 void setup() {
   Serial.begin(9600);
+  // make the pin where LED is connected to an output
   pinMode(9, OUTPUT);
 }
 
@@ -137,6 +209,9 @@ void loop() {
   delay(10);
 }
 ```
+
+{{% /tab %}}
+{{< /tabs >}}
 
 ---
 
