@@ -6,17 +6,23 @@ p5js-widget: false
 
 ## Your Kit
 
-I'm still missing a couple of parts, you will get these kits on Thursday (October 26). Come back to this page to see a detailed list of what your kit includes.
+Your kit for this course includes the following parts:
+
+- Raspberry Pi Pico 2 W
+(list will be updated soon)
+
 
 {{<hint info>}}
-Take a picture of your kit today and make sure you return it to me just like this latest on January 12, 2024.
+Please return the kit as shown below in the pictures latest on January 9, 2026.
 {{</hint>}}
 
-[![Full box](./images/kit-box.jpg)](./images/kit-box.jpg)
+[![Full box](./images/kit_2025_fullbox.jpg)](./images/kit_2025_fullbox.jpg)
 
-[![Kit inner box](./images/kit-inner-box.jpg)](./images/kit-inner-box.jpg)
+[![Kit inner box](./images/kit_2025_front.jpg)](./images/kit_2025_front.jpg)
 
-[![Kit contents](./images/kit-contents.jpg)](./images/kit-contents.jpg)
+[![Kit inner box](./images/kit_2025_back.jpg)](./images/kit_2025_back.jpg)
+
+[![Kit contents](./images/kit_2025.jpg)](./images/kit_2025.jpg)
 
 ---
 
