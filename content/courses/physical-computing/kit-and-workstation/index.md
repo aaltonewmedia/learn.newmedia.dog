@@ -6,6 +6,8 @@ p5js-widget: false
 
 ## Your Kit
 
+<iframe width="100%" height="800" data-original-width="2500" data-original-height="2594" src="https://www.thinglink.com/view/scene/2039402467245949414" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+
 Your kit for this course includes the following parts:
 
 - Raspberry Pi Pico 2 W
