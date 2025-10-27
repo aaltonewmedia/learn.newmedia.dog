@@ -27,3 +27,21 @@ I am still figuring out some of the ways this could be done as smooth as possibl
 2. You can see [the commits here](https://github.com/aaltonewmedia/physcomp.newmedia.dog/commits/main/).
 3. You can see the structure of your own section [here](https://github.com/aaltonewmedia/physcomp.newmedia.dog). (go to content/2025/your-name)
 4. After a commit has been made, the site gets built and published on Netlify. **This takes a minute or two so be patient!**
+
+---
+
+## How to Upload Images
+
+{{<hint danger>}}
+Resize your images smaller, please!  
+Last year's total folder was close 500MB in the end. There is no reason for it to be so large. This website is published through GitHub and at this rate, this repository will be blocked 
+
+- The maximum resolution of any image that you upload should be 1920x1080 pixels.
+- Only use .png images if you need transparency, please convert the images otherwise to .jpg format
+
+There are some online tools for reducing image file sizes:
+- https://compressor.io
+- https://imagecompressor.com
+
+
+{{</hint>}}

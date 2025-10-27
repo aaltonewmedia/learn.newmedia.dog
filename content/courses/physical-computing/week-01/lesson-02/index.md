@@ -237,6 +237,8 @@ Although we use the Pico boards, we are going to program them using the Arduino 
 
 [![Class Example](./img/example-ldr_pico.png)](./img/example-ldr_pico.png)
 
+The code below includes the light sensor as well, we did not get so far with our example.
+
 ```c
 int button;
 int light;
@@ -259,13 +261,47 @@ void loop() {
   Serial.println(light);
 
   // map the light level (0,1023) to a value suitable for the LED (0-255)
-  brightness = map(light)
+  brightness = map(light,0,1023,0,255);
   Serial.print("LED: ");
-  Serial.println(brightness,0,1023,0,255);
+  Serial.println(brightness);
 
   // only turn on the light if the button is pressed
   if(button==HIGH){
-    analogWrite(15,HIGH);
+    analogWrite(15,brightness);
+  }else{
+    digitalWrite(15,LOW);
+  }
+  // small delay to not send too much data over the serial port
+  delay(10);
+}
+}
+```
+
+---
+
+## Actual Class Example Code (Thursday)
+
+This is how far we hot actually last time. This code does not have the light sensor.
+
+```c
+int button;
+int light;
+int brightness;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(15,OUTPUT);
+  pinMode(16,INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  // read the button
+  button = digitalRead(16);
+
+  // only turn on the light if the button is pressed
+  if(button==HIGH){
+    analogWrite(15,255);
   }else{
     digitalWrite(15,LOW);
   }
