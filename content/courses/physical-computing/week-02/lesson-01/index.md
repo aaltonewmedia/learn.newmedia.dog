@@ -165,7 +165,7 @@ void loop() {
     analogWrite(15, b);
     trigger = 1023;
   } else {
-    analogWrite(15, LOW);
+    analogWrite(15, 0);
     trigger = 0;
   }
 
