@@ -8,15 +8,41 @@ p5js-widget: true
 ## Inspiration
 
 {{<vimeo 59829961>}}
-{{<vimeo 48937359>}}
+
+{{<vimeo 68115876>}}
 
 - [Peter Vogel](http://vogelexhibition.weebly.com/)
   - [The Sound of Shadows](https://vimeo.com/59829961)
-- [Yuri Suzuki](https://www.yurisuzuki.com/)
+- [Ramyah Gowrishankar](https://narrativize.net/about/) and her [Aalto page](https://www.aalto.fi/en/people/ramyah-gowrishankar) and [Master's Thesis](https://www.researchgate.net/publication/301687480_Designing_Fabric_Interactions_A_study_of_knitted_fabrics_as_an_electronic_interface_medium)
 - [Mohit Bhoite](https://www.bhoite.com/sculptures/)
 - [Tim Hunkin](https://www.timhunkin.com/)
   - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
-  - [Watch the episodes](https://www.exploratorium.edu/ronh/SLOM/)
+
+---
+
+## Setup
+
+Firstly, let's do some inventory. Check that your kit has all of the items shown [here](../../kit-and-workstation/).
+
+<iframe width="100%" height="705" data-original-width="2500" data-original-height="2594" src="https://www.thinglink.com/view/scene/2039402467245949414" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
+
+You should have one of these Pico Under Plates in your Kit.
+
+[![Pico Under Plate](./img/pico_underplate.jpg)](./img/pico_underplate.jpg)
+
+Plug your Pico on top of the Under Plate. **Make sure that you connect it in the correct orientation. USB connector side is marked in the bottomo of the board.** This board allows us an easier access to the pins and it has labels for most of them, so you don't have to go look at the diagram all the time. 
+
+[![Pico Under Plate Connected](./img/pico_underplate_connected.jpg)](./img/pico_underplate_connected.jpg)
+
+One side of the board has a reset button, you can press it to have the board reset and run the program from the beginning.
+
+[![Pico Under Plate Reset Button](./img/pico_underplate_reset.jpg)](./img/pico_underplate_reset.jpg)
+
+The other side has a connector that we will use a lot for easily connecting digital sensors (starting from tomorrow). This connector is used by Adafruit for their sensors and they call it [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt). Another company called Sparkfun calls it [Qwiic connector](https://www.sparkfun.com/qwiic). I will generally refer to it as the Qwiic connector in this course. More and more components have started to include these connectors, so this Under Plate we use is a very handy addition to our Pico boards.
+
+[![Pico Under Plate Qwiic](./img/pico_underplate_qwiic.jpg)](./img/pico_underplate_qwiic.jpg)
+
+---
 
 ## Variable resistors
 
@@ -40,7 +66,16 @@ Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or c
 - Thermistor
 - Stretch Sensor
 - Force Sensitive Resistor (FSR)
-- ...
+
+#### DIY Textile Sensors
+
+You can also make your own sensors using conductive textiles, yarns and other materials.
+
+- [Kobakant | How To Get Waht You Want](https://howtogetwhatyouwant.at/) is an excellent resource for making your own sensors.
+- [Sensors section from Kobakant](https://www.kobakant.at/DIY/?cat=26)
+- Aalto offers two courses if you are interested in wearables and combining textiles with electronics
+  - [Smart Wearables](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150972289-20240801/brochure)
+  - [Smart Wearables II](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150972290-20240801/brochure)
 
 ## Sensors with analog output
 
