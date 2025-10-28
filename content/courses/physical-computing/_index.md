@@ -11,8 +11,7 @@ If you are looking for the old Electronics for Artists course, Physical Computin
 
 ## Important Links
 
-- [GitHub Repository for Code Examples](https://github.com/aaltonewmedia/physical-computing)
-- [MyCourses Link, 2024](https://mycourses.aalto.fi/course/view.php?id=44021)
+- [MyCourses Link, 2025](https://mycourses.aalto.fi/course/view.php?id=48417)
 - [Arduino and Electronics Tutorials](../../tutorials/arduino-and-electronics/)
 
 ## Content

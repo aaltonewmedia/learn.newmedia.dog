@@ -11,6 +11,8 @@ p5js-widget: true
 
 {{<vimeo 68115876>}}
 
+{{<vimeo 31789891>}}
+
 - [Peter Vogel](http://vogelexhibition.weebly.com/)
   - [The Sound of Shadows](https://vimeo.com/59829961)
 - [Ramyah Gowrishankar](https://narrativize.net/about/) and her [Aalto page](https://www.aalto.fi/en/people/ramyah-gowrishankar) and [Master's Thesis](https://www.researchgate.net/publication/301687480_Designing_Fabric_Interactions_A_study_of_knitted_fabrics_as_an_electronic_interface_medium)
