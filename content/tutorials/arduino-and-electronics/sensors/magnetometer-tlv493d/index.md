@@ -21,7 +21,7 @@ draft: false
 - Datasheet of the sensor
 - [Adafruit tutorial for the breakout board](https://learn.adafruit.com/adafruit-tlv493-triple-axis-magnetometer)
 - [Adafruit product page](https://www.adafruit.com/product/4366)
-- [Arduino Library](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor)
+- [Arduino Library](https://github.com/Infineon/arduino-xensiv-3d-magnetic-sensor-tlx493d)
 
 ## Connecting the Sensor
 
@@ -45,7 +45,76 @@ Sometimes you might not have the connector on your microcontroller so you need t
 
 ## Recommended Library
 
-Use the TLV493D-A1B6 library from Infineon.
+Use the [XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library](https://github.com/Infineon/arduino-xensiv-3d-magnetic-sensor-tlx493d). You can find it and install it from the Arduino IDE Library Manager.
+
+## Example Code
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+
+### Example for Pico Boards
+
+{{<hint danger>}}
+There seems to be some issues with the sensors or the library. I haven't been able to make them work consistently with the Pico boards.
+{{</hint>}}
+
+```c
+/** Project CPP includes. */
+#include "TLx493D_inc.hpp"
+
+
+using namespace ifx::tlx493d;
+
+/** P3XX evaluation board */
+TLx493D_P3B6 dut(Wire, TLx493D_IIC_ADDR_A0_e);
+const uint8_t POWER_PIN = 8;
+
+/** Definition of a counter variable. */
+uint8_t count = 0;
+
+
+void setup() {
+    Serial.begin(115200);
+    delay(3000);
+    /** P3XX evaluation board */
+    dut.setPowerPin(POWER_PIN, OUTPUT, INPUT, LOW, HIGH, 1000, 250000);
+    dut.begin();
+    Serial.print("setup done.\n");
+}
+
+
+/** In the loop we continuously reading the temperature value as well as the
+ *  magnetic values in X, Y, Z-direction of the sensor and printing them to
+ *  the serial monitor
+ */
+void loop() {
+    double t, x, y, z;
+
+    dut.setSensitivity(TLx493D_FULL_RANGE_e);
+    Serial.print(true == dut.getMagneticFieldAndTemperature(&x, &y, &z, &t) ? "getMagneticFieldAndTemperature ok\n" : "getMagneticFieldAndTemperature error\n");
+
+    Serial.print("\nTemperature is: ");
+    Serial.print(t);
+    Serial.println("°C");
+
+    Serial.print("Value X is: ");
+    Serial.print(x);
+    Serial.println(" mT");
+    Serial.print("Value Y is: ");
+    Serial.print(y);
+    Serial.println(" mT");
+    Serial.print("Value Z is: ");
+    Serial.print(z);
+    Serial.println(" mT");
+
+    delay(100);
+
+}
+```
+
+
+{{% /tab %}}
+{{% tab "Arduino Uno R4" %}}
 
 ## I2C Bus on the Uno R4 boards
 
@@ -108,3 +177,5 @@ void loop() {
 }
 
 ```
+{{< /tabs >}}
+{{% /tab %}}

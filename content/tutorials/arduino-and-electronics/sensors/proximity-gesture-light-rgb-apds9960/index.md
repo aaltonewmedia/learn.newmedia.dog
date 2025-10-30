@@ -42,7 +42,123 @@ Sometimes you might not have the connector on your microcontroller so you need t
 
 Use the [Adafruit APDS9960 Library](https://github.com/adafruit/Adafruit_APDS9960). You should be able to find it directly from the library tool in Arduino IDE.
 
-## I2C Bus on the Uno R4 boards
+## Code Example
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+
+### Full example code - Color Sensor
+
+```c
+#include "Adafruit_APDS9960.h"
+Adafruit_APDS9960 apds;
+
+void setup() {
+  Serial.begin(115200);
+
+  if(!apds.begin()){
+    Serial.println("failed to initialize device! Please check your wiring.");
+  }
+  else Serial.println("Device initialized!");
+
+  //enable color sensign mode
+  apds.enableColor(true);
+}
+
+void loop() {
+  //create some variables to store the color data in
+  uint16_t r, g, b, c;
+  
+  //wait for color data to be ready
+  while(!apds.colorDataReady()){
+    delay(5);
+  }
+
+  //get the data and print the different channels
+  apds.getColorData(&r, &g, &b, &c);
+  Serial.print("red: ");
+  Serial.print(r);
+  
+  Serial.print(" green: ");
+  Serial.print(g);
+  
+  Serial.print(" blue: ");
+  Serial.print(b);
+  
+  Serial.print(" clear: ");
+  Serial.println(c);
+  Serial.println();
+  
+  delay(10);
+}
+```
+
+### Full example code - Proximity Sensor
+
+```c
+#include "Adafruit_APDS9960.h"
+//create the APDS9960 object
+Adafruit_APDS9960 apds;
+
+void setup() {
+  Serial.begin(115200);
+
+  if(!apds.begin()){
+    Serial.println("failed to initialize device! Please check your wiring.");
+  }
+  else Serial.println("Device initialized!");
+
+  //enable proximity mode
+  apds.enableProximity(true);
+}
+
+void loop() {
+  int proximity = apds.readProximity();
+  Serial.println(proximity);
+  delay(10);
+}
+```
+
+### Full example code - Gesture Sensor
+
+{{<hint warning>}}
+The gesture detection is not very reliable, test it out and try different speeds of doing the gesture.
+{{</hint>}}
+
+```c
+#include "Adafruit_APDS9960.h"
+Adafruit_APDS9960 apds;
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  Serial.begin(115200);
+  
+  if(!apds.begin()){
+    Serial.println("failed to initialize device! Please check your wiring.");
+  }
+  else Serial.println("Device initialized!");
+
+  //gesture mode will be entered once proximity mode senses something close
+  apds.enableProximity(true);
+  apds.enableGesture(true);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  //read a gesture from the device
+    uint8_t gesture = apds.readGesture();
+    if(gesture == APDS9960_DOWN) Serial.println("v");
+    if(gesture == APDS9960_UP) Serial.println("^");
+    if(gesture == APDS9960_LEFT) Serial.println("<");
+    if(gesture == APDS9960_RIGHT) Serial.println(">");
+    delay(10);
+}
+```
+
+{{% /tab %}}
+{{% tab "Arduino Uno R4" %}}
+
+### I2C Bus on the Uno R4 boards
 
 {{<hint warning>}}
 **Please note! The default examples do not work directly with the Qwiic connectors on the Arduino Uno R4 WiFi boards.** This due to the fact that the R4 boards have a different I2C port connected to the Qwiic connectors. We need to somehow configure the library for each sensor to use `Wire1` I2C bus instead of the default one (`Wire`). Each library does this slightly differently, I try to provide the details for all the sensors that you have in your Physical Computing kit, but for many other devices, you need to figure this out on your own.
@@ -82,7 +198,7 @@ The `&` means that we are passing a reference to the address of the variable. Th
 
 {{</hint>}}
 
-## Full example code - Color Sensor
+### Full example code - Color Sensor
 
 ```c
 #include "Adafruit_APDS9960.h"
@@ -124,11 +240,11 @@ void loop() {
   Serial.println(c);
   Serial.println();
   
-  delay(500);
+  delay(10);
 }
 ```
 
-## Full example code - Proximity Sensor
+### Full example code - Proximity Sensor
 
 ```c
 #include "Adafruit_APDS9960.h"
@@ -150,10 +266,11 @@ void setup() {
 void loop() {
   int proximity = apds.readProximity();
   Serial.println(proximity);
+  delay(10);
 }
 ```
 
-## Full example code - Gesture Sensor
+### Full example code - Gesture Sensor
 
 ```c
 #include "Adafruit_APDS9960.h"
@@ -181,5 +298,9 @@ void loop() {
     if(gesture == APDS9960_UP) Serial.println("^");
     if(gesture == APDS9960_LEFT) Serial.println("<");
     if(gesture == APDS9960_RIGHT) Serial.println(">");
+    delay(10);
 }
 ```
+
+{{< /tabs >}}
+{{% /tab %}}

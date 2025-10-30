@@ -2,7 +2,7 @@
 title: Environment | Thermistor
 bookCollapseSection: false
 p5js-widget: true
-draft: false
+draft: true
 ---
 
 # Environment | Thermistor

@@ -73,7 +73,7 @@ Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or c
 
 You can also make your own sensors using conductive textiles, yarns and other materials.
 
-- [Kobakant | How To Get Waht You Want](https://howtogetwhatyouwant.at/) is an excellent resource for making your own sensors.
+- [Kobakant | How To Get What You Want](https://howtogetwhatyouwant.at/) is an excellent resource for making your own sensors.
 - [Sensors section from Kobakant](https://www.kobakant.at/DIY/?cat=26)
 - Aalto offers two courses if you are interested in wearables and combining textiles with electronics
   - [Smart Wearables](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150972289-20240801/brochure)
@@ -133,7 +133,7 @@ One digital output:
 
 [![Example Breadboard image](./img/example-bb-pico.png)](./img/example-bb-pico.png)
 
-### Code
+### Codes
 
 {{<hint info>}}
 The code does the following

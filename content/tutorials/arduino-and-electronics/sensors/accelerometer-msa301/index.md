@@ -17,9 +17,13 @@ The MSA301 is a super small and low cost triple-axis accelerometer. It's inexpen
 - As low as 2uA current draw in low power mode (just the chip itself, not including any supporting circuitry)
 - Tap, Double-tap, orientation & freefall detection
 
+{{<hint info>}}
+Note that some of you have the newer MSA311 sensor and some of you have the older MSA301. Make sure you select the correct version in the code.
+{{</hint>}}
+
 ## Links and Resources
 
-- Datasheet of the sensor
+- [Datasheet of the sensor](./files/MSA301-V1.0-ENG.PDF)
 - [Adafruit tutorial for the breakout board](https://learn.adafruit.com/msa301-triple-axis-accelerometer)
 - [Adafruit product page](https://www.adafruit.com/product/4344)
 
@@ -32,6 +36,8 @@ These sensors come with a very handy connector that allows us to use it without 
 Just use a Qwiic/STEMMA QT cable to connect the sensor to your board. It does not matter which of the connectors you use, they are all connected together.
 
 [![Adafruit MSA301 Qwiic](./images/msa301-qwiic.jpg)](./images/msa301-qwiic.jpg)
+
+[![Pico MSA301 Qwiic](./images/pico_qwiic.jpg)](./images/pico_qwiic.jpg)
 
 ### Connecting directly to the pins
 
@@ -46,8 +52,59 @@ Sometimes you might not have the connector on your microcontroller so you need t
 
 ## Recommended Library
 
-Use the Adafruit MSA301 Library.
+Use the Adafruit MSA301 Library. You can find and install it directly from the Arduino IDE Library Manager.
 
+[![Adafruit MSA301 Library](./images/msa301_library.png)](./images/msa301_library.png)
+
+When you install the library, it will ask if you would like to install other libraries that are required for it to work. Answer yes and install the others as well (Adafruit BusIO and Adafruit Unified Sensor libraries)
+
+## Example Code
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+```c
+// add all necessary libraries
+#include <Wire.h>
+#include <Adafruit_MSA301.h>
+#include <Adafruit_Sensor.h>
+
+// Comment/Uncomment as needed for specific MSA being used:
+// Adafruit_MSA311 msa;
+Adafruit_MSA301 msa;
+
+float x,y,z;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  if (! msa.begin()) {
+        Serial.println("Failed to find MSA301/311 chip");
+        while (1) { delay(10); }
+    }
+  Serial.println("MSA301/311 Found!");
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+    // get X Y and Z data at once
+    msa.read(); 
+    
+    x = msa.x;
+    y = msa.y;
+    z = msa.z;
+
+    // print the values
+    Serial.print(x);
+    Serial.print(",");
+    Serial.print(y);
+    Serial.print(",");
+    Serial.println(z);
+}
+
+```
+{{% /tab %}}
+
+{{% tab "Arduino Uno R4" %}}
 ## I2C Bus on the Uno R4 boards
 
 {{<hint warning>}}
@@ -127,3 +184,5 @@ void loop() {
   delay(10); 
 }
 ```
+{{< /tabs >}}
+{{% /tab %}}

@@ -42,6 +42,53 @@ Sometimes you might not have the connector on your microcontroller so you need t
 
 Use the [Adafruit MPR121 Library](https://adafruit.github.io/Adafruit_MPR121/html/index.html). You should be able to find it directly from the library tool in Arduino IDE.
 
+## Code Example
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+```c
+#include "Wire.h"
+#include "Adafruit_MPR121.h"
+
+// You can have up to 4 on one i2c bus but one is enough for testing!
+Adafruit_MPR121 cap = Adafruit_MPR121();
+
+void setup() {
+  Serial.begin(115200);
+
+  Serial.println("Adafruit MPR121 Capacitive Touch sensor test"); 
+  // Default address is 0x5A, if tied to 3.3V its 0x5B
+  // If tied to SDA its 0x5C and if SCL then 0x5D
+  // &Wire1 is needed for Arduino Uno R4
+  while (!cap.begin()) {
+    Serial.println("MPR121 not found, check wiring?");
+    delay(500);
+  }
+  Serial.println("MPR121 found!");
+}
+
+void loop() {
+  Serial.print("Filtered: ");
+  for (int i=0; i<12; i++) {
+    // print the touchpad number
+    Serial.print(i);
+    Serial.print(": ");
+
+    // print the filtered value from the sensor
+    Serial.print(cap.filteredData(i));
+    
+    // \t means tab character
+    Serial.print("\t");
+  }
+  Serial.println();
+  
+  // put a delay so it isn't overwhelming
+  delay(50);
+}
+```
+{{% /tab %}}
+{{% tab "Arduino Uno R4" %}}
+
 ## I2C Bus on the Uno R4 boards
 
 {{<hint warning>}}
@@ -121,6 +168,8 @@ void loop() {
   Serial.println();
   
   // put a delay so it isn't overwhelming
-  delay(100);
+  delay(50);
 }
 ```
+{{< /tabs >}}
+{{% /tab %}}
