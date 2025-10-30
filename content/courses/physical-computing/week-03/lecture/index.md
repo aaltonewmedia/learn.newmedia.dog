@@ -1,19 +1,16 @@
 ---
-title: "Final Project Guidelines"
+title: "Making Things Move | Soldering Assignment"
 bookCollapseSection: false
 weight: 10
+draft: false
 ---
 
 {{<hint info>}}
-Monday, November 4
-Mechatronics Workshop  
-15:15–17:00
+- Monday, November 3
+- Mechatronics Workshop  
+- 15:15–17:00
 {{</hint>}}
 
-## Final Project
-
-- [See the final project guidelines.](../final-project/)
-- [Your homework for this week](../week-03)
 
 ## Inspiration
 
@@ -78,3 +75,38 @@ Simple movements can make objects seem very alive.
 - [Soft Robots](https://softroboticstoolkit.com/)
 - [Muscle Wire + Paper Electronics](https://technolojie.com/origami-robotics/) by Jie Qi
 - [Design with Movement](https://designwithmovement.aalto.fi/) by Eunyoung Park
+
+---
+
+## Soldering Excercise
+
+There is one additional part that we need this week for our little robots. The [Adafruit PiCowbell Proto for Pico](https://www.adafruit.com/product/5200), which currently is not assembled yet.
+
+1. Get the parts ready
+[![Soldering Parts](./img/soldering-001.jpg)](./img/soldering-001.jpg)
+2. Insert the header pins to the board as shown in the picture. The connector and the button should be on the side of the black plastic part of the headers.
+[![Insert Headers](./img/soldering-002.jpg)](./img/soldering-002.jpg)
+3. Turn on the soldering station and set the temperature to 370°
+[![Turn On](./img/soldering-003.jpg)](./img/soldering-003.jpg)
+4. Press the button on the wall to set the timer for the fume extraction. (Juotospoisto)
+[![Turn On](./img/soldering-004.jpg)](./img/soldering-004.jpg)
+5. Open the valve on your desk to let the air flow to the fume extraction tubes.
+[![Open Valve](./img/soldering-005.jpg)](./img/soldering-005.jpg)
+6. Clean the tip of the soldering iron by melting a small amount of solder on all sides of the tip and then wipe it clean in the brass wool cleaner. The tip should be nice and shiny.
+7. Solder all of the header pins to the board. Make sure that the solder joints look like sharp mountain peaks. If they are spherical blobs, reheat the joint and let it reflow. [![Good Joints](./img/soldering-006b.jpg)](./img/soldering-006b.jpg)
+8. Once you are done, make sure to clean the tip again.
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
+	<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=035415ca-7a1c-4c06-9ab3-b386010bdce5&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="soldering"></iframe>
+</div>
+
+---
+
+## Soldering Resources
+
+---
+
+## Deliverables
+
+- [See the final project guidelines.](../final-project/)
+- [Your homework for this week](../week-03)

@@ -2,7 +2,7 @@
 title: "03 | Making Things Move"
 bookCollapseSection: true
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## Schedule
@@ -17,13 +17,13 @@ draft: true
 
 ---
 
-## Deliverables for Week 3 (Deadline: Tuesday, November 12, 13:00)
+## Deliverables for Week 3 (Deadline: Tuesday, November 11, 13:00)
 
 ### Project Ideas: First Draft
 
 1. [See the Final Project Guidelines](../final-project/)
 2. Create a **Final Project** page on your course documentation website and start sketching out your ideas.
-3. Present your idea in class on **November 12**
+3. Present your idea in class on **November 11**
 
 ### Readings
 

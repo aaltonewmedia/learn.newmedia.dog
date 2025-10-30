@@ -11,9 +11,14 @@ p5js-widget: true
 
 {{<vimeo 3737365>}}
 
+{{<vimeo 104996493>}}
+
+[Myriam Bleau](http://www.myriambleau.com/)
+
+
 ## I2C
 
-Many modern sensors are much more complex than being just a resistor. They are quite complex digital circuits with different protocols for communicating with them. One of the most popular protocols for sennsors to communicate with microcontrollers is I2C (Inter-Integrated Circuit).
+Many modern sensors are much more complex than being just a resistor. They are quite complex digital circuits with different protocols for communicating with them. One of the most popular protocols for sensors to communicate with microcontrollers is I2C (Inter-Integrated Circuit).
 
 Read more:
 
