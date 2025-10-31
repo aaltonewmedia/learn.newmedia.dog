@@ -242,6 +242,8 @@ function resetCards(){
 
 This example visualizes Crayola crayon colors from the json file.
 
+The data file is [this one from the corpora GitHub repository](https://github.com/dariusk/corpora/blob/master/data/colors/crayola.json).
+
 <iframe src="https://openprocessing.org/sketch/1722470/embed/?plusEmbedHash=MjA3ZDg3MGYyZGI0Y2E2NDYxMzM2NTk5YTdmODUyNWJiNmU5OTVjNjFhZjczYzJiN2QzNmY3MDE2NmE5NzNkNjEzYTFlMmFhZjM2YzUwMTQwNWY2MDA5ZjI1NWEzNTliMzhlMjZiMmYxM2UyZGE2ZmIzZmQyNTcwMDU4NWZlMGJZbkE4Nk9TM2NvNmtQTG9qV1BEaTlhNW9JV3RtUm9LUlpES2VqaVNqZmtXMWZObmtjdGxOVkVkVE83YlJ6Vm5QUmQxT1VWRmZQS2F2aVhYdGI5RUh3UT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
 
 ---

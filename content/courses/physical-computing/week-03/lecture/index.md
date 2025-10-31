@@ -93,8 +93,15 @@ There is one additional part that we need this week for our little robots. The [
 5. Open the valve on your desk to let the air flow to the fume extraction tubes.
 [![Open Valve](./img/soldering-005.jpg)](./img/soldering-005.jpg)
 6. Clean the tip of the soldering iron by melting a small amount of solder on all sides of the tip and then wipe it clean in the brass wool cleaner. The tip should be nice and shiny.
-7. Solder all of the header pins to the board. Make sure that the solder joints look like sharp mountain peaks. If they are spherical blobs, reheat the joint and let it reflow. [![Good Joints](./img/soldering-006b.jpg)](./img/soldering-006b.jpg)
+7. Solder all of the header pins to the board. Make sure that the solder joints look like sharp mountain peaks. If they are spherical blobs, reheat the joint and let it reflow. 
+[![How to](./img/soldering-006a.png)](./img/soldering-006a.png) 
+[![Good Joints](./img/soldering-006b.jpg)](./img/soldering-006b.jpg)
 8. Once you are done, make sure to clean the tip again.
+
+
+### Soldering Video
+
+This video shows the process.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%">
 	<iframe src="https://aalto.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=035415ca-7a1c-4c06-9ab3-b386010bdce5&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=true&interactivity=all" style="border: 1px solid #464646; position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box;" allowfullscreen allow="autoplay" aria-label="Panopto Embedded Video Player" aria-description="soldering"></iframe>
