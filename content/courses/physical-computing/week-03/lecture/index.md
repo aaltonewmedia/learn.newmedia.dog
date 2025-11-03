@@ -93,9 +93,10 @@ There is one additional part that we need this week for our little robots. The [
 5. Open the valve on your desk to let the air flow to the fume extraction tubes.
 [![Open Valve](./img/soldering-005.jpg)](./img/soldering-005.jpg)
 6. Clean the tip of the soldering iron by melting a small amount of solder on all sides of the tip and then wipe it clean in the brass wool cleaner. The tip should be nice and shiny.
+[![How to](./img/soldering-006.jpg)](./img/soldering-006.jpg) 
 7. Solder all of the header pins to the board. Make sure that the solder joints look like sharp mountain peaks. If they are spherical blobs, reheat the joint and let it reflow. 
 [![How to](./img/soldering-006a.png)](./img/soldering-006a.png) 
-[![Good Joints](./img/soldering-006b.jpg)](./img/soldering-006b.jpg)
+[![Good Joints](./img/soldering-007b.jpg)](./img/soldering-007b.jpg)
 8. Once you are done, make sure to clean the tip again.
 
 
@@ -116,4 +117,4 @@ This video shows the process.
 ## Deliverables
 
 - [See the final project guidelines.](../final-project/)
-- [Your homework for this week](../week-03)
+- [Your homework for this week](../)
