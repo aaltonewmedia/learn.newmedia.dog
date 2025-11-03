@@ -112,6 +112,10 @@ This video shows the process.
 
 ## Soldering Resources
 
+- [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools)
+- [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering)
+- [Soldering Is Easy: Here's How To Do It (pdf)](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
+
 ---
 
 ## Deliverables
