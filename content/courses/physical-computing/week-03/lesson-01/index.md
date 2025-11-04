@@ -3,7 +3,7 @@ title: "Output Devices: Motors, Actuators, Lights"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 # Making Things Move
@@ -51,6 +51,39 @@ The base turns the switch on or off. In our case the base pin would be often con
 [![Transistors](./img/tip120_schematic.jpg)](./img/tip120_schematic.jpg)
 
 [![Transistors](./img/tip120.png)](./img/tip120.png)
+
+---
+
+## Using the Kitronik Motor Driver Board for Raspberry Pi Pico
+
+Your kits include a handy motor controller shield for the Raspberry Pi Pico that allows us to connect to DC motors to the Pico.
+
+### Example
+
+Setup:
+
+1. Connect the two yellow TT Motors (DC Motors) to the purple robot chassis. (4 x M3x25 screws, 4 x M3 nut)
+2. Run the cables of the motrs through the L-shpaed holes on the chassis.
+3. Screw the cables of the motors to the connectors on the motor board. (MOTOR1 and MOTOR 2). **PLEASE NOTE THE ORDER OF THE WIRES! CONNECT THEM THIS WAY SO THAT THE PINS ON THE EXAMPLE CODE MATCH.**
+4. Use the velcro stickers to attach the board on top of the chassis.
+5. Screw the Battery Pack to the chassis as well (take out one battery to reveal the hole for the screw).
+6. Attach your Pico on top of the Motor Driver board. **PLEASE NOTE THE ORIENTATION. THERE IS A LABEL THAT SAYS USB ON THE MOTOR DRIVER.**
+7. Connect the Screw-On DC Terminal to the Motor Driver Board and plug-in the battery pack.
+
+The final result should look like this:
+
+[![DC Motor Test](./img/dc_test.jpg)](./img/dc_test.jpg)
+
+Code:
+
+```c
+
+
+
+
+```
+
+
 
 ---
 
