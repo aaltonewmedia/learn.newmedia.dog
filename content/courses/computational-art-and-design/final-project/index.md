@@ -36,9 +36,9 @@ You can combine the final project of this course to the one you are working on i
 
 ### Project Proposal
 
-Deadline: Friday November 7, before the class starts
+**Deadline: Friday November 7, before the class starts**
 
-Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1263273). It should include the following:
+Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1413573). It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
@@ -55,7 +55,7 @@ Note that your project can and probaly will change as you work on it. This is to
 
 ---
 
-### Final Project Presentation (Friday, November 29)
+### Final Project Presentation (Friday, November 28)
 
 You should present your project in class on Friday, November 29. We start presentations at 9:15 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
 
