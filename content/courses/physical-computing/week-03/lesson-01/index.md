@@ -19,10 +19,10 @@ draft: false
 
 I have created tutorials for different types of actuators.
 
-- [Servo Motors](../../../tutorials/arduino-and-electronics/motors-and-actuators/servo-motors/)
-- [DC Motors](../../../tutorials/arduino-and-electronics/motors-and-actuators/dc-motors/)
-- [Stepper Motors](../../../tutorials/arduino-and-electronics/motors-and-actuators/stepper-motors/)
-- [Solenoids](../../../../tutorials/arduino-and-electronics/motors-and-actuators/solenoids-and-electromagnets/)
+- [Servo Motors](../../../../tutorials/arduino-and-electronics/motors-and-actuators/servo-motors/)
+- [DC Motors](../../../../tutorials/arduino-and-electronics/motors-and-actuators/dc-motors/)
+- [Stepper Motors](../../../../tutorials/arduino-and-electronics/motors-and-actuators/stepper-motors/)
+- [Solenoids](../../../../../tutorials/arduino-and-electronics/motors-and-actuators/solenoids-and-electromagnets/)
 
 ---
 
