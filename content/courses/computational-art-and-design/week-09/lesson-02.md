@@ -56,4 +56,4 @@ We are essentially able to get multiple amplitude values of different frequency 
 
 Please do the following before next Friday:
 
-- [Create a project proposal document](../final-project/#project-proposal-friday-november-8)
+- [Create a project proposal document](../final-project/#project-proposal)

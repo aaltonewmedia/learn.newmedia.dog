@@ -34,7 +34,9 @@ You can combine the final project of this course to the one you are working on i
 
 ## Deliverables
 
-### Project Proposal (Friday, November 7)
+### Project Proposal
+
+Deadline: Friday November 7, before the class starts
 
 Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1263273). It should include the following:
 - A short description of your idea. What do you want to do? Why?
@@ -49,7 +51,7 @@ Note that your project can and probaly will change as you work on it. This is to
 **Ideally, this should be something where Matti could directly add some comments.**
 {{</hint>}}
 
-**Present your idea in class on Friday, November 8.**
+**Present your idea in class on Friday, November 7.**
 
 ---
 
