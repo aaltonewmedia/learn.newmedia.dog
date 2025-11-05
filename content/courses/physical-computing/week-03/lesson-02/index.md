@@ -3,12 +3,21 @@ title: "Build a Robot"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## Physical Computing Robot
 
 Today, we are going to build the first Physical Computing Robot (looking for a better name, if you have any suggestions).
+
+{{<hint info>}}
+For the 2025 class, we already built most of the robot during the last class. Please follow the instructions below to finish building the robot.
+
+[![Robot Almost Ready](./images/robo_halfway.jpg)](./images/robo_halfway.jpg)
+
+You can jump to step 4.
+
+{{</hint>}}
 
 ### Parts
 
@@ -17,41 +26,28 @@ You need the following parts:
 {{<hint info>}}
 - 1 x Chassis
 - 2 x TT Motor
-- 2 x Rear Wheels (can be orange or black)
+- 2 x Rear Wheels
 - 1 x Caster Wheel
-- 1 x Acrylic base plate (you make this with the laser cutter)
-- 1 x 3D Printed Sensor Mount (you make this with the 3D printer)
+- 1 x 3D Printed Sensor Mount
+- 2 x Googly Eyes
 - 1 x Battery Pack (5xAA)
-- 1 x Bag of nuts, bolts, screws and other items
-- 1 x Arduino Uno R4 WiFi
-- 1 x Half-sized Breadboard
+- 1 x Raspberry Pico W
+- 1 x Kitronik Motor Driver Board
+- 1 x Adafruit PiCowbell Proto Board for Pico
 - 1 x Distance Sensor
 - 1 x Qwiic cable for the sensor (100 mm)
-- 1 x L293D H-Bridge (Motor Driver)
-- 1 x LDR (light dependent resistor, light sensor)
-- 1 x 10kΩ Resistor
-- Jumper wires
+- 1 x DC Power adapter - 2.1mm jack to screw terminal block
 {{</hint>}}
-
-#### Robot Parts
-
-
 
 #### Nuts, Bolts and Other Items
 
-The bag of nuts, bolts and other items should have the following things:
-
-[![Nuts and Bolts](./images/nuts-and-bolts.jpg)](./images/nuts-and-bolts.jpg)
-
 {{<hint info>}}
-- 2 x Googly Eyes
 - 2 x M4x15 Standoff Screws
-- 3 x M3x20 Standoff Screws
 - 2 x M4x12 Machine Screws
 - 4 x M3x25 Machine Screws
 - 2 x M3x10 Machine Screws
-- 8 x M3x8 Machine Screws (Black)
-- 8 x M3 Nuts
+- 3 x M3x8 Machine Screws (Black)
+- 6 x M3 Nuts
 - 2 x 2x16 Brass Screws
 {{</hint>}}
 
@@ -59,16 +55,35 @@ The interactive image below shows what each part is.
 
 <iframe width="100%" height="500" data-original-width="1920" data-original-height="1440" src="https://www.thinglink.com/view/scene/1778848233066332837" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script><br/><a href="https://www.thinglink.com/view/scene/1778848233066332837/accessibility" target="_blank" rel="noopener noreferrer">Click here to view the accessible version of this interactive content</a>
 
-{{<hint info >}}
-Please return all of these in the plastic bag inside the kit box at the end of the course.  
-**Except the googly eyes, those you can keep.**
-{{</hint>}}
-
 ---
 
 ## Assembly
 
-### 1. Distance Sensor
+### 1. Motors
+
+{{<hint info>}}
+- 4 x M3x25 Machine Screws
+- 4 x M3 Nuts
+{{</hint>}}
+
+[![Motors](./images/robot-motors.jpg)](./images/robot-motors.jpg)
+
+[![Motors Back](./images/robot-motors-back.jpg)](./images/robot-motors-back.jpg)
+
+Feed the wires through the L-shaped holes.
+
+[![Motors Wires](./images/robot-motors-wires.jpg)](./images/robot-motors-wires.jpg)
+
+### 2. Raspberry Pi Pico and the Motor Driver Board
+
+### 3. Batteries
+
+{{<hint info>}}
+- 1 x Battery Pack (5xAA)
+- 1 x M3x8 Machine Screws
+{{</hint>}}
+
+### 4. Distance Sensor
 
 {{<hint info>}}
 - 1 x 3D Printed Sensor Mount (you make this with the 3D printer)
@@ -93,22 +108,7 @@ Please return all of these in the plastic bag inside the kit box at the end of t
 
 [![Distance Sensor Ready](./images/distance-sensor-ready.jpg)](./images/distance-sensor-ready.jpg)
 
-### 2. Motors
-
-{{<hint info>}}
-- 4 x M3x25 Machine Screws
-- 4 x M3 Nuts
-{{</hint>}}
-
-[![Motors](./images/robot-motors.jpg)](./images/robot-motors.jpg)
-
-[![Motors Back](./images/robot-motors-back.jpg)](./images/robot-motors-back.jpg)
-
-Feed the wires through the L-shaped holes.
-
-[![Motors Wires](./images/robot-motors-wires.jpg)](./images/robot-motors-wires.jpg)
-
-### 3. Caster Wheel (Front Wheel)
+### 5. Caster Wheel (Front Wheel)
 
 {{<hint info>}}
 - 1 x Caster Wheel
@@ -119,45 +119,7 @@ Feed the wires through the L-shaped holes.
 
 [![Caster Wheel Mounted](./images/robot-caster-mounted.jpg)](./images/robot-caster-mounted.jpg)
 
-### 3. Batteries
-
-{{<hint info>}}
-- 1 x Battery Pack (5xAA)
-- 1 x M3x8 Machine Screws
-{{</hint>}}
-
-Take one battery out of the battery holder and use one of the black M3x8 screws to attach it to the chassis.
-
-[![Batteries](./images/battery-screw.jpg)](./images/battery-screw.jpg)
-
-[![Batteries](./images/batteries.jpg)](./images/batteries.jpg)
-
-### 4. Base Plate + Arduino and Breadboard
-
-{{<hint info>}}
-- 3 x M3x20 Standoff Screws
-- 3 x M3x8 Machine Screws
-- 2 x M3x10 Machine Screws
-- 2 x M3 Nuts
-- 1 x Acrylic base plate (you make this with the laser cutter)
-- 1 x Arduino Uno R4 WiFi 
-- 1 x Half-sized Breadboard
-{{</hint>}}
-
-[![Base plate Arduino](./images/base-plate-arduino.jpg)](./images/base-plate-arduino.jpg)
-
-[![Base plate back](./images/base-plate-back.jpg)](./images/base-plate-back.jpg)
-
-{{<hint warning>}}
-When you get this far, change the batteries to fresh ones before attaching the acrylic plate.
-{{</hint>}}
-
-[![Base plate](./images/base-plate.jpg)](./images/base-plate.jpg)
-
-[![Base plate attached](./images/base-plate-attached.jpg)](./images/base-plate-attached.jpg)
-
-
-### 5. Wheels
+### 6. Wheels (Back Wheels)
 
 {{<hint warning>}}
 As a final touch, you can use the brass screws to make sure that the wheels will not fall off. I would recommend doing this only after you have tested your wiring and the code, so that you can easily take off the wheels while testing the motors.
@@ -174,23 +136,136 @@ As a final touch, you can use the brass screws to make sure that the wheels will
 
 The distance sensor is connected using the Qwiic cable. [See the VL53L1X sensor tutorial for a detailed overview of how the sensor works.](/tutorials/arduino-and-electronics/sensors/distance-vl53l1x)
 
-### H-Bridge L293D
-
-[![L293D Pins](/images/tutorials/electronics/L293D-01.png)](/images/tutorials/electronics/L293D-01.png)
-
-[![L293D Schematic](/images/tutorials/electronics/L293D-02.png)](/images/tutorials/electronics/L293D-02.png)
-
-[![L293D Breadboard](/images/tutorials/electronics/L293D-03.png)](/images/tutorials/electronics/L293D-03.png)
-
-### Light Sensor
-
-[![LDR Schematic](./images/ldr_schematic.jpg)](./images/ldr_schematic.jpg)
-
-[![LDR Breadboard](./images/ldr.jpg)](./images/ldr.jpg)
-
 ---
 
 ## Code
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+
+### Motor Testing Example
+
+{{<hint info>}}
+This example code is for the Pico boards and the Kitronik Motor Drivers.
+
+Uncomment the functions in the `loop()` one by one and see if the robot does what your code is telling. If not, you might need to check your wiring.
+
+For example, If your code is saying `goForward()` and your robot moves backwards, the wires of the motors should be changed to be the opposite (swap the black and red wires on both motors.)
+
+[Download the example code.](./files/week_three_robot_test.zip)
+{{</hint>}}
+
+{{< details title="Show the Code" open=false >}}
+```c
+// pins for MOTOR 1
+int M1_C1 = 2;
+int M1_C2 = 3;
+
+// pins for MOTOR 2
+int M2_C1 = 6;
+int M2_C2 = 7;
+
+// speed of the motors
+int speed = 200;
+
+void setup() {
+  Serial.begin(115200);
+  // change the pins to outputs
+  pinMode(M1_C1, OUTPUT);
+  pinMode(M1_C2, OUTPUT);
+  pinMode(M2_C1, OUTPUT);
+  pinMode(M2_C2, OUTPUT);
+
+  // make sure that the motors are stopped in the beginning
+  stopAll();
+}
+
+void loop() {
+  // TRY UNCOMMENTING THESE LINES ONE BY ONE TO TEST THE MOVEMENTS
+  // goForward();
+  // goReverse();
+  // goLeft();
+  // goRight();
+  // stopAll();
+  // motorTwoForward();
+  // motorTwoBackward();
+  // motorOneReverse();
+  // motorOneReverse();
+}
+
+void goForward() {
+  motorTwoForward();
+  motorOneForward();
+}
+
+void goReverse() {
+  motorTwoReverse();
+  motorOneReverse();
+}
+
+void goLeft() {
+  motorOneForward();
+  motorTwoReverse();
+}
+
+void goRight() {
+  motorTwoForward();
+  motorOneReverse();
+}
+
+void stopAll() {
+  motorTwoStop();
+  motorOneStop();
+}
+
+// MOTOR 1
+
+void motorOneForward() {
+  analogWrite(M1_C1, speed);
+  analogWrite(M1_C2, 0);
+}
+
+void motorOneReverse() {
+  analogWrite(M1_C1, 0);
+  analogWrite(M1_C2, speed);
+}
+
+void motorOneStop() {
+  analogWrite(M1_C1, 0);
+  analogWrite(M1_C2, 0);
+}
+
+// MOTOR 2
+
+void motorTwoForward() {
+  analogWrite(M2_C1, speed);
+  analogWrite(M2_C2, 0);
+}
+
+void motorTwoReverse() {
+  analogWrite(M2_C1, 0);
+  analogWrite(M2_C2, speed);
+}
+
+void motorTwoStop() {
+  analogWrite(M2_C1, 0);
+  analogWrite(M2_C2, 0);
+}
+
+```
+
+{{</ details >}}
+
+### Final Robot Code
+
+{{<hint info>}}
+The code below adds the distance sensor and implements a basic obstacle avoidance logic for the robot.
+
+[Download the example code.](./files/week_three_robot_final.zip)
+{{</hint>}}
+
+{{% /tab %}}
+{{% tab "Arduino Uno" %}}
 
 ### Motor Test
 
@@ -507,3 +582,6 @@ void rightSpeed(int mSpeed) {
 {{< /tab >}}
 {{< /tabs >}}
 {{</ details >}}
+
+{{% /tab %}}
+{{< /tabs >}}
