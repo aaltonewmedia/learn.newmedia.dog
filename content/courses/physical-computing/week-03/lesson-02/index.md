@@ -51,7 +51,9 @@ You need the following parts:
 - 2 x 2x16 Brass Screws
 {{</hint>}}
 
-The interactive image below shows what each part is.
+[![Screws](./images/robot-screws.jpg)](./images/robot-screws.jpg)
+
+The interactive image below shows what each part is. **Note that this is the old one still. Will be updated later.
 
 <iframe width="100%" height="500" data-original-width="1920" data-original-height="1440" src="https://www.thinglink.com/view/scene/1778848233066332837" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script><br/><a href="https://www.thinglink.com/view/scene/1778848233066332837/accessibility" target="_blank" rel="noopener noreferrer">Click here to view the accessible version of this interactive content</a>
 
