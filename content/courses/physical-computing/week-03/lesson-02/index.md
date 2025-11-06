@@ -43,9 +43,8 @@ You need the following parts:
 
 {{<hint info>}}
 - 2 x M4x15 Standoff Screws
-- 2 x M4x12 Machine Screws
+- 4 x M4x12 Machine Screws
 - 4 x M3x25 Machine Screws
-- 2 x M3x10 Machine Screws
 - 3 x M3x8 Machine Screws (Black)
 - 6 x M3 Nuts
 - 2 x 2x16 Brass Screws
