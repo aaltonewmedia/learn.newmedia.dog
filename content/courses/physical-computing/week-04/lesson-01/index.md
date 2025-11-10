@@ -1,8 +1,9 @@
 ---
-title: "Project Proposals (USB: Serial, Keyboard, Mouse)"
+title: "Project Proposals"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
+draft: false
 ---
 
 {{<hint info>}}
