@@ -1,5 +1,5 @@
 ---
-title: "Project Proposals"
+title: "Project Proposals | USB Communication (serial, keyboard, mouse, MIDI)"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
@@ -39,46 +39,52 @@ We have this done with our robot we built last week so just keep that connected.
 
 ### Arduino Code
 
-Upload the following code to your Arduino. It reads the two sensors and prints out the data on one line with the values separated by a comma.
+Upload the following code to your board. It reads the two sensor data and prints out the data on one line with the values separated by a comma.
 
 ```c
+// add all necessary libraries
 #include <Wire.h>
-#include <VL53L1X.h>
-VL53L1X sensor;
+#include <Adafruit_MSA301.h>
+#include <Adafruit_Sensor.h>
 
-int light;
-int distance;
+// Comment/Uncomment as needed for specific MSA being used:
+// Adafruit_MSA311 msa;
+Adafruit_MSA301 msa;
+
+float x,y,z;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
-  // Setup the sensor
-  Wire1.begin();
-  Wire1.setClock(400000);  // use 400 kHz I2C
-  sensor.setBus(&Wire1);
-  sensor.setTimeout(500);
-  if (!sensor.init()) {
-    Serial.println("Failed to detect and initialize sensor!");
-    while (1)
-      ;
-  }
-  sensor.setDistanceMode(VL53L1X::Long);
-  sensor.setROICenter(199);
-  sensor.setROISize(4, 4);  // the smallest size for the ROI is 4x4
-  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
-  sensor.startContinuous(33);
+  if (! msa.begin()) {
+        Serial.println("Failed to find MSA301/311 chip");
+        while (1) { delay(10); }
+    }
+  Serial.println("MSA301/311 Found!");
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  light = analogRead(A0);
-  sensor.read();
-  distance = sensor.ranging_data.range_mm;
-  Serial.print(light);
-  Serial.print(',');
-  Serial.println(distance);
-  delay(10);
+    // get X Y and Z data at once
+    msa.read(); 
+    
+    x = msa.x;
+    y = msa.y;
+    z = msa.z;
+
+    // print the values
+    Serial.print(x);
+    Serial.print(",");
+    Serial.print(y);
+    Serial.print(",");
+    Serial.println(z);
+    delay(50);
 }
 ```
+
+{{<hint danger>}}
+Make sure you close all Serial Monitors from the Arduino IDE before testing in other software.
+{{</hint>}}
 
 ### Option #1: p5.js code
 
@@ -100,11 +106,16 @@ First, open the `index.html` file and add the following inside the `head` tags t
 
 Then use the code below. If everything went as expected, you should be able to connect to your Arduino and see the data coming in.
 
+[Open the example in the p5.js editor.](https://editor.p5js.org/mnstri/sketches/EJv7jPl3K)
+
 ```js
 let port;
-let light, distance;
+let x,y,z;
 let c;
 let s=10;
+let circleX=0;
+let circleY=0;
+
 function setup() {
   createCanvas(400, 400);
   port = createSerial();
@@ -116,19 +127,22 @@ function draw() {
   
   if(port.available()>0){
     let str = port.readUntil("\n");
+    //console.log(str);
     let splitData = split(str, ',');
-    light = splitData[0];
-    distance = splitData[1];
+    x = splitData[0];
+    y = splitData[1];
+    z = splitData[2];
     port.clear();
-    c = map(light,0,1023,0,255);
-    s = map(distance,0,3000,10,400);
+    circleX = map(x,-2000,2000,0,width);
+    circleY = map(y,-2000,2000,0,height);
   }
   
   fill(255);
-  text("light: " + light,20,20);
-  text("distance: " + distance,20,40);
-  fill(c);
-  circle(width/2, height/2, s);
+  text("x: " + x,20,20);
+  text("y: " + y,20,40);
+  text("z: " + z,20,60);
+  //fill(c);
+  circle(circleX, circleY, 100);
 }
 
 function mousePressed(){
@@ -138,9 +152,11 @@ function mousePressed(){
 }
 ```
 
+#### Another p5.js example
+
 Some other p5.js examples **(open in Chrome)**
 
-- [Eye Plops](https://editor.p5js.org/mnstri/sketches/hEWJR0Ons)
+- [Eye Plops](https://editor.p5js.org/mnstri/sketches/hEWJR0Ons) (this one uses the same Arduino code as above)
 
 ### Option #2: Processing code
 
@@ -151,10 +167,11 @@ import processing.serial.*;
 
 Serial myPort;  // Create object from Serial class
 String str;      // Data received from the serial port
-float light;
-float distance;
-float c;
-float s=10;
+float x,y,z;
+float circleX;
+float circleY;
+float s=100;
+
 void setup(){
   size(500, 500);
   // Open whatever port is the one you're using.
@@ -169,18 +186,19 @@ void draw(){
     str = myPort.readStringUntil('\n');         // read it and store it in str
     if(str != null){
       String[] splitData = split(str, ",");
-      light = float(splitData[0]);
-      distance = float(splitData[1]);
-      c = map(light,0,1023,0,255);
-      s = map(distance,0,3000,10,400);
+      x = float(splitData[0]);
+      y = float(splitData[1]);
+      z = float(splitData[2]);
+      circleX = map(x,-2000,2000,0,width);
+      circleY = map(y,-2000,2000,0,height);
     }
   }
   background(130,70,90);   
   fill(255);
-  text("light: " + light,20,20);
-  text("distance: " + distance,20,40);
-  fill(c);
-  circle(width/2, height/2, s);
+  text("x: " + x,20,20);
+  text("y: " + y,20,40);
+  text("z: " + y,20,60);
+  circle(circleX, circleY, s);
 }
 ```
 
@@ -197,68 +215,29 @@ There are two ways to use serial communication in TouchDesigner:
 
 ---
 
-## Controlling the LED Matrix on the Arduino R4 Uno WiFi
-
-1. Upload the example code from Examples -> LED Matrix
-- [Arduino online LED matrix editor](https://ledmatrix-editor.arduino.cc/)
-
-**Use Chrome for this as well.**
-
-### Arduino Code | Live Preview
-
-```c
-/*
-  This sketch allows live editing of the matrix pixels using WebSerial
-  To test, head to https://ledmatrix-editor.arduino.cc
-
-  The LED Matrix editor is part of Arduino Labs (https://labs.arduino.cc/), and is therefore considered experimental software.
-
-  Don't forget to close any serial monitor already opened.
-
-  See the full documentation here:
-  https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix  
-*/
-
-#include "Arduino_LED_Matrix.h" // Include the LED_Matrix library
-
-ArduinoLEDMatrix matrix;        // Create an instance of the ArduinoLEDMatrix class
-
-void setup() {
-  Serial.begin(115200);         // Initialize serial communication at a baud rate of 115200
-  matrix.begin();               // Initialize the LED matrix
-}
-
-// Define an array to hold pixel data for a single frame (4 pixels)
-uint32_t frame[] = {
-  0, 0, 0, 0xFFFF
-};
-
-void loop() {
-  // Check if there are at least 12 bytes available in the serial buffer
-  if(Serial.available() >= 12){
-    // Read 4 bytes from the serial buffer and compose them into a 32-bit value for each element in the frame
-    frame[0] = Serial.read() | Serial.read() << 8 | Serial.read() << 16 | Serial.read() << 24;
-    frame[1] = Serial.read() | Serial.read() << 8 | Serial.read() << 16 | Serial.read() << 24;
-    frame[2] = Serial.read() | Serial.read() << 8 | Serial.read() << 16 | Serial.read() << 24;
-    
-     // Load and display the received frame data on the LED matrix
-    matrix.loadFrame(frame);
-  }
-}
-
-```
-
----
-
 ## Keyboard
 
-You can make the Arduino Uno R4 WiFi appear as a USB keyboard for your computer.
+You can make the Raspberry Pi Pico and Arduino Uno R4 WiFi boards appear as a USB keyboard for your computer.
 
 - [Keyboard reference](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/)
 
 {{<hint danger>}}
 Be careful with this. It's quite easy to accidentally create something that is constantly typing something, which can make it really hard to reprogram your board.
 {{</hint>}}
+
+### Basic Project Setup
+
+```c
+#include "Keyboard.h"
+
+void setup(){
+  // initialize control over the keyboard:
+  Keyboard.begin();
+}
+
+void loop(){
+}
+```
 
 ### Sending individual keystrokes
 
@@ -312,8 +291,6 @@ void loop(){
 ---
 
 ## Mouse
-
-You can also make the Arduino Uno R4 WiFi appear as a USB mouse to your computer.
 
 - [Mouse reference](https://www.arduino.cc/reference/en/language/functions/usb/mouse/)
 

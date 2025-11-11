@@ -141,8 +141,8 @@ Each week is divided into three classes just like they are divided here on this 
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
-| 15:15–17:00 | [Project Proposal Presentations](./week-04/lecture) | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
+| 13:15–15:00 |  | [Project Proposal Presentations](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
+| 15:15–17:00 | [Setting Up for This Week](./week-04/lecture) | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
 
 #### Week 5 | Project Work
 

@@ -2,6 +2,7 @@
 title: "2022"
 bookCollapseSection: false
 p5js-widget: false
+weight: 20
 ---
 
 ## Students | Fall 2022
