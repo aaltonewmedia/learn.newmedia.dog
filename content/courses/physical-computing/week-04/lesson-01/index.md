@@ -12,9 +12,9 @@ The class time was used for going through the project proposals.
 
 ## Inspiration
 
-{{<vimeo 104996493>}}
+{{<vimeo 835316198>}} 
 
-[Myriam Bleau](http://www.myriambleau.com/)
+[Eevi Rutanen](https://www.eevirutanen.com/)
 
 ## Serial
 
