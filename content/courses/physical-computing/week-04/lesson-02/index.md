@@ -374,10 +374,15 @@ char pass[] = "12345678";  // your network password (use for WPA, or use as key 
 // The IP address below is the IP of the device sending the control signal to your robot (computer, phone etc.)
 const char* host = "192.168.50.173";
 ```
-4. Upload the Arduino code to your Pico board
-5. Open Processing and copy paste the code above to your sketch
-6. Install the oscP5 library. (Sketch --> Import Library --> Manage Libraries --> Search for oscP5)
-7. Run the Processing Sketch
-8. Activate the Processing output window by clicking on it. Use the arrow keys on your keyboard to control your robot.
+4. Upload the Arduino code to your Pico board.
+5. Open the Serial Monitor and write down the IP address that gets printed out. You will need it in the Processing code. 
+6. Open Processing and copy paste the code above to your sketch
+7. Install the oscP5 library. (Sketch --> Import Library --> Manage Libraries --> Search for oscP5)
+8. Paste the IP address from step 5 into the line that says:
+```java
+myRemoteLocation = new NetAddress("192.168.50.213", 12345);
+```
+8. Run the Processing Sketch
+9. Activate the Processing output window by clicking on it. Use the arrow keys on your keyboard to control your robot.
 
 ---
