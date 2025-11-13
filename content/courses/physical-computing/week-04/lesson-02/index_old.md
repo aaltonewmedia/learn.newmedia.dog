@@ -1,9 +1,9 @@
 ---
-title: "Wireless: WiFi, Bluetooth"
+title: "Wireless: WiFi, OSC"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 ## WiFi
@@ -68,14 +68,8 @@ Download the app on your mobile device from the app store of your mobile device.
 ### Install the ArduinoOSC library
 
 {{<hint info>}}
-Note! The official version of the library does not work with the Arduino Uno R4 WiFi boards. Install this version: [https://github.com/mnstri/ArduinoOSC](https://github.com/mnstri/ArduinoOSC) manually.
-
-1. Go to [https://github.com/mnstri/ArduinoOSC](https://github.com/mnstri/ArduinoOSC)
-2. Click the green button that says Code
-3. Choose `Download ZIP`
-4. Unzip the folder after downloading
-5. Rename the folder to just `ArduinoOSC` (remove the -master from the name)
-6. Move the folder to your Arduino libraries folder. `~/Documents/Arduino/libraries` on Mac and `C:\Users\{username}\Documents\Arduino\libraries` on Windows.
+- [ArduinoOSC](https://github.com/hideakitai/ArduinoOSC)
+- The Arduino OSC Library is used to be able to send and receive wireless data from various devices (computer, phone, other microcontrollers)
 {{</hint>}}
 
 ---
