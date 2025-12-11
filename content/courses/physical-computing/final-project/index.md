@@ -83,7 +83,9 @@ Please fill out the form if you want to present your work or show it in the exhi
 
 ---
 
-## Project Documentation (Deadline December 13)
+## Project Documentation (Deadline December 17)
+
+**Note! I extended the deadline a little bit**
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. Your course website should have a dedicated section(s)/page(s) for your final project.
 
@@ -99,7 +101,7 @@ Recommended documentation also would include one or more of the following:
 - More photos, sketches, high-quality video, process videos.
 - A guide/tutorial on how to build your project from the technical side. 
 
-**No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately.**
+**No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately on [MyCourses here.](https://mycourses.aalto.fi/mod/panoptosubmission/view.php?id=1429735)**
 
 {{<hint info>}}
 ### Video Specifications

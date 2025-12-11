@@ -166,7 +166,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 | TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | Project Work | Project Work | Exhibition Setup | Exhibition Setup | INDEPENDENCE DAY |
+| 09:15–12:00 | Project Work | Project Work | Project Work | Exhibition Setup | INDEPENDENCE DAY |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | Project Work | Project Work | Exhibition Setup | Project Presentations | INDEPENDENCE DAY  |
-| 15:15–17:00 | Project Work | Project Work | Exhibition Setup | Project Presentations  | INDEPENDENCE DAY  |
+| 13:15–15:00 | Project Work | Project Work | Project Work | Exhibition Setup | Project Presentations |
+| 15:15–17:00 | Project Work | Project Work | Project Work | Exhibition Setup | Project Presentations |
