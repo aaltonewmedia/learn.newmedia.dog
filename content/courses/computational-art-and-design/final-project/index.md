@@ -63,7 +63,7 @@ You should present your project in class on Friday, November 29. We start presen
 
 ### Final Project Documentation (Friday, December 12)
 
-You should send me documentation of the project via [MyCourses (link coming later)]().
+You should send me documentation of the project via [MyCourses (link coming later)](https://learn.newmedia.dog/courses/computational-art-and-design/final-project/).
 
 - a .pdf file that shortly explains your project (500–1000 words)
   - If your project is combined with Physical Computing, it's also ok to just submit link to your final project page.
