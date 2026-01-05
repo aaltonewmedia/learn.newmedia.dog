@@ -28,7 +28,7 @@ Experimental Studio 1, Marsio
 
 ### Period IV
 
-- Classes on Wednesdays and Thursdays
+- Classes on Wednesdays and Fridays
 - Independent study time and tutoring is possible in the studios other times
 - More intensive working period where we dig deeper into hands-on examples of embodied technology
 - The last weeks of the course are dedicated for project work
