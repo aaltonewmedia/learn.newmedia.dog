@@ -2,7 +2,7 @@
 title: "Fri | 28/02 | Wekinator, ZED"
 bookCollapseSection: false
 weight: 30
-draft: false
+draft: true
 ---
 
 # Week 08 | Lesson 03

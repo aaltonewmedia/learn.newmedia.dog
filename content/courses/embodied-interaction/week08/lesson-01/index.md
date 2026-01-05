@@ -2,7 +2,7 @@
 title: "Wed 26/02 | Final Project Kickoff"
 bookCollapseSection: false
 weight: 10
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

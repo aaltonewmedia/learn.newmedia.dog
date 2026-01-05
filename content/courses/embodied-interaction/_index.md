@@ -9,7 +9,7 @@ Welcome to Embodied Interaction. This is a course that has been running at Aalto
 
 ## Important Links
 
-- [MyCourses 2025](https://mycourses.aalto.fi/course/view.php?id=39807)
+- [MyCourses 2026](https://mycourses.aalto.fi/course/view.php?id=48413)
 
 ## Content
 
@@ -113,6 +113,7 @@ You will be graded based on the following criteria
 
 ---
 
+<!-- 
 ## Schedule | Spring 2025
 
 **PLEASE NOTE: THERE MIGHT BE STILL SOME SMALL CHANGES TO THE TOPICS.**
@@ -247,3 +248,5 @@ You will be graded based on the following criteria
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
+
+-->

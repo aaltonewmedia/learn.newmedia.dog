@@ -2,7 +2,7 @@
 title: "Week 03 | Embodied Interaction"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

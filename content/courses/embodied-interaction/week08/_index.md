@@ -1,7 +1,7 @@
 ---
 title: Week 08 | Studio Time Begins
 bookCollapseSection: true
-draft: false
+draft: true
 weight: 20
 ---
 

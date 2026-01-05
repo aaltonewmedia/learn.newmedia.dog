@@ -2,7 +2,7 @@
 title: "Week 05 | Tools & Technology #1 | Setting Up MediaPipe"
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 

@@ -2,7 +2,7 @@
 title: Week 10 | Project Proposals
 bookCollapseSection: true
 weight: 20
-draft: false
+draft: true
 ---
 
 - Wednesday

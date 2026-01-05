@@ -2,7 +2,7 @@
 title: "Week 06 | Tools & Technology #2 | "
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

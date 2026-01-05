@@ -2,7 +2,7 @@
 title: "Week 02 | Introduction"
 bookCollapseSection: false
 weight: 10
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

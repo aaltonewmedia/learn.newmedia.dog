@@ -2,7 +2,7 @@
 title: "Wed 12/03 | Project Work and Tutoring"
 bookCollapseSection: false
 weight: 10
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

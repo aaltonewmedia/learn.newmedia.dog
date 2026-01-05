@@ -2,7 +2,7 @@
 title: "Fri 15/03 | Project Proposal Presentations"
 bookCollapseSection: false
 weight: 30
-draft: false
+draft: true
 ---
 
 {{<hint info>}}

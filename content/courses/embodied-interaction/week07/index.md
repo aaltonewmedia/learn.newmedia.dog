@@ -2,7 +2,7 @@
 title: Week 07 | Workshop Week – No Class
 bookCollapseSection: false
 weight: 20
-draft: false
+draft: true
 ---
 
 # Week 07 | Workshop Week – No Class
