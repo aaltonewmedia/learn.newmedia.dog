@@ -1,66 +1,47 @@
 ---
-title: "Week 02 | Introduction"
+title: "Week 02 | Embodied Interaction"
 bookCollapseSection: false
 weight: 10
-draft: true
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, January 13, 2024**  
-Room 3448, Marsio
+**Monday, January 12, 2026**  
+Room 3430, Marsio
 
 {{</hint>}}
 
-## Introduction
+## Inspiration
 
-[See the home page of the course for basic information of the course.](../)
+{{<vimeo 70932989>}}
 
-### Examples from previous years
+- [EyeWriter](https://www.eyewriter.org/)
 
-[Go here to see some examples from previous years](../showcase/)
+{{<youtube pOiRyS5vmGM>}}
 
-## Course Structure
+Simon Dreyer was working on the idea of the *cartesian split* between the mind and the body and created [Duo Dimension](https://www.simonarcher.design/accessible-realities).
 
-### Period III
-
-- Lectures on Monday afternoons (15:15–17:00)
-- Lots of independent learning (TouchDesigner basics, some readings or videos to watch).
-
-### Period IV
-
-- More intensive working period where we dig deeper into hands-on examples of embodied technology
-- The last weeks of the course are dedicated for project work
-- Open Studio Exhibition at the end of the course. (Experimental Studio 1, Marsio 3430)
-
----
+>Duo Dimension is a two-player game centered on teamwork and designed for a single VR headset. While one player immerses themselves in the digital environment through the VR goggles, the other uses a controller to interact with the same digital space. Together, they create a connection between the digital and physical worlds.
 
 ## Lecture Slides
 
-- [See the lecture slides here](https://miro.com/app/board/uXjVLuwoakI=/)
-
----
+[Slides for today.](https://miro.com/app/board/uXjVPyL8kRg=/)
 
 ## Homework
 
-### Read
-
-Read carefully through the [course information](../) and make sure you understand what is expected from you.
-
 ### Watch
 
-Watch these four videos by Jelle van Dijk about Embodied Interaction before our class next week:
+Continue with the video lectures by Jelle van Dijk. This time about Tangible Interaction. Some things that I talked about are repeated but it might be a good recap to hear this from another person with a slightly different angle.
 
-- [Lecture #01 - Part 1](https://www.youtube.com/watch?v=6xnkWx7-jgo)
-- [Lecture #01 - Part 2](https://www.youtube.com/watch?v=tHQK2M1ercA)
-- [Lecture #01 - Part 3](https://www.youtube.com/watch?v=ouwVFeM3RoU)
-- [Lecture #01 - Part 4](https://www.youtube.com/watch?v=nUZUbHQ4Xjg)
+- [Embodied Interaction - Lecture #02, Part 1](https://www.youtube.com/watch?v=6Wc13beNzRM)
+- [Embodied Interaction - Lecture #02, Part 2](https://www.youtube.com/watch?v=Tl5nWcKv7wg)
 
-### Aquire New Skills: TouchDesigner
+### Think
 
-If you do not already know the basics of TouchDesigner, start going through [The 100 Series: TouchDesigner Fundamentals](https://learn.derivative.ca/courses/100-fundamentals/). 
+Whenever you go about your day, take some moments to think about the subconscious actions that you do throughout your everyday experiences. How do you interact with objects while cooking, eating, doing sports, commuting from one place to another etc.? How do you organise your space  around you for specific tasks? Or do you? What do you think you are  really skilled in?
 
-**You should go through this series of tutorials during Period 3. All of the examples that I will show in Period 4 assumes that you have completed this Fundamentals course.**
+Are there any specific gestures that are associated to these actions that you find interesting?
 
-{{<hint info>}}
-As I have already said multiple times, you can use any tool that you want during this course but if you want to follow and experiment with many of the practical examples during this course, I highly recommend you to learn how to use TouchDesigner. It is one of the most flexible tools for experimenting with different types input and output devices and allows you to quickly get to the crative part of your work.
-{{</hint>}}
+Could these actions be part of some type of an interactive experience.
+
+Add some thoughts into our collaborative Miro board for the class. [You can find the link in MyCourses.](https://mycourses.aalto.fi/mod/url/view.php?id=1448734&forceview=1)
