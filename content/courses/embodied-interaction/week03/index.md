@@ -2,58 +2,50 @@
 title: "Week 03 | Embodied Interaction"
 bookCollapseSection: false
 weight: 20
-draft: true
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, January 20, 2025**
+**Monday, January 19, 2026**
 
-*Room 3448 in Marsio*
+*Experimental Studio 1, Marsio*
 {{</hint>}}
 
 ---
 
 ## Lecture – How we got here?
 
-[Lecture slides](https://miro.com/app/board/uXjVPyL8kRg=/)
+[Lecture slides](https://miro.com/app/board/uXjVPx9O_0A=/)
 
-## Showcase
+For the last two weeks we have been exploring in general some different ways that humans have interacted with technology (and each other). Today we expand from Tangible Interaction into the space around us.
 
-Simon Dreyer was working on the idea of the *cartesian split* between the mind and the body and created [Duo Dimension](https://www.simonarcher.design/accessible-realities).
+In the upcoming weeks, we are going to focus on how the space around you and the objects in that space can become part of your thinking.
 
->Duo Dimension is a two-player game centered on teamwork and designed for a single VR headset. While one player immerses themselves in the digital environment through the VR goggles, the other uses a controller to interact with the same digital space. Together, they create a connection between the digital and physical worlds.
+Mark Weiser called his ideas **Ubiquitous Computing** in 1988 in the form of computational, networked devices embedded to our surroundings and everyday objects in three different sizes: tabs, pads and boards.
 
-{{<youtube pOiRyS5vmGM>}}
+Hiroshi Ishii and the Tangible Media Group call their vision **Tangible Bits and Radical Atoms** since the 1990s. As an example, a more physical or experimental version of the idea of Ubiquitous Computing was explored in the [ambientROOM project](https://tangible.media.mit.edu/project/ambientroom/).
 
----
+{{<vimeo 48815734>}}
+
+Saul Greenberg has investigated **Proxemic Interaction** that builds on **Proxemics** by Edward T. Hall and many of the ideas above.
+
+{{<youtube hBANQ3blCiw>}}
+
+{{<youtube Q13dM4hmEJQ>}}
+
+Bret Victor and collaborators are hoping to create a more **humane representation of thought**. The first prototype was called **Dynamicland** or **Realtalk**. Originally developed at the [Dynamicland space](https://dynamicland.org/2024/Intro/).
+
+{{<youtube 5Q9r-AEzRMA>}}
 
 ## Homework
 
 ### Watch
 
-Bret Victor: The Humane Representation of Thought
+Continue the video lectures by Jelle van Dijk
 
-{{<vimeo 115154289>}}
+- [Embodied Interaction - Lecture #03, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
+- [Embodied Interaction - Lecture #03, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
 
-{{<hint info>}}
-- Also read through [the pdf here on the notes about the talk](http://worrydream.com/TheHumaneRepresentationOfThought/note.html).
-- If you haven't read this for the Physical Computing class, also read [A Brief Rant on the Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/) and the [responses](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/responses.html) to it.
-- [Dynamicland](https://dynamicland.org/) | Take a look at the Dynamicland website for more information about a prototype of what Bret Victor talks about in the video.
-- [Dynamicland Intro](https://dynamicland.org/2024/Intro/) | This 6 minute intor explains how Dynamicland works.
-- [Folk Computer](https://folk.computer/start) | There is also an open-source initiative to build something very similar
-{{</hint>}}
+Please also watch the Dynamicland presentation videa to get some inspiration for next week's session
 
-Continue with the video lectures by Jelle van Dijk. This time about Tangible Interaction. Some things that I talked about are repeated but it might be a good recap to hear this from another person with a slightly different angle.
-
-- [Embodied Interaction - Lecture #02, Part 1](https://www.youtube.com/watch?v=6Wc13beNzRM)
-- [Embodied Interaction - Lecture #02, Part 2](https://www.youtube.com/watch?v=Tl5nWcKv7wg)
-
-### Explore
-
-- Explore other projects from the [Tangible Media Group](https://tangible.media.mit.edu/projects/) for inspiration
-
-### Think
-
-Whenever you go about your day, take some moments to think about the subconcious actions that you do throughout your everyday experiences. How do you interact with objects while cooking, eating, doing sports, commuting from one place to another etc.? How do you organise your space around you for specific tasks? Or do you? What do you think you are really skilled in?
-
-Be prepared to discuss this in a small group next week, you will eventually do some more thorough documentation of this during the course but for now just take in some moments when you observe yourself closely.
+[Dynamicland Video](https://dynamicland.org/2018/Dynamicland/)
