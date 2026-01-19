@@ -1,5 +1,5 @@
 ---
-title: "Week 03 | Embodied Interaction"
+title: "Week 03 | Context-Aware Computing"
 bookCollapseSection: false
 weight: 20
 draft: false
@@ -13,7 +13,7 @@ draft: false
 
 ---
 
-## Lecture – How we got here?
+## Lecture
 
 [Lecture slides](https://miro.com/app/board/uXjVPx9O_0A=/)
 
