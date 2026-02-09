@@ -2,14 +2,14 @@
 title: "Week 05 | Tools & Technology #1 | Setting Up MediaPipe"
 bookCollapseSection: false
 weight: 20
-draft: true
+draft: false
 ---
 
 
 ---
 
 {{<hint info>}}
-**Monday, February 3, 2025**
+**Monday, February 2, 2026**
 
 **Room 3420 (Marsio)**
 {{</hint>}}
@@ -128,27 +128,5 @@ More information:
 
 ### Watch
 
-Continue the video lectures by Jelle van Dijk
-
-- [Embodied Interaction - Lecture #03, Part 1](https://www.youtube.com/watch?v=DkRbHlbOff8)
-- [Embodied Interaction - Lecture #03, Part 2](https://www.youtube.com/watch?v=JdMnwRlKoRU)
-
-### Experiment: Gesture Interaction
-
-Experiment with gestural interactions using MediaPipe or some other tool of your choice. Create a **simple** interactive sketch that does the following:
-
-- It should use some form of tracking with live video (hands, face, body, object tracking, classification etc.)
-- Use the data to control **one output** graphics, video, animation, sound, lights, mechanical movement etc.
-- Record a short video of it and submit to MyCourses
-- Try to do something that is not just one-to-one mapping of your movements to the movements of a virtual avatar. Think about interactions and different types of controls or conversions from input to output.
-- **Keep it simple, no need to do anything beyond one type of interaction.** This is not yet your final project.
-
-I recommend experimenting with TouchDesigner and MediaPipe, but you are free to use some other tools as well, such as:
-
-- p5.js with [ml5.js](https://ml5js.org/)
-- Unity (there is also a [MediaPipe plugin for Unity](https://github.com/homuler/MediaPipeUnityPlugin))
-- Unreal Engine (for example with Live Link)
-- Kinect camera
-- ZED camera
-
-**Deadline: Tuesday, February 25, 23:59**
+- [Embodied Interaction - Lecture #04, Part 1](https://www.youtube.com/watch?v=DPUZ-Uk0sf4)
+- [Embodied Interaction - Lecture #04, Part 2](https://www.youtube.com/watch?v=xWXHn4jUfGg)

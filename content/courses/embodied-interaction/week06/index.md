@@ -1,12 +1,12 @@
 ---
-title: "Week 06 | Tools & Technology #2 | "
+title: "Week 06 | Tools & Technology: Depth Cameras"
 bookCollapseSection: false
 weight: 20
-draft: true
+draft: false
 ---
 
 {{<hint info>}}
-**Monday, February 10, 2024**
+**Monday, February 9, 2026**
 
 **Room 3420 (Marsio), Computer classrooom**
 {{</hint>}}
