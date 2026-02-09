@@ -1,5 +1,5 @@
 ---
-title: "Week 05 | Tools & Technology #1 | Setting Up MediaPipe"
+title: "Week 05 | Tools & Technology #1 | TouchDesigner Basics"
 bookCollapseSection: false
 weight: 20
 draft: false
@@ -44,83 +44,5 @@ Log in to [vdi.aalto.fi](https://vdi.aalto.fi/) with your Aalto account and choo
 {{<hint info>}}
 This actually works really well and it's very convenient! Can be used with a low-power machine like a laptop with much better performance. Also great for using on your Mac to access some of the Windows-only features.
 {{</hint>}}
-
----
-
-## Setting up MediaPipe GPU with TouchDesigner
-
-During the second half of the class, we will setup the MediaPipe GPU plugin for your TouchDesigner installations.
-
-[Torin Blankensmith](https://www.torinblankensmith.com/) and [Dom Scott](https://art.domscott.ca/art/mediapipe-for-touchdesigner) have created an excellent plugin for TouchDesigner that enables many of the tracking posibilities of MediaPipe straight in a very TD friendly formatting.
-
-{{<youtube Cx4Ellaj6kk>}}
-
-### Add the MediaPipe files to Your TouchDesigner Palette
-
-Do the following in order to have an easy access to the components throughout the rest of the course:
-
-1. Download the plugin from the [GitHub repository](https://github.com/torinmb/mediapipe-touchdesigner). Click Releases and download the latest `release.zip` file(v0.3.3 when writing this).
-2. Unzip the .zip archive somewhere on your computer.
-3. Open TouchDesigner.
-4. Find the Palette on the left side of the interface and scroll down to `My Components`.
-5. Right-click on `My Components` and choose `Add Folder`. Name it `MediaPipe GPU`.
-6. Right-click on this new folder you created and choose `Browse Folder`. It opens your File Explorer (Windows) or Finder(Mac) in a location where your custom paletette components are stored.
-7. Copy all of the .tox files from the `toxes` folder into the `MediaPipe GPU` folder you had created earlier.
-8. Go back to TouchDesigner. Right-click on top of the `MediaPipe GPU` folder in the Palette and choose `Refresh Folder`.
-9. You can open the `MediaPipe TouchDesigner.toe` file to see an example on how to to use some of this data. We will make our own experimentations next week.
-
-## Using MediaPipe in your own projects
-
-After you have added the components to your Palette, you have access to the .tox files easily. Just make sure you do the following step to not make your file size too large.
-
-1. Drag the main MediaPipe component to your project from the Palette
-2. Select the component and go to the Common page of the properties.
-3. Turn on `Enable External .tox`
-4. Add the path of the component to the `External .tox Path` to point to the location where your Palette folder is. Easisest way to do this is to go to the Palette and find the folder you created earlier (MediaPipe GPU), right click and select Browse Folder, drag the MediaPipe.tox into the text box for `External .tox Path`
-
-Doing this makes sure that the component is properly loaded and you need to only have one copy of the component on your hard drive.
-
-### Workaround to get the camera image working with Aalto computers
-
-{{<hint warning>}}
-Some of the computers we have do not for some reason load the camera inputs correctly with the MediaPipe GPU plugin. If that is the case with you, use this workaround:
-
-1. Open OBS Studio
-2. Change the video settings to 1280x720/60 fps
-2. Add a Video Capture Device into as the Source
-3. Change the settings of the webcam to also be 1270x720/60fps
-4. Scale the source image to the output by selecting it and pressing Ctrl+F (Fit to screen)
-5. Turn on the Virtual Camera by pressing the Start Virtual Camera button.
-{{</hint>}}
-
-
-{{<hint info>}}
-You can also dowload the profile and scene files by [clicking here](.files/mediapipeobs.zip). Once you have downloaded them, do the following:
-
-- Unzip the files
-- Select Profile -> Import
-- Select the mediapipeobs folder
-- Select Profile -> mediapipe
-- Select Scene Collection -> Import
-- Click the ... to open the filebrowser
-- Select the `mediapipe.json` file that you downloaded
-- Select Scene Collection -> mediapipe
-{{</hint>}}
-
-### Information About MediaPipe
-
-More information:
-
-- [MediaPipe Developer Guide](https://developers.google.com/mediapipe)
-- [MediaPipe GPU Plugin for TouchDesigner](https://github.com/torinmb/mediapipe-touchdesigner)
-
-## Artists
-
-- [Soyun Park](https://soyunparrrk.com/)
-- [Yehwan Song](https://www.yhsong.com/) also see her [Instagram](https://www.instagram.com/yehwan.yen.song/)
-- [Torin Blankensmith](https://www.torinblankensmith.com/) | [Instagram](https://www.instagram.com/blankensmithing/)
-- [The Poet Engineer](https://www.instagram.com/the.poet.engineer/)
-- [Bonnie Pham](https://www.instagram.com/bonnie2.0.0/)
-- [Immersive Arts Space](https://www.zhdk.ch/en/immersive-arts-space-10984) and their [blog](https://blog.zhdk.ch/immersivearts/)
 
 ---
