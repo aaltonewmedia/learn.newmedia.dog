@@ -93,13 +93,19 @@ In TouchDesigner, you can find the Kinect Azure TOP and CHOP that give you the i
 
 ### ZED
 
+- [Zed website](https://www.stereolabs.com/en-fi/products/zed-2)
+- [Documentations](https://www.stereolabs.com/docs)
+- [Unity Plugin](https://www.stereolabs.com/docs/unity)
+- [Unreal Engine Plugin](https://www.stereolabs.com/docs/ue5)
+- [TouchDesigner](https://derivative.ca/UserGuide/ZED)
+
 Pros:
 - Actively maintained and supported
 - Works directly in TouchDesigner
 - You also get depth image and point cloud
 
 Cons:
-- Expensive sensor
+- Expensive sensor (500€)
 - Windows only
 
 ---
@@ -107,6 +113,8 @@ Cons:
 ### MediaPipe
 
 MediaPipe is the simplest option in the sense that it doesn't require any special hardware and works with different operating systems.
+
+- [MediaPipe Developer Guide](https://developers.google.com/mediapipe)
 
 Pros:
 
