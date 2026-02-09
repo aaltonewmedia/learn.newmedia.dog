@@ -121,12 +121,6 @@ More information:
 - [Torin Blankensmith](https://www.torinblankensmith.com/) | [Instagram](https://www.instagram.com/blankensmithing/)
 - [The Poet Engineer](https://www.instagram.com/the.poet.engineer/)
 - [Bonnie Pham](https://www.instagram.com/bonnie2.0.0/)
+- [Immersive Arts Space](https://www.zhdk.ch/en/immersive-arts-space-10984) and their [blog](https://blog.zhdk.ch/immersivearts/)
 
 ---
-
-## Homework
-
-### Watch
-
-- [Embodied Interaction - Lecture #04, Part 1](https://www.youtube.com/watch?v=DPUZ-Uk0sf4)
-- [Embodied Interaction - Lecture #04, Part 2](https://www.youtube.com/watch?v=xWXHn4jUfGg)
