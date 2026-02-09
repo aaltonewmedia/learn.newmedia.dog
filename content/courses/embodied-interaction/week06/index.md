@@ -196,6 +196,18 @@ More information:
 - [The Poet Engineer](https://www.instagram.com/the.poet.engineer/)
 - [Bonnie Pham](https://www.instagram.com/bonnie2.0.0/)
 - [Immersive Arts Space](https://www.zhdk.ch/en/immersive-arts-space-10984) and their [blog](https://blog.zhdk.ch/immersivearts/)
+- [reshapedbody IG](https://www.instagram.com/reshapedbody)
+
+---
+
+## Example Done in Class
+
+I made some sample files from two different body tracking sensors. You can use these in TouchDesigner to understand the data coming from the sensors without having them.
+
+- [Kinect Azure](./files/kinect_azure.chan)
+- [Zed 2i](./files/zed_neural_plus_34.chan)
+
+You can also [download the example file](./files/embodied-sample.zip) that shows how to visualize the data.
 
 ---
 
