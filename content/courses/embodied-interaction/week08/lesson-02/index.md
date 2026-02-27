@@ -1,5 +1,5 @@
 ---
-title: "Thu 27/02 | Socially Situated Practices"
+title: "Fri 27/02 | Socially Situated Practices"
 bookCollapseSection: false
 weight: 20
 draft: false
