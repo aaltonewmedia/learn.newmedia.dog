@@ -29,7 +29,7 @@ Continue watching the lectures from Jelle van Dijk. The topic of part 5 is relat
 
 ### Prepare for next week
 
-Next week we get access to the Digital Studio in Marsio and we will sepnd some time there to get familiar with the setup I will create in the space. Please think a bit about how to get started with your project that you presented today:
+Next week we get access to the Digital Studio in Marsio and we will spend some time there to get familiar with the setup I will create in the space. Please think a bit about how to get started with your project that you presented today:
 
 - What do you need? Space, equipment, materials, research, support etc. Start doing some tests and experiments.
 - What have other people done before you? Find resources and references related to your woek. Theoretical, artistic, practical.
