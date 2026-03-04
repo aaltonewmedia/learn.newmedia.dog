@@ -2,7 +2,7 @@
 title: "Fri 07/03 | Embodied AI | Experimenting in the Studio"
 bookCollapseSection: false
 weight: 40
-draft: false
+draft: true
 ---
 
 {{<hint info>}}
