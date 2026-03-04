@@ -1,10 +1,9 @@
 ---
-title: Week 09 | Embodied AI
+title: Week 09 | Bodies, Skills, Actions | Project Proposals
 bookCollapseSection: true
 weight: 20
-draft: true
+draft: false
 ---
 
-- Wednesday (L208)
-- Thursday (L208)
-- Friday (G203)
+- Wednesday (Experimental Studio 1)
+- Friday (Experimental Studio 1)
