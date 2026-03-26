@@ -72,19 +72,20 @@ Present your work on the last day of the course. We will have two spaces availab
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well.
 
-Deadline for finishing the documentation is Friday, April 18.
+Deadline for finishing the documentation is Friday, April 24.
 
 The required documentation consists of:
 
-- A short description of your project (statement)
-- Reflection on the things you learned (500-1000 words)
+- .pdf file with the following:
+  - A short description of your project (statement)
+  - Reflection on the things you learned (500-1000 words)
 - One photo of the finished work
-- One short video of the finished work. We will upload this to Panopto.
+- One short video of the finished work. We will upload this to Panopto. (1920x1080)
 
 Part of the documentation will be added to [this website](https://newmedia.dog/) if you give the permission to do so. More details on the exact format will be provided soon.
 
 {{<hint info>}}
-[Please upload your documentation to MyCourses.](https://mycourses.aalto.fi/mod/assign/view.php?id=1331041)
+[Please upload your documentation to MyCourses.](https://mycourses.aalto.fi/mod/assign/view.php?id=1479627)
 {{</hint>}}
 
 ---
