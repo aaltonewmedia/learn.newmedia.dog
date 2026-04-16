@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "curriculum",
+  "program": {
+    "name": "MA in New Media",
+    "org": "Aalto University",
+    "degree": "Master of Arts",
+    "startYear": 2026,
+    "endYear": 2028
+  },
+  "courses": [
+    {
+      "id": "nm-orientation",
+      "code": "NM-ORI",
+      "title": "New Media Orientation",
+      "mandatory": true,
+      "ects": 3,
+      "defaultColor": "#2563eb",
+      "tags": ["core"]
+    },
+    {
+      "id": "nm-studio-1",
+      "code": "NM-ST1",
+      "title": "New Media Studio 1",
+      "mandatory": true,
+      "ects": 6,
+      "defaultColor": "#16a34a",
+      "tags": ["studio"]
+    },
+    {
+      "id": "nm-elective-example",
+      "code": "NM-ELX",
+      "title": "Elective (example)",
+      "mandatory": false,
+      "ects": 6,
+      "defaultColor": "#a855f7",
+      "tags": ["elective"]
+    }
+  ]
+}
