@@ -1,35 +1,7 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-16T12:00:00.000Z",
+  "exportDate": "2026-04-16T14:13:17.916Z",
   "courses": [
-    {
-      "id": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
-      "name": "Computational Art and Design",
-      "code": "AXM-E7001",
-      "year": 1,
-      "teachers": ["Matti Niinimäki", "Markku Reunanen"],
-      "ects": 6,
-      "placed": true,
-      "period": 1,
-      "span": 2,
-      "y": 100,
-      "color": "#FB8500",
-      "category": "compulsory"
-    },
-    {
-      "id": "nm_axm_e7002",
-      "name": "Introduction to Media Art and Culture",
-      "code": "AXM-E7002",
-      "year": 1,
-      "teachers": [],
-      "ects": 3,
-      "placed": true,
-      "period": 1,
-      "span": 1,
-      "y": 12,
-      "color": "#FB8500",
-      "category": "compulsory"
-    },
     {
       "id": "nm_axm_e0001",
       "name": "Thinking Practices in Art & Media",
@@ -39,34 +11,6 @@
       "ects": 6,
       "placed": true,
       "period": 2,
-      "span": 1,
-      "y": 12,
-      "color": "#FFB703",
-      "category": "compulsory"
-    },
-    {
-      "id": "nm_axm_e7003",
-      "name": "Interaction Design",
-      "code": "AXM-E7003",
-      "year": 1,
-      "teachers": [],
-      "ects": 3,
-      "placed": true,
-      "period": 2,
-      "span": 1,
-      "y": 100,
-      "color": "#FB8500",
-      "category": "compulsory"
-    },
-    {
-      "id": "nm_axm_e0006",
-      "name": "Doing Research in Art & Media",
-      "code": "AXM-E0006",
-      "year": 1,
-      "teachers": [],
-      "ects": 3,
-      "placed": true,
-      "period": 3,
       "span": 1,
       "y": 12,
       "color": "#FFB703",
@@ -96,194 +40,87 @@
       "placed": true,
       "period": 1,
       "span": 3,
+      "y": 1116,
+      "color": "#FFB703",
+      "category": "compulsory"
+    },
+    {
+      "id": "nm_axm_e0006",
+      "name": "Doing Research in Art & Media",
+      "code": "AXM-E0006",
+      "year": 1,
+      "teachers": [],
+      "ects": 3,
+      "placed": true,
+      "period": 3,
+      "span": 1,
       "y": 12,
       "color": "#FFB703",
       "category": "compulsory"
     },
     {
-      "id": "nm_axm_thes",
-      "name": "Master's Thesis",
-      "code": "AXM.thes",
-      "year": 2,
+      "id": "el_axm_e0101",
+      "name": "Workshop Period I",
+      "code": "AXM-E0101",
+      "year": 1,
       "teachers": [],
-      "ects": 30,
+      "ects": 3,
       "placed": true,
       "period": 1,
-      "span": 5,
-      "y": 100,
-      "color": "#C77DFF",
-      "category": "compulsory"
-    },
-    {
-      "id": "nm_axm_e5014",
-      "name": "Game Tools and Technology",
-      "code": "AXM-E5014",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": false,
-      "period": 1,
       "span": 1,
-      "y": null,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
+      "y": 1016,
+      "color": "#E9C46A",
+      "category": "elective",
+      "flexible": true
     },
     {
-      "id": "nm_axm_e3004",
-      "name": "The 21st Century Art & Science Lab",
-      "code": "AXM-E3004",
+      "id": "course_RS3X5jHo9L",
+      "name": "Workshop Period II",
+      "code": "AXM-E0102",
       "year": 1,
       "teachers": [],
-      "ects": 6,
+      "ects": 3,
       "placed": true,
       "period": 2,
       "span": 1,
-      "y": 188,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
+      "y": 1016,
+      "color": "#FFB703",
+      "category": "elective"
     },
     {
-      "id": "nm_axm_e7004",
-      "name": "Physical Computing",
-      "code": "AXM-E7004",
+      "id": "el_axm_e0103",
+      "name": "Workshop Period III",
+      "code": "AXM-E0103",
       "year": 1,
       "teachers": [],
-      "ects": 6,
-      "placed": true,
-      "period": 2,
-      "span": 1,
-      "y": 276,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
-    },
-    {
-      "id": "nm_axm_e7005",
-      "name": "Internet Technologies and Web Development",
-      "code": "AXM-E7005",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
+      "ects": 3,
       "placed": true,
       "period": 3,
       "span": 1,
-      "y": 100,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
+      "y": 1012,
+      "color": "#E9C46A",
+      "category": "elective",
+      "flexible": true
     },
     {
-      "id": "nm_axm_e7006",
-      "name": "Systems of Representation: Culture Lab",
-      "code": "AXM-E7006",
+      "id": "el_axm_e0104",
+      "name": "Workshop Period IV",
+      "code": "AXM-E0104",
       "year": 1,
       "teachers": [],
-      "ects": 6,
-      "placed": true,
-      "period": 3,
-      "span": 2,
-      "y": 364,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
-    },
-    {
-      "id": "nm_axm_e7007",
-      "name": "Generative and Interactive Narratives",
-      "code": "AXM-E7007",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": true,
-      "period": 3,
-      "span": 2,
-      "y": 452,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
-    },
-    {
-      "id": "nm_axm_e7008",
-      "name": "Embodied Interaction",
-      "code": "AXM-E7008",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": true,
-      "period": 3,
-      "span": 2,
-      "y": 540,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
-    },
-    {
-      "id": "nm_axm_e7009",
-      "name": "Digital Fabrication I",
-      "code": "AXM-E7009",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": true,
-      "period": 3,
-      "span": 1,
-      "y": 188,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
-    },
-    {
-      "id": "nm_axm_e7012",
-      "name": "Critical AI Studies: Beyond the Black Box",
-      "code": "AXM-E7012",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": true,
-      "period": 3,
-      "span": 2,
-      "y": 276,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
-    },
-    {
-      "id": "nm_axm_e7010",
-      "name": "Digital Fabrication II",
-      "code": "AXM-E7010",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
+      "ects": 3,
       "placed": true,
       "period": 4,
       "span": 1,
-      "y": 188,
-      "color": "#8ECAE6",
-      "category": "optional",
-      "selectionGroup": "optional-18"
+      "y": 1008,
+      "color": "#E9C46A",
+      "category": "elective",
+      "flexible": true
     },
     {
       "id": "nm_axm_e0201",
       "name": "Study Project",
       "code": "AXM-E0201",
-      "year": 1,
-      "teachers": [],
-      "ects": 9,
-      "placed": false,
-      "period": 1,
-      "span": 1,
-      "y": null,
-      "color": "#95D5B2",
-      "category": "optional",
-      "selectionGroup": "optional-9",
-      "flexible": true
-    },
-    {
-      "id": "nm_axm_trai",
-      "name": "Internship and Professional Experience",
-      "code": "AXM.trai",
       "year": 1,
       "teachers": [],
       "ects": 9,
@@ -306,10 +143,190 @@
       "placed": true,
       "period": 4,
       "span": 2,
-      "y": 100,
+      "y": 932,
       "color": "#95D5B2",
       "category": "optional",
       "selectionGroup": "optional-9"
+    },
+    {
+      "id": "nm_axm_e3004",
+      "name": "The 21st Century Art & Science Lab",
+      "code": "AXM-E3004",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 2,
+      "span": 1,
+      "y": 428,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e5014",
+      "name": "Game Tools and Technology",
+      "code": "AXM-E5014",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 2,
+      "y": 860,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+      "name": "Computational Art and Design",
+      "code": "AXM-E7001",
+      "year": 1,
+      "teachers": [
+        "Matti Niinimäki",
+        "Markku Reunanen"
+      ],
+      "ects": 6,
+      "placed": true,
+      "period": 1,
+      "span": 2,
+      "y": 244,
+      "color": "#FB8500",
+      "category": "compulsory"
+    },
+    {
+      "id": "nm_axm_e7002",
+      "name": "Introduction to Media Art and Culture",
+      "code": "AXM-E7002",
+      "year": 1,
+      "teachers": [],
+      "ects": 3,
+      "placed": true,
+      "period": 1,
+      "span": 1,
+      "y": 8,
+      "color": "#FB8500",
+      "category": "compulsory"
+    },
+    {
+      "id": "nm_axm_e7003",
+      "name": "Interaction Design",
+      "code": "AXM-E7003",
+      "year": 1,
+      "teachers": [],
+      "ects": 3,
+      "placed": true,
+      "period": 1,
+      "span": 1,
+      "y": 144,
+      "color": "#FB8500",
+      "category": "compulsory"
+    },
+    {
+      "id": "nm_axm_e7004",
+      "name": "Physical Computing",
+      "code": "AXM-E7004",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 2,
+      "span": 1,
+      "y": 536,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e7005",
+      "name": "Internet Technologies and Web Development",
+      "code": "AXM-E7005",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 1,
+      "y": 304,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e7006",
+      "name": "Systems of Representation: Culture Lab",
+      "code": "AXM-E7006",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 2,
+      "y": 536,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e7007",
+      "name": "Generative and Interactive Narratives",
+      "code": "AXM-E7007",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 2,
+      "y": 616,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e7008",
+      "name": "Embodied Interaction",
+      "code": "AXM-E7008",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 2,
+      "y": 700,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e7009",
+      "name": "Digital Fabrication I",
+      "code": "AXM-E7009",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 1,
+      "y": 440,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
+    },
+    {
+      "id": "nm_axm_e7010",
+      "name": "Digital Fabrication II",
+      "code": "AXM-E7010",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 4,
+      "span": 1,
+      "y": 428,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
     },
     {
       "id": "nm_axm_e7011",
@@ -321,131 +338,257 @@
       "placed": true,
       "period": 5,
       "span": 1,
-      "y": 12,
+      "y": 416,
       "color": "#95D5B2",
       "category": "optional",
       "selectionGroup": "optional-9"
     },
     {
-      "id": "el_axm_e0101",
-      "name": "Workshop Period I",
-      "code": "AXM-E0101",
+      "id": "nm_axm_e7012",
+      "name": "Critical AI Studies: Beyond the Black Box",
+      "code": "AXM-E7012",
       "year": 1,
       "teachers": [],
-      "ects": 3,
-      "placed": false,
-      "period": 1,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
-    },
-    {
-      "id": "el_axm_e0102",
-      "name": "Workshop Period II",
-      "code": "AXM-E0102",
-      "year": 1,
-      "teachers": [],
-      "ects": 3,
-      "placed": false,
-      "period": 2,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
-    },
-    {
-      "id": "el_axm_e0103",
-      "name": "Workshop Period III",
-      "code": "AXM-E0103",
-      "year": 1,
-      "teachers": [],
-      "ects": 3,
-      "placed": false,
+      "ects": 6,
+      "placed": true,
       "period": 3,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
+      "span": 2,
+      "y": 776,
+      "color": "#8ECAE6",
+      "category": "optional",
+      "selectionGroup": "optional-18"
     },
     {
-      "id": "el_axm_e0104",
-      "name": "Workshop Period IV",
-      "code": "AXM-E0104",
-      "year": 1,
+      "id": "nm_axm_thes",
+      "name": "Master's Thesis",
+      "code": "AXM.thes",
+      "year": 2,
       "teachers": [],
-      "ects": 3,
-      "placed": false,
-      "period": 4,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
+      "ects": 30,
+      "placed": true,
+      "period": 1,
+      "span": 5,
+      "y": 1196,
+      "color": "#C77DFF",
+      "category": "compulsory"
     },
     {
-      "id": "el_axm_e0106",
-      "name": "Towards Public Display",
-      "code": "AXM-E0106",
+      "id": "nm_axm_trai",
+      "name": "Internship and Professional Experience",
+      "code": "AXM.trai",
       "year": 1,
       "teachers": [],
-      "ects": 3,
+      "ects": 9,
       "placed": false,
       "period": 1,
       "span": 1,
       "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
-    },
-    {
-      "id": "el_axm_e0105",
-      "name": "External Collaborations",
-      "code": "AXM-E0105",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": false,
-      "period": 1,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
-    },
-    {
-      "id": "el_axm_e0411",
-      "name": "Spatial Structures",
-      "code": "AXM-E0411",
-      "year": 1,
-      "teachers": [],
-      "ects": 6,
-      "placed": false,
-      "period": 1,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
-      "flexible": true
-    },
-    {
-      "id": "el_axm_e0202",
-      "name": "Independent Essay",
-      "code": "AXM-E0202",
-      "year": 1,
-      "teachers": [],
-      "ects": 3,
-      "placed": false,
-      "period": 1,
-      "span": 1,
-      "y": null,
-      "color": "#E9C46A",
-      "category": "elective",
+      "color": "#95D5B2",
+      "category": "optional",
+      "selectionGroup": "optional-9",
       "flexible": true
     }
   ],
-  "weeklySchedule": {}
+  "weeklySchedule": {
+    "1-teaching-0-9": [
+      {
+        "courseId": "nm_axm_e7003",
+        "name": "Interaction Design",
+        "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-teaching-0-10": [
+      {
+        "courseId": "nm_axm_e7003",
+        "name": "Interaction Design",
+        "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-teaching-0-11": [
+      {
+        "courseId": "nm_axm_e7003",
+        "name": "Interaction Design",
+        "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-teaching-1-11": [
+      {
+        "courseId": "nm_axm_e7003",
+        "name": "Interaction Design",
+        "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-teaching-1-10": [
+      {
+        "courseId": "nm_axm_e7003",
+        "name": "Interaction Design",
+        "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-teaching-1-9": [
+      {
+        "courseId": "nm_axm_e7003",
+        "name": "Interaction Design",
+        "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-teaching-1-13": [
+      {
+        "courseId": "nm_axm_e7002",
+        "name": "Introduction to Media Art and Culture",
+        "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-teaching-1-14": [
+      {
+        "courseId": "nm_axm_e7002",
+        "name": "Introduction to Media Art and Culture",
+        "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-teaching-1-15": [
+      {
+        "courseId": "nm_axm_e7002",
+        "name": "Introduction to Media Art and Culture",
+        "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-teaching-3-13": [
+      {
+        "courseId": "nm_axm_e7002",
+        "name": "Introduction to Media Art and Culture",
+        "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-teaching-3-14": [
+      {
+        "courseId": "nm_axm_e7002",
+        "name": "Introduction to Media Art and Culture",
+        "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-teaching-3-15": [
+      {
+        "courseId": "nm_axm_e7002",
+        "name": "Introduction to Media Art and Culture",
+        "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-teaching-0-15": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-teaching-0-16": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "1-teaching-3-10": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-teaching-3-9": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-teaching-3-11": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-teaching-4-11": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-teaching-4-10": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-teaching-4-9": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 9
+      }
+    ]
+  }
 }

@@ -74,11 +74,6 @@ Download the app on your mobile device from the app store of your mobile device.
 
 ---
 
-## Example: HTTP Requests
-
-[See this tutorial from Arduino.](https://docs.arduino.cc/tutorials/nano-rp2040-connect/rp2040-ap-web-server-rgb)
-
----
 
 ## Example: Simple OSC Send and Receive
 
