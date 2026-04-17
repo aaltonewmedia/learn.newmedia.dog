@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-16T14:13:17.916Z",
+  "exportDate": "2026-04-17T14:39:31.400Z",
   "courses": [
     {
       "id": "nm_axm_e0001",
@@ -13,7 +13,7 @@
       "period": 2,
       "span": 1,
       "y": 12,
-      "color": "#FFB703",
+      "color": "#F6BD60",
       "category": "compulsory"
     },
     {
@@ -27,7 +27,7 @@
       "period": 4,
       "span": 2,
       "y": 12,
-      "color": "#FFB703",
+      "color": "#F5A623",
       "category": "compulsory"
     },
     {
@@ -41,7 +41,7 @@
       "period": 1,
       "span": 3,
       "y": 1116,
-      "color": "#FFB703",
+      "color": "#E8A838",
       "category": "compulsory"
     },
     {
@@ -55,7 +55,7 @@
       "period": 3,
       "span": 1,
       "y": 12,
-      "color": "#FFB703",
+      "color": "#F0C75E",
       "category": "compulsory"
     },
     {
@@ -69,7 +69,7 @@
       "period": 1,
       "span": 1,
       "y": 1016,
-      "color": "#E9C46A",
+      "color": "#7EB8E0",
       "category": "elective",
       "flexible": true
     },
@@ -84,7 +84,7 @@
       "period": 2,
       "span": 1,
       "y": 1016,
-      "color": "#FFB703",
+      "color": "#6AA9D4",
       "category": "elective"
     },
     {
@@ -98,7 +98,7 @@
       "period": 3,
       "span": 1,
       "y": 1012,
-      "color": "#E9C46A",
+      "color": "#85C1E8",
       "category": "elective",
       "flexible": true
     },
@@ -113,7 +113,7 @@
       "period": 4,
       "span": 1,
       "y": 1008,
-      "color": "#E9C46A",
+      "color": "#5D9DC8",
       "category": "elective",
       "flexible": true
     },
@@ -128,7 +128,7 @@
       "period": 1,
       "span": 1,
       "y": null,
-      "color": "#95D5B2",
+      "color": "#C5A3FF",
       "category": "optional",
       "selectionGroup": "optional-9",
       "flexible": true
@@ -144,7 +144,7 @@
       "period": 4,
       "span": 2,
       "y": 932,
-      "color": "#95D5B2",
+      "color": "#B48EF0",
       "category": "optional",
       "selectionGroup": "optional-9"
     },
@@ -158,8 +158,8 @@
       "placed": true,
       "period": 2,
       "span": 1,
-      "y": 428,
-      "color": "#8ECAE6",
+      "y": 412,
+      "color": "#7ED4AD",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -174,7 +174,7 @@
       "period": 3,
       "span": 2,
       "y": 860,
-      "color": "#8ECAE6",
+      "color": "#5EC4A0",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -192,7 +192,7 @@
       "period": 1,
       "span": 2,
       "y": 244,
-      "color": "#FB8500",
+      "color": "#D4951F",
       "category": "compulsory"
     },
     {
@@ -206,7 +206,7 @@
       "period": 1,
       "span": 1,
       "y": 8,
-      "color": "#FB8500",
+      "color": "#E9B44C",
       "category": "compulsory"
     },
     {
@@ -220,7 +220,7 @@
       "period": 1,
       "span": 1,
       "y": 144,
-      "color": "#FB8500",
+      "color": "#F2C94C",
       "category": "compulsory"
     },
     {
@@ -234,7 +234,7 @@
       "period": 2,
       "span": 1,
       "y": 536,
-      "color": "#8ECAE6",
+      "color": "#6DD8B0",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -249,7 +249,7 @@
       "period": 3,
       "span": 1,
       "y": 304,
-      "color": "#8ECAE6",
+      "color": "#8BDEB8",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -264,7 +264,7 @@
       "period": 3,
       "span": 2,
       "y": 536,
-      "color": "#8ECAE6",
+      "color": "#58C98F",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -279,7 +279,7 @@
       "period": 3,
       "span": 2,
       "y": 616,
-      "color": "#8ECAE6",
+      "color": "#73E2B4",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -294,7 +294,7 @@
       "period": 3,
       "span": 2,
       "y": 700,
-      "color": "#8ECAE6",
+      "color": "#67CCA3",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -309,7 +309,7 @@
       "period": 3,
       "span": 1,
       "y": 440,
-      "color": "#8ECAE6",
+      "color": "#82E0B5",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -324,7 +324,7 @@
       "period": 4,
       "span": 1,
       "y": 428,
-      "color": "#8ECAE6",
+      "color": "#5BBF96",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -339,7 +339,7 @@
       "period": 5,
       "span": 1,
       "y": 416,
-      "color": "#95D5B2",
+      "color": "#D1B4FF",
       "category": "optional",
       "selectionGroup": "optional-9"
     },
@@ -354,7 +354,7 @@
       "period": 3,
       "span": 2,
       "y": 776,
-      "color": "#8ECAE6",
+      "color": "#7ED4AD",
       "category": "optional",
       "selectionGroup": "optional-18"
     },
@@ -369,7 +369,7 @@
       "period": 1,
       "span": 5,
       "y": 1196,
-      "color": "#C77DFF",
+      "color": "#F6BD60",
       "category": "compulsory"
     },
     {
@@ -383,7 +383,7 @@
       "period": 1,
       "span": 1,
       "y": null,
-      "color": "#95D5B2",
+      "color": "#A78BDB",
       "category": "optional",
       "selectionGroup": "optional-9",
       "flexible": true
@@ -588,6 +588,3398 @@
         "teacher": "Matti Niinimäki, Markku Reunanen",
         "duration": 1,
         "startHour": 9
+      }
+    ],
+    "1-evaluation-0-9": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-evaluation-0-10": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-evaluation-0-11": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-evaluation-0-13": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-evaluation-0-14": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-evaluation-0-15": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-evaluation-0-16": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "1-evaluation-2-16": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "1-evaluation-1-15": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-evaluation-1-16": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "1-evaluation-1-13": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-evaluation-1-14": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-evaluation-1-11": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-evaluation-1-10": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-evaluation-1-9": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-evaluation-2-9": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-evaluation-2-10": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-evaluation-2-11": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-evaluation-2-13": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-evaluation-2-14": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-evaluation-2-15": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-evaluation-3-15": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-evaluation-3-16": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "1-evaluation-3-14": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-evaluation-3-13": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-evaluation-3-9": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-evaluation-3-10": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-evaluation-3-11": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-evaluation-4-9": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-evaluation-4-10": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-evaluation-4-11": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "1-evaluation-4-13": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-evaluation-4-14": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-evaluation-4-15": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-evaluation-4-16": [
+      {
+        "courseId": "el_axm_e0101",
+        "name": "Workshop Period I",
+        "code": "AXM-E0101",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-evaluation-0-9": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-evaluation-0-10": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-evaluation-0-11": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-evaluation-0-13": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-evaluation-0-14": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-evaluation-0-15": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-evaluation-0-16": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-evaluation-1-16": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-evaluation-1-15": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-evaluation-1-13": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-evaluation-1-11": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-evaluation-1-10": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-evaluation-1-9": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-evaluation-2-9": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-evaluation-2-10": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-evaluation-4-9": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-evaluation-3-9": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-evaluation-3-10": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-evaluation-4-10": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-evaluation-4-11": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-evaluation-3-11": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-evaluation-2-11": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-evaluation-2-13": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-evaluation-3-13": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-evaluation-4-13": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-evaluation-4-14": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-evaluation-3-14": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-evaluation-1-14": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-evaluation-2-14": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-evaluation-2-15": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-evaluation-3-15": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-evaluation-4-15": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-evaluation-4-16": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-evaluation-3-16": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-evaluation-2-16": [
+      {
+        "courseId": "course_RS3X5jHo9L",
+        "name": "Workshop Period II",
+        "code": "AXM-E0102",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-teaching-1-9": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-teaching-1-10": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-teaching-1-11": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-teaching-1-13": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-teaching-1-14": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-teaching-1-15": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-teaching-1-16": [
+      {
+        "courseId": "nm_axm_e3004",
+        "name": "The 21st Century Art & Science Lab",
+        "code": "AXM-E3004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-teaching-3-13": [
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-teaching-3-14": [
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-teaching-3-15": [
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-teaching-3-16": [
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-teaching-0-15": [
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-teaching-0-16": [
+      {
+        "courseId": "nm_axm_e7004",
+        "name": "Physical Computing",
+        "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-teaching-3-9": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-teaching-3-10": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-teaching-4-9": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-teaching-4-10": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-teaching-4-11": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-teaching-3-11": [
+      {
+        "courseId": "d80c0c8a-ac56-4b0b-8653-495e6c4940f3",
+        "name": "Computational Art and Design",
+        "code": "AXM-E7001",
+        "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-2-16": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-2-17": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 17
+      }
+    ],
+    "3-teaching-2-18": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 18
+      }
+    ],
+    "3-teaching-3-9": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e5014",
+        "name": "Game Tools and Technology",
+        "code": "AXM-E5014",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-teaching-3-10": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e5014",
+        "name": "Game Tools and Technology",
+        "code": "AXM-E5014",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-teaching-3-11": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e5014",
+        "name": "Game Tools and Technology",
+        "code": "AXM-E5014",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-3-13": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-teaching-3-14": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-teaching-3-15": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-teaching-3-16": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-1-9": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-teaching-1-10": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-teaching-1-11": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-2-9": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-teaching-2-10": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-teaching-2-11": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-4-9": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-teaching-4-10": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-teaching-4-11": [
+      {
+        "courseId": "nm_axm_e7005",
+        "name": "Internet Technologies and Web Development",
+        "code": "AXM-E7005",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-1-16": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-1-15": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-teaching-1-13": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-teaching-1-14": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-teaching-2-13": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-teaching-2-14": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-teaching-1-13": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-teaching-1-14": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-teaching-1-15": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-teaching-1-16": [
+      {
+        "courseId": "nm_axm_e7006",
+        "name": "Systems of Representation: Culture Lab",
+        "code": "AXM-E7006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-teaching-4-13": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-teaching-4-14": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-teaching-4-15": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-teaching-4-16": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-4-13": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-teaching-4-14": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-teaching-4-15": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-teaching-4-16": [
+      {
+        "courseId": "nm_axm_e7007",
+        "name": "Generative and Interactive Narratives",
+        "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-0-15": [
+      {
+        "courseId": "nm_axm_e7012",
+        "name": "Critical AI Studies: Beyond the Black Box",
+        "code": "AXM-E7012",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-teaching-0-16": [
+      {
+        "courseId": "nm_axm_e7012",
+        "name": "Critical AI Studies: Beyond the Black Box",
+        "code": "AXM-E7012",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-teaching-0-15": [
+      {
+        "courseId": "nm_axm_e7012",
+        "name": "Critical AI Studies: Beyond the Black Box",
+        "code": "AXM-E7012",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-teaching-0-16": [
+      {
+        "courseId": "nm_axm_e7012",
+        "name": "Critical AI Studies: Beyond the Black Box",
+        "code": "AXM-E7012",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-0-9": [
+      {
+        "courseId": "nm_axm_e0006",
+        "name": "Doing Research in Art & Media",
+        "code": "AXM-E0006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-teaching-0-10": [
+      {
+        "courseId": "nm_axm_e0006",
+        "name": "Doing Research in Art & Media",
+        "code": "AXM-E0006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-teaching-0-11": [
+      {
+        "courseId": "nm_axm_e0006",
+        "name": "Doing Research in Art & Media",
+        "code": "AXM-E0006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-0-13": [
+      {
+        "courseId": "nm_axm_e0006",
+        "name": "Doing Research in Art & Media",
+        "code": "AXM-E0006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-teaching-0-14": [
+      {
+        "courseId": "nm_axm_e0006",
+        "name": "Doing Research in Art & Media",
+        "code": "AXM-E0006",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-evaluation-0-9": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-evaluation-0-10": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-evaluation-0-11": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-evaluation-0-13": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-evaluation-0-14": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-evaluation-0-15": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-evaluation-0-16": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-evaluation-1-16": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-evaluation-2-16": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-evaluation-3-16": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-evaluation-4-16": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-evaluation-4-15": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-evaluation-1-15": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-evaluation-2-15": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-evaluation-3-15": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "3-evaluation-4-14": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-evaluation-2-14": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-evaluation-1-14": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-evaluation-1-13": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-evaluation-2-13": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-evaluation-3-13": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-evaluation-3-14": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "3-evaluation-4-13": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "3-evaluation-1-9": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-evaluation-1-10": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-evaluation-1-11": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-evaluation-2-9": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-evaluation-2-11": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-evaluation-2-10": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-evaluation-3-9": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-evaluation-3-10": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-evaluation-3-11": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-evaluation-4-9": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "3-evaluation-4-11": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-evaluation-4-10": [
+      {
+        "courseId": "el_axm_e0103",
+        "name": "Workshop Period III",
+        "code": "AXM-E0103",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "3-evaluation-2-17": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 17
+      }
+    ],
+    "3-evaluation-2-18": [
+      {
+        "courseId": "nm_axm_e7009",
+        "name": "Digital Fabrication I",
+        "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 18
+      }
+    ],
+    "4-teaching-3-9": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e5014",
+        "name": "Game Tools and Technology",
+        "code": "AXM-E5014",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-teaching-3-10": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e5014",
+        "name": "Game Tools and Technology",
+        "code": "AXM-E5014",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-teaching-3-11": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e5014",
+        "name": "Game Tools and Technology",
+        "code": "AXM-E5014",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-teaching-3-13": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-teaching-3-14": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-teaching-3-15": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-teaching-3-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-teaching-2-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-teaching-2-17": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 17
+      }
+    ],
+    "4-teaching-2-18": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 18
+      }
+    ],
+    "4-evaluation-0-9": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-evaluation-0-10": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-evaluation-0-11": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-evaluation-0-13": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-evaluation-0-14": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-evaluation-0-15": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-evaluation-0-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-evaluation-1-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-evaluation-2-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-evaluation-3-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-evaluation-4-16": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "4-evaluation-4-15": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-evaluation-3-15": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-evaluation-2-15": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-evaluation-1-15": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "4-evaluation-1-14": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-evaluation-2-14": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-evaluation-3-14": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-evaluation-4-14": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "4-evaluation-4-13": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-evaluation-3-13": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-evaluation-2-13": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-evaluation-1-13": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-evaluation-1-10": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-evaluation-2-10": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-evaluation-2-9": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-evaluation-1-9": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-evaluation-1-11": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-evaluation-2-11": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-evaluation-3-11": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-evaluation-4-11": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-evaluation-4-9": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-evaluation-4-10": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-evaluation-3-10": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-evaluation-3-9": [
+      {
+        "courseId": "nm_axm_e7010",
+        "name": "Digital Fabrication II",
+        "code": "AXM-E7010",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-teaching-3-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-teaching-3-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-teaching-3-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-teaching-3-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-teaching-3-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-teaching-3-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-teaching-3-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-teaching-4-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-teaching-4-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-teaching-4-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-teaching-4-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-teaching-4-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-teaching-4-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-teaching-4-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-teaching-2-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-teaching-2-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-teaching-2-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-teaching-2-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-teaching-2-17": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 17
+      }
+    ],
+    "5-teaching-2-18": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 18
+      }
+    ],
+    "5-evaluation-3-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-evaluation-3-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-evaluation-3-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-evaluation-3-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-evaluation-3-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-evaluation-3-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-evaluation-3-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-evaluation-4-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-evaluation-4-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-evaluation-4-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-evaluation-4-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-evaluation-4-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-evaluation-4-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-evaluation-4-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-evaluation-2-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-evaluation-2-17": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 17
+      }
+    ],
+    "5-evaluation-2-18": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 18
+      }
+    ],
+    "5-evaluation-0-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-evaluation-0-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-evaluation-0-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-evaluation-0-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-evaluation-0-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-evaluation-0-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-evaluation-0-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-evaluation-1-16": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "5-evaluation-1-15": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "5-evaluation-1-14": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "5-evaluation-1-13": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "5-evaluation-1-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-evaluation-1-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-evaluation-1-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-evaluation-2-9": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-evaluation-2-10": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-evaluation-2-11": [
+      {
+        "courseId": "nm_axm_e7011",
+        "name": "Digital Fabrication Studio",
+        "code": "AXM-E7011",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-teaching-2-9": [
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-teaching-2-10": [
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-teaching-2-11": [
+      {
+        "courseId": "nm_axm_e0301",
+        "name": "Art + Media Studio",
+        "code": "AXM-E0301",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-teaching-1-9": [
+      {
+        "courseId": "nm_axm_e0003",
+        "name": "Art of Writing",
+        "code": "AXM-E0003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-teaching-1-10": [
+      {
+        "courseId": "nm_axm_e0003",
+        "name": "Art of Writing",
+        "code": "AXM-E0003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-teaching-1-11": [
+      {
+        "courseId": "nm_axm_e0003",
+        "name": "Art of Writing",
+        "code": "AXM-E0003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "5-teaching-1-9": [
+      {
+        "courseId": "nm_axm_e0003",
+        "name": "Art of Writing",
+        "code": "AXM-E0003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "5-teaching-1-10": [
+      {
+        "courseId": "nm_axm_e0003",
+        "name": "Art of Writing",
+        "code": "AXM-E0003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "5-teaching-1-11": [
+      {
+        "courseId": "nm_axm_e0003",
+        "name": "Art of Writing",
+        "code": "AXM-E0003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-teaching-2-9": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-teaching-2-10": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-teaching-2-11": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "4-teaching-4-9": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "4-teaching-4-10": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "4-teaching-4-11": [
+      {
+        "courseId": "nm_axm_e7008",
+        "name": "Embodied Interaction",
+        "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-teaching-2-13": [
+      {
+        "courseId": "nm_axm_e0001",
+        "name": "Thinking Practices in Art & Media",
+        "code": "AXM-E0001",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "2-teaching-2-14": [
+      {
+        "courseId": "nm_axm_e0001",
+        "name": "Thinking Practices in Art & Media",
+        "code": "AXM-E0001",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
       }
     ]
   }
