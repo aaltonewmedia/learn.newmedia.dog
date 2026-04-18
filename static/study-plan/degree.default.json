@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-17T14:39:31.400Z",
+  "exportDate": "2026-04-18T18:32:26.845Z",
   "courses": [
     {
       "id": "nm_axm_e0001",
@@ -97,7 +97,7 @@
       "placed": true,
       "period": 3,
       "span": 1,
-      "y": 1012,
+      "y": 1016,
       "color": "#85C1E8",
       "category": "elective",
       "flexible": true
@@ -112,7 +112,7 @@
       "placed": true,
       "period": 4,
       "span": 1,
-      "y": 1008,
+      "y": 1012,
       "color": "#5D9DC8",
       "category": "elective",
       "flexible": true
@@ -387,6 +387,34 @@
       "category": "optional",
       "selectionGroup": "optional-9",
       "flexible": true
+    },
+    {
+      "id": "course_FQJZ1pgr9V",
+      "name": "Smart Wearables",
+      "code": "ELEC-E7840",
+      "year": 1,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 3,
+      "span": 2,
+      "y": 1268,
+      "color": "#260cbf",
+      "category": "elective"
+    },
+    {
+      "id": "course_vtio9jRo0n",
+      "name": "Smart Wearables II",
+      "code": "ELEC-E7845",
+      "year": 2,
+      "teachers": [],
+      "ects": 6,
+      "placed": true,
+      "period": 1,
+      "span": 2,
+      "y": 1268,
+      "color": "#7c3aed",
+      "category": "elective"
     }
   ],
   "weeklySchedule": {
@@ -408,6 +436,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 10
+      },
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
       }
     ],
     "1-teaching-0-11": [
@@ -415,6 +451,14 @@
         "courseId": "nm_axm_e7003",
         "name": "Interaction Design",
         "code": "AXM-E7003",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
         "teacher": "",
         "duration": 1,
         "startHour": 11
@@ -498,6 +542,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 14
+      },
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
       }
     ],
     "1-teaching-3-15": [
@@ -505,6 +557,14 @@
         "courseId": "nm_axm_e7002",
         "name": "Introduction to Media Art and Culture",
         "code": "AXM-E7002",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
         "teacher": "",
         "duration": 1,
         "startHour": 15
@@ -1634,6 +1694,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 14
+      },
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
       }
     ],
     "2-teaching-3-15": [
@@ -1641,6 +1709,14 @@
         "courseId": "nm_axm_e7004",
         "name": "Physical Computing",
         "code": "AXM-E7004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      },
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
         "teacher": "",
         "duration": 1,
         "startHour": 15
@@ -1741,6 +1817,14 @@
         "courseId": "nm_axm_e7009",
         "name": "Digital Fabrication I",
         "code": "AXM-E7009",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
         "teacher": "",
         "duration": 1,
         "startHour": 16
@@ -1998,6 +2082,22 @@
         "teacher": "",
         "duration": 1,
         "startHour": 13
+      },
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
       }
     ],
     "3-teaching-2-14": [
@@ -2005,6 +2105,14 @@
         "courseId": "nm_axm_e7008",
         "name": "Embodied Interaction",
         "code": "AXM-E7008",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
         "teacher": "",
         "duration": 1,
         "startHour": 14
@@ -2058,6 +2166,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 13
+      },
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
       }
     ],
     "4-teaching-4-14": [
@@ -2095,6 +2211,14 @@
         "courseId": "nm_axm_e7007",
         "name": "Generative and Interactive Narratives",
         "code": "AXM-E7007",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      },
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
         "teacher": "",
         "duration": 1,
         "startHour": 13
@@ -3970,6 +4094,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 13
+      },
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
       }
     ],
     "2-teaching-2-14": [
@@ -3980,6 +4112,154 @@
         "teacher": "",
         "duration": 1,
         "startHour": 14
+      },
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "2-teaching-0-10": [
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-teaching-0-11": [
+      {
+        "courseId": "course_vtio9jRo0n",
+        "name": "Smart Wearables II",
+        "code": "ELEC-E7845",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "3-teaching-2-12": [
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 12
+      }
+    ],
+    "3-teaching-4-12": [
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 12
+      }
+    ],
+    "4-teaching-2-12": [
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 12
+      }
+    ],
+    "4-teaching-2-13": [
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "4-teaching-4-12": [
+      {
+        "courseId": "course_FQJZ1pgr9V",
+        "name": "Smart Wearables",
+        "code": "ELEC-E7840",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 12
+      }
+    ],
+    "1-teaching-2-13": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 13
+      }
+    ],
+    "1-teaching-2-14": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      }
+    ],
+    "1-teaching-2-15": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "1-teaching-2-16": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "2-teaching-2-15": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
+      }
+    ],
+    "2-teaching-2-16": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      }
+    ],
+    "3-teaching-2-15": [
+      {
+        "courseId": "nm_axm_e0004",
+        "name": "Art & Media Thesis Seminar",
+        "code": "AXM-E0004",
+        "teacher": "",
+        "duration": 1,
+        "startHour": 15
       }
     ]
   }
