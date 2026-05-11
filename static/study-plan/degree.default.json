@@ -1,7 +1,55 @@
 {
   "version": "1.0",
-  "exportDate": "2026-04-18T18:32:26.845Z",
+  "exportDate": "2026-05-11T12:13:10.065Z",
   "courses": [
+    {
+      "id": "course_YKcWLHg9ti",
+      "name": "Environmental Thinking",
+      "code": "ARTS-A0622",
+      "year": 2,
+      "teachers": [
+        "Sanna Lehtinen"
+      ],
+      "ects": 6,
+      "placed": true,
+      "period": 1,
+      "span": 1,
+      "y": 1344,
+      "color": "#61dce6",
+      "category": "elective"
+    },
+    {
+      "id": "course_rsayj3Lszt",
+      "name": "Technology, Tools and the Human Agency",
+      "code": "ARTS-A0633",
+      "year": 2,
+      "teachers": [
+        "Sanna Lehtinen"
+      ],
+      "ects": 6,
+      "placed": true,
+      "period": 2,
+      "span": 1,
+      "y": 1340,
+      "color": "#1fe7e1",
+      "category": "elective"
+    },
+    {
+      "id": "course_T0MHRr-jrx",
+      "name": "The Environment in Me – Practices and Spaces",
+      "code": "ARTS-A0635",
+      "year": 1,
+      "teachers": [
+        "Denise Ziegler"
+      ],
+      "ects": 6,
+      "placed": true,
+      "period": 1,
+      "span": 2,
+      "y": 1480,
+      "color": "#72e6d3",
+      "category": "elective"
+    },
     {
       "id": "nm_axm_e0001",
       "name": "Thinking Practices in Art & Media",
@@ -158,7 +206,7 @@
       "placed": true,
       "period": 2,
       "span": 1,
-      "y": 412,
+      "y": 440,
       "color": "#7ED4AD",
       "category": "optional",
       "selectionGroup": "optional-18"
@@ -205,7 +253,7 @@
       "placed": true,
       "period": 1,
       "span": 1,
-      "y": 8,
+      "y": 112,
       "color": "#E9B44C",
       "category": "compulsory"
     },
@@ -219,7 +267,7 @@
       "placed": true,
       "period": 1,
       "span": 1,
-      "y": 144,
+      "y": 8,
       "color": "#F2C94C",
       "category": "compulsory"
     },
@@ -233,7 +281,7 @@
       "placed": true,
       "period": 2,
       "span": 1,
-      "y": 536,
+      "y": 320,
       "color": "#6DD8B0",
       "category": "optional",
       "selectionGroup": "optional-18"
@@ -472,6 +520,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 11
+      },
+      {
+        "courseId": "course_YKcWLHg9ti",
+        "name": "Environmental Thinking",
+        "code": "ARTS-A0622",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 11
       }
     ],
     "1-teaching-1-10": [
@@ -482,6 +538,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 10
+      },
+      {
+        "courseId": "course_YKcWLHg9ti",
+        "name": "Environmental Thinking",
+        "code": "ARTS-A0622",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 10
       }
     ],
     "1-teaching-1-9": [
@@ -490,6 +554,14 @@
         "name": "Interaction Design",
         "code": "AXM-E7003",
         "teacher": "",
+        "duration": 1,
+        "startHour": 9
+      },
+      {
+        "courseId": "course_YKcWLHg9ti",
+        "name": "Environmental Thinking",
+        "code": "ARTS-A0622",
+        "teacher": "Sanna Lehtinen",
         "duration": 1,
         "startHour": 9
       }
@@ -598,6 +670,14 @@
         "teacher": "Matti Niinimäki, Markku Reunanen",
         "duration": 1,
         "startHour": 10
+      },
+      {
+        "courseId": "course_YKcWLHg9ti",
+        "name": "Environmental Thinking",
+        "code": "ARTS-A0622",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 10
       }
     ],
     "1-teaching-3-9": [
@@ -608,6 +688,14 @@
         "teacher": "Matti Niinimäki, Markku Reunanen",
         "duration": 1,
         "startHour": 9
+      },
+      {
+        "courseId": "course_YKcWLHg9ti",
+        "name": "Environmental Thinking",
+        "code": "ARTS-A0622",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 9
       }
     ],
     "1-teaching-3-11": [
@@ -616,6 +704,14 @@
         "name": "Computational Art and Design",
         "code": "AXM-E7001",
         "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "course_YKcWLHg9ti",
+        "name": "Environmental Thinking",
+        "code": "ARTS-A0622",
+        "teacher": "Sanna Lehtinen",
         "duration": 1,
         "startHour": 11
       }
@@ -1582,6 +1678,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 9
+      },
+      {
+        "courseId": "course_rsayj3Lszt",
+        "name": "Technology, Tools and the Human Agency",
+        "code": "ARTS-A0633",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 9
       }
     ],
     "2-teaching-1-10": [
@@ -1592,6 +1696,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 10
+      },
+      {
+        "courseId": "course_rsayj3Lszt",
+        "name": "Technology, Tools and the Human Agency",
+        "code": "ARTS-A0633",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 10
       }
     ],
     "2-teaching-1-11": [
@@ -1600,6 +1712,14 @@
         "name": "The 21st Century Art & Science Lab",
         "code": "AXM-E3004",
         "teacher": "",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "course_rsayj3Lszt",
+        "name": "Technology, Tools and the Human Agency",
+        "code": "ARTS-A0633",
+        "teacher": "Sanna Lehtinen",
         "duration": 1,
         "startHour": 11
       }
@@ -1760,6 +1880,14 @@
         "teacher": "Matti Niinimäki, Markku Reunanen",
         "duration": 1,
         "startHour": 9
+      },
+      {
+        "courseId": "course_rsayj3Lszt",
+        "name": "Technology, Tools and the Human Agency",
+        "code": "ARTS-A0633",
+        "teacher": "Sanna Lehtinen",
+        "duration": 1,
+        "startHour": 9
       }
     ],
     "2-teaching-3-10": [
@@ -1768,6 +1896,14 @@
         "name": "Computational Art and Design",
         "code": "AXM-E7001",
         "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 10
+      },
+      {
+        "courseId": "course_rsayj3Lszt",
+        "name": "Technology, Tools and the Human Agency",
+        "code": "ARTS-A0633",
+        "teacher": "Sanna Lehtinen",
         "duration": 1,
         "startHour": 10
       }
@@ -1808,6 +1944,14 @@
         "name": "Computational Art and Design",
         "code": "AXM-E7001",
         "teacher": "Matti Niinimäki, Markku Reunanen",
+        "duration": 1,
+        "startHour": 11
+      },
+      {
+        "courseId": "course_rsayj3Lszt",
+        "name": "Technology, Tools and the Human Agency",
+        "code": "ARTS-A0633",
+        "teacher": "Sanna Lehtinen",
         "duration": 1,
         "startHour": 11
       }
@@ -4102,6 +4246,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 13
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 13
       }
     ],
     "2-teaching-2-14": [
@@ -4118,6 +4270,14 @@
         "name": "Art & Media Thesis Seminar",
         "code": "AXM-E0004",
         "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
         "duration": 1,
         "startHour": 14
       }
@@ -4200,6 +4360,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 13
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 13
       }
     ],
     "1-teaching-2-14": [
@@ -4208,6 +4376,14 @@
         "name": "Art & Media Thesis Seminar",
         "code": "AXM-E0004",
         "teacher": "",
+        "duration": 1,
+        "startHour": 14
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
         "duration": 1,
         "startHour": 14
       }
@@ -4220,6 +4396,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 15
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 15
       }
     ],
     "1-teaching-2-16": [
@@ -4228,6 +4412,14 @@
         "name": "Art & Media Thesis Seminar",
         "code": "AXM-E0004",
         "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
         "duration": 1,
         "startHour": 16
       }
@@ -4240,6 +4432,14 @@
         "teacher": "",
         "duration": 1,
         "startHour": 15
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 15
       }
     ],
     "2-teaching-2-16": [
@@ -4248,6 +4448,14 @@
         "name": "Art & Media Thesis Seminar",
         "code": "AXM-E0004",
         "teacher": "",
+        "duration": 1,
+        "startHour": 16
+      },
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
         "duration": 1,
         "startHour": 16
       }
@@ -4260,6 +4468,66 @@
         "teacher": "",
         "duration": 1,
         "startHour": 15
+      }
+    ],
+    "1-teaching-2-9": [
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "1-teaching-2-10": [
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "1-teaching-2-11": [
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 11
+      }
+    ],
+    "2-teaching-2-9": [
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 9
+      }
+    ],
+    "2-teaching-2-10": [
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 10
+      }
+    ],
+    "2-teaching-2-11": [
+      {
+        "courseId": "course_T0MHRr-jrx",
+        "name": "The Environment in Me – Practices and Spaces",
+        "code": "ARTS-A0635",
+        "teacher": "Denise Ziegler",
+        "duration": 1,
+        "startHour": 11
       }
     ]
   }
