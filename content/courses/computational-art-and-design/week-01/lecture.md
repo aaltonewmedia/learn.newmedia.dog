@@ -7,9 +7,9 @@ draft: false
 ---
 
 {{<hint info>}}
-- September 1, 2024
+- August 31, 2026
 - 15:15–17:00
-- Room Q101
+- Room F001
 {{</hint>}}
 
 ## Introduction

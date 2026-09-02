@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{<hint info>}}
-- September 5, 2025  
+- September 4, 2026  
 - 9:15–12:00  
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -306,4 +306,4 @@ Use the random() function and the 2D shapes to draw some interesting patterns. T
 
 For extra challenge, also include some simple interaction with ```mouseX``` and ```mouseY```.
 
-[Upload it to our Open Processing class page.](https://openprocessing.org/class/101465#/)
+[Upload it to our Open Processing class page.](https://openprocessing.org/class/107413#/)

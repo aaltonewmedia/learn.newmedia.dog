@@ -7,7 +7,7 @@ draft: false
 ---
 
 {{<hint info>}}
-- September 4, 2025
+- September 3, 2026
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -40,8 +40,8 @@ This track of the course is aimed for beginners. The course also has another tra
 
 ## Important resources
 
-- [MyCourses page (2025)](https://mycourses.aalto.fi/course/view.php?id=48452)
-- [Our OpenProcessing class](https://openprocessing.org/class/101465#/). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
+- [MyCourses page (2026)](https://mycourses.aalto.fi/course/view.php?id=52400)
+- [Our OpenProcessing class](https://openprocessing.org/class/107413#/). Go to MyCourses to find the link to join our class. It's under the Beginner Group section. Or write down the code that Matti shows during the first class.
 - [p5js Home](https://p5js.org/)
 - [p5js Editor](https://editor.p5js.org/)
 - [p5js Reference](https://p5js.org/reference/)
@@ -67,7 +67,6 @@ Whenever you work with your own code, I recommend that you write it using [the o
 
 - [p5.js Editor](https://editor.p5js.org/) (We start with this one and move on to the other ways later).
 - [Open Processing](https://openprocessing.org/class/101465#/) (We will also use this today).
-- [CodePen](https://codepen.io/) (Another way to share code. I will show this one later.)
 - [How to setup Visual Studio Code for p5.j5](https://www.youtube.com/watch?v=yJw0SyKO9IU) (This will be the preffered way to work after you get the hang of how things work. I will explain how to do this later.)
 - You can even use the [Processing IDE with the p5.js mode](https://processing.org/)
 
@@ -255,6 +254,4 @@ Limit yourself only to the following functions:
 - [Shape](https://p5js.org/reference/#group-Shape) --> Attributes --> strokeWeight()
 - [Color](https://p5js.org/reference/#group-Color) --> Setting --> [background()](https://p5js.org/reference/p5/background/), [fill()](https://p5js.org/reference/p5/fill/), [noFill()](https://p5js.org/reference/p5/noFill/), [stroke()](https://p5js.org/reference/p5/stroke/), [noStroke()](https://p5js.org/reference/p5/noStroke/)
 
-[Add your sketch to our Open Processing page.](https://openprocessing.org/class/101465#/)
-
-
+[Add your sketch to our Open Processing page.](https://openprocessing.org/class/107413#/)
