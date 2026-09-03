@@ -64,4 +64,4 @@ AI tools are also incredibly capable in helping you out to figure out problems i
 
 For this group, the only authorized AI tool to use is the Aalto AI Assistant (ai.aalto.fi). If you choose to use it, you are required to always use the following system prompt whenever you are using it for help in this class.
 
-[Open the prompt here.](./files/aalto-ai-assistant-prompt.md)
+[Open the prompt here.](./files/aalto-ai-assistant-prompt.txt)
