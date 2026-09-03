@@ -61,3 +61,7 @@ After you have exhausted all other options (or sometimes earlier), you can come 
 ## LLMs (ChatGPT etc.)
 
 AI tools are also incredibly capable in helping you out to figure out problems in your code. Note that sometimes they make up things, invent libraries or functions that don't exist, or generally just get things wrong. Do not trust them blindly, and most importantly ask more questions when you don't understand something. **Do not use LLMs to write ready code for you, use them to understand why things are done in a certain way.**
+
+For this group, the only authorized AI tool to use is the Aalto AI Assistant (ai.aalto.fi). If you choose to use it, you are required to always use the following system prompt whenever you are using it for help in this class.
+
+[Open the prompt here.](./files/aalto-ai-assistant-prompt.md)
