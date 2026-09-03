@@ -34,11 +34,13 @@ You can combine the final project of this course to the one you are working on i
 
 ## Deliverables
 
-### Project Proposal
+### Project Proposal (October 29)
 
-**Deadline: Friday November 7, before the class starts**
+**Deadline: Thursday October 29, end of the day**
 
-Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1413573). It should include the following:
+Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1549007). 
+
+It should include the following:
 - A short description of your idea. What do you want to do? Why?
 - How are you going to do it? Do you think you need some special software libraries? Are there some things that you do not have any idea how to even get started with? Are you using p5.js or something else?
 - Open questions that you have about the project or the implementation.
@@ -51,54 +53,46 @@ Note that your project can and probaly will change as you work on it. This is to
 **Ideally, this should be something where Matti could directly add some comments.**
 {{</hint>}}
 
-**Present your idea in class on Friday, November 7.**
+---
+
+### Final Project Presentations (November 26-27)
+
+We are a large group so we will probably need two days for presentations:
+- Thursday, November 26
+- Friday, November 27 (the Independent Study group also present this day)
+
+We start on Thursday, November 26 at 9:15 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
 
 ---
 
-### Final Project Presentation (Friday, November 28)
+### Final Project Documentation (December 11)
 
-You should present your project in class on Friday, November 29. We start presentations at 9:15 AM. This might still be work-in-progress if you are combining this with Physical Computing. This is ok. Just present whatever stage it is at on this day.
+You should send me documentation of the project in two parts:
 
----
+#### 1. Code and report
 
-### Final Project Documentation (Friday, December 12)
-
-You should send me documentation of the project via [MyCourses (link coming later)](https://learn.newmedia.dog/courses/computational-art-and-design/final-project/).
+[Submit to MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1549008)
 
 - a .pdf file that shortly explains your project (500–1000 words)
   - If your project is combined with Physical Computing, it's also ok to just submit link to your final project page.
 - .zip archive of all of the files and code of your project
 - at least one image of the project as a separate file (.png or .jpg)
-- a short video capture of the project (can be screen capture or shot with a camera if there is some physical component). 
 - *optional: a url to a website if you have published the work or some type of write-up about it.*
 
 Also include the answer to the following questions:
 1. Can I add the video of your projet to our [class showcase](../showcase/)?
-2. Can I upload the video file to the Media Lab Vimeo channel (the video will be much better quality this way)
-3. Can I publish your name on the site?
-4. Would you like me to add a link to your portfolio website, social media account etc. next to the video?
+2. Can I publish your name on the site?
+3. Would you like me to add a link to your portfolio website, social media account etc. next to the video?
+
+#### 2. Video file separately
+
+[Submit to MyCourses](https://mycourses.aalto.fi/mod/panoptosubmission/view.php?id=1549009)
+
+- a short video capture of the project (can be screen capture or shot with a camera if there is some physical component). 
+- Please upload in horizontal video format (1920x1080)
 
 ---
 
-## 2025: Winter Demo Day
+## 2026: Exhibition?
 
-{{<hint info>}}
-**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Friday, November 29**
-{{</hint>}}
-
-### Exhibition Dates
-
-{{<hint info>}}
-- Setting up: December 2–10
-- Media Lab Demo Day: Wednesday, December 10 (Demo Day)
-{{</hint>}}
-
-### Exhibition Spaces
-
-We have booked one space for Demo Day this year
-
-- Marsio Digital Studio
-
-### Fill in the requirements for your work
-
-If you want to show your work in the exhibition, we need to start gathering equipment for it. I will add a form here soon that you need to fill out. [Registration form coming soon]().
+If there is interest, we can exhibit our work as well. Details to be discussed during the class.
