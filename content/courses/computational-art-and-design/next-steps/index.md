@@ -16,11 +16,12 @@ weight: 899
 
 - [AXM-E7005 Internet Technologies and Web Development](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932211-20220801/brochure)
 - [MUO-E0104 Programming for Designers](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150932450-20220801/brochure)
+- [OpenCS online courses from Aalto](https://opencs.aalto.fi/en)
 - [CS-C3170 Web Software Development](https://sisu.aalto.fi/student/courseunit/otm-b315be41-994c-4441-8719-b8030dc49479/brochure)
 - [Full Stack Open](https://fullstackopen.com/en/) MOOC from University of Helsinki. You can complete the credits through open university and then get them transferred to Aalto.
   - Search for CS-E4675 in Sisu and MyCourses for instructions on how to do this in Aalto
 - [CS-E4770 Designing and Building Scalable Web Applications](https://sisu.aalto.fi/student/courseunit/aalto-CU-1150933377-20220801/brochure)
-- [FITech online courses from Aalto](https://fitech101.aalto.fi/)
+
 
 ### openFrameworks
 
