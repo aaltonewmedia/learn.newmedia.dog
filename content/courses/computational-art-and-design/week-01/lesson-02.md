@@ -125,7 +125,7 @@ These variables called [```mouseX```](https://p5js.org/reference/p5/mouseX) and 
 p5.js comes with a bunch of other **system variables**. We are not going to cover all of them today but there are two other variables that we should know today:
 
 - [```width```](https://p5js.org/reference/p5/width) – This system variable stores the width of the canvas that you set with ```createCanvas()```
-- [```height```]((https://p5js.org/reference/p5/height)) – This system variable stores the height of the canvas that you set with ```createCanvas()```
+- [```height```](https://p5js.org/reference/p5/height) – This system variable stores the height of the canvas that you set with ```createCanvas()```
 
 How to use these? For example, you can figure out the center of the canvas. If you change the size of the canvas, you don't have to update the rest of the code.
 
