@@ -6,16 +6,21 @@ p5js-widget: false
 ---
 
 {{<hint info>}}
-- September 11, 2025
+- September 10, 2025
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
 
 ## Inspiration
 
-{{<vimeo 232656895>}}
+https://www.youtube.com/watch?v=-BomvzRo6N4
+
+{{<youtube -BomvzRo6N4>}}
+{{<youtube CaF0t8QrQjE>}}
 
 - [Zach Liebermann](http://zach.li/)
+- [Future Sketches Research Group, MIT](https://www.media.mit.edu/groups/future-sketches/overview/)
+- [School for Poetic Computation](https://sfpc.study/)
 - [The Art of Computer Designing](https://archive.org/details/satoArtOfComputerDesigning)
 
 ## Debugging, solving problems
