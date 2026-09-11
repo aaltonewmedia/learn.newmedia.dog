@@ -6,7 +6,7 @@ p5js-widget: false
 ---
 
 {{<hint info>}}
-- September 12, 2025
+- September 11, 2026
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -360,9 +360,9 @@ Bouncing Ball:
 
 - something happens when the ball hits the wall (color changes)
 - try adding gravity and friction
-- try replacing the 2d shape with an image
+- try replacing the 2d shape with an image. Note that the new p5.js library changed how files should be loaded. [See this](https://www.youtube.com/watch?v=25omXt_OjD4)
 
 Drawing With Mouse:
 - Use keyboard to set different brush options (color, size etc.)
 
-Upload your sketch to our [Open Processing class](https://openprocessing.org/class/101465#/).
+Upload your sketch to our [Open Processing class](https://openprocessing.org/class/107413#/).
