@@ -5,6 +5,10 @@ weight: 20
 p5js-widget: true
 ---
 
+{{<hint warning>}}
+Please note that I have not yet updated this section for p5.js version 2.0. The file loading needs to be done in a very different way with the new version.
+{{</hint>}}
+
 {{<hint info>}}
 - September 25, 2025
 - 9:15–12:00
