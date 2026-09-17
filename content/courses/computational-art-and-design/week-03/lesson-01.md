@@ -6,13 +6,14 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- September 18, 2025
+- September 17, 2025
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
 
 ## Inspiration
 
+{{<youtube DAf7mrOults>}}
 {{<youtube WSDNXUggK_4>}}
 
 - [Yehwan Song](https://yhsong.com/) also check out her [Instagram](https://www.instagram.com/yehwan.yen.song/?hl=en)
