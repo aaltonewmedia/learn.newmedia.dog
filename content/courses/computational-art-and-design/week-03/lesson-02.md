@@ -6,9 +6,9 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-September 18, 2025  
-9:15–12:00  
-Room 2420 (Marsio)
+- September 18, 2026
+- 9:15–12:00
+- Room 2420 (Marsio)
 {{</hint>}}
 
 ## Inspiration
@@ -309,7 +309,7 @@ function draw() {
 
 ## Homework
 
-Practice using the for loop and arrays. You are free to experiment with any of the things we have learned so far but combine it with the for loop. Or make adjustments to the examples we created in class.
+Practice using the for loop and arrays. You are free to experiment with any of the things we have learned so far but combine it with the for loop. Or make adjustments to the examples we created in class. [Post your code on our OpenProcessing page](https://openprocessing.org/class/107413#/).
 
 {{<hint info>}}
 If you don't have any ideas on what do do, you can try to do one of the following:
