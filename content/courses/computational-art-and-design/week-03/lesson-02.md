@@ -315,5 +315,6 @@ Practice using the for loop and arrays. You are free to experiment with any of t
 If you don't have any ideas on what do do, you can try to do one of the following:
 1. Use the for loop to draw a grid of shapes that each should have a unique random attribute color, size, strokeWeight etc.
 2. Do the bouncing ball example, but with 1000 shapes that change their color individually when they hit the wall.
+3. Try to recreate some work by Vera Molnar
  
 {{</hint>}}
