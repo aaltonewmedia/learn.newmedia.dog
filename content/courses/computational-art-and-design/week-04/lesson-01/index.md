@@ -5,21 +5,28 @@ weight: 20
 p5js-widget: true
 ---
 
-{{<hint warning>}}
-Please note that I have not yet updated this section for p5.js version 2.0. The file loading needs to be done in a very different way with the new version.
-{{</hint>}}
-
 {{<hint info>}}
-- September 25, 2025
+- September 24, 2026
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
 
 ## Inspiration
 
-{{<youtube d8Op4cTZChs>}}
+{{<youtube HerCR8bw_GE>}}
+{{<youtube ofdJNNSrkjM>}}
+{{<youtube 8KZoM6PvKDY>}}
+{{<youtube X4XMhpRFKvU>}}
 
-[Kimchi & Chips](https://www.kimchiandchips.com/)
+- [Dan Shiffman](https://thecodingtrain.com/)
+  - [Website](https://thecodingtrain.com/)
+  - [YouTube Tutorials](https://www.youtube.com/thecodingtrain)
+  - [Nature of Code](https://natureofcode.com/)
+
+- Patt Vira
+  - [Website](https://www.pattvira.com/)
+  - [YouTube Tutorials](https://www.youtube.com/@pattvira)
+  - [Instagram](https://www.instagram.com/pattvira)
 
 ## External files
 
@@ -27,7 +34,7 @@ Take a look at this arrow icon on the p5js web editor. Click it!
 
 [![Files](../img/p5js_files.png)](../img/p5js_files.png)
 
-This reveals something very importatnt about working with p5.js. Our code is part of a website with some additional files.
+This reveals something very important about working with p5.js. Our code is part of a website with some additional files.
 
 - **_index.html_** The html file that provides the structure for the website. It uses the HTML markup language to describe how the page is structures.
 - **_sketch.js_** This is the file we have been working with so far. The actual JavaScript file that has all of our code.
@@ -48,53 +55,58 @@ We can add additional files here (images, videos, sound, text etc.) if we want t
 ## Working with images
 
 You can use your own images, or if you want to follow along with my examples, you can download the image below:
-[![Mushroom png](img/shroom.png)](/img/shroom.png)
+[![Mushroom png](img/snake.jpg)](/img/snake.jpg)
 
 I also made this png image with transparent background you can use (right click and save image as):
 
 [![Brush png](img/brush.png)](img/brush.png)
 
-- [loadImage()](https://p5js.org/reference/p5/loadImage)
+- [async_await](https://p5js.org/reference/p5/async_await/)
+- [loadImage()](https://p5js.org/reference/p5/loadImage/)
 - [image()](https://p5js.org/reference/p5/image)
 - [tint()](https://p5js.org/reference/p5/tint)
-- [preload()](https://p5js.org/reference/p5/preload)
 - [get()](https://p5js.org/reference/p5/get)
+
+
+### async and await
+
+{{<hint danger>}}
+The latest version of p5.js library does the loading of files in an updated version compered to the old library. Please see the video that explains the concept.
+{{</hint>}}
+
+{{<youtube 25omXt_OjD4>}}
+
 
 ```js
 let img;
 
-// Loading the image file is usually done with the preload() function.
-// This function makes sure that the file is loaded before it goes to setup() and draw()
-function preload() {
-  img = loadImage("shroom.png");
-}
+// Loading the image file is done using the loadImage() function. 
+// It should be used within an async function using the await kayword
 
-function setup() {
-  createCanvas(512, 512);
+async function setup() {
+  createCanvas(750, 1000);
+  img = await loadImage("snake.jpg");
 }
 
 function draw() {
   background(0, 20);
   tint(255);
-  image(img, 0, 0, width, height);
+  image(img, 0, 0);
   tint(255, 100);
   image(img, mouseX, mouseY, 256, 256);
 }
 ```
 
-<iframe src="https://openprocessing.org/sketch/2024435/embed/?plusEmbedHash=ZmI1YjZjNmYwM2EwYTkzYmYwYmQ5ODEwMTBiZWM5MzQyNjRkNmQxMDhmZWFhODQ1OWNmNTI0NGIzNzEyOGU2ZWIwOWM5NDk4N2NmYzY5MWM2YzVhMTg4MTk0MjExMzUzZGU5MWU5ZTYwYzdkNWVmY2QxMGYwZjEyNmE4OTljNzJkaERyTUFXRjk3RytxOGFsVjdrR25Oc2xBdHpDdjJwR3pITHk2S1dqSGpENjRONytSN3J2cGx6eGxBNTlHdUpFelkxU24yNEVEU25ncFNzU3lIRXRQZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+<iframe src="https://openprocessing.org/sketch/3017884/embed/?plusEmbedHash=dadb6d28&userID=7588&plusEmbedTitle=true&show=sketch" width="400" height="400"></iframe>
 
 ```js
 let brush;
 let img;
 
-function preload() {
-  img = loadImage("shroom.png");
-  brush = loadImage("brush.png");
-}
-
-function setup() {
-  createCanvas(512, 512);
+async function setup() {
+  createCanvas(750, 1000);
+  img = await loadImage("snake.jpg");
+  brush = await loadImage("brush.png");
   imageMode(CENTER);
 }
 
@@ -110,7 +122,7 @@ function draw() {
 }
 ```
 
-<iframe src="https://openprocessing.org/sketch/2024421/embed/?plusEmbedHash=MGE1MDZiZWVlZjdhNzEwNmZkOTc0M2YyM2U1MzJlZGJiMGE2NGJkMzYxMzE1NjgyM2NhYjU4YzQ0YmEwMTYyMmU3MmE2NjAxZjdmOTQ5NDUxYTViMjhmMDdkYWRiZTc0ZTczNjMyMWY3Zjc2MzhhY2FiNTMwZjUwZThkMTI2NTIxTWRyZG5NM0ZTcy92akNGMGlIVXRTU1lLUkhUMkZidE0vdXcwVDgwZU5iRFZCd01JbjZKS0xWa0dWUnEyNDNDUzlFK3pKYVpkRnovRy9tdmZjRy9pZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+<iframe src="https://openprocessing.org/sketch/3017885/embed/?plusEmbedHash=4e3b2661&userID=7588&plusEmbedTitle=true&show=sketch" width="400" height="400"></iframe>
 
 ### get()
 
@@ -122,12 +134,9 @@ This could be used for many purposes. For example, you could check the color of 
 let img;
 let c; // variable to store the color
 
-function preload() {
-  img = loadImage("shroom.png");
-}
-
-function setup() {
-  createCanvas(512, 512);
+async function setup() {
+  createCanvas(750, 1000);
+  img = await loadImage("snake.jpg");
   strokeWeight(3);
 }
 
@@ -140,11 +149,54 @@ function draw() {
 }
 ```
 
-<iframe src="https://openprocessing.org/sketch/2024558/embed/?plusEmbedHash=ZDM2MzMzNTgxMzhmNTZkZGQ1OWRkYWY0NDQ0ZThkNDcxMGQzMDAzYjQxMmEyZGM5M2NhYTVlYjc2YjY3ZTk5MjhhODZhNzc1MjM2ZWVhMDljZmZmZDA2ZjcwZTM4YjliNmQzZTNiZjhhMzQxYmFiYTA0YTM5YjVhYThhOWE1NjZZYlRkYzBWalBoZUdhU25hU1NqQ2luMnVLRTFSeWc2aEZVOUlLUkNzZkRLTUNjRW9uQ2NkSmVEVElLSWsxS2hBSm5ndS9EaUhFSWg3K3Q1N0Jxa0dSdz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+<iframe src="https://openprocessing.org/sketch/3017887/embed/?plusEmbedHash=d4457319&userID=7588&plusEmbedTitle=true&show=sketch" width="400" height="400"></iframe>
 
 Or you can do the same thing we did with the random walkers last week, but pick a color for each particle based on the image.
 
-<iframe src="https://openprocessing.org/sketch/2024568/embed/?plusEmbedHash=YTRiNjUwMzIzYjM3MzlmNGE3NzBjMjA3Y2VmMGVkMTNjZDAxZDk2MGNmMTUwY2VmYmE0MjY3MzI0YWIxZTBhMzFiYTU3ZmUzZGQ2MzgzYmQ2YmUxODRiZjc0Yjc0ODNiZTc4MDIxMDk4ODc5ODIzOTU3ZGQ0YWI3M2EwZTc5ZDhhb2UrOGwyTnM5TUhxQjVaU3pFZThWVUZQTnBGVHVXY1R3YW44Q2xubWVGODlWMVRBQVA1eWtULzljMjAreHJPSTZCa2RUOEhGaE01Ti93RlVWcER6dz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+```js
+/*
+This code does adds the same random walkers as we did last week,
+but each walker picks its color in the beginning based on an image.
+*/
+
+let img;
+
+let x = [];
+let y = [];
+let c = []; // variable to store the color
+let num = 8000;
+
+function preload(){
+  img = loadImage("snake.jpg");
+}
+
+function setup() {
+  createCanvas(750, 1000);
+  noStroke();
+	for(let i=0; i<num; i++){
+		x[i] = random(width);
+		y[i] = random(height);
+		// store the color from each randomly picked coordinate from the image
+		// note that we use img.get() not just the get() which would pick the color from the canvas
+		c[i] = img.get(x[i],y[i]);
+	}
+}
+
+function draw() {
+  //background(0);
+  //image(img,0,0,width,height);
+	for(let i=0; i<num; i++){
+  	fill(c[i]);
+  	circle(x[i],y[i],4);
+		x[i] = x[i] + random(-1,1);
+		y[i] = y[i] + random(-1,1);
+	}
+}
+```
+
+
+<iframe src="https://openprocessing.org/sketch/3017889/embed/?plusEmbedHash=f264e8ce&userID=7588&plusEmbedTitle=true&show=sketch" width="400" height="400"></iframe>
+
 
 ## Working with video
 
@@ -154,34 +206,35 @@ Working with video files is quite similar to working with images. The loading of
 
 - [createVideo](https://p5js.org/reference/p5/createVideo)
 
-Ypu can dowload saome videos here if you don't have anything on your hard drive (right click --> save as):
-- [Shroom](img/shroom.mp4)
-- [AI Generated Runway Video](./img/gen3-runway.mp4)
+Ypu can dowload some videos here if you don't have anything on your hard drive (right click --> save as):
+
+- [video.mov](./img/video.mov)
+
+When loading videos, you need to do a slightly different approach to loading images. The way to play a video file is done using the createVideo() function, which creates an HTML video player. It does not need the async-await pattern, but you can use something called a **callback function.**
+
+In the code below, the function vidLoad() runs once the video finishes loading, you can use that to wait until the video is loaded before playing it.
 
 ```js
 let vid;
 
-function preload() {
-  vid = createVideo("shroom.mp4", vidLoad);
-}
-
 function setup() {
-  createCanvas(512, 512);
-  background(100);
+	createCanvas(640, 480);
+	vid =  createVideo("video.mov", vidLoad);
+	background(100);
 }
 
 function draw() {
-  image(vid, 0, 0, width, height);
+	image(vid, 0, 0, width, height);
 }
 
 // This function is called when the video loads
 function vidLoad() {
-  vid.loop();
-  vid.hide();
+	vid.loop();
+	vid.hide();
 }
 ```
 
-<iframe src="https://openprocessing.org/sketch/2024550/embed/?plusEmbedHash=MWY0ODg5ZTEzOTZhM2ZjOTMxNjQ3OWRiYmY2YmE1ZTU3YWI4NmRiYjNiYTlmZmZkM2E2YzVkYTY4MzhmYzAyM2ExN2JhZDRlYjYyYjZmYTEyYWQ5ZjAxM2Q1YmI1MmE5ZDA4NjZkNTIwN2E1ZTc0ODhkYzk0Y2M4OGMxN2FhNWVzOE8xZjdUMU9KV2R4cUZsb1l1UlRidUlUWC9mL2p5N0tuM01aRStmTnNlTGV6aWdUbEhWaUpaNEczMDFBNmc4blhmSDlGU2s1K2lRTWlJbE10Q3cxUT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
+<iframe src="https://openprocessing.org/sketch/3017892/embed/?plusEmbedHash=25040977&userID=7588&plusEmbedTitle=true&show=sketch" width="640" height="480"></iframe>
 
 ### Live video
 
@@ -254,3 +307,8 @@ function setup() {
   // canvas and other p5 functions HERE
 }
 ```
+
+## More Information
+
+- [JavaScript async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [JavaScript Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
