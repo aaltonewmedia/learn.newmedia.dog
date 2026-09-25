@@ -133,7 +133,7 @@ There seems to be something wrong with the sound library on some browsers. Use C
 
 ### Example: Play a SoundFile
 
-Loading a sound file is very similar to loading images. It's recommended to load the file using the preload function so that it gets loaded before you do anything else in your code.
+Loading a sound file is very similar to loading images. You need to use the same [async_await](https://p5js.org/reference/p5/async_await/) structure when loading the files.
 
 <iframe src="https://editor.p5js.org/mnstri/full/fhv6vN4z1" width="100%" height="450"></iframe>
 
