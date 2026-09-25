@@ -23,6 +23,11 @@ p5js-widget: true
   - [YouTube Channel](https://www.youtube.com/user/lucioarese)
   - [Instagram](https://www.instagram.com/lucioarese/)
 
+{{<youtube hCQCP-5g5bo>}}
+
+- [Benn Jordan](https://linktr.ee/BennJordan)
+  - [YouTube](https://www.youtube.com/@BennJordan)
+
 ## Images continued
 
 {{<hint info>}}
