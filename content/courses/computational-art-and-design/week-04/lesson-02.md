@@ -5,12 +5,8 @@ weight: 30
 p5js-widget: true
 ---
 
-{{<hint warning>}}
-Please note that I have not yet updated this section for p5.js version 2.0. The file loading needs to be done in a very different way with the new version.
-{{</hint>}}
-
 {{<hint info>}}
-- September 26, 2025
+- September 25, 2026
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -32,7 +28,6 @@ Please note that I have not yet updated this section for p5.js version 2.0. The 
 {{<hint info>}}
 Note that we did not manage to cover all of the topics yesterday about images and video, so we first start from [Thursday's page today](../lesson-01).
 {{</hint>}}
-
 
 ## New p5js functions that we are going to need today
 
@@ -140,12 +135,9 @@ Loading a sound file is very similar to loading images. It's recommended to load
 ```js
 let sample;
 
-function preload(){
-  sample = loadSound("data/foghorn.wav");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+  sample = await loadSound("data/foghorn.wav");
 }
 
 function draw() {
@@ -155,12 +147,6 @@ function mousePressed(){
   sample.play();
 }
 ```
-
-### Example done in class
-
-This is the code we made during the class. I just changed the soundfile to a different one and added some small adjustments.
-
-<iframe src="https://openprocessing.org/sketch/2025493/embed/?plusEmbedHash=MjlmYTJiNzE5MDMzY2U3MDdhNzFhNDBhZGZiMzA2MDMzZjQ4ZDM4ZjhiYjk0ZDkxM2U2YjY0N2NmNDkyYmM3ZmZjNmEwZDJhNjJjOTQ5NTA1YTc4NTA3MTZmZmEwYTgwNGY0Y2IyMGU3MjkxYmI5YWJjOTE3MTNiMjg1Zjc3Njg1QnI2YkFxeFdYMzhmK3EzZFRtR1NIQmhOVm5GMGplczBsZS82YTRtdFB2OGlRS1lyQWI0QUFKWGJ1bXU2VGpsekV1NGF0elZVZUE2TXZ2dHdsNkxUZz09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
 ### Example: Mic Input
 
@@ -238,7 +224,7 @@ NOTE! to make the sound library work in OpenProcessing, you should turn on the t
 
 You can keep this quite simple, I just want you to try and explore.
 
-[Add your sketch to our OpenProcessing class.](https://openprocessing.org/class/101465#/)
+[Add your sketch to our OpenProcessing class.](https://openprocessing.org/class/107413#/)
 
 {{<hint info>}}
 NOTE! to make the sound library work in OpenProcessing, you should turn on the toggle for the sound library in the settings.

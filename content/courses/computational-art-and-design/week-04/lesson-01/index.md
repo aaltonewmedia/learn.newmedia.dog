@@ -258,7 +258,7 @@ function setup() {
 
 function draw() {
   background(220);
-  image(capture, 0, 0, width, (width * capture.height) / capture.width);
+  image(capture, 0, 0, 640, 480);
 }
 ```
 
