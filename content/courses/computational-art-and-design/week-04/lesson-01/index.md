@@ -221,16 +221,22 @@ function setup() {
 	createCanvas(640, 480);
 	vid =  createVideo("video.mov", vidLoad);
 	background(100);
+	textAlign(CENTER,CENTER);
 }
 
 function draw() {
 	image(vid, 0, 0, width, height);
+	text("Press mouse button to play the video.",width/2,height/2);
 }
 
 // This function is called when the video loads
 function vidLoad() {
-	vid.loop();
 	vid.hide();
+}
+
+// press mouse to play the video
+function mousePressed(){
+	vid.loop();
 }
 ```
 
