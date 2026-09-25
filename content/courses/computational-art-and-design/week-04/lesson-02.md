@@ -109,7 +109,7 @@ function mousePressed(){
 
 ## p5js Sound Library
 
-[Sound library reference](https://archive.p5js.org/reference/#/libraries/p5.sound)
+[Sound library reference](https://p5js.org/reference/p5.sound/)
 
 The p5.js sound library allows you to:
 - load, play and manipulate sound files
@@ -118,7 +118,7 @@ The p5.js sound library allows you to:
 - get audio input from microphones and other input devices
 - analyze sound
 
-In the p5.js editor, the sound library is loaded by default so you can just start using it.
+In the p5.js editor, the sound library is loaded by default so you can just start using it. **In OpenProcessing, you need to make sure you enable the library in the sketch settings!**
 
 ## Examples
 
