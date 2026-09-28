@@ -2,7 +2,6 @@
 title: "09 | Working with Data"
 bookCollapseSection: true
 p5js-widget: true
-draft: false
 weight: 90
 ---
 

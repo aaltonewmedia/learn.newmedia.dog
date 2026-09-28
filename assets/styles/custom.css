@@ -1,18 +1,53 @@
+/* Aalto New Media overrides for Hugo Book 0.15+. */
+:root {
+  --color-link: #daa520;
+  --color-visited-link: #daa520;
+  --color-accent-note: #90ddca;
+  --color-accent-info: #90ddca;
+  --color-accent-warning: #daa520;
+  --color-accent-caution: #f66;
+  --color-accent-danger: #f66;
+}
+
+:root[data-theme="dark"] {
+  --gray-100: rgba(255, 255, 255, 0.1);
+  --gray-200: rgba(255, 255, 255, 0.2);
+  --gray-500: rgba(255, 255, 255, 0.5);
+  --body-background: #27262b;
+  --body-font-color: #f5efea;
+}
+
+/* Keep the typography previously bundled with Hugo Book. */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/roboto-v27-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/roboto-v27-latin-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/roboto-mono-v13-latin-regular.woff2') format('woff2');
+}
+
+body { font-family: 'Roboto', sans-serif; }
+code, pre { font-family: 'Roboto Mono', monospace; }
+
 /* You can add custom styles here. */
-
-// @import "plugins/numbered";
-// @import "plugins/scrollbars";
-
-// fonts
 
 @font-face {
   font-family: 'aalto-icons';
-  src: url('/fonts/aalto-icons.woff') format('woff');
-}
-
-/* base class */
-.icon {
-
+  src: url('fonts/aalto-icons.woff') format('woff');
 }
 
 /* icons */
@@ -32,51 +67,32 @@ body {
   scrollbar-color: var(--gray-100) var(--body-background);
 }
 
-.book-toc-content {
-  ul{
-    padding-inline-start: 0.5rem;
-  }
- 
-	li a {
-		transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
-	}
-
-	a.visible {
-		background: rgba($nm-accent, 0.2);
-    color: $nm_offwhite;
-		border-left: 0.25rem solid $nm-accent;
-    border-radius: 0.25rem;
-    padding: 0 0 0 0.25rem;
-	}
+.book-toc-content ul {
+  padding-inline-start: 0.5rem;
 }
 
 ::selection {
-  color: $nm_dark_gray;
-  background: $nm_offwhite;
+  color: #27262b;
+  background: #f5efea;
 }
-
-// fix firefox will-change warning
 .book-menu-content, .book-toc-content, .book-page, .book-header aside, .markdown{
   will-change: auto;
 }
 
-aside nav li a.active {
-  border-left: .25rem solid $nm_accent;
+/* Keep link geometry fixed across hover, active, and tracked-heading states.
+   An inset shadow draws the accent without adding a layout-changing border. */
+:is(.book-menu, .book-toc, .book-header aside) nav li a {
+  padding-inline-start: 0.5rem;
   border-radius: 0.25rem;
-  background: rgba($nm-accent, 0.2);
-  color: $nm_offwhite !important;
-  padding: 0 0 0 0.25rem;
-}
-aside nav li a{
-  transition: all 0.3s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+  box-shadow: inset 0.25rem 0 0 transparent;
+  transition: color 0.15s ease-out, background-color 0.15s ease-out,
+    box-shadow 0.15s ease-out;
 }
 
-aside nav li a:hover {
-  background: rgba($nm-accent, 0.2);
-  color: $nm_offwhite !important;
-  border-left: 0.25rem solid $nm-accent;
-  border-radius: 0.25rem;
-  padding: 0 0 0 0.25rem;
+:is(.book-menu, .book-toc, .book-header aside) nav li a:is(:hover, :focus-visible, .active, .visible) {
+  background-color: rgba(218, 165, 32, 0.2);
+  color: #f5efea;
+  box-shadow: inset 0.25rem 0 0 #daa520;
   opacity: 1;
 }
 
@@ -104,7 +120,7 @@ hr{
 }
 
 .book-menu .book-menu-content{
-  background-color: $nm_dark_gray;
+  background-color: #27262b;
   color: var(--gray-500);
 }
 
@@ -112,7 +128,10 @@ hr{
   color: var(--color-link);
 }
 .book-menu{
+  label > img:last-child { display: none; }
   input.toggle + label::after {
+    align-self: center;
+    cursor: pointer;
     font-family: 'aalto-icons';
     content: "\e924";
   }
@@ -123,10 +142,12 @@ hr{
 
 
 .book-toc{
-  border-left: 0.1rem solid rgba($nm_yellow, 0.2);
+  border-left: 0.1rem solid rgba(218, 165, 32, 0.2);
   border-radius: .5rem 0 0 .5rem;
-  background-color: $nm_dark_gray;
+  background-color: #27262b;
 }
+
+.nav-footer a { display: inline; }
 
 .nav-footer{
   padding-right: 1rem;
@@ -134,10 +155,10 @@ hr{
 }
 
 .book-page{
-  background-color: $nm_light_gray;
+  background-color: #2d2d2d;
   height: 100%;
   min-height: 100%;
-  border-left: 0.1rem solid rgba($nm_yellow, 0.2);
+  border-left: 0.1rem solid rgba(218, 165, 32, 0.2);
   border-radius: .5rem 0 0 .5rem;
 }
 
@@ -146,14 +167,13 @@ hr{
   border-collapse: collapse;
   width: calc(100% - 1rem) !important;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
-  --moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
   border-radius: 0.5rem;
   line-height: 1;
   overflow:visible;
   margin: 0 auto;
 }
 
-.markdown th, tr, td {
+.markdown th, .markdown tr, .markdown td {
   text-align: left;
   font-size: 12px !important;
   padding: 0.25rem;
@@ -163,10 +183,10 @@ hr{
 
 .markdown th {
   text-transform: uppercase;
-  background: $nm_yellow;
-  color: $nm_dark_gray;
+  background: #daa520;
+  color: #27262b;
   a, a:visited{
-    color: $nm_dark_gray;
+    color: #27262b;
   }
 }
 
@@ -176,7 +196,7 @@ hr{
 
 .markdown tr {
   width: 100% !important;
-  border-bottom: 0.1rem solid rgba($nm_offwhite, 0.2) !important;
+  border-bottom: 0.1rem solid rgba(245, 239, 234, 0.2) !important;
 }
 
 .markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
@@ -229,28 +249,6 @@ ul.breadcrumb li+li:before {
   font-family: 'aalto-icons';
   padding: 5px;
   content: "\e90a";
-  //content: "icon icon-chevron-right";
-  //content: "\e90a"
-  //content: "/\00a0";
 }
 
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-}
-
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-
-} 
-
-// {{< hint >}}
-.markdown {
-  .book-hint {
-    @each $name, $color in $hint-colors {
-      &.#{$name} {
-        border-color: $color;
-        background-color: rgba($color, 0.1);
-      }
-    }
-  }
-}
+ul.breadcrumb a { display: inline; }

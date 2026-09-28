@@ -2,7 +2,6 @@
 title: "12 | Project Work"
 bookCollapseSection: true
 p5js-widget: true
-draft: false
 weight: 120
 ---
 

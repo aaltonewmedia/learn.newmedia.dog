@@ -2,7 +2,6 @@
 title: "10 | Other Creative Coding Frameworks"
 bookCollapseSection: true
 p5js-widget: true
-draft: false
 weight: 100
 ---
 

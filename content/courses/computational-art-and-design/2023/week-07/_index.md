@@ -2,7 +2,6 @@
 title: "07 | No Class (workshop week)"
 bookCollapseSection: false
 p5js-widget: true
-draft: false
 weight: 70
 ---
 

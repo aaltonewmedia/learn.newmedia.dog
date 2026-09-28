@@ -2,7 +2,6 @@
 title: "01 | Introduction"
 bookCollapseSection: true
 p5js-widget: true
-draft: false
 weight: 10
 ---
 

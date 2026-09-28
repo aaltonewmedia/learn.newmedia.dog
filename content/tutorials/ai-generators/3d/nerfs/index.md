@@ -1,7 +1,6 @@
 ---
 title: NeRF
 bookCollapseSection: false
-draft: false
 ---
 
 # NeRFs

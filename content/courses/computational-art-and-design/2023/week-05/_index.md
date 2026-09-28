@@ -2,7 +2,6 @@
 title: "05 | 2D Transformations & Functions"
 bookCollapseSection: true
 p5js-widget: true
-draft: false
 weight: 50
 ---
 

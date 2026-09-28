@@ -1,35 +1,16 @@
 [build]
 publish = "public"
-command = "hugo"
+command = "hugo --minify"
 
-[context.production.environment]
-HUGO_VERSION = "0.104.1"
-HUGO_ENV = "production"
+# Shared by production, deploy previews, and branch deploys.
+[build.environment]
+HUGO_VERSION = "0.166.0"
+HUGO_ENVIRONMENT = "production"
 HUGO_ENABLEGITINFO = "true"
 
-[context.split1]
-command = "hugo --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "0.104.1"
-HUGO_ENV = "production"
-
+# Preview future-dated lessons without publishing drafts.
 [context.deploy-preview]
-command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.104.1"
+command = 'hugo --minify --buildFuture --baseURL "$DEPLOY_PRIME_URL"'
 
 [context.branch-deploy]
-command = "hugo -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.104.1"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
-
-[[redirects]]
-from = "/npmjs/*"
-to = "/npmjs/"
-status = 200
+command = 'hugo --minify --baseURL "$DEPLOY_PRIME_URL"'

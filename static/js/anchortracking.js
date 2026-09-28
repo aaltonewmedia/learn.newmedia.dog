@@ -1,6 +1,7 @@
-window.onload = function() {
+window.addEventListener("load", function() {
 
 	var toc = document.querySelector( '.book-toc-content' );
+	if (!toc) return;
 	var tocItems;
 
 	// Factor of screen size that the element must cross
@@ -20,7 +21,8 @@ window.onload = function() {
 		// Cache element references and measurements
 		tocItems = tocItems.map( function( item ) {
 			var anchor = item.querySelector( 'a' );
-			var target = document.getElementById( anchor.getAttribute( 'href' ).slice( 1 ) );
+			var href = anchor && anchor.getAttribute('href');
+			var target = href && href.startsWith('#') ? document.getElementById(decodeURIComponent(href.slice(1))) : null;
 
 			return {
 				listItem: item,
@@ -58,4 +60,4 @@ window.onload = function() {
 
 	}
 
-};
+});

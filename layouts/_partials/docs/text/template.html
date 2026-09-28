@@ -1,0 +1,7 @@
+{{/* Avoid serializing Page/Site objects: Hugo's Page JSON exposes deprecated fields.
+     This helper is used by the theme's commit and edit links. */}}
+{{- $key := dict "Template" .Template "Page" .Context.Page.Permalink "Path" .Context.Path "GitInfo" .Context.GitInfo -}}
+{{- $checksum := $key | jsonify | crypto.SHA1 | printf "book-%s" -}}
+{{- $template := resources.FromString $checksum .Template -}}
+{{- $template = $template | resources.ExecuteAsTemplate $checksum .Context -}}
+{{- return $template.Content -}}

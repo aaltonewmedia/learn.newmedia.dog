@@ -3,7 +3,6 @@ title: "MON | Lecture"
 bookCollapseSection: false
 weight: 10
 p5js-widget: true
-draft: false
 ---
 
 {{<hint info>}}

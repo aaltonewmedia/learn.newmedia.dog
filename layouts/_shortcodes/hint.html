@@ -1,0 +1,4 @@
+{{- /* Preserve Markdown rendering for the site's existing {{< hint >}} blocks. */ -}}
+<blockquote class="book-hint {{ .Get 0 | default "info" }}">
+  {{ .Inner | .Page.RenderString }}
+</blockquote>
