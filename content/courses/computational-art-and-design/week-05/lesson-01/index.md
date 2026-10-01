@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 2, 2025
+- October 1, 2026
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -14,18 +14,6 @@ p5js-widget: true
 ## Inspiration
 
 - [Aavistus Festival](https://www.aavistusfestival.fi/)
-
-## Summary as an AI Podcast
-
-{{<hint info>}}
-I am trying out something new this time. I used [NotebookLM](https://notebooklm.google.com) to generate a podcast based on the course materials on this page, YouTube video from the Coding Train, p5.js reference, and the Wikipedia article on Transformation Matrix.
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1927412996&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mansteri" title="Månsteri" target="_blank" style="color: #cccccc; text-decoration: none;">Månsteri</a> · <a href="https://soundcloud.com/mansteri/notebooklm-deep-dive-2d-transformations-in-p5js" title="NotebookLM Deep Dive | 2D Transformations in p5.js" target="_blank" style="color: #cccccc; text-decoration: none;">NotebookLM Deep Dive | 2D Transformations in p5.js</a></div>
-
-[Download the .mp3 file](../audio/deep-dive_2d-transformations.mp3)
-
-Let me know if you feel that it is helpful and I can keep on making more of them from the other topics. Or better yet, learn how to use NotebookLM yourself.
-{{</hint>}}
 
 ## 2D Transformations
 
@@ -166,6 +154,8 @@ We can also control the size of things we draw using the [scale()](https://p5js.
 {{<hint info>}}
 ***Please note!*** The order of transformation operations matters. You will get very different results depending on the order you translate, rotate and scale.
 {{</hint>}}
+
+[Link to the sketch.](https://openprocessing.org/sketch/1683572/)
 
 <iframe src="https://openprocessing.org/sketch/1683572/embed/?plusEmbedHash=OWE3ZDJhZTRmZTRjMjllOWI0MjVhOThmYjdlMTU0ZWI0MWZlNWRmYzZmMDcxOTlkNGRjYzQ5MTg3OGYyMGU1ODJlMTFiMWY0MzQ1MjZjOThiZmU3ZGE2ZGJhYzUyZmQwMTY3YWM0OWY0MDc4OWVlYzZlODgyODliMTEwMmFjOGVScFozZThEcHFtOFFMcHBpZ1RlMmloNWlBcXJQMTZOU2liZ1Q4YmFyOElUNVBvRm9mWkZzZ3NpNEV2RXdmd3BVODRIaWorSUdncGRtUjBYWnZaQzNEQT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
@@ -309,11 +299,15 @@ This example does the following:
 - Draw the red rectangle in the middle of the screen and rotate it constantly anti-clockwise
 - **Note that the transformations reset back to the origin when the next frame starts**
 
+[Link to the sketch.](https://openprocessing.org/sketch/1682880)
+
 <iframe src="https://openprocessing.org/sketch/1682880/embed/?plusEmbedHash=ZGYwNzc1ZmY2NTQyYzg1MGNmNmFkMDdlYzQxOTA0MGQ0ZDkxYmY1YzdkYzMzZTZjMjUwODk2MDAyY2JmZmYwM2VmZDUxMjM2OWVlZGYzZmJjMWQzNjAzMTlkY2EwZjUyNjg2MjQyMjk1OWQ0ODQ1YTIyMjkyNmNjZTk5NTA2YzExWUVVK3FuKzJLVGlGVGZJTFg2UFgzbmNJSkhteG9Oc2QvOVpWZU1lK2JlbWgzNytNUk1QOEZkMWpHRTh5VWp0UzQraTJhalFZT1NlMnBnS1l5WTFsQT09&plusEmbedTitle=true" width="100%" height="600"></iframe>
 
 ## References and more information
 
 I have been talking about the transformation **matrix**. What is that? Are you expected to choose between a red or blue pill? Is reality just a simulation? Maybe, but none of this has to do with the movie. 
+
+[Link to the sketch.]("https://openprocessing.org/sketch/408631/)
 
 <iframe src="https://openprocessing.org/sketch/408631/embed/?plusEmbedHash=YzBmMDUzYTJhYWViYzJhOGQ4ZTdmMTY4NTE5ODYwYjU5YWQwNWM4MWEwMjg3MWQyZTc4ZmNmMTI3YzliMDhjNDhmZDY1MzI2M2MxYzdmMjE0NGUwYTYyYzE2MWE3MzJlOTliNGIwMmZlYzI3ZGQzZTdmZmUwNDY1YjU1NThkNWFPTzlJa1pENS9MZ3o5QThxNFExSEtySE5RVkJ1N1k5K1NtUGV2Wm9FZUtrWDFvT3pRTHJzYndyQlRUZG4xOXFMMHNwaXdmdXp1Y3ppb1hLbTJjNnNOQT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
 
@@ -328,5 +322,3 @@ The Coding Train tutorials are very useful:
 {{<youtube pkHZTWOoTLM>}}
 
 {{<youtube IVMvq9rd8dA>}}
-
-
