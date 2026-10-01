@@ -15,6 +15,10 @@ p5js-widget: true
 ## Inspiration
 
 - [Aavistus Festival](https://www.aavistusfestival.fi/)
+- [Golan Levin's Clock Lecture](https://github.com/golanlevin/lectures/tree/master/lecture_clock)
+- [Tellervo Kalleinen and Oliver Kochta-Kalleinen: The Most Valuable Clock in the World](https://oulu2026.eu/en/programme/culture-programme/climate-clock/the-most-valuable-clock-in-the-world/)
+
+{{<youtube RFyOYLvlF_c>}}
 
 ## 2D Transformations
 
