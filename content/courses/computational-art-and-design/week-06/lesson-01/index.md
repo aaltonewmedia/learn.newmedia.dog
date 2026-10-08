@@ -20,6 +20,7 @@ p5js-widget: true
 {{<vimeo 213658343>}}
 
 - [Marshmallow Laser Feast](https://www.marshmallowlaserfeast.com/)
+- Event today! [Performing Arts in the Age of AI](https://espoonteatteri.fi/expand/open-seminar-performing-arts-in-the-age-of-ai/)
 
 ---
 
