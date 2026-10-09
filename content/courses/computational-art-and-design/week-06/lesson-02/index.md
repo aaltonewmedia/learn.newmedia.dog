@@ -18,7 +18,8 @@ p5js-widget: true
 {{<youtube IiKkXGK-OUQ>}}
 
 - [Qianqian Ye](https://qianqian-ye.com/index.html)
-- [p5.js Lead](https://p5js.org/people/)
+  - [p5.js Lead](https://p5js.org/people/)
+- [Maisa Imamović](https://maisaimamovic.eu/)
 
 ---
 
@@ -656,6 +657,8 @@ class Particle{
 {{</p5js>}}
 
 ### Simple Game
+
+[Link to the sketch in case your browser blocks the embed.](https://openprocessing.org/sketch/689324)
 
 <iframe src="https://openprocessing.org/sketch/689324/embed/?plusEmbedHash=MDE5YzVkZDcwNmNjZmZhZjdkNjY3NmJlMGNmM2IwOTdmYjBlZTBmMTJjZWEwYmQ1NzllNzgzMGVmOGM1YTY2ZTQ2M2Y5OTJiNWU2YmU3MDZiMmViYThjM2NlYzRmYzA4M2M3M2Y1YmEzYTA2YzdlM2ZlZmQ0Y2IzOWFkNmFmNzNCQTZrWm5xVytKSmZsbFJJYXJUbXlFbHBJSEpNL0k2Z2haQ1Q2dEloUTFKRmwyeldzR25DT2FqZ0J4TWhQMy9UWjQ4OXdUWmtkczhsOE0xcUZVeEhxZz09&plusEmbedTitle=true" width="100%" height="700"></iframe>
 
