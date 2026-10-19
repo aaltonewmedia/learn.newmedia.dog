@@ -2,7 +2,7 @@
 title: "Visual Programming Workshop"
 bookCollapseSection: true
 weight: 20
-draft: false
+draft: true
 ---
 
 ## Course content

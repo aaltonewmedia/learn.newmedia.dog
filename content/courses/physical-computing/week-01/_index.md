@@ -33,7 +33,7 @@ Do the following:
     
 ---
 
-### 2. Arduino Basics (Deadline: Thursday, October 31, 13:00)
+### 2. Arduino Basics (Deadline: Thursday, October 29, 13:00)
 
 Create a circuit and Arduino code that does the following
 

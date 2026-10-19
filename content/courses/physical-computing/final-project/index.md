@@ -40,7 +40,7 @@ It is ok to combine this project with the final project of the Computational Art
 
 ---
 
-## Project Proposal (Deadline: November 12)
+## Project Proposal (Deadline: Thursday, November 12)
 
 Create a project proposal for your final project. Think of this as a constantly evolving document where you take notes on your final project ideas. This deadline is for the first version of this.
 
@@ -48,7 +48,7 @@ Create a project proposal for your final project. Think of this as a constantly 
 - Some references (artworks/projects that are similar to what you would like to do)
 - Initial list of parts and components you think you will need
 
-You will present your idea in class on Tuesday (12/11/2024). This is a very uninformal presentation and mainly serves as a way for us to discuss your ideas together.
+You will present your idea in class on Thursday (12/11/2026). This is a very uninformal presentation and mainly serves as a way for us to discuss your ideas together.
 
 {{<hint info>}}
 It is ok if your idea changes after this. I am expecting it to change or evolve as you learn more about the topic. **You just need a starting point.**
@@ -60,32 +60,14 @@ Some of you might also decide to join forces for the final project. You can work
 
 ---
 
-## Project Presentations (December 5, 13:00)
+## Project Presentations (December 4, 13:00)
 
-- Your project should be ready before 13:00 on December 5.
-- Present it either in the Mechatronics workshop just for the class or in the exhibition space (see below).
-- We first do presentation in Mechatronics starting at 14:00
-- Then we go see the other works still being installed in the exhibition at Marsio.
+- Your project should be ready before 13:00 on December 4.
+- We first do presentation in Mechatronics Workshop starting at 13:15
 
 ---
 
-## Course Exhibition and Demo Day
-
-{{<hint info>}}
-**Note that this is voluntary. You do not have to present your work in the exhibition or at Demo Day. You can also just present the project during our last day on Thursday, December 5**
-{{</hint>}}
-
-### Winter Demo Day 2024
-
-You can also present or show your work during the Aalto Demo Day on December 11. We also have two spaces for exhibiting work connected to the Demo Day event.  
-
-Please fill out the form if you want to present your work or show it in the exhibition. [Open Call is open now](https://medialabdemoday.aalto.fi/2024-winter/open-call/).
-
----
-
-## Project Documentation (Deadline December 17)
-
-**Note! I extended the deadline a little bit**
+## Project Documentation (Deadline December 11)
 
 It is extremely important to document your work well. This is not useful just for this course but for your portfolio as well. Your course website should have a dedicated section(s)/page(s) for your final project.
 
@@ -101,7 +83,7 @@ Recommended documentation also would include one or more of the following:
 - More photos, sketches, high-quality video, process videos.
 - A guide/tutorial on how to build your project from the technical side. 
 
-**No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately on [MyCourses here.](https://mycourses.aalto.fi/mod/panoptosubmission/view.php?id=1429735)**
+**No separate assignment submission to MyCourses, just use the website that you have been using for the course. Except for the video file, send that separately on [MyCourses here.](https://mycourses.aalto.fi/mod/panoptosubmission/view.php?id=1574249)**
 
 {{<hint info>}}
 ### Video Specifications

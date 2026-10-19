@@ -126,32 +126,33 @@ Each week is divided into three classes just like they are divided here on this 
 | 13:15–15:00 |  | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
 | 15:15–17:00 | [Alt+Ctrl Games](./week-02/lecture) | [Input: Simple Sensors](./week-02/lesson-01) |  | [Input: Digital Sensors](./week-02/lesson-01) |  |
 
-#### Week 3 | Making Things Move
+#### Week 3 | Prototyping (3D Printing and Laser Cutting) & Project Work
 
 | TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
-| 15:15–17:00 | [Making Things Move](./week-03/lecture) | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Build a Robot](./week-03/lesson-02) |  |
+| 13:15–15:00 |  | [TBA](./week-03/lesson-01) |  | [TBA](./week-03/lesson-02) |  |
+| 15:15–17:00 | [Introduction to the 3D Print Workshop](./week-03/lecture) | [TBA](./week-03/lesson-01) |  | [TBA](./week-03/lesson-02) |  |
 
-#### Week 4 | Communication
+#### Week 4 | Making Things Move
 
 | TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 |  | [Project Proposal Presentations](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
-| 15:15–17:00 | [Setting Up for This Week](./week-04/lecture) | [Communication: Serial, Keyboard, Mouse, HID](./week-04/lesson-01) |  | [Communication: WiFi, OSC](./week-04/lesson-02) |  |
+| 13:15–15:00 |  | [Output: Motors & Actuators \Digital LEDs](./week-03/lesson-01) |  | [Project Proposal Presentations](./week-04/lesson-02) |  |
+| 15:15–17:00 | [Making Things Move](./week-04/lecture) | [Output: Motors & Actuators \Digital LEDs](./week-04/lesson-01) |  | [Project Proposal Presentations](./week-04/lesson-02) |  |
 
-#### Week 5 | Project Work
+
+#### Week 5 | Communication & Project Work
 
 | TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
 | 09:15–12:00 |  |  |  |  |  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
-| 15:15–17:00 | [Levels of Prototyping](./week-05/lecture) | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
+| 15:15–17:00 | [Communication](./week-05/lecture) | [Project Work](./week-05/lesson-01) |  | [Project Work](./week-05/lesson-02) |  |
 
 #### Week 6 | Project Work
 
@@ -166,7 +167,7 @@ Each week is divided into three classes just like they are divided here on this 
 
 | TIME | MON | TUE | WED | THU | FRI |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 | Project Work | Project Work | Project Work | Exhibition Setup | INDEPENDENCE DAY |
+| 09:15–12:00 | Project Work | Project Work | Project Work | Project Work| Project Work  |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
-| 13:15–15:00 | Project Work | Project Work | Project Work | Exhibition Setup | Project Presentations |
-| 15:15–17:00 | Project Work | Project Work | Project Work | Exhibition Setup | Project Presentations |
+| 13:15–15:00 | Project Work | Project Work | Project Work | Project Work| Project Presentations |
+| 15:15–17:00 | Project Work | Project Work | Project Work | Project Work | Project Presentations |
