@@ -7,7 +7,7 @@ weight: 120
 ---
 
 {{<hint info>}}
-- Thursday, November 20, 2025
+- Thursday, November 19, 2026
 - 9:15–12:00
 - Room 3430, Experimental Studio 1 (Marsio)
 {{</hint>}}
@@ -15,12 +15,10 @@ weight: 120
 ---
 
 {{<hint info>}}
-- Friday, November 21, 2025
+- Friday, November 20, 2026
 - 9:15–12:00
 - Room 3430, Experimental Studio 1 (Marsio)
 {{</hint>}}
-
----
 
 ---
 
@@ -30,8 +28,6 @@ The rest of the class time is reserved for working on your projects. You can wor
 
 See the [Final Project page for detailed instructions](../final-project/).
 
-## Exhibition or Demo Day
+## Project Presentations (Friday, November 27)
 
-If you want to show your work in the exhibition, please submit requirements for your work [in MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1111345&forceview=1).
-
-Or if you want to present it only during Demo Day, [fill in the registration form](https://docs.google.com/forms/d/e/1FAIpQLScNiSdtNJPM0DDRLPgh0RXZrCx99WhK5p8fexa3xEdIfw5jBw/viewform).
+Present your project in class on November 27. If your work will be in the exhibition, this can be still somewhat a work-in-progress presentation.

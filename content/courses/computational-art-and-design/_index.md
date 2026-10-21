@@ -152,7 +152,7 @@ On successful completion of this course, students will be able to:
 
 | TIME | MON 19/10 | TUE 20/10 | WED 21/10 | THU 22/10 | FRI 23/10 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Advanced Animation](./week-08/lesson-01) | [DOM Elements](./week-08/lesson-02) |
+| 09:15–12:00 |  |  |  | [DOM Elements](./week-08/lesson-01) | [Advanced Animation](./week-08/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -165,20 +165,20 @@ On successful completion of this course, students will be able to:
 
 | TIME | MON 26/10 | TUE 27/10 | WED 28/10 | THU 29/10 | FRI 30/10 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Working with Data](./week-09/lesson-01) | [Working with Data \| FFT](./week-09/lesson-01) |
+| 09:15–12:00 |  |  |  | [Working with Data](./week-09/lesson-01) | [Project Proposal Presentations](./week-09/lesson-01) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
 
 </div> 
 
-#### Week 10
+#### Week 10 (Matti is away, no contact teaching)
 
 <div class="calendar">
 
 | TIME | MON 02/11 | TUE 03/11 | WED 04/11 | THU 05/11 | FRI 06/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [TBA](./week-10/lesson-01) | [Project Proposals Presentations](./week-10/lesson-02) |
+| 09:15–12:00 |  |  |  | [Independent work](./week-10/lesson-01) | [Independent work](./week-10/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 |  |  |  |  |  |
@@ -217,7 +217,7 @@ On successful completion of this course, students will be able to:
 
 | TIME | MON 23/11 | TUE 24/11 | WED 25/11 | THU 26/11 | FRI 27/11 |
 | --- | --- | --- | --- | --- | --- |
-| 09:15–12:00 |  |  |  | [Project Work and Tutoring](./week13/lesson-01) | [Project Work and Tutoring](./week13/lesson-02) |
+| 09:15–12:00 |  |  |  | [Project Work and Tutoring](./week13/lesson-01) | [Final Project Presentations](./week13/lesson-02) |
 | 12:00–13:00| 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 | 🥗🍜🍱🍝🍕 |
 | 13:15–15:00 |  |  |  |  |  |
 | 15:15–17:00 | Lecture: AI/ML & Art |  |  |  |  |

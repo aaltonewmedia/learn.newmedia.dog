@@ -48,3 +48,8 @@ function draw() {
 ### sin(), cos()
 
 [See the tutorial on noise()](../../../tutorials/p5-js/trigonometry.md)
+
+## Homework
+
+- Finish the homework about classes
+- [Create a project proposal (present it on Friday, October 30)]((../final-project/#project-proposal))

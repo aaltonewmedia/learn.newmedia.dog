@@ -34,7 +34,7 @@ You can combine the final project of this course to the one you are working on i
 
 ## Deliverables
 
-### Project Proposal (October 29)
+### Project Proposal (October 30)
 
 **Deadline: Thursday October 29, end of the day**
 

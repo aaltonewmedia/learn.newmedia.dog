@@ -3,6 +3,7 @@ title: "FRI | Sound Analysis Using FFT"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
+draft: true
 ---
 
 {{<hint info>}}

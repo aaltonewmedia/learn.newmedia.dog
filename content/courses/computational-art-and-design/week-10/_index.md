@@ -1,5 +1,5 @@
 ---
-title: "10 | Machine Learning | Project Proposals"
+title: "10 | Matti Away, No Teaching"
 bookCollapseSection: true
 p5js-widget: true
 draft: false
