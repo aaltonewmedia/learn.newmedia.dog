@@ -6,7 +6,7 @@ p5js-widget: true
 ---
 
 {{<hint info>}}
-- October 23, 2025
+- October 22, 2026
 - 9:15–12:00
 - Room 2420 (Marsio)
 {{</hint>}}
@@ -19,6 +19,10 @@ Now is a good time to start thinking about what kind of project you would like t
 
 - [Final Project Guidelines](../../final-project/)
 - [Showcase of projects from previous years](../../showcase/)
+
+Related to the topic today:
+- [The worst volume control UI in the world](https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950)
+- [On Reddit](https://www.reddit.com/r/ProgrammerHumor/search/?q=volume&restrict_sr=on)
 
 ---
 
