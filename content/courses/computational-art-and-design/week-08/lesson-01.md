@@ -38,7 +38,7 @@ There are many options, feel free to explore them and choose the one that you li
 
 ### Visual Studio Code + Live Server extension
 
-Visual Studio Code will be our text editor for writing the code but it's not quite enough on its own. In order to make your sketches actually run on the browser, you need to have a local server running on your computer. Kind of like what would happen on the server where your website is online. Easy way to do this is using an extension called Live Server.
+Visual Studio Code will be our text editor for writing the code but it's not quite enough on its own. In order to make your sketches actually run on the browser like they would work when uploaded somewhere, you need to have a local server running on your computer. Easy way to do this is using an extension called Live Server.
 
 1. [Download and install VS Code](https://code.visualstudio.com/)
 2. Click the Extensions icon on the left sidebar
@@ -51,8 +51,8 @@ Visual Studio Code will be our text editor for writing the code but it's not qui
 
 In order to run p5.js locally you need to download the p5.js library and setup all your other local files (.httml, .css). You can do this manually by copying the required files to your project.
 
-1. Download the files from ps.js
-2. Create a new folder with all the files needed. [Instructions here].
+1. [Download the files from ps.js](https://beta.p5js.org/download/)
+2. Create a new folder with all the files needed.
 3. Open the project folder in VS Code
 
 #### p5.vscode extension
@@ -61,9 +61,14 @@ Another way to do this is to use another Visual Studio Code extension that does 
 
 1. Open VS Code
 2. Click the Extensions icon on the left sidebar
-3. Search for p5.vscode and install the extension
+3. Search for **p5.js 2.x Project Generator** and install the extension
 4. Create a new project with ```command-shift-p``` on Mac, or ```ctrl-shift-p``` on Windows
-5. Choose/create a new folder for your project
+5. Follow the prompts to configure your project
+6. Choose/create a new parent folder for your project
+
+{{<hint info>}}
+Note that the Project Generator also installs the Live Server extension.
+{{</hint>}}
 
 ---
 
