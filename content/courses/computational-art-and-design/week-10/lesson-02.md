@@ -1,5 +1,5 @@
 ---
-title: "FRI | Project Proposals"
+title: "FRI | Independent Work"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
