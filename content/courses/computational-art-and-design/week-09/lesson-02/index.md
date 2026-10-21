@@ -3,7 +3,7 @@ title: "FRI | Project Proposals"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
-draft: true
+draft: false
 ---
 
 {{<hint info>}}
