@@ -40,7 +40,7 @@ We are going to jump right into reading JSON files, but I have also provided som
 
 [Here is a sample text file that you could use](./files/data.txt)
 
-<iframe src="https://openprocessing.org/sketch/2071219/embed/?plusEmbedHash=18be9346&userID=7588&plusEmbedTitle=true#sketch" width="100%" height="500"></iframe>
+<iframe src="/sketches/data/load-text/" width="100%" height="400"></iframe>
 
 ```js
 let result;
@@ -129,7 +129,7 @@ As you can see, a JSON file is one object that can contain other objects, arrays
 
 We could try to parse the data with p5.js in the following way:
 
-<iframe src="https://openprocessing.org/sketch/2071253/embed/?plusEmbedHash=13051fdd&userID=7588&plusEmbedTitle=true#sketch" width="100%" height="300"></iframe>
+<iframe src="/sketches/data/load-json/" width="100%" height="300"></iframe>
 
 ```js
 let person;
@@ -244,7 +244,7 @@ This example visualizes Crayola crayon colors from the json file.
 
 The data file is [this one from the corpora GitHub repository](https://github.com/dariusk/corpora/blob/master/data/colors/crayola.json).
 
-<iframe src="https://openprocessing.org/sketch/1722470/embed/?plusEmbedHash=MjA3ZDg3MGYyZGI0Y2E2NDYxMzM2NTk5YTdmODUyNWJiNmU5OTVjNjFhZjczYzJiN2QzNmY3MDE2NmE5NzNkNjEzYTFlMmFhZjM2YzUwMTQwNWY2MDA5ZjI1NWEzNTliMzhlMjZiMmYxM2UyZGE2ZmIzZmQyNTcwMDU4NWZlMGJZbkE4Nk9TM2NvNmtQTG9qV1BEaTlhNW9JV3RtUm9LUlpES2VqaVNqZmtXMWZObmtjdGxOVkVkVE83YlJ6Vm5QUmQxT1VWRmZQS2F2aVhYdGI5RUh3UT09&plusEmbedTitle=true" width="100%" height="400"></iframe>
+<iframe src="/sketches/data/example-crayola/" width="100%" height="300"></iframe>
 
 ---
 
