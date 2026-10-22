@@ -217,7 +217,7 @@ Although we use the Pico boards, we are going to program them using the Arduino 
 
 ### Installing Arduino-Pico
 
-1. Download and install the Arduino IDE
+1. [Download and install the Arduino IDE](https://www.arduino.cc/en/software/)
 2. Open the software
 3. Open the Settings/Preferences. And click the icn at the end of the field `Additional boards manager URLs` [![Boards Manager Button](./img/boards-manager.png)](./img/boards-manager.png)
 4. Paste the following to the pop-up window: `https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json` [![Boards Manager Filled](./img/boards-manager-filled.png)](./img/boards-manager-filled.png)
