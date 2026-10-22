@@ -36,7 +36,8 @@ You can combine the final project of this course to the one you are working on i
 
 ### Project Proposal (October 30)
 
-**Deadline: Thursday October 29, end of the day**
+**Deadline: Thursday October 29, end of the day**. 
+**Present your project proposal in class on Friday, October 30**
 
 Submit a link to an online document or a pdf file (Miro board, [Physical Computing courses site](https://physcomp.newmedia.dog/), Google Doc, OneDrive etc). of your project proposal [via MyCourses](https://mycourses.aalto.fi/mod/assign/view.php?id=1549007). 
 

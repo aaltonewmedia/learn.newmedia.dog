@@ -51,5 +51,5 @@ function draw() {
 
 ## Homework
 
-- Finish the homework about classes
+- Finish the homework about classes if you didn't already. [Week 06: Objects & Classes (Fish Class)](https://openprocessing.org/class/107413#/)
 - [Create a project proposal (present it on Friday, October 30)]((../final-project/#project-proposal))

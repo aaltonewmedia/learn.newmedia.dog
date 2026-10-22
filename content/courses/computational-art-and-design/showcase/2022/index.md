@@ -3,7 +3,7 @@ title: "2022"
 bookCollapseSection: false
 p5js-widget: true
 url: "courses/computational-art-and-design/showcase/2022-autumn"
-weight: 10
+weight: 20
 ---
 
 ## Poonam Chawda – AI Tribal Storytelling

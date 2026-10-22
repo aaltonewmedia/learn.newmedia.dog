@@ -183,6 +183,10 @@ The Arduino IDE is a code editor and a toolchain for uploading code to various m
 
 The old and new version look slightly different but the code will be the same. You can also use the older version of the software if you want/need to.
 
+#### Download and Install Arduino IDE
+
+[Download here.](https://www.arduino.cc/en/software/)
+
 ---
 
 ## Raspberry Pi Pico

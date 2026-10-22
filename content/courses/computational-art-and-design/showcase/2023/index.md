@@ -2,7 +2,7 @@
 title: "2023"
 bookCollapseSection: false
 p5js-widget: true
-weight: 2
+weight: 19
 ---
 
 ## Volha Furs – Interactive Patterns
