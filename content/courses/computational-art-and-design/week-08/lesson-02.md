@@ -11,6 +11,14 @@ p5js-widget: true
 - Room 2420 (Marsio)
 {{</hint>}}
 
+## Inspiration
+
+{{<youtube A0NKyvm1SJ4>}}
+
+- [Harold Hejazi](https://haroldhejazi.com/)
+- [Adventures of Harriharri](https://haroldhe)
+- [Legend of Harri Kala](https://espoonteatteri.fi/en/programme/legend-of-harri-kala/)
+
 ## Advanced techniques for animating with code
 
 ### setInterval()
@@ -47,7 +55,7 @@ function draw() {
 
 ### sin(), cos()
 
-[See the tutorial on noise()](../../../tutorials/p5-js/trigonometry.md)
+[See the tutorial](../../../tutorials/p5-js/trigonometry.md)
 
 ## Homework
 
