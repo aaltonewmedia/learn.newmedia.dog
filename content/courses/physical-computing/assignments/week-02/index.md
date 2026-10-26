@@ -4,6 +4,10 @@ bookCollapseSection: false
 p5js-widget: false
 ---
 
+{{<hint warning>}}
+PLEASE NOTE! For the 2026 class we are going to skip this assignment. You do not need to complete this if you are doing the course in 2026.
+{{</hint>}}
+
 ## Deliverables for Week 2
 
 {{<hint info>}}
