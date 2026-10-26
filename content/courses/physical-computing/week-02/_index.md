@@ -28,3 +28,5 @@ If you did not yet do the first week assignemnt, please finish that one and get 
 ### 2. Model and Print the Robot Parts During Next Week
 
 Instructions will be available on the Week 3 pages.
+
+Please sign up for [Autodesk Fusion Educational account](https://www.autodesk.com/education/edu-software/fusion) to be able to follow the 3D modeling tutorial I will post as a video.
