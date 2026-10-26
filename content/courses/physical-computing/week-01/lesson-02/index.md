@@ -5,6 +5,13 @@ weight: 30
 p5js-widget: true
 ---
 
+## Inspiration
+
+- [Peter Vogel](http://vogelexhibition.weebly.com/)
+  - [The Sound of Shadows](https://vimeo.com/59829961)
+- [Mohit Bhoite](https://www.bhoite.com/sculptures/)
+- [Yuri Suzuki](https://www.google.com/search?client=firefox-b-d&q=yuri+suzuki)
+
 ## Microcontrollers
 
 Microcontrollers are all around you. They are inside many of the devices that you use in your everyday life. They come in many shapes and sizes, but generally look something like this:
