@@ -5,11 +5,6 @@ weight: 10
 p5js-widget: true
 ---
 
-{{<hint info>}}
-Note that we are in a different location today!  
-**Room Q101, Väre**
-{{</hint>}}
-
 Alternative controller games (often called ALT+CTRL games or some variations of the spelling) are games that are played with experimental controllers beyond mouse, joystick, and game controllers. Usually, these controllers are built by the artists/designers/developers themselves.
 
 Sometimes thes games are also played on an experimental output device beyond a normal screen, such as LED lights or mechanical machines.

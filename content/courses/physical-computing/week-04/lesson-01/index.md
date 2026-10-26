@@ -1,331 +1,139 @@
 ---
-title: "Project Proposals | USB Communication (serial, keyboard, mouse, MIDI)"
+title: "Output Devices: Motors, Actuators, Lights"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
 draft: false
 ---
 
-{{<hint info>}}
-The class time was used for going through the project proposals.
-{{</hint>}}
-
-## Inspiration
-
-{{<vimeo 835316198>}} 
-
-[Eevi Rutanen](https://www.eevirutanen.com/)
-
-## Serial
-
-Arduino has two built-in tools for receiving and/or sending serial data.
-
-- Serial Monitor
-- Serial Plotter
-
-We have already used them both, mainly for seeing data printed from the sensors we use.
-
-You can also use serial communication with other software on your computer.
-
-
-### Circuit
-
-- Light sensor connected to pin A0
-- The VL53L1X distance sensor connected to the I2C bus using the Qwiic connector
-
-{{<hint info>}}
-We have this done with our robot we built last week so just keep that connected.
-{{</hint>}}
-
-### Arduino Code
-
-Upload the following code to your board. It reads the two sensor data and prints out the data on one line with the values separated by a comma.
-
-```c
-// add all necessary libraries
-#include <Wire.h>
-#include <Adafruit_MSA301.h>
-#include <Adafruit_Sensor.h>
-
-// Comment/Uncomment as needed for specific MSA being used:
-// Adafruit_MSA311 msa;
-Adafruit_MSA301 msa;
-
-float x,y,z;
-
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
-  if (! msa.begin()) {
-        Serial.println("Failed to find MSA301/311 chip");
-        while (1) { delay(10); }
-    }
-  Serial.println("MSA301/311 Found!");
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-    // get X Y and Z data at once
-    msa.read(); 
-    
-    x = msa.x;
-    y = msa.y;
-    z = msa.z;
-
-    // print the values
-    Serial.print(x);
-    Serial.print(",");
-    Serial.print(y);
-    Serial.print(",");
-    Serial.println(z);
-    delay(50);
-}
-```
-
-{{<hint danger>}}
-Make sure you close all Serial Monitors from the Arduino IDE before testing in other software.
-{{</hint>}}
-
-### Option #1: p5.js code
-
-We can use the p5.webserial library to communicate with the Arduino board directly from the browser. [See the documentation](https://github.com/gohai/p5.webserial/) of the library.
-
-You can create a p5.js sketch to read the data from the serial port. This works with [the online editor](https://editor.p5js.org/) as well.
-
-{{<hint info>}}
-Note that you have to use a browser that supports the Web Serial API, such as Chrome, for this to work.
-{{</hint>}}
-
-First, open the `index.html` file and add the following inside the `head` tags to include the library:
-
-```html
-<script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>
-```
-
-[![Serial library for p5.js](./img/p5js-editor-serial.png)](./img/p5js-editor-serial.png)
-
-Then use the code below. If everything went as expected, you should be able to connect to your Arduino and see the data coming in.
-
-[Open the example in the p5.js editor.](https://editor.p5js.org/mnstri/sketches/EJv7jPl3K)
-
-```js
-let port;
-let x,y,z;
-let c;
-let s=10;
-let circleX=0;
-let circleY=0;
-
-function setup() {
-  createCanvas(400, 400);
-  port = createSerial();
-  c = color(255);
-}
-
-function draw() {
-  background(130,70,90);
-  
-  if(port.available()>0){
-    let str = port.readUntil("\n");
-    //console.log(str);
-    let splitData = split(str, ',');
-    x = splitData[0];
-    y = splitData[1];
-    z = splitData[2];
-    port.clear();
-    circleX = map(x,-2000,2000,0,width);
-    circleY = map(y,-2000,2000,0,height);
-  }
-  
-  fill(255);
-  text("x: " + x,20,20);
-  text("y: " + y,20,40);
-  text("z: " + z,20,60);
-  //fill(c);
-  circle(circleX, circleY, 100);
-}
-
-function mousePressed(){
-  if (!port.opened()) {
-    port.open(115200);
-  }
-}
-```
-
-#### Another p5.js example
-
-Some other p5.js examples **(open in Chrome)**
-
-- [Eye Plops](https://editor.p5js.org/mnstri/sketches/hEWJR0Ons) (this one uses the same Arduino code as above)
-
-### Option #2: Processing code
-
-You can also do the same thing using Processing. The Serial library comes built-in with Processing so you don't need to install anything extra. Just include the library in your code.
-
-```java
-import processing.serial.*;
-
-Serial myPort;  // Create object from Serial class
-String str;      // Data received from the serial port
-float x,y,z;
-float circleX;
-float circleY;
-float s=100;
-
-void setup(){
-  size(500, 500);
-  // Open whatever port is the one you're using.
-  // Change the 0 in  Serial.list()[0] to the correct device
-  printArray(Serial.list());
-  String portName = Serial.list()[5];
-  myPort = new Serial(this, portName, 115200);
-}
-
-void draw(){
-  if ( myPort.available() > 0) {  // If data is available,
-    str = myPort.readStringUntil('\n');         // read it and store it in str
-    if(str != null){
-      String[] splitData = split(str, ",");
-      x = float(splitData[0]);
-      y = float(splitData[1]);
-      z = float(splitData[2]);
-      circleX = map(x,-2000,2000,0,width);
-      circleY = map(y,-2000,2000,0,height);
-    }
-  }
-  background(130,70,90);   
-  fill(255);
-  text("x: " + x,20,20);
-  text("y: " + y,20,40);
-  text("z: " + y,20,60);
-  circle(circleX, circleY, s);
-}
-```
-
-### Option #3: TouchDesigner Example
-
-[![TD Serial](./img/td-serial-dat.jpg)](./img/td-serial-dat.jpg)
-
-There are two ways to use serial communication in TouchDesigner:
-
-1. Using the Serial CHOP | This is useful when you are only receiving one value
-2. Usingt the Serial DAT | Use this for more complex cases or when you need to receive multiple values
-
-[Download a TouchDesigner example of reading the values from the Serial Port.](./files/ArduinoToTDSerial.toe)
+# Making Things Move
 
 ---
 
-## Keyboard
+## How to Choose the Right Motor or Actuator?
 
-You can make the Raspberry Pi Pico and Arduino Uno R4 WiFi boards appear as a USB keyboard for your computer.
+- [Motor guide from Sparkfun](https://learn.sparkfun.com/tutorials/motors-and-selecting-the-right-one)
+- [Motor guide from Adafruit](https://learn.adafruit.com/adafruit-motor-selection-guide)
 
-- [Keyboard reference](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/)
+## How to work with motors and other actuators?
 
-{{<hint danger>}}
-Be careful with this. It's quite easy to accidentally create something that is constantly typing something, which can make it really hard to reprogram your board.
-{{</hint>}}
+I have created tutorials for different types of actuators.
 
-### Basic Project Setup
+- [Servo Motors](../../../../tutorials/arduino-and-electronics/motors-and-actuators/servo-motors/)
+- [DC Motors](../../../../tutorials/arduino-and-electronics/motors-and-actuators/dc-motors/)
+- [Stepper Motors](../../../../tutorials/arduino-and-electronics/motors-and-actuators/stepper-motors/)
+- [Solenoids](../../../../../tutorials/arduino-and-electronics/motors-and-actuators/solenoids-and-electromagnets/)
 
-```c
-#include "Keyboard.h"
+---
 
-void setup(){
-  // initialize control over the keyboard:
-  Keyboard.begin();
-}
+## Using Transistors
 
-void loop(){
-}
-```
+Transistors are very useful little components that can be used in many different ways. We are not going to go very deep into the details how transistors work. We are basically only going to use transistors (NPN) as switches, but keep in mind that it is not the only way to use a transistor.
 
-### Sending individual keystrokes
+If you want to learn more details, see this tutorial:
+- [Sparkfun tutorial on transistors](https://learn.sparkfun.com/tutorials/transistors)
 
-```c
-// Send an individual keystroke
-Keyboard.press('a');
-delay(1);
-Keyboard.release('a');
+![Transistors](./img/transistor.png "Image from Sparkfun CC BY-SA 4.0")
 
-// Use modifier keys
-Keyboard.press(KEY_LEFT_SHIFT);
-Keyboard.press('a');
-delay(1);
-Keyboard.releaseAll();
-```
+The way my electronics teacher taught how to remember which of the schematic symbols is NPN and which one is PNP:
 
-### Sending text
+- NPN = Never Point iN
+- PNP = Point iN Please
 
-```c
-// use println() to write text followed by a newline character
-Keyboard.println("Hello world!");
-```
+### NPN Transistor
 
-### Special keys
+When you use an NPN transistor as a switch, the load that you want to switch (lights, motor etc.) needs to be between the positive voltage pin and the collector. This is called a low-side switch, since the transistor is on the low (ground) side of the circuit.
 
-You can find the [full list of supported special keys here](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/).
+Always connect the thing that you want to switch on/off to the collector side with the NPN transistor.
+
+The base turns the switch on or off. In our case the base pin would be often connected to one of the Arduino pins.
+
+[![Transistors](./img/tip120_schematic.jpg)](./img/tip120_schematic.jpg)
+
+[![Transistors](./img/tip120.png)](./img/tip120.png)
+
+---
+
+## Using the Kitronik Motor Driver Board for Raspberry Pi Pico
+
+Your kits include a handy motor controller shield for the Raspberry Pi Pico that allows us to connect to DC motors to the Pico.
 
 ### Example
 
+Setup:
+
+1. Connect the two yellow TT Motors (DC Motors) to the purple robot chassis. (4 x M3x25 screws, 4 x M3 nut)
+2. Run the cables of the motrs through the L-shpaed holes on the chassis.
+3. Screw the cables of the motors to the connectors on the motor board. (MOTOR1 and MOTOR 2). **PLEASE NOTE THE ORDER OF THE WIRES! CONNECT THEM THIS WAY SO THAT THE PINS ON THE EXAMPLE CODE MATCH.**
+4. Use the velcro stickers to attach the board on top of the chassis.
+5. Screw the Battery Pack to the chassis as well (take out one battery to reveal the hole for the screw).
+6. Attach your Pico on top of the Motor Driver board. **PLEASE NOTE THE ORIENTATION. THERE IS A LABEL THAT SAYS USB ON THE MOTOR DRIVER.**
+7. Connect the Screw-On DC Terminal to the Motor Driver Board and plug-in the battery pack.
+
+The final result should look like this:
+
+[![DC Motor Test](./img/dc_test.jpg)](./img/dc_test.jpg)
+
+Code:
+
 ```c
-#include "Keyboard.h"
 
-void setup(){
-  // initialize control over the keyboard:
-  Keyboard.begin();
-}
 
-void loop(){
-  delay(5000);
-  Keyboard.print('a');
-  delay(5000);
-  Keyboard.press(KEY_LEFT_SHIFT);
-  Keyboard.print('a');
-  delay(100);
-  Keyboard.releaseAll();
-  delay(5000);
-  Keyboard.println("Hello World!");
-}
+
+
 ```
+
+
 
 ---
 
-## Mouse
+## Working with addressable digital LEDs (Neopixels)
 
-- [Mouse reference](https://www.arduino.cc/reference/en/language/functions/usb/mouse/)
+[I have made a simple tutorial and some examples here.](../../../tutorials/arduino-and-electronics/leds-and-other-lights/neopixels/)
 
-{{<hint danger>}}
-Be careful with this. It's quite easy to accidentally create something that is constantly moving the mouse, which can make it really hard to reprogram your board.
-{{</hint>}}
+Neopixel is a brand name by Adafruit for certain types of addressable LEDs.
+
+- [Adafruit Neopixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+
+---
+
+## Examples done in class
+
+### Accelerometer to Servo
+
+#### Code
 
 ```c
-#include <Mouse.h>
+// Basic demo for accelerometer readings from Adafruit MSA301
 
-void setup() {
-  // put your setup code here, to run once:
-  Mouse.begin();
-  delay(1000);
+#include <Wire.h>
+#include <Adafruit_MSA301.h>
+#include <Adafruit_Sensor.h>
+#include <Servo.h>
+
+Adafruit_MSA301 msa;
+Servo myServo;
+
+// variable to store the servo position
+int pos = 0;    
+
+void setup(void) {
+  Serial.begin(115200);
+  msa.begin();
+  myServo.attach(9);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  Mouse.move(100,100);
-  delay(1000);
-  Mouse.move(-100,-100);
-  delay(1000);
+  // get X Y and Z data at once
+  msa.read(); 
+  
+  // Then print out the raw data
+  Serial.print("X: "); Serial.print(msa.x); 
+  Serial.print(" Y: "); Serial.print(msa.y); 
+  Serial.print(" Z: "); Serial.print(msa.z);
+  Serial.println();
+  pos = map(msa.x, -2100, 2100, 0, 180);
+  myServo.write(pos);
+  delay(5); 
 }
 ```
-
---- 
-
-## Teensy Boards
-
-The [Teensy boards](https://www.pjrc.com/teensy/) are also capable of becoming various USB devices. The libraries for the Teensy boards generally work better than the built-in USB HID library from Arduino.
-
-- [USB Keyboard](https://www.pjrc.com/teensy/td_keyboard.html)
-- [USB Mouse](https://www.pjrc.com/teensy/td_mouse.html)
-- [USB Joystick](https://www.pjrc.com/teensy/td_joystick.html)
-- [USB MIDI](https://www.pjrc.com/teensy/td_midi.html)
-- [USB Flight Sim](https://www.pjrc.com/teensy/td_flightsim.html])
-
-[The Teensy Audio library even allows you to use your Teensy as a USB Audio Interface.](https://www.pjrc.com/teensy/td_libs_Audio.html)

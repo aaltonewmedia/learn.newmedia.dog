@@ -1,116 +1,163 @@
 ---
-title: "Wireless: WiFi, OSC"
+title: "Build a Robot"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
 draft: false
 ---
 
-## Serial
+## Physical Computing Robot
 
-{{<hint danger>}}
-We didn't have time to go through the serial communication, so we start from that part from the [Tuesday's class](../lesson-01/).
+Today, we are going to build the first Physical Computing Robot (looking for a better name, if you have any suggestions).
+
+{{<hint info>}}
+For the 2025 class, we already built most of the robot during the last class. Please follow the instructions below to finish building the robot.
+
+[![Robot Almost Ready](./images/robo_halfway.jpg)](./images/robo_halfway.jpg)
+
+You can jump to step 4.
+
+{{</hint>}}
+
+### Parts
+
+You need the following parts:
+
+{{<hint info>}}
+- 1 x Chassis
+- 2 x TT Motor
+- 2 x Rear Wheels
+- 1 x Caster Wheel
+- 1 x 3D Printed Sensor Mount
+- 2 x Googly Eyes
+- 1 x Battery Pack (5xAA)
+- 1 x Raspberry Pico W
+- 1 x Kitronik Motor Driver Board
+- 1 x Adafruit PiCowbell Proto Board for Pico
+- 1 x Distance Sensor
+- 1 x Qwiic cable for the sensor (100 mm)
+- 1 x DC Power adapter - 2.1mm jack to screw terminal block
+{{</hint>}}
+
+#### Nuts, Bolts and Other Items
+
+{{<hint info>}}
+- 2 x M4x15 Standoff Screws
+- 4 x M4x12 Machine Screws
+- 4 x M3x25 Machine Screws
+- 3 x M3x8 Machine Screws (Black)
+- 6 x M3 Nuts
+- 2 x 2x16 Brass Screws
+{{</hint>}}
+
+[![Screws](./images/robot-screws.jpg)](./images/robot-screws.jpg)
+
+The interactive image below shows what each part is. **Note that this is the old one still. Will be updated later.
+
+<iframe width="100%" height="500" data-original-width="1920" data-original-height="1440" src="https://www.thinglink.com/view/scene/1778848233066332837" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script><br/><a href="https://www.thinglink.com/view/scene/1778848233066332837/accessibility" target="_blank" rel="noopener noreferrer">Click here to view the accessible version of this interactive content</a>
+
+---
+
+## Assembly
+
+### 1. Motors
+
+{{<hint info>}}
+- 4 x M3x25 Machine Screws
+- 4 x M3 Nuts
+{{</hint>}}
+
+[![Motors](./images/robot-motors.jpg)](./images/robot-motors.jpg)
+
+[![Motors Back](./images/robot-motors-back.jpg)](./images/robot-motors-back.jpg)
+
+Feed the wires through the L-shaped holes.
+
+[![Motors Wires](./images/robot-motors-wires.jpg)](./images/robot-motors-wires.jpg)
+
+### 2. Raspberry Pi Pico and the Motor Driver Board
+
+### 3. Batteries
+
+{{<hint info>}}
+- 1 x Battery Pack (5xAA)
+- 1 x M3x8 Machine Screws
+{{</hint>}}
+
+### 4. Distance Sensor
+
+{{<hint info>}}
+- 1 x 3D Printed Sensor Mount (you make this with the 3D printer)
+- 2 x Googly Eyes
+- 2 x M4x15 Standoff Screws
+- 2 x M4x12 Machine Screws
+- 2 x M3x8 Machine Screws
+- 2 x M3 Nuts
+- 1 x Distance Sensor
+- 1 x Qwiic cable for the sensor (100 mm)
+{{</hint>}}
+
+[![Distance Sensor Parts](./images/distance-sensor-parts.jpg)](./images/distance-sensor-parts.jpg)
+
+[![Distance Sensor Mounted](./images/distance-sensor-mounted.jpg)](./images/distance-sensor-mounted.jpg)
+
+[![Distance Sensor Mounted Back](./images/distance-sensor-mounted-back.jpg)](./images/distance-sensor-mounted-back.jpg)
+
+[![Distance Sensor Standoffs](./images/distance-sensor-standoffs.jpg)](./images/distance-sensor-standoffs.jpg)
+
+[![Distance Sensor Chassis](./images/distance-sensor-chassis.jpg)](./images/distance-sensor-chassis.jpg)
+
+[![Distance Sensor Ready](./images/distance-sensor-ready.jpg)](./images/distance-sensor-ready.jpg)
+
+### 5. Caster Wheel (Front Wheel)
+
+{{<hint info>}}
+- 1 x Caster Wheel
+- 2 x M3x8 Machine Screws
+{{</hint>}}
+
+[![Caster Wheel](./images/robot-caster.jpg)](./images/robot-caster.jpg)
+
+[![Caster Wheel Mounted](./images/robot-caster-mounted.jpg)](./images/robot-caster-mounted.jpg)
+
+### 6. Wheels (Back Wheels)
+
+{{<hint warning>}}
+As a final touch, you can use the brass screws to make sure that the wheels will not fall off. I would recommend doing this only after you have tested your wiring and the code, so that you can easily take off the wheels while testing the motors.
+
+[![Brass Screws](./images/wheel-brass.jpg)](./images/wheel-brass.jpg)
+
 {{</hint>}}
 
 ---
 
-## WiFi
+## Circuit
 
-## OSC (Open Sound Control)
+### Distance Sensor
 
-[OSC (Open Sound Control)](https://ccrma.stanford.edu/groups/osc/index.html) is a protocol for communicating among applications and hardware over a network connection. It was originally developed for realtime musical performances.
-
-{{<hint info>}}
-I like to think of OSC as the duct tape of new media. Quite often, we have to deal with connecting hardware and software together in unexpected ways. OSC makes this possible.
-{{</hint>}}
-
-### Anatomy of OSC Messages
-
-OSC messages are sent over a network so you must define where you want to send your message. You must define the following things:
-
-- IP Address – The IP address of the device where you send your message. If you want to send data from one software to another on your computer, you can use the `localhost` IP address `127.0.0.1`
-- Port – The port number where you are sending/receiving your message. This could basically any number, but many ports are reserved for other purposes. Use a 4- or 5-digit number to stay out of the range of most common ports.
-  - Example: 7777
-- Address Pattern – This usually looks like an URL. It is used to differentiate between different messages you are sending/receiving on one port. You can define the address pattern yourself.
-  - Example: /sensor/flex
-- The actual message is the data that you are sending/receiving. You have to also define what the data type is (string, int, float etc.) Many OSC implementations take care of the data type
-
-Examples of OSC messages:
-
-```
-/sensor/accelerometer/x 0.765
-/sensor/accelerometer/y 0.482
-/sensor/accelerometer/xyz 0.765 0.482 0.112
-/text/matti hello
-```
-
-### OSC in p5.js
-
-Ironically, using OSC is not very easy with p5.js although both are dealing dealing with networks.
-
-The problem is that OSC is based on [UDP networking protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol). UDP and OSC are great for things where you want to have the minimum amount of latency and don't want to deal with the extra complications of connecting/disconnecting or error correction. UDP unfortunately is not so well supported in JavaScript.
-
-OSC libraries for JavaScript:
-
-- [p5js-osc](https://github.com/genekogan/p5js-osc) | This works fine, but gives security errors when you use it. These issues are generally not a problem since you generally use OSC on local network and not over the internet. Fairly simple to setup but hasn't been updated for a while.
-- [osc.js](https://github.com/adzialocha/osc-js) | Uses websockets to route the OSC data. A little bit harder to get running but this library is actively being developed and updated.
-
-### OSC in Processing
-
-OSC communication in Processing can be done using the [oscP5 library](https://sojamo.de/libraries/oscP5/). You can install it with the Library manager in Processing.
-
-### ZIG SIM
-
-[ZIG SIM](https://zig-project.com/) is an application for your mobile device that allows you to stream many of the sensors from your phone to any other device that is able to receive OSC messages.
-
-Download the app on your mobile device from the app store of your mobile device. The free version works for most of the sensors.
-
-### Debugging OSC Messages
-
-#### Protokol
-
-[Protokol](https://hexler.net/protokol) is an excellent tool for monitoring and debugging OSC, MIDI and Gamepad data. I use it all the time to see what kind of data is being received.
+The distance sensor is connected using the Qwiic cable. [See the VL53L1X sensor tutorial for a detailed overview of how the sensor works.](/tutorials/arduino-and-electronics/sensors/distance-vl53l1x)
 
 ---
 
-### Install the ArduinoOSC library
+## Code
+
+{{< tabs >}}
+{{% tab "Pico" %}}
+
+### Motor Testing Example
 
 {{<hint info>}}
-- [ArduinoOSC](https://github.com/hideakitai/ArduinoOSC)
-- The Arduino OSC Library is used to be able to send and receive wireless data from various devices (computer, phone, other microcontrollers)
+This example code is for the Pico boards and the Kitronik Motor Drivers.
+
+Uncomment the functions in the `loop()` one by one and see if the robot does what your code is telling. If not, you might need to check your wiring.
+
+For example, If your code is saying `goForward()` and your robot moves backwards, the wires of the motors should be changed to be the opposite (swap the black and red wires on both motors.)
+
+[Download the example code.](./files/week_three_robot_test.zip)
 {{</hint>}}
 
----
-
-## Example: OSC controlled robot
-
-### Arduino Code
-
-This code connects to the WiFi router we have in the workshop and sends and receives data between the Pico and your computer.
-
-{{<hint info>}}
-Connect to the WiFi in Mechatronics:
-
-- ssid: mainframe
-- pwd: 12345678
-{{</hint>}}
-
-The code is quite long so it might be easiest to [download it from here.](./files/week_four_robot_osc.zip)
-
-{{< details title="Show the Arduino Code" open=false >}}
-
+{{< details title="Show the Code" open=false >}}
 ```c
-// include sensor libraries
-#include <Wire.h>
-#include <VL53L1X.h>
-
-// include OSC library
-#include <ArduinoOSCWiFi.h>
-
-VL53L1X sensor;
-int distance;
-int distanceThreshold = 300;
-
 // pins for MOTOR 1
 int M1_C1 = 2;
 int M1_C2 = 3;
@@ -119,23 +166,8 @@ int M1_C2 = 3;
 int M2_C1 = 6;
 int M2_C2 = 7;
 
-// speed of the motors 0-255
+// speed of the motors
 int speed = 200;
-
-// WiFi stuff
-const char* ssid = "mainframe";
-const char* pwd = "12345678";
-
-// for ArduinoOSC
-// The IP address below is the IP of the device sending the control signal to your robot (computer, phone etc.)
-const char* host = "192.168.50.173";
-// port for receiving data
-const int recv_port = 12345;
-// port for sending
-const int publish_port = 54321;
-
-// receive varibale
-int direction = 0;
 
 void setup() {
   Serial.begin(115200);
@@ -147,103 +179,19 @@ void setup() {
 
   // make sure that the motors are stopped in the beginning
   stopAll();
-
-  // Setup the sensor
-  Wire.begin();
-  Wire.setClock(400000);  // use 400 kHz I2C
-  sensor.setTimeout(500);
-  if (!sensor.init()) {
-    Serial.println("Failed to detect and initialize sensor!");
-    while (1);
-  }
-
-  // ROI settings
-  // 195 is the center of the array
-  sensor.setROICenter(195);
-  int center = sensor.getROICenter();
-  Serial.print("ROI center: ");
-  Serial.println(center);
-  // the smallest size for the ROI is 4x4
-  sensor.setROISize(16, 8);
-
-  // Start continuous readings at a rate of one measurement every 33 ms (the
-  // inter-measurement period). This period should be at least as long as the
-  // timing budget.
-  sensor.setDistanceMode(VL53L1X::Long);
-  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
-  sensor.startContinuous(33); // time is in milliseconds
-
-  // WiFi ------------------>
-  // WiFi stuff (no timeout setting for WiFi)
-    WiFi.mode(WIFI_STA);
-
-    // Connect to the WiFi network
-    WiFi.begin(ssid,pwd);
-    while (WiFi.status() != WL_CONNECTED) {
-        Serial.print(".");
-        delay(500);
-    }
-
-    Serial.print("WiFi connected, IP = ");
-    Serial.println(WiFi.localIP());
-
-    // publish osc messages (default publish rate = 30 [Hz])
-    // publishing the distance value
-    OscWiFi.publish(host, publish_port, "/distance", distance)
-        ->setFrameRate(60.f);
-
-    // subscribe to receive osc messages that control the robot
-    OscWiFi.subscribe(recv_port, "/robot",
-        [](const OscMessage& m) {
-            Serial.print(m.remoteIP());
-            Serial.print(" ");
-            Serial.print(m.remotePort());
-            Serial.print(" ");
-            Serial.print(m.size());
-            Serial.print(" ");
-            Serial.print(m.address());
-            Serial.print(" ");
-            Serial.print(m.arg<int>(0));
-            Serial.println();
-
-            // take the first value in the message (that should be an int).
-            direction = m.arg<int>(0);
-        });
 }
 
 void loop() {
-  // read the sensor data
-  sensor.read();
-  distance = sensor.ranging_data.range_mm;
-  Serial.print("distance:");
-  Serial.println(distance);
-
-  // update the OSC sending and receiving
-  OscWiFi.update();
-
-  switch (direction) {
-    case 0:
-      stopAll();
-      break;
-    case 1:
-      goForward();
-      break;
-    case 2:
-      goReverse();
-      break;
-    case 3:
-      goLeft();
-      break;
-    case 4:
-      goRight();
-      break;
-    default:
-      stopAll();
-      break;
-  }
-
-  // small delay to slow down the loop
-  delay(1);
+  // TRY UNCOMMENTING THESE LINES ONE BY ONE TO TEST THE MOVEMENTS
+  // goForward();
+  // goReverse();
+  // goLeft();
+  // goRight();
+  // stopAll();
+  // motorTwoForward();
+  // motorTwoBackward();
+  // motorOneReverse();
+  // motorOneReverse();
 }
 
 void goForward() {
@@ -304,135 +252,337 @@ void motorTwoStop() {
   analogWrite(M2_C1, 0);
   analogWrite(M2_C2, 0);
 }
+
 ```
-{{</details>}}
 
----
+{{</ details >}}
 
-### Processing Code
+### Final Robot Code
 
-Here you can find the Processing code for controlling the robot using OSC.
+{{<hint info>}}
+The code below adds the distance sensor and implements a basic obstacle avoidance logic for the robot.
 
-Or [download it here.](./files/osc_robot_control_p5/osc_robot_control_p5.pde)
+[Download the example code.](./files/week_three_robot_final.zip)
+{{</hint>}}
 
-{{< details title="Show the Processing Code" open=false >}}
+{{% /tab %}}
+{{% tab "Arduino Uno" %}}
 
-```java
-import oscP5.*;
-import netP5.*;
+### Motor Test
 
-OscP5 oscP5;
-NetAddress myRemoteLocation;
-int direction = 0;
-int prevDirection = -1;
-String directionText = "";
-int light;
-float brightness;
-int distance;
-float distanceRect;
+{{<hint info>}}
+Use this code first to test out if the motors and the H-Bridge have been connected properly. Uncomment the functions in the `loop()` one by one and see if the robot does what your code is telling. If not, you might need to check your wiring.
+
+For example, If your code is saying `goForward()` and your robot moves backwards, the wires of the motors should be changed to be the opposite (swap the black and red wires on both motors.)
+{{</hint>}}
+
+{{< details title="Show the Code" open=false >}}
+
+```c
+#define MR_EN 5
+#define MR_C1 6
+#define MR_C2 7
+
+#define ML_EN 9
+#define ML_C1 10
+#define ML_C2 11
 
 void setup() {
-  size(400, 400);
-  frameRate(60);
-  /* start oscP5, listening for incoming messages at port 55556 */
-  oscP5 = new OscP5(this, 54321);
+  Serial.begin(115200);
 
-  /* myRemoteLocation is a NetAddress. a NetAddress takes 2 parameters,
-   * an ip address and a port number. myRemoteLocation is used as parameter in
-   * oscP5.send() when sending osc packets to another computer, device,
-   * application.
-   */
-  myRemoteLocation = new NetAddress("192.168.50.213", 12345);
+  pinMode(MR_EN, OUTPUT);
+  pinMode(MR_C1, OUTPUT);
+  pinMode(MR_C2, OUTPUT);
+
+  pinMode(ML_EN, OUTPUT);
+  pinMode(ML_C1, OUTPUT);
+  pinMode(ML_C2, OUTPUT);
+
+  leftSpeed(255);
+  rightSpeed(255);
+  stopAll();
 }
 
+void loop(){
+  // test the motor functions here:
+  // leftSpeed(255);
+  // rightSpeed(255);
+  // goForward();
+  // goBackward();
+  // goLeft();
+  // goRight();
+  // stopAll();
+  // leftMotorForward();
+  // leftMotorBackward();
+  // rightMotorForward();
+  // rightMotorBackward();
+}
 
-void draw() {
-  background(0);
-  if (keyPressed) {
-    if (key == CODED) {
-      switch(keyCode) {
-      case UP:
-        direction = 1;
-        directionText = "Forward";
-        break;
-      case DOWN:
-        direction = 2;
-        directionText = "Backward";
-        break;
-      case LEFT:
-        direction = 3;
-        directionText = "Left";
-        break;
-      case RIGHT:
-        direction = 4;
-        directionText = "Right";
-        break;
-      }
+void goForward() {
+  leftMotorForward();
+  rightMotorForward();
+}
+
+void goBackward() {
+  leftMotorBackward();
+  rightMotorBackward();
+}
+
+void goLeft() {
+  rightMotorForward();
+  leftMotorBackward();
+}
+
+void goRight() {
+  leftMotorForward();
+  rightMotorBackward();
+}
+
+void stopAll() {
+  leftMotorStop();
+  rightMotorStop();
+}
+
+void leftMotorForward() {
+  digitalWrite(ML_C1, HIGH);
+  digitalWrite(ML_C2, LOW);
+}
+
+void leftMotorBackward() {
+  digitalWrite(ML_C1, LOW);
+  digitalWrite(ML_C2, HIGH);
+}
+
+void leftMotorStop() {
+  digitalWrite(ML_C1, LOW);
+  digitalWrite(ML_C2, LOW);
+}
+
+void rightMotorStop() {
+  digitalWrite(MR_C1, LOW);
+  digitalWrite(MR_C2, LOW);
+}
+
+void rightMotorForward() {
+  digitalWrite(MR_C1, HIGH);
+  digitalWrite(MR_C2, LOW);
+}
+
+void rightMotorBackward() {
+  digitalWrite(MR_C1, LOW);
+  digitalWrite(MR_C2, HIGH);
+}
+
+void leftSpeed(int mSpeed) {
+  analogWrite(ML_EN, mSpeed);
+}
+
+void rightSpeed(int mSpeed) {
+  analogWrite(MR_EN, mSpeed);
+}
+```
+{{</ details >}}
+
+### Final Code
+
+The final code adds the following:
+
+- Distance sensor configuration
+  - ROI 16x8
+  - Continuous reading every 33 ms
+- Distance sensor reading
+- Light Sensor
+
+The region of interest is set in the following way to reduce the amount of issues with the sensor seeing the floor while still keeping as wide as possible view horizontally.
+
+[![ROI](./images/robot-roi-16-8.jpg)](./images/robot-roi-16-8.jpg)
+
+{{< details title="Show the Code" open=false >}}
+
+{{<hint info>}}
+Note that I have separated the code into two tabs. The second tab `motors.ino` has all of the functions dealing with the motors.
+
+[You can also download the code.](./files/RobotSensorControl.zip)
+{{</hint>}}
+
+[![Code Screenshot](./images/robot-sensor-control-code.png)](./images/robot-sensor-control-code.png)
+
+{{< tabs "sensor-robot" >}}
+{{< tab "RobotSensorControl.ino" >}}
+
+```c
+#define MR_EN 5
+#define MR_C1 6
+#define MR_C2 7
+
+#define ML_EN 9
+#define ML_C1 10
+#define ML_C2 11
+
+#include <Wire.h>
+#include <VL53L1X.h>
+
+VL53L1X sensor;
+int rawDistance;
+int distance;
+int sensorStatus;
+
+int light;
+int lightThreshold = 800;
+
+void setup() {
+  Serial.begin(115200);
+
+  pinMode(MR_EN, OUTPUT);
+  pinMode(MR_C1, OUTPUT);
+  pinMode(MR_C2, OUTPUT);
+
+  pinMode(ML_EN, OUTPUT);
+  pinMode(ML_C1, OUTPUT);
+  pinMode(ML_C2, OUTPUT);
+
+  leftSpeed(255);
+  rightSpeed(255);
+  stopAll();
+
+  // Setup the sensor
+  Wire1.begin();
+  Wire1.setClock(400000);  // use 400 kHz I2C
+  sensor.setBus(&Wire1);
+  sensor.setTimeout(500);
+  if (!sensor.init()) {
+    Serial.println("Failed to detect and initialize sensor!");
+    while (1)
+      ;
+  }
+
+  // ROI settings
+  // 195 is the center of the array
+  sensor.setROICenter(195);
+  int center = sensor.getROICenter();
+  Serial.print("ROI center: ");
+  Serial.println(center);
+  // the smallest size for the ROI is 4x4
+  sensor.setROISize(16, 8);
+
+  // Start continuous readings at a rate of one measurement every 33 ms (the
+  // inter-measurement period). This period should be at least as long as the
+  // timing budget.
+  sensor.setDistanceMode(VL53L1X::Long);
+  sensor.setMeasurementTimingBudget(33000);  // time is in microseconds
+  sensor.startContinuous(33); // time is in milliseconds
+}
+
+void loop() {
+  readLight();
+  readDistance();
+  if(light > 400){
+    if (rawDistance > 300) {
+      goForward();
+    } else {
+      goLeft();
     }
-  } else {
-    direction = 0;
-    directionText = "Stop";
-  }
-  if(direction!=prevDirection){
-    OscMessage myMessage;
-    myMessage = new OscMessage("/robot");
-    myMessage.add(direction);
-    oscP5.send(myMessage, myRemoteLocation);
-  }
-  prevDirection=direction;
-  fill(255);
-  textSize(20);
-  text("Direction: " + directionText, 20, 90);
-  fill(brightness);
-  circle(width/2,height/2,50);
-  fill(255);
-  rect(width/4, height-50, distanceRect, 30);
-  text("distance: " + distance, width/4, height-55);
-}
-
-/* incoming osc message are forwarded to the oscEvent method. */
-void oscEvent(OscMessage theOscMessage) {
-  /* print the address pattern and the typetag of the received OscMessage */
-  //print("### received an osc message.");
-  //print(" addrpattern: "+theOscMessage.addrPattern());
-  //println(" typetag: "+theOscMessage.typetag());
-  if(theOscMessage.checkAddrPattern("/distance")){
-    //println("got distance");
-    distance = theOscMessage.get(0).intValue();
-    //println("distance: " + distance);
-    distanceRect = map(distance,0,4000,0,width/2);
+  }else{
+    stopAll();
   }
 }
 
+void readLight() {
+  light = analogRead(A0);
+  Serial.print("light: ");
+  Serial.println(light);
+}
+
+void readDistance() {
+  sensor.read();
+  rawDistance = sensor.ranging_data.range_mm;
+  sensorStatus = sensor.ranging_data.range_status;
+
+  // only save the reading to distance if the status is valid
+  if (sensorStatus == 0 ||sensorStatus == 2 ) {
+    distance = rawDistance;
+  }
+
+  Serial.print(rawDistance);
+  Serial.print(" ");
+  Serial.print(sensorStatus);
+  Serial.print(" ");
+  Serial.print(distance);
+  Serial.println();
+}
 ```
-{{</details>}}
 
----
+{{< /tab >}}
 
-### How to use it?
-
-1. Download or copy the [Arduino code]({{< relref "#arduino-code" >}}) to your Arduino IDE
-2. Change the `ssid`and `password` to the network you want to connect to
+{{< tab "motors.ino" >}}
 
 ```c
-char ssid[] = "mainframe";      // your network SSID (name)
-char pass[] = "12345678";  // your network password (use for WPA, or use as key for WEP)
-```
+void goForward() {
+  leftMotorForward();
+  rightMotorForward();
+}
 
-3. Connect your computer to the same WiFi network. Check the IP address of your computer and write it to the Arduino code in the line that says:
-```c
-// The IP address below is the IP of the device sending the control signal to your robot (computer, phone etc.)
-const char* host = "192.168.50.173";
-```
-4. Upload the Arduino code to your Pico board.
-5. Open the Serial Monitor and write down the IP address that gets printed out. You will need it in the Processing code. 
-6. Open Processing and copy paste the code above to your sketch
-7. Install the oscP5 library. (Sketch --> Import Library --> Manage Libraries --> Search for oscP5)
-8. Paste the IP address from step 5 into the line that says:
-```java
-myRemoteLocation = new NetAddress("192.168.50.213", 12345);
-```
-8. Run the Processing Sketch
-9. Activate the Processing output window by clicking on it. Use the arrow keys on your keyboard to control your robot.
+void goBackward() {
+  leftMotorBackward();
+  rightMotorBackward();
+}
 
----
+void goLeft() {
+  rightMotorForward();
+  leftMotorBackward();
+}
+
+void goRight() {
+  leftMotorForward();
+  rightMotorBackward();
+}
+
+void stopAll() {
+  leftMotorStop();
+  rightMotorStop();
+}
+
+void leftMotorForward() {
+  digitalWrite(ML_C1, HIGH);
+  digitalWrite(ML_C2, LOW);
+}
+
+void leftMotorBackward() {
+  digitalWrite(ML_C1, LOW);
+  digitalWrite(ML_C2, HIGH);
+}
+
+void leftMotorStop() {
+  digitalWrite(ML_C1, LOW);
+  digitalWrite(ML_C2, LOW);
+}
+
+void rightMotorStop() {
+  digitalWrite(MR_C1, LOW);
+  digitalWrite(MR_C2, LOW);
+}
+
+void rightMotorForward() {
+  digitalWrite(MR_C1, HIGH);
+  digitalWrite(MR_C2, LOW);
+}
+
+void rightMotorBackward() {
+  digitalWrite(MR_C1, LOW);
+  digitalWrite(MR_C2, HIGH);
+}
+
+void leftSpeed(int mSpeed) {
+  analogWrite(ML_EN, mSpeed);
+}
+
+void rightSpeed(int mSpeed) {
+  analogWrite(MR_EN, mSpeed);
+}
+```
+{{< /tab >}}
+{{< /tabs >}}
+{{</ details >}}
+
+{{% /tab %}}
+{{< /tabs >}}
