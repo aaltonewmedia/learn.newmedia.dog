@@ -7,16 +7,11 @@ p5js-widget: true
 
 ## Inspiration
 
-{{<vimeo 59829961>}}
-
 {{<vimeo 68115876>}}
 
 {{<vimeo 31789891>}}
 
-- [Peter Vogel](http://vogelexhibition.weebly.com/)
-  - [The Sound of Shadows](https://vimeo.com/59829961)
 - [Ramyah Gowrishankar](https://narrativize.net/about/) and her [Aalto page](https://www.aalto.fi/en/people/ramyah-gowrishankar) and [Master's Thesis](https://www.researchgate.net/publication/301687480_Designing_Fabric_Interactions_A_study_of_knitted_fabrics_as_an_electronic_interface_medium)
-- [Mohit Bhoite](https://www.bhoite.com/sculptures/)
 - [Tim Hunkin](https://www.timhunkin.com/)
   - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
 
@@ -54,9 +49,15 @@ Many sensors are just variable resistors that change their resistance value base
 
 If you connect two resistors in series as in the image below, the voltage read from Vout depends on the ratio of the two resistors. Using a variable resistor instead of a fixed-value one as one of the resistors will create a circuit where the voltage read between the resistors will vary depending on the conditions that change the resistance. For example, using an LDR (light dependent resistor) as R1 allows you to read the change of the light level.
 
-Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or check [this tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/voltage-dividers/all), if you want to learn how to calculate the values.
-
 [![Voltage Divider](/images/tutorials/electronics/voltage-divider.jpg)](/images/tutorials/electronics/voltage-divider.jpg)
+
+Changing either of the resistors R1 or R2 to a variable resistor allows yout to get a variable voltage.
+
+[![Voltage Divider with variable resistor](./img/voltage-regulator-variable.png)](./img/voltage-regulator-variable.png)
+
+Read the [Wikipedia article](https://en.wikipedia.org/wiki/Voltage_divider) or check [this tutorial from Sparkfun](https://learn.sparkfun.com/tutorials/voltage-dividers/all), if you want to learn more about how to calculate the values. We will in general work with the values through practice. However, you can calculate the output voltage with this formula:
+
+[![Voltage Divider Equation](./img/voltage_divider_equation.png)](./img/voltage_divider_equation.png)
 
 #### Light Dependent Resistor
 
@@ -104,10 +105,16 @@ There are many other digital communication protocols that are often used with mo
 
 ---
 
-## Working with analog signals
+## Working with Analog Signals
 
 - [See the Analog Input tutorials.](../../../../tutorials/arduino-and-electronics/arduino/)
 - [See the specific Sensor Tutorials](../../../../tutorials/arduino-and-electronics/sensors/)
+- [analogRead() Arduino reference](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogRead/)
+- [analogReadResolution() Arduino reference](<https://docs.arduino.cc/language-reference/en/functions/analog-io/analogReadResolution/)>)
+
+The `analogRead()` function in Arduino is able to read the input voltage and converts it into a number. This number by default is 0-1023, although with many microcontrollers you [can change the input resolution to be more precise](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogReadResolution/).
+
+[![analogRead](./img/analogRead.jpg)](./img/analogRead.jpg)
 
 ---
 
@@ -129,7 +136,15 @@ One digital output:
 
 - LED connected to pin GP15
 
+Please refer to the Pico pinout diagram to fins the pins that you are able to use:
+
+[![Pico 2W](./img/pico2w-pinout.png)](./img/pico2w-pinout.png)
+
+The schematic view
+
 [![Example Schematic image](./img/example-schematic-pico.png)](./img/example-schematic-pico.png)
+
+On the breadboard
 
 [![Example Breadboard image](./img/example-bb-pico.png)](./img/example-bb-pico.png)
 
