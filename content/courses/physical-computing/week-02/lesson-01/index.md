@@ -12,6 +12,8 @@ p5js-widget: true
 {{<vimeo 31789891>}}
 
 - [Ramyah Gowrishankar](https://narrativize.net/about/) and her [Aalto page](https://www.aalto.fi/en/people/ramyah-gowrishankar) and [Master's Thesis](https://www.researchgate.net/publication/301687480_Designing_Fabric_Interactions_A_study_of_knitted_fabrics_as_an_electronic_interface_medium)
+- [Rafael Lozano-Hemmer](https://www.lozano-hemmer.com/)
+  - [Pulse Room](https://www.lozano-hemmer.com/pulse_room.php)
 - [Tim Hunkin](https://www.timhunkin.com/)
   - [The Secret Life of Machines](https://www.secretlifeofmachines.com/)
 

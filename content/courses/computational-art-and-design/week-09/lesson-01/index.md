@@ -46,11 +46,10 @@ We are going to jump right into reading JSON files, but I have also provided som
 let result;
 let sentence;
 let btn;
-function preload() {
-  result = loadStrings('shalli.txt');
-}
-function setup() {
+
+async function setup() {
 	createCanvas(windowWidth, windowHeight);
+  result = await loadStrings('assets/shalli.txt');
 	background(100);
 	textAlign(CENTER,CENTER);
 	textSize(16);
@@ -59,16 +58,20 @@ function setup() {
 	btn = createButton("Click for a new sentence");
 	btn.mousePressed(pickNew);
 	btn.size(200,50);
-	btn.position(width/2-100,100);
 }
 
 function draw() {
 	background(100);
+	btn.position(width/2-100,100);
 	text(sentence,width/2,height/2);
 }
 
 function pickNew(){
 	sentence = random(result);
+}
+
+function windowResized(){
+    resizeCanvas(windowWidth, windowHeight);
 }
 ```
 
@@ -133,23 +136,26 @@ We could try to parse the data with p5.js in the following way:
 
 ```js
 let person;
-function preload() {
-  person = loadJSON("person.json");
+
+async function setup() {
+    noCanvas();
+    noLoop();
+    // start loading the data, dataLoaded() is called after the file has been loaded
+    person = await loadJSON("assets/person.json", dataLoaded);
 }
-function setup() {
-  noCanvas();
-  noLoop();
 
-  let name = person.firstName + " " + person.lastName;
-  createElement("h2", name);
+function dataLoaded(){
+    console.log(person);
+    let name = person.firstName + " " + person.lastName;
+    createElement("h2", name);
 
-  createElement("p", name + " has the following pets:");
-  let pets = person.pets;
-  let list = createElement("ul");
-  for (let i = 0; i < pets.length; i++) {
-    let p = createElement("li", pets[i].name + ", " + pets[i].animal);
-    list.child(p);
-  }
+    createElement("p", name + " has the following pets:");
+    let pets = person.pets;
+    let list = createElement("ul");
+    for (let i = 0; i < pets.length; i++) {
+        let p = createElement("li", pets[i].name + ", " + pets[i].animal);
+        list.child(p);
+    }
 }
 ```
 
@@ -171,27 +177,27 @@ This example reads data from a json file and creates html elements (headings and
 
 ```js
 let data;
-function preload() {
-  data = loadJSON("data.json");
+
+async function setup() {
+  data = await loadJSON("data.json", dataLoaded);  
+  noCanvas();
 }
 
-function setup() {
-  noCanvas();
-  noLoop();
-  let bg = select("body");
-  bg.style("background-color", "#ffffff");
-
+function dataLoaded(){
+  let bg = select('body');
+  bg.style('background-color', '#ffffff');
   let cards = data.tarot_interpretations;
-  for (let i = 0; i < cards.length; i++) {
-    createElement("h1", cards[i].name);
+  for(let i = 0; i < cards.length; i++){
+    createElement('h2', cards[i].name);
     let fortunes = cards[i].fortune_telling;
-    let list = createElement("ul");
-    for (let j = 0; j < fortunes.length; j++) {
-      let item = createElement("li", fortunes[j]);
+    let list = createElement('ul');
+    for(let j=0; j<fortunes.length; j++){
+      let item = createElement('li', fortunes[j]);
       list.child(item);
     }
   }
 }
+
 ```
 
 ### Pick random tarot cards
@@ -203,12 +209,13 @@ let data;
 let button;
 let resetButton;
 let cards;
-function preload() {
-  data = loadJSON("data.json");
+
+async function setup() {
+  noCanvas();
+  data = await loadJSON("data.json",dataLoaded);
 }
 
-function setup() {
-  noCanvas();
+function dataLoaded(){
   button = createButton("Pick a card");
   button.mousePressed(pickACard);
   resetButton = createButton("Reset");
@@ -220,7 +227,7 @@ function setup() {
 
 function pickACard() {
   let r = floor(random(cards.length));
-  createElement("h1", cards[r].name);
+  createElement("h2", cards[r].name);
   let fortunes = cards[r].fortune_telling;
   let list = createElement("ul");
   for (let j = 0; j < fortunes.length; j++) {

@@ -3,7 +3,11 @@ let person;
 async function setup() {
     noCanvas();
     noLoop();
-    person = await loadJSON("assets/person.json");
+    // start loading the data, dataLoaded() is called after the file has been loaded
+    person = await loadJSON("assets/person.json", dataLoaded);
+}
+
+function dataLoaded(){
     console.log(person);
     let name = person.firstName + " " + person.lastName;
     createElement("h2", name);
