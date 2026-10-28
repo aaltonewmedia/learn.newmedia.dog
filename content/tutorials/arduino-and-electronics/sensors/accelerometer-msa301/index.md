@@ -1,13 +1,18 @@
 ---
-title: Accelerometer | MSA301
+title: Accelerometer | MSA311/MSA301
 bookCollapseSection: false
 p5js-widget: true
 draft: false
 ---
 
+{{<hint info>}}
+Please note! There are two sensors that are supported by the same library: MSA301 and MSA311. Make sure you check which sensor you have and change the name in the code accordingly.
+{{</hint>}}
+
+[![Adafruit MSA311](./images/msa311.jpg)](./images/msa311.jpg)
 [![Adafruit MSA301](./images/msa301.jpg)](./images/msa301.jpg)
 
-The MSA301 is a super small and low cost triple-axis accelerometer. It's inexpensive, but has just about every 'extra' you'd want in an accelerometer:
+The MSA301/MSA311 is a super small and low cost triple-axis accelerometer. It's inexpensive, but has just about every 'extra' you'd want in an accelerometer:
 
 - Three axis sensing, 14-bit resolution
 - ±2g/±4g/±8g/±16g selectable scaling
@@ -16,10 +21,6 @@ The MSA301 is a super small and low cost triple-axis accelerometer. It's inexpen
 - Multiple data rate options from 1 Hz to 500 Hz
 - As low as 2uA current draw in low power mode (just the chip itself, not including any supporting circuitry)
 - Tap, Double-tap, orientation & freefall detection
-
-{{<hint info>}}
-Note that some of you have the newer MSA311 sensor and some of you have the older MSA301. Make sure you select the correct version in the code.
-{{</hint>}}
 
 ## Links and Resources
 
@@ -69,8 +70,8 @@ When you install the library, it will ask if you would like to install other lib
 #include <Adafruit_Sensor.h>
 
 // Comment/Uncomment as needed for specific MSA being used:
-// Adafruit_MSA311 msa;
-Adafruit_MSA301 msa;
+Adafruit_MSA311 msa;
+//Adafruit_MSA301 msa;
 
 float x,y,z;
 

@@ -34,6 +34,10 @@ Benefits of I2C sensors:
 I2C is not just for sensors. There are many other types of devices that use I2C as the communication protocol.
 {{</hint>}}
 
+{{<hint warning>}}
+I2C is quite complex and it might be quite difficult to grasp all the technicalities of it, you are not expected to be able to understand everything about it in this class. For us, it is enough to be able to identify when we need to use it, what are some limitations of the protocol, and how to find relevant libraries for the parts we are using.
+{{</hint>}}
+
 ### Pico I2C Pins
 
 The Pico boards have two I2C ports available that can be configured quite flexibly to different pins on the board. When writing code with the Arduino, the default pins for using I2C are GP4 (SDA) and GP5 (SCL)
@@ -46,7 +50,7 @@ The boards we use have a specific connector for easily working with I2C devices.
 
 Your kit includes six sensors that can be connected using this handy system:
 
-- [Accelerometer | MSA301](../../../../tutorials/arduino-and-electronics/sensors/accelerometer-msa301/)
+- [Accelerometer | MSA311/MSA301](../../../../tutorials/arduino-and-electronics/sensors/accelerometer-msa301/)
 - [Distance Sensor | VL53L1X](../../../../tutorials/arduino-and-electronics/sensors/distance-vl53l1x/)
 - [Temperature and Humidity Sensor | AHT20](../../../../tutorials/arduino-and-electronics/sensors/temperature-and-humidity-aht20/)
 - [Magnetometer | TLV493D](../../../../tutorials/arduino-and-electronics/sensors/magnetometer-tlv493d/)

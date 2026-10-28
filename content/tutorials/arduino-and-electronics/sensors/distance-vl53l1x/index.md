@@ -64,7 +64,7 @@ There are many libraries for this sensor. All of them should work.
 
 ### Using the Pololu library
 
-The Pololu library for VL53L1X is the best one that I have tested. It has been the most reliable ad most of the sensors features are available for configuring through the library.
+The Pololu library for VL53L1X is the best one that I have tested. It has been the most reliable and most of the sensors features are available for configuring through the library.
 
 #### Install
 
