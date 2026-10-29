@@ -36,6 +36,8 @@ I2C is not just for sensors. There are many other types of devices that use I2C 
 
 {{<hint warning>}}
 I2C is quite complex and it might be quite difficult to grasp all the technicalities of it, you are not expected to be able to understand everything about it in this class. For us, it is enough to be able to identify when we need to use it, what are some limitations of the protocol, and how to find relevant libraries for the parts we are using.
+
+Essentially, if your sensor connects to your microcontroller with pis labeled SDA and SCL, you are working with I2C.
 {{</hint>}}
 
 ### Pico I2C Pins

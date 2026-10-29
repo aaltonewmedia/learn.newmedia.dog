@@ -15,7 +15,7 @@ async function setup() {
 
 function draw() {
   background(127);
-  let s = 20;
+  let s = 24;
   let cols = floor(width/s) - 1;
   for(let i=0; i<colors.length; i++){
     let x = s+(i%cols)*s;
