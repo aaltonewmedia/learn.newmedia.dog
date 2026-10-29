@@ -10,6 +10,8 @@ Matti is away for this week to work on this project, so you will be working with
 
 These tutorials will guide you on how to model one part for the robot that we will use the following week. Make sure you do this before the Thursday's class so that you can go print your part in the 3D Print Workshop.
 
+Make sure you have installed Autodesk Fusion if you would loke to follow along.
+
 ## Monday: 3D Printing
 
 ### 15:15–17:00 3D Print Workshop 
@@ -18,7 +20,7 @@ Hector or some of the assistants at [3D Print Workshop](https://www.aalto.fi/en/
 
 If you have some time to already print something, the people in the workshop will probably give you something to print or you can print one of these parts for the Robot we build the following week:
 
-Download the 3D printable file.
+Download the 3D printable file. (This is a very simple part so it shouldn't take too long to print.)
 
 On Thursday, you can print your own customized version of this.
 
