@@ -20,7 +20,7 @@ Hector or some of the assistants at [3D Print Workshop](https://www.aalto.fi/en/
 
 If you have some time to already print something, the people in the workshop will probably give you something to print or you can print one of these parts for the Robot we build the following week:
 
-Download the 3D printable file. (This is a very simple part so it shouldn't take too long to print.)
+[Download the 3D printable file.](./files/roboeyes.stl) (This is a very simple part so it shouldn't take too long to print.)
 
 On Thursday, you can print your own customized version of this.
 
