@@ -12,6 +12,17 @@ These tutorials will guide you on how to model one part for the robot that we wi
 
 Make sure you have installed Autodesk Fusion if you would loke to follow along.
 
+{{<hint danger>}}
+Sorry everyone, it has been very long days at the theatre and I have not managed to create the tutorials. [Please just download and print one of these parts at the workshop.](./files/roboeyes.stl){{</hint>}}
+
+Of course, if you know how to 3D model in CAD, you can create your customized version as well. Important things are that it has mounting holes for our [sensor](https://www.sparkfun.com/sparkfun-distance-sensor-breakout-4-meter-vl53l1x-qwiic.html#content-documentation):
+
+![Image of sensor](./files/image_sensor_dimensions.png)
+
+And other mounting holes for [the robot chassis.](https://www.adafruit.com/product/3796)
+
+![Image of chassis](./files/image_chassis_dimensions.png)
+
 ## Monday: 3D Printing
 
 ### 15:15–17:00 3D Print Workshop 
