@@ -6,10 +6,11 @@ draft: false
 ---
 
 {{<hint info>}}
-- Monday, November 3
+- Monday, November 9
 - Mechatronics Workshop  
 - 15:15–17:00
 {{</hint>}}
+
 
 
 ## Inspiration
@@ -53,10 +54,15 @@ Simple movements can make objects seem very alive.
 
 {{<youtube kV8v2GKC8WA>}}
 
+### LAI Chi-hsia Reverberation — In Tune
+
+I will talk a little about how [this project](https://www.npac-ntt.org/en/program/events/c-laWTMnO5BSH?tapeID=n01rNfm2-) was made.
+
 ## Artists working with robotics, mechanics and kinetic sculptures
 
 - [Daniel Rozin](https://www.smoothware.com/danny/) – [Instagram](https://www.instagram.com/dannyrozin/)
 - [Niklas Roy](http://niklasroy.com/) – Berlin-based artist working a lot with mechanical devices
+- [Zimoun](https://zimoun.net/)
 - [Teija ja Pekka Isorättyä](http://www.isorattya.com/Videos.xhtml) – Finnish artist couple working with robotic installations
 - [Markus Copper](https://kiasma.fi/en/exhibitions/markus-copper/)
 - [Tommi Grönlund & Petteri Nisunen](https://vimeo.com/usergronlundnisunen) – Finnish artists working with kinetic sculptures
@@ -69,12 +75,12 @@ Simple movements can make objects seem very alive.
 - [Eunyoung Park](https://eunyoungpark.co/studio/) – From Aalto Media Lab, her thesis project was [LINKKI](http://eunyoungpark.co/linkki/)
 - Tim Lewis – [Instagram](https://www.instagram.com/timlewis.info/)
 - Behnaz Farahi - [Instagram](https://www.instagram.com/behnazfarahi/) and [Website](https://behnazfarahi.com/)
+- [Yoshino Takayama](https://yoshinotakayama.com/spring)
 
 ## Resources
 
 - [Soft Robots](https://softroboticstoolkit.com/)
 - [Muscle Wire + Paper Electronics](https://technolojie.com/origami-robotics/) by Jie Qi
-- [Design with Movement](https://designwithmovement.aalto.fi/) by Eunyoung Park
 
 ---
 
@@ -115,10 +121,3 @@ This video shows the process.
 - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools)
 - [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering)
 - [Soldering Is Easy: Here's How To Do It (pdf)](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
-
----
-
-## Deliverables
-
-- [See the final project guidelines.](../final-project/)
-- [Your homework for this week](../)
