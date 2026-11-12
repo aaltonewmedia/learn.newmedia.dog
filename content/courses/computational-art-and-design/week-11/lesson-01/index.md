@@ -13,6 +13,16 @@ p5js-widget: true
 
 ---
 
+## Inspiration
+
+{{<youtube dHOd3ifJaJ8>}}
+{{<youtube pLAma-lrJRM>}}
+{{<youtube vW_kZDZ5xIk>}}
+
+- [Kyle McDonald](https://kylemcdonald.net/)
+- [Daito Manabe](https://daito.ws/)
+  - [Rhizomatiks](https://rhizomatiks.com/en/)
+
 ## Machine Learning
 
 Machine learning is a way to make machines do certain tasks without being explicitly programmed to do so.
