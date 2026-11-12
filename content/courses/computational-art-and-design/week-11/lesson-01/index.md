@@ -37,7 +37,7 @@ ml5.js uses the Tensorflow library by Google. ml5.js is a library that attempts 
 
 - [Tensorflow](https://www.tensorflow.org/)
 - [ml5.js](https://ml5js.org/)
-- [Getting Started](https://learn.ml5js.org/#/)
+- [Getting Started](https://docs.ml5js.org/#/)
 - [Coding Train tutorial on ml5.js](https://thecodingtrain.com/tracks/ml5js-beginners-guide)
 - [Teachable Machine](https://teachablemachine.withgoogle.com/)
 
@@ -99,20 +99,16 @@ let poses = [];
 let noseEmoji = "👃🏻";
 let eyeEmoji = "👁️";
 
-function preload() {
-  // Load the bodyPose model
-  bodyPose = ml5.bodyPose("MoveNet", {flipped: true});
-}
-
 // Callback function for when bodyPose outputs data
 function gotPoses(results) {
   // Save the output to the poses variable
   poses = results;
 }
 
-function setup() {
+async function setup() {
   // the default size for video input is 640x480
   createCanvas(640, 480);
+  bodyPose = await ml5.bodyPose("MoveNet", {flipped: true});
 
   // Create the video and hide it
   // the video is mirrored
