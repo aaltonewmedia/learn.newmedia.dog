@@ -1,5 +1,5 @@
 ---
-title: "FRI | TBC"
+title: "FRI | Project Work"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
@@ -11,3 +11,6 @@ p5js-widget: true
 - Room 3430, Experimental Studio 1 (Marsio)
 {{</hint>}}
 
+---
+
+Work on your project during class time. Matti is there for tutoring and help
