@@ -13,4 +13,10 @@ p5js-widget: true
 
 ---
 
-Work on your project during class time. Matti is there for tutoring and help
+Work on your project during class time. Matti is there for tutoring and help.
+
+If there is interest we can do a some tutorials on a topic that seems interesting. Some options:
+
+- FFT Sound analysis
+- 3D in p5.js
+- using other libraries (like p5.brush)
