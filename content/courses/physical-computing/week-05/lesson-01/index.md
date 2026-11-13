@@ -1,5 +1,5 @@
 ---
-title: "Project Proposals | USB Communication (serial, keyboard, mouse, MIDI)"
+title: "USB Communication (serial, keyboard, mouse, MIDI)"
 bookCollapseSection: false
 weight: 20
 p5js-widget: true
