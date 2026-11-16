@@ -38,8 +38,8 @@ Upload the following code to your board. It reads the two sensor data and prints
 #include <Adafruit_Sensor.h>
 
 // Comment/Uncomment as needed for specific MSA being used:
-// Adafruit_MSA311 msa;
-Adafruit_MSA301 msa;
+Adafruit_MSA311 msa;
+//Adafruit_MSA301 msa;
 
 float x,y,z;
 
@@ -117,14 +117,16 @@ function draw() {
   
   if(port.available()>0){
     let str = port.readUntil("\n");
-    //console.log(str);
-    let splitData = split(str, ',');
-    x = splitData[0];
-    y = splitData[1];
-    z = splitData[2];
-    port.clear();
-    circleX = map(x,-2000,2000,0,width);
-    circleY = map(y,-2000,2000,0,height);
+    if(str != null){
+      //console.log(str);
+      let splitData = split(str, ',');
+      x = splitData[0];
+      y = splitData[1];
+      z = splitData[2];
+      port.clear();
+      circleX = map(x,-2000,2000,0,width);
+      circleY = map(y,-2000,2000,0,height);
+    }
   }
   
   fill(255);
