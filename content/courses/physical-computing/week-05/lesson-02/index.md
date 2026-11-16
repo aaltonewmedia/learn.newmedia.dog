@@ -3,7 +3,7 @@ title: "Wireless: WiFi, OSC"
 bookCollapseSection: false
 weight: 30
 p5js-widget: true
-draft: false
+draft: true
 ---
 
 ## Serial

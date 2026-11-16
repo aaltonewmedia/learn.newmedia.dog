@@ -3,6 +3,7 @@ title: "Setting up for this week"
 bookCollapseSection: false
 weight: 10
 p5js-widget: true
+draft: true
 ---
 
 The Monday class will be spent on setting up libraries and other things for the rest of the week. You will also have time to prepare the project proposal.
