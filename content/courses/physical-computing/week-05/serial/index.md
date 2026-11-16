@@ -20,16 +20,11 @@ You can also use serial communication with other software on your computer.
 
 ### Circuit
 
-- Light sensor connected to pin A0
-- The VL53L1X distance sensor connected to the I2C bus using the Qwiic connector
-
-{{<hint info>}}
-We have this done with our robot we built last week so just keep that connected.
-{{</hint>}}
+- The MSA311 accelerometer connected to your Pico using the Qwiic connector
 
 ### Arduino Code
 
-Upload the following code to your board. It reads the two sensor data and prints out the data on one line with the values separated by a comma.
+Upload the following code to your board. It reads the sensor data and prints out the data on one line with the values separated by a comma.
 
 ```c
 // add all necessary libraries
