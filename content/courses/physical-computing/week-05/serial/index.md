@@ -101,6 +101,8 @@ let s=10;
 let circleX=0;
 let circleY=0;
 
+let cX=0, cY=0;
+
 function setup() {
   createCanvas(400, 400);
   port = createSerial();
@@ -114,13 +116,22 @@ function draw() {
     let str = port.readUntil("\n");
     if(str != null){
       //console.log(str);
-      let splitData = split(str, ',');
-      x = splitData[0];
-      y = splitData[1];
-      z = splitData[2];
+      let splitData = splitTokens(str, ',');
+      x = float(splitData[0]);
+      y = float(splitData[1]);
+      z = float(splitData[2]);
       port.clear();
-      circleX = map(x,-2000,2000,0,width);
-      circleY = map(y,-2000,2000,0,height);
+      
+      // sometimes we gat a NaN (Not a Number) value
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+      // this if statement ignores those values
+      if(!isNaN(x) && !isNaN(y)){
+        circleX = map(x,-2000,2000,0,width);
+        circleY = map(y,-2000,2000,0,height);
+        console.log(cX, cY);
+        cX = lerp(cX,circleX,0.3);
+        cY = lerp(cY,circleY,0.3);
+      }
     }
   }
   
@@ -129,7 +140,7 @@ function draw() {
   text("y: " + y,20,40);
   text("z: " + z,20,60);
   //fill(c);
-  circle(circleX, circleY, 100);
+  circle(cX, cY, 100);
 }
 
 function mousePressed(){

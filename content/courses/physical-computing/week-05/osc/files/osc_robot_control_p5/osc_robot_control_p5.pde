@@ -22,7 +22,7 @@ void setup() {
    * oscP5.send() when sending osc packets to another computer, device,
    * application.
    */
-  myRemoteLocation = new NetAddress("192.168.50.213", 12345);
+  myRemoteLocation = new NetAddress("192.168.0.226", 12345);
 }
 
 

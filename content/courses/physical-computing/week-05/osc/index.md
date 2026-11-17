@@ -16,6 +16,15 @@ draft: false
 I like to think of OSC as the duct tape of new media. Quite often, we have to deal with connecting hardware and software together in unexpected ways. OSC makes this possible.
 {{</hint>}}
 
+### Useful Helper Apps
+
+- [Protokol](https://hexler.net/protokol) Software for monitoring OSC and MIDI messages
+- [TDLidar](https://tdlidar.github.io/) App for iOS devices to send all sorts of sensor information from your phone
+- [ZIG SIM](https://1-10.github.io/ZIGSIM_docs/). Similar app for your phone for sending data as OSC
+  - [Android](https://play.google.com/store/apps/details?id=com.onetoten.app.zig_sim&hl=en&pli=1)
+  - [iOS](https://apps.apple.com/us/app/zig-sim/id1112909974)
+
+
 ### Anatomy of OSC Messages
 
 OSC messages are sent over a network so you must define where you want to send your message. You must define the following things:
@@ -115,12 +124,12 @@ int M2_C2 = 7;
 int speed = 200;
 
 // WiFi stuff
-const char* ssid = "mainframe";
+const char* ssid = "Mechatronics";
 const char* pwd = "12345678";
 
 // for ArduinoOSC
 // The IP address below is the IP of the device sending the control signal to your robot (computer, phone etc.)
-const char* host = "192.168.50.173";
+const char* host = "192.168.0.95";
 // port for receiving data
 const int recv_port = 12345;
 // port for sending
@@ -136,6 +145,7 @@ void setup() {
   pinMode(M1_C2, OUTPUT);
   pinMode(M2_C1, OUTPUT);
   pinMode(M2_C2, OUTPUT);
+  pinMode(LED_BUILTIN,OUTPUT);
 
   // make sure that the motors are stopped in the beginning
   stopAll();
@@ -296,6 +306,7 @@ void motorTwoStop() {
   analogWrite(M2_C1, 0);
   analogWrite(M2_C2, 0);
 }
+
 ```
 {{</details>}}
 
@@ -334,7 +345,7 @@ void setup() {
    * oscP5.send() when sending osc packets to another computer, device,
    * application.
    */
-  myRemoteLocation = new NetAddress("192.168.50.213", 12345);
+  myRemoteLocation = new NetAddress("192.168.0.226", 12345);
 }
 
 
@@ -396,6 +407,7 @@ void oscEvent(OscMessage theOscMessage) {
   }
 }
 
+
 ```
 {{</details>}}
 
@@ -407,7 +419,7 @@ void oscEvent(OscMessage theOscMessage) {
 2. Change the `ssid`and `password` to the network you want to connect to
 
 ```c
-char ssid[] = "mainframe";      // your network SSID (name)
+char ssid[] = "Mechatronics";      // your network SSID (name)
 char pass[] = "12345678";  // your network password (use for WPA, or use as key for WEP)
 ```
 
