@@ -1,5 +1,5 @@
 ---
-title: "Soldering Project
+title: "Soldering Project"
 bookCollapseSection: false
 weight: 90
 p5js-widget: true
