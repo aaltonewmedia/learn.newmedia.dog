@@ -19,7 +19,7 @@ ESP-NOW is a wireless communication protocol that is specifically used with the 
 
 ### Simple Sender-Receiver
 
-The basic operation with ESP-NOW is that you set a specific receiver MAC addreess where you send the messages. This example demonstrates that. You can have a maximum of 20 boards paired together.
+The basic operation with ESP-NOW is that you set a specific receiver MAC address where you send the messages. This example demonstrates that. You can have a maximum of 20 boards paired together.
 
 {{<hint info>}}
 First upload the Receiver Code and note down the MAC address of that board, you will need it for your Sender board.
